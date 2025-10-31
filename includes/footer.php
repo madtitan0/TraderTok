@@ -1,4 +1,4 @@
-<b  style="border:4px solid #3279fc; width:100%; display:block;"></b>
+<b  style="border:4px solid #3279fc; width:100%; display:block; overflow: hidden;"></b>
 <footer id="footer" class="footer" >
 
     <div class="footer-content">
@@ -54,6 +54,34 @@
 
             </div>
             <hr>
+                        <!-- <div style="color:<?=$get->footer_text_color?>; font-size:13px; line-height:1.5; margin-bottom:10px; text-align: center">
+                            © 2025 Amber Rock Trade Ltd, registered at Level 5, Alexander House, 
+                            35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594.<br>
+                            This website is operated by Amber Rock Trade Ltd.<br>
+                            Payment processing is handled by our authorized payment agent B-tech Ltd,
+                            registered in Cyprus, Company No: HE 414065.
+                        </div> -->
+
+                        <div class="row">
+  <div class="col-12">
+    <div style="color:<?=$get->footer_text_color?>; font-size:13px; line-height:1.5; padding-bottom:10px; text-align:center;">
+      © 2025 Amber Rock Trade Ltd, registered at Level 5, Alexander House, 
+      35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594.<br>
+      This website is operated by Amber Rock Trade Ltd.<br>
+      Payment processing is handled by our authorized payment agent B-tech Ltd,
+      registered in Cyprus, Company No: HE 414065.
+    </div>
+
+    <div style="color: white !important; font-size:13px;  padding-bottom:10px; text-align:center;">
+      <b>Risk Warning:</b> Trading derivative financial products with TraderTok <br/>involves a high level of risk
+      and may not be suitable for all investors. You could lose all your invested <br/>capital and should
+      only trade with funds you can afford to lose. Before opening any position, ensure you
+      understand the risks, your investment objectives, <br/>and your level of experience. Please
+      consult our full Risk Disclosure Statement for more information.
+    </div>
+  </div>
+</div>
+
             <div class="row">
                 <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
                     <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
@@ -61,12 +89,13 @@
                 <?= isset($get->instagram_url) ? '<a href="' . $get->instagram_url . '" target="_blank" class="footer-link"><i class="bi bi-instagram"></i></a>' : null ?>
                 <?= isset($get->twitter_url) ? '<a href="' . $get->twitter_url . '" target="_blank" class="footer-link"><i class="bi bi-twitter"></i></a>' : null ?>
                     </div>
-                    <div class="d-flex flex-column align-items-center align-items-lg-start">
+                    <!-- <div class="d-flex flex-column align-items-center align-items-lg-start">
                         <div class="copyright" style="color:<?=$get->footer_text_color?>">
                             &copy; Copyright <strong><span><?= $get->title ?></span></strong>. All Rights Reserved
                         </div>
 
-                    </div>
+                    </div> -->
+
                 </div>
             </div>
         </div>

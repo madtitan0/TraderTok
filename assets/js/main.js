@@ -224,12 +224,12 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Sticky header on scroll
    */
-  const selectHeader = document.querySelector('#header');
-  if (selectHeader) {
-    document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
-    });
-  }
+  // const selectHeader = document.querySelector('#header');
+  // if (selectHeader) {
+  //   document.addEventListener('scroll', () => {
+  //     window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+  //   });
+  // }
 
   /**
    * Navbar links active state on scroll
@@ -264,8 +264,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectHeader = document.querySelector('#header');
     let offset = 0;
 
-    if (selectHeader.classList.contains('sticked')) {
-      offset = document.querySelector('#header.sticked').offsetHeight;
+    if (selectHeader.classList.contains('sticked1')) {
+      offset = document.querySelector('#header.sticked1').offsetHeight;
     } else if (selectHeader.hasAttribute('data-scrollto-offset')) {
       offset = selectHeader.offsetHeight - parseInt(selectHeader.getAttribute('data-scrollto-offset'));
     }

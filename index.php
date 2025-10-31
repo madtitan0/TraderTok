@@ -12,7 +12,15 @@ if (!$page) {
 
             require("includes/contact-us.php");
 
-        }else if($page == 'otherPage'){
+        } elseif ($page == 'instruments'){
+      require("includes/instruments.php");
+        } elseif ($page == 'trading-platforms'){
+      require("includes/trading-platform.php");
+        } elseif ($page == 'legal'){
+      require("includes/legal.php");
+        } elseif ($page == 'events-calendar'){
+      require("includes/events-calendar.php");
+        } else if($page == 'otherPage'){
            
             foreach ($get->other_page as $pageOther) {
                 if ($pageOther->url == $getURL) {
@@ -22,10 +30,21 @@ if (!$page) {
  
             require("includes/otherPage.php");
 
+        }  elseif ($page == 'extraMenu') {
+        foreach ($get->extra_menu as $extraMenu) {
+            if ($extraMenu->id == $_GET["id"]) {
+                $menuDetail = $extraMenu;
+            }
         }
-        else if ($page == 'documents'){
+        require("includes/extraMenuPage.php");
+    } else if ($page == 'documents'){
 
             require("includes/document.php");
+        }
+                else if($page=='about')
+        {
+           
+            require("includes/about.php");
         }
         else if($page=='blog')
         {

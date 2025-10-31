@@ -15,28 +15,23 @@
     <?= $theme->css_files ?>
     <?= $get->head_code ?>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<!-- <header id="header" class="header fixed-top " data-scrollto-offset="0" style="background-color:;"> -->
 <header id="header" class="header fixed-top" data-scrollto-offset="0"
-    style="<?= !$page ? '' : 'background-color: #00ace7;' ?>">
+     style="<?= !$page ? '' : 'background-color: #0A1F44; !important ' ?>">
 
 
-<div class="container d-flex align-items-center justify-content-between" >
+<div class="container d-flex align-items-center justify-content-between" style="max-width: 1600px !important;, width: 100%;">
 
-    <a href="./" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
+    <a href="./" class="logo d-flex align-items-center scrollto">
 
-        <!-- <img src="./assets/img/NewTemp/icon/logo.svg" alt="" style="height:30px"> -->
         <img src="<?= $get->assets_url.'/'.$get->logo ?>" alt="" style="max-height:100px">
-        <!-- <h1>HeroBiz<span>.</span></h1> -->
     </a>
 
     <nav id="navbar" class="navbar navbar2" >
         <ul>
-        <li class="nav-item navi-text" >
-            <a class="nav-link   navi-text  px-2" href="./" > Home</a> 
-        </li>
+
         <?php
                     foreach ($menus as $menu) {
                         echo '
@@ -44,11 +39,11 @@
                             <a class="nav-link   navi-text  px-2 ' . (count($menu->children) > 0 ? 'dropdown-toggle' : null) . '   " href="' . ($menu->url ? './' . $menu->url : 'javascript:void(0)') . '">' . $menu->title . '</a>
                         ';
                         if ($menu->children) {
-                            echo '<ul class="dropdown-menu " style="padding: 0">';
+                            echo '<ul class="dropdown-menu " style="padding: 0; color: #ffffff !important;">';
                             foreach ($menu->children as $children) {
                                 echo '
                                 <li>
-                                    <a class="dropdown-item" href="./' . $children->url . '">' . $children->title . '</a>
+                                    <a class="dropdown-item" style="color: #ffffff !important;" href="./' . $children->url . '">' . $children->title . '</a>
                                 </li>
                                 ';
                             }
@@ -59,19 +54,28 @@
                     ?>
                 <?php
                     if(!$get->blog == null){
-                   echo  '<li class="nav-item navi-text " ><a class="nav-link   navi-text  px-2" href="./blog" >Blog</a></li>' ;
+                   echo  '<li class="nav-item navi-text " ><a style="font-size: 14px !important;" class="nav-link   navi-text  px-2" href="./blog" >Blog</a></li>' ;
                    } ?>
         <li class="nav-item navi-text" >
-            <a class="nav-link   navi-text  px-2" href="./contact-us" > Contact Us</a> 
+            <a style="font-size: 16px !important;" class="nav-link   navi-text  px-6" href="./contact-us" > Contact Us</a> 
         </li>
 
             
         </ul>
-        <?php foreach ($extra_menus as $extra_top) { ?>
+        <!-- <?php foreach ($extra_menus as $extra_top) { ?>
                                 <?php if($extra_top->status  && $extra_top->show  && $extra_top->location === 'top') { ?>
                                 <a href="<?= $extra_top->url ?>" class="p-2" style="background-color:<?= $extra_top->bg_color ?>; color:<?= $extra_top->text_color  ?> !important ; margin-right:7px !important; border-radius:0.25rem"> <?=$extra_top->title ?></a>
                                 <?php } ?>
+        <?php } ?> -->
+
+                <div class="extra-buttons">
+        <?php foreach ($extra_menus as $extra_top) { ?>
+                                <?php if($extra_top->status  && $extra_top->show  && $extra_top->location === 'top') { ?>
+                                     <a href="<?= $extra_top->url ?>" class="p-2 btn" style=""> <?=$extra_top->title ?></a>
+                                <!-- <a href="<?= $extra_top->url ?>" class="p-2 btn" style="background-color:<?= $extra_top->bg_color ?>; color:<?= $extra_top->text_color  ?> !important ; margin-right:7px !important; border-radius:0.25rem"> <?=$extra_top->title ?></a> -->
+                                <?php } ?>
         <?php } ?>
+        </div>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
 
 
@@ -80,3 +84,6 @@
 </div>
 
 </header>
+
+
+

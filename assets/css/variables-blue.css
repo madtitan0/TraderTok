@@ -14,12 +14,12 @@
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
-  --color-links: #3279fc;
+  --color-links: #0D1B2A;
   --color-links-hover: #4797ff;
 
   /* Primay colors */
   --color-primary: red;
-  --color-primary-light: #50b7eafb;
+  --color-primary-light: #0D1B2A;
   --color-primary-dark: #05a1ef;
 
   --color-primary-rgb: 50, 121, 252;

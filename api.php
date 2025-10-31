@@ -17,16 +17,50 @@ if(isset($api->status) =='error'){
 }
 $get = $api[0];
 // die();
+// function makeMenu($orig_tree)
+// {
+//     $parent_set = [];
+//     $result = [];
+//     foreach ($orig_tree as $node) {
+//         $node->children = [];
+//         if ($node->parent_id == 0) {
+//             $result[] = $node;
+//             $parent_set[$node->id] = &$result[count($result) - 1];
+//         } else {
+//             $parent = &$parent_set[$node->parent_id];
+//             $parent->children[] = $node;
+//             $parent_set[$node->id] = &$parent->children[count($parent->children) - 1];
+//         }
+//     }
+
+//     return $result;
+// }
+
 function makeMenu($orig_tree)
 {
     $parent_set = [];
     $result = [];
+
     foreach ($orig_tree as $node) {
         $node->children = [];
+
         if ($node->parent_id == 0) {
+            // Top-level menu
             $result[] = $node;
             $parent_set[$node->id] = &$result[count($result) - 1];
         } else {
+            // If parent does not exist yet, create a placeholder
+            if (!isset($parent_set[$node->parent_id])) {
+                $placeholder = (object)[
+                    'id' => $node->parent_id,
+                    'parent_id' => 0,
+                    'title' => 'Placeholder',
+                    'children' => []
+                ];
+                $result[] = $placeholder;
+                $parent_set[$node->parent_id] = &$result[count($result) - 1];
+            }
+
             $parent = &$parent_set[$node->parent_id];
             $parent->children[] = $node;
             $parent_set[$node->id] = &$parent->children[count($parent->children) - 1];
@@ -35,6 +69,7 @@ function makeMenu($orig_tree)
 
     return $result;
 }
+
 
 $menus = makeMenu($get->menus);
 $theme = $get->theme;
