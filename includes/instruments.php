@@ -1,618 +1,93 @@
-
-<!-- Hero Section with Parallax Effect -->
-<section class="page-hero" style="
-    background: url('./assets/img/NewTemp/bull.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-">
-    <!-- Dynamic Gradient Overlay -->
-    <div style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        /* background: linear-gradient(135deg, rgba(30, 77, 130, 0.92) 0%, rgba(230, 26, 56, 0.90) 50%,  rgba(211, 146, 102, 0.88) 100%); */
-        /* background: linear-gradient(
-  135deg,
-  rgba(30, 77, 130, 0.92) 0%, 
-  rgba(217, 149, 102, 0.94) 50%, 
-  rgba(211, 146, 102, 0.88) 100%
-); */
-background: linear-gradient(
-  135deg,
-  rgba(30, 77, 130, 0.75) 0%, 
-  rgba(217, 149, 102, 0.65) 50%, 
-  rgba(211, 146, 102, 0.55) 100%
-);
-
-
-        background-size: 200% 200%;
-        animation: gradientFlow 5s ease infinite;
-    "></div>
-    
-    <!-- Floating Orbs -->
-    <div style="
-        position: absolute;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(255, 140, 0, 0.3), transparent);
-        border-radius: 50%;
-        top: -100px;
-        right: -100px;
-        animation: float 20s ease-in-out infinite;
-    "></div>
-    
-    <div style="
-        position: absolute;
-        width: 300px;
-        height: 300px;
-        background: radial-gradient(circle, rgba(211, 146, 102, 0.25), transparent);
-        border-radius: 50%;
-        bottom: -80px;
-        left: -80px;
-        animation: float 15s ease-in-out infinite reverse;
-    "></div>
-    
-    
-    <div class="container" style="position: relative; z-index: 3;">
-        <div style="opacity: 0; animation: fadeInUp 1s ease forwards; animation-delay: 0.2s;">
-            <h1 style="
-                color: white;
-                font-size: clamp(36px, 6vw, 68px);
-                font-weight: 800;
-                text-shadow: 0 10px 30px rgba(0,0,0,0.3);
-                margin: 0 0 20px 0;
-                letter-spacing: -1px;
-                line-height: 1.1;
-            ">
-                INSTRUMENTS
-            </h1>
-            
-            <!-- Modern Accent Line -->
-            <div style="
-                height: 3px;
-                width: 100px;
-                background: linear-gradient(90deg, transparent, #e61a38, #d39266, transparent);
-                margin: 0 auto;
-                border-radius: 3px;
-                box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
-            "></div>
-        </div>
-    </div>
-    
-    <!-- Scroll Indicator -->
-    <div style="
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 3;
-        opacity: 0;
-        animation: fadeIn 1s ease forwards 1.5s;
-    ">
-        <div style="
-            width: 30px;
-            height: 40px;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            border-radius: 20px;
-            position: relative;
-        ">
-            <div style="
-                width: 6px;
-                height: 10px;
-                background: white;
-                border-radius: 3px;
-                position: absolute;
-                top: 8px;
-                left: 50%;
-                transform: translateX(-50%);
-                animation: scrollDown 2s ease infinite;
-            "></div>
-        </div>
-    </div>
-</section>
-
-<section style="
-    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
-    padding: 120px 0;
-    min-height: 70vh;
-    position: relative;
-">
-    <!-- Background Texture -->
-    <div style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0.03;
-        background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231E4D82\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
-        pointer-events: none;
-    "></div>
-<div>
-<!-- Heading and short note -->
-<div style="
-    text-align: center;
-    padding: 40px 20px 20px 20px;
-    
-">
-    <h1 style="
-        font-size: 42px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #000000;
-    ">
-        Explore Our Trading Instruments
-    </h1>
-    <p style="
-        font-size: 20px;
-        color: #000000;
-        max-width: 800px;
-        margin: 0 auto;
-        line-height: 1.6;
-    ">
-        At TraderTok, we offer an extensive range of trading instruments tailored to meet the needs of every kind of trader—whether you're just starting out or managing a sophisticated portfolio.
-    </p>
-</div>
-
-<!-- Detailed description -->
-<div style="
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #000000 s;
-">
-    <p>
-        With access to global markets and deep liquidity, our platform empowers you to explore opportunities across a broad spectrum of asset classes, all in one place. We believe that choice is power, which is why we continuously expand our list of instruments to match the pace of the ever-evolving financial landscape. Whether you're seeking short-term volatility or long-term value, you'll find the tools you need with us.
-    </p>
-    <p>
-        Our goal is simple: to provide you with the tools, assets, and support you need to seize market opportunities 24/5. Backed by advanced trading technology and real-time market insights, we ensure that you’re always a step ahead.
-    </p>
-    <p>
-        As a fully regulated trading firm, we operate with full transparency and integrity, adhering to strict compliance standards that safeguard our clients' interests. You can trade confidently knowing your funds are protected and your transactions are secure.
-    </p>
-</div>
-
-<section style=" padding:50px 20px;">
-
-  <!-- Forex -->
-  <!-- <div style="    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;">
-    <div style="        flex: 1 1 400px;
-        text-align: center;"><img style="            width: 100%;
-            max-width: 450px;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);" src="./assets/img/NewTemp/instrument1.png" />
-    <div style="        flex: 1 1 500px;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #000000;">
-      <h3 style="background:#00ace7; color:white; padding:10px 15px; border-radius:6px; font-size:24px; margin-bottom:15px;">Forex</h3>
-      <p style="font-size:16px; line-height:1.6; color:#333;">
-        The foreign exchange market is the most liquid market in the world, offering around-the-clock access and tight spreads. Our forex offerings cover all major pairs, minors, and a wide selection of exotics, providing opportunities for both day traders and long-term strategists. With low latency execution and high leverage options, our platform allows you to act quickly in a fast-moving market. Whether you're capitalizing on macroeconomic trends or short-term fluctuations, forex gives you the flexibility and scalability to execute your strategies effectively.
-      </p>
-    </div>
-  </div>
-
-  Commodities
-  <div style="display:flex; flex-wrap:wrap; align-items:center; max-width:1200px; margin:0 auto 40px auto; background:#eef4f7; border-radius:12px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    <div style="flex:1; min-width:280px; padding-left: 10px;"><img style="width: 100%; height:250px; object-fit:contain; border-radius: 12px;" src="./assets/img/NewTemp/instrument2.png"/>
-    <div style="flex:1; min-width:280px; padding:20px;">
-      <h3 style="background:#181738; color:white; padding:10px 15px; border-radius:6px; font-size:24px; margin-bottom:15px;">Commodities</h3>
-      <p style="font-size:16px; line-height:1.6; color:#333;">
-        Commodities like gold, oil, and silver offer traders a hedge against inflation and market volatility. These assets often behave independently of stocks and currencies, making them excellent tools for diversification. Our commodity instruments are traded with competitive pricing and fast execution, allowing you to tap into global supply and demand shifts with confidence. From geopolitical tensions to seasonal trends, commodity markets present unique opportunities for traders looking to benefit from real-world events.
-      </p>
-    </div>
-  </div> -->
-
-  <!-- Forex Section -->
-<div style="
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-">
-
-  <!-- Left: Image -->
-  <div style="flex: 1 1 400px; text-align: center;">
-    <img src="./assets/img/NewTemp/instrument1.png" alt="Forex" style="
-      width: 100%;
-      max-width: 450px;
-      height: auto;
-      border-radius: 15px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    "/>
-  </div>
-
-  <!-- Right: Text -->
-  <div style="flex: 1 1 500px; font-size: 18px; line-height: 1.6; color: #000;">
-    <h3 style="
-      background: #00ace7;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 6px;
-      font-size: 24px;
-      margin-bottom: 15px;
-      display: inline-block;
-    ">Forex</h3>
-    <p style="font-size: 16px; color: #333;">
-      The foreign exchange market is the most liquid market in the world, offering around-the-clock access and tight spreads. Our forex offerings cover all major pairs, minors, and a wide selection of exotics, providing opportunities for both day traders and long-term strategists. With low latency execution and high leverage options, our platform allows you to act quickly in a fast-moving market. Whether you're capitalizing on macroeconomic trends or short-term fluctuations, forex gives you the flexibility and scalability to execute your strategies effectively.
-    </p>
-  </div>
-</div>
-
-<!-- Commodities Section -->
-<div style="
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap-reverse; /* image on right, text on left */
-  max-width: 1200px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px;
-  background: #eef4f7;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-">
-
-  <!-- Left: Text -->
-  <div style="flex: 1 1 500px; font-size: 18px; line-height: 1.6; color: #000;">
-    <h3 style="
-      background: #181738;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 6px;
-      font-size: 24px;
-      margin-bottom: 15px;
-      display: inline-block;
-    ">Commodities</h3>
-    <p style="font-size: 16px; color: #333;">
-      Commodities like gold, oil, and silver offer traders a hedge against inflation and market volatility. These assets often behave independently of stocks and currencies, making them excellent tools for diversification. Our commodity instruments are traded with competitive pricing and fast execution, allowing you to tap into global supply and demand shifts with confidence. From geopolitical tensions to seasonal trends, commodity markets present unique opportunities for traders looking to benefit from real-world events.
-    </p>
-  </div>
-
-  <!-- Right: Image -->
-  <div style="flex: 1 1 400px; text-align: center;">
-    <img src="./assets/img/NewTemp/instrument2.png" alt="Commodities" style="
-      width: 100%;
-      max-width: 450px;
-      height: auto;
-      border-radius: 12px;
-      object-fit: contain;
-    "/>
-  </div>
-</div>
-
-
-  <!-- Stocks -->
-  <!-- <div style="display:flex; flex-wrap:wrap; align-items:center; max-width:1200px; margin:0 auto 40px auto; background:white; border-radius:12px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    <div style="flex:1; min-width:280px; padding-left: 10px;"><img style="width: 100%; height:250px; object-fit:contain; border-radius: 12px;" src="./assets/img/NewTemp/instrument3.png" />
-    <div style="flex:1; min-width:280px; padding:20px;">
-      <h3 style="background:#00ace7; color:white; padding:10px 15px; border-radius:6px; font-size:24px; margin-bottom:15px;">Stocks</h3>
-      <p style="font-size:16px; line-height:1.6; color:#333;">
-        Trade shares of top-performing companies from leading global exchanges. Our stock instruments allow you to speculate on price movements without owning the underlying asset, giving you the flexibility to go long or short. Enjoy access to major sectors like tech, healthcare, energy, and more empowering you to build strategies based on corporate performance and market momentum. Whether you’re reacting to earnings reports or shifting investor sentiment, our stock trading environment is built for precision and speed.
-      </p>
-    </div>
-  </div>
-
-  Indices
-  <div style="display:flex; flex-wrap:wrap; align-items:center; max-width:1200px; margin:0 auto 40px auto; background:#eef4f7; border-radius:12px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    <div style="flex:1; min-width:280px; padding-left: 10px;"><img style="width: 100%; height:250px; object-fit:contain; border-radius: 12px;" src="./assets/img/NewTemp/instrument4.png" />
-      <h3 style="background:#181738; color:white; padding:10px 15px; border-radius:6px; font-size:24px; margin-bottom:15px;">Indices</h3>
-      <p style="font-size:16px; line-height:1.6; color:#333;">
-        Indices represent the performance of a group of stocks, making them a powerful way to gain broad market exposure. Whether you're trading the S&amp;P 500, NASDAQ, FTSE, or other major indices, our platform provides efficient access with low latency and advanced charting tools. Indices are ideal for traders seeking to take positions on broader economic trends rather than individual companies. With enhanced liquidity and predictable trading hours, they offer a balanced approach to navigating the ups and downs of global markets.
-      </p>
-    </div>
-  </div> -->
-
-  <!-- Stocks Section -->
-<div style="
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px;
-  background: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-">
-
-  <!-- Left: Image -->
-  <div style="flex: 1 1 400px; text-align: center;">
-    <img src="./assets/img/NewTemp/instrument3.png" alt="Stocks" style="
-      width: 100%;
-      max-width: 450px;
-      height: auto;
-      border-radius: 12px;
-      object-fit: contain;
-    "/>
-  </div>
-
-  <!-- Right: Text -->
-  <div style="flex: 1 1 500px; padding: 20px; font-size: 18px; line-height: 1.6; color: #000;">
-    <h3 style="
-      background: #00ace7;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 6px;
-      font-size: 24px;
-      margin-bottom: 15px;
-      display: inline-block;
-    ">Stocks</h3>
-    <p style="font-size: 16px; color: #333;">
-      Trade shares of top-performing companies from leading global exchanges. Our stock instruments allow you to speculate on price movements without owning the underlying asset, giving you the flexibility to go long or short. Enjoy access to major sectors like tech, healthcare, energy, and more—empowering you to build strategies based on corporate performance and market momentum. Whether you’re reacting to earnings reports or shifting investor sentiment, our stock trading environment is built for precision and speed.
-    </p>
-  </div>
-</div>
-
-<!-- Indices Section -->
-<div style="
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap-reverse; /* swaps order on desktop */
-  max-width: 1200px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px;
-  background: #eef4f7;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-">
-
-  <!-- Left: Text -->
-  <div style="flex: 1 1 500px; padding: 20px; font-size: 18px; line-height: 1.6; color: #000;">
-    <h3 style="
-      background: #181738;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 6px;
-      font-size: 24px;
-      margin-bottom: 15px;
-      display: inline-block;
-    ">Indices</h3>
-    <p style="font-size: 16px; color: #333;">
-      Indices represent the performance of a group of stocks, making them a powerful way to gain broad market exposure. Whether you're trading the S&amp;P 500, NASDAQ, FTSE, or other major indices, our platform provides efficient access with low latency and advanced charting tools. Indices are ideal for traders seeking to take positions on broader economic trends rather than individual companies. With enhanced liquidity and predictable trading hours, they offer a balanced approach to navigating the ups and downs of global markets.
-    </p>
-  </div>
-
-  <!-- Right: Image -->
-  <div style="flex: 1 1 400px; text-align: center;">
-    <img src="./assets/img/NewTemp/instrument4.png" alt="Indices" style="
-      width: 100%;
-      max-width: 450px;
-      height: auto;
-      border-radius: 12px;
-      object-fit: contain;
-    "/>
-  </div>
-</div>
-
-</section>
-
-
-</div>
-
-</section>
-<!-- Ultra-Modern CTA Section -->
-<section style="
-    background: #0a0e27;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-    border-radius: 40px 40px 0 0;
-">
-    <!-- Animated Mesh Gradient Background -->
-    <div style="
-        position: absolute;
-        inset: 0;
-        background: 
-            radial-gradient(circle at 20% 30%, rgba(30, 77, 130, 0.4) 0%, transparent 50%),
-            radial-gradient(circle at 80% 70%, rgba(255, 140, 0, 0.3) 0%, transparent 50%),
-            radial-gradient(circle at 50% 50%, rgba(211, 146, 102, 0.2) 0%, transparent 70%);
-        animation: meshMove 15s ease infinite;
-    "></div>
-    
-    <!-- Grid Pattern -->
-    <div style="
-        position: absolute;
-        inset: 0;
-        background-image: 
-            linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-        background-size: 50px 50px;
-        opacity: 0.5;
-    "></div>
-    
-    <!-- Glowing Orbs -->
-    <div style="
-        position: absolute;
-        width: 500px;
-        height: 500px;
-        background: radial-gradient(circle, rgba(255, 140, 0, 0.15), transparent 70%);
-        border-radius: 50%;
-        top: -150px;
-        right: -150px;
-        filter: blur(60px);
-        animation: pulse 8s ease infinite;
-    "></div>
-    
-    <div style="
-        position: absolute;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(30, 77, 130, 0.2), transparent 70%);
-        border-radius: 50%;
-        bottom: -100px;
-        left: -100px;
-        filter: blur(60px);
-        animation: pulse 10s ease infinite reverse;
-    "></div>
-    
-    <div class="container" style="position: relative; z-index: 2; padding: 120px 15px;">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xl-8 text-center">
-                <!-- Badge -->
-                <div style="
-                    display: inline-block;
-                    background: rgba(255, 140, 0, 0.1);
-                    border: 1px solid rgba(255, 140, 0, 0.3);
-                    color: #e61a38;
-                    padding: 8px 20px;
-                    border-radius: 30px;
-                    font-size: 13px;
-                    font-weight: 600;
-                    letter-spacing: 1px;
-                    margin-bottom: 30px;
-                    text-transform: uppercase;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.2s;
-                ">
-                    Start Your Journey
+    <!-- Instruments Introduction Section -->
+    <section class="instruments-intro">
+        <div class="container">
+            <div class="intro-content">
+                <!-- Floating Symbols Background -->
+                <div class="symbols-bg">
+                    <span class="symbol" style="--x: 8%; --y: 15%; --size: 48px; --delay: 0s; --duration: 25s;">$</span>
+                    <span class="symbol" style="--x: 22%; --y: 65%; --size: 36px; --delay: 3s; --duration: 30s;">€</span>
+                    <span class="symbol" style="--x: 15%; --y: 85%; --size: 42px; --delay: 7s; --duration: 28s;">£</span>
+                    <span class="symbol" style="--x: 35%; --y: 25%; --size: 32px; --delay: 2s; --duration: 32s;">¥</span>
+                    <span class="symbol" style="--x: 48%; --y: 70%; --size: 38px; --delay: 5s; --duration: 27s;">₿</span>
+                    <span class="symbol" style="--x: 42%; --y: 40%; --size: 44px; --delay: 1s; --duration: 29s;">Ξ</span>
+                    <span class="symbol" style="--x: 65%; --y: 20%; --size: 40px; --delay: 4s; --duration: 31s;">₹</span>
+                    <span class="symbol" style="--x: 58%; --y: 75%; --size: 34px; --delay: 6s; --duration: 26s;">₽</span>
+                    <span class="symbol" style="--x: 72%; --y: 55%; --size: 46px; --delay: 8s; --duration: 33s;">₩</span>
+                    <span class="symbol" style="--x: 85%; --y: 30%; --size: 36px; --delay: 2.5s; --duration: 29s;">₪</span>
+                    <span class="symbol" style="--x: 78%; --y: 80%; --size: 40px; --delay: 5.5s; --duration: 27s;">฿</span>
+                    <span class="symbol" style="--x: 92%; --y: 45%; --size: 38px; --delay: 3.5s; --duration: 30s;">₺</span>
                 </div>
-                
-                <h2 style="
-                    color: white;
-                    font-size: clamp(32px, 5vw, 56px);
-                    font-weight: 800;
-                    margin-bottom: 24px;
-                    line-height: 1.2;
-                    letter-spacing: -1px;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.3s;
-                ">
-                    Get Started With <span style="
-                        background: linear-gradient(135deg, #e61a38, #d39266);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        background-clip: text;
-                    ">TraderTok</span>
-                </h2>
-                
-                <p style="
-                    color: rgba(255, 255, 255, 0.8);
-                    font-size: 19px;
-                    margin-bottom: 45px;
-                    font-weight: 300;
-                    line-height: 1.7;
-                    max-width: 600px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.4s;
-                ">
-                    Choose your account, deposit funds, and begin trading today.
-                </p>
-                
-                <!-- CTA Button with Micro-interaction -->
-                <div style="opacity: 0; animation: fadeInUp 0.8s ease forwards; animation-delay: 0.5s;">
-                    <a href="#" style="
-                        display: inline-flex;
-                        align-items: center;
-                        gap: 12px;
-                        background: linear-gradient(135deg, #e61a38, #d39266);
-                        color: white;
-                        padding: 18px 45px;
-                        border-radius: 50px;
-                        font-weight: 600;
-                        font-size: 17px;
-                        text-decoration: none;
-                        box-shadow: 
-                            0 0 0 0 rgba(255, 140, 0, 0.4),
-                            0 20px 40px rgba(255, 140, 0, 0.3);
-                        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                        position: relative;
-                        overflow: hidden;
-                    " onmouseover="
-                        this.style.transform='translateY(-3px)';
-                        this.style.boxShadow='0 0 0 8px rgba(255, 140, 0, 0.2), 0 25px 50px rgba(255, 140, 0, 0.4)';
-                    " onmouseout="
-                        this.style.transform='translateY(0)';
-                        this.style.boxShadow='0 0 0 0 rgba(255, 140, 0, 0.4), 0 20px 40px rgba(255, 140, 0, 0.3)';
-                    ">
-                        <span>Open Trading Account</span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: transform 0.3s ease;">
-                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
+
+                <div class="intro-text intro-text-full">
+                    <h2 class="about-title">Explore Our Trading Instruments</h2>
+
+                    <p class="about-subtitle gradient-text">At TraderTok, we offer an extensive range of trading instruments tailored to meet the needs of every kind of trader—whether you're just starting out or managing a sophisticated portfolio.</p>
+
+                    <p class="about-description">With access to global markets and deep liquidity, our platform empowers you to explore opportunities across a broad spectrum of asset classes, all in one place. We believe that choice is power, which is why we continuously expand our list of instruments to match the pace of the ever-evolving financial landscape. Whether you're seeking short-term volatility or long-term value, you'll find the tools you need with us.</p>
+
+                    <p class="about-description">Our goal is simple: to provide you with the tools, assets, and support you need to seize market opportunities 24/5. Backed by advanced trading technology and real-time market insights, we ensure that you're always a step ahead.</p>
+
+                    <p class="about-description">As a fully regulated trading firm, we operate with full transparency and integrity, adhering to strict compliance standards that safeguard our clients' interests. You can trade confidently knowing your funds are protected and your transactions are secure.</p>
                 </div>
-                
-                <!-- Trust Indicators -->
-                <div style="
-                    margin-top: 50px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 40px;
-                    flex-wrap: wrap;
-                    opacity: 0;
-                    animation: fadeIn 0.8s ease forwards;
-                    animation-delay: 0.7s;
-                ">
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="color: #e61a38;">
-                            <path d="M10 2L12.39 7.26L18 8.27L14 12.14L15.18 18L10 15.27L4.82 18L6 12.14L2 8.27L7.61 7.26L10 2Z"/>
-                        </svg>
-                        <span>Trusted Platform</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instruments Categories Section -->
+    <section class="instruments-categories">
+        <div class="container">
+            <div class="instruments-accordion">
+                <!-- Forex -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Forex</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            The foreign exchange market is the most liquid market in the world, offering around-the-clock access and tight spreads. Our forex offerings cover all major pairs, minors, and a wide selection of exotics, providing opportunities for both day traders and long-term strategists. With low latency execution and high leverage options, our platform allows you to act quickly in a fast-moving market. Whether you're capitalizing on macroeconomic trends or short-term fluctuations, forex gives you the flexibility and scalability to execute your strategies effectively.
+                        </div>
                     </div>
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="color: #e61a38;">
-                            <path d="M10 1L3 6V10C3 14.55 6.84 18.74 10 19C13.16 18.74 17 14.55 17 10V6L10 1Z" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M7 10L9 12L13 8" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <span>Secure Trading</span>
+                </div>
+
+                <!-- Commodities -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Commodities</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Commodities like gold, oil, and silver offer traders a hedge against inflation and market volatility. These assets often behave independently of stocks and currencies, making them excellent tools for diversification. Our commodity instruments are traded with competitive pricing and fast execution, allowing you to tap into global supply and demand shifts with confidence. From geopolitical tensions to seasonal trends, commodity markets present unique opportunities for traders looking to benefit from real-world events.
+                        </div>
                     </div>
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="color: #e61a38;">
-                            <circle cx="10" cy="10" r="8" stroke-linecap="round"/>
-                            <path d="M10 6V10L13 13" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <span>24/7 Support</span>
+                </div>
+
+                <!-- Stocks -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Stocks</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Trade shares of top-performing companies from leading global exchanges. Our stock instruments allow you to speculate on price movements without owning the underlying asset, giving you the flexibility to go long or short. Enjoy access to major sectors like tech, healthcare, energy, and more—empowering you to build strategies based on corporate performance and market momentum. Whether you're reacting to earnings reports or shifting investor sentiment, our stock trading environment is built for precision and speed.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Indices -->
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span class="accordion-title">Indices</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-body">
+                            Indices represent the performance of a group of stocks, making them a powerful way to gain broad market exposure. Whether you're trading the S&P 500, NASDAQ, FTSE, or other major indices, our platform provides efficient access with low latency and advanced charting tools. Indices are ideal for traders seeking to take positions on broader economic trends rather than individual companies. With enhanced liquidity and predictable trading hours, they offer a balanced approach to navigating the ups and downs of global markets.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
+    </section>

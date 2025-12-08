@@ -1,0 +1,1112 @@
+/* ====== INSTRUMENTS PAGE STYLES ====== */
+
+/* Introduction Section */
+.instruments-intro {
+    padding: 160px 0 80px;
+    background: var(--bg-primary);
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: stretch;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+}
+
+/* Floating Symbols Background */
+.symbols-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* Individual symbol elements */
+.symbol {
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    font-size: var(--size);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.04);
+    animation: symbolFloat var(--duration) ease-in-out var(--delay) infinite;
+    will-change: transform, opacity;
+}
+
+/* Unique styles for each symbol */
+.symbol:nth-child(1) { color: rgba(230, 57, 70, 0.06); }
+.symbol:nth-child(2) { color: rgba(255, 107, 53, 0.05); }
+.symbol:nth-child(3) { color: rgba(255, 255, 255, 0.04); }
+.symbol:nth-child(4) { color: rgba(230, 57, 70, 0.07); }
+.symbol:nth-child(5) { color: rgba(255, 107, 53, 0.06); }
+.symbol:nth-child(6) { color: rgba(255, 255, 255, 0.05); }
+.symbol:nth-child(7) { color: rgba(230, 57, 70, 0.05); }
+.symbol:nth-child(8) { color: rgba(255, 107, 53, 0.04); }
+.symbol:nth-child(9) { color: rgba(255, 255, 255, 0.06); }
+.symbol:nth-child(10) { color: rgba(230, 57, 70, 0.04); }
+.symbol:nth-child(11) { color: rgba(255, 107, 53, 0.07); }
+.symbol:nth-child(12) { color: rgba(255, 255, 255, 0.05); }
+
+/* Floating animation with rotation */
+@keyframes symbolFloat {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0.3;
+    }
+    25% {
+        transform: translate(-30px, -50px) rotate(5deg);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translate(20px, -80px) rotate(-3deg);
+        opacity: 1;
+    }
+    75% {
+        transform: translate(-15px, -110px) rotate(7deg);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(0, -150px) rotate(0deg);
+        opacity: 0;
+    }
+}
+
+.intro-text {
+    text-align: left;
+}
+
+.intro-text-full {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    text-align: center;
+}
+
+.intro-text-full .about-title {
+    text-align: center;
+}
+
+.intro-text-full .about-subtitle {
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Animated gradient for instruments intro subtitle */
+.intro-text-full .about-subtitle.gradient-text {
+    background: linear-gradient(90deg,
+        #E63946 0%,
+        #FF6B35 25%,
+        #ffffff 50%,
+        #ffffff 100%
+    );
+    background-size: 250% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    animation: gradientFillInstruments 1.8s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes gradientFillInstruments {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0% 0;
+    }
+}
+
+.intro-text-full .about-description {
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.intro-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 30px 0;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.intro-image {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+    margin-right: calc((100vw - 100%) / -2);
+    padding-right: max(40px, calc((100vw - 100%) / 2));
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.intro-video {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-video video {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin: 0 0 24px 0;
+}
+
+.intro-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Instruments Categories Section */
+.instruments-categories {
+    padding: 100px 0;
+    background: var(--bg-primary);
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.category-card {
+    position: relative;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    border-radius: 24px;
+    padding: 48px 40px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Background pattern for each card with shimmer effect */
+.category-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, var(--card-color, #4CAF50) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.category-card:hover::before {
+    opacity: 0.05;
+}
+
+/* Card glow effect */
+.card-glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--card-gradient);
+    opacity: 0;
+    filter: blur(40px);
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.category-card:hover .card-glow {
+    opacity: 0.15;
+}
+
+/* Color-specific variables */
+.forex-card {
+    --card-color: #4CAF50;
+    --card-gradient: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.commodities-card {
+    --card-color: #FFA726;
+    --card-gradient: linear-gradient(135deg, #FFA726, #FB8C00);
+}
+
+.stocks-card {
+    --card-color: #42A5F5;
+    --card-gradient: linear-gradient(135deg, #42A5F5, #2196F3);
+}
+
+.indices-card {
+    --card-color: #AB47BC;
+    --card-gradient: linear-gradient(135deg, #AB47BC, #9C27B0);
+}
+
+/* Hover state - active card */
+.category-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    background: var(--hover-bg);
+    border-color: var(--border-color);
+    box-shadow:
+        0 20px 40px var(--shadow-color),
+        0 0 60px rgba(230, 57, 70, 0.1),
+        inset 0 0 0 1px var(--border-color);
+}
+
+/* Grayscale effect for non-hovered cards */
+.categories-grid:has(.category-card:hover) .category-card:not(:hover) {
+    filter: grayscale(1);
+    opacity: 0.4;
+    transform: scale(0.98);
+}
+
+/* Old icon styles - kept for backward compatibility but overridden by new styles */
+
+.category-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 20px 0;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover .category-title {
+    background: var(--card-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0 0 32px 0;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover .category-description {
+    color: var(--text-primary);
+}
+
+.category-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.category-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.category-btn:hover {
+    background: var(--card-gradient);
+    border-color: transparent;
+    transform: translateX(4px);
+}
+
+.category-btn:hover svg {
+    transform: translateX(4px);
+}
+
+/* Override button background on card hover */
+.category-card:hover .category-btn {
+    background: var(--card-gradient);
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.instruments-hero {
+    padding: 140px 0 80px;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+.instruments-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(230, 57, 70, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.instruments-hero-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.instruments-hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+}
+
+.instruments-hero-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    color: #a0a0a0;
+    max-width: 600px;
+    margin: 0 auto 60px;
+}
+
+/* Instruments Stats */
+.instruments-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 24px 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(230, 57, 70, 0.3);
+    transform: translateY(-4px);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+.stat-label {
+    font-size: 0.95rem;
+    color: #999999;
+}
+
+/* Instruments Section */
+.instruments-section {
+    padding: 80px 0 100px;
+    background: #000000;
+}
+
+/* Category Tabs */
+.category-tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.category-tab:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.category-tab.active {
+    background: var(--brand-gradient);
+    border-color: transparent;
+}
+
+.tab-icon {
+    font-size: 18px;
+}
+
+/* Search and Filter */
+.instruments-controls {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-box svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 14px 16px 14px 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.search-box input::placeholder {
+    color: #666666;
+}
+
+.search-box input:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--brand-color-start);
+    box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
+    outline: none;
+}
+
+/* Instruments Grid */
+.instruments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.instrument-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.instrument-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(230, 57, 70, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(230, 57, 70, 0.15);
+}
+
+.instrument-card.hidden {
+    display: none;
+}
+
+.instrument-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instrument-symbol {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.instrument-badge {
+    padding: 4px 12px;
+    background: var(--brand-gradient);
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.instrument-name {
+    font-size: 0.95rem;
+    color: #a0a0a0;
+}
+
+.instrument-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stat-label-small {
+    font-size: 0.8rem;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.instrument-trade-btn {
+    width: 100%;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.instrument-trade-btn:hover {
+    background: var(--brand-gradient);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+
+/* CTA Section */
+.instruments-cta {
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(230, 57, 70, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-content {
+    text-align: center;
+}
+
+.cta-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 16px 0;
+}
+
+.cta-subtitle {
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    margin: 0 0 40px 0;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-large {
+    padding: 16px 40px;
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .instruments-intro {
+        padding: 140px 0 60px;
+    }
+
+    .symbols-bg {
+        display: none;
+    }
+
+    .intro-title {
+        font-size: 1.8rem;
+    }
+
+    .intro-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .intro-image {
+        order: -1;
+        min-height: 300px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .intro-image img {
+        border-radius: 20px;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .instruments-hero {
+        padding: 120px 0 60px;
+    }
+
+    .instruments-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .category-tabs {
+        gap: 8px;
+    }
+
+    .category-tab {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .tab-icon {
+        font-size: 16px;
+    }
+
+    .instruments-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .instruments-section {
+        padding: 60px 0 80px;
+    }
+
+    .instruments-cta {
+        padding: 60px 0;
+    }
+
+    .instruments-categories {
+        padding: 60px 0;
+    }
+
+    .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .category-card {
+        padding: 36px 28px;
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+    }
+
+    .category-description {
+        font-size: 0.9rem;
+        margin-bottom: 24px;
+    }
+
+    .category-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-large {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .instruments-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .category-tab span:not(.tab-icon) {
+        display: none;
+    }
+
+    .category-tab {
+        padding: 10px 12px;
+    }
+}
+
+/* ====== INSTRUMENTS ACCORDION STYLES ====== */
+.instruments-accordion {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.instruments-accordion .accordion-item {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.instruments-accordion .accordion-item:last-child {
+    border-bottom: none;
+}
+
+.instruments-accordion .accordion-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.instruments-accordion .accordion-header:hover {
+    opacity: 0.8;
+}
+
+.instruments-accordion .accordion-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: left;
+}
+
+.instruments-accordion .accordion-item.active .accordion-title {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.instruments-accordion .accordion-icon {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    transition: transform 0.3s ease, color 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruments-accordion .accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+    color: var(--brand-color-start);
+}
+
+.instruments-accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.instruments-accordion .accordion-item.active .accordion-content {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.instruments-accordion .accordion-body {
+    padding: 0 0 24px 0;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .instruments-accordion {
+        max-width: 100%;
+    }
+
+    .instruments-accordion .accordion-header {
+        padding: 20px 0;
+    }
+
+    .instruments-accordion .accordion-title {
+        font-size: 1.25rem;
+    }
+
+    .instruments-accordion .accordion-icon {
+        font-size: 1.5rem;
+        width: 32px;
+        height: 32px;
+    }
+
+    .instruments-accordion .accordion-body {
+        font-size: 0.95rem;
+    }
+
+    .instruments-accordion .accordion-item.active .accordion-content {
+        max-height: 600px;
+    }
+}
+
+/* ====== ANIMATED ICONS STYLES ====== */
+
+/* Icon wrapper styles */
+.icon-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* Icon background circle with gradient */
+.icon-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.1;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.category-card:hover .icon-bg {
+    opacity: 0.2;
+    transform: scale(1.1);
+}
+
+/* Color-specific backgrounds */
+.forex-card .icon-bg {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.commodities-card .icon-bg {
+    background: linear-gradient(135deg, #FFA726, #FB8C00);
+}
+
+.stocks-card .icon-bg {
+    background: linear-gradient(135deg, #42A5F5, #2196F3);
+}
+
+.indices-card .icon-bg {
+    background: linear-gradient(135deg, #AB47BC, #9C27B0);
+}
+
+/* SVG icon styling */
+.category-icon-svg {
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    position: relative;
+}
+
+/* Remove old icon styles if they conflict */
+.category-card .category-icon {
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+/* Animated elements - float animation */
+.animated-element {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Pulse animation for paths */
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Enhanced card hover effects for animated icons */
+.category-card:hover .category-icon-svg {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+/* ====== PARTICLES EFFECT ====== */
+.icon-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--card-color);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.category-card:hover .particle {
+    animation: particle-float 2s ease-in-out infinite;
+}
+
+.particle-1 {
+    top: 20%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.particle-2 {
+    top: 10%;
+    right: 20%;
+    animation-delay: 0.3s;
+}
+
+.particle-3 {
+    bottom: 20%;
+    left: 15%;
+    animation-delay: 0.6s;
+}
+
+.particle-4 {
+    bottom: 10%;
+    right: 10%;
+    animation-delay: 0.9s;
+}
+
+.particle-5 {
+    top: 50%;
+    left: 5%;
+    animation-delay: 1.2s;
+}
+
+.particle-6 {
+    top: 50%;
+    right: 5%;
+    animation-delay: 1.5s;
+}
+
+@keyframes particle-float {
+    0%, 100% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(var(--tx, 20px), var(--ty, -20px));
+    }
+}
+
+.particle-1 { --tx: 15px; --ty: -25px; }
+.particle-2 { --tx: -20px; --ty: -15px; }
+.particle-3 { --tx: 25px; --ty: 20px; }
+.particle-4 { --tx: -15px; --ty: 25px; }
+.particle-5 { --tx: -25px; --ty: -10px; }
+.particle-6 { --tx: 20px; --ty: -30px; }
+
+/* Responsive adjustments for icons */
+@media (max-width: 768px) {
+    .icon-wrapper {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 24px;
+    }
+
+    .category-icon-svg {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-wrapper {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .category-icon-svg {
+        width: 60px;
+        height: 60px;
+    }
+}

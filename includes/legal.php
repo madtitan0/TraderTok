@@ -1,533 +1,499 @@
+        <style>
+        /* Legal Page Styles */
+        .legal-page {
+            padding-top: 100px;
+        }
 
-<!-- Hero Section with Parallax Effect -->
-<section class="page-hero" style="
-    background: url('./assets/img/NewTemp/bull.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-">
-    <!-- Dynamic Gradient Overlay -->
-    <div style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        /* background: linear-gradient(135deg, rgba(30, 77, 130, 0.92) 0%, rgba(230, 26, 56, 0.90) 50%,  rgba(211, 146, 102, 0.88) 100%); */
-background: linear-gradient(
-  135deg,
-  rgba(30, 77, 130, 0.75) 0%, 
-  rgba(217, 149, 102, 0.65) 50%, 
-  rgba(211, 146, 102, 0.55) 100%
-);
+        /* Hero Section - Two Column */
+        .legal-hero {
+            padding: 60px 0 80px;
+        }
 
+        .hero-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
 
-        background-size: 200% 200%;
-        animation: gradientFlow 5s ease infinite;
-    "></div>
-    
-    <!-- Floating Orbs -->
-    <div style="
-        position: absolute;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(255, 140, 0, 0.3), transparent);
-        border-radius: 50%;
-        top: -100px;
-        right: -100px;
-        animation: float 20s ease-in-out infinite;
-    "></div>
-    
-    <div style="
-        position: absolute;
-        width: 300px;
-        height: 300px;
-        background: radial-gradient(circle, rgba(211, 146, 102, 0.25), transparent);
-        border-radius: 50%;
-        bottom: -80px;
-        left: -80px;
-        animation: float 15s ease-in-out infinite reverse;
-    "></div>
-    
-    <div class="container" style="position: relative; z-index: 3;">
-        <div style="opacity: 0; animation: fadeInUp 1s ease forwards; animation-delay: 0.2s;">
-            <h1 style="
-                color: white;
-                font-size: clamp(36px, 6vw, 68px);
-                font-weight: 800;
-                text-shadow: 0 10px 30px rgba(0,0,0,0.3);
-                margin: 0 0 20px 0;
-                letter-spacing: -1px;
-                line-height: 1.1;
-            ">
-                Legal
-            </h1>
-            
-            <!-- Modern Accent Line -->
-            <div style="
-                height: 3px;
-                width: 100px;
-                background: linear-gradient(90deg, transparent, #e61a38, #d39266, transparent);
-                margin: 0 auto;
-                border-radius: 3px;
-                box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
-            "></div>
-        </div>
-    </div>
-    
-    <!-- Scroll Indicator -->
-    <div style="
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 3;
-        opacity: 0;
-        animation: fadeIn 1s ease forwards 1.5s;
-    ">
-        <div style="
-            width: 30px;
-            height: 40px;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            border-radius: 20px;
+        .hero-content {
+            max-width: 100%;
+        }
+
+        .hero-title {
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            color: var(--text-primary);
+        }
+
+        .gradient-text {
+            background: var(--brand-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-description {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .hero-note {
+            font-size: 0.85rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Documents Grid - Right Side */
+        .documents-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .document-card {
+            display: flex;
+            flex-direction: column;
+            padding: 14px 18px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .document-card:hover {
+            border-color: rgba(230, 57, 70, 0.3);
+            background: var(--bg-tertiary);
+        }
+
+        .document-icon {
+            width: 44px;
+            height: 54px;
+            background: var(--bg-tertiary);
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
             position: relative;
-        ">
-            <div style="
-                width: 6px;
-                height: 10px;
-                background: white;
-                border-radius: 3px;
-                position: absolute;
-                top: 8px;
-                left: 50%;
-                transform: translateX(-50%);
-                animation: scrollDown 2s ease infinite;
-            "></div>
-        </div>
-    </div>
-</section>
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
 
-<!-- Content Section with Modern Cards -->
-<section style="
-    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
-    padding: 120px 0;
-    min-height: 70vh;
-    position: relative;
-">
-    <!-- Background Texture -->
-    <div style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0.03;
-        background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231E4D82\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
-        pointer-events: none;
-    "></div>
+        .document-icon::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 10px 10px 0;
+            border-color: transparent var(--bg-secondary) transparent transparent;
+        }
 
+        .document-icon::after {
+            content: 'PDF';
+            position: absolute;
+            bottom: 6px;
+            font-size: 0.5rem;
+            font-weight: 800;
+            color: #dc2626;
+            letter-spacing: 0.5px;
+            background: rgba(220, 38, 38, 0.1);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
 
-<!-- <section style="
-    margin:50px auto;
-    padding:30px;
-    background-color:#0A1F44;
-    border-radius:12px;
-    box-shadow:0 4px 15px rgba(0,0,0,0.1);
-    line-height:1.6;
-    font-size:18px;
-    color:#EAEAEA;
-    max-width:1500px;
-    border-top:5px solid #E74C3C;
-    background-clip: padding-box;
-"> -->
-    <!-- <h1 style="text-align:center; color:#E74C3C; margin-bottom:20px; font-weight:bold;">
-      Your Trust, Our Commitment to Transparency
-    </h1>
+        .document-icon svg {
+            width: 18px;
+            height: 18px;
+            stroke: var(--text-secondary);
+            margin-bottom: 10px;
+            stroke-width: 1.5;
+        }
 
-    <p>
-      At TraderTok, we are committed to maintaining the highest standards of regulatory compliance, 
-      legal integrity, and client protection. As a regulated trading company, transparency and 
-      accountability are at the core of our operations.
-    </p>
+        .document-content {
+            flex: 1;
+            min-width: 0;
+        }
 
-    <p>
-      Below you will find our key legal documents, which define the framework of our services and outline 
-      your rights and responsibilities as a client. These documents cover essential areas including 
-      identity verification, transaction handling, data privacy, trading conditions, and risk disclosures.
-    </p>
+        .document-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 100%;
+            cursor: pointer;
+        }
 
-    <p>
-      We strongly encourage all clients to carefully review the following before opening an account 
-      or initiating any trading activity:
-    </p>
+        .document-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
 
-    <h3 style="font-size: 20px; font-weight: bold; color: #E74C3C; margin-top:30px; margin-bottom:15px;">
-      Official Policy Documents
-    </h3>
+        .document-toggle {
+            margin-left: auto;
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            transition: transform 0.3s ease, color 0.3s ease;
+            flex-shrink: 0;
+        }
 
-    <ul style="list-style-type: disc; padding-left: 25px; margin-top:0; margin-bottom:30px;">
-      <li style="margin-bottom:10px;">
-        Anti-Money Laundering (AML) &amp; Know Your Customer (KYC) Policy
-        <a href="https://keen-haibt.35-157-61-198.plesk.page//files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" target="_blank" style="margin-left:8px; vertical-align:middle;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:40px; cursor:pointer; height:auto; vertical-align:middle;">
-        </a>
-      </li>
-      <li style="margin-bottom:10px;">
-        Order Execution Policy
-        <a href="https://keen-haibt.35-157-61-198.plesk.page//files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" target="_blank" style="margin-left:8px; vertical-align:middle;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:40px; cursor:pointer; height:auto; vertical-align:middle;">
-        </a>
-      </li>
-      <li style="margin-bottom:10px;">
-        Privacy Policy
-        <a href="https://keen-haibt.35-157-61-198.plesk.page//files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" target="_blank" style="margin-left:8px; vertical-align:middle;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:40px; cursor: pointer; height:auto; vertical-align:middle;">
-        </a>
-      </li>
-      <li style="margin-bottom:10px;">
-        Risk Disclosure Statement
-        <a href="https://keen-haibt.35-157-61-198.plesk.page//files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" target="_blank" style="margin-left:8px; vertical-align:middle;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:40px; cursor:pointer; height:auto; vertical-align:middle;">
-        </a>
-      </li>
-      <li>
-        Service Agreement (Terms &amp; Conditions)
-        <a href="https://keen-haibt.35-157-61-198.plesk.page//files/Service_Agreement_Terms_&amp;_Conditions_Amber_Rock_Trade_Ltd.pdf" target="_blank" style="margin-left:8px; vertical-align:middle;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF" style="width:40px; cursor:pointer; height:auto; vertical-align:middle;">
-        </a>
-      </li>
-    </ul>
+        .document-card.active .document-toggle {
+            transform: rotate(45deg);
+            color: var(--brand-color);
+        }
 
-    <p style="margin-top:30px; font-size:14px; color:#555; background-color:#f4f6f8; padding:12px 16px; border-left:4px solid #E74C3C; border-radius:6px;">
-      By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies.
-    </p> -->
+        .document-description {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+            opacity: 0;
+            padding: 0 0 0 60px;
+        }
 
-        <div class="main-container1">
-        <div class="header-section1">
-            <h1>Important Legal Information & Policies</h1>
-        </div>
+        .document-card.active .document-description {
+            max-height: 200px;
+            opacity: 1;
+            padding: 12px 0 0 60px;
+        }
 
-        <div class="intro-text1">
-            <p>
-                At TraderTok, we are committed to maintaining the highest standards of regulatory compliance, 
-                legal integrity, and client protection. As a regulated trading company, transparency and 
-                accountability are at the core of our operations.
-            </p>
-            <p>
-                Below you will find our key legal documents, which define the framework of our services and outline 
-                your rights and responsibilities as a client. These documents cover essential areas including 
-                identity verification, transaction handling, data privacy, trading conditions, and risk disclosures.
-            </p>
-            <p>
-                We strongly encourage all clients to carefully review the following before opening an account 
-                or initiating any trading activity:
-            </p>
-        </div>
+        .document-description p {
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
 
-        <div class="cards-grid">
-            <!-- Privacy Policy Card -->
-            <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Privacy Policy</h3>
-                <p>
-                    The Company maintains a comprehensive data protection framework, referencing its commitments to high standards of security and confidentiality.
-                </p>
-                <a href="./files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div>
+        .document-download {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
 
-            <!-- Terms & Conditions Card -->
-            <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Terms & Conditions</h3>
-                <p>
-                    The Agreement stipulates the investment and ancillary services provided by the Company to its trading activities.
-                </p>
-                <a href="./files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div>
+        .document-download svg {
+            width: 16px;
+            height: 16px;
+            stroke: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
 
-            <!-- AML & KYC Policy Card -->
-            <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Anti-Money Laundering Policy</h3>
-                <p>
-                    This policy outlines the Company's commitment to preventing and detecting money laundering and terrorist financing activities.
-                </p>
-                <a href="./files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div>
+        .document-card:hover .document-download {
+            background: #E63946;
+        }
 
-            <!-- Complaint Handling Policy Card -->
-            <!-- <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Complaint Handling Policy</h3>
-                <p>
-                    This document outlines the procedures followed by the Company in addressing and resolving client complaints.
-                </p>
-                <a href="#" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div> -->
+        .document-card:hover .document-download svg {
+            stroke: white;
+        }
 
-            <!-- Order Execution Policy Card -->
-            <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Order Execution Policy</h3>
-                <p>
-                    The Company is committed to providing clients with optimal trading conditions and efficient order execution.
-                </p>
-                <a href="./files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div>
+        /* Video Section */
+        .video-section {
+            padding: 0 0 60px;
+        }
 
-            <!-- Risk Disclosure Card -->
-            <div class="policy-card">
-                <div class="icon-container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
-                </div>
-                <h3>Risk Disclosure</h3>
-                <p>
-                    This Risk Disclosure document informs you of the inherent risks associated with trading, by entering into over-the-counter.
-                </p>
-                <a href="./files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" class="download-btn">
-                    <svg class="download-icon" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M10 12L6 8h8l-4 4zm0 2l-4-4H2v2h4l4 4 4-4h4v-2h-4l-4 4z"/>
-                    </svg>
-                    Download PDF
-                </a>
-            </div>
-        </div>
+        .video-wrapper {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            height: 300px;
+        }
 
-        <div class="disclaimer">
-            <p>
-                <strong>Important:</strong> By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies. If you have any questions or concerns regarding these documents, please contact our legal department for clarification.
-            </p>
-        </div>
-    </div>
-<!-- </section> -->
-    </section>
+        .video-wrapper::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            pointer-events: none;
+        }
 
-<!-- Ultra-Modern CTA Section -->
-<section style="
-    background: #0a0e27;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-    border-radius: 40px 40px 0 0;
-">
-    <!-- Animated Mesh Gradient Background -->
-    <div style="
-        position: absolute;
-        inset: 0;
-        background: 
-            radial-gradient(circle at 20% 30%, rgba(30, 77, 130, 0.4) 0%, transparent 50%),
-            radial-gradient(circle at 80% 70%, rgba(255, 140, 0, 0.3) 0%, transparent 50%),
-            radial-gradient(circle at 50% 50%, rgba(211, 146, 102, 0.2) 0%, transparent 70%);
-        animation: meshMove 15s ease infinite;
-    "></div>
+        .legal-video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            filter: brightness(0.8);
+        }
+
+        /* Important Notice */
+        .notice-section {
+            padding: 0 0 80px;
+        }
+
+        .notice-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .notice-title .gradient-text {
+            background: var(--brand-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .notice-title svg {
+            width: 16px;
+            height: 16px;
+            stroke: #E63946;
+            flex-shrink: 0;
+        }
+
+        .notice-text {
+            font-size: 0.8rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+        }
+
+        .notice-text a {
+            color: var(--brand-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .notice-text a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .hero-layout {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .document-description {
+                display: none;
+            }
+        }
+    </style>
     
-    <!-- Grid Pattern -->
-    <div style="
-        position: absolute;
-        inset: 0;
-        background-image: 
-            linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-        background-size: 50px 50px;
-        opacity: 0.5;
-    "></div>
-    
-    <!-- Glowing Orbs -->
-    <div style="
-        position: absolute;
-        width: 500px;
-        height: 500px;
-        background: radial-gradient(circle, rgba(255, 140, 0, 0.15), transparent 70%);
-        border-radius: 50%;
-        top: -150px;
-        right: -150px;
-        filter: blur(60px);
-        animation: pulse 8s ease infinite;
-    "></div>
-    
-    <div style="
-        position: absolute;
-        width: 400px;
-        height: 400px;
-        background: radial-gradient(circle, rgba(30, 77, 130, 0.2), transparent 70%);
-        border-radius: 50%;
-        bottom: -100px;
-        left: -100px;
-        filter: blur(60px);
-        animation: pulse 10s ease infinite reverse;
-    "></div>
-
-
-    
-    <div class="container" style="position: relative; z-index: 2; padding: 120px 15px;">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-xl-8 text-center">
-                <!-- Badge -->
-                <div style="
-                    display: inline-block;
-                    background: rgba(255, 140, 0, 0.1);
-                    border: 1px solid rgba(255, 140, 0, 0.3);
-                    color: #e61a38;
-                    padding: 8px 20px;
-                    border-radius: 30px;
-                    font-size: 13px;
-                    font-weight: 600;
-                    letter-spacing: 1px;
-                    margin-bottom: 30px;
-                    text-transform: uppercase;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.2s;
-                ">
-                    Start Your Journey
-                </div>
-                
-                <h2 style="
-                    color: white;
-                    font-size: clamp(32px, 5vw, 56px);
-                    font-weight: 800;
-                    margin-bottom: 24px;
-                    line-height: 1.2;
-                    letter-spacing: -1px;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.3s;
-                ">
-                    Get Started With <span style="
-                        background: linear-gradient(135deg, #e61a38, #d39266);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        background-clip: text;
-                    ">TraderTok</span>
-                </h2>
-                
-                <p style="
-                    color: rgba(255, 255, 255, 0.8);
-                    font-size: 19px;
-                    margin-bottom: 45px;
-                    font-weight: 300;
-                    line-height: 1.7;
-                    max-width: 600px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    opacity: 0;
-                    animation: fadeInUp 0.8s ease forwards;
-                    animation-delay: 0.4s;
-                ">
-                    Choose your account, deposit funds, and begin trading today.
-                </p>
-                
-                <!-- CTA Button with Micro-interaction -->
-                <div style="opacity: 0; animation: fadeInUp 0.8s ease forwards; animation-delay: 0.5s;">
-                    <a href="#" style="
-                        display: inline-flex;
-                        align-items: center;
-                        gap: 12px;
-                        background: linear-gradient(135deg, #e61a38, #d39266);
-                        color: white;
-                        padding: 18px 45px;
-                        border-radius: 50px;
-                        font-weight: 600;
-                        font-size: 17px;
-                        text-decoration: none;
-                        box-shadow: 
-                            0 0 0 0 rgba(255, 140, 0, 0.4),
-                            0 20px 40px rgba(255, 140, 0, 0.3);
-                        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                        position: relative;
-                        overflow: hidden;
-                    " onmouseover="
-                        this.style.transform='translateY(-3px)';
-                        this.style.boxShadow='0 0 0 8px rgba(255, 140, 0, 0.2), 0 25px 50px rgba(255, 140, 0, 0.4)';
-                    " onmouseout="
-                        this.style.transform='translateY(0)';
-                        this.style.boxShadow='0 0 0 0 rgba(255, 140, 0, 0.4), 0 20px 40px rgba(255, 140, 0, 0.3)';
-                    ">
-                        <span>Open Trading Account</span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="transition: transform 0.3s ease;">
-                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-                
-                <!-- Trust Indicators -->
-                <div style="
-                    margin-top: 50px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 40px;
-                    flex-wrap: wrap;
-                    opacity: 0;
-                    animation: fadeIn 0.8s ease forwards;
-                    animation-delay: 0.7s;
-                ">
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" style="color: #e61a38;">
-                            <path d="M10 2L12.39 7.26L18 8.27L14 12.14L15.18 18L10 15.27L4.82 18L6 12.14L2 8.27L7.61 7.26L10 2Z"/>
-                        </svg>
-                        <span>Trusted Platform</span>
+    <!-- Main Content -->
+    <main class="legal-page">
+        <!-- Hero Section - Two Column -->
+        <section class="legal-hero">
+            <div class="container">
+                <div class="hero-layout">
+                    <!-- Left Side - Text -->
+                    <div class="hero-content">
+                        <h1 class="hero-title">Important Legal Information & <span class="gradient-text">Policies</span></h1>
+                        <p class="hero-description">
+                            At TraderTok, we are committed to maintaining the highest standards of regulatory compliance, legal integrity, and client protection. As a regulated trading company, transparency and accountability are at the core of our operations.
+                        </p>
+                        <p class="hero-description">
+                            Below you will find our key legal documents, which define the framework of our services and outline your rights and responsibilities as a client. These documents cover essential areas including identity verification, transaction handling, data privacy, trading conditions, and risk disclosures.
+                        </p>
+                        <p class="hero-note">
+                            We strongly encourage all clients to carefully review the following before opening an account or initiating any trading activity:
+                        </p>
                     </div>
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="color: #e61a38;">
-                            <path d="M10 1L3 6V10C3 14.55 6.84 18.74 10 19C13.16 18.74 17 14.55 17 10V6L10 1Z" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M7 10L9 12L13 8" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <span>Secure Trading</span>
-                    </div>
-                    <div style="color: rgba(255, 255, 255, 0.6); font-size: 14px; display: flex; align-items: center; gap: 8px;">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="color: #e61a38;">
-                            <circle cx="10" cy="10" r="8" stroke-linecap="round"/>
-                            <path d="M10 6V10L13 13" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <span>24/7 Support</span>
+
+                    <!-- Right Side - Documents -->
+                    <div class="documents-grid">
+                        <div class="document-card">
+                            <div class="document-header">
+                                <div class="document-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="document-content">
+                                    <h3 class="document-title">Privacy Policy</h3>
+                                </div>
+                                <span class="document-toggle">+</span>
+                                <a href="./files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="document-description">
+                                <p>The Company maintains a comprehensive data protection framework, referencing its commitments to high standards of security and confidentiality.</p>
+                            </div>
+                        </div>
+
+                        <div class="document-card">
+                            <div class="document-header">
+                                <div class="document-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="document-content">
+                                    <h3 class="document-title">Terms & Conditions</h3>
+                                </div>
+                                <span class="document-toggle">+</span>
+                                <a href="./files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="document-description">
+                                <p>The Agreement stipulates the investment and ancillary services provided by the Company to its trading activities.</p>
+                            </div>
+                        </div>
+
+                        <div class="document-card">
+                            <div class="document-header">
+                                <div class="document-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="document-content">
+                                    <h3 class="document-title">Anti-Money Laundering Policy</h3>
+                                </div>
+                                <span class="document-toggle">+</span>
+                                <a href="./files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="document-description">
+                                <p>This policy outlines the Company's commitment to preventing and detecting money laundering and terrorist financing activities.</p>
+                            </div>
+                        </div>
+
+                        <div class="document-card">
+                            <div class="document-header">
+                                <div class="document-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="document-content">
+                                    <h3 class="document-title">Order Execution Policy</h3>
+                                </div>
+                                <span class="document-toggle">+</span>
+                                <a href="./files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="document-description">
+                                <p>The Company is committed to providing clients with optimal trading conditions and efficient order execution.</p>
+                            </div>
+                        </div>
+
+                        <div class="document-card">
+                            <div class="document-header">
+                                <div class="document-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="document-content">
+                                    <h3 class="document-title">Risk Disclosure</h3>
+                                </div>
+                                <span class="document-toggle">+</span>
+                                <a href="./files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="document-description">
+                                <p>This Risk Disclosure document informs you of the inherent risks associated with trading, by entering into over-the-counter.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
+        <!-- Video Section -->
+        <section class="video-section">
+            <div class="container">
+                <div class="video-wrapper">
+                    <video class="legal-video" autoplay muted loop playsinline>
+                        <source src="assets/images/video_1920x1080.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
 
+        <!-- Important Notice -->
+        <section class="notice-section">
+            <div class="container">
+                <div class="notice-title">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <span class="gradient-text">Important</span>
+                </div>
+                <p class="notice-text">
+                    By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies. If you have any questions or concerns regarding these documents, please <a href="../contact-us/index.html">contact our legal department</a> for clarification.
+                </p>
+            </div>
+        </section>
+    </main>
+
+        <script>
+        // Document Accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const documentCards = document.querySelectorAll('.document-card');
+
+            documentCards.forEach(card => {
+                const header = card.querySelector('.document-header');
+                const downloadBtn = card.querySelector('.document-download');
+
+                header.addEventListener('click', function(e) {
+                    // Don't toggle if clicking on download button
+                    if (e.target.closest('.document-download')) return;
+
+                    // Close other open cards
+                    documentCards.forEach(otherCard => {
+                        if (otherCard !== card && otherCard.classList.contains('active')) {
+                            otherCard.classList.remove('active');
+                        }
+                    });
+
+                    // Toggle current card
+                    card.classList.toggle('active');
+                });
+            });
+        });
+    </script>

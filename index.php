@@ -12,14 +12,24 @@ if (!$page) {
 
             require("includes/contact-us.php");
 
-        } elseif ($page == 'instruments'){
-      require("includes/instruments.php");
-        } elseif ($page == 'trading-platforms'){
+        } elseif ($page == 'trading-essentials'){
+      require("includes/trading-essentials.php");
+        } elseif ($page == 'video-education'){
+      require("includes/video-education.php");
+        } elseif ($page == 'research'){
+      require("includes/research.php");
+        } elseif ($page == 'live-training'){
+      require("includes/live-training.php");
+        } elseif ($page == 'trading-platform'){
       require("includes/trading-platform.php");
         } elseif ($page == 'legal'){
       require("includes/legal.php");
         } elseif ($page == 'events-calendar'){
       require("includes/events-calendar.php");
+        } elseif ($page == 'meet-the-team'){
+      require("includes/meet-the-team.php");
+        } elseif ($page == 'account-types'){
+      require("includes/account-types.php");
         } else if($page == 'otherPage'){
            
             foreach ($get->other_page as $pageOther) {

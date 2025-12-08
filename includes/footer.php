@@ -1,258 +1,62 @@
-<b  style="border:4px solid #3279fc; width:100%; display:block; overflow: hidden;"></b>
-<footer id="footer" class="footer" >
-
-    <div class="footer-content">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-info" style="color:<?=$get->footer_text_color?>">
-                        <img src="<?= $get->assets_url.'/'.$get->logo ?>" alt="" style="max-height:70px">
-
-                 <?= $get->footer_text ?>
-    
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links  d-none d-sm-block d-sm-none d-md-block">
-                    <h4>Quick Links</h4>
-                    <ul>
-                    <?php
-                            foreach ($menus as $menu) {
-                                echo '<li class="footer-txt">
-                                        <a href=".' . $menu->url . '" target="' . $menu->target . '"  class="footer-link">' . $menu->title . '</a>
-                                    </li>';
-                            }
-                            ?>
+            <!-- Top Section -->
+            <div class="footer-top">
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="meet-the-team/index.html" class="footer-link">Meet the Team</a></li>
+                        <li><a href="trading-platforms/index.html" class="footer-link">Trading Platforms</a></li>
+                        <li><a href="legal/index.html" class="footer-link">Legal</a></li>
                     </ul>
                 </div>
 
-            
-                <div class="col-lg-2 col-md-6 footer-links   d-none d-sm-block d-sm-none d-md-block">
-                     
-                    <ul>
-                    <?php foreach ($extra_menus as $extra_bottom) { ?>
-                                <?php if($extra_bottom->status  && $extra_bottom->show  && $extra_bottom->location === 'bottom') { ?>
-                              <li>  <a href="<?= $extra_bottom->url ?>" class="p-2" style="width: 50%;
-    text-align: center; background-color:<?= $extra_bottom->bg_color ?>; color:<?= $extra_bottom->text_color  ?>"> <?=$extra_bottom->title ?></a> </li>
-                                <?php } ?>
-        <?php } ?>
+                <!-- Resources -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="trading-essentials/index.html" class="footer-link">Education Resources</a></li>
+                        <li><a href="events-calendar/index.html" class="footer-link">Markets Overview</a></li>
+                        <li><a href="contact-us/index.html" class="footer-link">Contact Us</a></li>
+                    </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-newsletter" style="color:<?=$get->footer_text_color?>">
-                    <h4>Contact Us
-
-
-                    </h4>
-                    <ul class="list-unstyled menu">
-                       <?= isset($get->phone) ? ' <li><i class="bi bi-telephone mt-2 px-1"> </i> '. $get->phone  .'</li>' : null ?>
-                       <?= isset($get->email) ? ' <li><i class="bi bi-envelope mt-2 px-1"> </i>'. $get->email .'</li>' : null ?>
-                       <?= isset($get->address) ? ' <li><i class="bi bi-geo-alt mt-2 px-1"></i>'. $get->address .'</li>' : null ?>
-                    </ul>
-                    <div>
-                       <a href="#" style="cursor: pointer; display: inline-block; margin: 0 8px; vertical-align: middle;">
-                        <img src="./assets/img/NewTemp/mc.png" alt="mc" style="width: 50px; height: auto; object-fit: contain; display: block;" />
-                        </a>
-
-                        <a href="#" style="cursor: pointer; display: inline-block; margin: 0 8px; vertical-align: middle;">
-                        <img src="./assets/img/NewTemp/visa.png" alt="visa" style="width: 50px; height: auto; object-fit: contain; display: block;" />
-                        </a>
+                <!-- Contact Info -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="footer-contact">
+                        <!-- <a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a> -->
+                        <?= isset($get->phone) ? ' <a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a>' : null ?>
+                        <p class="footer-contact-text">Available 24/5 for support</p>
+                        <div class="footer-payment-icons">
+                            <svg class="payment-icon" viewBox="0 0 750 471" xmlns="http://www.w3.org/2000/svg"><path d="M278.2 334.3l30-186.2h48.1l-30.1 186.2h-48zm188.8-181.7c-9.5-3.6-24.5-7.5-43.2-7.5-47.6 0-81.2 24.1-81.5 58.5-.3 25.5 23.9 39.7 42.2 48.2 18.8 8.7 25.1 14.2 25 22-.1 11.9-15 17.3-28.9 17.3-19.3 0-29.6-2.7-45.5-9.4l-6.2-2.8-6.8 40c11.3 5 32.2 9.3 53.9 9.5 50.7 0 83.6-23.8 84-60.5.2-20.2-12.6-35.5-40.4-48.2-16.8-8.2-27.1-13.7-27-22 0-7.4 8.7-15.3 27.5-15.3 15.7-.2 27.1 3.2 36 6.8l4.3 2 6.6-38.6zm124.4-4.5h-37.3c-11.5 0-20.2 3.2-25.3 14.8l-71.6 163.2h50.6s8.3-21.9 10.1-26.7c5.5 0 54.8.1 61.9.1 1.4 6.2 6 26.6 6 26.6h44.7l-39.1-177.9zm-59.4 115c4-10.3 19.4-50 19.4-50-.3.5 4-10.4 6.4-17.1l3.3 15.4s9.3 43.1 11.3 52.1h-40.4v-.4zm-281.8-115l-47.3 127.1-5-24.8c-8.7-28.4-36-59.2-66.5-74.6l43.2 158.2 51-0.1 75.9-185.9-51.3.1z" fill="#1A1F71"/><path d="M146.9 148.1h-77.7l-.6 3.6c60.4 14.7 100.4 50.3 117 93l-16.9-81.5c-2.9-11.2-11.4-14.6-21.8-15.1z" fill="#F9A533"/></svg>
+                            <img src="assets/images/Mastercard-logo.svg.png" alt="Mastercard" class="payment-icon">
+                        </div>
                     </div>
-
                 </div>
 
             </div>
-            <hr>
-                        <!-- <div style="color:<?=$get->footer_text_color?>; font-size:13px; line-height:1.5; margin-bottom:10px; text-align: center">
-                            © 2025 Amber Rock Trade Ltd, registered at Level 5, Alexander House, 
-                            35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594.<br>
-                            This website is operated by Amber Rock Trade Ltd.<br>
-                            Payment processing is handled by our authorized payment agent B-tech Ltd,
-                            registered in Cyprus, Company No: HE 414065.
-                        </div> -->
 
-                        <div class="row">
-  <div class="col-12">
-    <div style="color:<?=$get->footer_text_color?>; font-size:13px; line-height:1.5; padding-bottom:10px; text-align:center;">
-      © 2025 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594,<br> License No: GB24203892. The Company is authorized and regulated by the Financial Services Commission of Mauritius (“FSC”).
-This website is operated by Amber Rock Trade Ltd.<br>
-Payment processing is handled by our authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court,<br> 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.
-    </div>
+            <!-- Divider -->
+            <div class="footer-divider"></div>
 
-    <div style="color: white !important; font-size:13px;  padding-bottom:10px; text-align:center;">
-      <b>Risk Warning:</b> Trading derivative financial products with TraderTok <br/>involves a high level of risk
-      and may not be suitable for all investors. You could lose all your invested <br/>capital and should
-      only trade with funds you can afford to lose. Before opening any position, ensure you
-      understand the risks, your investment objectives, <br/>and your level of experience. Please
-      consult our full Risk Disclosure Statement for more information.
-    </div>
-  </div>
-</div>
+            <!-- Bottom Section - Legal -->
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p class="footer-copyright">© 2025 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, License No: GB24203892. The Company is authorized and regulated by the Financial Services Commission of Mauritius ("FSC"). This website is operated by Amber Rock Trade Ltd.</p>
 
-            <div class="row">
-                <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-                    <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-                        <?= isset($get->facebook_url) ? '<a href="' . $get->facebook_url . '" target="_blank" class="footer-link"><i class="bi bi-facebook"></i></a>' : null ?>
-                <?= isset($get->instagram_url) ? '<a href="' . $get->instagram_url . '" target="_blank" class="footer-link"><i class="bi bi-instagram"></i></a>' : null ?>
-                <?= isset($get->twitter_url) ? '<a href="' . $get->twitter_url . '" target="_blank" class="footer-link"><i class="bi bi-twitter"></i></a>' : null ?>
-                    </div>
-                    <!-- <div class="d-flex flex-column align-items-center align-items-lg-start">
-                        <div class="copyright" style="color:<?=$get->footer_text_color?>">
-                            &copy; Copyright <strong><span><?= $get->title ?></span></strong>. All Rights Reserved
-                        </div>
+                    <p class="footer-payment-info">Payment processing is handled by our authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.</p>
 
-                    </div> -->
-
+                    <p class="footer-risk-warning"><strong>Risk Warning:</strong> Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable for all investors. You could lose all your invested capital and should only trade with funds you can afford to lose. Before opening any position, ensure you understand the risks, your investment objectives, and your level of experience. Please consult our full Risk Disclosure Statement for more information.</p>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </footer>
 
-<div id="preloader"></div>
-<?= $theme->js_files ?>
-
-<script>
-    $(document).ready(function() {
-        <?= $theme->custom_js ?>
-    });
-</script>
-
-<style>
-    
-    section {
-        padding: 101px 0; 
-    }
-
-
-
-    :root {
-    --color-primary: <?=$get->bg_color ?>;
-    }
-    .registerform .container {
-        background:<?=$get->bg_color ?> ;
-    }
-    .block-title {
-        color:<?=$get->text_color ?>  ;
-    }
-    .testimonials p {      
-        color:<?=$get->text_color ?>  ;
-    }
-    .bg-light-orange {
-        background-color:<?=$get->bg_color ?>  ;
-        color:<?=$get->footer_text_color ?>;
-    }
-    .footer .footer-content {
-        background:<?=$get->footer_bg_color ?> ;
-    }
-    .btnregister {
-        background:<?=$get->btn1_bg_color ?> ;
-        border:<?=$get->btn1_text_color ?>  ;
-        color:<?=$get->btn1_text_color?>;
-    }
-    .header.sticked {
-        background:<?=$get->navbar_bg_hover_color ?> ;
-    }
-
-    .header {
-        background:<?= $page ? $get->navbar_bg_hover_color : $get->navbar_bg_color ?> ;
-        
-    }
-
-
-    .footer .footer-content .footer-links ul a {
-        color:<?=$get->footer_text_color ?> ;
-    }
-    .color-black {
-        color:<?=$get->text_color ?> !important ;
-    }
-    .hero p {
-        color:<?=$get->footer_text_color ?> !important ;
-    }
-    .contactus .btn-get-started:hover { 
-
-        background: <?=$get->bg_color?>;
-
-    }
-    .contactus .btn-get-started {
-        background: <?=$get->btn2_bg_color?>;
-        color:<?=$get->btn2_text_color?>; 
-    }
-
-     .navbar .dropdown a:hover, .navbar .dropdown .active, .navbar .dropdown .active:focus, .navbar .dropdown:hover>a {
-        background:<?=$get->menu_bg_hover_color ?> ;
-        color:<?=$get->menu_text_hover_color?>
-    } 
- 
-
-
-    .navbar .dropdown ul a:hover, .navbar .dropdown ul .active, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
-        background: <?=$get->menu_bg_hover_color?>;
-        color:<?=$get->menu_text_hover_color?>; 
-    }
-
-    .navbar .dropdown ul a {
-        background: <?=$get->menu_bg_color?>;
-        color:<?=$get->menu_text_color?>!important; 
-    }
-
-    .header.sticked .navbar a {
-        color:<?=$get->navbar_text_hover_color?>!important;
-    }
-    .list-group-item.active{
-                background-color: <?= $get->bg_color ?>;
-                border-color: <?= $get->bg_color ?>;
-            }
-            
-.btn-primary {
-    color:<?=$get->btn1_text_color?>;
-    background-color: <?=$get->btn1_bg_color?>;
-    border-color: <?=$get->btn1_bg_color?> ;
-    
-}
-
-.btn-primary:hover {
-    color:<?=$get->btn1_text_color?>;
-    background-color: <?=$get->btn1_bg_color?>;
-    border-color: <?=$get->btn1_bg_color?> ;
-    
-}
-    <?= $theme->custom_css ?>
-
-</style>
-
-<?= $get->footer_code ?>
-<?php 
-            if(isset($popups) && count($popups) ){
-                $popup = $popups[0];
-        ?>
-            <script type="text/javascript">
-                $(window).on('load',function(){
-                    setTimeout(() => {
-                        $('#exampleModal').modal('show');
-                    }, <?= ($popup->acilma_suresi*1000) ?>);
-                });
-            </script>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel"><?= $popup->title ?></h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        
-                        <div class="modal-body">
-                            <?= $popup->content ?>
-                            <img src="<?= $get->assets_url.'/'.$popup->image ?>" alt="<?= $popup->title ?>" class="img-fluid">
-                        </div>
-                        
-                        </div>
-                    </div>
-                </div>
-        <?php } ?>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/team-script.js"></script>
+    <script src="assets/js/instruments-script.js"></script>
 </body>
-
 </html>
