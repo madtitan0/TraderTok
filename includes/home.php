@@ -357,7 +357,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
         <!-- Background Video -->
         <div class="instruments-video-bg">
             <video autoplay loop muted playsinline>
-                <source src="assets/images/Video-Education.mp4" type="video/mp4">
+                <source src="assets/images/education.mp4" type="video/mp4">
             </video>
             <div class="instruments-video-overlay"></div>
         </div>

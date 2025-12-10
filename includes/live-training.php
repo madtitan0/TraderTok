@@ -334,7 +334,7 @@
                     </div>
 
                     <!-- Right Column - Image & Second Event -->
-                    <div class="training-right">
+                    <div class="training-right" style="margin-top:10px">
                         <div class="training-image">
                             <img src="assets/images/lovely-lady-with-curly-hair-email-with-her-friend-using-silver-laptop-being-isolated-grey-wall.png" alt="Live Training">
                         </div>
