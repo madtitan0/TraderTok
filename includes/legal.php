@@ -447,7 +447,7 @@
             <div class="container">
                 <div class="video-wrapper">
                     <video class="legal-video" autoplay muted loop playsinline>
-                        <source src="assets/images/video_1920x1080.mp4" type="video/mp4">
+                        <source src="assets/images/vid.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>

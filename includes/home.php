@@ -472,7 +472,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 <!-- Left Column: Video -->
                 <div class="why-choose-video">
                     <video autoplay loop muted playsinline class="trading-video" aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
-                        <source src="assets/images/why-choose-video.mp4" type="video/mp4">
+                        <source src="assets/images/why-choose-video1.mp4" type="video/mp4">
                         <track kind="captions" src="captions.vtt" srclang="en" label="English captions">
                         Your browser does not support the video tag.
                     </video>

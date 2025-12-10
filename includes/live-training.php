@@ -336,7 +336,7 @@
                     <!-- Right Column - Image & Second Event -->
                     <div class="training-right">
                         <div class="training-image">
-                            <img src="assets/images/lovely-lady-with-curly-hair-email-with-her-friend-using-silver-laptop-being-isolated-grey-wall.png" alt="Live Training">
+                            <img src="assets/images/lady.png" alt="Live Training">
                         </div>
 
                         <div class="webinar-card">
