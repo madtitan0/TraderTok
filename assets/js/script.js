@@ -1341,6 +1341,35 @@ const countryItems = document.querySelectorAll('.country-item');
 
 let selectedCountryCode = '+44';
 let selectedCountryFlag = '🇬🇧';
+let selectedCountryIso = 'GB';
+
+const countryIsoMap = {
+    'Afghanistan': 'AF', 'Albania': 'AL', 'Algeria': 'DZ', 'Andorra': 'AD', 'Angola': 'AO',
+    'Argentina': 'AR', 'Armenia': 'AM', 'Australia': 'AU', 'Austria': 'AT', 'Azerbaijan': 'AZ',
+    'Bahrain': 'BH', 'Bangladesh': 'BD', 'Belarus': 'BY', 'Belgium': 'BE', 'Bolivia': 'BO',
+    'Bosnia and Herzegovina': 'BA', 'Brazil': 'BR', 'Bulgaria': 'BG', 'Cambodia': 'KH', 'Canada': 'CA',
+    'Chile': 'CL', 'China': 'CN', 'Colombia': 'CO', 'Costa Rica': 'CR', 'Croatia': 'HR',
+    'Cyprus': 'CY', 'Czech Republic': 'CZ', 'Denmark': 'DK', 'Ecuador': 'EC', 'Egypt': 'EG',
+    'Estonia': 'EE', 'Ethiopia': 'ET', 'Finland': 'FI', 'France': 'FR', 'Georgia': 'GE',
+    'Germany': 'DE', 'Greece': 'GR', 'Hong Kong': 'HK', 'Hungary': 'HU', 'Iceland': 'IS',
+    'India': 'IN', 'Indonesia': 'ID', 'Iran': 'IR', 'Iraq': 'IQ', 'Ireland': 'IE',
+    'Israel': 'IL', 'Italy': 'IT', 'Japan': 'JP', 'Jordan': 'JO', 'Kazakhstan': 'KZ',
+    'Kenya': 'KE', 'Kuwait': 'KW', 'Kyrgyzstan': 'KG', 'Latvia': 'LV', 'Lebanon': 'LB',
+    'Libya': 'LY', 'Lithuania': 'LT', 'Luxembourg': 'LU', 'Malaysia': 'MY', 'Maldives': 'MV',
+    'Malta': 'MT', 'Mexico': 'MX', 'Moldova': 'MD', 'Monaco': 'MC', 'Mongolia': 'MN',
+    'Montenegro': 'ME', 'Morocco': 'MA', 'Myanmar': 'MM', 'Nepal': 'NP', 'Netherlands': 'NL',
+    'New Zealand': 'NZ', 'Nigeria': 'NG', 'North Korea': 'KP', 'North Macedonia': 'MK', 'Norway': 'NO',
+    'Oman': 'OM', 'Pakistan': 'PK', 'Palestine': 'PS', 'Panama': 'PA', 'Paraguay': 'PY',
+    'Peru': 'PE', 'Philippines': 'PH', 'Poland': 'PL', 'Portugal': 'PT', 'Qatar': 'QA',
+    'Romania': 'RO', 'Russia': 'RU', 'Saudi Arabia': 'SA', 'Senegal': 'SN', 'Serbia': 'RS',
+    'Singapore': 'SG', 'Slovakia': 'SK', 'Slovenia': 'SI', 'South Africa': 'ZA', 'South Korea': 'KR',
+    'Spain': 'ES', 'Sri Lanka': 'LK', 'Sudan': 'SD', 'Sweden': 'SE', 'Switzerland': 'CH',
+    'Syria': 'SY', 'Taiwan': 'TW', 'Tajikistan': 'TJ', 'Tanzania': 'TZ', 'Thailand': 'TH',
+    'Togo': 'TG', 'Tunisia': 'TN', 'Turkey': 'TR', 'Turkmenistan': 'TM', 'Uganda': 'UG',
+    'Ukraine': 'UA', 'United Arab Emirates': 'AE', 'United Kingdom': 'GB', 'United States': 'US',
+    'Uruguay': 'UY', 'Uzbekistan': 'UZ', 'Venezuela': 'VE', 'Vietnam': 'VN', 'Yemen': 'YE',
+    'Zambia': 'ZM', 'Zimbabwe': 'ZW'
+};
 
 // Toggle dropdown
 if (countrySelect) {
@@ -1363,9 +1392,11 @@ countryItems.forEach(item => {
     item.addEventListener('click', () => {
         const code = item.dataset.code;
         const flag = item.dataset.flag;
+        const country = item.dataset.country;
 
         selectedCountryCode = code;
         selectedCountryFlag = flag;
+        selectedCountryIso = countryIsoMap[country] || 'CY';
 
         // Update button
         countrySelect.querySelector('.country-flag').textContent = flag;
@@ -1419,29 +1450,115 @@ if (signupForm) {
         const email = document.getElementById('signup-email').value;
         const phone = document.getElementById('signup-phone').value;
         const fullPhone = selectedCountryCode + phone;
-        const password = document.getElementById('signup-password').value;
-        const confirmPassword = document.getElementById('signup-confirm-password').value;
 
-        // Validate passwords match
-        if (password !== confirmPassword) {
-            alert('Passwords do not match!');
-            return;
-        }
-
-        console.log('Sign Up:', {
-            firstname,
-            lastname,
-            email,
+        const payload = {
+            firstName: firstname,
+            lastName: lastname,
+            email: email,
             phone: fullPhone,
-            countryCode: selectedCountryCode,
-            password
-        });
+            country: selectedCountryIso || 'CY',
+            language: currentLanguage || 'en',
+            brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+            businessUnitId: "34f7b5d6-fc0f-44fc-9323-8b0fcd3b26ed",
+            tags: [
+                {
+                    "id": "fb251ea1-1956-428a-b5a3-015cfb017e37"
+                }
+            ],
+            clientzoneDisabled: true,
+            accounts: [
+                {
+                    "groupName": "118000\\Defauult.USD",
+                    "leverage": 100,
+                    "isDemoAccount": false
+                }
+            ]
+        };
 
-        // Simulate API call
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        try {
+            const submitBtn = signupForm.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.textContent;
+            submitBtn.textContent = 'Registering...';
+            submitBtn.disabled = true;
 
-        alert('Sign Up functionality - Connect your backend here!');
-        // closeAuthSidebar();
+            const response = await fetch('https://6dfed096-backend-clientzone.dataconect.com/api/v1/clientzone/leads', {
+                method: 'POST',
+                headers: {
+                    'sec-ch-ua-platform': '"Windows"',
+                    'x-platform-name': 'ClientZone',
+                    'Referer': 'https://client.tradertok.com/',
+                    'sec-ch-ua': '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
+                    'sec-ch-ua-mobile': '?0',
+                    'Access-Control-Allow-Origin': '*',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                console.log('Signup Success:', data);
+                
+                                // Show success message instead of redirecting
+                // alert('Registration successful! Please check your email.');
+                // Optional: Close sidebar or reset form
+                // closeAuthSidebar();
+
+                // Show success message
+                signupForm.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 8 10 14 8 12"></polyline>
+                        </svg>
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Registration Successful!</h3>
+                    </div>
+                `;
+                signupForm.reset();
+            } else {
+                const errorData = await response.json();
+                console.error('Signup Error:', errorData);
+                
+                // Show error message
+                signupForm.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#FF5252" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="15" y1="9" x2="9" y2="15"></line>
+                            <line x1="9" y1="9" x2="15" y2="15"></line>
+                        </svg>
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Registration Failed</h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 20px;">${errorData.message || 'An unknown error occurred.'}</p>
+                        <button onclick="location.reload()" class="auth-submit-btn" style="max-width: 200px; margin: 0 auto;">Try Again</button>
+                    </div>
+                `;
+            }
+
+        } catch (error) {
+            console.error('Network Error:', error);
+            
+            // Show network error message
+            signupForm.innerHTML = `
+                <div style="text-align: center; padding: 40px 20px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#FF5252" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Connection Error</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">Please check your internet connection and try again.</p>
+                    <button onclick="location.reload()" class="auth-submit-btn" style="max-width: 200px; margin: 0 auto;">Try Again</button>
+                </div>
+            `;
+        } finally {
+            const submitBtn = signupForm.querySelector('button[type="submit"]');
+            if (submitBtn) {
+                submitBtn.textContent = 'Create Account';
+                submitBtn.disabled = false;
+            }
+        }
     });
 }
 
