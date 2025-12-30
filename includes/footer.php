@@ -55,9 +55,9 @@
         </div>
     </footer>
 
-    <script src="assets/js/i18n.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/team-script.js"></script>
-    <script src="assets/js/instruments-script.js"></script>
+    <script src="assets/js/i18n.js?v=<?= filemtime('assets/js/i18n.js') ?>"></script>
+    <script src="assets/js/script.js?v=<?= filemtime('assets/js/script.js') ?>"></script>
+    <script src="assets/js/team-script.js?v=<?= filemtime('assets/js/team-script.js') ?>"></script>
+    <script src="assets/js/instruments-script.js?v=<?= filemtime('assets/js/instruments-script.js') ?>"></script>
 </body>
 </html>

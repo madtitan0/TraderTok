@@ -36,9 +36,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/team-styles.css">
-    <link rel="stylesheet" href="assets/css/instruments-styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css?v=<?= filemtime('assets/css/styles.css') ?>">
+    <link rel="stylesheet" href="assets/css/team-styles.css?v=<?= filemtime('assets/css/team-styles.css') ?>">
+    <link rel="stylesheet" href="assets/css/instruments-styles.css?v=<?= filemtime('assets/css/instruments-styles.css') ?>">
 </head>
 <body>
     <!-- Header -->
