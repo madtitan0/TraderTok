@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "title": "TraderTok - Professional Trading Platform | Trade with Confidence",
+    "description": "Grow your savings with confidence at TraderTok. Access powerful desktop and mobile trading platforms, real-time market analysis, 24/7 support, and expert insights."
+  },
+  "nav": {
+    "meetTheTeam": "Meet the Team",
+    "tradingPlatforms": "Trading Platforms",
+    "accountTypes": "Account Types",
+    "educationResources": "Education Resources",
+    "marketsOverview": "Markets Overview",
+    "legal": "Legal",
+    "contactUs": "Contact Us"
+  },
+  "dropdown": {
+    "tradingEssentials": "Trading Essentials",
+    "tradingEssentialsDesc": "Learn the fundamentals of trading",
+    "videoEducation": "Video Education",
+    "videoEducationDesc": "Watch tutorials and expert insights",
+    "eventsCalendar": "Events Calendar",
+    "eventsCalendarDesc": "Track important market events",
+    "research": "Research",
+    "researchDesc": "In-depth market analysis and insights",
+    "liveTraining": "Live Training",
+    "liveTrainingDesc": "Join live sessions with experts"
+  },
+  "language": {
+    "title": "Language",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "spanish": "Español"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "welcomeBack": "Welcome Back",
+    "signInToContinue": "Sign in to continue trading",
+    "createAccount": "Create Account",
+    "startJourney": "Start your trading journey today",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "createPassword": "Create a strong password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "7520 640 890",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "or continue with",
+    "termsAgree": "I agree to the",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "searchCountry": "Search country..."
+  },
+  "hero": {
+    "title": "Enter <span class=\"gradient-text\">The Markets</span> With Confidence At<br><span class=\"gradient-text\">TraderTok</span>",
+    "description": "At TraderTok, we support you with free market analysis and a team of experienced professionals, so you're never navigating the markets alone. With a broad range of trading instruments and a strong community of investors, TraderTok is a trusted destination for those looking to take the next step in their financial journey.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "promo": {
+    "highlight": "200%",
+    "title": "Invest Now and receive up to 200% bonus",
+    "subtitle": "Contact your account manager to find out more",
+    "days": "Days",
+    "hours": "Hours",
+    "min": "Min",
+    "sec": "Sec",
+    "expired": "This offer has expired. Stay tuned for new promotions!"
+  },
+  "about": {
+    "title": "Your Trusted Partner in Financial Growth",
+    "subtitle": "At TraderTok, we're redefining what it means to trade in the global markets.",
+    "description1": "Born from a passion for precision, technology, and opportunity, we've built a platform that empowers traders of all levels to take control of their financial future.",
+    "description2": "We don't just provide access to the markets — we provide the clarity, confidence, and cutting-edge tools that make a real difference. Every second counts in trading, and that's why we've engineered an environment where speed meets stability, and innovation meets opportunity.",
+    "happyClients": "Happy Clients",
+    "support": "Support",
+    "secure": "Secure"
+  },
+  "tradersClub": {
+    "free": "FREE",
+    "description": "Join our Traders Club and get a free virtual card. Instant withdrawals, use worldwide with no fees and no limits.",
+    "disclaimer": "*Available for verified club members only",
+    "joinNow": "Join Now",
+    "modalTitle": "Join Traders Club",
+    "modalSubtitle": "Get your free virtual card today",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone",
+    "getMyFreeCard": "Get My Free Card"
+  },
+  "insights": {
+    "title": "Get the latest analytics insights — straight from our team to you.",
+    "financialStrategy": "Financial<br>Strategy",
+    "financialStrategyDesc": "Personalized trading strategies tailored to your unique financial goals and experience level.",
+    "freeTrainings": "Free<br>Trainings",
+    "freeTrainingsDesc": "Expert-led forex training from beginner to intermediate level, completely free with live support.",
+    "assetManagement": "Asset<br>Management",
+    "assetManagementDesc": "24/7 expert guidance to identify and manage the right assets for maximum profitability.",
+    "demoAccount": "Demo<br>Account",
+    "demoAccountDesc": "Practice risk-free with $10,000 virtual money on real-time market data before going live."
+  },
+  "platforms": {
+    "eyebrow": "Our Trading Platforms",
+    "title": "Come Trade With Us",
+    "subtitle": "Choose how you prefer to trade: powerful desktop application for deep analysis or lightweight mobile platform to stay in the market on the go.",
+    "webDesktop": "Web & Desktop",
+    "desktopTitle": "TraderTok Desktop",
+    "desktopDescription": "Access our TraderTok Desktop application on your Mac or Windows PC and get full access to charts, indicators and multi-screen workspace for professional trading.",
+    "windows": "Windows",
+    "mac": "Mac",
+    "mobilePlatform": "Mobile Platform",
+    "mobileTitle": "TraderTok Mobile",
+    "mobileDescription": "Access our mobile platform on iOS and Android and trade anywhere: open, manage and close positions right from your phone in just a few taps."
+  },
+  "instruments": {
+    "sectionTitle": "Explore Our Trading Instruments",
+    "sectionSubtitle": "At TraderTok, we offer an extensive range of trading instruments tailored to meet the needs of every kind of trader—whether you're just starting out or managing a sophisticated portfolio.",
+    "sectionDescription": "With access to global markets and deep liquidity, our platform empowers you to explore opportunities across a broad spectrum of asset classes, all in one place. We believe that choice is power, which is why we continuously expand our list of instruments to match the pace of the ever-evolving financial landscape.",
+    "forex": "Forex",
+    "forexDesc": "The foreign exchange market is the most liquid market in the world, offering around-the-clock access and tight spreads. Our forex offerings cover all major pairs, minors, and a wide selection of exotics, providing opportunities for both day traders and long-term strategists. With low latency execution and high leverage options, our platform allows you to act quickly in a fast-moving market.",
+    "commodities": "Commodities",
+    "commoditiesDesc": "Commodities like gold, oil, and silver offer traders a hedge against inflation and market volatility. These assets often behave independently of stocks and currencies, making them excellent tools for diversification. Our commodity instruments are traded with competitive pricing and fast execution, allowing you to tap into global supply and demand shifts with confidence.",
+    "stocks": "Stocks",
+    "stocksDesc": "Trade shares of top-performing companies from leading global exchanges. Our stock instruments allow you to speculate on price movements without owning the underlying asset, giving you the flexibility to go long or short. Enjoy access to major sectors like tech, healthcare, energy, and more—empowering you to build strategies based on corporate performance and market momentum.",
+    "indices": "Indices",
+    "indicesDesc": "Indices represent the performance of a group of stocks, making them a powerful way to gain broad market exposure. Whether you're trading the S&P 500, NASDAQ, FTSE, or other major indices, our platform provides efficient access with low latency and advanced charting tools. Indices are ideal for traders seeking to take positions on broader economic trends rather than individual companies.",
+    "crypto": "Crypto",
+    "all": "All",
+    "search": "Search instruments...",
+    "spread": "Spread",
+    "leverage": "Leverage",
+    "trade": "Trade",
+    "noResults": "No instruments found matching your search."
+  },
+  "whyChoose": {
+    "title": "Why Choose TraderTok",
+    "subtitle": "We provide our investors with continuous improvement, new opportunities to explore financial markets and the opportunity to work with a recognized leader in the financial industry.",
+    "lightningExecution": "Lightning-Fast Execution",
+    "lightningExecutionDesc": "Every millisecond counts in trading. Our advanced infrastructure ensures your orders are executed quickly, reliably, and with minimal slippage, so you never miss an opportunity.",
+    "cuttingEdgePlatforms": "Cutting-Edge Platforms",
+    "cuttingEdgePlatformsDesc": "Trade on TraderTool, our own intuitive platform. With advanced charts, powerful analytics, and customizable tools, you have everything you need to trade smarter.",
+    "globalMarkets": "Global Markets, Local Insights",
+    "globalMarketsDesc": "Access a wide range of financial instruments, from forex and commodities to indices and cryptocurrencies. Our global reach is complemented by expert market insights to help you make informed decisions.",
+    "competitivePricing": "Competitive Pricing & Tight Spreads",
+    "competitivePricingDesc": "We offer market-leading spreads, low fees, and transparent pricing — designed to give you the edge in every trade.",
+    "expertSupport": "Expert Support",
+    "expertSupportDesc": "Our dedicated support team is available whenever you need them. We combine industry knowledge with fast, friendly service, so you can focus on trading with confidence.",
+    "securityTrust": "Security & Trust",
+    "securityTrustDesc": "Your funds and data are safeguarded with industry-standard security protocols and robust account protection. Trade with confidence knowing that your investments are secure.",
+    "educationResources": "Education & Resources",
+    "educationResourcesDesc": "Whether you're new to trading or a seasoned professional, our learning resources, webinars, and market insights help you sharpen your skills and grow as a trader."
+  },
+  "deposit": {
+    "interest": "7.6% interest",
+    "isMonthly": "is Monthly",
+    "description": "Receive monthly interest payment directly into your cash balance, with no obligation.",
+    "disclaimer": "*Credit and other risks apply, please read the Terms and Conditions",
+    "joinNow": "Join Now",
+    "modalTitle": "Open Deposit Account",
+    "modalSubtitle": "Fill in your details and our manager will contact you",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "submitApplication": "Submit Application",
+    "modalDisclaimer": "By submitting, you agree to our Terms of Service and Privacy Policy"
+  },
+  "telegram": {
+    "title": "Join Our <span class=\"gradient-text\">Community</span>",
+    "description": "Get trading signals, market analysis, and connect with other traders",
+    "joinNow": "Join Now",
+    "signal": "SIGNAL",
+    "alert": "ALERT",
+    "profit": "PROFIT",
+    "analysis": "ANALYSIS",
+    "hoursAgo": "h ago",
+    "dayAgo": "d ago"
+  },
+  "contactForm": {
+    "title": "Are You Ready To Earn With TraderTok?",
+    "subtitle": "We will call you",
+    "description": "Step into the world's largest trading volume market in few minutes; easily and securely.",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "surname": "Surname",
+    "surnamePlaceholder": "Enter your surname",
+    "phone": "Phone",
+    "phonePlaceholder": "+44 7520 640 890",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your trading goals...",
+    "submit": "Contact Us",
+    "successMessage": "Thank you! We will contact you soon.",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+  "trustpilot": {
+    "name": "Trustpilot",
+    "rating": "4.8 out of 5",
+    "moreReviews": "More reviews on Trustpilot"
+  },
+  "banking": {
+    "title": "Your funds are held in <span class=\"gradient-text\">top-tier institutions</span>",
+    "subtitle": "The TraderTok Group works with globally renowned banking partners including:",
+    "disclaimer": "* These banks are partnered with the TraderTok group and do not serve all entities within the group"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "contact": "Contact",
+    "availableSupport": "Available 24/5 for support",
+    "copyright": "© 2025 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. The Company is authorized and regulated by the Financial Services Commission of Mauritius (\"FSC\"). This website is operated by Amber Rock Trade Ltd.",
+    "paymentInfo": "Payment processing is handled by our authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.",
+    "riskWarning": "Risk Warning:",
+    "riskWarningText": "Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable for all investors. You could lose all your invested capital and should only trade with funds you can afford to lose. Before opening any position, ensure you understand the risks, your investment objectives, and your level of experience. Please consult our full Risk Disclosure Statement for more information.",
+    "riskWarningHtml": "<strong>Risk Warning:</strong> Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable for all investors. You could lose all your invested capital and should only trade with funds you can afford to lose. Before opening any position, ensure you understand the risks, your investment objectives, and your level of experience. Please consult our full Risk Disclosure Statement for more information."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "joinNow": "Join Now",
+    "trade": "Trade",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "meetTheTeam": {
+    "pageTitle": "Meet the Team - TraderTok | Our Global Trading Experts",
+    "pageDescription": "Meet our global team of trading experts from around the world. Professional traders speaking English, Spanish, and Hindi.",
+    "heroTitle": "Meet the Team",
+    "heroSubtitle": "Our global team of trading experts is here to guide you through your trading journey in your preferred language.",
+    "tabEnglish": "English",
+    "tabSpanish": "Spanish",
+    "tabHindi": "Hindi",
+    "departmentAgents": "Agents",
+    "departmentManagers": "Managers",
+    "departmentBilling": "Billing",
+    "managers": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor is a highly attentive and client-focused Account Manager who always strives to understand each client's priorities. With strong communication skills and a calm, professional manner, Alex ensures smooth cooperation and consistent, reliable results."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans is a dynamic and detail-oriented Account Manager who combines strong communication skills with a strategic mindset. Focused on understanding client goals and delivering consistent results, Chris builds trust through transparency, reliability, and a solution-oriented approach."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin is a highly organized and client-oriented Account Manager who consistently delivers on commitments. With strong communication skills and a calm, professional approach, Lucas builds trust quickly and ensures every client feels supported and well-informed."
+      }
+    },
+    "billing": {
+      "brooke_davis": {
+        "name": "Brooke Davis",
+        "role": "Brooke Davis is a meticulous and client-oriented Billing Specialist who ensures seamless financial transactions for all clients. With expertise in payment processing and account management, Brooke handles deposits, withdrawals, and billing inquiries with precision and care, making every financial interaction smooth and transparent."
+      },
+      "roy_bruce": {
+        "name": "Roy Bruce",
+        "role": "Roy Bruce is a detail-driven Billing Specialist with extensive experience in financial operations and client support. Known for his analytical approach and quick problem-solving skills, Roy manages payment verifications, account reconciliations, and ensures all transactions meet the highest standards of accuracy and security."
+      }
+    },
+    "english": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor is a highly attentive and client-focused Account Manager who always strives to understand each client's priorities. With strong communication skills and a calm, professional manner.<br><br>Alex ensures smooth cooperation and consistent, reliable results."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans is a dynamic and detail-oriented Account Manager who combines strong communication skills with a strategic mindset. Focused on understanding client goals and delivering consistent results, Chris builds trust through transparency, reliability, and a solution-oriented approach."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin is a highly organized and client-oriented Account Manager who consistently delivers on commitments. With strong communication skills and a calm, professional approach, Lucas builds trust quickly and ensures every client feels supported and well-informed."
+      },
+      "kai_lockwood": {
+        "name": "Kai Lockwood",
+        "role": "Kai Lockwood is a proactive and client-focused Account Manager with a strong track record of building long-term partnerships. Known for clear communication, attention to detail, and fast problem-solving, Kai consistently delivers on client goals while maintaining a positive, collaborative working style."
+      },
+      "dominic_weber": {
+        "name": "Dominic Weber",
+        "role": "Dominic Weber is a reliable and results-driven Account Manager who always puts clients first. With strong communication skills and a structured approach to work, Dominic quickly understands client needs, provides clear solutions, and maintains smooth, professional collaboration at every stage."
+      },
+      "dasha_petrova": {
+        "name": "Dasha Petrova",
+        "role": "Dasha Petrova is a dedicated and solution-oriented Account Manager who always keeps client priorities at the center of every decision. Known for clear communication, reliability, and a hands-on approach, Dasha ensures smooth cooperation and consistent, measurable results."
+      },
+      "david_faris": {
+        "name": "David Faris",
+        "role": "David Faris is a thoughtful and goal-oriented Account Manager with a strong focus on client satisfaction. Combining clear communication with a structured, analytical approach, David quickly identifies client needs, offers practical solutions, and ensures smooth, professional cooperation."
+      },
+      "michael_smith": {
+        "name": "Michael Smith",
+        "role": "Michael Smith is a confident and results-focused Account Manager with a strong sense of responsibility. Known for clear communication, fast reaction to client needs, and a practical, solution-driven mindset, Michael ensures every client feels supported and in control of their goals."
+      },
+      "oscar_dupont": {
+        "name": "Oscar Dupont",
+        "role": "Oscar Dupont is a detail-focused and dependable Account Manager with a strong commitment to client success. Combining clear communication with a proactive, solution-driven mindset, Oscar ensures smooth cooperation and consistently delivers on agreed goals."
+      },
+      "simon_bjork": {
+        "name": "Simon Bjork",
+        "role": "Simon Bjork is a methodical and client-centric Account Manager with a talent for turning complex market concepts into actionable strategies. Known for his analytical precision and calm demeanor, Simon builds lasting client relationships through trust, expertise, and unwavering commitment to excellence."
+      }
+    },
+    "spanish": {
+      "juan_garcia": {
+        "name": "Juan Garcia",
+        "role": "Juan Garcia is a strategic and client-focused Account Manager who excels at building strong relationships with Spanish-speaking clients. With deep market knowledge and a proactive approach, Juan delivers personalized solutions and ensures every client achieves their trading goals."
+      }
+    },
+    "hindi": {
+      "aaron_dev": {
+        "name": "Aaron Dev",
+        "role": "Aaron Dev is a dedicated and knowledgeable Account Manager who specializes in serving Hindi-speaking clients. With a strong understanding of both Indian and international markets, Aaron provides tailored guidance and ensures a seamless, supportive trading experience for every client."
+      }
+    }
+  },
+  "marketsOverview": {
+    "title": "Markets Overview"
+  },
+  "tradingPlatformsPage": {
+    "pageTitle": "Trading Platforms - TraderTok | Advanced Trading Technology",
+    "pageDescription": "Trade with cutting-edge platforms designed for speed, reliability, and performance. Access powerful tools and analytics on desktop, web, and mobile.",
+    "heroTitle": "Trade",
+    "typewriterWords": ["Smarter", "Faster", "Your Way"],
+    "heroSubtitle": "At TraderTok, we believe technology should empower, not complicate. That's why we built platforms that give you full control of your trading experience, whether you're at your desk or on the move.",
+    "mobilePlatform": "Mobile Platform",
+    "webDesktop": "Web & Desktop",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "mac": "Mac",
+    "signIn": "Sign In",
+    "download": "Download"
+  },
+  "contactUsPage": {
+    "pageTitle": "Contact Us - TraderTok | Get in Touch",
+    "pageDescription": "Get in touch with TraderTok. Our team is here to help you with any questions about trading, account management, or platform support.",
+    "heroTitle": "Contact",
+    "heroTitleHighlight": "Us",
+    "heroDescription": "We remain open to any inquiries or questions you might have. Please submit a query in the fields below, and our support team will promptly respond to it.",
+    "formName": "Name",
+    "formNamePlaceholder": "Enter your name",
+    "formSurname": "Surname",
+    "formSurnamePlaceholder": "Enter your surname",
+    "formPhone": "Phone",
+    "formPhonePlaceholder": "+44 7520 640 890",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "your@email.com",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Tell us about your inquiry...",
+    "formSubmit": "Send Message"
+  },
+  "legalPage": {
+    "pageTitle": "Legal - TraderTok | Terms & Policies",
+    "pageDescription": "TraderTok legal information, terms of service, privacy policy, and regulatory disclosures.",
+    "heroTitle": "Important Legal Information &",
+    "heroTitleHighlight": "Policies",
+    "heroDescription1": "At TraderTok, we are committed to maintaining the highest standards of regulatory compliance, legal integrity, and client protection.",
+    "heroDescription2": "Below you will find our key legal documents, which define the framework of our services and outline your rights and responsibilities as a client.",
+    "heroNote": "We strongly encourage all clients to carefully review the following before opening an account or initiating any trading activity:",
+    "docPrivacyPolicy": "Privacy Policy",
+    "docPrivacyPolicyDesc": "The Company maintains a comprehensive data protection framework.",
+    "docTermsConditions": "Terms & Conditions",
+    "docTermsConditionsDesc": "The Agreement stipulates the investment and ancillary services provided by the Company.",
+    "docAmlPolicy": "Anti-Money Laundering Policy",
+    "docAmlPolicyDesc": "This policy outlines the Company's commitment to preventing and detecting money laundering.",
+    "docOrderExecution": "Order Execution Policy",
+    "docOrderExecutionDesc": "The Company is committed to providing clients with optimal trading conditions.",
+    "docRiskDisclosure": "Risk Disclosure",
+    "docRiskDisclosureDesc": "This document informs you of the inherent risks associated with trading.",
+    "important": "Important",
+    "importantNotice": "By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies."
+  },
+  "accountTypesPage": {
+    "pageTitle": "Account Types - TraderTok | Choose Your Trading Account",
+    "pageDescription": "Explore TraderTok account types designed to match your trading experience and goals.",
+    "heroTitle": "Choose Your",
+    "heroTitleHighlight": "Account Type",
+    "heroSubtitle": "No matter your trading goals, TraderTok offers an account tailored to suit them perfectly. Explore and compare our five account options to find the one that best aligns with your needs.",
+    "getStarted": "Get Started",
+    "mostPopular": "Most Popular",
+    "standard": {
+      "name": "Standard",
+      "feature1": "Basic access to the trading platform",
+      "feature2": "Standard customer support",
+      "feature3": "Standard market analysis tools",
+      "feature4": "Access to educational resources",
+      "feature5": "Regular market updates",
+      "feature6": "Account Manager"
+    },
+    "advanced": {
+      "name": "Advanced",
+      "feature1": "All Standard Account benefits",
+      "feature2": "Lower transaction costs",
+      "feature3": "Advanced charting tools",
+      "feature4": "Priority customer support",
+      "feature5": "Daily market insights and research reports",
+      "feature6": "Account Manager",
+      "note": "Potential for Increased Revenue: Enjoy reduced transaction costs, allowing you to retain a higher percentage of your profits"
+    },
+    "professional": {
+      "name": "Professional",
+      "feature1": "All Advanced Account benefits",
+      "feature2": "50% Swap Reduction",
+      "feature3": "Exclusive research reports",
+      "feature4": "Even lower transaction costs",
+      "feature5": "Dedicated personal assistant",
+      "feature6": "Customizable trading conditions",
+      "feature7": "Use of AI tools (limited)",
+      "feature8": "Extensive education by a senior analyst",
+      "note": "Potential for Increased Revenue: Some of the lowest transaction costs in the branch, and the use of a personal assistant and an AI tool to navigate you through financial markets"
+    },
+    "exclusive": {
+      "name": "Exclusive",
+      "feature1": "All Professional Account benefits",
+      "feature2": "Zero swap fees!",
+      "feature3": "Lowest possible transaction costs",
+      "feature4": "Priority access to new features and tools",
+      "feature5": "Exclusive educational resources",
+      "feature6": "VIP events and networking opportunities",
+      "feature7": "Regular personal access to senior analysts",
+      "feature8": "Highest level of customer support with faster response times",
+      "note": "Benefit from the lowest transaction costs, zero swap fees, exclusive features, and personalized support, optimizing your trading performance for higher potential returns"
+    },
+    "black": {
+      "name": "BLACK",
+      "feature1": "All Exclusive Account Benefits",
+      "feature2": "Personal dedicated senior analyst",
+      "feature3": "300.000 welcome bonus",
+      "feature4": "Access to private collection of educational info",
+      "feature5": "Personalized and negotiable offers",
+      "feature6": "Oversight analyst"
+    }
+  },
+  "researchPage": {
+    "pageTitle": "Research - TraderTok | Market Analysis & Insights",
+    "pageDescription": "In-depth market analysis and insights from TraderTok's expert analysts.",
+    "heroTitle": "Market Insights That",
+    "heroTitleHighlight": "Matter",
+    "heroDesc1": "Our research materials are carefully prepared to help traders and investors better understand the markets. Each video and PDF on this page has been thoughtfully developed to offer insights that are practical, clear, and based on real market experience.",
+    "heroDesc2": "We know the financial world can be complex, so we aim to present information in a way that's structured and easy to follow, without losing the depth that matters.",
+    "videoLessons": "Video Lessons",
+    "pdfReports": "PDF Reports",
+    "weeklyUpdates": "Weekly Updates",
+    "videoMaterials": "Video Materials",
+    "videoMaterialsDesc": "Watch our expert analysis and trading insights",
+    "latestVideos": "Latest Videos",
+    "researchReports": "Research Reports",
+    "researchReportsDesc": "Download in-depth analysis and detailed market reports",
+    "pdfDownloads": "PDF Downloads",
+    "whyEducation": "Why Education",
+    "whyEducationHighlight": "Matters",
+    "whyEducationDesc1": "In the fast-paced world of trading and investing, education is not optional—it's essential. Sound decision-making starts with understanding the instruments, the risks, and the broader economic context.",
+    "whyEducationDesc2": "Markets change, patterns evolve, and new opportunities emerge every day—those best prepared are those who stay informed. We believe that empowering traders with knowledge is one of the most valuable services we can offer.",
+    "practicalInsights": "Practical Insights",
+    "expertAnalysis": "Expert Analysis",
+    "weeklyUpdatesFeature": "Weekly Updates",
+    "clearStructure": "Clear Structure"
+  },
+  "eventsCalendarPage": {
+    "pageTitle": "Events Calendar - TraderTok | Important Market Events",
+    "pageDescription": "Track important market events and economic releases.",
+    "heroTitle": "Markets",
+    "heroTitleHighlight": "Overview",
+    "heroSubtitle": "Real-time market data, economic events, and cryptocurrency prices all in one place",
+    "liveMarket": "Live Market",
+    "liveMarketDesc": "Real-time quotes for major forex pairs, indices, and commodities",
+    "live": "LIVE",
+    "economicCalendar": "Economic Calendar",
+    "economicCalendarDesc": "Upcoming economic events and their expected impact on the markets",
+    "cryptoMarket": "Cryptocurrency Market",
+    "cryptoMarketDesc": "Top cryptocurrencies by market capitalization with real-time data"
+  },
+  "tradingEssentialsPage": {
+    "pageTitle": "Trading Essentials - TraderTok | Learn Trading Fundamentals",
+    "pageDescription": "Learn the fundamentals of trading with our comprehensive educational resources.",
+    "heroTitle": "Trading",
+    "heroTitleHighlight": "Essentials",
+    "heroSubtitle": "TraderTok caters to all clients, based on their respective skill and experience. For those who are beginners, an extensive \"trading essentials\" section will be dedicated. In here, we will detail all the most important terminology, as well as basic education needed for the start of your trading journey."
+  },
+  "videoEducationPage": {
+    "pageTitle": "Video Education - TraderTok | Trading Tutorials",
+    "pageDescription": "Watch trading tutorials and expert insights to improve your trading skills.",
+    "heroTitle": "Video",
+    "heroTitleHighlight": "Education",
+    "comingSoon": "Coming Soon",
+    "heroSubtitle": "TraderTok offers a wide range of educational resources. One way to learn more about trading, is through our extensive video gallery, covering dozens of hot topics, constantly relevant for traders, both professional and beginners alike."
+  },
+  "liveTrainingPage": {
+    "pageTitle": "Live Training - TraderTok | Expert Trading Sessions",
+    "pageDescription": "Join live trading sessions with our expert analysts.",
+    "heroTitle": "Learn Trading",
+    "heroTitleHighlight": "Live",
+    "heroDescription": "Join our expert-led live trading sessions and webinars. Get real-time market analysis, learn proven strategies, and interact directly with professional traders.",
+    "sessionsMonth": "Sessions/Month",
+    "activeLearners": "Active Learners",
+    "expertTrainers": "Expert Trainers",
+    "hoursTraining": "Hours of Training",
+    "upcomingSessions": "Upcoming Sessions",
+    "upcomingSessionsDesc": "Reserve your spot in our next live trading sessions. Limited seats available.",
+    "registerNow": "Register Now",
+    "daysLeft": "days left until the event",
+    "event1": {
+      "monthShort": "Feb",
+      "fullDate": "Wednesday, 18th of February 2026",
+      "time": "13:00 GMT+1",
+      "title": "Gold - Reaching New Heights in 2026",
+      "description": "There is no better way to teach our clients on ins and outs of the markets and investing, than through the use of live training. Join our exclusive webinars to learn more on a weekly basis."
+    },
+    "event2": {
+      "monthShort": "Mar",
+      "fullDate": "Wednesday, 18th of March 2026",
+      "time": "14:00 GMT+1",
+      "title": "Forex Fundamentals - Mastering Currency Trading",
+      "description": "Discover the essential strategies for successful forex trading. Our expert analysts will guide you through market analysis, risk management, and profitable trading techniques."
+    }
+  }
+}

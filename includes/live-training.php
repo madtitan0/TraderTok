@@ -285,50 +285,50 @@
                 <div class="training-layout">
                     <!-- Left Column - Text, Stats & First Event -->
                     <div class="training-left">
-                        <h1 class="hero-title">Learn Trading <span class="gradient-text">Live</span></h1>
-                        <p class="hero-description">
+                        <h1 class="hero-title"><span data-i18n="liveTrainingPage.heroTitle">Learn Trading</span> <span class="gradient-text" data-i18n="liveTrainingPage.heroTitleHighlight">Live</span></h1>
+                        <p class="hero-description" data-i18n="liveTrainingPage.heroDescription">
                             Join our expert-led live trading sessions and webinars. Get real-time market analysis, learn proven strategies, and interact directly with professional traders.
                         </p>
 
                         <div class="stats-bar">
                             <div class="stat-item">
                                 <div class="stat-number"><span class="counter" data-target="50">0</span>+</div>
-                                <div class="stat-label">Sessions/Month</div>
+                                <div class="stat-label" data-i18n="liveTrainingPage.sessionsMonth">Sessions/Month</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number"><span class="counter" data-target="15">0</span>K+</div>
-                                <div class="stat-label">Active Learners</div>
+                                <div class="stat-label" data-i18n="liveTrainingPage.activeLearners">Active Learners</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number"><span class="counter" data-target="8">0</span></div>
-                                <div class="stat-label">Expert Trainers</div>
+                                <div class="stat-label" data-i18n="liveTrainingPage.expertTrainers">Expert Trainers</div>
                             </div>
                             <div class="stat-item">
                                 <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
-                                <div class="stat-label">Hours of Training</div>
+                                <div class="stat-label" data-i18n="liveTrainingPage.hoursTraining">Hours of Training</div>
                             </div>
                         </div>
 
                         <!-- Upcoming Sessions Header & First Event -->
                         <div class="upcoming-section">
-                            <h2 class="section-title">Upcoming Sessions</h2>
-                            <p class="section-description">Reserve your spot in our next live trading sessions. Limited seats available.</p>
+                            <h2 class="section-title" data-i18n="liveTrainingPage.upcomingSessions">Upcoming Sessions</h2>
+                            <p class="section-description" data-i18n="liveTrainingPage.upcomingSessionsDesc">Reserve your spot in our next live trading sessions. Limited seats available.</p>
 
                             <div class="webinar-card">
-                                <p class="countdown-text"><strong id="countdown-days">83</strong> days left until the event</p>
+                                <p class="countdown-text"><strong id="countdown-days">83</strong> <span data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
                                 <div class="webinar-date">
                                     <div class="webinar-day">
                                         <span class="webinar-day-num">18</span>
-                                        <span class="webinar-day-name">Feb</span>
+                                        <span class="webinar-day-name" data-i18n="liveTrainingPage.event1.monthShort">Feb</span>
                                     </div>
                                     <div class="webinar-datetime">
-                                        <div class="webinar-month">Wednesday, 18th of February 2026</div>
-                                        <div class="webinar-time">13:00 GMT+1</div>
+                                        <div class="webinar-month" data-i18n="liveTrainingPage.event1.fullDate">Wednesday, 18th of February 2026</div>
+                                        <div class="webinar-time" data-i18n="liveTrainingPage.event1.time">13:00 GMT+1</div>
                                     </div>
                                 </div>
-                                <h3 class="webinar-title">Gold - Reaching New Heights in 2026</h3>
-                                <p class="webinar-description">There is no better way to teach our clients on ins and outs of the markets and investing, than through the use of live training. Join our exclusive webinars to learn more on a weekly basis.</p>
-                                <button class="btn-register">Register Now</button>
+                                <h3 class="webinar-title" data-i18n="liveTrainingPage.event1.title">Gold - Reaching New Heights in 2026</h3>
+                                <p class="webinar-description" data-i18n="liveTrainingPage.event1.description">There is no better way to teach our clients on ins and outs of the markets and investing, than through the use of live training. Join our exclusive webinars to learn more on a weekly basis.</p>
+                                <button class="btn-register" data-i18n="liveTrainingPage.registerNow">Register Now</button>
                             </div>
                         </div>
                     </div>
@@ -340,20 +340,20 @@
                         </div>
 
                         <div class="webinar-card">
-                            <p class="countdown-text"><strong id="countdown-days-2">111</strong> days left until the event</p>
+                            <p class="countdown-text"><strong id="countdown-days-2">111</strong> <span data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
                             <div class="webinar-date">
                                 <div class="webinar-day">
                                     <span class="webinar-day-num">18</span>
-                                    <span class="webinar-day-name">Mar</span>
+                                    <span class="webinar-day-name" data-i18n="liveTrainingPage.event2.monthShort">Mar</span>
                                 </div>
                                 <div class="webinar-datetime">
-                                    <div class="webinar-month">Wednesday, 18th of March 2026</div>
-                                    <div class="webinar-time">14:00 GMT+1</div>
+                                    <div class="webinar-month" data-i18n="liveTrainingPage.event2.fullDate">Wednesday, 18th of March 2026</div>
+                                    <div class="webinar-time" data-i18n="liveTrainingPage.event2.time">14:00 GMT+1</div>
                                 </div>
                             </div>
-                            <h3 class="webinar-title">Forex Fundamentals - Mastering Currency Trading</h3>
-                            <p class="webinar-description">Discover the essential strategies for successful forex trading. Our expert analysts will guide you through market analysis, risk management, and profitable trading techniques.</p>
-                            <button class="btn-register">Register Now</button>
+                            <h3 class="webinar-title" data-i18n="liveTrainingPage.event2.title">Forex Fundamentals - Mastering Currency Trading</h3>
+                            <p class="webinar-description" data-i18n="liveTrainingPage.event2.description">Discover the essential strategies for successful forex trading. Our expert analysts will guide you through market analysis, risk management, and profitable trading techniques.</p>
+                            <button class="btn-register" data-i18n="liveTrainingPage.registerNow">Register Now</button>
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
         </section>
     </main>
 
-        <script>
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Counter Animation
             const counters = document.querySelectorAll('.counter');

@@ -182,47 +182,47 @@
                 <div class="contact-layout">
                     <!-- Left Side - Form -->
                     <div class="contact-content">
-                        <h1 class="contact-title">Contact <span class="gradient-text">Us</span></h1>
-                        <p class="contact-description">
+                        <h1 class="contact-title"><span data-i18n="contactUsPage.heroTitle">Contact</span> <span class="gradient-text" data-i18n="contactUsPage.heroTitleHighlight">Us</span></h1>
+                        <p class="contact-description" data-i18n="contactUsPage.heroDescription">
                             We remain open to any inquiries or questions you might have. Please submit a query in the fields below, and our support team will promptly respond to it.
                         </p>
 
                         <form class="contact-form" id="contactForm" novalidate>
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                                    <label for="name" class="form-label" data-i18n="contactUsPage.formName">Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" data-i18n-placeholder="contactUsPage.formNamePlaceholder" required>
                                     <span class="form-error" id="name-error"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="surname" class="form-label">Surname</label>
-                                    <input type="text" id="surname" name="surname" class="form-input" placeholder="Enter your surname" required>
+                                    <label for="surname" class="form-label" data-i18n="contactUsPage.formSurname">Surname</label>
+                                    <input type="text" id="surname" name="surname" class="form-input" placeholder="Enter your surname" data-i18n-placeholder="contactUsPage.formSurnamePlaceholder" required>
                                     <span class="form-error" id="surname-error"></span>
                                 </div>
                             </div>
 
                             <div class="form-row">
                                 <div class="form-group">
-                                    <label for="phone" class="form-label">Phone</label>
-                                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+44 7520 640 890" required>
+                                    <label for="phone" class="form-label" data-i18n="contactUsPage.formPhone">Phone</label>
+                                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="+44 7520 640 890" data-i18n-placeholder="contactUsPage.formPhonePlaceholder" required>
                                     <span class="form-error" id="phone-error"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                                    <label for="email" class="form-label" data-i18n="contactUsPage.formEmail">Email</label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" data-i18n-placeholder="contactUsPage.formEmailPlaceholder" required>
                                     <span class="form-error" id="email-error"></span>
                                 </div>
                             </div>
 
                             <div class="form-group">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your inquiry..." rows="5" required></textarea>
+                                <label for="message" class="form-label" data-i18n="contactUsPage.formMessage">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your inquiry..." data-i18n-placeholder="contactUsPage.formMessagePlaceholder" rows="5" required></textarea>
                                 <span class="form-error" id="message-error"></span>
                             </div>
 
                             <div class="form-status" id="formStatus" role="alert"></div>
 
-                            <button type="submit" class="btn-contact-submit" id="submitBtn">Send Message</button>
+                            <button type="submit" class="btn-contact-submit" id="submitBtn" data-i18n="contactUsPage.formSubmit">Send Message</button>
                         </form>
                     </div>
 

@@ -3,7 +3,8 @@
         <div class="container">
             <!-- Left side - Image -->
             <div class="hero-person">
-                <img src="assets/images/hero-background.webp" alt="Professional trader reviewing market data on TraderTok platform" loading="eager">
+                <img src="assets/images/hero-background.webp" alt="Professional trader reviewing market data on TraderTok platform" loading="eager" class="hero-img-dark">
+                <img src="assets/images/hero-background_white.png" alt="Professional trader reviewing market data on TraderTok platform" loading="eager" class="hero-img-light">
                 <div class="phone-chart">
                     <canvas id="candles"></canvas>
                 </div>
@@ -11,12 +12,12 @@
 
             <!-- Right side - Content -->
             <div class="hero-content">
-                <h1 class="hero-title">Enter <span class="gradient-text">The Markets</span> With Confidence At<br><span class="gradient-text">TraderTok</span></h1>
+                <h1 class="hero-title" data-i18n-html="hero.title">Enter <span class="gradient-text">The Markets</span> With Confidence At<br><span class="gradient-text">TraderTok</span></h1>
                 <div class="hero-buttons">
-                    <a href="<?= $get->login_url ?>" class="btn-hero btn-primary-hero" style="text-decoration: none;">Get Started</a>
-                    <a href="<?= $get->register_url ?>" class="btn-hero btn-secondary-hero" style="text-decoration: none;">Learn More</a>
+                    <a href="<?= $get->login_url ?>" class="btn-hero btn-primary-hero" data-i18n="hero.getStarted" style="text-decoration: none;">Get Started</a>
+                    <a href="<?= $get->register_url ?>" class="btn-hero btn-secondary-hero" data-i18n="hero.learnMore" style="text-decoration: none;">Learn More</a>
                 </div>
-                <p class="hero-description">At TraderTok, we support you with free market analysis and a team of experienced professionals, so you're never navigating the markets alone. With a broad range of trading instruments and a strong community of investors, TraderTok is a trusted destination for those looking to take the next step in their financial journey.</p>
+                <p class="hero-description" data-i18n="hero.description">At TraderTok, we support you with free market analysis and a team of experienced professionals, so you're never navigating the markets alone. With a broad range of trading instruments and a strong community of investors, TraderTok is a trusted destination for those looking to take the next step in their financial journey.</p>
             </div>
         </div>
     </section>
@@ -28,11 +29,11 @@
                 <!-- Left - Content -->
                 <div class="promo-content">
                     <h2 class="promo-title">
-                        <span class="promo-title-highlight">200%</span>
-                        Invest Now and receive up to 200% bonus
+                        <span class="promo-title-highlight" data-i18n="promo.highlight">200%</span>
+                        <span data-i18n="promo.title">Invest Now and receive up to 200% bonus</span>
                     </h2>
 
-                    <p class="promo-subtitle">
+                    <p class="promo-subtitle" data-i18n="promo.subtitle">
                         Contact your account manager to find out more
                     </p>
 
@@ -40,29 +41,29 @@
                     <div class="promo-countdown" id="promo-countdown">
                         <div class="countdown-item">
                             <span class="countdown-value" id="countdown-days">00</span>
-                            <span class="countdown-label">Days</span>
+                            <span class="countdown-label" data-i18n="promo.days">Days</span>
                         </div>
                         <div class="countdown-item">
                             <span class="countdown-value" id="countdown-hours">00</span>
-                            <span class="countdown-label">Hours</span>
+                            <span class="countdown-label" data-i18n="promo.hours">Hours</span>
                         </div>
                         <div class="countdown-item">
                             <span class="countdown-value" id="countdown-minutes">00</span>
-                            <span class="countdown-label">Min</span>
+                            <span class="countdown-label" data-i18n="promo.min">Min</span>
                         </div>
                         <div class="countdown-item">
                             <span class="countdown-value" id="countdown-seconds">00</span>
-                            <span class="countdown-label">Sec</span>
+                            <span class="countdown-label" data-i18n="promo.sec">Sec</span>
                         </div>
                     </div>
 
-                    <div class="promo-expired" id="promo-expired">
+                    <div class="promo-expired" id="promo-expired" data-i18n="promo.expired">
                         This offer has expired. Stay tuned for new promotions!
                     </div>
 
                     <div class="promo-cta">
                         <!-- <button class="btn-promo" onclick="openAuthModal('register')">Get Started</button> -->
-                        <a href="<?= $get->register_url ?>" class="btn-promo" style="text-decoration: none;">Get Started</a>
+                        <a href="<?= $get->register_url ?>" class="btn-promo"  data-i18n="hero.getStarted" style="text-decoration: none;">Get Started</a>
                         
                     </div>
                 </div>
@@ -102,15 +103,15 @@
                     <div class="candle" style="--x: 1030px; --y: 255px; --h: 135px; --delay: 0.4s; --duration: 5.7s;"></div>
                     <div class="candle" style="--x: 1160px; --y: 275px; --h: 115px; --delay: 1.1s; --duration: 4.9s;"></div>
                 </div>
-                                <div class="about-text">
-                    <h2 class="about-title">Your Trusted Partner in Financial Growth</h2>
-                    <p class="about-subtitle gradient-text">At TraderTok, we're redefining what it means to trade in the global markets.</p>
+                    <div class="about-text">
+                    <h2 class="about-title" data-i18n="about.title">Your Trusted Partner in Financial Growth</h2>
+                    <p class="about-subtitle gradient-text" data-i18n="about.subtitle">At TraderTok, we're redefining what it means to trade in the global markets.</p>
 
-                    <p class="about-description">Born from a passion for precision, technology, and opportunity, we've built a platform that empowers traders of all levels to take control of their financial future.</p>
+                    <p class="about-description" data-i18n="about.description1">Born from a passion for precision, technology, and opportunity, we've built a platform that empowers traders of all levels to take control of their financial future.</p>
 
-                    <p class="about-description">We don't just provide access to the markets — we provide the clarity, confidence, and cutting-edge tools that make a real difference. Every second counts in trading, and that's why we've engineered an environment where speed meets stability, and innovation meets opportunity.</p>
+                    <p class="about-description" data-i18n="about.description2">We don't just provide access to the markets — we provide the clarity, confidence, and cutting-edge tools that make a real difference. Every second counts in trading, and that's why we've engineered an environment where speed meets stability, and innovation meets opportunity.</p>
 
-                     <a href="<?= $get->register_url ?>" class="btn-about" style="text-decoration: none;">Learn More</a>
+                     <a href="<?= $get->register_url ?>" class="btn-about" data-i18n="hero.learnMore" style="text-decoration: none;">Learn More</a>
                 </div>
 
                 <!-- <?php
@@ -131,7 +132,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 <div class="about-stats">
                     <div class="stat-card">
                         <div class="stat-number" data-target="500">0</div>
-                        <div class="stat-label">Happy Clients</div>
+                        <div class="stat-label" data-i18n="about.happyClients">Happy Clients</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number stat-247">
@@ -139,11 +140,11 @@ if ($get->home_image_about_us && $get->home_about_us) {
                             <span class="stat-slash">/</span>
                             <span class="stat-7" data-target="7">0</span>
                         </div>
-                        <div class="stat-label">Support</div>
+                        <div class="stat-label" data-i18n="about.support">Support</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number" data-target="100">0</div>
-                        <div class="stat-label">Secure</div>
+                        <div class="stat-label" data-i18n="about.secure">Secure</div>
                     </div>
                 </div>
             </div>
@@ -155,13 +156,13 @@ if ($get->home_image_about_us && $get->home_about_us) {
         <div class="container">
             <div class="traders-club-card">
                 <div class="traders-club-content">
-                    <h2 class="traders-club-title">FREE</h2>
-                    <p class="traders-club-description">
+                    <h2 class="traders-club-title" data-i18n="tradersClub.free">FREE</h2>
+                    <p class="traders-club-description" data-i18n-html="tradersClub.description">
                         Join our <strong>Traders Club</strong> and get a free virtual card. Instant withdrawals, use worldwide with no fees and no limits.
                     </p>
-                    <p class="traders-club-disclaimer">*Available for verified club members only</p>
+                    <p class="traders-club-disclaimer" data-i18n="tradersClub.disclaimer">*Available for verified club members only</p>
                     <button class="btn-traders-club" id="openTradersClubModal">
-                        Join Now
+                        <span data-i18n="tradersClub.joinNow">Join Now</span>
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
@@ -186,23 +187,23 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 </svg>
             </button>
             <div class="modal-header">
-                <h3 class="modal-title">Join Traders Club</h3>
-                <p class="modal-subtitle">Get your free virtual card today</p>
+                <h3 class="modal-title" data-i18n="tradersClub.modalTitle">Join Traders Club</h3>
+                <p class="modal-subtitle" data-i18n="tradersClub.modalSubtitle">Get your free virtual card today</p>
             </div>
             <form class="traders-club-form" id="tradersClubForm">
                 <div class="form-group">
-                    <label for="clubName">Name</label>
-                    <input type="text" id="clubName" name="name" placeholder="Enter your name" required>
+                    <label for="clubName" data-i18n="tradersClub.name">Name</label>
+                    <input type="text" id="clubName" name="name" data-i18n-placeholder="tradersClub.namePlaceholder" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
-                    <label for="clubEmail">Email</label>
-                    <input type="email" id="clubEmail" name="email" placeholder="Enter your email" required>
+                    <label for="clubEmail" data-i18n="tradersClub.email">Email</label>
+                    <input type="email" id="clubEmail" name="email" data-i18n-placeholder="tradersClub.emailPlaceholder" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group">
-                    <label for="clubPhone">Phone</label>
-                    <input type="tel" id="clubPhone" name="phone" placeholder="Enter your phone" required>
+                    <label for="clubPhone" data-i18n="tradersClub.phone">Phone</label>
+                    <input type="tel" id="clubPhone" name="phone" data-i18n-placeholder="tradersClub.phonePlaceholder" placeholder="Enter your phone" required>
                 </div>
-                <button type="submit" class="btn-submit-club">
+                <button type="submit" class="btn-submit-club" data-i18n="tradersClub.getMyFreeCard">
                     Get My Free Card
                 </button>
             </form>
@@ -212,15 +213,28 @@ if ($get->home_image_about_us && $get->home_about_us) {
     <!-- Insights Section -->
     <section class="insights">
         <div class="insights-wrapper">
-            <h2 class="insights-title">Get the latest analytics insights — straight from our team to you.</h2>
+            <h2 class="insights-title" data-i18n="insights.title">Get the latest analytics insights — straight from our team to you.</h2>
            
                 <div class="insights-cards">
-                     <?php foreach ($cards as $card) { ?>
+                    <?php 
+                    // Mapping for i18n keys based on card titles
+                    $cardI18nMap = [
+                        'Financial Strategy' => 'financialStrategy',
+                        'Free Trainings' => 'freeTrainings',
+                        'Asset Management' => 'assetManagement',
+                        'Demo Account' => 'demoAccount'
+                    ];
+                    
+                    foreach ($cards as $card) { 
+                        // Normalize title to match keys (remove <br>, trim whitespace)
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($card->title)));
+                        $i18nSuffix = isset($cardI18nMap[$cleanTitle]) ? $cardI18nMap[$cleanTitle] : null;
+                    ?>
                     <article class="insight-card">
                         <div class="card-overlay"></div>
                         <div class="card-content">
-                            <h3 class="card-title"><?= $card->title ?></h3>
-                            <p class="card-description"><?= $card->content ?></p>
+                            <h3 class="card-title" <?= $i18nSuffix ? 'data-i18n-html="insights.' . $i18nSuffix . '"' : '' ?>><?= $card->title ?></h3>
+                            <p class="card-description" <?= $i18nSuffix ? 'data-i18n="insights.' . $i18nSuffix . 'Desc"' : '' ?>><?= $card->content ?></p>
                         </div>
                     </article>
                         <?php } ?>
@@ -269,9 +283,9 @@ if ($get->home_image_about_us && $get->home_about_us) {
         <div class="container">
             <!-- Header -->
             <div class="platforms-header">
-                <div class="platforms-eyebrow">Our Trading Platforms</div>
-                <h2 class="platforms-title">Come Trade With Us</h2>
-                <p class="platforms-subtitle">
+                <div class="platforms-eyebrow" data-i18n="platforms.eyebrow">Our Trading Platforms</div>
+                <h2 class="platforms-title" data-i18n="platforms.title">Come Trade With Us</h2>
+                <p class="platforms-subtitle" data-i18n="platforms.subtitle">
                     Choose how you prefer to trade: powerful desktop application for deep analysis
                     or lightweight mobile platform to stay in the market on the go.
                 </p>
@@ -284,13 +298,13 @@ if ($get->home_image_about_us && $get->home_about_us) {
                     <div class="platform-options">
                         <!-- Desktop Platform Option -->
                         <div class="platform-option platform-option--desktop" tabindex="0" role="button" aria-pressed="false">
-                            <div class="platform-option__label">Web &amp; Desktop</div>
+                            <div class="platform-option__label" data-i18n="platforms.webDesktop">Web &amp; Desktop</div>
                             <div class="platform-option__header">
-                                <div class="platform-option__title">
+                                <div class="platform-option__title" data-i18n="platforms.desktopTitle">
                                     TraderTok Desktop
                                 </div>
                             </div>
-                            <p class="platform-option__text">
+                            <p class="platform-option__text" data-i18n="platforms.desktopDescription">
                                 Access our TraderTok Desktop application on your Mac or Windows PC and get full access to charts,
                                 indicators and multi-screen workspace for professional trading.
                             </p>
@@ -299,26 +313,26 @@ if ($get->home_image_about_us && $get->home_about_us) {
                                     <svg class="btn-os-icon" viewBox="0 0 88 88" aria-hidden="true">
                                         <path fill="currentColor" d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.529l.028 34.453L.028 75.48.026 45.7zm4.326-39.025L87.314 0v41.527l-47.318.376zm47.329 39.349l-.011 41.34-47.318-6.678-.066-34.739z"/>
                                     </svg>
-                                    Windows
+                                    <span data-i18n="platforms.windows">Windows</span>
                                 </a>
                                 <a href="https://tradertok.com/download/mac.zip" class="btn-platform btn-platform-outline" style=" text-decoration: none;">
                                     <svg class="btn-os-icon" viewBox="0 0 24 24" aria-hidden="true">
                                         <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                                     </svg>
-                                    Mac
+                                    <span data-i18n="platforms.mac">Mac</span>
                                 </a>
                             </div>
                         </div>
 
                         <!-- Mobile Platform Option -->
                         <div class="platform-option platform-option--mobile" tabindex="0" role="button" aria-pressed="false">
-                            <div class="platform-option__label">Mobile Platform</div>
+                            <div class="platform-option__label" data-i18n="platforms.mobilePlatform">Mobile Platform</div>
                             <div class="platform-option__header">
-                                <div class="platform-option__title">
+                                <div class="platform-option__title" data-i18n="platforms.mobileTitle">
                                     TraderTok Mobile
                                 </div>
                             </div>
-                            <p class="platform-option__text">
+                            <p class="platform-option__text" data-i18n="platforms.mobileDescription">
                                 Access our mobile platform on iOS and Android and trade anywhere: open, manage
                                 and close positions right from your phone in just a few taps.
                             </p>
@@ -327,7 +341,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                                     <svg class="btn-os-icon" viewBox="0 0 24 24" aria-hidden="true">
                                         <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                                     </svg>
-                                    Sign In
+                                    <span data-i18n="auth.signIn">Sign In</span>
                                 </a>
                             </div>
                         </div>
@@ -380,23 +394,37 @@ if ($get->home_image_about_us && $get->home_about_us) {
             </div>
 
             <div class="instruments-intro-home">
-                <h2 class="instruments-home-title">Explore Our Trading Instruments</h2>
-                <p class="instruments-home-subtitle gradient-text">At TraderTok, we offer an extensive range of trading instruments tailored to meet the needs of every kind of trader—whether you're just starting out or managing a sophisticated portfolio.</p>
-                <p class="instruments-home-description">With access to global markets and deep liquidity, our platform empowers you to explore opportunities across a broad spectrum of asset classes, all in one place. We believe that choice is power, which is why we continuously expand our list of instruments to match the pace of the ever-evolving financial landscape.</p>
+                <h2 class="instruments-home-title" data-i18n="instruments.sectionTitle">Explore Our Trading Instruments</h2>
+                <p class="instruments-home-subtitle gradient-text" data-i18n="instruments.sectionSubtitle">At TraderTok, we offer an extensive range of trading instruments tailored to meet the needs of every kind of trader—whether you're just starting out or managing a sophisticated portfolio.</p>
+                <p class="instruments-home-description" data-i18n="instruments.sectionDescription">With access to global markets and deep liquidity, our platform empowers you to explore opportunities across a broad spectrum of asset classes, all in one place. We believe that choice is power, which is why we continuously expand our list of instruments to match the pace of the ever-evolving financial landscape.</p>
             </div>
 
             <!-- Instruments Accordion -->
             <div class="instruments-accordion-home">
-                    <?php $advantId = 0;
-                                                        foreach ($advantages as $advantage) {
-                                                            $advantage_img = $advantage->image ?   $get->assets_url . '/' . $advantage->image : "wp-content/uploads/2019/02/banner-image-one.jpg"; ?>
+                    <?php 
+                    $instrumentI18nMap = [
+                        'Forex' => 'forex',
+                        'Commodities' => 'commodities',
+                        'Stocks' => 'stocks',
+                        'Indices' => 'indices',
+                        'Cryptocurrencies' => 'cryptocurrencies'
+                    ];
+
+                    $advantId = 0;
+                    foreach ($advantages as $advantage) {
+                        $advantage_img = $advantage->image ?   $get->assets_url . '/' . $advantage->image : "wp-content/uploads/2019/02/banner-image-one.jpg"; 
+                        
+                        // Normalize title
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($advantage->title)));
+                        $i18nSuffix = isset($instrumentI18nMap[$cleanTitle]) ? $instrumentI18nMap[$cleanTitle] : null;
+                    ?>
                     <div class="accordion-item">
                         <button class="accordion-header">
-                            <span class="accordion-title"><?= $advantage->title ?></span>
+                            <span class="accordion-title" <?= $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . '"' : '' ?>><?= $advantage->title ?></span>
                             <span class="accordion-icon">+</span>
                         </button>
                         <div class="accordion-content">
-                            <div class="accordion-body">
+                            <div class="accordion-body" <?= $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . 'Desc"' : '' ?>>
                                 <?= $advantage->content ?>
                             </div>
                         </div>
@@ -463,31 +491,51 @@ if ($get->home_image_about_us && $get->home_about_us) {
     <section class="why-choose">
         <div class="container">
             <div class="why-choose-content">
-                <h2 class="why-choose-title">Why Choose TraderTok</h2>
-                <p class="why-choose-description gradient-text">We provide our investors with continuous improvement, new opportunities to explore financial markets and the opportunity to work with a recognized leader in the financial industry.</p>
+                <h2 class="why-choose-title" data-i18n="whyChoose.title">Why Choose TraderTok</h2>
+                <p class="why-choose-description gradient-text" data-i18n="whyChoose.subtitle">We provide our investors with continuous improvement, new opportunities to explore financial markets and the opportunity to work with a recognized leader in the financial industry.</p>
             </div>
 
             <!-- Two Column Layout -->
             <div class="why-choose-grid">
                 <!-- Left Column: Video -->
                 <div class="why-choose-video">
-                    <video autoplay loop muted playsinline class="trading-video" aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
+                    <video autoplay loop muted playsinline class="trading-video trading-video-dark" aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
                         <source src="assets/images/why-choose-video1.mp4" type="video/mp4">
                         <track kind="captions" src="captions.vtt" srclang="en" label="English captions">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video autoplay loop muted playsinline class="trading-video trading-video-light" aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
+                        <source src="assets/images/why-choose-video1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
 
                 <!-- Right Column: Accordion FAQ -->
                 <div class="why-choose-accordion">
-                    <?php $questId=0;  foreach ($questions as $quest) {   ?>
+                    <?php 
+                    $whyChooseI18nMap = [
+                        'Lightning-Fast Execution' => 'whyChoose.lightningExecution',
+                        'Cutting-Edge Platforms' => 'whyChoose.cuttingEdgePlatforms',
+                        'Global Markets, Local Insights' => 'whyChoose.globalMarkets',
+                        'Competitive Pricing & Tight Spreads' => 'whyChoose.competitivePricing',
+                        'Expert Support' => 'whyChoose.expertSupport',
+                        'Security & Trust' => 'whyChoose.securityTrust',
+                        'Education & Resources' => 'whyChoose.educationResources'
+                    ];
+
+                    $questId=0;  
+                    foreach ($questions as $quest) {   
+                        // Normalize title
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($quest->title)));
+                        $i18nKey = isset($whyChooseI18nMap[$cleanTitle]) ? $whyChooseI18nMap[$cleanTitle] : null;
+                    ?>
                         <div class="accordion-item">
                             <button class="accordion-header">
-                                <span class="accordion-title"><?= $quest->title ?></span>
+                                <span class="accordion-title" <?= $i18nKey ? 'data-i18n="' . $i18nKey . '"' : '' ?>><?= $quest->title ?></span>
                                 <span class="accordion-icon">+</span>
                             </button>
                             <div class="accordion-content">
-                                <div class="accordion-body">
+                                <div class="accordion-body" <?= $i18nKey ? 'data-i18n="' . $i18nKey . 'Desc"' : '' ?>>
                                     <?= $quest->content ?>
                                 </div>
                             </div>
@@ -598,11 +646,11 @@ if ($get->home_image_about_us && $get->home_about_us) {
                         <span class="counter-symbol">%</span>
                     </div>
                     <p class="deposit-description">
-                        <strong>7.6% interest</strong> is Monthly. Receive monthly interest payment directly into your cash balance, with no obligation.
+                        <strong data-i18n="deposit.interest">7.6% interest</strong> <span data-i18n="deposit.isMonthly">is Monthly</span>. <span data-i18n="deposit.description">Receive monthly interest payment directly into your cash balance, with no obligation.</span>
                     </p>
-                    <p class="deposit-disclaimer">*Credit and other risks apply, please read the Terms and Conditions</p>
+                    <p class="deposit-disclaimer" data-i18n="deposit.disclaimer">*Credit and other risks apply, please read the Terms and Conditions</p>
                     <button class="btn-deposit" id="openDepositModal">
-                        Join Now
+                        <span data-i18n="deposit.joinNow">Join Now</span>
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <polyline points="12 5 19 12 12 19"></polyline>
@@ -627,24 +675,24 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 </svg>
             </button>
             <div class="modal-header">
-                <h3 class="modal-title">Open Deposit Account</h3>
-                <p class="modal-subtitle">Fill in your details and our manager will contact you</p>
+                <h3 class="modal-title" data-i18n="deposit.modalTitle">Open Deposit Account</h3>
+                <p class="modal-subtitle" data-i18n="deposit.modalSubtitle">Fill in your details and our manager will contact you</p>
             </div>
             <form class="deposit-form" id="depositForm">
                 <div class="form-group">
-                    <label for="depositName">Name</label>
-                    <input type="text" id="depositName" name="name" placeholder="Enter your name" required>
+                    <label for="depositName" data-i18n="deposit.name">Name</label>
+                    <input type="text" id="depositName" name="name" placeholder="Enter your name" data-i18n-placeholder="deposit.namePlaceholder" required>
                 </div>
                 <div class="form-group">
-                    <label for="depositEmail">Email</label>
-                    <input type="email" id="depositEmail" name="email" placeholder="Enter your email" required>
+                    <label for="depositEmail" data-i18n="deposit.email">Email</label>
+                    <input type="email" id="depositEmail" name="email" placeholder="Enter your email" data-i18n-placeholder="deposit.emailPlaceholder" required>
                 </div>
                 <div class="form-group">
-                    <label for="depositPhone">Phone</label>
-                    <input type="tel" id="depositPhone" name="phone" placeholder="+1 (555) 000-0000" required>
+                    <label for="depositPhone" data-i18n="deposit.phone">Phone</label>
+                    <input type="tel" id="depositPhone" name="phone" placeholder="+1 (555) 000-0000" data-i18n-placeholder="deposit.phonePlaceholder" required>
                 </div>
                 <button type="submit" class="btn-submit-deposit">
-                    <span class="btn-text">Submit Application</span>
+                    <span class="btn-text" data-i18n="deposit.submitApplication">Submit Application</span>
                     <span class="btn-loading">
                         <svg class="spinner" viewBox="0 0 24 24">
                             <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="31.4 31.4" stroke-linecap="round"/>
@@ -652,7 +700,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                     </span>
                 </button>
             </form>
-            <p class="modal-disclaimer">By submitting, you agree to our Terms of Service and Privacy Policy</p>
+            <p class="modal-disclaimer" data-i18n="deposit.modalDisclaimer">By submitting, you agree to our Terms of Service and Privacy Policy</p>
         </div>
     </div>
 
@@ -661,8 +709,8 @@ if ($get->home_image_about_us && $get->home_about_us) {
         <div class="container">
             <div class="telegram-card">
                 <div class="telegram-info">
-                    <h2 class="telegram-title">Join Our <span class="gradient-text">Community</span></h2>
-                    <p class="telegram-description">Get trading signals, market analysis, and connect with other traders</p>
+                    <h2 class="telegram-title" data-i18n-html="telegram.title">Join Our <span class="gradient-text">Community</span></h2>
+                    <p class="telegram-description" data-i18n="telegram.description">Get trading signals, market analysis, and connect with other traders</p>
                 </div>
                 <div class="telegram-person">
                     <img src="assets/images/Person holding phone happily.png" alt="Happy trader">
@@ -671,7 +719,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                     <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
                         <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
                     </svg>
-                    Join Now
+                    <span data-i18n="telegram.joinNow">Join Now</span>
                 </a>
             </div>
 
@@ -750,47 +798,47 @@ if ($get->home_image_about_us && $get->home_about_us) {
     <section class="contact-form-section">
         <div class="container">
             <div class="contact-form-content">
-                <h2 class="contact-form-title">Are You Ready To Earn With TraderTok?</h2>
-                <p class="contact-form-subtitle gradient-text">We will call you</p>
-                <p class="contact-form-description">Step into the world's largest trading volume market in few minutes; easily and securely.</p>
+                <h2 class="contact-form-title" data-i18n="contactForm.title">Are You Ready To Earn With TraderTok?</h2>
+                <p class="contact-form-subtitle gradient-text" data-i18n="contactForm.subtitle">We will call you</p>
+                <p class="contact-form-description" data-i18n="contactForm.description">Step into the world's largest trading volume market in few minutes; easily and securely.</p>
 
                 <!-- Contact Form -->
                 <form class="contact-form" id="contactForm" novalidate>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required aria-required="true">
+                            <label for="name" class="form-label" data-i18n="contactForm.name">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" data-i18n-placeholder="contactForm.namePlaceholder" required aria-required="true">
                             <span class="form-error" id="name-error"></span>
                         </div>
                         <div class="form-group">
-                            <label for="surname" class="form-label">Surname</label>
-                            <input type="text" id="surname" name="surname" class="form-input" placeholder="Enter your surname" required aria-required="true">
+                            <label for="surname" class="form-label" data-i18n="contactForm.surname">Surname</label>
+                            <input type="text" id="surname" name="surname" class="form-input" placeholder="Enter your surname" data-i18n-placeholder="contactForm.surnamePlaceholder" required aria-required="true">
                             <span class="form-error" id="surname-error"></span>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="phone" class="form-label">Phone</label>
-                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+44 7520 640 890" required aria-required="true" pattern="[+]?[0-9\s\-()]+">
+                            <label for="phone" class="form-label" data-i18n="contactForm.phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+44 7520 640 890" data-i18n-placeholder="contactForm.phonePlaceholder" required aria-required="true" pattern="[+]?[0-9\s\-()]+">
                             <span class="form-error" id="phone-error"></span>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required aria-required="true">
+                            <label for="email" class="form-label" data-i18n="contactForm.email">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" data-i18n-placeholder="contactForm.emailPlaceholder" required aria-required="true">
                             <span class="form-error" id="email-error"></span>
                         </div>
                     </div>
 
                     <div class="form-group form-group-full">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your trading goals..." rows="5" required aria-required="true"></textarea>
+                        <label for="message" class="form-label" data-i18n="contactForm.message">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your trading goals..." data-i18n-placeholder="contactForm.messagePlaceholder" rows="5" required aria-required="true"></textarea>
                         <span class="form-error" id="message-error"></span>
                     </div>
 
                     <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
 
-                    <button type="submit" class="btn-contact-submit" id="submitBtn">Contact Us</button>
+                    <button type="submit" class="btn-contact-submit" id="submitBtn" data-i18n="contactForm.submit">Contact Us</button>
                 </form>
             </div>
         </div>
@@ -917,7 +965,7 @@ foreach ($comments as $comentKey => $coment) {
             </div>
 
             <a href="https://www.trustpilot.com" target="_blank" class="trustpilot-link">
-                More reviews on Trustpilot
+                <span data-i18n="trustpilot.moreReviews">More reviews on Trustpilot</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
                     <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
@@ -929,8 +977,8 @@ foreach ($comments as $comentKey => $coment) {
     <section class="payment-methods-section">
         <div class="payment-methods-content">
             <div class="payment-methods-header">
-                <h2 class="payment-methods-title">Your funds are held in <span class="gradient-text">top-tier institutions</span></h2>
-                <p class="payment-methods-subtitle">The TraderTok Group works with globally renowned banking partners including:</p>
+                <h2 class="payment-methods-title" data-i18n-html="banking.title">Your funds are held in <span class="gradient-text">top-tier institutions</span></h2>
+                <p class="payment-methods-subtitle" data-i18n="banking.subtitle">The TraderTok Group works with globally renowned banking partners including:</p>
             </div>
 
             <div class="payment-marquee">
@@ -1005,6 +1053,6 @@ foreach ($comments as $comentKey => $coment) {
                 </div>
             </div>
 
-            <p class="banking-disclaimer">* These banks are partnered with the TraderTok group and do not serve all entities within the group</p>
+            <p class="banking-disclaimer" data-i18n="banking.disclaimer">* These banks are partnered with the TraderTok group and do not serve all entities within the group</p>
         </div>
     </section>

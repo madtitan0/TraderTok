@@ -356,6 +356,57 @@
         [data-theme="light"] .tradingview-widget-container iframe {
             filter: invert(0);
         }
+
+        /* Light Theme Styles */
+        body.light-theme .markets-header .gradient-text {
+            background: linear-gradient(90deg,
+                #E63946 0%,
+                #FF6B35 25%,
+                #1a1a1a 50%,
+                #1a1a1a 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        body.light-theme .crypto-table th {
+            background: #e8eaed;
+            color: #333;
+        }
+
+        body.light-theme .crypto-table td {
+            color: #1a1a1a;
+        }
+
+        body.light-theme .crypto-table tbody tr:hover td {
+            background: #e8eaed;
+        }
+
+        body.light-theme .crypto-name {
+            color: #1a1a1a;
+        }
+
+        body.light-theme .crypto-symbol {
+            color: #666;
+        }
+
+        body.light-theme .crypto-rank {
+            color: #666;
+        }
+
+        body.light-theme .widget-container {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+        }
+
+        body.light-theme .section-title-group p {
+            color: #555;
+        }
+
+        body.light-theme .markets-header p {
+            color: #555;
+        }
     </style>
 
     <!-- Main Content Section -->
@@ -363,8 +414,8 @@
         <div class="container">
             <!-- Page Header -->
             <div class="markets-header">
-                <h1>Markets <span class="gradient-text">Overview</span></h1>
-                <p>Real-time market data, economic events, and cryptocurrency prices all in one place</p>
+                <h1><span data-i18n="eventsCalendarPage.heroTitle">Markets</span> <span class="gradient-text" data-i18n="eventsCalendarPage.heroTitleHighlight">Overview</span></h1>
+                <p data-i18n="eventsCalendarPage.heroSubtitle">Real-time market data, economic events, and cryptocurrency prices all in one place</p>
             </div>
 
             <!-- Section 1: Live Market -->
@@ -377,14 +428,18 @@
                             <polyline points="17 7 21 7 21 11"/>
                         </svg>
                     </div>
-                    <div class="section-title-group">
-                        <h2>Live Market</h2>
-                        <p>Real-time quotes for major forex pairs, indices, and commodities</p>
+                   <div class="section-title-group">
+                        <h2 data-i18n="eventsCalendarPage.liveMarket">Live Market</h2>
+                        <p data-i18n="eventsCalendarPage.liveMarketDesc">Real-time quotes for major forex pairs, indices, and commodities</p>
                     </div>
-                    <span class="live-indicator">LIVE</span>
+                    <span class="live-indicator" data-i18n="eventsCalendarPage.live">LIVE</span>
                 </div>
                 <div class="widget-container">
                     <!-- TradingView Market Overview Widget -->
+                    <div id="market-overview-widget"></div>
+                </div>
+                <!-- <div class="widget-container">
+                    TradingView Market Overview Widget
                     <div class="tradingview-widget-container">
                         <div class="tradingview-widget-container__widget"></div>
                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
@@ -440,7 +495,7 @@
                         }
                         </script>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- Section 2: Economic Calendar -->
@@ -457,13 +512,13 @@
                         </svg>
                     </div>
                     <div class="section-title-group">
-                        <h2>Economic Calendar</h2>
-                        <p>Upcoming economic events and their expected impact on the markets</p>
+                        <h2 data-i18n="eventsCalendarPage.economicCalendar">Economic Calendar</h2>
+                        <p data-i18n="eventsCalendarPage.economicCalendarDesc">Upcoming economic events and their expected impact on the markets</p>
                     </div>
-                    <span class="live-indicator">LIVE</span>
+                    <span class="live-indicator" data-i18n="eventsCalendarPage.live">LIVE</span>
                 </div>
-                <div class="widget-container">
-                    <!-- TradingView Economic Calendar Widget -->
+                <!-- <div class="widget-container">
+                    TradingView Economic Calendar Widget
                     <div class="tradingview-widget-container">
                         <div class="tradingview-widget-container__widget"></div>
                         <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
@@ -478,6 +533,10 @@
                         }
                         </script>
                     </div>
+                </div> -->
+                <div class="widget-container">
+                    <!-- TradingView Economic Calendar Widget -->
+                    <div id="economic-calendar-widget"></div>
                 </div>
             </div>
 
@@ -498,10 +557,10 @@
                         </svg>
                     </div>
                     <div class="section-title-group">
-                        <h2>Cryptocurrency Market</h2>
-                        <p>Top cryptocurrencies by market capitalization with real-time data</p>
+                        <h2 data-i18n="eventsCalendarPage.cryptoMarket">Cryptocurrency Market</h2>
+                        <p data-i18n="eventsCalendarPage.cryptoMarketDesc">Top cryptocurrencies by market capitalization with real-time data</p>
                     </div>
-                    <span class="live-indicator">LIVE</span>
+                    <span class="live-indicator" data-i18n="eventsCalendarPage.live">LIVE</span>
                 </div>
                 <div class="crypto-table-wrapper">
                     <table class="crypto-table" id="cryptoTable">
@@ -658,17 +717,125 @@
         }
 
         // Initialize
+      // Initialize
         document.addEventListener('DOMContentLoaded', () => {
             fetchCryptoData();
 
             // Refresh crypto data every 60 seconds
             setInterval(fetchCryptoData, 60000);
+
+            // Initialize TradingView widgets
+            initTradingViewWidgets();
+
+            // Listen for theme changes
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.attributeName === 'class') {
+                        initTradingViewWidgets();
+                    }
+                });
+            });
+            observer.observe(document.body, { attributes: true });
         });
 
-        // Update TradingView widget theme based on current theme
-        function updateWidgetTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            // TradingView widgets will need page refresh to change theme
-            // This is a limitation of their embed widgets
+        // Get current theme
+        function getCurrentTheme() {
+            return document.body.classList.contains('light-theme') ? 'light' : 'dark';
+        }
+
+        // Initialize TradingView widgets with correct theme
+        function initTradingViewWidgets() {
+            const theme = getCurrentTheme();
+
+            // Market Overview Widget
+            const marketContainer = document.getElementById('market-overview-widget');
+            if (marketContainer) {
+                marketContainer.innerHTML = '';
+                const widgetDiv = document.createElement('div');
+                widgetDiv.className = 'tradingview-widget-container';
+                widgetDiv.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+                marketContainer.appendChild(widgetDiv);
+
+                const script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js';
+                script.async = true;
+                script.innerHTML = JSON.stringify({
+                    "colorTheme": theme,
+                    "dateRange": "12M",
+                    "showChart": true,
+                    "locale": "en",
+                    "width": "100%",
+                    "height": "550",
+                    "largeChartUrl": "",
+                    "isTransparent": true,
+                    "showSymbolLogo": true,
+                    "showFloatingTooltip": true,
+                    "tabs": [
+                        {
+                            "title": "Forex",
+                            "symbols": [
+                                {"s": "FX:EURUSD", "d": "EUR/USD"},
+                                {"s": "FX:GBPUSD", "d": "GBP/USD"},
+                                {"s": "FX:USDJPY", "d": "USD/JPY"},
+                                {"s": "FX:USDCHF", "d": "USD/CHF"},
+                                {"s": "FX:AUDUSD", "d": "AUD/USD"},
+                                {"s": "FX:USDCAD", "d": "USD/CAD"}
+                            ],
+                            "originalTitle": "Forex"
+                        },
+                        {
+                            "title": "Indices",
+                            "symbols": [
+                                {"s": "FOREXCOM:SPXUSD", "d": "S&P 500"},
+                                {"s": "FOREXCOM:NSXUSD", "d": "NASDAQ 100"},
+                                {"s": "FOREXCOM:DJI", "d": "Dow Jones"},
+                                {"s": "INDEX:DAX", "d": "DAX"},
+                                {"s": "INDEX:NKY", "d": "Nikkei 225"},
+                                {"s": "INDEX:UKX", "d": "FTSE 100"}
+                            ],
+                            "originalTitle": "Indices"
+                        },
+                        {
+                            "title": "Commodities",
+                            "symbols": [
+                                {"s": "TVC:GOLD", "d": "Gold"},
+                                {"s": "TVC:SILVER", "d": "Silver"},
+                                {"s": "TVC:USOIL", "d": "WTI Crude Oil"},
+                                {"s": "TVC:UKOIL", "d": "Brent Crude Oil"},
+                                {"s": "TVC:PLATINUM", "d": "Platinum"},
+                                {"s": "TVC:PALLADIUM", "d": "Palladium"}
+                            ],
+                            "originalTitle": "Commodities"
+                        }
+                    ]
+                });
+                widgetDiv.appendChild(script);
+            }
+
+            // Economic Calendar Widget
+            const calendarContainer = document.getElementById('economic-calendar-widget');
+            if (calendarContainer) {
+                calendarContainer.innerHTML = '';
+                const widgetDiv = document.createElement('div');
+                widgetDiv.className = 'tradingview-widget-container';
+                widgetDiv.innerHTML = '<div class="tradingview-widget-container__widget"></div>';
+                calendarContainer.appendChild(widgetDiv);
+
+                const script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-events.js';
+                script.async = true;
+                script.innerHTML = JSON.stringify({
+                    "colorTheme": theme,
+                    "isTransparent": true,
+                    "width": "100%",
+                    "height": "550",
+                    "locale": "en",
+                    "importanceFilter": "-1,0,1",
+                    "countryFilter": "us,eu,gb,jp,cn,de,fr,au,ca,ch"
+                });
+                widgetDiv.appendChild(script);
+            }
         }
     </script>

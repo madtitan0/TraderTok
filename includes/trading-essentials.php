@@ -11,12 +11,12 @@
         <div class="container">
             <div class="page-hero-content">
                 <div class="page-hero-badge">
-                    <span>Education Resources</span>
+                    <span data-i18n="nav.educationResources">Education Resources</span>
                 </div>
                 <h1 class="page-hero-title">
-                    Trading <span class="gradient-text">Essentials</span>
+                    <span data-i18n="tradingEssentialsPage.heroTitle">Trading</span> <span class="gradient-text" data-i18n="tradingEssentialsPage.heroTitleHighlight">Essentials</span>
                 </h1>
-                <p class="page-hero-subtitle">
+                <p class="page-hero-subtitle" data-i18n="tradingEssentialsPage.heroSubtitle">
                     TraderTok caters to all clients, based on their respective skill and experience. For those who are beginners, an extensive "trading essentials" section will be dedicated. In here, we will detail all the most important terminology, as well as basic education needed for the start of your trading journey.
                 </p>
             </div>

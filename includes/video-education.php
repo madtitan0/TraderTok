@@ -2,7 +2,7 @@
     <section class="page-hero">
         <!-- Video Background -->
         <video class="page-hero-video" autoplay loop muted playsinline>
-            <source src="assets/images/Video Education.mp4" type="video/mp4">
+            <source src="assets/images/education.mp4" type="video/mp4">
         </video>
 
         <!-- Overlay -->
@@ -10,13 +10,13 @@
 
         <div class="container">
             <div class="page-hero-content">
-                <h1 class="page-hero-title">
-                    Video <span class="gradient-text">Education</span>
-                </h1>
                 <div class="page-hero-badge">
-                    <span>Coming Soon</span>
+                    <span data-i18n="videoEducationPage.comingSoon">Coming Soon</span>
                 </div>
-                <p class="page-hero-subtitle">
+                <h1 class="page-hero-title">
+                    <span data-i18n="videoEducationPage.heroTitle">Video</span> <span class="gradient-text" data-i18n="videoEducationPage.heroTitleHighlight">Education</span>
+                </h1>
+                <p class="page-hero-subtitle" data-i18n="videoEducationPage.heroSubtitle">
                     TraderTok offers a wide range of educational resources. One way to learn more about trading, is through our extensive video gallery, covering dozens of hot topics, constantly relevant for traders, both professional and beginners alike.
                 </p>
             </div>
