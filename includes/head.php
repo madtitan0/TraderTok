@@ -54,16 +54,16 @@
                 <nav class="nav" id="main-navigation" aria-label="Main navigation">
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="./meet-the-team" class="nav-link">Meet the Team</a>
+                            <a href="./meet-the-team" class="nav-link" data-i18n="nav.meetTheTeam">Meet the Team</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./trading-platform" class="nav-link">Trading Platforms</a>
+                            <a href="./trading-platform" class="nav-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./account-types" class="nav-link">Account Types</a>
+                            <a href="./account-types" class="nav-link" data-i18n="nav.accountTypes">Account Types</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Education Resources <span class="arrow">▼</span></a>
+                            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span data-i18n="nav.educationResources">Education Resources</span> <span class="arrow">▼</span></a>
                             <div class="dropdown-menu" role="menu">
                                 <div class="dropdown-cards">
                                     <a href="./trading-essentials" class="menu-card">
@@ -74,8 +74,8 @@
                                             </svg>
                                         </span>
                                         <div class="menu-text">
-                                            <h3>Trading Essentials</h3>
-                                            <p>Learn the fundamentals of trading</p>
+                                            <h3 data-i18n="dropdown.tradingEssentials">Trading Essentials</h3>
+                                            <p data-i18n="dropdown.tradingEssentialsDesc">Learn the fundamentals of trading</p>
                                         </div>
                                     </a>
                                     <a href="./video-education" class="menu-card">
@@ -85,15 +85,15 @@
                                             </svg>
                                         </span>
                                         <div class="menu-text">
-                                            <h3>Video Education</h3>
-                                            <p>Watch tutorials and expert insights</p>
+                                            <h3 data-i18n="dropdown.videoEducation">Video Education</h3>
+                                            <p data-i18n="dropdown.videoEducationDesc">Watch tutorials and expert insights</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">Markets Overview <span class="arrow">▼</span></a>
+                            <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span data-i18n="nav.marketsOverview">Markets Overview</span> <span class="arrow">▼</span></a>
                             <div class="dropdown-menu" role="menu">
                                 <div class="dropdown-cards">
                                     <a href="./events-calendar" class="menu-card">
@@ -106,8 +106,8 @@
                                             </svg>
                                         </span>
                                         <div class="menu-text">
-                                            <h3>Events Calendar</h3>
-                                            <p>Track important market events</p>
+                                            <h3 data-i18n="dropdown.eventsCalendar">Events Calendar</h3>
+                                            <p data-i18n="dropdown.eventsCalendarDesc">Track important market events</p>
                                         </div>
                                     </a>
                                     <a href="./research" class="menu-card">
@@ -119,8 +119,8 @@
                                             </svg>
                                         </span>
                                         <div class="menu-text">
-                                            <h3>Research</h3>
-                                            <p>In-depth market analysis and insights</p>
+                                            <h3 data-i18n="dropdown.research">Research</h3>
+                                            <p data-i18n="dropdown.researchDesc">In-depth market analysis and insights</p>
                                         </div>
                                     </a>
                                     <a href="./live-training" class="menu-card">
@@ -131,24 +131,24 @@
                                             </svg>
                                         </span>
                                         <div class="menu-text">
-                                            <h3>Live Training</h3>
-                                            <p>Join live sessions with experts</p>
+                                            <h3 data-i18n="dropdown.liveTraining">Live Training</h3>
+                                            <p data-i18n="dropdown.liveTrainingDesc">Join live sessions with experts</p>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="./legal" class="nav-link">Legal</a>
+                            <a href="./legal" class="nav-link" data-i18n="nav.legal">Legal</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./contact-us" class="nav-link">Contact Us</a>
+                            <a href="./contact-us" class="nav-link" data-i18n="nav.contactUs">Contact Us</a>
                         </li>
                     </ul>
                     <div class="mobile-menu-extra">
                         <!-- Language Selector for Mobile Menu -->
                         <div class="mobile-language-section">
-                            <h4 class="mobile-language-title">Language / Lingua / Sprache</h4>
+                            <h4 class="mobile-language-title" data-i18n="language.title">Language</h4>
                             <div class="mobile-language-list">
                                 <button class="mobile-language-item active" data-lang="en">
                                     <span class="language-flag">
@@ -160,22 +160,39 @@
                                             <path fill="#C8102E" d="M0 193v96h640v-96zM273 0v480h96V0z"/>
                                         </svg>
                                     </span>
-                                    <span class="mobile-language-name">English</span>
+                                    <span class="mobile-language-name" data-i18n="language.english">English</span>
                                     <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="20 6 9 17 4 12"></polyline>
                                     </svg>
                                 </button>
-                                <button class="mobile-language-item" data-lang="it">
+                                <button class="mobile-language-item" data-lang="hi">
                                     <span class="language-flag">
                                         <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                                            <g fill-rule="evenodd" stroke-width="1pt">
-                                                <path fill="#fff" d="M0 0h640v480H0z"/>
-                                                <path fill="#009246" d="M0 0h213.3v480H0z"/>
-                                                <path fill="#ce2b37" d="M426.7 0H640v480H426.7z"/>
+                                            <path fill="#f93" d="M0 0h640v160H0z"/>
+                                            <path fill="#fff" d="M0 160h640v160H0z"/>
+                                            <path fill="#128807" d="M0 320h640v160H0z"/>
+                                            <circle cx="320" cy="240" r="45" fill="#008" stroke="#008" stroke-width="2"/>
+                                            <circle cx="320" cy="240" r="35" fill="#fff"/>
+                                            <circle cx="320" cy="240" r="8" fill="#008"/>
+                                        </svg>
+                                    </span>
+                                    <span class="mobile-language-name" data-i18n="language.hindi">हिन्दी</span>
+                                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </button>
+                                <button class="mobile-language-item" data-lang="es-419">
+                                    <span class="language-flag">
+                                        <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#0039a6" d="M0 0h640v160H0z"/>
+                                            <path fill="#fff" d="M0 160h640v160H0z"/>
+                                            <path fill="#0039a6" d="M0 320h640v160H0z"/>
+                                            <g transform="translate(320,240)">
+                                                <circle r="30" fill="#f1bf00"/>
                                             </g>
                                         </svg>
                                     </span>
-                                    <span class="mobile-language-name">Italiano</span>
+                                    <span class="mobile-language-name" data-i18n="language.spanish">Español</span>
                                     <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="20 6 9 17 4 12"></polyline>
                                     </svg>
@@ -194,7 +211,7 @@
                                     </svg>
                                 </button> -->
 
-                                <button class="mobile-language-item" data-lang="hi">
+                                <!-- <button class="mobile-language-item" data-lang="hi">
                                     <span class="language-flag">
                                         <svg class="flag-icon" viewBox="0 0 640 480">
                                             <path fill="#f93" d="M0 0h640v160H0z"/>
@@ -211,7 +228,7 @@
                                         stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="20 6 9 17 4 12"></polyline>
                                     </svg>
-                                </button>
+                                </button> -->
 
                             </div>
                         </div>
@@ -248,44 +265,34 @@
                                         <path fill="#C8102E" d="M0 193v96h640v-96zM273 0v480h96V0z"/>
                                     </svg>
                                 </span>
-                                <span class="language-name">English</span>
+                                <span class="language-name" data-i18n="language.english">English</span>
                             </div>
-                            <div class="language-item" data-lang="it">
-                                <span class="language-flag">
-                                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                                        <g fill-rule="evenodd" stroke-width="1pt">
-                                            <path fill="#fff" d="M0 0h640v480H0z"/>
-                                            <path fill="#009246" d="M0 0h213.3v480H0z"/>
-                                            <path fill="#ce2b37" d="M426.7 0H640v480H426.7z"/>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <span class="language-name">Italiano</span>
-                            </div>
-                            <!-- <div class="language-item" data-lang="de">
-                                <span class="language-flag">
-                                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill="#ffce00" d="M0 320h640v160H0z"/>
-                                        <path fill="#000" d="M0 0h640v160H0z"/>
-                                        <path fill="#d00" d="M0 160h640v160H0z"/>
-                                    </svg>
-                                </span>
-                                <span class="language-name">Deutsch</span>
-                            </div> -->
-
                             <div class="language-item" data-lang="hi">
                                 <span class="language-flag">
-                                    <svg class="flag-icon" viewBox="0 0 640 480">
+                                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
                                         <path fill="#f93" d="M0 0h640v160H0z"/>
                                         <path fill="#fff" d="M0 160h640v160H0z"/>
                                         <path fill="#128807" d="M0 320h640v160H0z"/>
-                                        <circle cx="320" cy="240" r="48" fill="none" stroke="#000088" stroke-width="6"/>
-                                        <circle cx="320" cy="240" r="3" fill="#000088"/>
+                                        <circle cx="320" cy="240" r="45" fill="#008" stroke="#008" stroke-width="2"/>
+                                        <circle cx="320" cy="240" r="35" fill="#fff"/>
+                                        <circle cx="320" cy="240" r="8" fill="#008"/>
                                     </svg>
                                 </span>
-                                <span class="language-name">Hindi</span>
+                                <span class="language-name" data-i18n="language.hindi">हिन्दी</span>
                             </div>
-
+                            <div class="language-item" data-lang="es-419">
+                                <span class="language-flag">
+                                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#0039a6" d="M0 0h640v160H0z"/>
+                                        <path fill="#fff" d="M0 160h640v160H0z"/>
+                                        <path fill="#0039a6" d="M0 320h640v160H0z"/>
+                                        <g transform="translate(320,240)">
+                                            <circle r="30" fill="#f1bf00"/>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="language-name" data-i18n="language.spanish">Español</span>
+                            </div>
                         </div>
                     </div>
 
@@ -307,8 +314,8 @@
                         </svg>
                     </button>
 
-                    <button class="btn-secondary" id="signInBtn">Sign In</button>
-                    <button class="btn-primary" id="signUpBtn">Sign Up</button>
+                    <button class="btn-secondary" id="signInBtn" data-i18n="auth.signIn">Sign In</button>
+                    <button class="btn-primary" id="signUpBtn" data-i18n="auth.signUp">Sign Up</button>
                     <button class="mobile-close-btn">✕</button>
                 </div>
 
@@ -340,8 +347,8 @@
 
             <!-- Tab Switcher -->
             <div class="auth-tabs">
-                <button class="auth-tab active" data-tab="signin">Sign In</button>
-                <button class="auth-tab" data-tab="signup">Sign Up</button>
+                <button class="auth-tab active" data-tab="signin" data-i18n="auth.signIn">Sign In</button>
+                <button class="auth-tab" data-tab="signup" data-i18n="auth.signUp">Sign Up</button>
             </div>
 
             <!-- Sign In Form -->
@@ -394,27 +401,27 @@
 
             <!-- Sign Up Form -->
             <form class="auth-form" id="signupForm" data-form="signup">
-                <h2 class="auth-form-title">Create Account</h2>
-                <p class="auth-form-subtitle">Start your trading journey today</p>
+                <h2 class="auth-form-title" data-i18n="auth.createAccount">Create Account</h2>
+                <p class="auth-form-subtitle" data-i18n="auth.startJourney">Start your trading journey today</p>
 
                 <div class="auth-form-row">
                     <div class="auth-form-group">
-                        <label for="signup-firstname" class="auth-label">First Name</label>
-                        <input type="text" id="signup-firstname" class="auth-input" placeholder="John" required>
+                        <label for="signup-firstname" class="auth-label" data-i18n="auth.firstName">First Name</label>
+                        <input type="text" id="signup-firstname" class="auth-input" data-i18n-placeholder="auth.firstNamePlaceholder" placeholder="John" required>
                     </div>
                     <div class="auth-form-group">
-                        <label for="signup-lastname" class="auth-label">Last Name</label>
-                        <input type="text" id="signup-lastname" class="auth-input" placeholder="Doe" required>
+                        <label for="signup-lastname" class="auth-label" data-i18n="auth.lastName">Last Name</label>
+                        <input type="text" id="signup-lastname" class="auth-input" data-i18n-placeholder="auth.lastNamePlaceholder" placeholder="Doe" required>
                     </div>
                 </div>
 
                 <div class="auth-form-group">
-                    <label for="signup-email" class="auth-label">Email</label>
-                    <input type="email" id="signup-email" class="auth-input" placeholder="your@email.com" required>
+                    <label for="signup-email" class="auth-label" data-i18n="auth.email">Email</label>
+                    <input type="email" id="signup-email" class="auth-input" data-i18n-placeholder="auth.emailPlaceholder" placeholder="your@email.com" required>
                 </div>
 
                 <div class="auth-form-group">
-                    <label for="signup-phone" class="auth-label">Phone Number</label>
+                    <label for="signup-phone" class="auth-label" data-i18n="auth.phoneNumber">Phone Number</label>
                     <div class="auth-phone-input">
                         <button type="button" class="phone-country-select" id="countrySelect">
                             <span class="country-flag">🇬🇧</span>
@@ -1041,9 +1048,15 @@
                     </div>
                 </div>
 
+                <div class="auth-form-group">
+                    <label for="signup-password" class="auth-label">Password</label>
+                    <input type="password" id="signup-password" class="auth-input" placeholder="Create a strong password" required>
+                </div>
 
-
-
+                <div class="auth-form-group">
+                    <label for="signup-confirm-password" class="auth-label">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" class="auth-input" placeholder="Confirm your password" required>
+                </div>
 
                 <label class="auth-checkbox auth-terms">
                     <input type="checkbox" id="terms-agree" required>

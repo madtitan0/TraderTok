@@ -1210,7 +1210,8 @@ let currentLanguage = 'en';
 const languageNames = {
     'en': 'EN',
     'it': 'IT',
-    'hi': 'HI'
+    'hi': 'HI',
+    'es-419': 'ES'
 };
 
 // Function to update language
@@ -1246,8 +1247,10 @@ function updateLanguage(lang, flagHTML) {
 
     console.log('Language changed to:', lang);
 
-    // TODO: Here you can implement actual language switching logic
-    // For example: load translations, update page content, etc.
+    // Apply translations using i18n module
+    if (typeof window.i18n !== 'undefined' && window.i18n.setLanguage) {
+        window.i18n.setLanguage(lang);
+    }
 }
 
 // Toggle language dropdown (desktop)
@@ -1285,15 +1288,7 @@ mobileLanguageItems.forEach(item => {
 
         updateLanguage(lang, flagHTML);
 
-        // Close mobile menu
-        const nav = document.querySelector('.nav');
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        if (nav) {
-            nav.classList.remove('active');
-        }
-        if (mobileMenuBtn) {
-            mobileMenuBtn.classList.remove('active');
-        }
+        // Close mobile menu logic removed to keep menu open for navigation
     });
 });
 

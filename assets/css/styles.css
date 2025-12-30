@@ -138,15 +138,16 @@ body {
 .nav-link {
     color: var(--text-secondary);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     display: flex;
     align-items: center;
     gap: 4px;
-    padding: 7px 11px;
+    padding: 8px 10px;
     transition: all 0.3s;
     white-space: nowrap;
     border-radius: 50px;
+    flex-shrink: 1;
 }
 
 .nav-link:hover {
@@ -552,13 +553,22 @@ body.light-theme .theme-toggle .moon-icon {
     display: block;
 }
 
-/* Light theme - replace black with white in hero image */
-body.light-theme .hero-person {
-    background: #ffffff;
+/* Dark theme - show dark image, hide light image */
+.hero-person .hero-img-dark {
+    display: block;
 }
 
-body.light-theme .hero-person img {
-    mix-blend-mode: screen;
+.hero-person .hero-img-light {
+    display: none !important;
+}
+
+/* Light theme - show light image, hide dark image */
+body.light-theme .hero-person .hero-img-dark {
+    display: none !important;
+}
+
+body.light-theme .hero-person .hero-img-light {
+    display: block !important;
 }
 
 /* Phone Chart Overlay */
@@ -999,6 +1009,14 @@ body.light-theme .hero-person img {
     pointer-events: none;
 }
 
+/* Light theme - brighter card overlay */
+body.light-theme .card-overlay {
+    background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.75) 100%);
+}
+
 .card-content {
     position: relative;
     z-index: 2;
@@ -1034,6 +1052,12 @@ body.light-theme .hero-person img {
     left: 0;
     right: 0;
     font-weight: 500;
+}
+
+/* Light theme - dark text for insight cards */
+body.light-theme .card-description {
+    color: #1a1a2e;
+    font-weight: 600;
 }
 
 /* Stack z-index and variables */
@@ -1208,7 +1232,7 @@ body.light-theme .hero-person img {
     }
 
     .logo-image {
-        height: 20px;
+        height: 24px;
     }
 
     .nav {
@@ -2120,6 +2144,110 @@ body.light-theme .hero-person img {
     border-radius: inherit;
 }
 
+/* Light theme - transparent background for charts */
+body.light-theme .laptop-screen,
+body.light-theme .phone-screen {
+    background: transparent;
+}
+
+/* Light theme - Trading Instruments section */
+body.light-theme .instruments-section-home {
+    background: var(--bg-secondary);
+}
+
+body.light-theme .instruments-video-overlay {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.6) 0%,
+        rgba(255, 255, 255, 0.45) 50%,
+        rgba(255, 255, 255, 0.6) 100%
+    );
+}
+
+body.light-theme .instruments-video-bg video {
+    opacity: 0.25;
+}
+
+/* Light theme - floating symbols with darker colors */
+body.light-theme .symbol-home {
+    color: rgba(0, 0, 0, 0.06);
+}
+
+body.light-theme .symbol-home:nth-child(1) { color: rgba(230, 57, 70, 0.12); }
+body.light-theme .symbol-home:nth-child(2) { color: rgba(255, 107, 53, 0.10); }
+body.light-theme .symbol-home:nth-child(3) { color: rgba(0, 0, 0, 0.08); }
+body.light-theme .symbol-home:nth-child(4) { color: rgba(230, 57, 70, 0.14); }
+body.light-theme .symbol-home:nth-child(5) { color: rgba(255, 107, 53, 0.12); }
+body.light-theme .symbol-home:nth-child(6) { color: rgba(0, 0, 0, 0.10); }
+body.light-theme .symbol-home:nth-child(7) { color: rgba(230, 57, 70, 0.10); }
+body.light-theme .symbol-home:nth-child(8) { color: rgba(255, 107, 53, 0.08); }
+body.light-theme .symbol-home:nth-child(9) { color: rgba(0, 0, 0, 0.12); }
+body.light-theme .symbol-home:nth-child(10) { color: rgba(230, 57, 70, 0.08); }
+body.light-theme .symbol-home:nth-child(11) { color: rgba(255, 107, 53, 0.14); }
+body.light-theme .symbol-home:nth-child(12) { color: rgba(0, 0, 0, 0.10); }
+
+/* Light theme - gradient text for subtitle */
+body.light-theme .instruments-home-subtitle.gradient-text {
+    background: linear-gradient(90deg,
+        #E63946 0%,
+        #FF6B35 25%,
+        #1a1a2e 50%,
+        #1a1a2e 100%
+    );
+    background-size: 250% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Light theme - accordion styling */
+body.light-theme .instruments-accordion-home .accordion-item {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme - Why Choose TraderTok section */
+body.light-theme .why-choose {
+    background: #f8f9fa !important;
+}
+
+/* Video switching for Why Choose section */
+.trading-video-dark {
+    display: block !important;
+}
+
+.trading-video-light {
+    display: none !important;
+}
+
+/* Light theme: hide dark video, show light video with WebM transparent background */
+body.light-theme .trading-video-dark {
+    display: none !important;
+}
+
+body.light-theme .trading-video-light {
+    display: block !important;
+}
+
+/* Light theme - Why Choose accordion */
+body.light-theme .why-choose-accordion .accordion-item {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme - Why Choose gradient text */
+body.light-theme .why-choose-description.gradient-text {
+    background: linear-gradient(90deg,
+        #E63946 0%,
+        #FF6B35 25%,
+        #1a1a2e 50%,
+        #1a1a2e 100%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* При наведении на desktop - phone становится ч/б и полупрозрачным */
 .device-wrapper.desktop-active .laptop-screen {
     transform: translateY(-4px);
@@ -2452,6 +2580,24 @@ body.light-theme .hero-person img {
     }
 }
 
+/* Page Hero Light Theme */
+body.light-theme .page-hero-overlay {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.75) 100%);
+}
+
+body.light-theme .page-hero-title {
+    color: #1a1a1a;
+}
+
+body.light-theme .page-hero-subtitle {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+body.light-theme .page-hero-badge {
+    background: rgba(230, 57, 70, 0.08);
+    border-color: rgba(230, 57, 70, 0.25);
+}
+
 /* Intro Text */
 .instruments-intro-home {
     text-align: center;
@@ -2730,14 +2876,13 @@ body.light-theme .hero-person img {
     display: block;
 }
 
-/* Light theme - replace black with white in video */
+/* Light theme - video container */
 body.light-theme .why-choose-video {
-    background: #ffffff;
+    background: transparent;
 }
 
 body.light-theme .trading-video {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-    mix-blend-mode: screen;
 }
 
 /* Accordion Styles */
@@ -3662,6 +3807,54 @@ body.light-theme .bank-logo {
     }
 }
 
+/* Light theme - Trustpilot */
+body.light-theme .trustpilot-card {
+    background: #ffffff;
+    border-color: #e0e0e0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .trustpilot-dot {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .trustpilot-dot:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+body.light-theme .trustpilot-btn {
+    background: #ffffff;
+    border-color: #e0e0e0;
+    color: #333;
+}
+
+body.light-theme .trustpilot-btn:hover {
+    background: #f5f5f5;
+    border-color: #ccc;
+}
+
+/* Light theme - Banking Section */
+body.light-theme .payment-methods-title .gradient-text {
+    background: linear-gradient(90deg,
+        #E63946 0%,
+        #FF6B35 25%,
+        #1a1a1a 50%,
+        #1a1a1a 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Platform Icons */
+.platform-icon {
+    color: #ffffff;
+}
+
+body.light-theme .platform-icon {
+    color: #1a1a1a;
+}
+
 /* ====== FOOTER ====== */
 
 .footer {
@@ -3790,6 +3983,17 @@ body.light-theme .bank-logo {
     font-weight: 600;
 }
 
+/* License Link */
+.license-link {
+    color: var(--brand-primary, #E63946);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.license-link:hover {
+    color: var(--text-primary);
+}
+
 /* Responsive Footer */
 @media (max-width: 1024px) {
     .footer-top {
@@ -3804,9 +4008,14 @@ body.light-theme .bank-logo {
     }
 
     .footer-top {
-        grid-template-columns: 1fr;
-        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 20px;
         margin-bottom: 40px;
+    }
+
+    /* Contact column spans full width on mobile */
+    .footer-column:last-child {
+        grid-column: 1 / -1;
     }
 
     .footer-divider {
@@ -4759,8 +4968,10 @@ body.light-theme .bank-logo {
 @media (max-width: 900px) {
     .promo-card {
         grid-template-columns: 1fr;
-        padding: 40px;
+        padding: 30px 40px 40px;
         text-align: center;
+        min-height: auto;
+        overflow: visible;
     }
 
     .promo-content {
@@ -4773,12 +4984,14 @@ body.light-theme .bank-logo {
 
     .promo-visual {
         order: -1;
+        height: 180px;
+        margin-top: -30px;
     }
 
     #growth-arrow {
-        width: 350px;
-        height: 350px;
-        transform: translate(0, -20px);
+        width: 420px;
+        height: 420px;
+        transform: translate(0, -130px);
     }
 }
 
@@ -4788,8 +5001,13 @@ body.light-theme .bank-logo {
     }
 
     .promo-card {
-        padding: 30px 20px;
+        padding: 20px 20px 30px;
         border-radius: 24px;
+    }
+
+    .promo-visual {
+        height: 150px;
+        margin-top: -20px;
     }
 
     .promo-countdown {
@@ -4811,9 +5029,9 @@ body.light-theme .bank-logo {
     }
 
     #growth-arrow {
-        width: 280px;
-        height: 280px;
-        transform: translate(0, -10px);
+        width: 340px;
+        height: 340px;
+        transform: translate(0, -110px);
     }
 }
 
@@ -5379,7 +5597,7 @@ body.light-theme .bank-logo {
 
     .traders-club-card {
         padding: 30px;
-        padding-bottom: 220px;
+        padding-bottom: 180px;
         text-align: center;
     }
 
@@ -5392,11 +5610,12 @@ body.light-theme .bank-logo {
     }
 
     .traders-club-image {
-        width: 200px;
-        right: 50%;
+        width: 280px;
+        left: 20%;
+        right: auto;
         top: auto;
-        bottom: 20px;
-        transform: translateX(50%);
+        bottom: -270px;
+        transform: translateX(-170%);
     }
 
     .traders-club-modal-content {

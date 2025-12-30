@@ -342,8 +342,8 @@
         <section class="account-types-hero">
             <div class="container">
                 <div class="account-types-text">
-                    <h1 class="account-types-title">Choose Your <span class="gradient-text">Account Type</span></h1>
-                    <p class="account-types-subtitle">No matter your trading goals, TraderTok offers an account tailored to suit them perfectly. Explore and compare our five account options to find the one that best aligns with your needs.</p>
+                    <h1 class="account-types-title"><span data-i18n="accountTypesPage.heroTitle">Choose Your</span> <span class="gradient-text" data-i18n="accountTypesPage.heroTitleHighlight">Account Type</span></h1>
+                    <p class="account-types-subtitle" data-i18n="accountTypesPage.heroSubtitle">No matter your trading goals, TraderTok offers an account tailored to suit them perfectly. Explore and compare our five account options to find the one that best aligns with your needs.</p>
                 </div>
                 <div class="account-types-image">
                     <img src="assets/images/portrait-young-woman-standing-against-blue-background.png" alt="TraderTok Trader">
@@ -358,205 +358,205 @@
                     <div class="account-card tier-1">
                         <div class="account-header">
                             <div class="account-price" data-target="10000">$0</div>
-                            <div class="account-name">Standard</div>
+                            <div class="account-name" data-i18n="accountTypesPage.standard.name">Standard</div>
                         </div>
                         <div class="account-divider"></div>
                         <div class="account-features">
                             <div class="feature-item">
-                                <span>Basic access to the trading platform</span>
+                                <span data-i18n="accountTypesPage.standard.feature1">Basic access to the trading platform</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Standard customer support</span>
+                                <span data-i18n="accountTypesPage.standard.feature2">Standard customer support</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Standard market analysis tools</span>
+                                <span data-i18n="accountTypesPage.standard.feature3">Standard market analysis tools</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Access to educational resources</span>
+                                <span data-i18n="accountTypesPage.standard.feature4">Access to educational resources</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Regular market updates</span>
+                                <span data-i18n="accountTypesPage.standard.feature5">Regular market updates</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Account Manager</span>
+                                <span data-i18n="accountTypesPage.standard.feature6">Account Manager</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                         </div>
                         <div class="account-divider-bottom"></div>
-                        <a href="./contact-us" class="account-btn">Get Started</a>
+                        <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
                     </div>
 
                     <!-- Advanced Account -->
                     <div class="account-card tier-2">
                         <div class="account-header">
                             <div class="account-price" data-target="25000">$0</div>
-                            <div class="account-name">Advanced</div>
+                            <div class="account-name" data-i18n="accountTypesPage.advanced.name">Advanced</div>
                         </div>
                         <div class="account-divider"></div>
                         <div class="account-features">
                             <div class="feature-item">
-                                <span>All Standard Account benefits</span>
+                                <span data-i18n="accountTypesPage.advanced.feature1">All Standard Account benefits</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Lower transaction costs</span>
+                                <span data-i18n="accountTypesPage.advanced.feature2">Lower transaction costs</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Advanced charting tools</span>
+                                <span data-i18n="accountTypesPage.advanced.feature3">Advanced charting tools</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Priority customer support</span>
+                                <span data-i18n="accountTypesPage.advanced.feature4">Priority customer support</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Daily market insights and research reports</span>
+                                <span data-i18n="accountTypesPage.advanced.feature5">Daily market insights and research reports</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Account Manager</span>
+                                <span data-i18n="accountTypesPage.advanced.feature6">Account Manager</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                         </div>
-                        <div class="account-note">Potential for Increased Revenue: Enjoy reduced transaction costs, allowing you to retain a higher percentage of your profits</div>
+                        <div class="account-note" data-i18n="accountTypesPage.advanced.note">Potential for Increased Revenue: Enjoy reduced transaction costs, allowing you to retain a higher percentage of your profits</div>
                         <div class="account-divider-bottom"></div>
-                        <a href="./contact-us" class="account-btn">Get Started</a>
+                        <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
                     </div>
 
                     <!-- Professional Account (Most Popular) -->
                     <div class="account-card popular tier-3">
-                        <span class="popular-badge">Most Popular</span>
+                        <span class="popular-badge" data-i18n="accountTypesPage.mostPopular">Most Popular</span>
                         <div class="account-header">
                             <div class="account-price" data-target="100000">$0</div>
-                            <div class="account-name">Professional</div>
+                            <div class="account-name" data-i18n="accountTypesPage.professional.name">Professional</div>
                         </div>
                         <div class="account-divider"></div>
                         <div class="account-features">
                             <div class="feature-item">
-                                <span>All Advanced Account benefits</span>
+                                <span data-i18n="accountTypesPage.professional.feature1">All Advanced Account benefits</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>50% Swap Reduction</span>
+                                <span data-i18n="accountTypesPage.professional.feature2">50% Swap Reduction</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Exclusive research reports</span>
+                                <span data-i18n="accountTypesPage.professional.feature3">Exclusive research reports</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Even lower transaction costs</span>
+                                <span data-i18n="accountTypesPage.professional.feature4">Even lower transaction costs</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Dedicated personal assistant</span>
+                                <span data-i18n="accountTypesPage.professional.feature5">Dedicated personal assistant</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Customizable trading conditions</span>
+                                <span data-i18n="accountTypesPage.professional.feature6">Customizable trading conditions</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Use of AI tools (limited)</span>
+                                <span data-i18n="accountTypesPage.professional.feature7">Use of AI tools (limited)</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Extensive education by a senior analyst</span>
+                                <span data-i18n="accountTypesPage.professional.feature8">Extensive education by a senior analyst</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                         </div>
-                        <div class="account-note">Potential for Increased Revenue: Some of the lowest transaction costs in the branch, and the use of a personal assistant and an AI tool to navigate you through financial markets</div>
+                       <div class="account-note" data-i18n="accountTypesPage.professional.note">Potential for Increased Revenue: Some of the lowest transaction costs in the branch, and the use of a personal assistant and an AI tool to navigate you through financial markets</div>
                         <div class="account-divider-bottom"></div>
-                        <a href="./contact-us" class="account-btn">Get Started</a>
+                        <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
                     </div>
 
                     <!-- Exclusive Account -->
                     <div class="account-card tier-4">
                         <div class="account-header">
                             <div class="account-price" data-target="250000">$0</div>
-                            <div class="account-name">Exclusive</div>
+                            <div class="account-name" data-i18n="accountTypesPage.exclusive.name">Exclusive</div>
                         </div>
                         <div class="account-divider"></div>
                         <div class="account-features">
                             <div class="feature-item">
-                                <span>All Professional Account benefits</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature1">All Professional Account benefits</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Zero swap fees!</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature2">Zero swap fees!</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Lowest possible transaction costs</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature3">Lowest possible transaction costs</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Priority access to new features and tools</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature4">Priority access to new features and tools</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Exclusive educational resources</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature5">Exclusive educational resources</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>VIP events and networking opportunities</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature6">VIP events and networking opportunities</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Regular personal access to senior analysts</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature7">Regular personal access to senior analysts</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Highest level of customer support with faster response times</span>
+                                <span data-i18n="accountTypesPage.exclusive.feature8">Highest level of customer support with faster response times</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                         </div>
-                        <div class="account-note">Benefit from the lowest transaction costs, zero swap fees, exclusive features, and personalized support, optimizing your trading performance for higher potential returns</div>
+                        <div class="account-note" data-i18n="accountTypesPage.exclusive.note">Benefit from the lowest transaction costs, zero swap fees, exclusive features, and personalized support, optimizing your trading performance for higher potential returns</div>
                         <div class="account-divider-bottom"></div>
-                        <a href="./contact-us" class="account-btn">Get Started</a>
+                        <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
                     </div>
 
                     <!-- BLACK Account -->
                     <div class="account-card tier-5">
                         <div class="account-header">
                             <div class="account-price" data-target="1000000">$0</div>
-                            <div class="account-name">BLACK</div>
+                            <div class="account-name" data-i18n="accountTypesPage.black.name">BLACK</div>
                         </div>
                         <div class="account-divider"></div>
                         <div class="account-features">
                             <div class="feature-item">
-                                <span>All Exclusive Account Benefits</span>
+                                <span data-i18n="accountTypesPage.black.feature1">All Exclusive Account Benefits</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Personal dedicated senior analyst</span>
+                                <span data-i18n="accountTypesPage.black.feature2">Personal dedicated senior analyst</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>300.000 welcome bonus</span>
+                                <span data-i18n="accountTypesPage.black.feature3">300.000 welcome bonus</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Access to private collection of educational info</span>
+                                <span data-i18n="accountTypesPage.black.feature4">Access to private collection of educational info</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Personalized and negotiable offers</span>
+                                <span data-i18n="accountTypesPage.black.feature5">Personalized and negotiable offers</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                             <div class="feature-item">
-                                <span>Oversight analyst</span>
+                                <span data-i18n="accountTypesPage.black.feature6">Oversight analyst</span>
                                 <span class="feature-icon check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
                             </div>
                         </div>
                         <div class="account-divider-bottom"></div>
-                        <a href="./contact-us" class="account-btn">Get Started</a>
+                        <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
                     </div>
                 </div>
             </div>

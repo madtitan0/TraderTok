@@ -1,4 +1,4 @@
-        <style>
+    <style>
         /* Legal Page Styles */
         .legal-page {
             padding-top: 100px;
@@ -299,14 +299,14 @@
                 <div class="hero-layout">
                     <!-- Left Side - Text -->
                     <div class="hero-content">
-                        <h1 class="hero-title">Important Legal Information & <span class="gradient-text">Policies</span></h1>
-                        <p class="hero-description">
+                        <h1 class="hero-title"><span data-i18n="legalPage.heroTitle">Important Legal Information &</span> <span class="gradient-text" data-i18n="legalPage.heroTitleHighlight">Policies</span></h1>
+                        <p class="hero-description" data-i18n="legalPage.heroDescription1">
                             At TraderTok, we are committed to maintaining the highest standards of regulatory compliance, legal integrity, and client protection. As a regulated trading company, transparency and accountability are at the core of our operations.
                         </p>
-                        <p class="hero-description">
+                        <p class="hero-description" data-i18n="legalPage.heroDescription2">
                             Below you will find our key legal documents, which define the framework of our services and outline your rights and responsibilities as a client. These documents cover essential areas including identity verification, transaction handling, data privacy, trading conditions, and risk disclosures.
                         </p>
-                        <p class="hero-note">
+                        <p class="hero-note" data-i18n="legalPage.heroNote">
                             We strongly encourage all clients to carefully review the following before opening an account or initiating any trading activity:
                         </p>
                     </div>
@@ -322,7 +322,7 @@
                                     </svg>
                                 </div>
                                 <div class="document-content">
-                                    <h3 class="document-title">Privacy Policy</h3>
+                                    <h3 class="document-title" data-i18n="legalPage.docPrivacyPolicy">Privacy Policy</h3>
                                 </div>
                                 <span class="document-toggle">+</span>
                                 <a href="./files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
@@ -333,8 +333,8 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="document-description">
-                                <p>The Company maintains a comprehensive data protection framework, referencing its commitments to high standards of security and confidentiality.</p>
+                             <div class="document-description">
+                                <p data-i18n="legalPage.docPrivacyPolicyDesc">The Company maintains a comprehensive data protection framework, referencing its commitments to high standards of security and confidentiality.</p>
                             </div>
                         </div>
 
@@ -347,7 +347,7 @@
                                     </svg>
                                 </div>
                                 <div class="document-content">
-                                    <h3 class="document-title">Terms & Conditions</h3>
+                                    <h3 class="document-title" data-i18n="legalPage.docTermsConditions">Terms & Conditions</h3>
                                 </div>
                                 <span class="document-toggle">+</span>
                                 <a href="./files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
@@ -359,7 +359,7 @@
                                 </a>
                             </div>
                             <div class="document-description">
-                                <p>The Agreement stipulates the investment and ancillary services provided by the Company to its trading activities.</p>
+                                <p data-i18n="legalPage.docTermsConditionsDesc">The Agreement stipulates the investment and ancillary services provided by the Company to its trading activities.</p>
                             </div>
                         </div>
 
@@ -372,7 +372,7 @@
                                     </svg>
                                 </div>
                                 <div class="document-content">
-                                    <h3 class="document-title">Anti-Money Laundering Policy</h3>
+                                    <h3 class="document-title" data-i18n="legalPage.docAmlPolicy">Anti-Money Laundering Policy</h3>
                                 </div>
                                 <span class="document-toggle">+</span>
                                 <a href="./files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
@@ -384,7 +384,7 @@
                                 </a>
                             </div>
                             <div class="document-description">
-                                <p>This policy outlines the Company's commitment to preventing and detecting money laundering and terrorist financing activities.</p>
+                                <p data-i18n="legalPage.docAmlPolicyDesc">This policy outlines the Company's commitment to preventing and detecting money laundering and terrorist financing activities.</p>
                             </div>
                         </div>
 
@@ -397,7 +397,7 @@
                                     </svg>
                                 </div>
                                 <div class="document-content">
-                                    <h3 class="document-title">Order Execution Policy</h3>
+                                    <h3 class="document-title" data-i18n="legalPage.docOrderExecution">Order Execution Policy</h3>
                                 </div>
                                 <span class="document-toggle">+</span>
                                 <a href="./files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
@@ -409,7 +409,7 @@
                                 </a>
                             </div>
                             <div class="document-description">
-                                <p>The Company is committed to providing clients with optimal trading conditions and efficient order execution.</p>
+                                <p data-i18n="legalPage.docOrderExecutionDesc">The Company is committed to providing clients with optimal trading conditions and efficient order execution.</p>
                             </div>
                         </div>
 
@@ -422,7 +422,7 @@
                                     </svg>
                                 </div>
                                 <div class="document-content">
-                                    <h3 class="document-title">Risk Disclosure</h3>
+                                    <h3 class="document-title" data-i18n="legalPage.docRiskDisclosure">Risk Disclosure</h3>
                                 </div>
                                 <span class="document-toggle">+</span>
                                 <a href="./files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" class="document-download" download>
@@ -434,7 +434,7 @@
                                 </a>
                             </div>
                             <div class="document-description">
-                                <p>This Risk Disclosure document informs you of the inherent risks associated with trading, by entering into over-the-counter.</p>
+                                <p data-i18n="legalPage.docRiskDisclosureDesc">This Risk Disclosure document informs you of the inherent risks associated with trading, by entering into over-the-counter.</p>
                             </div>
                         </div>
                     </div>
@@ -462,9 +462,9 @@
                         <line x1="12" y1="8" x2="12" y2="12"></line>
                         <line x1="12" y1="16" x2="12.01" y2="16"></line>
                     </svg>
-                    <span class="gradient-text">Important</span>
+                    <span class="gradient-text" data-i18n="legalPage.important">Important</span>
                 </div>
-                <p class="notice-text">
+                <p class="notice-text" data-i18n="legalPage.importantNotice">
                     By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies. If you have any questions or concerns regarding these documents, please <a href="../contact-us/index.html">contact our legal department</a> for clarification.
                 </p>
             </div>

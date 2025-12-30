@@ -1,4 +1,4 @@
-    <style>
+   <style>
         .research-page {
             padding-top: 100px;
         }
@@ -534,22 +534,22 @@
         <section class="research-hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title">Market Insights That <span class="gradient-text">Matter</span></h1>
-                    <p class="hero-description-small">
+                    <h1 class="hero-title"><span data-i18n="researchPage.heroTitle">Market Insights That</span> <span class="gradient-text" data-i18n="researchPage.heroTitleHighlight">Matter</span></h1>
+                    <p class="hero-description-small" data-i18n="researchPage.heroDesc1">
                         Our research materials are carefully prepared to help traders and investors better understand the markets. Each video and PDF on this page has been thoughtfully developed to offer insights that are practical, clear, and based on real market experience.
                     </p>
-                    <p class="hero-description-small">
+                    <p class="hero-description-small" data-i18n="researchPage.heroDesc2">
                         We know the financial world can be complex, so we aim to present information in a way that's structured and easy to follow, without losing the depth that matters.
                     </p>
 
                     <div class="stats-bar">
                         <div class="stat-item">
                             <div class="stat-number"><span class="counter" data-target="50">0</span>+</div>
-                            <div class="stat-label">Video Lessons</div>
+                            <div class="stat-label" data-i18n="researchPage.videoLessons">Video Lessons</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number"><span class="counter" data-target="25">0</span>+</div>
-                            <div class="stat-label">PDF Reports</div>
+                            <div class="stat-label" data-i18n="researchPage.pdfReports">PDF Reports</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-clock">
@@ -559,7 +559,7 @@
                                     <line x1="25" y1="25" x2="25" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="clock-hand"/>
                                 </svg>
                             </div>
-                            <div class="stat-label">Weekly Updates</div>
+                            <div class="stat-label" data-i18n="researchPage.weeklyUpdates">Weekly Updates</div>
                         </div>
                     </div>
                 </div>
@@ -571,14 +571,14 @@
             <div class="container">
                 <div class="section-header">
                     <div class="section-title-group">
-                        <h2>Video Materials</h2>
-                        <p>Watch our expert analysis and trading insights</p>
+                        <h2 data-i18n="researchPage.videoMaterials">Video Materials</h2>
+                        <p data-i18n="researchPage.videoMaterialsDesc">Watch our expert analysis and trading insights</p>
                     </div>
                     <div class="section-tag">
                         <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                             <polygon points="5 3 19 12 5 21 5 3"/>
                         </svg>
-                        Latest Videos
+                        <span data-i18n="researchPage.latestVideos">Latest Videos</span>
                     </div>
                 </div>
 
@@ -707,15 +707,15 @@
             <div class="container">
                 <div class="section-header">
                     <div class="section-title-group">
-                        <h2>Research Reports</h2>
-                        <p>Download in-depth analysis and detailed market reports</p>
+                        <h2 data-i18n="researchPage.researchReports">Research Reports</h2>
+                        <p data-i18n="researchPage.researchReportsDesc">Download in-depth analysis and detailed market reports</p>
                     </div>
                     <div class="section-tag">
                         <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
                             <polyline points="14 2 14 8 20 8"/>
                         </svg>
-                        PDF Downloads
+                        <span data-i18n="researchPage.pdfDownloads">PDF Downloads</span>
                     </div>
                 </div>
 
@@ -848,11 +848,11 @@
             <div class="container">
                 <div class="education-content">
                     <div class="education-text">
-                        <h2>Why Education <span class="gradient-text">Matters</span></h2>
-                        <p>
+                        <h2><span data-i18n="researchPage.whyEducation">Why Education</span> <span class="gradient-text" data-i18n="researchPage.whyEducationHighlight">Matters</span></h2>
+                        <p data-i18n="researchPage.whyEducationDesc1">
                             In the fast-paced world of trading and investing, education is not optional—it's essential. Sound decision-making starts with understanding the instruments, the risks, and the broader economic context.
                         </p>
-                        <p>
+                        <p data-i18n="researchPage.whyEducationDesc2">
                             Markets change, patterns evolve, and new opportunities emerge every day—those best prepared are those who stay informed. We believe that empowering traders with knowledge is one of the most valuable services we can offer.
                         </p>
 
@@ -861,25 +861,25 @@
                                 <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"/>
                                 </svg>
-                                <span>Practical Insights</span>
+                                <span data-i18n="researchPage.practicalInsights">Practical Insights</span>
                             </div>
                             <div class="feature-item">
                                 <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"/>
                                 </svg>
-                                <span>Expert Analysis</span>
+                                <span data-i18n="researchPage.expertAnalysis">Expert Analysis</span>
                             </div>
                             <div class="feature-item">
                                 <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"/>
                                 </svg>
-                                <span>Weekly Updates</span>
+                                <span data-i18n="researchPage.weeklyUpdatesFeature">Weekly Updates</span>
                             </div>
                             <div class="feature-item">
                                 <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <polyline points="20 6 9 17 4 12"/>
                                 </svg>
-                                <span>Clear Structure</span>
+                                <span data-i18n="researchPage.clearStructure">Clear Structure</span>
                             </div>
                         </div>
                     </div>
@@ -895,7 +895,7 @@
     </main>
 
 
-        <script>
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Counter Animation
             const counters = document.querySelectorAll('.counter');

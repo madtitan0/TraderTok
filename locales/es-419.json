@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "title": "TraderTok - Plataforma de Trading Profesional | Opera con Confianza",
+    "description": "Haz crecer tus ahorros con confianza en TraderTok. Accede a potentes plataformas de trading de escritorio y móvil, análisis de mercado en tiempo real, soporte 24/7 y conocimientos de expertos."
+  },
+  "nav": {
+    "meetTheTeam": "Conoce al Equipo",
+    "tradingPlatforms": "Plataformas",
+    "accountTypes": "Tipos de Cuenta",
+    "educationResources": "Educación",
+    "marketsOverview": "Mercados",
+    "legal": "Legal",
+    "contactUs": "Contáctanos"
+  },
+  "dropdown": {
+    "tradingEssentials": "Fundamentos del Trading",
+    "tradingEssentialsDesc": "Aprende los conceptos básicos del trading",
+    "videoEducation": "Educación en Video",
+    "videoEducationDesc": "Mira tutoriales y consejos de expertos",
+    "eventsCalendar": "Calendario de Eventos",
+    "eventsCalendarDesc": "Sigue los eventos importantes del mercado",
+    "research": "Investigación",
+    "researchDesc": "Análisis de mercado profundo y perspectivas",
+    "liveTraining": "Entrenamiento en Vivo",
+    "liveTrainingDesc": "Únete a sesiones en vivo con expertos"
+  },
+  "language": {
+    "title": "Idioma",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "spanish": "Español"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "welcomeBack": "Bienvenido de Nuevo",
+    "signInToContinue": "Inicia sesión para continuar operando",
+    "createAccount": "Crear Cuenta",
+    "startJourney": "Comienza tu viaje de trading hoy",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "createPassword": "Crea una contraseña segura",
+    "confirmPassword": "Confirmar Contraseña",
+    "confirmPasswordPlaceholder": "Confirma tu contraseña",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Juan",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "García",
+    "phoneNumber": "Número de Teléfono",
+    "phonePlaceholder": "55 1234 5678",
+    "rememberMe": "Recuérdame",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "orContinueWith": "o continúa con",
+    "termsAgree": "Acepto los",
+    "termsOfService": "Términos de Servicio",
+    "and": "y la",
+    "privacyPolicy": "Política de Privacidad",
+    "searchCountry": "Buscar país..."
+  },
+  "hero": {
+    "title": "Entra <span class=\"gradient-text\">a los Mercados</span> con Confianza en<br><span class=\"gradient-text\">TraderTok</span>",
+    "description": "En TraderTok, te apoyamos con análisis de mercado gratuito y un equipo de profesionales experimentados, para que nunca navegues los mercados solo. Con una amplia gama de instrumentos de trading y una comunidad sólida de inversionistas, TraderTok es un destino confiable para quienes buscan dar el siguiente paso en su viaje financiero.",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber Más"
+  },
+  "promo": {
+    "highlight": "200%",
+    "title": "Invierte ahora y recibe hasta 200% de bono",
+    "subtitle": "Contacta a tu administrador de cuenta para más información",
+    "days": "Días",
+    "hours": "Horas",
+    "min": "Min",
+    "sec": "Seg",
+    "expired": "Esta oferta ha expirado. ¡Mantente atento a nuevas promociones!"
+  },
+  "about": {
+    "title": "Tu Socio de Confianza en el Crecimiento Financiero",
+    "subtitle": "En TraderTok, estamos redefiniendo lo que significa operar en los mercados globales.",
+    "description1": "Nacidos de una pasión por la precisión, la tecnología y las oportunidades, hemos construido una plataforma que empodera a traders de todos los niveles para tomar control de su futuro financiero.",
+    "description2": "No solo brindamos acceso a los mercados — brindamos la claridad, la confianza y las herramientas de vanguardia que marcan una diferencia real. Cada segundo cuenta en el trading, y por eso hemos diseñado un entorno donde la velocidad se encuentra con la estabilidad, y la innovación con la oportunidad.",
+    "happyClients": "Clientes Felices",
+    "support": "Soporte",
+    "secure": "Seguro"
+  },
+  "tradersClub": {
+    "free": "GRATIS",
+    "description": "Únete a nuestro Club de Traders y obtén una tarjeta virtual gratis. Retiros instantáneos, úsala en todo el mundo sin comisiones ni límites.",
+    "disclaimer": "*Disponible solo para miembros verificados del club",
+    "joinNow": "Únete Ahora",
+    "modalTitle": "Únete al Club de Traders",
+    "modalSubtitle": "Obtén tu tarjeta virtual gratis hoy",
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingresa tu correo",
+    "phone": "Teléfono",
+    "phonePlaceholder": "Ingresa tu teléfono",
+    "getMyFreeCard": "Obtener Mi Tarjeta Gratis"
+  },
+  "insights": {
+    "title": "Obtén los últimos análisis — directamente de nuestro equipo para ti.",
+    "financialStrategy": "Estrategia<br>Financiera",
+    "financialStrategyDesc": "Estrategias de trading personalizadas adaptadas a tus objetivos financieros únicos y nivel de experiencia.",
+    "freeTrainings": "Entrenamientos<br>Gratis",
+    "freeTrainingsDesc": "Entrenamiento de forex dirigido por expertos desde nivel principiante hasta intermedio, completamente gratis con soporte en vivo.",
+    "assetManagement": "Gestión de<br>Activos",
+    "assetManagementDesc": "Orientación experta 24/7 para identificar y gestionar los activos correctos para máxima rentabilidad.",
+    "demoAccount": "Cuenta<br>Demo",
+    "demoAccountDesc": "Practica sin riesgos con $10,000 de dinero virtual en datos de mercado en tiempo real antes de operar en vivo."
+  },
+  "platforms": {
+    "eyebrow": "Nuestras Plataformas de Trading",
+    "title": "Ven a Operar con Nosotros",
+    "subtitle": "Elige cómo prefieres operar: potente aplicación de escritorio para análisis profundo o plataforma móvil ligera para mantenerte en el mercado en movimiento.",
+    "webDesktop": "Web y Escritorio",
+    "desktopTitle": "TraderTok Escritorio",
+    "desktopDescription": "Accede a nuestra aplicación TraderTok Desktop en tu Mac o PC con Windows y obtén acceso completo a gráficos, indicadores y espacio de trabajo multipantalla para trading profesional.",
+    "windows": "Windows",
+    "mac": "Mac",
+    "mobilePlatform": "Plataforma Móvil",
+    "mobileTitle": "TraderTok Móvil",
+    "mobileDescription": "Accede a nuestra plataforma móvil en iOS y Android y opera desde cualquier lugar: abre, gestiona y cierra posiciones directamente desde tu teléfono en solo unos toques."
+  },
+  "instruments": {
+    "sectionTitle": "Explora Nuestros Instrumentos de Trading",
+    "sectionSubtitle": "En TraderTok, ofrecemos una amplia gama de instrumentos de trading diseñados para satisfacer las necesidades de todo tipo de trader — ya sea que estés comenzando o gestionando un portafolio sofisticado.",
+    "sectionDescription": "Con acceso a mercados globales y liquidez profunda, nuestra plataforma te empodera para explorar oportunidades en un amplio espectro de clases de activos, todo en un solo lugar. Creemos que la elección es poder, por eso continuamente expandimos nuestra lista de instrumentos para seguir el ritmo del panorama financiero en constante evolución.",
+    "forex": "Forex",
+    "forexDesc": "El mercado de divisas es el mercado más líquido del mundo, ofreciendo acceso las 24 horas y spreads ajustados. Nuestras ofertas de forex cubren todos los pares principales, menores y una amplia selección de exóticos, brindando oportunidades tanto para traders intradía como para estrategas a largo plazo.",
+    "commodities": "Materias Primas",
+    "commoditiesDesc": "Las materias primas como el oro, el petróleo y la plata ofrecen a los traders una cobertura contra la inflación y la volatilidad del mercado. Estos activos a menudo se comportan independientemente de las acciones y divisas, convirtiéndolos en excelentes herramientas de diversificación.",
+    "stocks": "Acciones",
+    "stocksDesc": "Opera acciones de las empresas de mayor rendimiento de las principales bolsas globales. Nuestros instrumentos de acciones te permiten especular sobre movimientos de precios sin poseer el activo subyacente, dándote la flexibilidad de ir en largo o en corto.",
+    "indices": "Índices",
+    "indicesDesc": "Los índices representan el rendimiento de un grupo de acciones, convirtiéndolos en una forma poderosa de obtener exposición amplia al mercado. Ya sea que operes el S&P 500, NASDAQ, FTSE u otros índices principales, nuestra plataforma brinda acceso eficiente con baja latencia y herramientas de gráficos avanzadas.",
+    "crypto": "Cripto",
+    "all": "Todos",
+    "search": "Buscar instrumentos...",
+    "spread": "Spread",
+    "leverage": "Apalancamiento",
+    "trade": "Operar",
+    "noResults": "No se encontraron instrumentos que coincidan con tu búsqueda."
+  },
+  "whyChoose": {
+    "title": "Por Qué Elegir TraderTok",
+    "subtitle": "Brindamos a nuestros inversionistas mejora continua, nuevas oportunidades para explorar los mercados financieros y la oportunidad de trabajar con un líder reconocido en la industria financiera.",
+    "lightningExecution": "Ejecución Ultrarrápida",
+    "lightningExecutionDesc": "Cada milisegundo cuenta en el trading. Nuestra infraestructura avanzada asegura que tus órdenes se ejecuten rápidamente, de manera confiable y con deslizamiento mínimo, para que nunca pierdas una oportunidad.",
+    "cuttingEdgePlatforms": "Plataformas de Vanguardia",
+    "cuttingEdgePlatformsDesc": "Opera en TraderTool, nuestra propia plataforma intuitiva. Con gráficos avanzados, análisis poderosos y herramientas personalizables, tienes todo lo que necesitas para operar de manera más inteligente.",
+    "globalMarkets": "Mercados Globales, Perspectivas Locales",
+    "globalMarketsDesc": "Accede a una amplia gama de instrumentos financieros, desde forex y materias primas hasta índices y criptomonedas. Nuestro alcance global se complementa con perspectivas de mercado de expertos para ayudarte a tomar decisiones informadas.",
+    "competitivePricing": "Precios Competitivos y Spreads Ajustados",
+    "competitivePricingDesc": "Ofrecemos spreads líderes en el mercado, comisiones bajas y precios transparentes — diseñados para darte la ventaja en cada operación.",
+    "expertSupport": "Soporte Experto",
+    "expertSupportDesc": "Nuestro equipo de soporte dedicado está disponible cuando lo necesites. Combinamos conocimiento de la industria con servicio rápido y amigable, para que puedas concentrarte en operar con confianza.",
+    "securityTrust": "Seguridad y Confianza",
+    "securityTrustDesc": "Tus fondos y datos están protegidos con protocolos de seguridad estándar de la industria y protección robusta de cuenta. Opera con confianza sabiendo que tus inversiones están seguras.",
+    "educationResources": "Educación y Recursos",
+    "educationResourcesDesc": "Ya sea que seas nuevo en el trading o un profesional experimentado, nuestros recursos de aprendizaje, webinars y perspectivas de mercado te ayudan a mejorar tus habilidades y crecer como trader."
+  },
+  "deposit": {
+    "interest": "7.6% de interés",
+    "isMonthly": "es Mensual",
+    "description": "Recibe el pago de intereses mensual directamente en tu saldo de efectivo, sin obligación.",
+    "disclaimer": "*Aplican riesgos crediticios y otros, por favor lee los Términos y Condiciones",
+    "joinNow": "Únete Ahora",
+    "modalTitle": "Abrir Cuenta de Depósito",
+    "modalSubtitle": "Completa tus datos y nuestro gerente te contactará",
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Ingresa tu correo",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+52 55 1234 5678",
+    "submitApplication": "Enviar Solicitud",
+    "modalDisclaimer": "Al enviar, aceptas nuestros Términos de Servicio y Política de Privacidad"
+  },
+  "telegram": {
+    "title": "Únete a Nuestra <span class=\"gradient-text\">Comunidad</span>",
+    "description": "Obtén señales de trading, análisis de mercado y conéctate con otros traders",
+    "joinNow": "Únete Ahora",
+    "signal": "SEÑAL",
+    "alert": "ALERTA",
+    "profit": "GANANCIA",
+    "analysis": "ANÁLISIS",
+    "hoursAgo": "h atrás",
+    "dayAgo": "d atrás"
+  },
+  "contactForm": {
+    "title": "¿Estás Listo Para Ganar Con TraderTok?",
+    "subtitle": "Te llamaremos",
+    "description": "Entra al mercado de mayor volumen de trading del mundo en minutos; fácil y seguramente.",
+    "name": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "surname": "Apellido",
+    "surnamePlaceholder": "Ingresa tu apellido",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+52 55 1234 5678",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tus objetivos de trading...",
+    "submit": "Contáctanos",
+    "successMessage": "¡Gracias! Te contactaremos pronto.",
+    "errorMessage": "Algo salió mal. Por favor intenta de nuevo."
+  },
+  "trustpilot": {
+    "name": "Trustpilot",
+    "rating": "4.8 de 5",
+    "moreReviews": "Más reseñas en Trustpilot"
+  },
+  "banking": {
+    "title": "Tus fondos se mantienen en <span class=\"gradient-text\">instituciones de primer nivel</span>",
+    "subtitle": "El Grupo TraderTok trabaja con socios bancarios de renombre mundial incluyendo:",
+    "disclaimer": "* Estos bancos son socios del grupo TraderTok y no atienden a todas las entidades dentro del grupo"
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "availableSupport": "Disponible 24/5 para soporte",
+    "copyright": "© 2025 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. La Compañía está autorizada y regulada por la Comisión de Servicios Financieros de Mauricio (\"FSC\"). Este sitio web es operado por Amber Rock Trade Ltd.",
+    "paymentInfo": "El procesamiento de pagos es manejado por nuestro agente de pago autorizado, B-Tech Ltd, registrado en Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.",
+    "riskWarning": "Advertencia de Riesgo:",
+    "riskWarningText": "Operar productos financieros derivados con TraderTok implica un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Podrías perder todo tu capital invertido y solo deberías operar con fondos que puedas permitirte perder. Antes de abrir cualquier posición, asegúrate de entender los riesgos, tus objetivos de inversión y tu nivel de experiencia.",
+    "riskWarningHtml": "<strong>Advertencia de Riesgo:</strong> Operar productos financieros derivados con TraderTok implica un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Podrías perder todo tu capital invertido y solo deberías operar con fondos que puedas permitirte perder. Antes de abrir cualquier posición, asegúrate de entender los riesgos, tus objetivos de inversión y tu nivel de experiencia. Por favor consulta nuestra Declaración de Divulgación de Riesgos completa para más información."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "close": "Cerrar",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "joinNow": "Únete Ahora",
+    "trade": "Operar",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "meetTheTeam": {
+    "pageTitle": "Conoce al Equipo - TraderTok | Nuestros Expertos Globales en Trading",
+    "pageDescription": "Conoce a nuestro equipo global de expertos en trading de todo el mundo. Traders profesionales que hablan inglés, español y hindi.",
+    "heroTitle": "Conoce al Equipo",
+    "heroSubtitle": "Nuestro equipo global de expertos en trading está aquí para guiarte en tu viaje de trading en tu idioma preferido.",
+    "tabEnglish": "Inglés",
+    "tabSpanish": "Español",
+    "tabHindi": "Hindi",
+    "departmentAgents": "Agentes",
+    "departmentManagers": "Gerentes",
+    "departmentBilling": "Facturación",
+    "managers": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor es un Gerente de Cuentas muy atento y enfocado en el cliente que siempre se esfuerza por entender las prioridades de cada cliente. Con fuertes habilidades de comunicación y una manera profesional y tranquila, Alex asegura una cooperación fluida y resultados consistentes y confiables."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans es un Gerente de Cuentas dinámico y orientado al detalle que combina fuertes habilidades de comunicación con una mentalidad estratégica. Enfocado en entender los objetivos del cliente y entregar resultados consistentes, Chris construye confianza a través de transparencia, confiabilidad y un enfoque orientado a soluciones."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin es un Gerente de Cuentas altamente organizado y orientado al cliente que consistentemente cumple sus compromisos. Con fuertes habilidades de comunicación y un enfoque profesional y tranquilo, Lucas construye confianza rápidamente y asegura que cada cliente se sienta apoyado y bien informado."
+      }
+    },
+    "billing": {
+      "brooke_davis": {
+        "name": "Brooke Davis",
+        "role": "Brooke Davis es una Especialista en Facturación meticulosa y orientada al cliente que asegura transacciones financieras sin problemas para todos los clientes. Con experiencia en procesamiento de pagos y gestión de cuentas, Brooke maneja depósitos, retiros y consultas de facturación con precisión y cuidado, haciendo que cada interacción financiera sea fluida y transparente."
+      },
+      "roy_bruce": {
+        "name": "Roy Bruce",
+        "role": "Roy Bruce es un Especialista en Facturación orientado a los detalles con amplia experiencia en operaciones financieras y soporte al cliente. Conocido por su enfoque analítico y habilidades rápidas de resolución de problemas, Roy gestiona verificaciones de pagos, reconciliaciones de cuentas y asegura que todas las transacciones cumplan con los más altos estándares de precisión y seguridad."
+      }
+    },
+    "english": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor es un Gerente de Cuentas muy atento y enfocado en el cliente que siempre se esfuerza por entender las prioridades de cada cliente. Con fuertes habilidades de comunicación y una manera profesional y tranquila.<br><br>Alex asegura una cooperación fluida y resultados consistentes y confiables."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans es un Gerente de Cuentas dinámico y orientado al detalle que combina fuertes habilidades de comunicación con una mentalidad estratégica. Enfocado en entender los objetivos del cliente y entregar resultados consistentes, Chris construye confianza a través de transparencia, confiabilidad y un enfoque orientado a soluciones."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin es un Gerente de Cuentas altamente organizado y orientado al cliente que consistentemente cumple sus compromisos. Con fuertes habilidades de comunicación y un enfoque profesional y tranquilo, Lucas construye confianza rápidamente y asegura que cada cliente se sienta apoyado y bien informado."
+      },
+      "kai_lockwood": {
+        "name": "Kai Lockwood",
+        "role": "Kai Lockwood es un Gerente de Cuentas proactivo y enfocado en el cliente con un sólido historial de construcción de alianzas a largo plazo. Conocido por su comunicación clara, atención al detalle y resolución rápida de problemas, Kai consistentemente entrega en los objetivos del cliente mientras mantiene un estilo de trabajo positivo y colaborativo."
+      },
+      "dominic_weber": {
+        "name": "Dominic Weber",
+        "role": "Dominic Weber es un Gerente de Cuentas confiable y orientado a resultados que siempre pone a los clientes primero. Con fuertes habilidades de comunicación y un enfoque estructurado al trabajo, Dominic entiende rápidamente las necesidades del cliente, proporciona soluciones claras y mantiene una colaboración profesional y fluida en cada etapa."
+      },
+      "dasha_petrova": {
+        "name": "Dasha Petrova",
+        "role": "Dasha Petrova es una Gerente de Cuentas dedicada y orientada a soluciones que siempre mantiene las prioridades del cliente en el centro de cada decisión. Conocida por su comunicación clara, confiabilidad y enfoque práctico, Dasha asegura una cooperación fluida y resultados consistentes y medibles."
+      },
+      "david_faris": {
+        "name": "David Faris",
+        "role": "David Faris es un Gerente de Cuentas reflexivo y orientado a objetivos con un fuerte enfoque en la satisfacción del cliente. Combinando comunicación clara con un enfoque estructurado y analítico, David identifica rápidamente las necesidades del cliente, ofrece soluciones prácticas y asegura una cooperación profesional y fluida."
+      },
+      "michael_smith": {
+        "name": "Michael Smith",
+        "role": "Michael Smith es un Gerente de Cuentas seguro y enfocado en resultados con un fuerte sentido de responsabilidad. Conocido por su comunicación clara, reacción rápida a las necesidades del cliente y mentalidad práctica orientada a soluciones, Michael asegura que cada cliente se sienta apoyado y en control de sus objetivos."
+      },
+      "oscar_dupont": {
+        "name": "Oscar Dupont",
+        "role": "Oscar Dupont es un Gerente de Cuentas enfocado en detalles y confiable con un fuerte compromiso con el éxito del cliente. Combinando comunicación clara con una mentalidad proactiva y orientada a soluciones, Oscar asegura una cooperación fluida y consistentemente entrega en los objetivos acordados."
+      },
+      "simon_bjork": {
+        "name": "Simon Bjork",
+        "role": "Simon Bjork es un Gerente de Cuentas metódico y centrado en el cliente con talento para convertir conceptos de mercado complejos en estrategias accionables. Conocido por su precisión analítica y comportamiento sereno, Simon construye relaciones duraderas con los clientes a través de confianza, experiencia y compromiso inquebrantable con la excelencia."
+      }
+    },
+    "spanish": {
+      "juan_garcia": {
+        "name": "Juan Garcia",
+        "role": "Juan Garcia es un Gerente de Cuentas estratégico y enfocado en el cliente que sobresale en construir relaciones sólidas con clientes hispanohablantes. Con profundo conocimiento del mercado y un enfoque proactivo, Juan entrega soluciones personalizadas y asegura que cada cliente alcance sus objetivos de trading."
+      }
+    },
+    "hindi": {
+      "aaron_dev": {
+        "name": "Aaron Dev",
+        "role": "Aaron Dev es un Gerente de Cuentas dedicado y conocedor que se especializa en atender a clientes de habla hindi. Con una sólida comprensión de los mercados indios e internacionales, Aaron brinda orientación personalizada y asegura una experiencia de trading fluida y de apoyo para cada cliente."
+      }
+    }
+  },
+  "marketsOverview": {
+    "title": "Resumen de Mercados"
+  },
+  "tradingPlatformsPage": {
+    "pageTitle": "Plataformas de Trading - TraderTok | Tecnología de Trading Avanzada",
+    "pageDescription": "Opera con plataformas de vanguardia diseñadas para velocidad, confiabilidad y rendimiento.",
+    "heroTitle": "Opera",
+    "typewriterWords": ["Más Inteligente", "Más Rápido", "A Tu Manera"],
+    "heroSubtitle": "En TraderTok, creemos que la tecnología debe empoderar, no complicar. Por eso construimos plataformas que te dan control total de tu experiencia de trading.",
+    "mobilePlatform": "Plataforma Móvil",
+    "webDesktop": "Web y Escritorio",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "mac": "Mac",
+    "signIn": "Iniciar Sesión",
+    "download": "Descargar"
+  },
+  "contactUsPage": {
+    "pageTitle": "Contáctanos - TraderTok | Ponte en Contacto",
+    "pageDescription": "Ponte en contacto con TraderTok. Nuestro equipo está aquí para ayudarte con cualquier pregunta.",
+    "heroTitle": "Contáctanos",
+    "heroTitleHighlight": "",
+    "heroDescription": "Estamos abiertos a cualquier consulta o pregunta que puedas tener. Por favor, envía tu consulta en los campos a continuación.",
+    "formName": "Nombre",
+    "formNamePlaceholder": "Ingresa tu nombre",
+    "formSurname": "Apellido",
+    "formSurnamePlaceholder": "Ingresa tu apellido",
+    "formPhone": "Teléfono",
+    "formPhonePlaceholder": "+52 55 1234 5678",
+    "formEmail": "Correo electrónico",
+    "formEmailPlaceholder": "tu@correo.com",
+    "formMessage": "Mensaje",
+    "formMessagePlaceholder": "Cuéntanos sobre tu consulta...",
+    "formSubmit": "Enviar Mensaje"
+  },
+  "legalPage": {
+    "pageTitle": "Legal - TraderTok | Términos y Políticas",
+    "pageDescription": "Información legal de TraderTok, términos de servicio, política de privacidad y divulgaciones regulatorias.",
+    "heroTitle": "Información Legal Importante y",
+    "heroTitleHighlight": "Políticas",
+    "heroDescription1": "En TraderTok, estamos comprometidos a mantener los más altos estándares de cumplimiento regulatorio, integridad legal y protección del cliente.",
+    "heroDescription2": "A continuación encontrarás nuestros documentos legales clave, que definen el marco de nuestros servicios.",
+    "heroNote": "Recomendamos encarecidamente a todos los clientes revisar cuidadosamente lo siguiente antes de abrir una cuenta:",
+    "docPrivacyPolicy": "Política de Privacidad",
+    "docPrivacyPolicyDesc": "La Compañía mantiene un marco integral de protección de datos.",
+    "docTermsConditions": "Términos y Condiciones",
+    "docTermsConditionsDesc": "El Acuerdo estipula los servicios de inversión y auxiliares proporcionados por la Compañía.",
+    "docAmlPolicy": "Política Anti-Lavado de Dinero",
+    "docAmlPolicyDesc": "Esta política describe el compromiso de la Compañía para prevenir el lavado de dinero.",
+    "docOrderExecution": "Política de Ejecución de Órdenes",
+    "docOrderExecutionDesc": "La Compañía está comprometida a proporcionar condiciones de trading óptimas.",
+    "docRiskDisclosure": "Divulgación de Riesgos",
+    "docRiskDisclosureDesc": "Este documento te informa sobre los riesgos inherentes asociados con el trading.",
+    "important": "Importante",
+    "importantNotice": "Al continuar usando nuestros servicios, confirmas que has leído, entendido y aceptado los términos descritos en estas políticas."
+  },
+  "accountTypesPage": {
+    "pageTitle": "Tipos de Cuenta - TraderTok | Elige Tu Cuenta de Trading",
+    "pageDescription": "Explora los tipos de cuenta de TraderTok diseñados para tu experiencia y objetivos de trading.",
+    "heroTitle": "Elige Tu",
+    "heroTitleHighlight": "Tipo de Cuenta",
+    "heroSubtitle": "Sin importar tus objetivos de trading, TraderTok ofrece una cuenta diseñada para satisfacerlos perfectamente. Explora y compara nuestras cinco opciones de cuenta para encontrar la que mejor se alinee con tus necesidades.",
+    "getStarted": "Comenzar",
+    "mostPopular": "Más Popular",
+    "standard": {
+      "name": "Estándar",
+      "feature1": "Acceso básico a la plataforma de trading",
+      "feature2": "Soporte al cliente estándar",
+      "feature3": "Herramientas de análisis de mercado estándar",
+      "feature4": "Acceso a recursos educativos",
+      "feature5": "Actualizaciones regulares del mercado",
+      "feature6": "Gestor de Cuenta"
+    },
+    "advanced": {
+      "name": "Avanzada",
+      "feature1": "Todos los beneficios de la Cuenta Estándar",
+      "feature2": "Costos de transacción más bajos",
+      "feature3": "Herramientas de gráficos avanzadas",
+      "feature4": "Soporte al cliente prioritario",
+      "feature5": "Informes de investigación e insights diarios del mercado",
+      "feature6": "Gestor de Cuenta",
+      "note": "Potencial de Mayores Ingresos: Disfruta de costos de transacción reducidos, permitiéndote retener un mayor porcentaje de tus ganancias"
+    },
+    "professional": {
+      "name": "Profesional",
+      "feature1": "Todos los beneficios de la Cuenta Avanzada",
+      "feature2": "50% de Reducción en Swap",
+      "feature3": "Informes de investigación exclusivos",
+      "feature4": "Costos de transacción aún más bajos",
+      "feature5": "Asistente personal dedicado",
+      "feature6": "Condiciones de trading personalizables",
+      "feature7": "Uso de herramientas de IA (limitado)",
+      "feature8": "Educación extensiva por un analista senior",
+      "note": "Potencial de Mayores Ingresos: Algunos de los costos de transacción más bajos de la industria, y el uso de un asistente personal y una herramienta de IA para navegarte a través de los mercados financieros"
+    },
+    "exclusive": {
+      "name": "Exclusiva",
+      "feature1": "Todos los beneficios de la Cuenta Profesional",
+      "feature2": "¡Cero comisiones de swap!",
+      "feature3": "Los costos de transacción más bajos posibles",
+      "feature4": "Acceso prioritario a nuevas funciones y herramientas",
+      "feature5": "Recursos educativos exclusivos",
+      "feature6": "Eventos VIP y oportunidades de networking",
+      "feature7": "Acceso personal regular a analistas senior",
+      "feature8": "El más alto nivel de soporte al cliente con tiempos de respuesta más rápidos",
+      "note": "Benefíciate de los costos de transacción más bajos, cero comisiones de swap, funciones exclusivas y soporte personalizado, optimizando tu rendimiento de trading para mayores retornos potenciales"
+    },
+    "black": {
+      "name": "BLACK",
+      "feature1": "Todos los Beneficios de la Cuenta Exclusiva",
+      "feature2": "Analista senior personal dedicado",
+      "feature3": "Bono de bienvenida de 300.000",
+      "feature4": "Acceso a colección privada de información educativa",
+      "feature5": "Ofertas personalizadas y negociables",
+      "feature6": "Analista supervisor"
+    }
+  },
+  "researchPage": {
+    "pageTitle": "Investigación - TraderTok | Análisis de Mercado e Insights",
+    "pageDescription": "Análisis de mercado en profundidad e insights de los analistas expertos de TraderTok.",
+    "heroTitle": "Perspectivas de Mercado Que",
+    "heroTitleHighlight": "Importan",
+    "heroDesc1": "Nuestros materiales de investigación están cuidadosamente preparados para ayudar a traders e inversores a comprender mejor los mercados. Cada video y PDF en esta página ha sido desarrollado cuidadosamente para ofrecer perspectivas prácticas, claras y basadas en experiencia real del mercado.",
+    "heroDesc2": "Sabemos que el mundo financiero puede ser complejo, por eso nos esforzamos en presentar la información de manera estructurada y fácil de seguir, sin perder la profundidad que importa.",
+    "videoLessons": "Lecciones en Video",
+    "pdfReports": "Reportes PDF",
+    "weeklyUpdates": "Actualizaciones Semanales",
+    "videoMaterials": "Materiales en Video",
+    "videoMaterialsDesc": "Mira nuestro análisis experto y perspectivas de trading",
+    "latestVideos": "Últimos Videos",
+    "researchReports": "Reportes de Investigación",
+    "researchReportsDesc": "Descarga análisis en profundidad y reportes detallados del mercado",
+    "pdfDownloads": "Descargas PDF",
+    "whyEducation": "Por Qué la Educación",
+    "whyEducationHighlight": "Importa",
+    "whyEducationDesc1": "En el mundo acelerado del trading e inversión, la educación no es opcional—es esencial. La toma de decisiones sólidas comienza con entender los instrumentos, los riesgos y el contexto económico más amplio.",
+    "whyEducationDesc2": "Los mercados cambian, los patrones evolucionan y nuevas oportunidades emergen cada día—los mejor preparados son los que se mantienen informados. Creemos que empoderar a los traders con conocimiento es uno de los servicios más valiosos que podemos ofrecer.",
+    "practicalInsights": "Perspectivas Prácticas",
+    "expertAnalysis": "Análisis Experto",
+    "weeklyUpdatesFeature": "Actualizaciones Semanales",
+    "clearStructure": "Estructura Clara"
+  },
+  "eventsCalendarPage": {
+    "pageTitle": "Calendario de Eventos - TraderTok | Eventos de Mercado Importantes",
+    "pageDescription": "Rastrea eventos de mercado importantes y publicaciones económicas.",
+    "heroTitle": "Resumen de",
+    "heroTitleHighlight": "Mercados",
+    "heroSubtitle": "Datos de mercado en tiempo real, eventos económicos y precios de criptomonedas en un solo lugar",
+    "liveMarket": "Mercado en Vivo",
+    "liveMarketDesc": "Cotizaciones en tiempo real para pares de forex principales, índices y commodities",
+    "live": "EN VIVO",
+    "economicCalendar": "Calendario Económico",
+    "economicCalendarDesc": "Próximos eventos económicos y su impacto esperado en los mercados",
+    "cryptoMarket": "Mercado de Criptomonedas",
+    "cryptoMarketDesc": "Las principales criptomonedas por capitalización de mercado con datos en tiempo real"
+  },
+  "tradingEssentialsPage": {
+    "pageTitle": "Fundamentos de Trading - TraderTok | Aprende los Básicos del Trading",
+    "pageDescription": "Aprende los fundamentos del trading con nuestros recursos educativos completos.",
+    "heroTitle": "Fundamentos de",
+    "heroTitleHighlight": "Trading",
+    "heroSubtitle": "TraderTok atiende a todos los clientes según su habilidad y experiencia. Para los principiantes, se dedicará una extensa sección de \"fundamentos de trading\". Aquí detallaremos toda la terminología más importante, así como la educación básica necesaria para el inicio de tu viaje de trading."
+  },
+  "videoEducationPage": {
+    "pageTitle": "Educación en Video - TraderTok | Tutoriales de Trading",
+    "pageDescription": "Mira tutoriales de trading e insights de expertos para mejorar tus habilidades de trading.",
+    "heroTitle": "Educación en",
+    "heroTitleHighlight": "Video",
+    "comingSoon": "Próximamente",
+    "heroSubtitle": "TraderTok ofrece una amplia gama de recursos educativos. Una forma de aprender más sobre trading es a través de nuestra extensa galería de videos, que cubre docenas de temas candentes, constantemente relevantes para traders, tanto profesionales como principiantes."
+  },
+  "liveTrainingPage": {
+    "pageTitle": "Entrenamiento en Vivo - TraderTok | Sesiones de Trading con Expertos",
+    "pageDescription": "Únete a sesiones de trading en vivo con nuestros analistas expertos.",
+    "heroTitle": "Aprende Trading",
+    "heroTitleHighlight": "en Vivo",
+    "heroDescription": "Únete a nuestras sesiones de trading en vivo y webinars dirigidos por expertos. Obtén análisis de mercado en tiempo real, aprende estrategias probadas e interactúa directamente con traders profesionales.",
+    "sessionsMonth": "Sesiones/Mes",
+    "activeLearners": "Estudiantes Activos",
+    "expertTrainers": "Entrenadores Expertos",
+    "hoursTraining": "Horas de Entrenamiento",
+    "upcomingSessions": "Próximas Sesiones",
+    "upcomingSessionsDesc": "Reserva tu lugar en nuestras próximas sesiones de trading en vivo. Cupos limitados.",
+    "registerNow": "Registrarse Ahora",
+    "daysLeft": "días restantes para el evento",
+    "event1": {
+      "monthShort": "Feb",
+      "fullDate": "Miércoles, 18 de Febrero de 2026",
+      "time": "13:00 GMT+1",
+      "title": "Oro - Alcanzando Nuevas Alturas en 2026",
+      "description": "No hay mejor manera de enseñar a nuestros clientes sobre los pormenores de los mercados e inversiones que a través del entrenamiento en vivo. Únete a nuestros webinars exclusivos para aprender más semanalmente."
+    },
+    "event2": {
+      "monthShort": "Mar",
+      "fullDate": "Miércoles, 18 de Marzo de 2026",
+      "time": "14:00 GMT+1",
+      "title": "Fundamentos de Forex - Dominando el Trading de Divisas",
+      "description": "Descubre las estrategias esenciales para el trading exitoso de forex. Nuestros analistas expertos te guiarán a través del análisis de mercado, gestión de riesgos y técnicas de trading rentables."
+    }
+  }
+}
