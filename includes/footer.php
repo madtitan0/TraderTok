@@ -45,7 +45,7 @@
             <!-- Bottom Section - Legal -->
             <div class="footer-bottom">
                 <div class="footer-legal">
-                    <p class="footer-copyright" data-i18n-html="footer.copyright">© 2025 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href="https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr" target="_blank" class="license-link">License No: GB24203892</a>. The Company is authorized and regulated by the Financial Services Commission of Mauritius ("FSC"). This website is operated by Amber Rock Trade Ltd.</p>
+                    <p class="footer-copyright" data-i18n-html="footer.copyright">© 2026 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href="https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr" target="_blank" class="license-link">License No: GB24203892</a>. The Company is authorized and regulated by the Financial Services Commission of Mauritius ("FSC"). This website is operated by Amber Rock Trade Ltd.</p>
 
                     <p class="footer-payment-info" data-i18n="footer.paymentInfo">Payment processing is handled by our authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.</p>
 
