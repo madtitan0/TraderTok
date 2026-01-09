@@ -8,7 +8,7 @@
                     <h3 class="footer-title" data-i18n="footer.quickLinks">Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="meet-the-team" class="footer-link" data-i18n="nav.meetTheTeam">Meet the Team</a></li>
-                        <li><a href="trading-platforms" class="footer-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a></li>
+                        <li><a href="trading-platform" class="footer-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a></li>
                         <li><a href="legal" class="footer-link" data-i18n="nav.legal">Legal</a></li>
                     </ul>
                 </div>
