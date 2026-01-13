@@ -910,7 +910,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
     </section>
 
     <!-- Trustpilot Reviews Section -->
-    <section class="trustpilot-section">
+    <!-- <section class="trustpilot-section">
       <div class="container">
         <div class="trustpilot-header">
           <div class="trustpilot-logo">
@@ -942,7 +942,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
           </svg>
         </a>
       </div>
-    </section>
+    </section> -->
 
     <!-- Banking Partners Section -->
     <section class="payment-methods-section">
