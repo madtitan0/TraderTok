@@ -1666,215 +1666,99 @@ if (signupForm) {
     });
 }
 
-// ====== PROMO BANNER COUNTDOWN TIMER ======
+// ====== EARNINGS REPORTS POPUP ======
 (function() {
-    // ========================================
-    // CONFIGURE YOUR PROMO END DATE HERE:
-    // Format: 'YYYY-MM-DDTHH:MM:SS' (24-hour format)
-    // Example: '2025-12-31T23:59:59' for Dec 31, 2025 at 11:59:59 PM
-    // ========================================
-    const PROMO_END_DATE = '2025-12-31T23:59:59';
-    // ========================================
+    const popup = document.getElementById('earnings-popup');
+    const closeBtn = document.getElementById('earnings-popup-close');
+    const overlay = popup?.querySelector('.earnings-popup-overlay');
 
-    const countdownContainer = document.getElementById('promo-countdown');
-    const expiredMessage = document.getElementById('promo-expired');
-    const daysEl = document.getElementById('countdown-days');
-    const hoursEl = document.getElementById('countdown-hours');
-    const minutesEl = document.getElementById('countdown-minutes');
-    const secondsEl = document.getElementById('countdown-seconds');
+    if (!popup) return;
 
-    if (!countdownContainer || !daysEl || !hoursEl || !minutesEl || !secondsEl) {
-        return;
+    function openEarningsPopup() {
+        popup.classList.add('active');
+        document.body.style.overflow = 'hidden';
     }
 
-    const endDate = new Date(PROMO_END_DATE).getTime();
+    function closeEarningsPopup() {
+        popup.classList.remove('active');
+        document.body.style.overflow = '';
+    }
 
-    function updateCountdown() {
-        const now = new Date().getTime();
-        const distance = endDate - now;
+    // Close button click
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeEarningsPopup);
+    }
 
-        if (distance < 0) {
-            // Promo has expired
-            countdownContainer.classList.add('hidden');
-            if (expiredMessage) {
-                expiredMessage.classList.add('show');
-            }
-            return;
+    // Overlay click to close
+    if (overlay) {
+        overlay.addEventListener('click', closeEarningsPopup);
+    }
+
+    // ESC key to close
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && popup.classList.contains('active')) {
+            closeEarningsPopup();
         }
+    });
 
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        daysEl.textContent = String(days).padStart(2, '0');
-        hoursEl.textContent = String(hours).padStart(2, '0');
-        minutesEl.textContent = String(minutes).padStart(2, '0');
-        secondsEl.textContent = String(seconds).padStart(2, '0');
-    }
-
-    // Initial update
-    updateCountdown();
-
-    // Update every second
-    setInterval(updateCountdown, 1000);
-})();
-
-// ====== PROMO BANNER GRADIENT ANIMATION ======
-const promoBanner = document.querySelector('.promo-banner');
-if (promoBanner) {
-    const promoObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                // Start gradient animation for title
-                const promoGradientTexts = promoBanner.querySelectorAll('.promo-title .gradient-text');
-                promoGradientTexts.forEach(text => {
-                    text.classList.add('animate');
-                });
-
-                // Start growth arrow animation
-                startGrowthArrowAnimation();
-
-                promoObserver.unobserve(promoBanner);
-            }
+    // Close popup when CTA button is clicked (after opening auth modal)
+    const ctaBtn = popup.querySelector('.btn-earnings-register');
+    if (ctaBtn) {
+        ctaBtn.addEventListener('click', () => {
+            closeEarningsPopup();
         });
-    }, { threshold: 0.3 });
-
-    promoObserver.observe(promoBanner);
-}
-
-// ====== GROWTH ARROW ANIMATION ======
-function startGrowthArrowAnimation() {
-    const segmentsGroup = document.getElementById('arrow-segments');
-    const arrowHead = document.getElementById('arrow-head');
-
-    if (!segmentsGroup || !arrowHead) return;
-
-    const points = [
-        { x: 40, y: 360 },
-        { x: 80, y: 330 },
-        { x: 110, y: 300 },
-        { x: 130, y: 320 },
-        { x: 160, y: 280 },
-        { x: 190, y: 250 },
-        { x: 210, y: 270 },
-        { x: 240, y: 220 },
-        { x: 260, y: 240 },
-        { x: 290, y: 180 },
-        { x: 310, y: 200 },
-        { x: 340, y: 140 },
-        { x: 360, y: 100 },
-        { x: 380, y: 50 },
-    ];
-
-    const tension = 0.3;
-
-    function getPointOnCurve(t) {
-        if (t <= 0) return { x: points[0].x, y: points[0].y, angle: -45 };
-        if (t >= 1) {
-            const last = points[points.length - 1];
-            const prev = points[points.length - 2];
-            return {
-                x: last.x,
-                y: last.y,
-                angle: Math.atan2(last.y - prev.y, last.x - prev.x) * (180 / Math.PI)
-            };
-        }
-
-        const totalSegments = points.length - 1;
-        const segment = Math.min(Math.floor(t * totalSegments), totalSegments - 1);
-        const localT = (t * totalSegments) - segment;
-
-        const i = segment;
-        const p0 = points[Math.max(i - 1, 0)];
-        const p1 = points[i];
-        const p2 = points[i + 1];
-        const p3 = points[Math.min(i + 2, points.length - 1)];
-
-        const cp1x = p1.x + (p2.x - p0.x) * tension;
-        const cp1y = p1.y + (p2.y - p0.y) * tension;
-        const cp2x = p2.x - (p3.x - p1.x) * tension;
-        const cp2y = p2.y - (p3.y - p1.y) * tension;
-
-        const t2 = localT * localT;
-        const t3 = t2 * localT;
-        const mt = 1 - localT;
-        const mt2 = mt * mt;
-        const mt3 = mt2 * mt;
-
-        const x = mt3 * p1.x + 3 * mt2 * localT * cp1x + 3 * mt * t2 * cp2x + t3 * p2.x;
-        const y = mt3 * p1.y + 3 * mt2 * localT * cp1y + 3 * mt * t2 * cp2y + t3 * p2.y;
-
-        const dx = 3 * mt2 * (cp1x - p1.x) + 6 * mt * localT * (cp2x - cp1x) + 3 * t2 * (p2.x - cp2x);
-        const dy = 3 * mt2 * (cp1y - p1.y) + 6 * mt * localT * (cp2y - cp1y) + 3 * t2 * (p2.y - cp2y);
-
-        return {
-            x,
-            y,
-            angle: Math.atan2(dy, dx) * (180 / Math.PI)
-        };
     }
 
-    function renderFrame(progress) {
-        segmentsGroup.innerHTML = '';
+    // Show popup after 3 seconds on every page load
+    setTimeout(() => {
+        openEarningsPopup();
+    }, 3000);
 
-        const numSegments = 20;
+    // Expose function globally for manual triggering if needed
+    window.openEarningsPopup = openEarningsPopup;
+    window.closeEarningsPopup = closeEarningsPopup;
 
-        for (let i = 0; i < numSegments; i++) {
-            const startT = (i / numSegments) * progress;
-            const endT = ((i + 1) / numSegments) * progress;
+    // ====== COUNTDOWN TIMER - End of February 2026 ======
+    const EARNINGS_END_DATE = '2026-02-28T23:59:59';
 
-            if (endT <= 0) continue;
+    const daysEl = document.getElementById('earnings-days');
+    const hoursEl = document.getElementById('earnings-hours');
+    const minutesEl = document.getElementById('earnings-minutes');
+    const secondsEl = document.getElementById('earnings-seconds');
 
-            const startPoint = getPointOnCurve(startT);
-            const endPoint = getPointOnCurve(endT);
+    if (daysEl && hoursEl && minutesEl && secondsEl) {
+        const endDate = new Date(EARNINGS_END_DATE).getTime();
 
-            const opacity = 0.15 + (endT / progress) * 0.85;
-            const colorProgress = endT / progress;
-            const r = Math.round(0);
-            const g = Math.round(150 + colorProgress * 105);
-            const b = Math.round(50 + colorProgress * 30);
+        function updateEarningsCountdown() {
+            const now = new Date().getTime();
+            const distance = endDate - now;
 
-            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-            path.setAttribute('d', `M ${startPoint.x} ${startPoint.y} L ${endPoint.x} ${endPoint.y}`);
-            path.setAttribute('fill', 'none');
-            path.setAttribute('stroke', `rgb(${r}, ${g}, ${b})`);
-            path.setAttribute('stroke-width', '3');
-            path.setAttribute('stroke-linecap', 'round');
-            path.setAttribute('stroke-linejoin', 'round');
-            path.setAttribute('opacity', opacity);
-            segmentsGroup.appendChild(path);
+            if (distance < 0) {
+                daysEl.textContent = '00';
+                hoursEl.textContent = '00';
+                minutesEl.textContent = '00';
+                secondsEl.textContent = '00';
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            daysEl.textContent = String(days).padStart(2, '0');
+            hoursEl.textContent = String(hours).padStart(2, '0');
+            minutesEl.textContent = String(minutes).padStart(2, '0');
+            secondsEl.textContent = String(seconds).padStart(2, '0');
         }
 
-        if (progress > 0.02) {
-            const currentPoint = getPointOnCurve(progress);
-            arrowHead.style.opacity = '1';
-            arrowHead.setAttribute('transform', `translate(${currentPoint.x}, ${currentPoint.y}) rotate(${currentPoint.angle})`);
-        }
+        // Initial update
+        updateEarningsCountdown();
+
+        // Update every second
+        setInterval(updateEarningsCountdown, 1000);
     }
-
-    const duration = 5000;
-    const start = Date.now();
-
-    // Easing function for smooth animation
-    function easeOutCubic(t) {
-        return 1 - Math.pow(1 - t, 3);
-    }
-
-    function animate() {
-        const elapsed = Date.now() - start;
-        const linearProgress = Math.min(elapsed / duration, 1);
-        const progress = easeOutCubic(linearProgress);
-
-        renderFrame(progress);
-
-        if (linearProgress < 1) {
-            requestAnimationFrame(animate);
-        }
-    }
-
-    setTimeout(() => requestAnimationFrame(animate), 300);
-}
+})();
 
 // ================== DEPOSIT COUNTER ANIMATION ==================
 (function() {

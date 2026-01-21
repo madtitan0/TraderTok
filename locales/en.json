@@ -65,15 +65,17 @@
     "getStarted": "Get Started",
     "learnMore": "Learn More"
   },
-  "promo": {
-    "highlight": "200%",
-    "title": "Invest Now and receive up to 200% bonus",
-    "subtitle": "Contact your account manager to find out more",
+  "earningsPopup": {
+    "badge": "Limited Time Offer",
+    "title": "Earnings Reports & Premarket Opportunities",
+    "period": "January & February 2026",
     "days": "Days",
     "hours": "Hours",
-    "min": "Min",
-    "sec": "Sec",
-    "expired": "This offer has expired. Stay tuned for new promotions!"
+    "minutes": "Min",
+    "seconds": "Sec",
+    "description": "Register your interest now and get exclusive promotions with guaranteed returns",
+    "cta": "Register Interest Now",
+    "disclaimer": "*Terms and conditions apply. Capital at risk."
   },
   "about": {
     "title": "Your Trusted Partner in Financial Growth",

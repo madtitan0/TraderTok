@@ -4903,254 +4903,390 @@ body.light-theme .platform-icon {
   }
 }
 
-/* ====== PROMO BANNER SECTION ====== */
-.promo-banner {
-  padding: 80px 0;
-  background: var(--bg-primary);
-  position: relative;
+
+/* ====== EARNINGS REPORTS POPUP ====== */
+.earnings-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.promo-banner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.earnings-popup.active {
+    opacity: 1;
+    visibility: visible;
 }
 
-.promo-card {
-  position: relative;
-  border-radius: 32px;
-  padding: 60px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  overflow: visible;
-  min-height: 400px;
+.earnings-popup-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
-.promo-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--brand-gradient);
-  mask: linear-gradient(
-    90deg,
-    black 0%,
-    black 45%,
-    rgba(0, 0, 0, 0.9) 50%,
-    rgba(0, 0, 0, 0.75) 55%,
-    rgba(0, 0, 0, 0.55) 60%,
-    rgba(0, 0, 0, 0.35) 65%,
-    rgba(0, 0, 0, 0.2) 70%,
-    rgba(0, 0, 0, 0.1) 75%,
-    rgba(0, 0, 0, 0.05) 80%,
-    transparent 85%
-  );
-  -webkit-mask: linear-gradient(
-    90deg,
-    black 0%,
-    black 45%,
-    rgba(0, 0, 0, 0.9) 50%,
-    rgba(0, 0, 0, 0.75) 55%,
-    rgba(0, 0, 0, 0.55) 60%,
-    rgba(0, 0, 0, 0.35) 65%,
-    rgba(0, 0, 0, 0.2) 70%,
-    rgba(0, 0, 0, 0.1) 75%,
-    rgba(0, 0, 0, 0.05) 80%,
-    transparent 85%
-  );
-  border-radius: 32px;
-  z-index: 0;
+.earnings-popup-content {
+    position: relative;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 32px;
+    padding: 50px 60px;
+    max-width: 580px;
+    width: 90%;
+    transform: translateY(30px) scale(0.9);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    text-align: center;
 }
 
-.promo-content {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.earnings-popup.active .earnings-popup-content {
+    transform: translateY(0) scale(1);
 }
 
-.promo-title {
-  font-size: clamp(1rem, 2vw, 1.4rem);
-  font-weight: 600;
-  color: #ffffff;
-  line-height: 1.4;
-  margin: 0;
-  white-space: nowrap;
+/* Animated Background Logos */
+.earnings-logos-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    opacity: 0.06;
+    pointer-events: none;
 }
 
-.promo-title-highlight {
-  display: block;
-  font-size: clamp(5rem, 10vw, 8rem);
-  font-weight: 800;
-  color: #000000;
-  line-height: 0.9;
-  margin-bottom: 10px;
+.earnings-logo {
+    position: absolute;
 }
 
-.promo-subtitle {
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.8);
-  line-height: 1.5;
-  font-weight: 500;
-  margin: -10px 0 0 0;
+.earnings-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.5);
+    opacity: 0.5;
+}
+
+.earnings-logo-nvidia {
+    width: 200px;
+    top: -20px;
+    right: -30px;
+    animation: floatLogo1 8s ease-in-out infinite;
+}
+
+.earnings-logo-apple {
+    width: 80px;
+    bottom: 60px;
+    left: -10px;
+    animation: floatLogo2 7s ease-in-out infinite;
+}
+
+.earnings-logo-amazon {
+    width: 120px;
+    bottom: -20px;
+    right: 40px;
+    animation: floatLogo3 9s ease-in-out infinite;
+}
+
+@keyframes floatLogo1 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    50% { transform: translate(-15px, 20px) rotate(5deg); }
+}
+
+@keyframes floatLogo2 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    50% { transform: translate(20px, -15px) rotate(-5deg); }
+}
+
+@keyframes floatLogo3 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    50% { transform: translate(-10px, -20px) rotate(3deg); }
+}
+
+/* Close Button */
+.earnings-popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    background: var(--hover-bg);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.earnings-popup-close:hover {
+    background: var(--border-color);
+    transform: rotate(90deg);
+}
+
+.earnings-popup-close svg {
+    width: 20px;
+    height: 20px;
+    color: var(--text-secondary);
+}
+
+/* Header */
+.earnings-popup-header {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.earnings-badge-text {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.earnings-popup-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.3;
+    margin: 0 0 12px 0;
+}
+
+.earnings-popup-period {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 20px 0;
 }
 
 /* Countdown Timer */
-.promo-countdown {
-  display: flex;
-  gap: 10px;
-  margin: 10px 0;
+.earnings-countdown {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 5px;
 }
 
-.countdown-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px 12px;
-  min-width: 50px;
+.earnings-countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 12px;
+    min-width: 50px;
 }
 
-.countdown-value {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #ffffff;
-  line-height: 1;
-  font-variant-numeric: tabular-nums;
+.earnings-countdown-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
 }
 
-.countdown-label {
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.7);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 4px;
+.earnings-countdown-label {
+    font-size: 0.65rem;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
 }
 
-.promo-expired {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 12px;
-  padding: 16px 24px;
-  color: #ffffff;
-  font-weight: 600;
-  display: none;
+/* Company Logos Showcase */
+.earnings-companies {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0;
+    position: relative;
+    z-index: 2;
 }
 
-.promo-expired.show {
-  display: block;
+.earnings-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    min-width: 110px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
 }
 
-.promo-countdown.hidden {
-  display: none;
+.earnings-company:hover {
+    transform: translateY(-8px);
+    border-color: var(--brand-color-start);
+    box-shadow: 0 20px 40px rgba(230, 57, 70, 0.15);
+}
+
+.company-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.company-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.earnings-company:hover .company-icon {
+    transform: scale(1.1);
+}
+
+.company-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.company-ticker {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-tertiary);
+    background: var(--hover-bg);
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+/* Staggered animation for companies */
+.earnings-company:nth-child(1) { animation: slideInCompany 0.6s 0.1s both; }
+.earnings-company:nth-child(2) { animation: slideInCompany 0.6s 0.2s both; }
+.earnings-company:nth-child(3) { animation: slideInCompany 0.6s 0.3s both; }
+
+@keyframes slideInCompany {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Description */
+.earnings-popup-description {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+    position: relative;
+    z-index: 2;
 }
 
 /* CTA Button */
-.promo-cta {
-  margin-top: 10px;
-}
-
-.btn-promo {
-  display: inline-flex;
-  align-items: center;
-  padding: 16px 36px;
-  background: #000000;
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-/* Promo Visual */
-.promo-visual {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  width: 100%;
-}
-
-#growth-arrow {
-  position: absolute;
-  width: 650px;
-  height: 650px;
-  transform: translate(0, -50%);
-  top: 50%;
-}
-
-/* Promo Banner Responsive */
-@media (max-width: 900px) {
-  .promo-card {
-    grid-template-columns: 1fr;
-    padding: 30px 40px 40px;
-    text-align: center;
-    min-height: auto;
-    overflow: visible;
-  }
-
-  .promo-content {
+.btn-earnings-register {
+    display: inline-flex;
     align-items: center;
-  }
-
-  .promo-countdown {
     justify-content: center;
-  }
-
-  .promo-visual {
-    order: -1;
-    height: 180px;
-    margin-top: -30px;
-  }
-
-  #growth-arrow {
-    width: 420px;
-    height: 420px;
-    transform: translate(0, -130px);
-  }
+    padding: 18px 48px;
+    background: var(--brand-gradient);
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    z-index: 2;
 }
 
-@media (max-width: 480px) {
-  .promo-banner {
-    padding: 60px 0;
-  }
+.btn-earnings-register:hover {
+    box-shadow: 0 15px 40px var(--brand-shadow);
+}
 
-  .promo-card {
-    padding: 20px 20px 30px;
-    border-radius: 24px;
-  }
+/* Disclaimer */
+.earnings-popup-disclaimer {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    margin: 20px 0 0 0;
+    position: relative;
+    z-index: 2;
+}
 
-  .promo-visual {
-    height: 150px;
-    margin-top: -20px;
-  }
+/* Responsive */
+@media (max-width: 600px) {
+    .earnings-popup-content {
+        padding: 40px 25px;
+        border-radius: 24px;
+        margin: 20px;
+    }
 
-  .promo-countdown {
-    gap: 8px;
-  }
+    .earnings-companies {
+        gap: 12px;
+    }
 
-  .countdown-item {
-    padding: 10px 12px;
-    min-width: 55px;
-  }
+    .earnings-company {
+        padding: 15px 12px;
+        min-width: 90px;
+        border-radius: 16px;
+    }
 
-  .countdown-value {
-    font-size: 1.4rem;
-  }
+    .company-icon {
+        width: 36px;
+        height: 36px;
+    }
 
-  .btn-promo {
-    padding: 14px 28px;
-    font-size: 0.9rem;
-  }
+    .company-name {
+        font-size: 0.85rem;
+    }
 
-  #growth-arrow {
-    width: 340px;
-    height: 340px;
-    transform: translate(0, -110px);
-  }
+    .btn-earnings-register {
+        padding: 16px 36px;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .earnings-popup-close {
+        top: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .earnings-companies {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .earnings-company {
+        width: 100%;
+        max-width: 200px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        padding: 12px 20px;
+    }
+
+    .company-icon {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 /* ====== DEPOSIT ACCOUNT SECTION ====== */

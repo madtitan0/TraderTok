@@ -65,15 +65,17 @@
     "getStarted": "Comenzar",
     "learnMore": "Saber Más"
   },
-  "promo": {
-    "highlight": "200%",
-    "title": "Invierte ahora y recibe hasta 200% de bono",
-    "subtitle": "Contacta a tu administrador de cuenta para más información",
+  "earningsPopup": {
+    "badge": "Oferta por Tiempo Limitado",
+    "title": "Reportes de Ganancias y Oportunidades de Premercado",
+    "period": "Enero y Febrero 2026",
     "days": "Días",
     "hours": "Horas",
-    "min": "Min",
-    "sec": "Seg",
-    "expired": "Esta oferta ha expirado. ¡Mantente atento a nuevas promociones!"
+    "minutes": "Min",
+    "seconds": "Seg",
+    "description": "Registra tu interés ahora y obtén promociones exclusivas con retornos garantizados",
+    "cta": "Registrar Interés Ahora",
+    "disclaimer": "*Aplican términos y condiciones. Capital en riesgo."
   },
   "about": {
     "title": "Tu Socio de Confianza en el Crecimiento Financiero",

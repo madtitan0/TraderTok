@@ -31,72 +31,98 @@
       </div>
     </section>
 
-    <!-- Promo Banner Section -->
-    <section class="promo-banner" id="promo-banner">
-      <div class="promo-banner-container">
-        <div class="promo-card">
-          <!-- Left - Content -->
-          <div class="promo-content">
-            <h2 class="promo-title">
-              <span class="promo-title-highlight" data-i18n="promo.highlight">200%</span>
-              <span data-i18n="promo.title">Invest Now and receive up to 200% bonus</span>
-            </h2>
+        <!-- Earnings Reports Promo Popup -->
+    <div class="earnings-popup" id="earnings-popup">
+        <div class="earnings-popup-overlay"></div>
+        <div class="earnings-popup-content">
+            <button class="earnings-popup-close" id="earnings-popup-close" aria-label="Close">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
 
-            <p class="promo-subtitle" data-i18n="promo.subtitle">
-              Contact your account manager to find out more
+            <!-- Animated Logo Background -->
+            <div class="earnings-logos-bg">
+                <div class="earnings-logo earnings-logo-nvidia">
+                    <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
+                </div>
+                <div class="earnings-logo earnings-logo-apple">
+                    <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+                </div>
+                <div class="earnings-logo earnings-logo-amazon">
+                    <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="earnings-popup-header">
+                <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
+                <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
+                    Earnings Reports & Premarket Opportunities
+                </h2>
+                <p class="earnings-popup-period" data-i18n="earningsPopup.period">
+                    January & February 2026
+                </p>
+
+                <!-- Countdown Timer -->
+                <div class="earnings-countdown" id="earnings-countdown">
+                    <div class="earnings-countdown-item">
+                        <span class="earnings-countdown-value" id="earnings-days">00</span>
+                        <span class="earnings-countdown-label" data-i18n="earningsPopup.days">Days</span>
+                    </div>
+                    <div class="earnings-countdown-item">
+                        <span class="earnings-countdown-value" id="earnings-hours">00</span>
+                        <span class="earnings-countdown-label" data-i18n="earningsPopup.hours">Hours</span>
+                    </div>
+                    <div class="earnings-countdown-item">
+                        <span class="earnings-countdown-value" id="earnings-minutes">00</span>
+                        <span class="earnings-countdown-label" data-i18n="earningsPopup.minutes">Min</span>
+                    </div>
+                    <div class="earnings-countdown-item">
+                        <span class="earnings-countdown-value" id="earnings-seconds">00</span>
+                        <span class="earnings-countdown-label" data-i18n="earningsPopup.seconds">Sec</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Logos Showcase -->
+            <div class="earnings-companies">
+                <div class="earnings-company" data-company="nvidia">
+                    <div class="company-icon">
+                        <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
+                    </div>
+                    <span class="company-name">NVIDIA</span>
+                    <span class="company-ticker">NVDA</span>
+                </div>
+                <div class="earnings-company" data-company="apple">
+                    <div class="company-icon">
+                        <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+                    </div>
+                    <span class="company-name">Apple</span>
+                    <span class="company-ticker">AAPL</span>
+                </div>
+                <div class="earnings-company" data-company="amazon">
+                    <div class="company-icon">
+                        <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
+                    </div>
+                    <span class="company-name">Amazon</span>
+                    <span class="company-ticker">AMZN</span>
+                </div>
+            </div>
+
+            <p class="earnings-popup-description" data-i18n="earningsPopup.description">
+                Register your interest now and get exclusive promotions with guaranteed returns
             </p>
 
-            <!-- Countdown Timer -->
-            <div class="promo-countdown" id="promo-countdown">
-              <div class="countdown-item">
-                <span class="countdown-value" id="countdown-days">00</span>
-                <span class="countdown-label" data-i18n="promo.days">Days</span>
-              </div>
-              <div class="countdown-item">
-                <span class="countdown-value" id="countdown-hours">00</span>
-                <span class="countdown-label" data-i18n="promo.hours">Hours</span>
-              </div>
-              <div class="countdown-item">
-                <span class="countdown-value" id="countdown-minutes">00</span>
-                <span class="countdown-label" data-i18n="promo.min">Min</span>
-              </div>
-              <div class="countdown-item">
-                <span class="countdown-value" id="countdown-seconds">00</span>
-                <span class="countdown-label" data-i18n="promo.sec">Sec</span>
-              </div>
-            </div>
+            <button class="btn-earnings-register" onclick="openAuthSidebar('signin')" data-i18n="earningsPopup.cta">
+                Register Interest Now
+            </button>
 
-            <div class="promo-expired" id="promo-expired" data-i18n="promo.expired">
-              This offer has expired. Stay tuned for new promotions!
-            </div>
-
-            <div class="promo-cta">
-              <!-- <button class="btn-promo" onclick="openAuthModal('register')">Get Started</button> -->
-              <a href="<?= $get->register_url ?>" class="btn-promo" data-i18n="hero.getStarted"
-                style="text-decoration: none;">Get Started</a>
-
-            </div>
-          </div>
-
-          <!-- Right - Arrow Animation -->
-          <div class="promo-visual">
-            <svg id="growth-arrow" width="420" height="420" viewBox="0 0 420 420">
-              <defs>
-                <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-                  <feGaussianBlur stdDeviation="2" result="blur" />
-                  <feMerge>
-                    <feMergeNode in="blur" />
-                    <feMergeNode in="SourceGraphic" />
-                  </feMerge>
-                </filter>
-              </defs>
-              <g id="arrow-segments"></g>
-              <polygon id="arrow-head" points="0,-8 18,0 0,8" fill="#00FF7F" filter="url(#glow)" style="opacity: 0;" />
-            </svg>
-          </div>
+            <p class="earnings-popup-disclaimer" data-i18n="earningsPopup.disclaimer">
+                *Terms and conditions apply. Capital at risk.
+            </p>
         </div>
-      </div>
-    </section>
+    </div>
 
     <!-- About Us Section -->
     <section class="about-us">
@@ -263,41 +289,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
             </div>
           </article>
           <?php } ?>
-          <!-- Card 1 - Financial Strategy -->
-          <!-- <article class="insight-card">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3 class="card-title">Financial<br>Strategy</h3>
-                            <p class="card-description">Personalized trading strategies tailored to your unique financial goals and experience level.</p>
-                        </div>
-                    </article> -->
 
-          <!-- Card 2 - Free Trainings -->
-          <!-- <article class="insight-card">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3 class="card-title">Free<br>Trainings</h3>
-                            <p class="card-description">Expert-led forex training from beginner to intermediate level, completely free with live support.</p>
-                        </div>
-                    </article> -->
-
-          <!-- Card 3 - Asset Management -->
-          <!-- <article class="insight-card">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3 class="card-title">Asset<br>Management</h3>
-                            <p class="card-description">24/7 expert guidance to identify and manage the right assets for maximum profitability.</p>
-                        </div>
-                    </article> -->
-
-          <!-- Card 4 - Demo Account -->
-          <!-- <article class="insight-card">
-                        <div class="card-overlay"></div>
-                        <div class="card-content">
-                            <h3 class="card-title">Demo<br>Account</h3>
-                            <p class="card-description">Practice risk-free with $10,000 virtual money on real-time market data before going live.</p>
-                        </div>
-                    </article> -->
         </div>
 
       </div>
@@ -470,58 +462,6 @@ if ($get->home_image_about_us && $get->home_about_us) {
           </div>
           <?php } ?>
 
-
-          <!-- Forex -->
-          <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Forex</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            The foreign exchange market is the most liquid market in the world, offering around-the-clock access and tight spreads. Our forex offerings cover all major pairs, minors, and a wide selection of exotics, providing opportunities for both day traders and long-term strategists. With low latency execution and high leverage options, our platform allows you to act quickly in a fast-moving market.
-                        </div>
-                    </div>
-                </div> -->
-
-          <!-- Commodities -->
-          <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Commodities</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Commodities like gold, oil, and silver offer traders a hedge against inflation and market volatility. These assets often behave independently of stocks and currencies, making them excellent tools for diversification. Our commodity instruments are traded with competitive pricing and fast execution, allowing you to tap into global supply and demand shifts with confidence.
-                        </div>
-                    </div>
-                </div> -->
-
-          <!-- Stocks -->
-          <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Stocks</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Trade shares of top-performing companies from leading global exchanges. Our stock instruments allow you to speculate on price movements without owning the underlying asset, giving you the flexibility to go long or short. Enjoy access to major sectors like tech, healthcare, energy, and more—empowering you to build strategies based on corporate performance and market momentum.
-                        </div>
-                    </div>
-                </div> -->
-
-          <!-- Indices -->
-          <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Indices</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Indices represent the performance of a group of stocks, making them a powerful way to gain broad market exposure. Whether you're trading the S&P 500, NASDAQ, FTSE, or other major indices, our platform provides efficient access with low latency and advanced charting tools. Indices are ideal for traders seeking to take positions on broader economic trends rather than individual companies.
-                        </div>
-                    </div>
-                </div> -->
         </div>
       </div>
     </section>
@@ -585,96 +525,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
               </div>
             </div>
             <?php $questId++; } ?>
-            <!-- Item 1 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Lightning-Fast Execution</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Every millisecond counts in trading. Our advanced infrastructure ensures your orders are executed quickly, reliably, and with minimal slippage, so you never miss an opportunity.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 2 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Cutting-Edge Platforms</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Trade on TraderTool, our own intuitive platform. With advanced charts, powerful analytics, and customizable tools, you have everything you need to trade smarter.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 3 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Global Markets, Local Insights</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Access a wide range of financial instruments, from forex and commodities to indices and cryptocurrencies. Our global reach is complemented by expert market insights to help you make informed decisions.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 4 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Competitive Pricing & Tight Spreads</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            We offer market-leading spreads, low fees, and transparent pricing — designed to give you the edge in every trade.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 5 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Expert Support</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Our dedicated support team is available whenever you need them. We combine industry knowledge with fast, friendly service, so you can focus on trading with confidence.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 6 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Security & Trust</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Your funds and data are safeguarded with industry-standard security protocols and robust account protection. Trade with confidence knowing that your investments are secure.
-                        </div>
-                    </div>
-                </div> -->
-
-            <!-- Item 7 -->
-            <!-- <div class="accordion-item">
-                    <button class="accordion-header">
-                        <span class="accordion-title">Education & Resources</span>
-                        <span class="accordion-icon">+</span>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="accordion-body">
-                            Whether you're new to trading or a seasoned professional, our learning resources, webinars, and market insights help you sharpen your skills and grow as a trader.
-                        </div>
-                    </div>
-                </div> -->
+            
           </div>
         </div>
       </div>
@@ -966,63 +817,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 }
             }
             ?>
-            <!-- First set -->
-            <!-- <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/ubs-logo.svg" alt="UBS" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/jpm-logo.svg" alt="JP Morgan" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/citi-logo.svg" alt="Citibank" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/db-logo.svg" alt="Deutsche Bank" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/coutts-logo.svg" alt="Coutts" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/pictet-logo.svg" alt="Pictet" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/jss-logo.svg" alt="Julius Baer" class="payment-method-logo bank-logo">
-                    </div> -->
-
-            <!-- Duplicate set for seamless loop -->
-            <!-- <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/ubs-logo.svg" alt="UBS" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/jpm-logo.svg" alt="JP Morgan" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/citi-logo.svg" alt="Citibank" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/db-logo.svg" alt="Deutsche Bank" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/coutts-logo.svg" alt="Coutts" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/pictet-logo.svg" alt="Pictet" class="payment-method-logo bank-logo">
-                    </div>
-
-                    <div class="payment-method-item">
-                        <img src="assets/images/banks_logo/jss-logo.svg" alt="Julius Baer" class="payment-method-logo bank-logo">
-                    </div> -->
+            
           </div>
         </div>
 

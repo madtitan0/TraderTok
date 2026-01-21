@@ -482,6 +482,40 @@
             display: inline-block;
         }
 
+        .video-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.85);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 90%;
+            max-width: 960px;
+        }
+
+        .video-modal video {
+            width: 100%;
+            border-radius: 14px;
+            background: black;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: -45px;
+            right: 0;
+            font-size: 32px;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+
         @keyframes countUp {
             from { opacity: 0.5; }
             to { opacity: 1; }
@@ -585,58 +619,63 @@
                 <div class="videos-grid">
                     <!-- Video Card 1 -->
                     <div class="video-card">
-                        <div class="video-thumbnail">
-                            <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                        <div class="video-thumbnail" onclick="openVideo('assets/videos/vid1.mp4')">
+                            <!-- <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
                                 <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1">
                                     <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
                                 </svg>
-                            </div>
+                            </div> -->
+                             <!-- <video preload="metadata" muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                                <source src="assets/videos/vid1.mp4#t=0.5" type="video/mp4">
+                            </video> -->
+                            <video id="video-preview-1" preload="none" muted playsinline style="width: 100%; height: 100%; object-fit: cover;" data-src="assets/videos/vid1.mp4#t=0.5">
+                                <source data-src="assets/videos/vid1.mp4#t=0.5" type="video/mp4">
+                            </video>
                             <div class="play-button">
                                 <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                             </div>
-                            <span class="video-duration">12:45</span>
+                            <!-- <span class="video-duration">12:45</span> -->
+                             <span class="video-duration" id="duration-1">--:--</span>
                         </div>
                         <div class="video-info">
-                            <div class="video-category">Technical Analysis</div>
-                            <h3 class="video-title">Understanding Support and Resistance Levels</h3>
+                            <div class="video-category">Trading Strategy</div>
+                            <h3 class="video-title"> Understanding Trading Accounts: A Comprehensive Guide</h3>
                             <div class="video-meta">
                                 <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                     Dec 15, 2024
                                 </span>
-                                <span>
+                                <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                                     2.4k views
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
 
                     <!-- Video Card 2 -->
                     <div class="video-card">
-                        <div class="video-thumbnail">
-                            <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
-                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1">
-                                    <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
-                                </svg>
-                            </div>
+                        <div class="video-thumbnail" onclick="openVideo('assets/videos/vid2.mp4')">
+                            <video id="video-preview-2" preload="none" muted playsinline style="width: 100%; height: 100%; object-fit: cover;" data-src="assets/videos/vid2.mp4#t=0.5">
+                                <source data-src="assets/videos/vid2.mp4#t=0.5" type="video/mp4">
+                            </video>
                             <div class="play-button">
                                 <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                             </div>
-                            <span class="video-duration">18:30</span>
+                            <span class="video-duration" id="duration-2">--:--</span>
                         </div>
                         <div class="video-info">
-                            <div class="video-category">Risk Management</div>
-                            <h3 class="video-title">Position Sizing: The Key to Long-Term Success</h3>
+                            <div class="video-category">Trading Strategy</div>
+                            <h3 class="video-title">Mastering CFD Trading Orders & Market Types</h3>
                             <div class="video-meta">
                                 <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                     Dec 10, 2024
                                 </span>
-                                <span>
+                                <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                                     1.8k views
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -662,10 +701,10 @@
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                     Dec 8, 2024
                                 </span>
-                                <span>
+                                <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                                     3.1k views
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -684,17 +723,17 @@
                             <span class="video-duration">15:20</span>
                         </div>
                         <div class="video-info">
-                            <div class="video-category">Trading Strategy</div>
+                            <div class="video-category">Technical Analysis</div>
                             <h3 class="video-title">Building a Diversified Trading Portfolio</h3>
                             <div class="video-meta">
                                 <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                                     Dec 5, 2024
                                 </span>
-                                <span>
+                                <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                                     2.0k views
-                                </span>
+                                </span> -->
                             </div>
                         </div>
                     </div>
@@ -893,6 +932,17 @@
             </div>
         </section>
     </main>
+    <div id="videoModal" class="video-modal">
+    <div class="video-modal-content">
+        <button class="close-btn" onclick="closeVideo()">×</button>
+
+        <video id="videoPlayer" controls preload="metadata">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
 
 
     <script>
@@ -934,5 +984,64 @@
             }, { threshold: 0.5 });
 
             counters.forEach(counter => observer.observe(counter));
+
+
+// Lazy Loading Video Thumbnails with Duration Detection
+            const videoObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const video = entry.target;
+                        const source = video.querySelector('source[data-src]');
+                        const durationSpan = document.getElementById(video.id.replace('video-preview-', 'duration-'));
+                        
+                        if (source && source.dataset.src) {
+                            // Load the video source
+                            source.src = source.dataset.src;
+                            video.load();
+                            
+                            // Get duration when metadata loads
+                            video.addEventListener('loadedmetadata', function() {
+                                const duration = video.duration;
+                                const minutes = Math.floor(duration / 60);
+                                const seconds = Math.floor(duration % 60);
+                                if (durationSpan) {
+                                    durationSpan.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                                }
+                            });
+                            
+                            // Stop observing this video
+                            videoObserver.unobserve(video);
+                        }
+                    }
+                });
+            }, { 
+                rootMargin: '50px' // Start loading 50px before video enters viewport
+            });
+
+            // Observe all video previews dynamically
+            const allVideoPreviews = document.querySelectorAll('video[data-src]');
+            allVideoPreviews.forEach(video => {
+                videoObserver.observe(video);
+            });
         });
     </script>
+    <script>
+function openVideo(src) {
+    const modal = document.getElementById("videoModal");
+    const video = document.getElementById("videoPlayer");
+
+    video.src = src;
+    modal.style.display = "flex";
+    video.play();
+}
+
+function closeVideo() {
+    const modal = document.getElementById("videoModal");
+    const video = document.getElementById("videoPlayer");
+
+    video.pause();
+    video.currentTime = 0;
+    video.src = "";
+    modal.style.display = "none";
+}
+</script>
