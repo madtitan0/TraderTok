@@ -5008,12 +5008,12 @@ body.light-theme .platform-icon {
 /* Close Button */
 .earnings-popup-close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 44px;
-    height: 44px;
-    border: none;
-    background: var(--hover-bg);
+    top: 16px;
+    right: 16px;
+    width: 52px;
+    height: 52px;
+    border: 2px solid var(--border-color);
+    background: var(--card-bg);
     border-radius: 50%;
     cursor: pointer;
     display: flex;
@@ -5024,15 +5024,22 @@ body.light-theme .platform-icon {
 }
 
 .earnings-popup-close:hover {
-    background: var(--border-color);
+    background: var(--brand-gradient);
+    border-color: transparent;
     transform: rotate(90deg);
 }
 
-.earnings-popup-close svg {
-    width: 20px;
-    height: 20px;
-    color: var(--text-secondary);
+.earnings-popup-close:hover svg {
+    color: #ffffff;
 }
+
+.earnings-popup-close svg {
+    width: 24px;
+    height: 24px;
+    color: #FF6B35;
+}
+
+
 
 /* Header */
 .earnings-popup-header {
