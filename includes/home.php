@@ -1,127 +1,118 @@
     <!-- Hero Section -->
-    <section class="hero">
-      <div class="container">
-        <!-- Left side - Image -->
-        <div class="hero-person">
-          <img src="assets/images/hero-background.webp"
-            alt="Professional trader reviewing market data on TraderTok platform" loading="eager" class="hero-img-dark">
-          <img src="assets/images/hero-background_white.png"
-            alt="Professional trader reviewing market data on TraderTok platform" loading="eager"
-            class="hero-img-light">
-          <div class="phone-chart">
-            <canvas id="candles"></canvas>
-          </div>
+    <section class="hero gold-silver-banner">
+      <div class="banner-left">
+        <div class="banner-content">
+          <p class="banner-subtitle" data-i18n-html="hero.subtitle">Precious Metals Investment</p>
+          <h1 class="banner-title" data-i18n-html="hero.title">
+            <span class="highlight-gold">Gold</span> & <span class="highlight-silver">Silver</span>: The Smart Money's
+            Safe Haven
+          </h1>
+          <p class="banner-text" data-i18n-html="hero.description">
+            When markets shake, precious metals stand strong. Discover why gold and silver are the go-to assets for
+            preserving wealth and seizing buying opportunities right now. With limited supply and growing global demand,
+            today's prices could be tomorrow's missed chance.
+          </p>
+          <a data-i18n="hero.getStarted" href="<?= $get->register_url ?>" class="btn-hero btn-primary-hero"
+            onclick="openAuthModal('register')">Get
+            Started</a>
         </div>
-
-        <!-- Right side - Content -->
-        <div class="hero-content">
-          <h1 class="hero-title" data-i18n-html="hero.title">Enter <span class="gradient-text">The Markets</span> With
-            Confidence At<br><span class="gradient-text">TraderTok</span></h1>
-          <div class="hero-buttons">
-            <a href="<?= $get->login_url ?>" class="btn-hero btn-primary-hero" data-i18n="hero.getStarted"
-              style="text-decoration: none;">Get Started</a>
-            <a href="<?= $get->register_url ?>" class="btn-hero btn-secondary-hero" data-i18n="hero.learnMore"
-              style="text-decoration: none;">Learn More</a>
-          </div>
-          <p class="hero-description" data-i18n="hero.description">At TraderTok, we support you with free market
-            analysis and a team of experienced professionals, so you're never navigating the markets alone. With a broad
-            range of trading instruments and a strong community of investors, TraderTok is a trusted destination for
-            those looking to take the next step in their financial journey.</p>
-        </div>
+      </div>
+      <div class="banner-right">
+        <img src="assets/images/gold-silver-bar-white-background.png" alt="Gold and Silver" class="banner-bg-image">
       </div>
     </section>
 
-        <!-- Earnings Reports Promo Popup -->
+    <!-- Earnings Reports Promo Popup -->
     <div class="earnings-popup" id="earnings-popup">
-        <div class="earnings-popup-overlay"></div>
-        <div class="earnings-popup-content">
-            <button class="earnings-popup-close" id="earnings-popup-close" aria-label="Close">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M18 6L6 18M6 6l12 12"/>
-                </svg>
-            </button>
+      <div class="earnings-popup-overlay"></div>
+      <div class="earnings-popup-content">
+        <button class="earnings-popup-close" id="earnings-popup-close" aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
 
-            <!-- Animated Logo Background -->
-            <div class="earnings-logos-bg">
-                <div class="earnings-logo earnings-logo-nvidia">
-                    <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
-                </div>
-                <div class="earnings-logo earnings-logo-apple">
-                    <img src="assets/images/Apple_logo_black.svg" alt="Apple">
-                </div>
-                <div class="earnings-logo earnings-logo-amazon">
-                    <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
-                </div>
-            </div>
-
-            <!-- Content -->
-            <div class="earnings-popup-header">
-                <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
-                <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
-                    Earnings Reports & Premarket Opportunities
-                </h2>
-                <p class="earnings-popup-period" data-i18n="earningsPopup.period">
-                    January & February 2026
-                </p>
-
-                <!-- Countdown Timer -->
-                <div class="earnings-countdown" id="earnings-countdown">
-                    <div class="earnings-countdown-item">
-                        <span class="earnings-countdown-value" id="earnings-days">00</span>
-                        <span class="earnings-countdown-label" data-i18n="earningsPopup.days">Days</span>
-                    </div>
-                    <div class="earnings-countdown-item">
-                        <span class="earnings-countdown-value" id="earnings-hours">00</span>
-                        <span class="earnings-countdown-label" data-i18n="earningsPopup.hours">Hours</span>
-                    </div>
-                    <div class="earnings-countdown-item">
-                        <span class="earnings-countdown-value" id="earnings-minutes">00</span>
-                        <span class="earnings-countdown-label" data-i18n="earningsPopup.minutes">Min</span>
-                    </div>
-                    <div class="earnings-countdown-item">
-                        <span class="earnings-countdown-value" id="earnings-seconds">00</span>
-                        <span class="earnings-countdown-label" data-i18n="earningsPopup.seconds">Sec</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Company Logos Showcase -->
-            <div class="earnings-companies">
-                <div class="earnings-company" data-company="nvidia">
-                    <div class="company-icon">
-                        <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
-                    </div>
-                    <span class="company-name">NVIDIA</span>
-                    <span class="company-ticker">NVDA</span>
-                </div>
-                <div class="earnings-company" data-company="apple">
-                    <div class="company-icon">
-                        <img src="assets/images/Apple_logo_black.svg" alt="Apple">
-                    </div>
-                    <span class="company-name">Apple</span>
-                    <span class="company-ticker">AAPL</span>
-                </div>
-                <div class="earnings-company" data-company="amazon">
-                    <div class="company-icon">
-                        <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
-                    </div>
-                    <span class="company-name">Amazon</span>
-                    <span class="company-ticker">AMZN</span>
-                </div>
-            </div>
-
-            <p class="earnings-popup-description" data-i18n="earningsPopup.description">
-                Register your interest now and get exclusive promotions with guaranteed returns
-            </p>
-
-            <button class="btn-earnings-register" onclick="openAuthSidebar('signin')" data-i18n="earningsPopup.cta">
-                Register Interest Now
-            </button>
-
-            <p class="earnings-popup-disclaimer" data-i18n="earningsPopup.disclaimer">
-                *Terms and conditions apply. Capital at risk.
-            </p>
+        <!-- Animated Logo Background -->
+        <div class="earnings-logos-bg">
+          <div class="earnings-logo earnings-logo-nvidia">
+            <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
+          </div>
+          <div class="earnings-logo earnings-logo-apple">
+            <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+          </div>
+          <div class="earnings-logo earnings-logo-amazon">
+            <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
+          </div>
         </div>
+
+        <!-- Content -->
+        <div class="earnings-popup-header">
+          <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
+          <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
+            Earnings Reports & Premarket Opportunities
+          </h2>
+          <p class="earnings-popup-period" data-i18n="earningsPopup.period">
+            January & February 2026
+          </p>
+
+          <!-- Countdown Timer -->
+          <div class="earnings-countdown" id="earnings-countdown">
+            <div class="earnings-countdown-item">
+              <span class="earnings-countdown-value" id="earnings-days">00</span>
+              <span class="earnings-countdown-label" data-i18n="earningsPopup.days">Days</span>
+            </div>
+            <div class="earnings-countdown-item">
+              <span class="earnings-countdown-value" id="earnings-hours">00</span>
+              <span class="earnings-countdown-label" data-i18n="earningsPopup.hours">Hours</span>
+            </div>
+            <div class="earnings-countdown-item">
+              <span class="earnings-countdown-value" id="earnings-minutes">00</span>
+              <span class="earnings-countdown-label" data-i18n="earningsPopup.minutes">Min</span>
+            </div>
+            <div class="earnings-countdown-item">
+              <span class="earnings-countdown-value" id="earnings-seconds">00</span>
+              <span class="earnings-countdown-label" data-i18n="earningsPopup.seconds">Sec</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company Logos Showcase -->
+        <div class="earnings-companies">
+          <div class="earnings-company" data-company="nvidia">
+            <div class="company-icon">
+              <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
+            </div>
+            <span class="company-name">NVIDIA</span>
+            <span class="company-ticker">NVDA</span>
+          </div>
+          <div class="earnings-company" data-company="apple">
+            <div class="company-icon">
+              <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+            </div>
+            <span class="company-name">Apple</span>
+            <span class="company-ticker">AAPL</span>
+          </div>
+          <div class="earnings-company" data-company="amazon">
+            <div class="company-icon">
+              <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
+            </div>
+            <span class="company-name">Amazon</span>
+            <span class="company-ticker">AMZN</span>
+          </div>
+        </div>
+
+        <p class="earnings-popup-description" data-i18n="earningsPopup.description">
+          Register your interest now and get exclusive promotions with guaranteed returns
+        </p>
+
+        <button class="btn-earnings-register" onclick="openAuthSidebar('signin')" data-i18n="earningsPopup.cta">
+          Register Interest Now
+        </button>
+
+        <p class="earnings-popup-disclaimer" data-i18n="earningsPopup.disclaimer">
+          *Terms and conditions apply. Capital at risk.
+        </p>
+      </div>
     </div>
 
     <!-- About Us Section -->
@@ -525,7 +516,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
               </div>
             </div>
             <?php $questId++; } ?>
-            
+
           </div>
         </div>
       </div>
@@ -817,7 +808,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 }
             }
             ?>
-            
+
           </div>
         </div>
 
