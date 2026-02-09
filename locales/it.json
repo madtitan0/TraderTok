@@ -60,10 +60,11 @@
     "searchCountry": "Cerca paese..."
   },
   "hero": {
-    "title": "Entra nei <span class=\"gradient-text\">Mercati</span> Con Fiducia Su<br><span class=\"gradient-text\">TraderTok</span>",
-    "description": "Su TraderTok, ti supportiamo con analisi di mercato gratuite e un team di professionisti esperti, così non navighi mai nei mercati da solo. Con una vasta gamma di strumenti di trading e una forte comunità di investitori, TraderTok è una destinazione affidabile per coloro che cercano di fare il passo successivo nel loro viaggio finanziario.",
-    "getStarted": "Inizia",
-    "learnMore": "Scopri di Più"
+    "subtitle": "Investimento in metalli preziosi",
+    "title": "<span class=\"highlight-gold\">Oro</span> e <span class=\"highlight-silver\">Argento</span>: il rifugio sicuro del denaro intelligente",
+    "description": "Quando i mercati vacillano, i metalli preziosi restano solidi. Scopri perché oro e argento sono gli asset preferiti per preservare il patrimonio e cogliere le opportunità di acquisto in questo momento. Con un’offerta limitata e una domanda globale in crescita, i prezzi di oggi potrebbero diventare l’occasione mancata di domani.",
+    "getStarted": "Inizia ora",
+    "learnMore": "Scopri di più"
   },
   "promo": {
     "highlight": "200%",
@@ -339,7 +340,11 @@
     "pageTitle": "Piattaforme di Trading - TraderTok | Tecnologia di Trading Avanzata",
     "pageDescription": "Fai trading con piattaforme all'avanguardia progettate per velocità, affidabilità e prestazioni. Accedi a potenti strumenti e analisi su desktop, web e mobile.",
     "heroTitle": "Fai Trading",
-    "typewriterWords": ["Più Intelligentemente", "Più Velocemente", "A Modo Tuo"],
+    "typewriterWords": [
+      "Più Intelligentemente",
+      "Più Velocemente",
+      "A Modo Tuo"
+    ],
     "heroSubtitle": "Su TraderTok, crediamo che la tecnologia debba potenziare, non complicare. Ecco perché abbiamo costruito piattaforme che ti danno il pieno controllo della tua esperienza di trading, sia che tu sia alla tua scrivania o in movimento.",
     "mobilePlatform": "Piattaforma Mobile",
     "webDesktop": "Web & Desktop",

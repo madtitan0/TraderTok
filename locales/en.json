@@ -60,8 +60,9 @@
     "searchCountry": "Search country..."
   },
   "hero": {
-    "title": "Enter <span class=\"gradient-text\">The Markets</span> With Confidence At<br><span class=\"gradient-text\">TraderTok</span>",
-    "description": "At TraderTok, we support you with free market analysis and a team of experienced professionals, so you're never navigating the markets alone. With a broad range of trading instruments and a strong community of investors, TraderTok is a trusted destination for those looking to take the next step in their financial journey.",
+    "subtitle": "Precious Metals Investment",
+    "title": "Enter <span class=\"highlight-gold\">Gold</span> & <span class=\"highlight-silver\">Silver</span>: The Smart Money's Safe Haven",
+    "description": "When markets shake, precious metals stand strong. Discover why gold and silver are the go-to assets for preserving wealth and seizing buying opportunities right now. With limited supply and growing global demand, today's prices could be tomorrow's missed chance.",
     "getStarted": "Get Started",
     "learnMore": "Learn More"
   },

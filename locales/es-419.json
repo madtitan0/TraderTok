@@ -60,10 +60,11 @@
     "searchCountry": "Buscar país..."
   },
   "hero": {
-    "title": "Entra <span class=\"gradient-text\">a los Mercados</span> con Confianza en<br><span class=\"gradient-text\">TraderTok</span>",
-    "description": "En TraderTok, te apoyamos con análisis de mercado gratuito y un equipo de profesionales experimentados, para que nunca navegues los mercados solo. Con una amplia gama de instrumentos de trading y una comunidad sólida de inversionistas, TraderTok es un destino confiable para quienes buscan dar el siguiente paso en su viaje financiero.",
+    "subtitle": "Inversión en metales preciosos",
+    "title": "<span class=\"highlight-gold\">Oro</span> y <span class=\"highlight-silver\">Plata</span>: el refugio seguro del dinero inteligente",
+    "description": "Cuando los mercados se sacuden, los metales preciosos se mantienen firmes. Descubre por qué el oro y la plata son los activos preferidos para preservar el patrimonio y aprovechar oportunidades de compra en este momento. Con una oferta limitada y una demanda global en aumento, los precios de hoy podrían convertirse en la oportunidad perdida de mañana.",
     "getStarted": "Comenzar",
-    "learnMore": "Saber Más"
+    "learnMore": "Más información"
   },
   "earningsPopup": {
     "badge": "Oferta por Tiempo Limitado",
