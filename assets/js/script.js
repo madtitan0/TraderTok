@@ -1567,7 +1567,7 @@ if (signupForm) {
                     "id": "fb251ea1-1956-428a-b5a3-015cfb017e37"
                 }
             ],
-            clientzoneDisabled: true,
+            // clientzoneDisabled: true,
             accounts: [
                 {
                     "groupName": "118000\\Defauult.USD",
