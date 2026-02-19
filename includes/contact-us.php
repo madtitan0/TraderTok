@@ -214,7 +214,7 @@
                   </div>
                   <div class="form-group">
                     <label for="email" class="form-label" data-i18n="contactUsPage.formEmail">Email</label>
-                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com"
+                    <input type="email" id="email" name="email" class="form-input" placeholder="support@tradertok.com"
                       data-i18n-placeholder="contactUsPage.formEmailPlaceholder" required>
                     <span class="form-error" id="email-error"></span>
                   </div>

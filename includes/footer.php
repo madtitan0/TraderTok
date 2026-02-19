@@ -32,6 +32,7 @@
             <div class="footer-contact">
               <!-- <a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a> -->
               <?= isset($get->phone) ? ' <a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a>' : null ?>
+              <?= isset($get->email) ? ' <a style="margin-top: -8px" href="mailto:' . $get->email . '" class="footer-phone">' . $get->email . '</a>' : null ?>
               <p class="footer-contact-text" data-i18n="footer.availableSupport">Available 24/5 for support</p>
               <div class="footer-payment-icons">
                 <svg class="payment-icon" viewBox="0 0 750 471" xmlns="http://www.w3.org/2000/svg">

@@ -729,7 +729,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
               </div>
               <div class="form-group">
                 <label for="email" class="form-label" data-i18n="contactForm.email">Email</label>
-                <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com"
+                <input type="email" id="email" name="email" class="form-input" placeholder="support@tradertok.com"
                   data-i18n-placeholder="contactForm.emailPlaceholder" required aria-required="true">
                 <span class="form-error" id="email-error"></span>
               </div>

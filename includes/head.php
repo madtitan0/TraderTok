@@ -385,7 +385,7 @@
 
           <div class="auth-form-group">
             <label for="signin-email" class="auth-label">Email</label>
-            <input type="email" id="signin-email" class="auth-input" placeholder="your@email.com" required>
+            <input type="email" id="signin-email" class="auth-input" placeholder="support@tradertok.com" required>
           </div>
 
           <div class="auth-form-group">
@@ -457,7 +457,7 @@
           <div class="auth-form-group">
             <label for="signup-email" class="auth-label" data-i18n="auth.email">Email</label>
             <input type="email" id="signup-email" class="auth-input" data-i18n-placeholder="auth.emailPlaceholder"
-              placeholder="your@email.com" required>
+              placeholder="support@tradertok.com" required>
           </div>
 
           <div class="auth-form-group">
