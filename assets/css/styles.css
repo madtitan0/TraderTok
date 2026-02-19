@@ -2656,6 +2656,14 @@ body.light-theme .why-choose-description.gradient-text {
   line-height: 1.2;
 }
 
+.doc-page-hero-title {
+  font-size: clamp(0.5rem, 4vw, 1.5rem);
+  font-weight: 700;
+  /* color: #ffffff; */
+  margin: 0 0 24px 0;
+  line-height: 1.2;
+}
+
 .page-hero-title .gradient-text {
   background: var(--brand-gradient);
   -webkit-background-clip: text;
@@ -2668,6 +2676,27 @@ body.light-theme .why-choose-description.gradient-text {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.9);
   margin: 0;
+}
+
+.doc-page-hero-subtitle {
+  font-size: 1rem;
+  line-height: 1.7;
+  /* color: rgba(255, 255, 255, 0.9); */
+  margin-bottom: 20px;
+}
+
+.doc-page-hero-small {
+  display: block;
+  margin-bottom: 5x;
+}
+
+ul.doc-page-hero-list {
+  margin-left: 20px;
+  list-style-type: lower-roman;
+}
+
+ul.doc-page-hero-list li {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -4120,7 +4149,7 @@ body.light-theme .platform-icon {
 /* License Link */
 .license-link {
   color: var(--brand-primary, #e63946);
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 

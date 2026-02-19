@@ -6,8 +6,8 @@ if (!$page) {
     require 'includes/home.php';
 } else {
     $menuDetail = (object)[];
-    // $menuDetail = new stdClass; 
-    
+    // $menuDetail = new stdClass;
+
         if($page == 'contact-us'){
 
             require("includes/contact-us.php");
@@ -30,14 +30,29 @@ if (!$page) {
       require("includes/meet-the-team.php");
         } elseif ($page == 'account-types'){
       require("includes/account-types.php");
-        } else if($page == 'otherPage'){
-           
+        } elseif ($page == 'privacy-policy'){
+      require("includes/privacy-policy.php");
+        }elseif ($page == 'terms-conditions'){
+      require("includes/terms-conditions.php");
+        }elseif ($page == 'anti-money-laundering-policy'){
+      require("includes/anti-money-laundering-policy.php");
+        }elseif ($page == 'order-execution-policy'){
+      require("includes/order-execution-policy.php");
+        }elseif ($page == 'risk-disclosure'){
+      require("includes/risk-disclosure.php");
+        }elseif ($page == 'general-risk-disclosure'){
+      require("includes/general-risk-disclosure.php");
+        }elseif ($page == 'client-service-agreement'){
+      require("includes/client-service-agreement.php");
+        }
+         else if($page == 'otherPage'){
+
             foreach ($get->other_page as $pageOther) {
                 if ($pageOther->url == $getURL) {
                     $menuDetail = $pageOther;
                 }
-            } 
- 
+            }
+
             require("includes/otherPage.php");
 
         }  elseif ($page == 'extraMenu') {
@@ -53,19 +68,19 @@ if (!$page) {
         }
                 else if($page=='about')
         {
-           
+
             require("includes/about.php");
         }
         else if($page=='blog')
         {
-           
+
             require("includes/blog.php");
         }
         else if($page=='blogDetail')
         {
 
             foreach ($get->blog as $blog1) {
-                
+
                 if ($blog1->id == $_GET["id"]) {
                     $blogDetail = $blog1;
                 }
@@ -78,19 +93,19 @@ if (!$page) {
                 if ($pageMenus->url == $page) {
                     $menuDetail = $pageMenus;
                 }
-            } 
-    
+            }
+
             if (!count((array)$menuDetail)) {
                 die('page not found...');
             }
-    
+
             require("includes/page.php");
 
         }
- 
 
-        
-     
+
+
+
 }
 
 
