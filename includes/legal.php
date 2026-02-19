@@ -331,13 +331,23 @@
                     <h3 class="document-title" data-i18n="legalPage.docPrivacyPolicy">Privacy Policy</h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" target="_blank">
+
+                  <a href="./privacy-policy" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
                         d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
                       <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+                    </svg>
+                  </a>
+
+                  <a href="./files/Privacy_Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download" target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -359,14 +369,24 @@
                     <h3 class="document-title" data-i18n="legalPage.docTermsConditions">Terms & Conditions</h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf"
-                    class="document-download" target="_blank">
+
+
+                  <a href="./terms-conditions" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
                         d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
                       <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+                    </svg>
+                  </a>
+                  <a href="./files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf"
+                    class="document-download" target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -388,14 +408,24 @@
                     <h3 class="document-title" data-i18n="legalPage.docAmlPolicy">Anti-Money Laundering Policy</h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" class="document-download"
-                    target="_blank">
+
+                  <a href="./anti-money-laundering-policy" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
                         d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
                       <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+                    </svg>
+                  </a>
+
+                  <a href="./files/AML_AND_KYC_POLICY_Amber_Rock_Trade_Ltd.pdf" class="document-download"
+                    target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -417,14 +447,22 @@
                     <h3 class="document-title" data-i18n="legalPage.docOrderExecution">Order Execution Policy</h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download"
-                    target="_blank">
+                  <a href="./order-execution-policy" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
                         d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
                       <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+                    </svg>
+                  </a>
+                  <a href="./files/Order_Executio_ Policy_Amber_Rock_Trade_Ltd.pdf" class="document-download"
+                    target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -446,13 +484,21 @@
                     <h3 class="document-title" data-i18n="legalPage.docRiskDisclosure">Risk Disclosure</h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" class="document-download" target="_blank">
+                  <a href="./risk-disclosure" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
                         d="M55.4,32V53.58a1.81,1.81,0,0,1-1.82,1.82H10.42A1.81,1.81,0,0,1,8.6,53.58V10.42A1.81,1.81,0,0,1,10.42,8.6H32" />
                       <polyline points="40.32 8.6 55.4 8.6 55.4 24.18" />
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
+                    </svg>
+                  </a>
+                  <a href="./files/Risk_Disclosure_Amber_Rock_Trade_Ltd.pdf" class="document-download" target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
                     </svg>
                   </a>
                 </div>
@@ -471,11 +517,11 @@
                     </svg>
                   </div>
                   <div class="document-content">
-                    <h3 class="document-title" data-i18n="legalPage.docGeneralRiskDisclosure">General Risk Disclosure</h3>
+                    <h3 class="document-title" data-i18n="legalPage.docGeneralRiskDisclosure">General Risk Disclosure
+                    </h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/General_Risk _Disclosure_AMBER_ROCK_TRADE_LTD.pdf" class="document-download"
-                    target="_blank">
+                  <a href="./general-risk-disclosure" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
@@ -484,9 +530,19 @@
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
                     </svg>
                   </a>
+                  <a href="./files/General_Risk _Disclosure_AMBER_ROCK_TRADE_LTD.pdf" class="document-download"
+                    target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
+                    </svg>
+                  </a>
                 </div>
                 <div class="document-description">
-                  <p data-i18n="legalPage.docGeneralRiskDisclosureDesc">The Company is committed to providing clients with
+                  <p data-i18n="legalPage.docGeneralRiskDisclosureDesc">The Company is committed to providing clients
+                    with
                     optimal trading conditions and efficient order execution.</p>
                 </div>
               </div>
@@ -500,10 +556,11 @@
                     </svg>
                   </div>
                   <div class="document-content">
-                    <h3 class="document-title" data-i18n="legalPage.docClientServiceAgreement">Client Service Agreement</h3>
+                    <h3 class="document-title" data-i18n="legalPage.docClientServiceAgreement">Client Service Agreement
+                    </h3>
                   </div>
                   <span class="document-toggle">+</span>
-                  <a href="./files/CLIENT_SERVICES_AGREEMENT_AMBER_ROCK_TRADE_LTD.pdf" class="document-download" target="_blank">
+                  <a href="./client-service-agreement" class="document-download">
                     <svg width="800px" height="800px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
                       stroke-width="3" stroke="currentColor" fill="none">
                       <path
@@ -512,9 +569,19 @@
                       <line x1="19.32" y1="45.72" x2="54.61" y2="8.91" />
                     </svg>
                   </a>
+                  <a href="./files/CLIENT_SERVICES_AGREEMENT_AMBER_ROCK_TRADE_LTD.pdf" class="document-download"
+                    target="_blank">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter">
+                      <polyline points="22 14 22 22 2 22 2 14"></polyline>
+                      <polyline points="17 12 12 17 7 12"></polyline>
+                      <line x1="12" y1="17" x2="12" y2="3"></line>
+                    </svg>
+                  </a>
                 </div>
                 <div class="document-description">
-                  <p data-i18n="legalPage.docClient ServiceAgreementDesc">This Risk Disclosure document informs you of the
+                  <p data-i18n="legalPage.docClient ServiceAgreementDesc">This Risk Disclosure document informs you of
+                    the
                     inherent risks associated with trading, by entering into over-the-counter.</p>
                 </div>
               </div>
