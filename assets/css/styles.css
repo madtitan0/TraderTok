@@ -4081,7 +4081,7 @@ body.light-theme .platform-icon {
 }
 
 .footer-phone {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   background: var(--brand-gradient);
   -webkit-background-clip: text;
