@@ -4130,16 +4130,6 @@ body.light-theme .platform-icon {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-}
-
-@media (min-width: 1024px) {
-  .footer-legal {
-    max-width: 800px;
-    margin: 0 auto;
-  }
 }
 
 .footer-copyright,
