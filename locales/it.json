@@ -10,7 +10,10 @@
     "educationResources": "Risorse Educative",
     "marketsOverview": "Panoramica Mercati",
     "legal": "Legale",
-    "contactUs": "Contattaci"
+    "contactUs": "Contattaci",
+    "riskDisclaimer": "Disclaimer sul Rischio",
+    "termsConditions": "Termini e Condizioni",
+    "cookiesPolicy": "Politica sui Cookie"
   },
   "dropdown": {
     "tradingEssentials": "Elementi Essenziali del Trading",
@@ -219,15 +222,16 @@
     "disclaimer": "* Queste banche sono partner del gruppo TraderTok e non servono tutte le entità all'interno del gruppo"
   },
   "footer": {
-    "quickLinks": "Link Rapidi",
+    "quickLinks": "Collegamenti Rapidi",
     "resources": "Risorse",
     "contact": "Contatto",
-    "availableSupport": "Disponibile 24/5 per supporto",
-    "copyright": "© 2026 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. La Società è autorizzata e regolamentata dalla Financial Services Commission of Mauritius (\"FSC\"). Questo sito web è gestito da Amber Rock Trade Ltd.",
-    "paymentInfo": "L'elaborazione dei pagamenti è gestita dal nostro agente di pagamento autorizzato, B-Tech Ltd, registrato a Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cipro, Company No: HE 414065.",
-    "riskWarning": "Avviso di Rischio:",
-    "riskWarningText": "Il trading di prodotti finanziari derivati con TraderTok comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potresti perdere tutto il capitale investito e dovresti fare trading solo con fondi che puoi permetterti di perdere. Prima di aprire qualsiasi posizione, assicurati di comprendere i rischi, i tuoi obiettivi di investimento e il tuo livello di esperienza. Consulta la nostra Dichiarazione di Divulgazione dei Rischi completa per ulteriori informazioni.",
-    "riskWarningHtml": "<strong>Avviso di Rischio:</strong> Il trading di prodotti finanziari derivati con TraderTok comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potresti perdere tutto il capitale investito e dovresti fare trading solo con fondi che puoi permetterti di perdere. Prima di aprire qualsiasi posizione, assicurati di comprendere i rischi, i tuoi obiettivi di investimento e il tuo livello di esperienza. Consulta la nostra Dichiarazione di Divulgazione dei Rischi completa per ulteriori informazioni."
+    "availableSupport": "Supporto disponibile 24/5",
+    "copyright": "© Amber Rock Trade Ltd. Livello 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. Numero di società: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">Numero di Licenza: GB24203892</a>. Amber Rock Trade Ltd è autorizzata e regolamentata dalla Financial Services Commission di Mauritius (FSC).",
+    "paymentInfo": "I servizi di elaborazione dei pagamenti sono forniti dall’agente di pagamento autorizzato della Società, B-Tech Ltd, registrato a Louki Akrita 1, Akritas Court, 3° Piano, Ufficio 301, 3030 Limassol, Cipro (Numero di Società: HE 414065).",
+    "copyright-extra": "Questo sito web è gestito da Amber Rock Trade Ltd.",
+    "riskWarning": "Avvertenza sul Rischio:",
+    "riskWarningText": "Il trading di strumenti finanziari derivati, inclusi CFD e altri prodotti con leva finanziaria, comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potreste perdere tutto o più del vostro investimento iniziale. Il trading è soggetto a volatilità di mercato, rischio di leva e altri rischi. Dovreste negoziare solo con fondi che potete permettervi di perdere. Prima di intraprendere attività di trading, assicuratevi di comprendere appieno i rischi coinvolti, i vostri obiettivi finanziari e il vostro livello di esperienza. Se necessario, cercate consulenza professionale indipendente. Consultate la nostra Dichiarazione completa di Divulgazione dei Rischi per informazioni dettagliate.",
+    "riskWarningHtml": "<strong>Avvertenza sul Rischio:</strong> Il trading di strumenti finanziari derivati, inclusi CFD e altri prodotti con leva finanziaria, comporta un alto livello di rischio e potrebbe non essere adatto a tutti gli investitori. Potreste perdere tutto o più del vostro investimento iniziale. Il trading è soggetto a volatilità di mercato, rischio di leva e altri rischi. Dovreste negoziare solo con fondi che potete permettervi di perdere. Prima di intraprendere attività di trading, assicuratevi di comprendere appieno i rischi coinvolti, i vostri obiettivi finanziari e il vostro livello di esperienza. Se necessario, cercate consulenza professionale indipendente. Consultate la nostra Dichiarazione completa di Divulgazione dei Rischi per informazioni dettagliate."
   },
   "common": {
     "loading": "Caricamento...",

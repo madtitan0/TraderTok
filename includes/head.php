@@ -1096,13 +1096,12 @@
             </div>
           </div>
 
-          <!-- <div class="auth-form-group">
+          <div class="auth-form-group">
             <label for="signup-password" class="auth-label">Password</label>
-            <input type="password" id="signup-password" class="auth-input" placeholder="Create a strong password"
-              required>
+            <input type="password" id="signup-password" class="auth-input" placeholder="Enter Password" required>
           </div>
 
-          <div class="auth-form-group">
+          <!-- <div class="auth-form-group">
             <label for="signup-confirm-password" class="auth-label">Confirm Password</label>
             <input type="password" id="signup-confirm-password" class="auth-input" placeholder="Confirm your password"
               required>

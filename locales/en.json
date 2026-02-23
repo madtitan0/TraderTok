@@ -10,7 +10,10 @@
     "educationResources": "Education Resources",
     "marketsOverview": "Markets Overview",
     "legal": "Legal",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "riskDisclaimer": "Risk Disclaimer",
+    "termsConditions": "Terms & Conditions",
+    "cookiesPolicy": "Cookies Policy"
   },
   "dropdown": {
     "tradingEssentials": "Trading Essentials",
@@ -225,11 +228,12 @@
     "resources": "Resources",
     "contact": "Contact",
     "availableSupport": "Available 24/5 for support",
-    "copyright": "© 2026 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. The Company is authorized and regulated by the Financial Services Commission of Mauritius (\"FSC\"). This website is operated by Amber Rock Trade Ltd.",
-    "paymentInfo": "Payment processing is handled by our authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.",
+    "copyright": "© Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. Company No: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. Amber Rock Trade Ltd is authorized and regulated by the Financial Services Commission of Mauritius (FSC).",
+    "paymentInfo": "Payment processing services are provided by the Company’s authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus (Company No: HE 414065).",
+    "copyright-extra": "This website is operated by Amber Rock Trade Ltd.",
     "riskWarning": "Risk Warning:",
-    "riskWarningText": "Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable for all investors. You could lose all your invested capital and should only trade with funds you can afford to lose. Before opening any position, ensure you understand the risks, your investment objectives, and your level of experience. Please consult our full Risk Disclosure Statement for more information.",
-    "riskWarningHtml": "<strong>Risk Warning:</strong> Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable for all investors. You could lose all your invested capital and should only trade with funds you can afford to lose. Before opening any position, ensure you understand the risks, your investment objectives, and your level of experience. Please consult our full Risk Disclosure Statement for more information."
+    "riskWarningText": "Trading in derivative financial instruments, including CFDs and other leveraged products, carries a high level of risk and may not be suitable for all investors. You may lose all or more than your initial investment. Trading is subject to market volatility, leverage risk, and other risks. You should only trade with funds you can afford to lose. Before engaging in trading activities, please ensure that you fully understand the risks involved, your financial objectives, and your level of experience. If necessary, seek independent professional advice. Please refer to our full Risk Disclosure Statement for detailed information.",
+    "riskWarningHtml": "<strong>Risk Warning:</strong> Trading in derivative financial instruments, including CFDs and other leveraged products, carries a high level of risk and may not be suitable for all investors. You may lose all or more than your initial investment. Trading is subject to market volatility, leverage risk, and other risks. You should only trade with funds you can afford to lose. Before engaging in trading activities, please ensure that you fully understand the risks involved, your financial objectives, and your level of experience. If necessary, seek independent professional advice. Please refer to our full Risk Disclosure Statement for detailed information."
   },
   "common": {
     "loading": "Loading...",

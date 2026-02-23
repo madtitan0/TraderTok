@@ -10,7 +10,10 @@
               <li><a href="meet-the-team" class="footer-link" data-i18n="nav.meetTheTeam">Meet the Team</a></li>
               <li><a href="trading-platform" class="footer-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a>
               </li>
-              <li><a href="legal" class="footer-link" data-i18n="nav.legal">Legal</a></li>
+              <li><a href="risk-disclosure" class="footer-link" data-i18n="nav.riskDisclaimer">Risk Disclaimer</a></li>
+              <li><a href="terms-conditions" class="footer-link" data-i18n="nav.termsConditions">Terms & Conditions</a>
+              </li>
+              <!-- <li><a href="cookies-policy" class="footer-link" data-i18n="nav.cookiesPolicy">Cookies Policy</a></li> -->
             </ul>
           </div>
 
@@ -56,21 +59,32 @@
         <!-- Bottom Section - Legal -->
         <div class="footer-bottom">
           <div class="footer-legal">
-            <p class="footer-copyright" data-i18n-html="footer.copyright">© 2026 Amber Rock Trade Ltd, Level 5,
-              Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a
+            <p class="footer-copyright" data-i18n-html="footer.copyright">© <script>
+              document.write(new Date().getFullYear());
+              </script> Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius.
+              Company No: 222594. <a
                 href="https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr" target="_blank"
-                class="license-link">License No: GB24203892</a>. The Company is authorized and regulated by the
-              Financial Services Commission of Mauritius ("FSC"). This website is operated by Amber Rock Trade Ltd.</p>
+                class="license-link">License No: GB24203892</a>. Amber Rock Trade Ltd is authorized and regulated by the
+              Financial Services Commission of Mauritius (FSC).</p>
 
-            <p class="footer-payment-info" data-i18n="footer.paymentInfo">Payment processing is handled by our
-              authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office
-              301, 3030 Limassol, Cyprus, Company No: HE 414065.</p>
+            <p class="footer-copyright-extra" data-i18n="footer.copyright-extra">
+              This website is operated by Amber Rock Trade Ltd.
+            </p>
 
-            <p class="footer-risk-warning" data-i18n-html="footer.riskWarningHtml"><strong>Risk Warning:</strong>
-              Trading derivative financial products with TraderTok involves a high level of risk and may not be suitable
-              for all investors. You could lose all your invested capital and should only trade with funds you can
-              afford to lose. Before opening any position, ensure you understand the risks, your investment objectives,
-              and your level of experience. Please consult our full Risk Disclosure Statement for more information.</p>
+            <p class="footer-payment-info" data-i18n="footer.paymentInfo">Payment processing services are provided by
+              the Company’s authorized payment agent, B-Tech Ltd, registered at Louki Akrita 1, Akritas Court, 3rd
+              Floor, Flat/Office 301, 3030 Limassol, Cyprus (Company No: HE 414065).</p>
+
+            <p class="footer-risk-warning" data-i18n-html="footer.riskWarningHtml"><span
+                class="risk-warning-title  ">Risk
+                Warning:</span>
+              Trading in derivative financial instruments, including CFDs and other leveraged products, carries a high
+              level of risk and may not be suitable for all investors. You may lose all or more than your initial
+              investment. Trading is subject to market volatility, leverage risk, and other risks. You should only trade
+              with funds you can afford to lose. Before engaging in trading activities, please ensure that you fully
+              understand the risks involved, your financial objectives, and your level of experience. If necessary, seek
+              independent professional advice. Please refer to our full Risk Disclosure Statement for detailed
+              information.</p>
           </div>
         </div>
       </div>

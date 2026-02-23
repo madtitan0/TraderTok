@@ -10,7 +10,10 @@
     "educationResources": "Educación",
     "marketsOverview": "Mercados",
     "legal": "Legal",
-    "contactUs": "Contáctanos"
+    "contactUs": "Contáctanos",
+    "riskDisclaimer": "Descargo de Responsabilidad de Riesgo",
+    "termsConditions": "Términos y Condiciones",
+    "cookiesPolicy": "Política de Cookies"
   },
   "dropdown": {
     "tradingEssentials": "Fundamentos del Trading",
@@ -224,12 +227,13 @@
     "quickLinks": "Enlaces Rápidos",
     "resources": "Recursos",
     "contact": "Contacto",
-    "availableSupport": "Disponible 24/5 para soporte",
-    "copyright": "© 2026 Amber Rock Trade Ltd, Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius, Company No: 222594, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. La Compañía está autorizada y regulada por la Comisión de Servicios Financieros de Mauricio (\"FSC\"). Este sitio web es operado por Amber Rock Trade Ltd.",
-    "paymentInfo": "El procesamiento de pagos es manejado por nuestro agente de pago autorizado, B-Tech Ltd, registrado en Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus, Company No: HE 414065.",
+    "availableSupport": "Soporte disponible 24/5",
+    "copyright": "© Amber Rock Trade Ltd. Nivel 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauricio. Número de Compañía: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">Número de Licencia: GB24203892</a>. Amber Rock Trade Ltd está autorizada y regulada por la Comisión de Servicios Financieros de Mauricio (FSC).",
+    "paymentInfo": "Los servicios de procesamiento de pagos son proporcionados por el agente de pago autorizado de la Compañía, B-Tech Ltd, registrado en Louki Akrita 1, Akritas Court, 3er Piso, Oficina 301, 3030 Limassol, Chipre (Número de Compañía: HE 414065).",
+    "copyright-extra": "Este sitio web es operado por Amber Rock Trade Ltd.",
     "riskWarning": "Advertencia de Riesgo:",
-    "riskWarningText": "Operar productos financieros derivados con TraderTok implica un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Podrías perder todo tu capital invertido y solo deberías operar con fondos que puedas permitirte perder. Antes de abrir cualquier posición, asegúrate de entender los riesgos, tus objetivos de inversión y tu nivel de experiencia.",
-    "riskWarningHtml": "<strong>Advertencia de Riesgo:</strong> Operar productos financieros derivados con TraderTok implica un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Podrías perder todo tu capital invertido y solo deberías operar con fondos que puedas permitirte perder. Antes de abrir cualquier posición, asegúrate de entender los riesgos, tus objetivos de inversión y tu nivel de experiencia. Por favor consulta nuestra Declaración de Divulgación de Riesgos completa para más información."
+    "riskWarningText": "Operar con instrumentos financieros derivados, incluidos CFDs y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores. Puede perder toda su inversión inicial o incluso más. La operativa está sujeta a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de participar en actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada.",
+    "riskWarningHtml": "<strong>Advertencia de Riesgo:</strong> Operar con instrumentos financieros derivados, incluidos CFDs y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversores. Puede perder toda su inversión inicial o incluso más. La operativa está sujeta a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de participar en actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada."
   },
   "common": {
     "loading": "Cargando...",
