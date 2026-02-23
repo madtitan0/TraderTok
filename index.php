@@ -44,6 +44,8 @@ if (!$page) {
       require("includes/general-risk-disclosure.php");
         }elseif ($page == 'client-service-agreement'){
       require("includes/client-service-agreement.php");
+        }elseif ($page == 'cookie-policy'){
+      require("includes/cookie-policy.php");
         }
          else if($page == 'otherPage'){
 

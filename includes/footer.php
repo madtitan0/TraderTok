@@ -13,7 +13,7 @@
               <li><a href="risk-disclosure" class="footer-link" data-i18n="nav.riskDisclaimer">Risk Disclaimer</a></li>
               <li><a href="terms-conditions" class="footer-link" data-i18n="nav.termsConditions">Terms & Conditions</a>
               </li>
-              <!-- <li><a href="cookies-policy" class="footer-link" data-i18n="nav.cookiesPolicy">Cookies Policy</a></li> -->
+              <li><a href="cookie-policy" class="footer-link" data-i18n="nav.cookiePolicy">Cookie Policy</a></li>
             </ul>
           </div>
 
