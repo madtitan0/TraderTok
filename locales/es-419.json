@@ -11,6 +11,8 @@
     "marketsOverview": "Mercados",
     "legal": "Legal",
     "contactUs": "Contáctanos",
+    "generalRiskDisclosure": "Divulgación general de riesgos",
+    "clientServiceAgreement": "Acuerdo de servicio al cliente",
     "riskDisclaimer": "Descargo de Responsabilidad de Riesgo",
     "termsConditions": "Términos y Condiciones",
     "cookiePolicy": "Política de Cookie"
@@ -224,7 +226,7 @@
     "disclaimer": "* Estos bancos son socios del grupo TraderTok y no atienden a todas las entidades dentro del grupo"
   },
   "footer": {
-    "quickLinks": "Enlaces Rápidos",
+    "quickLinks": "Cumplimiento",
     "resources": "Recursos",
     "contact": "Contacto",
     "availableSupport": "Soporte disponible 24/5",

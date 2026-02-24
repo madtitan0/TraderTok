@@ -5,10 +5,15 @@
         <div class="footer-top">
           <!-- Quick Links -->
           <div class="footer-column">
-            <h3 class="footer-title" data-i18n="footer.quickLinks">Quick Links</h3>
+            <h3 class="footer-title" data-i18n="footer.quickLinks">Compliance</h3>
             <ul class="footer-links">
-              <li><a href="meet-the-team" class="footer-link" data-i18n="nav.meetTheTeam">Meet the Team</a></li>
-              <li><a href="trading-platform" class="footer-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a>
+              <li><a href="general-risk-disclosure" class="footer-link" data-i18n="nav.generalRiskDisclosure">General
+                  Risk
+                  Disclosure</a>
+              </li>
+              <li><a href="client-service-agreement" class="footer-link" data-i18n="nav.clientServiceAgreement">Client
+                  Service
+                  Agreement</a>
               </li>
               <li><a href="risk-disclosure" class="footer-link" data-i18n="nav.riskDisclaimer">Risk Disclaimer</a></li>
               <li><a href="terms-conditions" class="footer-link" data-i18n="nav.termsConditions">Terms & Conditions</a>

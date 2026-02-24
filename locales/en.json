@@ -11,6 +11,8 @@
     "marketsOverview": "Markets Overview",
     "legal": "Legal",
     "contactUs": "Contact Us",
+    "generalRiskDisclosure": "General Risk Disclosure",
+    "clientServiceAgreement": "Client Service Agreement",
     "riskDisclaimer": "Risk Disclaimer",
     "termsConditions": "Terms & Conditions",
     "cookiePolicy": "Cookie Policy"
@@ -224,7 +226,7 @@
     "disclaimer": "* These banks are partnered with the TraderTok group and do not serve all entities within the group"
   },
   "footer": {
-    "quickLinks": "Quick Links",
+    "quickLinks": "Compliance",
     "resources": "Resources",
     "contact": "Contact",
     "availableSupport": "Available 24/5 for support",
