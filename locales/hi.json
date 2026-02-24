@@ -11,6 +11,8 @@
     "marketsOverview": "बाजार अवलोकन",
     "legal": "कानूनी",
     "contactUs": "संपर्क करें",
+    "generalRiskDisclosure": "सामान्य जोखिम प्रकटीकरण",
+    "clientServiceAgreement": "ग्राहक सेवा समझौता",
     "riskDisclaimer": "जोखिम अस्वीकरण",
     "termsConditions": "नियम और शर्तें",
     "cookiePolicy": "कुकीज़ नीति"
@@ -224,7 +226,7 @@
     "disclaimer": "* ये बैंक TraderTok समूह के साथ भागीदार हैं और समूह के भीतर सभी संस्थाओं को सेवा नहीं देते"
   },
   "footer": {
-    "quickLinks": "त्वरित लिंक",
+    "quickLinks": "अनुपालन",
     "resources": "संसाधन",
     "contact": "संपर्क करें",
     "availableSupport": "समर्थन 24/5 उपलब्ध",
