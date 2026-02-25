@@ -158,7 +158,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. EXECUTION FACTORS
+        <span data-i18n="privacyPolicyPage.heroTitle">6. EXECUTION FACTORS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">When managing client orders without specific instructions on the method of
@@ -175,7 +175,7 @@
       <p class="doc-page-hero-title"></p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. EXECUTION VENUES
+        <span data-i18n="privacyPolicyPage.heroTitle">7. EXECUTION VENUES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -202,7 +202,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. SLIPPAGE
+        <span data-i18n="privacyPolicyPage.heroTitle">8. SLIPPAGE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -226,7 +226,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. SPECIFIC INSTRUCTIONS
+        <span data-i18n="privacyPolicyPage.heroTitle">9. SPECIFIC INSTRUCTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -261,7 +261,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">8. TYPES OF ORDERS</span>
+        <span data-i18n="privacyPolicyPage.heroTitle">10. TYPES OF ORDERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Due to the risks and volatility in financial markets, clients might benefit from using different order
@@ -319,7 +319,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">9. PRICING
+        <span data-i18n="privacyPolicyPage.heroTitle">11. PRICING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -334,7 +334,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">10. ORDER SIZE
+        <span data-i18n="privacyPolicyPage.heroTitle">12. ORDER SIZE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -346,7 +346,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">11. ORDER SPEED
+        <span data-i18n="privacyPolicyPage.heroTitle">13. ORDER SPEED
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -360,7 +360,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">12. ORDER EXECUTION PROBABILITY
+        <span data-i18n="privacyPolicyPage.heroTitle">14. ORDER EXECUTION PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -372,7 +372,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">13. ORDER SETTLEMENT PROBABILITY
+        <span data-i18n="privacyPolicyPage.heroTitle">15. ORDER SETTLEMENT PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -385,7 +385,7 @@
 
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">14. MARKET IMPACT
+        <span data-i18n="privacyPolicyPage.heroTitle">16. MARKET IMPACT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -398,7 +398,7 @@
 
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">15. CONCLUSION
+        <span data-i18n="privacyPolicyPage.heroTitle">17. CONCLUSION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">

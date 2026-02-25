@@ -1277,7 +1277,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">3.1 High Risk and Non-Cooperative Jurisdictions and FATF
+        <span data-i18n="privacyPolicyPage.heroTitle">4 High Risk and Non-Cooperative Jurisdictions and FATF
           Recommendations</span>
       </h1>
       <p class="doc-page-hero-subtitle">
