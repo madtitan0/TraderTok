@@ -350,15 +350,15 @@
               </div>
 
               <div class="webinar-card">
-                <p class="countdown-text"><strong id="countdown-days-2">111</strong> <span
+                <p class="countdown-text"><strong id="countdown-days-2">0</strong> <span
                     data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
                 <div class="webinar-date">
                   <div class="webinar-day">
-                    <span class="webinar-day-num">18</span>
-                    <span class="webinar-day-name" data-i18n="liveTrainingPage.event2.monthShort">Mar</span>
+                    <span class="webinar-day-num">20</span>
+                    <span class="webinar-day-name" data-i18n="liveTrainingPage.event2.monthShort">Feb</span>
                   </div>
                   <div class="webinar-datetime">
-                    <div class="webinar-month" data-i18n="liveTrainingPage.event2.fullDate">Wednesday, 18th of March
+                    <div class="webinar-month" data-i18n="liveTrainingPage.event2.fullDate">Friday, 20th of February
                       2026</div>
                     <div class="webinar-time" data-i18n="liveTrainingPage.event2.time">14:00 GMT+1</div>
                   </div>
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Countdown calculation - March event
-  const eventDate2 = new Date('2026-03-18T14:00:00+01:00');
+  const eventDate2 = new Date('2026-02-20T14:00:00+01:00');
   const diffTime2 = eventDate2 - today;
   const diffDays2 = Math.ceil(diffTime2 / (1000 * 60 * 60 * 24));
   const countdownEl2 = document.getElementById('countdown-days-2');
