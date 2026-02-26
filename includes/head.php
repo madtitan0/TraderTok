@@ -29,26 +29,19 @@
     <meta name="twitter:description"
       content="Grow your savings with confidence. Access powerful trading platforms and expert market insights.">
     <meta name="twitter:image" content="https://tradertok.com/twitter-image.jpg">
-        
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHD8CS6T8H"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-ZHD8CS6T8H');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZHD8CS6T8H');
     </script>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-192x192.png">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
 
     <!-- Google Fonts - Manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,11 +49,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet">
 
+    <link rel="icon" href="<?= $get->assets_url . '/' . $get->favicon ?>" />
+    <?= $theme->css_files ?>
+
     <link rel="stylesheet" href="assets/css/styles.css?v=<?= filemtime('assets/css/styles.css') ?>">
     <link rel="stylesheet" href="assets/css/team-styles.css?v=<?= filemtime('assets/css/team-styles.css') ?>">
     <link rel="stylesheet"
       href="assets/css/instruments-styles.css?v=<?= filemtime('assets/css/instruments-styles.css') ?>">
 
+    <?= $get->head_code ?>
   </head>
 
   <body>
