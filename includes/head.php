@@ -165,8 +165,42 @@
                   </div>
                 </div>
               </li>
-              <li class="nav-item">
-                <a href="./legal" class="nav-link" data-i18n="nav.legal">Legal</a>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
+                    data-i18n="nav.legal">Legal</span> <span class="arrow">▼</span></a>
+                <div class="dropdown-menu" role="menu">
+                  <div class="dropdown-cards">
+                    <a href="./legal-documents" class="menu-card">
+                      <span class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                          <g fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                              d="M3 10c0-3.771 0-5.657 1.172-6.828S7.229 2 11 2h2c3.771 0 5.657 0 6.828 1.172S21 6.229 21 10v4c0 3.771 0 5.657-1.172 6.828S16.771 22 13 22h-2c-3.771 0-5.657 0-6.828-1.172S3 17.771 3 14z" />
+                            <path stroke-linecap="round" d="M8 10h8m-8 4h5" />
+                          </g>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="dropdown.legalDocuments">Legal Documents</h3>
+                        <p data-i18n="dropdown.legalDocumentsDesc">Explore our legal documents</p>
+                      </div>
+                    </a>
+                    <a href="./regulations" class="menu-card">
+                      <span class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
+                          <path fill="currentColor"
+                            d="M28 22v-3c0-2.2-1.8-4-4-4s-4 1.8-4 4v3c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-5c0-1.1-.9-2-2-2m-6-3c0-1.1.9-2 2-2s2 .9 2 2v3h-4zm-2 10v-5h8v5zM8 16h6v2H8zm0-6h12v2H8z" />
+                          <path fill="currentColor"
+                            d="M26 4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v13c0 4.1 2.2 7.8 5.8 9.7l5.2 2.8v-2.3l-4.2-2.3C5.8 23.4 4 20.3 4 17V4h20v8h2z" />
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="dropdown.regulations">Regulations</h3>
+                        <p data-i18n="dropdown.regulationsDesc">Explore our regulations</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="./contact-us" class="nav-link" data-i18n="nav.contactUs">Contact Us</a>

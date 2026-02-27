@@ -22,8 +22,10 @@ if (!$page) {
       require("includes/live-training.php");
         } elseif ($page == 'trading-platform'){
       require("includes/trading-platform.php");
-        } elseif ($page == 'legal'){
-      require("includes/legal.php");
+        } elseif ($page == 'legal-documents'){
+      require("includes/legal-documents.php");
+        } elseif ($page == 'regulations'){
+      require("includes/regulations.php");
         } elseif ($page == 'events-calendar'){
       require("includes/events-calendar.php");
         } elseif ($page == 'meet-the-team'){
