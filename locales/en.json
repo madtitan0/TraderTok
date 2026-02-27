@@ -27,7 +27,11 @@
     "research": "Research",
     "researchDesc": "In-depth market analysis and insights",
     "liveTraining": "Live Training",
-    "liveTrainingDesc": "Join live sessions with experts"
+    "liveTrainingDesc": "Join live sessions with experts",
+    "legalDocuments": "Legal Documents",
+    "legalDocumentsDesc": "Explore our legal documents",
+    "regulations": "Regulations",
+    "regulationsDesc": "Explore our regulations"
   },
   "language": {
     "title": "Language",
@@ -250,6 +254,17 @@
     "trade": "Trade",
     "google": "Google",
     "facebook": "Facebook"
+  },
+  "regulations": {
+    "heroBadge": "Regulations",
+    "heroTitle": "License",
+    "heroTitleHighlight": "TraderTok",
+    "heroSubtitle": "TraderTok is fully authorized and regulated by respected and reputable regulatory authorities, ensuring that your trading experience with us is safe, transparent, and reliable. This oversight gives you peace of mind, knowing that we operate under strict compliance standards and uphold the highest levels of integrity in all our services.",
+    "fsc": {
+      "name": "FSC",
+      "name2": "Financial Services Commission",
+      "description": "Amber Rock Trade Ltd is authorized and regulated by the Financial Services Commission of Mauritius (FSC) under <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>."
+    }
   },
   "meetTheTeam": {
     "pageTitle": "Meet the Team - TraderTok | Our Global Trading Experts",

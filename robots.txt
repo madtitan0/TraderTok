@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Disallow: /cgi-bin/
-Sitemap: https://tradertok.com/
+Sitemap: https://tradertok.com/sitemap.xml

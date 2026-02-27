@@ -27,7 +27,11 @@
     "research": "रिसर्च",
     "researchDesc": "गहन मार्केट विश्लेषण और अंतर्दृष्टि",
     "liveTraining": "लाइव ट्रेनिंग",
-    "liveTrainingDesc": "विशेषज्ञों के साथ लाइव सत्र में शामिल हों"
+    "liveTrainingDesc": "विशेषज्ञों के साथ लाइव सत्र में शामिल हों",
+    "legalDocuments": "कानूनी दस्तावेज़",
+    "legalDocumentsDesc": "हमारे कानूनी दस्तावेज़ देखें",
+    "regulations": "नियम और विनियम",
+    "regulationsDesc": "हमारे नियम और विनियम देखें"
   },
   "language": {
     "title": "भाषा",
@@ -250,6 +254,17 @@
     "trade": "ट्रेड",
     "google": "Google",
     "facebook": "Facebook"
+  },
+  "regulations": {
+    "heroBadge": "नियमन",
+    "heroTitle": "लाइसेंस",
+    "heroTitleHighlight": "TraderTok",
+    "heroSubtitle": "TraderTok पूरी तरह से सम्मानित और प्रतिष्ठित नियामक प्राधिकरणों द्वारा अधिकृत और विनियमित है, जिससे यह सुनिश्चित होता है कि हमारे साथ आपका ट्रेडिंग अनुभव सुरक्षित, पारदर्शी और विश्वसनीय हो। यह निगरानी आपको मानसिक शांति देती है, यह जानते हुए कि हम कड़े अनुपालन मानकों के तहत काम करते हैं और अपनी सभी सेवाओं में उच्चतम स्तर की ईमानदारी बनाए रखते हैं।",
+    "fsc": {
+      "name": "FSC",
+      "name2": "फाइनेंशियल सर्विसेज़ कमिशन",
+      "description": "Amber Rock Trade Ltd मॉरिशस की फाइनेंशियल सर्विसेज़ कमिशन (FSC) द्वारा अधिकृत और विनियमित है, <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">लाइसेंस नंबर: GB24203892</a> के तहत।"
+    }
   },
   "meetTheTeam": {
     "pageTitle": "टीम से मिलें - TraderTok | हमारे वैश्विक ट्रेडिंग विशेषज्ञ",
