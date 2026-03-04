@@ -4149,12 +4149,25 @@ body.light-theme .platform-icon {
 }
 
 /* Footer Top - Main Content */
-.footer-top {
+/* .footer-top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 60px;
   margin-bottom: 50px;
+} */
+
+/* Footer Top - 4-column grid used for both rows */
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 50px;
 }
+
+.footer-row-2 {
+  margin-top: 10px;
+}
+
 
 /* Footer Columns */
 .footer-column {
@@ -4217,12 +4230,84 @@ body.light-theme .platform-icon {
   margin: 0;
 }
 
+/* Footer Social Icons */
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-social-link:hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+  border-color: var(--card-border);
+}
+
+/* App Store Buttons */
+.footer-store-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.footer-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 110px;
+}
+
+.footer-store-btn:hover {
+  background: var(--hover-bg);
+  border-color: var(--card-border);
+}
+
+.footer-store-btn .store-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Payment Icons */
 .footer-payment-icons {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-top: 12px;
 }
+
+/* Below store buttons */
+.footer-payment-row {
+  margin-top: 14px;
+}
+
 
 .footer-payment-icons .payment-icon {
   height: 32px;
@@ -4280,10 +4365,10 @@ body.light-theme .platform-icon {
 }
 
 /* Responsive Footer */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .footer-top {
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
   }
 }
 
@@ -4294,13 +4379,18 @@ body.light-theme .platform-icon {
 
   .footer-top {
     grid-template-columns: 1fr 1fr;
-    gap: 30px 20px;
-    margin-bottom: 40px;
+    gap: 28px 20px;
+    margin-bottom: 30px;
   }
 
-  /* Contact column spans full width on mobile */
-  .footer-column:last-child {
-    grid-column: 1 / -1;
+  .footer-store-btns {
+    flex-direction: column;
+  }
+
+  .footer-store-btn {
+    min-width: unset;
+    width: 100%;
+    max-width: 160px;
   }
 
   .footer-divider {
@@ -4312,6 +4402,12 @@ body.light-theme .platform-icon {
   .footer-risk-warning {
     font-size: 11px;
     line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-top {
+    grid-template-columns: 1fr;
   }
 }
 

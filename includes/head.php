@@ -202,7 +202,7 @@
                   </div>
                 </div>
               <li class="nav-item dropdown">
-                  <a href="./offers-promotions" class="nav-link" aria-haspopup="true" aria-expanded="false"><span data-i18n="nav.offersPromotions">Offers</span> <span class="arrow">▼</span></a>
+                  <a href="./offers-promotions" class="nav-link" aria-haspopup="true" aria-expanded="false"><span data-i18n="nav.offers">Offers</span> <span class="arrow">▼</span></a>
                   <div class="dropdown-menu offers-dropdown" role="menu"></div>
               </li>
               <li class="nav-item">
