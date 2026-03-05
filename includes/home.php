@@ -117,7 +117,7 @@
     </div>
     
     <!-- Promo Image Popup (trader.jpg) -->
-    <!-- <div class="trader-popup" id="trader-popup">
+    <div class="trader-popup" id="trader-popup">
       <div class="trader-popup-overlay"></div>
       <div class="trader-popup-content">
         <button class="trader-popup-close" id="trader-popup-close" aria-label="Close">
@@ -127,10 +127,10 @@
         </button>
         <div class="trader-popup-image-container">
           <img src="assets/images/trader.jpg" alt="Promo Offer" class="trader-popup-img">
-          <button class="btn-trader-claim" onclick="openAuthSidebar('signin')">Claim Offer</button>
+          <!-- <button class="btn-trader-claim" onclick="openAuthSidebar('signin')">Claim Offer</button> -->
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- About Us Section -->
     <section class="about-us">
