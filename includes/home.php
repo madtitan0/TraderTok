@@ -102,7 +102,7 @@
           </div>
         </div> -->
 
-        <p class="earnings-popup-description" data-i18n="earningsPopup.description">
+        <!-- <p class="earnings-popup-description" data-i18n="earningsPopup.description">
           Register your interest now and get exclusive promotions with guaranteed returns
         </p>
 
@@ -114,7 +114,7 @@
           *Terms and conditions apply. Capital at risk.
         </p>
       </div>
-    </div>
+    </div> -->
     
     <!-- Promo Image Popup (trader.jpg) -->
     <div class="trader-popup" id="trader-popup">
