@@ -47,7 +47,7 @@
         </div>
 
         <!-- Content -->
-        <div class="earnings-popup-header">
+        <!-- <div class="earnings-popup-header">
           <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
           <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
             Earnings Reports & Premarket Opportunities
@@ -56,7 +56,7 @@
             January & February 2026
           </p>
 
-          <!-- Countdown Timer -->
+          Countdown Timer
           <div class="earnings-countdown" id="earnings-countdown">
             <div class="earnings-countdown-item">
               <span class="earnings-countdown-value" id="earnings-days">00</span>
@@ -75,7 +75,7 @@
               <span class="earnings-countdown-label" data-i18n="earningsPopup.seconds">Sec</span>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Company Logos Showcase -->
         <div class="earnings-companies">
