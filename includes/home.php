@@ -24,7 +24,7 @@
     </section>
 
     <!-- Earnings Reports Promo Popup -->
-    <div class="earnings-popup" id="earnings-popup">
+    <!-- <div class="earnings-popup" id="earnings-popup">
       <div class="earnings-popup-overlay"></div>
       <div class="earnings-popup-content">
         <button class="earnings-popup-close" id="earnings-popup-close" aria-label="Close">
@@ -33,7 +33,7 @@
           </svg>
         </button>
 
-        <!-- Animated Logo Background -->
+        Animated Logo Background
         <div class="earnings-logos-bg">
           <div class="earnings-logo earnings-logo-nvidia">
             <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <!-- Content -->
+        Content
         <div class="earnings-popup-header">
           <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
           <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
@@ -56,7 +56,7 @@
             January & February 2026
           </p>
 
-          <!-- Countdown Timer -->
+          Countdown Timer
           <div class="earnings-countdown" id="earnings-countdown">
             <div class="earnings-countdown-item">
               <span class="earnings-countdown-value" id="earnings-days">00</span>
@@ -77,7 +77,7 @@
           </div>
         </div>
 
-        <!-- Company Logos Showcase -->
+        Company Logos Showcase
         <div class="earnings-companies">
           <div class="earnings-company" data-company="nvidia">
             <div class="company-icon">
@@ -114,7 +114,7 @@
           *Terms and conditions apply. Capital at risk.
         </p>
       </div>
-    </div>
+    </div> -->
     
     <!-- Promo Image Popup (trader.jpg) -->
     <div class="trader-popup" id="trader-popup">
