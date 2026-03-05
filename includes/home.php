@@ -77,7 +77,7 @@
           </div>
         </div> -->
 
-        <!-- Company Logos Showcase -->
+        <!-- Company Logos Showcase
         <div class="earnings-companies">
           <div class="earnings-company" data-company="nvidia">
             <div class="company-icon">
@@ -100,7 +100,7 @@
             <span class="company-name">Amazon</span>
             <span class="company-ticker">AMZN</span>
           </div>
-        </div>
+        </div> -->
 
         <p class="earnings-popup-description" data-i18n="earningsPopup.description">
           Register your interest now and get exclusive promotions with guaranteed returns
