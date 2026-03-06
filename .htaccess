@@ -1,6 +1,4 @@
-DirectoryIndex index.php
 RewriteEngine On
-RewriteRule ^test-me$ meet-the-team [L,R=301]
 
 RewriteRule ^favicon\.ico$ - [L]
 RewriteRule ^favicon-48x48\.png$ - [L]
@@ -8,4 +6,4 @@ RewriteRule ^favicon-192x192\.png$ - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
