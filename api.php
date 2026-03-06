@@ -1,7 +1,24 @@
 <?php 
 $key = 'f2f7ef3b-8168-4a6e-be8d-aab31fdb980e';
+$cache_file = __DIR__ . '/cache/api_data.json';
+$cache_time = 3600; // 1 hour
 
-$json = file_get_contents('https://cdn-customer.theteampower.com/data/'.$key.'.json');
+if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_time)) {
+    $json = file_get_contents($cache_file);
+} else {
+    // Attempt to fetch fresh data
+    $json = file_get_contents('https://cdn-customer.theteampower.com/data/'.$key.'.json');
+    if($json){
+        if (!file_exists(__DIR__ . '/cache')) {
+            mkdir(__DIR__ . '/cache', 0777, true);
+        }
+        file_put_contents($cache_file, $json);
+    } else if (file_exists($cache_file)) {
+        // If fetch fails, use stale cache
+        $json = file_get_contents($cache_file);
+    }
+}
+
 if(!$json){
     die('json not found...');
 }

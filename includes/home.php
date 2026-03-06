@@ -19,7 +19,7 @@
       </div>
       <div class="banner-right">
         <img src="assets/images/gold-silver-bar-transparent-background.png" alt="Gold and Silver"
-          class="banner-bg-image">
+          class="banner-bg-image" fetchpriority="high">
       </div>
     </section>
 
@@ -223,7 +223,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
             </button>
           </div>
           <div class="traders-club-image">
-            <img src="assets/images/card-tradertok.png" alt="TraderTok Free Card">
+            <img src="assets/images/card-tradertok.png" alt="TraderTok Free Card" loading="lazy">
           </div>
         </div>
       </div>
@@ -564,7 +564,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
             </button>
           </div>
           <div class="deposit-image">
-            <img src="assets/images/7.6.png" alt="7.6% Annual Deposit Rate">
+            <img src="assets/images/7.6.png" alt="7.6% Annual Deposit Rate" loading="lazy">
           </div>
         </div>
       </div>
@@ -627,7 +627,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
               connect with other traders</p>
           </div>
           <div class="telegram-person">
-            <img src="assets/images/Person holding phone happily.png" alt="Happy trader">
+            <img src="assets/images/Person holding phone happily.png" alt="Happy trader" loading="lazy">
           </div>
           <a href="https://t.me/YOUR_CHANNEL" target="_blank" class="btn-telegram">
             <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">

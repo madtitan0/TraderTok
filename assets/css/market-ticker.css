@@ -1,0 +1,97 @@
+/* Market Ticker */
+.top-ticker {
+  height: 42px;
+  background: rgba(10, 10, 10, 0.85); /* Premium Glassmorphism */
+  border-bottom: 1px solid var(--border-color);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  transition: background 0.3s ease;
+}
+
+body.light-theme .top-ticker {
+  background: rgba(255, 255, 255, 0.85); /* White Glassmorphism */
+}
+
+.ticker-content {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 30px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-right: 1px solid var(--border-color);
+  height: 42px;
+}
+
+.ticker-symbol {
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Category Colors */
+.ticker-item[data-type="crypto"] .ticker-symbol { color: #ec4899; }
+.ticker-item[data-type="stock"] .ticker-symbol { color: #06b6d4; }
+.ticker-item[data-type="index"] .ticker-symbol { color: #f97316; }
+.ticker-item[data-type="forex"] .ticker-symbol { color: #8b5cf6; }
+.ticker-item[data-type="commodity"] .ticker-symbol { color: #eab308; }
+
+.ticker-price {
+  font-family:
+    "Monaco",
+    "Consolas",
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+  letter-spacing: 0.5px;
+}
+
+.ticker-change {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.ticker-change.up {
+  color: #22c55e;
+}
+
+.ticker-change.down {
+  color: #ef4444;
+}
+
+/* Layout Adjustments for Ticker */
+.header {
+  top: 42px !important;
+}
+
+.hero {
+  padding-top: 142px !important;
+}
+
+.auth-sidebar {
+  top: 42px !important;
+  height: calc(100vh - 42px) !important;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        padding-top: 122px !important;
+    }
+}

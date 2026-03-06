@@ -57,10 +57,20 @@
     <link rel="stylesheet"
       href="assets/css/instruments-styles.css?v=<?= filemtime('assets/css/instruments-styles.css') ?>">
      <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?= filemtime('assets/css/offers-promotions-styles.css') ?>">
+         <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?= filemtime('assets/css/market-ticker.css') ?>">
+    <link rel="stylesheet" href="assets/css/whatsapp-widget.css?v=<?= filemtime('assets/css/whatsapp-widget.css') ?>">
     <?= $get->head_code ?>
   </head>
 
   <body>
+
+      <!-- Market Ticker -->
+    <div class="top-ticker" id="topTicker">
+        <div class="ticker-content" id="tickerContent">
+            <!-- Items will be populated by JS -->
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
       <div class="container">

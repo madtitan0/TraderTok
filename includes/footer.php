@@ -185,14 +185,14 @@
       </div>
     </footer>
 
-    <script src="assets/js/i18n.js?v=<?= filemtime('assets/js/i18n.js') ?>"></script>
-    <script src="assets/js/script.js?v=<?= filemtime('assets/js/script.js') ?>"></script>
-    <script src="assets/js/team-script.js?v=<?= filemtime('assets/js/team-script.js') ?>"></script>
-    <script src="assets/js/instruments-script.js?v=<?= filemtime('assets/js/instruments-script.js') ?>"></script>
-    <script src="assets/js/offers-nav.js?v=<?= filemtime('assets/js/offers-nav.js') ?>"></script>
-    <script src="assets/js/offers-promotions.js?v=<?= filemtime('assets/js/offers-promotions.js') ?>"></script>
-    <script src="assets/js/market-ticker.js?v=<?= filemtime('assets/js/market-ticker.js') ?>"></script>
-    <script src="assets/js/whatsapp-widget.js?v=<?= filemtime('assets/js/whatsapp-widget.js') ?>"></script>
+    <script src="assets/js/i18n.js?v=<?= filemtime('assets/js/i18n.js') ?>" defer></script>
+    <script src="assets/js/script.js?v=<?= filemtime('assets/js/script.js') ?>" defer></script>
+    <script src="assets/js/team-script.js?v=<?= filemtime('assets/js/team-script.js') ?>" defer></script>
+    <script src="assets/js/instruments-script.js?v=<?= filemtime('assets/js/instruments-script.js') ?>" defer></script>
+    <script src="assets/js/offers-nav.js?v=<?= filemtime('assets/js/offers-nav.js') ?>" defer></script>
+    <script src="assets/js/offers-promotions.js?v=<?= filemtime('assets/js/offers-promotions.js') ?>" defer></script>
+    <script src="assets/js/market-ticker.js?v=<?= filemtime('assets/js/market-ticker.js') ?>" defer></script>
+    <script src="assets/js/whatsapp-widget.js?v=<?= filemtime('assets/js/whatsapp-widget.js') ?>" defer></script>
 
     <!-- Start of LiveChat (www.livechat.com) code -->
     <script>
