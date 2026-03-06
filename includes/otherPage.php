@@ -1,12 +1,12 @@
 <!-- Breadcrumb start-->
-<section class="section second-section"  style="background-color: <?= $get->bg_color ?> !important">
+<section class="section second-section"  style="background-color: <?php echo $get->bg_color; ?> !important">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-9">
-                <h2 class="bdc-head"><?= $menuDetail->title ?></h2>
+                <h2 class="bdc-head"><?php echo $menuDetail->title; ?></h2>
             </div>
             <div class="col-lg-3">
-                <p class="bdc-txt pt-2">Home / <?= $menuDetail->title ?></p>
+                <p class="bdc-txt pt-2">Home / <?php echo $menuDetail->title; ?></p>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
             
             <div class="<?php echo $menuDetail->colums_count == 1 ? 'col-sm-12' : 'col-lg-6 '; ?>">
                 <div class="about-txt p-2 ">
-                    <?= $menuDetail->content ?>
+                    <?php echo $menuDetail->content; ?>
                 </div>
             </div>
 

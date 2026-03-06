@@ -107,8 +107,8 @@
 
 
             <div style="margin-top: 20px">
-            <?= isset($get->phone) ? '<a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a>' : null ?>
-            <?= isset($get->email) ? '<a style="margin-top: -8px" href="mailto:' . $get->email . '" class="footer-phone">' . $get->email . '</a>' : null ?>
+            <?php echo isset($get->phone) ? '<a href="tel:+447520640890" class="footer-phone"> '. $get->phone  .'</a>' : null; ?>
+            <?php echo isset($get->email) ? '<a style="margin-top: -8px" href="mailto:' . $get->email . '" class="footer-phone">' . $get->email . '</a>' : null; ?>
              <p class="footer-contact-text" data-i18n="footer.availableSupport">Available 24/5 for support</p>
              </div>
 
@@ -185,14 +185,14 @@
       </div>
     </footer>
 
-    <script src="assets/js/i18n.js?v=<?= filemtime('assets/js/i18n.js') ?>" defer></script>
-    <script src="assets/js/script.js?v=<?= filemtime('assets/js/script.js') ?>" defer></script>
-    <script src="assets/js/team-script.js?v=<?= filemtime('assets/js/team-script.js') ?>" defer></script>
-    <script src="assets/js/instruments-script.js?v=<?= filemtime('assets/js/instruments-script.js') ?>" defer></script>
-    <script src="assets/js/offers-nav.js?v=<?= filemtime('assets/js/offers-nav.js') ?>" defer></script>
-    <script src="assets/js/offers-promotions.js?v=<?= filemtime('assets/js/offers-promotions.js') ?>" defer></script>
-    <script src="assets/js/market-ticker.js?v=<?= filemtime('assets/js/market-ticker.js') ?>" defer></script>
-    <script src="assets/js/whatsapp-widget.js?v=<?= filemtime('assets/js/whatsapp-widget.js') ?>" defer></script>
+    <script src="assets/js/i18n.js?v=<?php echo filemtime('assets/js/i18n.js'); ?>" defer></script>
+    <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
+    <script src="assets/js/team-script.js?v=<?php echo filemtime('assets/js/team-script.js'); ?>" defer></script>
+    <script src="assets/js/instruments-script.js?v=<?php echo filemtime('assets/js/instruments-script.js'); ?>" defer></script>
+    <script src="assets/js/offers-nav.js?v=<?php echo filemtime('assets/js/offers-nav.js'); ?>" defer></script>
+    <script src="assets/js/offers-promotions.js?v=<?php echo filemtime('assets/js/offers-promotions.js'); ?>" defer></script>
+    <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>
+    <script src="assets/js/whatsapp-widget.js?v=<?php echo filemtime('assets/js/whatsapp-widget.js'); ?>" defer></script>
 
     <!-- Start of LiveChat (www.livechat.com) code -->
     <script>

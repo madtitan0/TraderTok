@@ -67,7 +67,7 @@ background: linear-gradient(
                 letter-spacing: -1px;
                 line-height: 1.1;
             ">
-                <?= $menuDetail->title ?>
+                <?php echo $menuDetail->title; ?>
             </h1>
             
             <!-- Modern Accent Line -->
@@ -136,7 +136,7 @@ background: linear-gradient(
     <div class="container" style="position: relative; z-index: 2;">
         <div class="row align-items-center g-5">
             <!-- Content Block -->
-            <div class="<?= $menuDetail->colums_count == 1 ? 'col-lg-12' : 'col-lg-6' ?> order-2 order-lg-1" style="opacity: 0; animation: slideInLeft 0.8s ease forwards; animation-delay: 0.3s;">
+            <div class="<?php echo $menuDetail->colums_count == 1 ? 'col-lg-12' : 'col-lg-6'; ?> order-2 order-lg-1" style="opacity: 0; animation: slideInLeft 0.8s ease forwards; animation-delay: 0.3s;">
                 <div style="
                     background: white;
                     padding: 80px;
@@ -189,7 +189,7 @@ background: linear-gradient(
                         line-height: 1.8;
                         letter-spacing: -0.01em;
                     ">
-                        <?= $menuDetail->content ?>
+                        <?php echo $menuDetail->content; ?>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ background: linear-gradient(
             <!-- Image Section -->
             <?php if($menuDetail->image): ?>
                 <?php $className = $menuDetail->colums_count == 1 ? 'col-lg-12' : 'col-lg-6'; ?>
-                <div class="<?= $className ?> order-1 order-lg-2" style="opacity: 0; animation: slideInRight 0.8s ease forwards; animation-delay: 0.4s;">
+                <div class="<?php echo $className; ?> order-1 order-lg-2" style="opacity: 0; animation: slideInRight 0.8s ease forwards; animation-delay: 0.4s;">
                     <div style="position: relative;">
                         <!-- 3D Frame Effect -->
                         <div style="
@@ -234,9 +234,9 @@ background: linear-gradient(
                                 z-index: 1;
                             " class="image-overlay"></div>
                             
-                            <img src="<?= $get->assets_url.'/'.$menuDetail->image ?>" 
+                            <img src="<?php echo $get->assets_url.'/'.$menuDetail->image; ?>" 
                                  class="img-fluid" 
-                                 alt="<?= $menuDetail->title ?>"
+                                 alt="<?php echo $menuDetail->title; ?>"
                                  style="
                                     width: 100%;
                                     height: auto;

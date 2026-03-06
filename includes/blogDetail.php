@@ -10,9 +10,9 @@
            } ?>
             
             <div class="<?php echo $blogDetail->colums_count == 1 ? 'col-sm-12' : 'col-lg-6 '; ?>">
-            <h3 style="text-align: center;"><?=$blogDetail->title?></h3>
+            <h3 style="text-align: center;"><?php echo $blogDetail->title; ?></h3>
                 <div class="about-txt p-2 ">
-                    <?= $blogDetail->content ?>
+                    <?php echo $blogDetail->content; ?>
                 </div>
             </div>
 

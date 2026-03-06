@@ -12,7 +12,7 @@
             preserving wealth and seizing buying opportunities right now. With limited supply and growing global demand,
             today's prices could be tomorrow's missed chance.
           </p>
-          <a data-i18n="hero.getStarted" href="<?= $get->register_url ?>" class="btn-hero btn-primary-hero"
+          <a data-i18n="hero.getStarted" href="<?php echo $get->register_url; ?>" class="btn-hero btn-primary-hero"
             onclick="openAuthModal('register')">Get
             Started</a>
         </div>
@@ -161,7 +161,7 @@
               in trading, and that's why we've engineered an environment where speed meets stability, and innovation
               meets opportunity.</p>
 
-            <a href="<?= $get->register_url ?>" class="btn-about" data-i18n="hero.learnMore"
+            <a href="<?php echo $get->register_url; ?>" class="btn-about" data-i18n="hero.learnMore"
               style="text-decoration: none;">Learn More</a>
           </div>
 
@@ -175,7 +175,7 @@ if ($get->home_image_about_us && $get->home_about_us) {
                 //     <p class="about-description">' . $get->home_about_us . '</p>
 
 
-                //     <a href="<?= $get->register_url ?>" class="btn-about" style="text-decoration: none;">Learn More</a>
+                //     <a href="<?php echo $get->register_url; ?>" class="btn-about" style="text-decoration: none;">Learn More</a>
                 // </div>';
                 }
 ?> -->
@@ -290,10 +290,10 @@ if ($get->home_image_about_us && $get->home_about_us) {
           <article class="insight-card">
             <div class="card-overlay"></div>
             <div class="card-content">
-              <h3 class="card-title" <?= $i18nSuffix ? 'data-i18n-html="insights.' . $i18nSuffix . '"' : '' ?>>
-                <?= $card->title ?></h3>
-              <p class="card-description" <?= $i18nSuffix ? 'data-i18n="insights.' . $i18nSuffix . 'Desc"' : '' ?>>
-                <?= $card->content ?></p>
+              <h3 class="card-title" <?php echo $i18nSuffix ? 'data-i18n-html="insights.' . $i18nSuffix . '"' : ''; ?>>
+                <?php echo $card->title; ?></h3>
+              <p class="card-description" <?php echo $i18nSuffix ? 'data-i18n="insights.' . $i18nSuffix . 'Desc"' : ''; ?>>
+                <?php echo $card->content; ?></p>
             </div>
           </article>
           <?php } ?>
@@ -459,12 +459,12 @@ if ($get->home_image_about_us && $get->home_about_us) {
           <div class="accordion-item">
             <button class="accordion-header">
               <span class="accordion-title"
-                <?= $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . '"' : '' ?>><?= $advantage->title ?></span>
+                <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . '"' : ''; ?>><?php echo $advantage->title; ?></span>
               <span class="accordion-icon">+</span>
             </button>
             <div class="accordion-content">
-              <div class="accordion-body" <?= $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . 'Desc"' : '' ?>>
-                <?= $advantage->content ?>
+              <div class="accordion-body" <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . 'Desc"' : ''; ?>>
+                <?php echo $advantage->content; ?>
               </div>
             </div>
           </div>
@@ -523,12 +523,12 @@ if ($get->home_image_about_us && $get->home_about_us) {
             <div class="accordion-item">
               <button class="accordion-header">
                 <span class="accordion-title"
-                  <?= $i18nKey ? 'data-i18n="' . $i18nKey . '"' : '' ?>><?= $quest->title ?></span>
+                  <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . '"' : ''; ?>><?php echo $quest->title; ?></span>
                 <span class="accordion-icon">+</span>
               </button>
               <div class="accordion-content">
-                <div class="accordion-body" <?= $i18nKey ? 'data-i18n="' . $i18nKey . 'Desc"' : '' ?>>
-                  <?= $quest->content ?>
+                <div class="accordion-body" <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . 'Desc"' : ''; ?>>
+                  <?php echo $quest->content; ?>
                 </div>
               </div>
             </div>

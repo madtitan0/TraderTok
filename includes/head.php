@@ -6,19 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Google Tag Manager -->
-    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NL5PSBRX');</script> -->
+    <?php include 'gtm-head-code.php'; ?>
     <!-- End Google Tag Manager -->
 
     <!-- Primary Meta Tags -->
-    <title><?= $get->title ?></title>
-    <meta name="title" content="<?= $get->title ?>">
-    <meta name="description" content="<?= $get->desc ?>">
-    <meta name="keywords" content="<?= $get->keyw ?>">
-    <meta name="author" content=" <?= $get->brand_name ?>">
+    <title><?php echo $get->title; ?></title>
+    <meta name="title" content="<?php echo $get->title; ?>">
+    <meta name="description" content="<?php echo $get->desc; ?>">
+    <meta name="keywords" content="<?php echo $get->keyw; ?>">
+    <meta name="author" content=" <?php echo $get->brand_name; ?>">
     <meta name="theme-color" content="#E63946">
 
     <!-- Open Graph / Facebook -->
@@ -57,23 +53,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet">
 
-    <link rel="icon" href="<?= $get->assets_url . '/' . $get->favicon ?>" />
-    <?= $theme->css_files ?>
+    <link rel="icon" href="<?php echo $get->assets_url . '/' . $get->favicon; ?>" />
+    <?php echo $theme->css_files; ?>
 
-    <link rel="stylesheet" href="assets/css/styles.css?v=<?= filemtime('assets/css/styles.css') ?>">
-    <link rel="stylesheet" href="assets/css/team-styles.css?v=<?= filemtime('assets/css/team-styles.css') ?>">
+    <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo filemtime('assets/css/styles.css'); ?>">
+    <link rel="stylesheet" href="assets/css/team-styles.css?v=<?php echo filemtime('assets/css/team-styles.css'); ?>">
     <link rel="stylesheet"
-      href="assets/css/instruments-styles.css?v=<?= filemtime('assets/css/instruments-styles.css') ?>">
-     <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?= filemtime('assets/css/offers-promotions-styles.css') ?>">
-         <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?= filemtime('assets/css/market-ticker.css') ?>">
-    <link rel="stylesheet" href="assets/css/whatsapp-widget.css?v=<?= filemtime('assets/css/whatsapp-widget.css') ?>">
-    <?= $get->head_code ?>
+      href="assets/css/instruments-styles.css?v=<?php echo filemtime('assets/css/instruments-styles.css'); ?>">
+     <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?php echo filemtime('assets/css/offers-promotions-styles.css'); ?>">
+         <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?php echo filemtime('assets/css/market-ticker.css'); ?>">
+    <link rel="stylesheet" href="assets/css/whatsapp-widget.css?v=<?php echo filemtime('assets/css/whatsapp-widget.css'); ?>">
+    <?php echo $get->head_code; ?>
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL5PSBRX"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <?php include 'gtm-body-code.php'; ?>
     <!-- End Google Tag Manager (noscript) -->
 
       <!-- Market Ticker -->
@@ -89,7 +84,7 @@
         <div class="header-content">
           <!-- Logo -->
           <a href="./" class="logo">
-            <img src="<?= $get->assets_url.'/'.$get->logo ?>" alt="<?= $get->brand_name ?>" class="logo-image">
+            <img src="<?php echo $get->assets_url.'/'.$get->logo; ?>" alt="<?php echo $get->brand_name; ?>" class="logo-image">
           </a>
 
           <!-- Navigation -->
@@ -442,7 +437,7 @@
       <div class="auth-content">
         <!-- Logo -->
         <div class="auth-logo">
-          <img src="<?= $get->assets_url.'/'.$get->logo ?>" alt="TraderTok" class="auth-logo-image">
+          <img src="<?php echo $get->assets_url.'/'.$get->logo; ?>" alt="TraderTok" class="auth-logo-image">
         </div>
 
         <!-- Tab Switcher -->

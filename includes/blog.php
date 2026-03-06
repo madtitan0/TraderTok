@@ -10,11 +10,11 @@
                             <?php if($blog1->hidden==false && $blog1->category_id == $_GET["id"]) {?>
                             <div class="col-sm-4 mb-4">
                                 <div class="card" >
-                                    <img src="<?= $get->assets_url.'/'.$blog1->image ?>" class="card-img-top" style="height:15em" >
+                                    <img src="<?php echo $get->assets_url.'/'.$blog1->image; ?>" class="card-img-top" style="height:15em" >
                                     <div class="card-body">
-                                    <h5 class="card-title"><?=$blog1->title?></h5>
-                                        <p class="card-text"><?=$blog1->spot?></p>
-                                        <a <?php if ( isset($_GET["id"]) && $_GET["id"] == $blog1->id){echo 'link-dark';}else{echo 'text-muted';} ?> href="./blogDetail?id=<?= $blog1->id ?>" class="btn btn-primary">Devamını Oku</a>
+                                    <h5 class="card-title"><?php echo $blog1->title; ?></h5>
+                                        <p class="card-text"><?php echo $blog1->spot; ?></p>
+                                        <a <?php if ( isset($_GET["id"]) && $_GET["id"] == $blog1->id){echo 'link-dark';}else{echo 'text-muted';} ?> href="./blogDetail?id=<?php echo $blog1->id; ?>" class="btn btn-primary">Devamını Oku</a>
                                     </div>
                                 </div>
                             </div>
@@ -28,11 +28,11 @@
                             <?php if($blog1->hidden==false ) {?>
                             <div class="col-sm-4 mb-4">
                                 <div class="card" >
-                                    <img src="<?= $get->assets_url.'/'.$blog1->image ?>" class="card-img-top" style="height:15em" >
+                                    <img src="<?php echo $get->assets_url.'/'.$blog1->image; ?>" class="card-img-top" style="height:15em" >
                                     <div class="card-body">
-                                    <h5 class="card-title"><?=$blog1->title?></h5>
-                                        <p class="card-text"><?=$blog1->spot?></p>
-                                        <a <?php if ( isset($_GET["id"]) && $_GET["id"] == $blog1->id){echo 'link-dark';}else{echo 'text-muted';} ?> href="./blogDetail?id=<?= $blog1->id ?>" class="btn btn-primary">Devamını Oku</a>
+                                    <h5 class="card-title"><?php echo $blog1->title; ?></h5>
+                                        <p class="card-text"><?php echo $blog1->spot; ?></p>
+                                        <a <?php if ( isset($_GET["id"]) && $_GET["id"] == $blog1->id){echo 'link-dark';}else{echo 'text-muted';} ?> href="./blogDetail?id=<?php echo $blog1->id; ?>" class="btn btn-primary">Devamını Oku</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                             <?php 
                                 foreach($blog_category as $blogCategory):
                             ?>
-                                <li class="list-group-item border-bottom "><a class=" text-decoration-none <?php if ( isset($_GET["id"]) && $_GET["id"] == $blogCategory->id){echo 'link-dark';}else{echo 'text-muted';} ?>" href="./blog?id=<?= $blogCategory->id ?>"><?= $blogCategory->title ?></a></li> 
+                                <li class="list-group-item border-bottom "><a class=" text-decoration-none <?php if ( isset($_GET["id"]) && $_GET["id"] == $blogCategory->id){echo 'link-dark';}else{echo 'text-muted';} ?>" href="./blog?id=<?php echo $blogCategory->id; ?>"><?php echo $blogCategory->title; ?></a></li> 
                             <?php endforeach ?>
                         </ul>
                     </div>
