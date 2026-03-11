@@ -780,7 +780,7 @@
         </div>
 
 
-        <a href="https://www.trustpilot.com" target="_blank" class="trustpilot-link">
+        <a href="https://www.trustpilot.com/review/tradertok.com" target="_blank" class="trustpilot-link">
           <span data-i18n="trustpilot.moreReviews">More reviews on Trustpilot</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
             <polyline points="9 18 15 12 9 6"></polyline>
