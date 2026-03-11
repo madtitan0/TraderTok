@@ -84,11 +84,11 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.downloadOurApp">Download our app from the stores</h3>
             <div class="footer-store-btns">
-              <a href="#" class="footer-store-btn">
+              <a href="https://apps.apple.com/tr/app/tradertok/id6759670314" class="footer-store-btn">
                 <img src="assets/images/Apple_logo_black.svg" alt="Apple" class="store-icon" />
                 <span>App Store</span>
               </a>
-              <a href="#" class="footer-store-btn">
+              <a href="https://play.google.com/store/apps/details?id=com.tradertok.app" class="footer-store-btn">
                 <svg class="store-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient id="gp-a" x1="61.634" x2="233.38" y1="474.99" y2="255.12" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00a0ff"/><stop offset=".26" stop-color="#00beff"/><stop offset=".512" stop-color="#00d2ff"/><stop offset="1" stop-color="#00e3ff"/></linearGradient>
