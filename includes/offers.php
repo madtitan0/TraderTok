@@ -24,6 +24,7 @@
                             <option value="" disabled selected data-i18n="offersPage.selectRegionPlaceholder">— Select a Region —</option>
                             <option value="vietnam">Vietnam</option>
                             <option value="thailand">Thailand</option>
+                            <option value="malaysia">Malaysia</option>
                             <option value="philippines">Philippines</option>
                             <option value="indonesia">Indonesia</option>
                             <option value="pakistan">Pakistan</option>

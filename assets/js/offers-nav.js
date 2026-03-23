@@ -10,6 +10,7 @@
     var FLAGS = {
         vietnam: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#DA251D" width="30" height="20"/><path fill="#FFCD00" d="M15 4l1.76 5.42h5.7l-4.6 3.35 1.76 5.42L15 14.84l-4.62 3.35 1.76-5.42-4.6-3.35h5.7z"/></svg>',
         thailand: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#A51931" width="30" height="20"/><rect fill="#F4F5F8" y="3.33" width="30" height="13.34"/><rect fill="#2D2A4A" y="6.67" width="30" height="6.66"/></svg>',
+        malaysia: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#fff" width="30" height="20"/><rect fill="#cc0001" width="30" height="1.43"/><rect fill="#cc0001" y="2.86" width="30" height="1.43"/><rect fill="#cc0001" y="5.71" width="30" height="1.43"/><rect fill="#cc0001" y="8.57" width="30" height="1.43"/><rect fill="#cc0001" y="11.43" width="30" height="1.43"/><rect fill="#cc0001" y="14.29" width="30" height="1.43"/><rect fill="#cc0001" y="17.14" width="30" height="1.43"/><rect fill="#000066" width="15" height="10"/><path d="M9 6.43 a1.8 1.8 0 1,1 0,-2.86 a1.52 1.52 0 1,0 0,2.86" fill="#ffcc00"/><polygon fill="#ffcc00" points="10 5, 10.3 5.5, 11 5.4, 10.7 6, 11.2 6.5, 10.5 6.4, 10.3 7, 9.9 6.5, 9.2 6.7, 9.5 6.1, 9.1 5.6, 9.7 5.7"/></svg>',
         philippines: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#0038A8" width="30" height="10"/><rect fill="#CE1126" y="10" width="30" height="10"/><polygon fill="#FFF" points="0,0 14,10 0,20"/><circle fill="#FCD116" cx="4.5" cy="10" r="2"/><circle fill="#FCD116" cx="1.5" cy="3.5" r=".7"/><circle fill="#FCD116" cx="1.5" cy="16.5" r=".7"/><circle fill="#FCD116" cx="8" cy="10" r=".7"/></svg>',
         indonesia: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#CE1126" width="30" height="10"/><rect fill="#FFF" y="10" width="30" height="10"/></svg>',
         pakistan: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#115740" width="30" height="20"/><rect fill="#FFF" width="7.5" height="20"/><circle fill="#FFF" cx="18.5" cy="10" r="4.5"/><circle fill="#115740" cx="19.8" cy="10" r="3.7"/><path fill="#FFF" d="M21.5 6.2l.6 1.8h1.9l-1.5 1.1.6 1.9-1.6-1.2-1.5 1.2.6-1.9-1.6-1.1h2z"/></svg>',
@@ -30,6 +31,7 @@
             countries: [
                 { id: 'vietnam', name: 'Vietnam', offer: 'Up to 100% Deposit Bonus' },
                 { id: 'thailand', name: 'Thailand', offer: '75% Bonus + Free Signals' },
+                { id: 'malaysia', name: 'Malaysia', offer: '100% Bonus + Zero Swap' },
                 { id: 'philippines', name: 'Philippines', offer: '100% Bonus + $10K Competition' },
                 { id: 'indonesia', name: 'Indonesia', offer: '50% Bonus + Islamic Account' },
                 { id: 'pakistan', name: 'Pakistan', offer: '100% Bonus + Zero Swap' }

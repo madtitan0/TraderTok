@@ -56,13 +56,18 @@
     <link rel="icon" href="<?php echo $get->assets_url . '/' . $get->favicon; ?>" />
     <?php echo $theme->css_files; ?>
 
+    <link rel="stylesheet" href="assets/css/education-hub.css?v=<?php echo filemtime('assets/css/education-hub.css'); ?>">
+    <link rel="stylesheet" href="assets/css/education-article.css?v=<?php echo filemtime('assets/css/education-article.css'); ?>"> 
+    <link rel="stylesheet" href="assets/css/about-styles.css?v=<?php echo filemtime('assets/css/about-styles.css'); ?>">
     <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo filemtime('assets/css/styles.css'); ?>">
     <link rel="stylesheet" href="assets/css/team-styles.css?v=<?php echo filemtime('assets/css/team-styles.css'); ?>">
     <link rel="stylesheet"
       href="assets/css/instruments-styles.css?v=<?php echo filemtime('assets/css/instruments-styles.css'); ?>">
-     <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?php echo filemtime('assets/css/offers-promotions-styles.css'); ?>">
-         <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?php echo filemtime('assets/css/market-ticker.css'); ?>">
+    <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?php echo filemtime('assets/css/offers-promotions-styles.css'); ?>">
+    <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?php echo filemtime('assets/css/market-ticker.css'); ?>">
     <link rel="stylesheet" href="assets/css/whatsapp-widget.css?v=<?php echo filemtime('assets/css/whatsapp-widget.css'); ?>">
+    <link rel="stylesheet" href="assets/css/education-styles.css?v=<?php echo filemtime('assets/css/education-styles.css'); ?>">
+
     <?php echo $get->head_code; ?>
   </head>
 
@@ -93,44 +98,43 @@
               <li class="nav-item">
                 <a href="./meet-the-team" class="nav-link" data-i18n="nav.meetTheTeam">Meet the Team</a>
               </li>
-              <li class="nav-item">
-                <a href="./trading-platform" class="nav-link" data-i18n="nav.tradingPlatforms">Trading Platforms</a>
-              </li>
-              <li class="nav-item">
-                <a href="./account-types" class="nav-link" data-i18n="nav.accountTypes">Account Types</a>
-              </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.educationResources">Education Resources</span> <span class="arrow">▼</span></a>
+                    data-i18n="nav.trading">Trading</span> <span class="arrow">▼</span></a>
                 <div class="dropdown-menu" role="menu">
                   <div class="dropdown-cards">
-                    <a href="./trading-essentials" class="menu-card">
+                    <a href="./trading-platform" class="menu-card">
                       <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                          <line x1="8" y1="21" x2="16" y2="21"></line>
+                          <line x1="12" y1="17" x2="12" y2="21"></line>
                         </svg>
                       </span>
                       <div class="menu-text">
-                        <h3 data-i18n="dropdown.tradingEssentials">Trading Essentials</h3>
-                        <p data-i18n="dropdown.tradingEssentialsDesc">Learn the fundamentals of trading</p>
+                        <h3 data-i18n="dropdown.tradingPlatform">Trading Platform</h3>
+                        <p data-i18n="dropdown.tradingPlatformDesc">Explore our platforms</p>
                       </div>
                     </a>
-                    <a href="./video-education" class="menu-card">
+                    <a href="./trading-central" class="menu-card">
                       <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                         </svg>
                       </span>
                       <div class="menu-text">
-                        <h3 data-i18n="dropdown.videoEducation">Video Education</h3>
-                        <p data-i18n="dropdown.videoEducationDesc">Watch tutorials and expert insights</p>
+                        <h3 data-i18n="dropdown.tradingCentral">Trading Central</h3>
+                        <p data-i18n="dropdown.tradingCentralDesc">Advanced analytics & insights</p>
                       </div>
                     </a>
                   </div>
                 </div>
+              </li>
+              <li class="nav-item">
+                <a href="./account-types" class="nav-link" data-i18n="nav.accountTypes">Account Types</a>
+              </li>
+              <li class="nav-item">
+                <a href="./education-hub" class="nav-link" data-i18n="nav.educationHub">Education Hub</a>
               </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
@@ -249,23 +253,6 @@
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
                   </button>
-                  <!-- <button class="mobile-language-item" data-lang="hi">
-                    <span class="language-flag">
-                      <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#f93" d="M0 0h640v160H0z" />
-                        <path fill="#fff" d="M0 160h640v160H0z" />
-                        <path fill="#128807" d="M0 320h640v160H0z" />
-                        <circle cx="320" cy="240" r="45" fill="#008" stroke="#008" stroke-width="2" />
-                        <circle cx="320" cy="240" r="35" fill="#fff" />
-                        <circle cx="320" cy="240" r="8" fill="#008" />
-                      </svg>
-                    </span>
-                    <span class="mobile-language-name" data-i18n="language.hindi">हिन्दी</span>
-                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                      <polyline points="20 6 9 17 4 12"></polyline>
-                    </svg>
-                  </button> -->
                   <button class="mobile-language-item" data-lang="es-419">
                     <span class="language-flag">
                       <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
@@ -283,38 +270,6 @@
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
                   </button>
-                  <!-- <button class="mobile-language-item" data-lang="de">
-                                    <span class="language-flag">
-                                        <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill="#ffce00" d="M0 320h640v160H0z"/>
-                                            <path fill="#000" d="M0 0h640v160H0z"/>
-                                            <path fill="#d00" d="M0 160h640v160H0z"/>
-                                        </svg>
-                                    </span>
-                                    <span class="mobile-language-name">Deutsch</span>
-                                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="20 6 9 17 4 12"></polyline>
-                                    </svg>
-                                </button> -->
-
-                  <!-- <button class="mobile-language-item" data-lang="hi">
-                                    <span class="language-flag">
-                                        <svg class="flag-icon" viewBox="0 0 640 480">
-                                            <path fill="#f93" d="M0 0h640v160H0z"/>
-                                            <path fill="#fff" d="M0 160h640v160H0z"/>
-                                            <path fill="#128807" d="M0 320h640v160H0z"/>
-                                            <circle cx="320" cy="240" r="48" fill="none" stroke="#000088" stroke-width="6"/>
-                                            <circle cx="320" cy="240" r="3" fill="#000088"/>
-                                        </svg>
-                                    </span>
-
-                                    <span class="mobile-language-name">Hindi</span>
-
-                                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                        stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                        <polyline points="20 6 9 17 4 12"></polyline>
-                                    </svg>
-                                </button> -->
 
                 </div>
               </div>
@@ -358,19 +313,6 @@
                   </span>
                   <span class="language-name" data-i18n="language.english">English</span>
                 </div>
-                <!-- <div class="language-item" data-lang="hi">
-                  <span class="language-flag">
-                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-                      <path fill="#f93" d="M0 0h640v160H0z" />
-                      <path fill="#fff" d="M0 160h640v160H0z" />
-                      <path fill="#128807" d="M0 320h640v160H0z" />
-                      <circle cx="320" cy="240" r="45" fill="#008" stroke="#008" stroke-width="2" />
-                      <circle cx="320" cy="240" r="35" fill="#fff" />
-                      <circle cx="320" cy="240" r="8" fill="#008" />
-                    </svg>
-                  </span>
-                  <span class="language-name" data-i18n="language.hindi">हिन्दी</span>
-                </div> -->
                 <div class="language-item" data-lang="es-419">
                   <span class="language-flag">
                     <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">

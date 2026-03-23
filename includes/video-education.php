@@ -1,5 +1,9 @@
   <style>
-
+/* 
+.page-hero1 {
+padding : 650px 0 600px;
+height: 100vh;
+} */
 /* Video Cards Grid */
 .videos-grid {
   display: grid;
@@ -218,11 +222,17 @@
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .page-hero {
+    overflow: visible !important;
+    height: auto !important;
+  }
+}
    </style>
   
   
   <!-- Video Education Section with Video Background -->
-    <section class="page-hero">
+    <section class="page-hero ">
         <!-- Video Background -->
         <video class="page-hero-video" autoplay loop muted playsinline>
             <source src="assets/images/education.mp4" type="video/mp4">

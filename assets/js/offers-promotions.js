@@ -12,6 +12,7 @@
     const REGIONS = [
         { id: 'vietnam', name: 'Vietnam', code: 'VN' },
         { id: 'thailand', name: 'Thailand', code: 'TH' },
+        { id: 'malaysia', name: 'Malaysia', code: 'MY' },
         { id: 'philippines', name: 'Philippines', code: 'PH' },
         { id: 'indonesia', name: 'Indonesia', code: 'ID' },
         { id: 'pakistan', name: 'Pakistan', code: 'PK' },
@@ -33,6 +34,8 @@
         vietnam: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="480" fill="#da251d"/><polygon points="320,120 348,206 438,206 366,258 388,344 320,296 252,344 274,258 202,206 292,206" fill="#ff0"/></svg>',
 
         thailand: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="480" fill="#fff"/><rect width="640" height="80" y="0" fill="#a51931"/><rect width="640" height="80" y="400" fill="#a51931"/><rect width="640" height="160" y="160" fill="#2d2a4a"/></svg>',
+
+        malaysia: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="480" fill="#fff"/><rect width="640" height="34.3" fill="#cc0001"/><rect width="640" height="34.3" y="68.6" fill="#cc0001"/><rect width="640" height="34.3" y="137.1" fill="#cc0001"/><rect width="640" height="34.3" y="205.7" fill="#cc0001"/><rect width="640" height="34.3" y="274.3" fill="#cc0001"/><rect width="640" height="34.3" y="342.9" fill="#cc0001"/><rect width="640" height="34.3" y="411.4" fill="#cc0001"/><rect width="320" height="240" fill="#000066"/><path d="M192,154.3 a45,45 0 1,1 0,-68.6 a38,38 0 1,0 0,68.6" fill="#ffcc00"/><polygon points="215,120 223,132 237,130 231,142 241,152 228,151 223,164 214,154 200,159 207,146 199,134 212,137 215,123" fill="#ffcc00" transform="translate(10, -5)"/></svg>',
 
         philippines: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="240" fill="#0038a8"/><rect width="640" height="240" y="240" fill="#ce1126"/><polygon points="0,0 360,240 0,480" fill="#fff"/><circle cx="120" cy="240" r="48" fill="none" stroke="#fcd116" stroke-width="4"/><g fill="#fcd116"><polygon points="120,192 125,208 142,208 128,218 134,234 120,224 106,234 112,218 98,208 115,208"/><polygon points="62,330 67,346 84,346 70,356 76,372 62,362 48,372 54,356 40,346 57,346"/><polygon points="178,330 183,346 200,346 186,356 192,372 178,362 164,372 170,356 156,346 173,346"/><g transform="translate(120,240)"><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(45)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(90)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(135)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(180)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(225)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(270)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(315)"/></g></g></svg>',
 
@@ -112,6 +115,33 @@
                 description: 'Receive professional daily trading signals directly to your device. Our expert analysts deliver actionable trade ideas across forex, commodities, and indices.',
                 details: ['5+ signals daily', 'Entry, TP & SL levels', 'Telegram & email delivery', '70%+ historical accuracy'],
                 cta: 'Get Signals',
+                ctaLink: './contact-us'
+            }
+        ],
+
+        malaysia: [
+            {
+                badge: 'Welcome Bonus',
+                title: '100% Deposit Bonus for New Malaysian Traders',
+                description: 'Double your trading capital with our exclusive welcome offer for Malaysian traders. Fund your account and start trading with 100% additional margin.',
+                details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
+                cta: 'Claim Offer',
+                ctaLink: './contact-us'
+            },
+            {
+                badge: 'Islamic Account',
+                title: 'Zero Swap Islamic Trading Account',
+                description: 'Trade in accordance with your principles. Our Sharia-compliant accounts feature zero overnight swap fees on all positions held past market close.',
+                details: ['Zero swap fees', 'No hidden costs', 'Full instrument access', 'Instant activation'],
+                cta: 'Open Islamic Account',
+                ctaLink: './contact-us'
+            },
+            {
+                badge: 'ECN Trading',
+                title: 'Spreads from 0.0 Pips on ECN Account',
+                description: 'Experience professional-grade trading with direct market access. Enjoy ultra-low raw spreads from 0.0 pips on major pairs with fast execution.',
+                details: ['From 0.0 pips', 'Deep liquidity', 'Fast execution', 'Institutional pricing'],
+                cta: 'Try ECN Account',
                 ctaLink: './contact-us'
             }
         ],
@@ -829,6 +859,7 @@
     var SUBDOMAIN_MAP = {
         vn: 'vietnam',
         th: 'thailand',
+        my: 'malaysia',
         ph: 'philippines',
         id: 'indonesia',
         pk: 'pakistan',
