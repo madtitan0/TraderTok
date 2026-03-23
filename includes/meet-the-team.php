@@ -72,7 +72,7 @@
                         </span>
                         <span data-i18n="meetTheTeam.tabSpanish">Spanish</span>
                     </button> -->
-                    <button class="team-tab" data-team="indian">
+                    <!-- <button class="team-tab" data-team="indian">
                         <span class="tab-flag">
                             <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#f93" d="M0 0h640v160H0z"/>
@@ -82,7 +82,7 @@
                             </svg>
                         </span>
                         <span data-i18n="meetTheTeam.tabHindi">Hindi</span>
-                    </button>
+                    </button> -->
                 </div>
                 <!-- English Team -->
                 <div class="team-stack active" data-team="english">
@@ -170,7 +170,7 @@
                 </div> -->
 
                 <!-- Indian Team -->
-                <div class="team-stack" data-team="indian">
+                <!-- <div class="team-stack" data-team="indian">
                     <div class="team-cards">
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
@@ -181,7 +181,7 @@
                             </div>
                         </article>
                     </div>
-                </div>
+                </div> -->
                 </div>
             </div>
             <!-- End Agents Department -->

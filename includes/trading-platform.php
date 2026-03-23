@@ -1,3 +1,4 @@
+
     <!-- Platform Cards Section -->
     <section style="padding: 140px 0 100px; background: var(--bg-primary);">
         <div class="container">
@@ -22,15 +23,17 @@
                         <!-- OS Icons -->
                         <div style="display: flex; align-items: center; gap: 48px; margin-bottom: 32px;">
                             <!-- iOS Icon -->
+                             <a href='https://apps.apple.com/tr/app/tradertok/id6759670314' style='text-decoration: none; cursor: pointer;'>
                             <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
                                 <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
                                     <rect x="12" y="12" width="56" height="56" rx="14" ry="14" fill="none" stroke="currentColor" stroke-width="3"/>
                                     <text x="40" y="48" text-anchor="middle" font-size="28" font-weight="600" fill="currentColor">iOS</text>
                                 </svg>
                                 <span style="color: var(--text-primary); font-size: 1.1rem; font-weight: 600;" data-i18n="tradingPlatformsPage.ios">iOS</span>
-                            </div>
+                            </div></a>
 
                             <!-- Android Icon -->
+                             <a href='https://play.google.com/store/apps/details?id=com.tradertok.app' style='text-decoration: none; cursor: pointer;'>
                             <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
                                 <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
                                     <g transform="scale(3.33)">
@@ -38,11 +41,11 @@
                                     </g>
                                 </svg>
                                 <span style="color: var(--text-primary); font-size: 1.1rem; font-weight: 600;" data-i18n="tradingPlatformsPage.android">Android</span>
-                            </div>
+                            </div></a>
                         </div>
 
                         <!-- Sign In Button -->
-                        <a href='https://appzone.tradertok.com/ ' style="text-decoration: none;" class="btn-platform btn-platform-primary" data-i18n="tradingPlatformsPage.signIn">Sign In</a>
+                        <!-- <a href='https://appzone.tradertok.com/ ' style="text-decoration: none;" class="btn-platform btn-platform-primary" data-i18n="tradingPlatformsPage.signIn">Sign In</a> -->
                     </div>
 
                     <!-- Mobile Device Image -->
@@ -60,6 +63,7 @@
                     <!-- OS Icons -->
                     <div style="display: flex; align-items: center; gap: 48px; margin-bottom: 32px;">
                         <!-- Windows Icon -->
+                         <a href='https://tradertok.com/download/win.zip' style='text-decoration: none; cursor: pointer;'>
                         <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
                             <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
                                 <g transform="scale(0.75) translate(13, 13)">
@@ -67,9 +71,10 @@
                                 </g>
                             </svg>
                             <span style="color: var(--text-primary); font-size: 1.1rem; font-weight: 600;" data-i18n="tradingPlatformsPage.windows">Windows</span>
-                        </div>
+                        </div></a>
 
                         <!-- Mac Icon -->
+                         <a href='https://tradertok.com/download/mac.zip' style='text-decoration: none; cursor: pointer;'>
                         <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
                             <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
                                 <g transform="scale(3.33)">
@@ -77,12 +82,13 @@
                                 </g>
                             </svg>
                             <span style="color: var(--text-primary); font-size: 1.1rem; font-weight: 600;" data-i18n="tradingPlatformsPage.mac">Mac</span>
-                        </div>
+                        </div></a>
                     </div>
 
                     <!-- Download Button -->
-                    <a href='https://tradertok.com/download/win.zip' style='text-decoration: none' class="btn-platform btn-platform-primary" data-i18n="tradingPlatformsPage.download">Download</a>
-
+                    <!-- <a href='https://tradertok.com/download/win.zip' style='text-decoration: none' class="btn-platform btn-platform-primary" data-i18n="tradingPlatformsPage.download">Download Win</a>
+                    
+                    <a href='https://tradertok.com/download/mac.zip' style='text-decoration: none; cursor: pointer;' class="btn-platform btn-platform-primary" data-i18n="tradingPlatformsPage.download">Download Mac</a> -->
                     <!-- Desktop Device Image -->
                     <div style="position: absolute; bottom: 0; right: 0; width: 80%; text-align: right;">
                         <img src="assets/images/laptop_platforms.png" alt="TraderTok Desktop Platform on Laptop" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">

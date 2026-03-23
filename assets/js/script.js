@@ -1120,19 +1120,32 @@ if (contactForm) {
       // Simulate API call (replace with actual endpoint)
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
-      // Show success message
-      formStatus.className = "form-status success";
-      formStatus.textContent = "Thank you! We will contact you soon.";
+            // Show unified success message
+      contactForm.innerHTML = `
+                <div style="text-align: center; padding: 40px 20px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="16 8 10 14 8 12"></polyline>
+                    </svg>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Submitted!</h3>
+                    <p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>
+                </div>
+            `;
+    // } catch (error) {
 
-      // Reset form
-      contactForm.reset();
-      clearAllErrors();
+    //   // Show success message
+    //   formStatus.className = "form-status success";
+    //   formStatus.textContent = "Thank you! We will contact you soon.";
 
-      // Hide success message after 5 seconds
-      setTimeout(() => {
-        formStatus.className = "form-status";
-        formStatus.textContent = "";
-      }, 5000);
+    //   // Reset form
+    //   contactForm.reset();
+    //   clearAllErrors();
+
+    //   // Hide success message after 5 seconds
+    //   setTimeout(() => {
+    //     formStatus.className = "form-status";
+    //     formStatus.textContent = "";
+    //   }, 5000);
     } catch (error) {
       // Show error message
       formStatus.className = "form-status error";
@@ -2429,17 +2442,33 @@ if (signupForm) {
     }
   });
 
-  function showSuccessMessage() {
+  // function showSuccessMessage() {
+  //   const modalContent = modal?.querySelector(".traders-club-modal-content");
+  //   if (modalContent) {
+  //     modalContent.innerHTML = `
+  //               <div style="text-align: center; padding: 40px 20px;">
+  //                   <svg viewBox="0 0 24 24" fill="none" stroke="#00B67A" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+  //                       <circle cx="12" cy="12" r="10"></circle>
+  //                       <polyline points="16 8 10 14 8 12"></polyline>
+  //                   </svg>
+  //                   <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Received!</h3>
+  //                   <p style="color: var(--text-secondary);">We'll send your free virtual card details shortly.</p>
+  //               </div>
+  //           `;
+  //   }
+  // }
+
+    function showSuccessMessage() {
     const modalContent = modal?.querySelector(".traders-club-modal-content");
     if (modalContent) {
       modalContent.innerHTML = `
                 <div style="text-align: center; padding: 40px 20px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#00B67A" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="16 8 10 14 8 12"></polyline>
                     </svg>
-                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Received!</h3>
-                    <p style="color: var(--text-secondary);">We'll send your free virtual card details shortly.</p>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Submitted!</h3>
+                    <p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>
                 </div>
             `;
     }

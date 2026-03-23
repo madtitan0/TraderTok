@@ -23,7 +23,6 @@ if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_time))
 $fp = @fopen($lock_file, 'c+'); // 'c+' is safer for locking
 
 if ($fp && flock($fp, LOCK_EX | LOCK_NB)) {
-    // We got the lock! It is our responsibility to fetch fresh data.
     
     // Double check the cache just in case another process *just* updated it and released the lock
     if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_time)) {
@@ -163,8 +162,6 @@ fclose($fp);
 
 echo $output;
 } else {
-    // We couldn't get the lock. Another process is currently fetching fresh data from the APIs.
-    // Instead of waiting (which could hang the request) or fetching ourselves (which causes the race condition),
     // we just serve the slightly stale cache file if it exists, or a default empty array if this is the very first run ever.
     if (file_exists($cache_file)) {
         echo file_get_contents($cache_file);

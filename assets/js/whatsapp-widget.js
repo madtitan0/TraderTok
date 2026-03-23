@@ -3,18 +3,16 @@
   function init() {
     const whatsappBtn = document.querySelector(".whatsapp-button");
     if (!whatsappBtn) {
-      console.warn("WhatsApp button not found in DOM");
       return;
     }
 
-    // Configuration
-    const PHONE_NUMBER = "447520640890"; // Updated to match footer phone if provided, or default
+    const PHONE_NUMBER = "447988536833"; 
 
     whatsappBtn.addEventListener("click", function (e) {
       e.preventDefault();
 
       // Use i18n system for greeting message
-      const greeting = window.i18n && typeof window.i18n.t === "function" 
+      const greeting = (window.i18n && typeof window.i18n.t === "function") 
         ? window.i18n.t("whatsapp.greeting")
         : "Hello! Welcome to TraderTok. We are here to help you. What can we do for you today?";
 
@@ -32,4 +30,3 @@
     init();
   }
 })();
-

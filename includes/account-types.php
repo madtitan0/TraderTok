@@ -417,7 +417,7 @@
                 </div>
               </div>
               <div class="account-divider-bottom"></div>
-              <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
+              <a href="http://client.tradertok.com/#/auth/register" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
             </div>
 
             <!-- Advanced Account -->
@@ -468,7 +468,7 @@
               <div class="account-note" data-i18n="accountTypesPage.advanced.note">Potential for Increased Revenue:
                 Enjoy reduced transaction costs, allowing you to retain a higher percentage of your profits</div>
               <div class="account-divider-bottom"></div>
-              <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
+              <a href="http://client.tradertok.com/#/auth/register" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
             </div>
 
             <!-- Professional Account (Most Popular) -->
@@ -534,7 +534,7 @@
                 Some of the lowest transaction costs in the branch, and the use of a personal assistant and an AI tool
                 to navigate you through financial markets</div>
               <div class="account-divider-bottom"></div>
-              <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
+              <a href="http://client.tradertok.com/#/auth/register" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
             </div>
 
             <!-- Exclusive Account -->
@@ -600,7 +600,7 @@
                 costs, zero swap fees, exclusive features, and personalized support, optimizing your trading performance
                 for higher potential returns</div>
               <div class="account-divider-bottom"></div>
-              <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
+              <a href="http://client.tradertok.com/#/auth/register" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
             </div>
 
             <!-- BLACK Account -->
@@ -650,7 +650,7 @@
                 </div>
               </div>
               <div class="account-divider-bottom"></div>
-              <a href="./contact-us" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
+              <a href="http://client.tradertok.com/#/auth/register" class="account-btn" data-i18n="accountTypesPage.getStarted">Get Started</a>
             </div>
           </div>
         </div>

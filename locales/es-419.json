@@ -17,7 +17,9 @@
     "riskDisclaimer": "Descargo de Responsabilidad de Riesgo",
     "termsConditions": "Términos y Condiciones",
     "cookiePolicy": "Política de Cookie",
-    "offers": "Ofertas"
+    "offers": "Ofertas",
+    "educationHub": "Centro Educativo",
+    "trading": "Trading"
   },
   "dropdown": {
     "tradingEssentials": "Fundamentos del Trading",
@@ -33,7 +35,15 @@
     "legalDocuments": "Documentos Legales",
     "legalDocumentsDesc": "Explora nuestros documentos legales",
     "regulations": "Regulaciones",
-    "regulationsDesc": "Explora nuestras regulaciones"
+    "regulationsDesc": "Explora nuestras regulaciones",
+    "tradingPlatform": "Plataforma de Trading",
+    "tradingPlatformDesc": "Explora nuestras plataformas",
+    "tradingCentral": "Trading Central",
+    "tradingCentralDesc": "Análisis avanzado y perspectivas"
+  },
+  "whatsapp": {
+    "tooltip": "Chatea con nosotros",
+    "greeting": "¡Hola! Bienvenidos a TraderTok. Estamos aquí para ayudarte. ¿En qué podemos apoyarte hoy?"
   },
   "language": {
     "title": "Idioma",
@@ -97,6 +107,718 @@
     "happyClients": "Clientes Felices",
     "support": "Soporte",
     "secure": "Seguro"
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Nuestra Historia",
+      "titleLine1": "La Plataforma Diseñada para",
+      "titleHighlight": "Convertir el Ruido en Información",
+      "lead": "Los mercados financieros se mueven más rápido que nunca. TraderTok fue creado para brindar a los traders la claridad, infraestructura y confianza necesarias para navegar en ellos.",
+      "stat1Title": "Multi-Activo",
+      "stat1Label": "Acceso a Mercados",
+      "stat2Title": "24/7",
+      "stat2Label": "Soporte al Cliente",
+      "stat3Title": "Global",
+      "stat3Label": "Mercados Cubiertos"
+    },
+    "origin": {
+      "title": "Por Qué Se Creó TraderTok",
+      "p1": "La información viaja instantáneamente, los eventos globales transforman los mercados en segundos y los traders están constantemente rodeados de ruido: opiniones, especulación, señales y grandes volúmenes de datos.",
+      "p2": "Aunque el acceso a los mercados globales ha crecido significativamente, muchos traders aún tienen dificultades para encontrar plataformas que combinen fiabilidad, transparencia e infraestructura de nivel institucional en un solo lugar.",
+      "p3": "TraderTok fue creado para abordar este desafío. En lugar de centrarse únicamente en el acceso al mercado, TraderTok construye un ecosistema completo de trading, proporcionando las herramientas, infraestructura y estabilidad necesarias para navegar los mercados financieros globales con confianza."
+    },
+    "vision": {
+      "badge": "Visión",
+      "statement": "Establecer a TraderTok como una plataforma de trading multi-activo impulsada por tecnología y confiable a nivel global, que proporcione acceso transparente a los mercados financieros internacionales.",
+      "p1": "Nuestro objetivo es construir un ecosistema de trading sostenible que combine infraestructura de nivel institucional, integridad regulatoria y tecnología avanzada de ejecución, permitiendo a traders y socios estratégicos participar con confianza en la economía global.",
+      "p2": "La visión a largo plazo de TraderTok es ofrecer rendimiento, estabilidad y credibilidad en regiones de alto crecimiento, manteniendo los más altos estándares de gobernanza, cumplimiento y protección al cliente."
+    },
+    "pillars": {
+      "title": "Enfoque Estratégico",
+      "subtitle": "Seis pilares fundamentales que definen cómo operamos y crecemos.",
+      "p1Title": "Tecnología Avanzada de Trading",
+      "p1Body": "Ofrecemos tecnología de trading de última generación e infraestructura de ejecución de baja latencia para un rendimiento óptimo.",
+      "p2Title": "Acceso Diversificado a Mercados",
+      "p2Body": "Cobertura multi-activo incluyendo Forex, CFDs, índices y materias primas en un solo entorno integrado.",
+      "p3Title": "Marco Regulatorio",
+      "p3Body": "Operando dentro de un marco regulatorio estructurado alineado con los más altos estándares financieros internacionales.",
+      "p4Title": "Condiciones Transparentes",
+      "p4Body": "Promoviendo condiciones de trading transparentes y prácticas responsables de gestión de riesgos para cada trader.",
+      "p5Title": "Crecimiento en Mercados Emergentes",
+      "p5Body": "Expansión en mercados emergentes y de alto crecimiento mediante modelos escalables, sostenibles y orientados a la comunidad.",
+      "p6Title": "Alianzas a Largo Plazo",
+      "p6Body": "Construyendo relaciones duraderas con clientes y socios basadas en confianza, rendimiento y excelencia operativa."
+    },
+    "values": {
+      "title": "Valores Fundamentales",
+      "subtitle": "Los principios que guían cada decisión que tomamos.",
+      "v1Title": "Transparencia",
+      "v1Body": "Al priorizar la transparencia, la fiabilidad y la eficiencia operativa, TraderTok busca construir relaciones duraderas con traders y socios en todo el mundo.",
+      "v2Title": "Fiabilidad",
+      "v2Body": "Una infraestructura tecnológica robusta diseñada para ofrecer ejecución eficiente de operaciones, estabilidad del sistema y operaciones de trading seguras.",
+      "v3Title": "Tecnología Primero",
+      "v3Body": "La tecnología no es simplemente un componente operativo, es la base que permite rendimiento, estabilidad y transparencia en el trading.",
+      "v4Title": "Enfoque en el Cliente",
+      "v4Body": "Cada elemento del entorno TraderTok está diseñado para ayudar a los traders a centrarse en lo que más importa: estrategia, toma de decisiones y rendimiento a largo plazo."
+    },
+    "global": {
+      "title": "Acceso a Mercados Globales",
+      "body": "A través de su plataforma, los traders obtienen acceso a una amplia gama de instrumentos financieros, permitiéndoles participar en los mercados internacionales desde un único entorno integrado.",
+      "forex": "Forex",
+      "cfds": "CFDs",
+      "indices": "Índices",
+      "commodities": "Materias Primas"
+    },
+    "cta": {
+      "title": "¿Listo para operar con claridad?",
+      "body": "Únete a una plataforma donde la tecnología, el acceso a mercados y la transparencia operativa trabajan juntos.",
+      "primary": "Comenzar a Operar",
+      "secondary": "Explorar Centro de Aprendizaje"
+    }
+  },
+  "educationHub": {
+    "hero": {
+      "title": "Aprende Forex de la <span>Manera Correcta</span>",
+      "subtitle": "Accede a más de 20 guías completas de trading diseñadas especialmente para principiantes. Sin jerga complicada, solo explicaciones claras para ayudarte a comenzar.",
+      "cta": "Ver Artículos",
+      "trust": "Únete a más de 5,000 traders que aprenden con TraderTok"
+    },
+    "learn": {
+      "title": "Lo Que Aprenderás",
+      "subtitle": "Nuestro contenido cubre todo lo que necesitas saber para comenzar.",
+      "items": [
+        {
+          "title": "Fundamentos de Forex",
+          "description": "Comprende los conceptos básicos del mercado financiero más grande del mundo."
+        },
+        {
+          "title": "Apalancamiento y Margen",
+          "description": "Aprende a usar el poder del trading de forma inteligente y proteger tu capital."
+        },
+        {
+          "title": "Gestión de Riesgos",
+          "description": "La habilidad número uno que todo trader necesita para sobrevivir y crecer."
+        },
+        {
+          "title": "Errores Comunes de Principiantes",
+          "description": "Ahorra tiempo y dinero evitando los errores que cometen la mayoría de los nuevos traders."
+        },
+        {
+          "title": "Sesiones del Mercado",
+          "description": "Aprende cuándo operar (y cuándo no) para obtener mejores oportunidades."
+        },
+        {
+          "title": "Psicología del Trading",
+          "description": "Domina tus emociones para tomar decisiones más racionales y efectivas."
+        }
+      ]
+    },
+    "whoFor": {
+      "title": "¿Es Esta Educación Para Ti?",
+      "for": {
+        "title": "Esto es para ti si:",
+        "items": [
+          "Eres un principiante completo sin experiencia en trading.",
+          "Quieres aprender los fundamentos del mercado forex.",
+          "Prefieres lecciones estructuradas y fáciles de entender."
+        ]
+      },
+      "notFor": {
+        "title": "Esto NO es para ti si:",
+        "items": [
+          "Buscas ganancias garantizadas o esquemas para hacerte rico rápidamente.",
+          "Quieres señales de trading o que alguien opere por ti.",
+          "No estás dispuesto a aceptar los riesgos del trading."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "steps": [
+        {
+          "title": "Crea Tu Cuenta Gratis",
+          "description": "Completa el formulario de registro para desbloquear el contenido."
+        },
+        {
+          "title": "Obtén Acceso Inmediato",
+          "description": "Una vez registrado, tendrás acceso completo a todos los artículos al instante."
+        },
+        {
+          "title": "Aprende a Tu Ritmo",
+          "description": "Lee desde cualquier dispositivo, en cualquier momento. Se añade contenido nuevo cada mes."
+        }
+      ]
+    },
+    "resources": {
+      "courses": {
+        "title": "Cursos",
+        "description": "Comienza tu camino en el trading con cursos online gratuitos. Domina el trading con un contenido completo diseñado para principiantes.",
+        "cta": "Saber Más"
+      },
+      "videos": {
+        "title": "Videos Educativos",
+        "description": "Desarrolla tu potencial con videos educativos gratuitos que cubren conceptos y estrategias clave del trading.",
+        "cta": "Ver Ahora"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "items": [
+        {
+          "q": "¿El Education Hub es realmente gratis?",
+          "a": "¡Sí! Nuestro objetivo es ayudarte a aprender. No hay costos ocultos."
+        },
+        {
+          "q": "¿Necesito una cuenta de trading para acceder?",
+          "a": "No, solo necesitas registrarte para desbloquear el contenido."
+        },
+        {
+          "q": "¿Los artículos son adecuados para principiantes?",
+          "a": "Sí, están diseñados específicamente para personas sin experiencia."
+        },
+        {
+          "q": "¿Esto es asesoramiento financiero?",
+          "a": "No. Todo el contenido es solo educativo. El trading implica riesgos."
+        },
+        {
+          "q": "¿Puedo leer en el móvil?",
+          "a": "Sí, está optimizado para móvil, tablet y escritorio."
+        },
+        {
+          "q": "¿Qué pasa después de registrarme?",
+          "a": "Obtendrás acceso inmediato. Nuestro equipo podría contactarte para ayudarte."
+        }
+      ]
+    },
+    "modal": {
+      "title": "Accede al Contenido Educativo",
+      "subtitle": "Para desbloquear este contenido, proporciona tus datos. Nuestro equipo te contactará para ayudarte en tu camino en el trading.",
+      "submit": "Enviar y Desbloquear",
+      "successTitle": "¡Solicitud Enviada!",
+      "successMessage": "Nuestro equipo se pondrá en contacto contigo pronto.",
+      "modal": "Al enviar, aceptas nuestros Términos de Servicio y la Política de Privacidad"
+    }
+  },
+  "educationArticles": {
+    "general": {
+      "title": "Academia Educativa",
+      "time": "5 min de lectura",
+      "disclosure": "Divulgación de Riesgo:"
+    },
+    "what-is-forex-trading-a-beginners-guide": {
+      "title": "¿Qué es el Trading Forex? Guía para Principiantes",
+      "seo_title": "¿Qué es el Trading Forex? Guía Básica del Mercado de Divisas",
+      "meta_description": "Aprende qué es el trading forex, cómo funciona el mercado global de divisas y los conceptos básicos",
+      "category": "Principiante",
+      "excerpt": "El trading forex, también conocido como trading de divisas, es el proceso de compra y venta de monedas en el mercado financiero global...",
+      "content": {
+        "introduction": "El trading forex, también conocido como trading de divisas, es el proceso de comprar y vender monedas en el mercado financiero global. Es uno de los mercados financieros más grandes del mundo, con billones de dólares negociados cada día. Las personas participan en el mercado forex por diferentes razones. Algunos traders buscan aprovechar los movimientos de precios de las divisas, mientras que empresas e instituciones intercambian monedas para apoyar el comercio internacional. Para los principiantes, entender cómo funciona el mercado forex es un primer paso importante para aprender sobre los mercados financieros.",
+        "sections": [
+          {
+            "heading": "¿Qué es el Mercado Forex?",
+            "text": "El mercado forex es un mercado global donde se intercambian divisas. A diferencia de los mercados bursátiles, que operan a través de bolsas centralizadas, el mercado forex funciona de forma descentralizada (OTC) mediante una red de bancos, instituciones financieras y plataformas de trading. Las divisas siempre se negocian en pares, lo que significa que una moneda se intercambia por otra. Por ejemplo: EUR/USD, GBP/USD, USD/JPY. Estos pares representan el valor de una moneda en relación con otra. El mercado forex opera las 24 horas del día, cinco días a la semana, lo que lo hace accesible para traders en diferentes partes del mundo."
+          },
+          {
+            "heading": "Cómo Funciona el Trading Forex",
+            "text": "En el trading forex, los participantes especulan si una moneda aumentará o disminuirá su valor en relación con otra. Por ejemplo: si un trader cree que el euro se fortalecerá frente al dólar estadounidense, puede comprar el par EUR/USD. Si el euro sube de valor, el precio del par aumenta. Si el euro se debilita, el precio disminuye. Los precios de las divisas cambian constantemente debido a muchos factores como datos económicos, tasas de interés, eventos geopolíticos y el sentimiento del mercado."
+          },
+          {
+            "heading": "Principales Participantes del Mercado Forex",
+            "text": "El mercado forex incluye una amplia variedad de participantes. Entre ellos se encuentran: bancos centrales, bancos comerciales, fondos de inversión, corporaciones y traders minoristas. Los bancos centrales desempeñan un papel importante al influir en los mercados de divisas mediante decisiones de política monetaria, incluidos los cambios en las tasas de interés. Las grandes instituciones financieras realizan la mayor parte del volumen de operaciones, pero la tecnología moderna ha hecho que el mercado forex sea más accesible para traders individuales."
+          },
+          {
+            "heading": "Por Qué Cambian los Precios de las Divisas",
+            "text": "Los valores de las divisas fluctúan debido a diversos factores económicos globales. Algunos de los más comunes incluyen: crecimiento económico, cambios en las tasas de interés, niveles de inflación, eventos políticos y actividad del comercio internacional. Por ejemplo, cuando un país aumenta las tasas de interés, su moneda puede volverse más atractiva para los inversores que buscan mayores rendimientos, lo que puede aumentar la demanda de esa moneda en el mercado global."
+          },
+          {
+            "heading": "Conceptos Importantes que los Principiantes Deben Conocer",
+            "text": "Antes de profundizar en el trading forex, los principiantes deben familiarizarse con algunos conceptos básicos. Pares de divisas: las monedas siempre se negocian en pares. Pips: un pip es el movimiento de precio más pequeño en la mayoría de los pares de divisas. Spread: representa la diferencia entre el precio de compra y el de venta. Apalancamiento: permite a los traders controlar posiciones más grandes con una menor cantidad de capital, aunque también aumenta el riesgo. Comprender estos conceptos ayuda a interpretar mejor cómo funciona el trading en la práctica."
+          }
+        ],
+        "conclusion": "El trading forex implica la compra y venta de divisas en el mercado financiero global. Como uno de los mercados más activos del mundo, desempeña un papel importante en el comercio internacional y la actividad económica. Para los principiantes, aprender sobre pares de divisas, factores del mercado y mecánicas de trading proporciona una base sólida para comprender cómo funcionan los mercados financieros. Los recursos educativos y el análisis de mercado pueden ayudar a seguir desarrollando el conocimiento en este campo.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "how-financial-markets-work": {
+      "title": "Cómo Funcionan los Mercados Financieros",
+      "seo_title": "Cómo Funcionan los Mercados Financieros: Guía para Principiantes",
+      "meta_description": "Descubre cómo funcionan los mercados financieros, los diferentes tipos de mercados y cómo el global",
+      "category": "Principiante",
+      "excerpt": "Los mercados financieros desempeñan un papel central en la economía global...",
+      "content": {
+        "introduction": "Los mercados financieros desempeñan un papel central en la economía global. Al facilitar el intercambio de capital entre quienes tienen fondos y quienes los necesitan, estos mercados apoyan el crecimiento económico, la innovación y el comercio internacional. Para cualquiera interesado en el trading, entender los conceptos básicos de los mercados financieros es esencial. Este artículo explica qué son los mercados financieros, los principales tipos de mercados que operan hoy en día y por qué son importantes.",
+        "sections": [
+          {
+            "heading": "¿Qué Son los Mercados Financieros?",
+            "text": "Un mercado financiero es un sistema donde compradores y vendedores intercambian activos financieros, como acciones, bonos, divisas y materias primas. Estos mercados proporcionan un entorno regulado y eficiente para la transferencia de capital. En un mercado financiero que funciona bien, los precios reflejan la información disponible, asegurando la transparencia para los participantes. Los mercados financieros se dividen típicamente en dos grandes categorías: Mercados primarios: Donde se emiten y venden nuevos valores por primera vez (por ejemplo, OPI). Mercados secundarios: Donde se negocian valores emitidos previamente entre inversores."
+          },
+          {
+            "heading": "Principales Tipos de Mercados Financieros",
+            "text": "Varios tipos diferentes de mercados financieros operan en todo el mundo, cada uno sirviendo a un propósito específico.\n\nMercado de Valores (Mercado de Acciones): En el mercado de valores, las empresas emiten acciones de propiedad al público para recaudar capital. Los inversores compran y venden estas acciones, con la esperanza de beneficiarse de los aumentos de precios o de los pagos de dividendos. Ejemplos incluyen la Bolsa de Nueva York (NYSE) y el NASDAQ.\nMercado de Bonos (Mercado de Deuda): Instituciones y corporaciones emiten bonos para pedir dinero prestado a los inversores. A cambio, los inversores reciben pagos regulares de intereses y el retorno de su monto principal cuando el bono vence.\nMercado Forex (Mercado de Divisas): Este es el mercado donde se negocian las monedas mundiales. Es el mercado financiero más grande y líquido del mundo.\nMercado de Materias Primas: En este mercado, los participantes negocian bienes físicos o materias primas, como oro, petróleo, o productos agrícolas como trigo y café. Proporciona una manera para que los productores fijen los precios y para que los traders especulen sobre las tendencias económicas globales."
+          },
+          {
+            "heading": "Cómo se Determinan los Precios",
+            "text": "Los precios en los mercados financieros están impulsados en gran medida por la oferta y la demanda. Si más compradores desean comprar un activo que los vendedores que desean venderlo, el precio aumentará. Por el contrario, si hay más vendedores que compradores, el precio caerá. Varios factores pueden influir en la oferta y la demanda, incluidos: Indicadores económicos (por ejemplo, cifras de empleo, crecimiento del PIB). Decisiones de políticas del banco central. Eventos geopolíticos globales. Tendencias específicas de la industria o desempeño corporativo. Los participantes del mercado evalúan continuamente estos factores para determinar el valor de los diferentes activos."
+          },
+          {
+            "heading": "Participantes del Mercado",
+            "text": "Los mercados financieros incluyen una amplia gama de participantes, desde grandes instituciones hasta individuos. Participantes institucionales: Bancos, fondos mutuos, instituciones gubernamentales y corporaciones transnacionales. Participantes minoristas: Inversores y comerciantes individuales. El volumen combinado y la actividad comercial de todos estos participantes crean la liquidez necesaria para que los mercados funcionen sin problemas."
+          },
+          {
+            "heading": "Por Qué Son Importantes los Mercados Financieros",
+            "text": "Los mercados financieros cumplen varias funciones vitales: Asignación de Capital: Dirigen el dinero de los inversores a empresas y gobiernos para proyectos productivos, iniciativas en crecimiento o innovación. Descubrimiento de Precios: Brindan un mecanismo para establecer el valor razonable de diversos activos a través de la interacción de la oferta y la demanda. Gestión de Riesgos: Permiten a empresas e inversores gestionar su exposición al riesgo financiero (por ejemplo, mediante el bloqueo de los precios de las divisas o de las materias primas). Liquidez: Permiten a los participantes comprar y vender activos en efectivo rápidamente, facilitando así la participación en la economía en su conjunto."
+          }
+        ],
+        "conclusion": "Los mercados financieros son redes mundiales muy complejas y dinámicas que están en el centro de todas las transacciones económicas a escala global y que influyen enormemente en la economía, desde las empresas en crecimiento a la economía de nivel de calle. Analizando cómo funciona y el objetivo al que sirve, los nuevos inversores sentarán sin duda una base bastante sólida que utilizarán posteriormente a la hora de abordar estrategias y un contexto económico de alcance mundial. Si bien es cierto que cada mercado difiere bastante no solo desde el punto de vista regulatorio, también se pueden reconocer una infinidad de mecanismos básicos en todos ellos.",
+        "disclaimer": "La información contenida en este artículo tiene fines puramente educativos y no pretende ser un consejo financiero en ningún caso."
+      }
+    },
+    "what-are-currency-pairs-in-forex": {
+      "title": "¿Qué son los Pares de Divisas en Forex?",
+      "seo_title": "Explicación de los Pares de Divisas en Forex",
+      "meta_description": "Aprende qué son los pares de divisas en el trading forex...",
+      "category": "Principiante",
+      "excerpt": "En el mercado de divisas, las monedas se operan en pares...",
+      "content": {
+        "introduction": "En el mercado forex, las divisas se negocian por pares. Esto significa que cuando se compra una divisa, se vende la otra moneda al mismo tiempo. Para cualquier persona que empiece a aprender sobre el funcionamiento del mercado, comprender el concepto de los pares de divisas resulta necesario de manera indispensable.",
+        "sections": [
+          {
+            "heading": "Divisa Base y Divisa Cotizada",
+            "text": "Todo par de divisas está formado siempre por dos monedas. La de primera posición se le conoce como divisa base. La segunda, la divisa cotizada. Por ejemplo: EUR/USD. Así, el EUR es la divisa base, mientras que el USD el la cotizada. En este contexto el par se negocia a un ratio de 1.10. Esto quiere decir que comprar un Euro tendrá el costo de 1.10 Dólares estadounidenses."
+          },
+          {
+            "heading": "Pares Mayores de Divisas",
+            "text": "Los pares mayores agrupan las monedas más transadas comercialmente a nivel internacional. Ejemplos de ellos son: EUR/USD, USD/JPY, GBP/USD, y USD/CHF. Estos pares no solo muestran una estabilidad financiera destacada frente a otros, sino un mayor índice de liquidez en sus operaciones."
+          },
+          {
+            "heading": "Pares Menores de Divisas",
+            "text": "Por lo general las transacciones exentas de inclusión de USD reciben este distintivo de pares menores de divisa. Algunos como EUR/GBP, EUR/AUD, GBP/JPY son un vivo ejemplo. La estabilidad en su nivel general de volumen operacional a lo sumo varía de manera escueta comparados a los referentes de divisa principal."
+          },
+          {
+            "heading": "Pares de Divisas Exóticos",
+            "text": "Agrupan divisas fuertes y de mercados que van en etapa inicial de consolidación. Al realizarse operaciones bajo un USD/TRY, USD/ZAR o USD/MXN, la variabilidad resulta siempre a tener en cuenta por motivo del propio contexto que les precede."
+          },
+          {
+            "heading": "Motivos por los Cuales Fluctúan los Pares de Divisas",
+            "text": "Se pueden llegar a observar escenarios volubles tras generarse algún cambio en las divisas del mercado con base a decisiones que parten sobre todo de las entidades gubernativas centrales a nivel económico de cada país y de geopolítica a nivel más global. De entre las distintas razones hay que reseñar las alteraciones en las tasas de intereses bancarias."
+          }
+        ],
+        "conclusion": "La base general del contexto en torno a materia de Forex siempre partirá desde comprender en detalle una divisa base con relación a su par cotizado. Evaluar estos detalles es una labor esencial tras dar pie en temas relativos de orden financiero de marco internacional en aras de obtener ganancias en los diferentes escenarios de oportunidad.",
+        "disclaimer": "La información otorgada no debe tomarse en caso alguno como guía expresa y directa."
+      }
+    },
+    "what-is-leverage-in-trading": {
+      "title": "¿Qué es el Apalancamiento en el Trading?",
+      "excerpt": "El apalancamiento es un concepto común en los mercados financieros que permite a los operadores controlar una posición más grande utilizando una menor cantidad de capital...",
+      "content": {
+        "introduction": "El apalancamiento es un concepto común en los mercados financieros que permite a los operadores controlar una posición más grande utilizando una menor cantidad de capital. Si bien el apalancamiento puede aumentar los rendimientos potenciales, también aumenta el nivel de riesgo involucrado en el trading. Comprender cómo funciona el apalancamiento es un paso importante para cualquiera que aprenda sobre los mercados financieros.",
+        "sections": [
+          {
+            "heading": "¿Qué es el Apalancamiento?",
+            "text": "El apalancamiento se refiere al uso de fondos prestados para aumentar el tamaño de una posición de trading. Por ejemplo, si un operador utiliza un apalancamiento de 1:100, puede controlar una posición por valor de 100 unidades utilizando solo 1 unidad de su propio capital. El apalancamiento se usa ampliamente en los mercados de divisas porque los movimientos de precios de las divisas suelen ser pequeños."
+          },
+          {
+            "heading": "Por Qué Se Usa el Apalancamiento",
+            "text": "El apalancamiento permite a los operadores participar en posiciones más grandes sin necesitar el valor total de la operación. Esto puede hacer que el trading sea más accesible para aquellos que pueden no tener grandes recursos de capital. Sin embargo, es importante comprender que el apalancamiento magnifica tanto las ganancias como las pérdidas."
+          },
+          {
+            "heading": "Ejemplo de Apalancamiento",
+            "text": "Supongamos que un operador quiere abrir una posición por un valor de $10,000. Si el apalancamiento es 1:100, el operador puede necesitar solo $100 de margen para abrir esa posición. Si el mercado se mueve de manera favorable, las ganancias pueden aumentar en relación con el capital invertido. Si el mercado se mueve en contra de la posición, las pérdidas también pueden aumentar rápidamente."
+          },
+          {
+            "heading": "Consideraciones Clave",
+            "text": "Antes de utilizar el apalancamiento, los operadores deben comprender: Volatilidad del mercado, Gestión de riesgos, Requisitos de margen y Posibles pérdidas. Muchos recursos educativos enfatizan el trading responsable y el control adecuado del riesgo al usar apalancamiento."
+          }
+        ],
+        "conclusion": "El apalancamiento es una herramienta importante utilizada en los mercados financieros que permite a los operadores aumentar la exposición con un capital limitado. Sin embargo, también introduce un riesgo adicional. Comprender cómo funciona el apalancamiento puede ayudar a las personas a abordar el trading con una mayor conciencia tanto de las oportunidades como de los riesgos.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "what-is-spread-in-forex": {
+      "title": "¿Qué es el Spread en Forex?",
+      "excerpt": "En el trading de forex, el spread es uno de los conceptos más importantes a entender. Representa la diferencia entre el precio al que un par de divisas...",
+      "content": {
+        "introduction": "En el trading de forex, el spread es uno de los conceptos más importantes a entender. Representa la diferencia entre el precio al que un par de divisas puede comprarse y el precio al que puede venderse. Entender los spreads ayuda a los operadores a interpretar mejor los costos de transacción y la liquidez del mercado.",
+        "sections": [
+          {
+            "heading": "Precio de Compra (Bid) y Precio de Venta (Ask)",
+            "text": "Todo par de divisas tiene dos precios. Precio Bid (Compra): El precio al que el mercado está dispuesto a comprar una divisa. Precio Ask (Venta): El precio al que el mercado está dispuesto a vender una divisa. La diferencia entre estos dos precios se conoce como spread."
+          },
+          {
+            "heading": "Ejemplo de un Spread",
+            "text": "Si el par EUR/USD muestra los siguientes precios: Bid: 1.1050 Ask: 1.1052. El spread es de 2 pips. Esta diferencia refleja la liquidez del mercado y los costos de transacción."
+          },
+          {
+            "heading": "Por Qué Cambian los Spreads",
+            "text": "Los spreads pueden variar dependiendo de las condiciones del mercado. Varios factores influyen en los spreads, incluyendo: Liquidez del mercado, Volumen de operaciones, Eventos de noticias económicas, Volatilidad del mercado. Durante anuncios económicos importantes, los spreads pueden ampliarse debido al aumento de la incertidumbre."
+          },
+          {
+            "heading": "Spreads Fijos vs Variables",
+            "text": "Algunos mercados operan con spreads fijos, mientras que otros usan spreads variables. Los spreads variables cambian basados en la oferta y la demanda del mercado. Los mercados altamente líquidos generalmente tienen spreads más ajustados."
+          }
+        ],
+        "conclusion": "El spread representa la diferencia entre los precios de compra y venta en el mercado forex. Entender los spreads puede ayudar a los operadores a interpretar mejor los costos de transacción y la liquidez del mercado. Al aprender sobre los spreads junto con otros conceptos de trading, los principiantes pueden obtener una comprensión más clara del funcionamiento de los mercados financieros.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "what-is-margin-trading": {
+      "title": "¿Qué es el Trading con Margen?",
+      "excerpt": "El trading con margen es un concepto común en los mercados financieros que permite a los operadores abrir posiciones usando solo una parte del valor total...",
+      "content": {
+        "introduction": "El trading con margen es un concepto común en los mercados financieros que permite a los operadores abrir posiciones usando solo una parte del valor total de la operación. En mercados como forex, el margen está estrechamente relacionado con el apalancamiento y juega un papel importante en cómo se gestionan las posiciones de trading. Para los principiantes, entender el margen es esencial porque ayuda a explicar cómo los operadores pueden participar en grandes operaciones sin necesitar la cantidad total de capital por adelantado.",
+        "sections": [
+          {
+            "heading": "¿Qué es el Margen?",
+            "text": "El margen es la cantidad de dinero requerida para abrir y mantener una posición de trading. En lugar de pagar el valor total de una operación, los operadores depositan una cantidad menor de fondos conocida como margen. Esta cantidad actúa como una forma de garantía que permite que la posición permanezca abierta. Por ejemplo, si un operador quiere abrir una posición por valor de $10,000 y el requisito de margen es del 1%, necesitaría $100 para abrir la posición."
+          },
+          {
+            "heading": "Margen y Apalancamiento",
+            "text": "El margen y el apalancamiento están estrechamente conectados. El apalancamiento permite a los operadores controlar posiciones más grandes, mientras que el margen representa los fondos necesarios para mantener esas posiciones. Por ejemplo: Apalancamiento: 1:100, Margen requerido: 1%. Un mayor apalancamiento generalmente significa requisitos de margen más bajos, aunque también aumenta la exposición al riesgo del mercado."
+          },
+          {
+            "heading": "¿Qué es un Llamado al Margen (Margin Call)?",
+            "text": "Un llamado al margen ocurre cuando los fondos en una cuenta de trading caen por debajo del nivel de margen requerido. Esto puede suceder si el mercado se mueve en contra de una posición abierta. Cuando esto ocurre, se pueden requerir fondos adicionales para mantener la posición. Entender los llamados al margen ayuda a los operadores a ser más conscientes de cómo se gestiona el riesgo en los mercados financieros."
+          },
+          {
+            "heading": "Por Qué Importa el Margen",
+            "text": "El margen juega un papel importante en el trading porque determina cuánto capital se necesita para mantener las posiciones abiertas. Con frecuencia, los operadores monitorean los niveles de margen cuidadosamente para asegurar que el saldo de su cuenta se mantenga por encima del nivel requerido. Las estrategias de gestión de riesgos se utilizan comúnmente para ayudar a controlar la exposición cuando se opera con margen."
+          }
+        ],
+        "conclusion": "El trading con margen permite a los operadores participar en los mercados financieros usando una porción del valor total de la operación. Si bien este enfoque puede aumentar la exposición al mercado, también introduce un riesgo adicional. Aprender cómo funciona el margen ayuda a los principiantes a entender mejor cómo operan las cuentas de trading y cómo se mantienen las posiciones en los mercados financieros.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "understanding-market-volatility": {
+      "title": "Comprendiendo la Volatilidad del Mercado",
+      "excerpt": "Los mercados financieros están en constante movimiento. Los precios de las divisas, acciones, materias primas y otros activos cambian a lo largo del día...",
+      "content": {
+        "introduction": "Los mercados financieros están en constante movimiento. Los precios de las divisas, acciones, materias primas y otros activos cambian a lo largo del día debido a varios factores económicos y globales. Estas fluctuaciones de precios se denominan comúnmente volatilidad del mercado. Entender la volatilidad es importante porque ayuda a explicar por qué los mercados suben y bajan con el tiempo.",
+        "sections": [
+          {
+            "heading": "¿Qué Es la Volatilidad del Mercado?",
+            "text": "La volatilidad del mercado se refiere al grado de movimiento del precio de un activo financiero a lo largo del tiempo. Cuando los precios se mueven rápida o significativamente, se considera que el mercado es altamente volátil. Cuando los movimientos de precios son más pequeños y estables, la volatilidad se considera menor. La volatilidad puede ocurrir en todos los mercados financieros, incluyendo forex, acciones, materias primas y criptomonedas."
+          },
+          {
+            "heading": "¿Qué Causa la Volatilidad del Mercado?",
+            "text": "Varios factores influyen en la volatilidad en los mercados financieros. Algunos de los impulsores más comunes incluyen: Publicación de datos económicos, Decisiones sobre tasas de interés, Acontecimientos políticos, Eventos económicos globales, Sentimiento del mercado. Por ejemplo, cuando un banco central anuncia un cambio en las tasas de interés, los mercados de divisas pueden reaccionar rápidamente a medida que los operadores ajustan sus expectativas."
+          },
+          {
+            "heading": "Volatilidad Alta vs Baja",
+            "text": "Los mercados pueden experimentar diferentes niveles de volatilidad dependiendo de las condiciones económicas. Alta volatilidad: Movimientos de precios grandes y rápidos. Baja volatilidad: Cambios de precios más pequeños y condiciones de mercado más estables. Los diferentes entornos de mercado pueden influir en las estrategias de trading y enfoques de gestión de riesgos."
+          },
+          {
+            "heading": "Por Qué la Volatilidad Importa",
+            "text": "La volatilidad juega un papel importante en los mercados financieros porque refleja la incertidumbre y los cambios en las expectativas de los inversores. Entender la volatilidad ayuda a los operadores e inversores a interpretar las condiciones del mercado y gestionar el riesgo."
+          }
+        ],
+        "conclusion": "La volatilidad del mercado se refiere a los cambios de precios en los activos financieros a lo largo del tiempo. Estos movimientos están influenciados por datos económicos, eventos globales y el comportamiento de los inversores. Aprender cómo funciona la volatilidad puede ayudar a los principiantes a comprender mejor cómo reaccionan los mercados financieros a la nueva información.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "best-times-to-trade-forex-(trading": {
+      "title": "Los Mejores Horarios para Operar en Forex (Sesiones Explicadas)",
+      "excerpt": "El mercado de forex opera las 24 horas del día durante la semana de trading, permitiendo a los participantes de todo el mundo operar divisas...",
+      "content": {
+        "introduction": "El mercado de forex opera las 24 horas del día durante la semana de trading, permitiendo a los participantes de todo el mundo operar con divisas en diferentes momentos. Sin embargo, la actividad del mercado no se distribuye uniformemente a lo largo del día. Ciertos períodos, conocidos como sesiones de trading, tienden a experimentar mayores niveles de actividad y liquidez en el mercado.",
+        "sections": [
+          {
+            "heading": "Las Principales Sesiones de Trading de Forex",
+            "text": "El mercado global de forex se divide en cuatro grandes sesiones de trading. Sesión Asiática: Comienza el día de trading global y a menudo se asocia con los mercados de Tokio, Singapur y Hong Kong. Los movimientos de precios son a veces más moderados en comparación con otras sesiones. Sesión de Londres: Es uno de los períodos más activos en el mercado de divisas. Gran parte del volumen global se genera aquí porque muchas instituciones financieras tienen su sede en Europa. Sesión de Nueva York: Se superpone con la sesión de Londres durante varias horas, creando el período de mayor volumen del día. Aquí se publican muchos anuncios económicos importantes de Estados Unidos."
+          },
+          {
+            "heading": "Superposición de Sesiones",
+            "text": "Uno de los períodos más activos en el mercado forex ocurre cuando las sesiones de Londres y Nueva York se superponen. Durante este tiempo, la liquidez tiende a aumentar y los mercados pueden experimentar movimientos de precios más fuertes."
+          },
+          {
+            "heading": "Por Qué Importan las Sesiones de Trading",
+            "text": "Las sesiones de trading influyen en la actividad del mercado, la volatilidad y la liquidez. Entender cuándo están activos los diferentes mercados ayuda a los operadores a interpretar mejor el comportamiento del mercado global."
+          }
+        ],
+        "conclusion": "El mercado de forex opera de manera continua durante la semana de trading, pero los niveles de actividad varían según las sesiones globales. Aprender sobre estas sesiones puede ayudar a los principiantes a entender cuándo los mercados financieros tienden a ser más activos.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "how-to-read-forex-charts": {
+      "title": "Cómo Leer Gráficos de Forex",
+      "excerpt": "Los gráficos de precios son una de las herramientas más utilizadas en los mercados financieros. Ayudan a los operadores a visualizar cómo el precio de un activo...",
+      "content": {
+        "introduction": "Los gráficos de precios son una de las herramientas más comúnmente utilizadas en los mercados financieros. Ayudan a los operadores a visualizar cómo cambia el precio de un activo a lo largo del tiempo. Aprender a leer los gráficos es una habilidad importante para cualquiera interesado en comprender el comportamiento del mercado.",
+        "sections": [
+          {
+            "heading": "Tipos de Gráficos de Trading",
+            "text": "Varios tipos de gráficos se utilizan en los mercados financieros. Gráficos de Líneas: Conectan los precios de cierre a lo largo del tiempo y proporcionan una visión simple de los movimientos. Gráficos de Barras: Muestran los precios de apertura, cierre, máximo y mínimo para un período específico. Gráficos de Velas Clis (Candlestick): Son los más utilizados porque proporcionan información detallada sobre el movimiento del precio en cada intervalo de tiempo."
+          },
+          {
+            "heading": "Entendiendo las Velas (Candlesticks)",
+            "text": "Cada vela representa la actividad del precio durante un marco de tiempo específico. Una vela incluye: Precio de apertura, Precio de cierre, Precio máximo, Precio mínimo. El color de la vela generalmente indica si el precio se movió hacia arriba o hacia abajo durante ese período."
+          },
+          {
+            "heading": "Por Qué Importan los Gráficos",
+            "text": "Los gráficos ayudan a los operadores a analizar patrones, identificar tendencias y observar cómo responden los mercados ante una nueva información. Si bien los gráficos no pueden predecir el futuro, proporcionan información valiosa sobre el comportamiento histórico de los precios."
+          }
+        ],
+        "conclusion": "Los gráficos de forex proporcionan una representación visual de la actividad del mercado. Al aprender a interpretar gráficos, los principiantes pueden comprender mejor cómo se mueven los precios y cómo los operadores analizan los mercados financieros.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "support-and-resistance-explained": {
+      "title": "Soporte y Resistencia Explicados",
+      "excerpt": "En los mercados financieros, los precios a menudo se mueven dentro de ciertos rangos. Los operadores frecuentemente observan que los precios tienden a pausar...",
+      "content": {
+        "introduction": "En los mercados financieros, los precios a menudo se mueven dentro de ciertos rangos. Los operadores suelen observar que los precios tienden a pausar, revertirse o desacelerarse cerca de niveles específicos. Estos niveles se conocen como soporte y resistencia. Comprender el soporte y la resistencia es uno de los conceptos básicos utilizados para analizar los movimientos de los precios en el mercado.",
+        "sections": [
+          {
+            "heading": "¿Qué Es el Soporte?",
+            "text": "El soporte es un nivel de precio donde un activo tiende a dejar de caer y puede comenzar a subir nuevamente. Esto ocurre porque los compradores a menudo se vuelven más activos a niveles de precios más bajos. Cuando la demanda aumenta, puede desacelerar o revertir los movimientos de precios a la baja. Por ejemplo, si un par de divisas deja de caer repetidamente cerca de un cierto precio, ese nivel puede considerarse como soporte."
+          },
+          {
+            "heading": "¿Qué Es la Resistencia?",
+            "text": "La resistencia es lo opuesto al soporte. Es un nivel de precio donde un activo puede tener dificultades para seguir subiendo debido a que la presión de venta aumenta. Cuando los precios se acercan a los niveles de resistencia, los operadores pueden comenzar a vender o tomar ganancias, lo que puede desacelerar el movimiento alcista."
+          },
+          {
+            "heading": "Por Qué Estos Niveles Importan",
+            "text": "Los niveles de soporte y resistencia son importantes porque ayudan a los operadores a entender dónde podrían ocurrir reacciones en los precios. Estos niveles a menudo se desarrollan porque muchos participantes del mercado están observando áreas de precios similares y tomando decisiones basadas en ellas. También pueden formarse alrededor de: Máximos y mínimos anteriores, Niveles psicológicos, Rangos de trading históricos."
+          },
+          {
+            "heading": "Soporte y Resistencia en la Práctica",
+            "text": "Los mercados rara vez se mueven en línea recta. En cambio, se mueven en ondas, rebotando entre niveles de soporte y resistencia. Cuando los precios rompen por encima de una resistencia o caen por debajo de un soporte, el mercado puede entrar en un nuevo rango de trading. Estos comportamientos de precios son estudiados comúnmente como parte del análisis técnico."
+          }
+        ],
+        "conclusion": "Los niveles de soporte y resistencia representan áreas de precios importantes donde los mercados pueden pausar o cambiar de dirección. Aprender a reconocer estos niveles ayuda a los principiantes a comprender mejor cómo reaccionan los precios a las fuerzas de la oferta y la demanda.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "risk-management-in-trading": {
+      "title": "Gestión de Riesgos en el Trading",
+      "excerpt": "Los mercados financieros implican incertidumbre, y los precios pueden cambiar rápidamente. Debido a esto, muchos operadores se centran en la gestión de riesgos...",
+      "content": {
+        "introduction": "Los mercados financieros implican incertidumbre, y los precios pueden cambiar rápidamente. Debido a esto, muchos operadores se centran en la gestión de riesgos, que se refiere a los métodos utilizados para controlar las pérdidas potenciales. Entender la gestión de riesgos es una parte importante del aprendizaje sobre los mercados financieros.",
+        "sections": [
+          {
+            "heading": "¿Qué Es la Gestión de Riesgos?",
+            "text": "La gestión de riesgos se refiere a las estrategias y herramientas utilizadas para limitar las pérdidas potenciales en las actividades de trading. En lugar de centrarse únicamente en las ganancias potenciales, los operadores a menudo consideran cuánto están dispuestos a arriesgar en cada operación. La gestión de riesgos ayuda a mantener el equilibrio en las decisiones."
+          },
+          {
+            "heading": "Por Qué la Gestión de Riesgos Importa",
+            "text": "Los mercados pueden moverse de manera impredecible debido a eventos económicos, desarrollos geopolíticos o cambios en el sentimiento del mercado. Sin gestión de riesgos, los operadores pueden exponerse a grandes pérdidas si el mercado se mueve inesperadamente. Gestionar el riesgo ayuda a mantener un enfoque disciplinado."
+          },
+          {
+            "heading": "Conceptos Comunes de Gestión de Riesgos",
+            "text": "Existen varias herramientas y estrategias comúnmente utilizadas: Tamaño de la posición: Es el proceso de determinar qué tan grande debe ser una operación en relación al tamaño de la cuenta. Órdenes Stop Loss: Niveles de precios predefinidos donde las posiciones se cierran automáticamente si el mercado se mueve en contra de la operación. Diversificación: Práctica de distribuir la exposición a través de diferentes activos."
+          },
+          {
+            "heading": "Riesgo y Volatilidad del Mercado",
+            "text": "Los mercados volátiles pueden requerir una atención adicional a la gestión de riesgos porque los precios pueden cambiar rápidamente. Comprender cómo la volatilidad afecta a los mercados ayuda a los operadores a evaluar mejor los riesgos potenciales."
+          }
+        ],
+        "conclusion": "La gestión de riesgos juega un papel central en la participación dentro de los mercados financieros. Al aprender cómo gestionar el riesgo de manera efectiva, las personas pueden abordar el trading con mayor conciencia sobre los posibles resultados.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "trading-psychology-for-beginners": {
+      "title": "Psicología del Trading para Principiantes",
+      "excerpt": "Los mercados financieros pueden desencadenar emociones fuertes como entusiasmo, miedo y frustración. Como los precios se mueven rápido, las emociones...",
+      "content": {
+        "introduction": "Los mercados financieros pueden desencadenar emociones fuertes como entusiasmo, miedo y frustración. Dado que los precios se mueven rápidamente y la incertidumbre está siempre presente, las emociones pueden influir en las decisiones de trading. Esta es la razón por la cual la psicología del trading se discute a menudo en los recursos educativos.",
+        "sections": [
+          {
+            "heading": "¿Qué Es la Psicología del Trading?",
+            "text": "La psicología del trading se refiere a los factores mentales y emocionales que influyen en la toma de decisiones al operar. Incluso los operadores experimentados pueden enfrentar desafíos psicológicos cuando los mercados se mueven inesperadamente. Emociones como el miedo y el exceso de confianza pueden afectar cómo las personas responden a los movimientos del mercado."
+          },
+          {
+            "heading": "Desafíos Emocionales Comunes",
+            "text": "Varios factores psicológicos comúnmente afectan las decisiones: Miedo: Puede causar que los operadores cierren posiciones demasiado pronto o eviten oportunidades. Codicia: Puede conducir a asumir riesgos excesivos en busca de mayores ganancias. Impaciencia: Los mercados no siempre se mueven rápido, lo que puede llevar a decisiones impulsivas."
+          },
+          {
+            "heading": "La Importancia de la Disciplina",
+            "text": "Muchos recursos de educación enfatizan la importancia de la disciplina y la toma de decisiones estructurada. Tener reglas y estrategias claras puede reducir las reacciones emocionales ante los movimientos del mercado a corto plazo. Comprender el lado psicológico del trading ayuda a abordarlo objetivamente."
+          }
+        ],
+        "conclusion": "La psicología del trading se centra en los aspectos emocionales y conductuales de la participación financiera. Al aprender cómo las emociones influyen en las decisiones, las personas pueden desarrollar una mayor conciencia al analizar las oportunidades y riesgos del mercado.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "understanding-market-trends": {
+      "title": "Comprendiendo las Tendencias del Mercado",
+      "excerpt": "Los mercados financieros raras vez se mueven al azar durante largos períodos de tiempo. En cambio, los precios a menudo se mueven en tendencias...",
+      "content": {
+        "introduction": "Los mercados financieros raras vez se mueven al azar durante largos períodos de tiempo. En cambio, los precios a menudo se mueven en tendencias, donde los mercados se desplazan gradualmente hacia arriba, hacia abajo o hacia los lados. Entender las tendencias del mercado es un concepto importante para cualquiera en los mercados financieros.",
+        "sections": [
+          {
+            "heading": "¿Qué Es una Tendencia de Mercado?",
+            "text": "Una tendencia del mercado se refiere a la dirección general en la que se mueven los precios durante un período de tiempo. Las tendencias ocurren a través de diferentes mercados financieros y pueden durar minutos, días, meses o incluso años."
+          },
+          {
+            "heading": "Tipos de Tendencias",
+            "text": "Tendencia Alcista (Uptrend): Cuando los precios suben gradualmente con el tiempo, creando máximos y mínimos más altos. Tendencia Bajista (Downtrend): Cuando los precios bajan gradualmente, formando mínimos y máximos más bajos. Tendencia Lateral (Sideways / Rango): Cuando los mercados se mueven dentro de un rango estrecho sin una dirección clara."
+          },
+          {
+            "heading": "Por Qué las Tendencias Importan",
+            "text": "Las tendencias ayudan a los operadores a comprender la dirección general de la actividad del mercado. Muchos métodos analíticos intentan identificar tendencias y observar cuánto tiempo pueden continuar."
+          }
+        ],
+        "conclusion": "Las tendencias del mercado representan la dirección general de los movimientos de precios a lo largo del tiempo. Al observar las tendencias, las personas pueden obtener información sobre el comportamiento más amplio del mercado.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "how-trading-strategies-work": {
+      "title": "Cómo Funcionan las Estrategias de Trading",
+      "excerpt": "Los mercados financieros ofrecen muchas oportunidades para el análisis y la toma de decisiones. Como los mercados pueden ser impredecibles, se requiere... ",
+      "content": {
+        "introduction": "Los mercados financieros ofrecen muchas oportunidades para el análisis y la toma de decisiones. Debido a que los mercados pueden ser impredecibles, muchos operadores confían en estrategias estructuradas de trading para guiar sus acciones. Una estrategia es esencialmente un plan que describe cómo un operador se acerca al mercado.",
+        "sections": [
+          {
+            "heading": "¿Qué Es una Estrategia de Trading?",
+            "text": "Una estrategia de trading es un conjunto de reglas o pautas que se utilizan para analizar los mercados y tomar decisiones de trading. Estas reglas pueden incluir: Condiciones de mercado, Criterios de entrada y salida, y Consideraciones de gestión de riesgos."
+          },
+          {
+            "heading": "Tipos de Estrategias",
+            "text": "Estrategias de Tendencia: Se centran en identificar mercados que se mueven consistentemente en una dirección. Estrategias de Rango: Se enfocan en mercados que se mueven dentro de niveles definidos de soporte y resistencia. Estrategias Basadas en Noticias: Se centran en las reacciones del mercado ante anuncios económicos."
+          },
+          {
+            "heading": "Por Qué Se Usan las Estrategias",
+            "text": "Las estrategias de trading ayudan a crear un enfoque estructurado para el análisis del mercado. En lugar de tomar decisiones al azar, alientan a los operadores a seguir pautas predefinidas. Los materiales educativos a menudo resaltan la importancia de la disciplina al aplicar estrategias."
+          }
+        ],
+        "conclusion": "Las estrategias proporcionan un marco para analizar los mercados y tomar decisiones informadas. Al aprender cómo funcionan diferentes estrategias, los principiantes pueden comprender cómo los operadores abordan la naturaleza dinámica de los mercados.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "what-moves-the-forex-market": {
+      "title": "¿Qué Mueve el Mercado de Forex?",
+      "excerpt": "El mercado de divisas cambia constantemente a medida que los precios de las monedas suben y bajan durante el día. Estos movimientos influyen...",
+      "content": {
+        "introduction": "El mercado de divisas cambia constantemente a medida que los precios de las monedas suben y bajan a lo largo del día. Estos movimientos están influenciados por muchos factores económicos, financieros y políticos. Entender qué impulsa los precios de las divisas ayuda a tener una visión más clara de cómo funciona el mercado forex.",
+        "sections": [
+          {
+            "heading": "Tasas de Interés",
+            "text": "Las tasas de interés son uno de los factores más importantes que afectan el valor de una moneda. Cuando el banco central de un país aumenta las tasas de interés, la moneda puede volverse más atractiva para los inversores porque tasas más altas pueden ofrecer mejores rendimientos."
+          },
+          {
+            "heading": "Datos Económicos",
+            "text": "Los informes económicos proporcionan información sobre la salud de una economía. Algunos indicadores clave son el PIB (Producto Interno Bruto), los datos de empleo y la inflación. Los datos económicos sólidos pueden fortalecer la moneda de un país, y viceversa."
+          },
+          {
+            "heading": "Eventos Políticos y Globales",
+            "text": "Los acontecimientos políticos y eventos globales también pueden influir en el mercado. Ejemplos incluyen: Elecciones, Políticas comerciales y Tensiones geopolíticas. Los mercados a menudo reaccionan rápidamente a noticias de este estilo."
+          },
+          {
+            "heading": "Sentimiento del Mercado",
+            "text": "El sentimiento del mercado se refiere a la actitud general de los inversores hacia una moneda o mercado particular. Si los inversores creen que una economía se fortalece, pueden incrementar la demanda por la moneda de ese país."
+          }
+        ],
+        "conclusion": "Los precios de las divisas están influenciados por diversos factores como las tasas de interés, los datos económicos, los eventos políticos y el sentimiento de los inversores. Al comprender estos impulsores, los principiantes pueden obtener una mejor visión.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "how-interest-rates-affect-currency": {
+      "title": "Cómo las Tasas de Interés Afectan los Mercados de Divisas",
+      "excerpt": "Las tasas de interés son una de las herramientas económicas más importantes utilizadas por los bancos centrales para gestionar...",
+      "content": {
+        "introduction": "Las tasas de interés son una de las herramientas económicas más importantes utilizadas por los bancos centrales para gestionar el crecimiento económico y la inflación. Los cambios en las tasas de interés pueden tener un impacto significativo en los mercados financieros, incluidos los precios de las divisas.",
+        "sections": [
+          {
+            "heading": "¿Qué Son las Tasas de Interés?",
+            "text": "Las tasas de interés representan el costo de pedir dinero prestado. Los bancos centrales ajustan las tasas para ayudar a gestionar la actividad económica, la inflación y la estabilidad financiera. Cuando suben las tasas, endeudarse suele ser más caro."
+          },
+          {
+            "heading": "Por Qué las Tasas de Interés Influyen en las Divisas",
+            "text": "Las divisas se ven influenciadas porque los inversores a menudo buscan oportunidades donde puedan obtener mayores retornos. Cuando las tasas de un país aumentan, sus activos financieros se vuelven más atractivos, elevando la demanda por esa moneda."
+          },
+          {
+            "heading": "Decisiones de los Bancos Centrales",
+            "text": "Los bancos centrales revisan las condiciones económicas y deciden modificar las tasas. Ejemplos de bancos clave: Reserva Federal (EE.UU.), Banco Central Europeo, Banco de Inglaterra y Banco de Japón. Sus anuncios suelen influir fuertemente en el mercado."
+          },
+          {
+            "heading": "Expectativas del Mercado",
+            "text": "Los mercados a menudo reaccionan no solo a los cambios reales en las tasas de interés, sino también a las expectativas sobre decisiones futuras. Los inversores analizan indicadores y discursos para anticipar cambios."
+          }
+        ],
+        "conclusion": "Las tasas de interés juegan un papel vital en la formación de los mercados de divisas. Al influir en el comportamiento inversor y la actividad económica, las políticas del banco central afectan el valor del dinero a nivel mundial.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "why-gold-prices-fluctuate": {
+      "title": "Por Qué Fluctúan los Precios del Oro",
+      "excerpt": "El oro ha sido valorado durante siglos como un metal precioso y un activo financiero. Hoy, el oro continúa jugando un papel importante en los mercados...",
+      "content": {
+        "introduction": "El oro ha sido valorado durante siglos como un metal precioso y un activo financiero. Hoy, el oro continúa jugando un papel importante en los mercados financieros globales. El precio del oro puede subir o bajar dependiendo de varios factores económicos y financieros.",
+        "sections": [
+          {
+            "heading": "El Oro como Activo Refugio Seguro",
+            "text": "A menudo se considera al oro como un refugio seguro. Durante períodos de incertidumbre económica o volatilidad en el mercado, los inversores tienden a recurrir al oro, provocando un aumento en su demanda y su precio."
+          },
+          {
+            "heading": "Inflación y el Oro",
+            "text": "La inflación mide la rapidez con la que aumentan los precios a lo largo del tiempo, devaluando el dinero. El oro a menudo sirve como una cobertura contra la inflación para preservar valor en estos tiempos."
+          },
+          {
+            "heading": "Tasas de Interés y el Oro",
+            "text": "Cuando las tasas de interés son altas, inversores pueden preferir bonos y activos fijos. Cuando son bajas, el oro se vuelve atractivo debido a que el costo de oportunidad de mantener metales preciosos se reduce."
+          },
+          {
+            "heading": "Demanda Global",
+            "text": "La demanda mundial proviene de diversas fuentes: Fabricación de joyería, Demanda de inversión, Reservas de bancos centrales y Uso industrial. Los cambios en la demanda influyen directamente sobre el metal."
+          }
+        ],
+        "conclusion": "Los precios del oro fluctúan debido a una serie de variables como las expectativas de inflación, la inestabilidad global y la demanda. Conocer esto proporciona a los inversores otra herramienta efectiva en el análisis.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "oil-prices-and-global-markets": {
+      "title": "Precios del Petróleo y Mercados Globales",
+      "excerpt": "El petróleo es uno de los productos básicos más importantes en la economía global. Su amplio uso significa que los cambios de precio tienen impacto...",
+      "content": {
+        "introduction": "El petróleo es una de las materias primas más importantes en la economía global. Se utiliza para el transporte, la manufactura y la producción de energía. Debido a su importancia, los cambios en el precio afectan la actividad económica de todo el mundo.",
+        "sections": [
+          {
+            "heading": "Oferta y Demanda",
+            "text": "Cuando la demanda aumenta, los precios tienden al alza, y viceversa. Múltiples factores alteran los picos de oferta y demanda por petróleo y la geopolítica es parte importante de esa ecuación."
+          },
+          {
+            "heading": "Países Productores de Petróleo",
+            "text": "Organizaciones como la OPEP (Organización de Países Exportadores de Petróleo) juegan un papel fundamental estableciendo recortes a la producción, lo cual altera por completo la oferta del activo e impacta el mercado fuertemente."
+          },
+          {
+            "heading": "Petróleo y Divisas",
+            "text": "Currencies corresponding to major exporting nations tend to shift in synchronization with barrel prices, making it heavily intertwined within trade economics y export balance rates across major nations."
+          },
+          {
+            "heading": "Petróleo e Inflación",
+            "text": "Aumento en precios petroleros tiende generar altos costos de logística, transporte de bienes y cadena de suministro de industrias a nivel mundial provocando aumentos en la inflación económica a nivel doméstico e internacional."
+          }
+        ],
+        "conclusion": "El precio del petróleo desempeña un papel determinante en casi todos los costos inflacionarios y su peso económico representa una enorme fuente de impacto y especulación para divisas exportadoras y el mercado bursátil.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero ni recomendaciones de inversión."
+      }
+    },
+    "how-central-banks-influence-financial": {
+      "title": "Cómo Influyen los Bancos Centrales en los Mercados",
+      "excerpt": "Los bancos centrales tienen un alto nivel de influencia y el control final de la masa monetaria a su disposición, permitiéndoles el máximo control...",
+      "content": {
+        "introduction": "Los bancos centrales desempeñan un papel importante en el sistema financiero global. Son responsables de gestionar la política monetaria de un país y mantener la estabilidad económica e internacional.",
+        "sections": [
+          {
+            "heading": "¿Qué Es un Banco Central?",
+            "text": "Un banco central es la autoridad encargada de dirigir las bases monetarias. Ejemplos incluyen la FED (Estados Unidos) y el Banco Central Europeo."
+          },
+          {
+            "heading": "Política Monetaria",
+            "text": "Se refiere a acciones estratégicas para alterar condiciones como la masa de circulante mediante herramientas que dictan los ajustes a las tasas de inversión crediticia."
+          },
+          {
+            "heading": "Reacciones del Mercado",
+            "text": "Resultados como especulación generada de las reservas federales generan flujos activos. La simple mención pública de posturas de política altera en grandes proporciones la dirección e inversión general."
+          },
+          {
+            "heading": "Por Qué Importan los Bancos Centrales",
+            "text": "Al ser los entes absolutos a mando del flujo global capital y mantener control preventivo o rectificativo, su comportamiento es preámbulo a todo movimiento macro financiero."
+          }
+        ],
+        "conclusion": "Las decisiones tomadas alrededor por las grandes agencias y bancos internacionales dictan las futuras posibilidades, su previsión y asertividad mantienen el ecosistema en circulación total e ininterrumpible.",
+        "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero."
+      }
+    }
   },
   "tradersClub": {
     "free": "GRATIS",
@@ -232,55 +954,55 @@
     "disclaimer": "* Estos bancos son socios del grupo TraderTok y no atienden a todas las entidades dentro del grupo"
   },
   "footer": {
-  "findUs": "Encuéntranos en",
-  "topInstruments": "Instrumentos principales",
-  "bitcoin": "Bitcoin (BTC)",
-  "ethereum": "Ethereum (ETH)",
-  "shiba": "Shiba (En millones)",
-  "tesla": "Tesla",
-  "apple": "Apple",
-  "nio": "Nio",
-  "support": "Soporte",
-  "helpCenter": "Centro de ayuda",
-  "howToDeposit": "Cómo depositar",
-  "howToWithdraw": "Cómo retirar",
-  "howToOpenAccount": "Cómo abrir una cuenta",
-  "howToVerifyAccount": "Cómo verificar tu cuenta",
-  "clientVulnerability": "Vulnerabilidad del cliente",
-  "complaintsData": "Datos de reclamaciones (Clientes FCA)",
-  "learnMore": "Más información",
-  "howCopyTradingWorks": "Cómo funciona el Copy Trading",
-  "responsibleTrading": "Trading responsable",
-  "interestOnBalance": "Intereses sobre el saldo",
-  "whatIsLeverageAndMargin": "¿Qué es el apalancamiento y el margen?",
-  "buyAndSellExplained": "Compra y venta explicadas",
-  "downloadOurApp": "Descarga nuestra app desde las tiendas",
-  "aboutUs": "Sobre nosotros",
-  "aboutTraderTok": "Sobre TraderTok",
-  "reviews": "Reseñas",
-  "careers": "Carreras",
-  "ourOffices": "Nuestras oficinas",
-  "accessibility": "Accesibilidad",
-  "imprint": "Aviso legal",
-  "privacyAndRegulation": "Privacidad y regulaciones",
-  "privacyPolicy": "Política de privacidad",
-  "keyInformationDocuments": "Documentos de información clave",
-  "partnersAndPromotions": "Socios y promociones",
-  "inviteAFriend": "Invita a un amigo",
-  "affiliateProgram": "Programa de afiliados",
-  "TraderTokClub": "TraderTok Club",
-  "investmentInsurance": "Seguro de inversión",
-  "partnerSmartPortfolios": "Smart Portfolios asociados",
-  "taxReport": "Reporte fiscal",
-  "contactUs": "Contáctanos",
-  "availableSupport": "Disponible 24/5 para soporte",
-  "copyright": "© 2026 Amber Rock Trade Ltd. Nivel 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauricio. N.º de empresa: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">N.º de licencia: GB24203892</a>. Amber Rock Trade Ltd está autorizada y regulada por la Comisión de Servicios Financieros de Mauricio (FSC).",
-  "paymentInfo": "Los servicios de procesamiento de pagos son proporcionados por el agente de pagos autorizado de la Compañía, B-Tech Ltd, registrado en Louki Akrita 1, Akritas Court, 3.er Piso, Oficina 301, 3030 Limassol, Chipre (N.º de empresa: HE 414065).",
-  "copyright-extra": "Este sitio web es operado por Amber Rock Trade Ltd.",
-  "riskWarning": "Advertencia de riesgo:",
-  "riskWarningText": "El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada.",
-  "riskWarningHtml": "<strong>Advertencia de riesgo:</strong> El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada."
-},
+    "findUs": "Encuéntranos en",
+    "topInstruments": "Instrumentos principales",
+    "bitcoin": "Bitcoin (BTC)",
+    "ethereum": "Ethereum (ETH)",
+    "shiba": "Shiba (En millones)",
+    "tesla": "Tesla",
+    "apple": "Apple",
+    "nio": "Nio",
+    "support": "Soporte",
+    "helpCenter": "Centro de ayuda",
+    "howToDeposit": "Cómo depositar",
+    "howToWithdraw": "Cómo retirar",
+    "howToOpenAccount": "Cómo abrir una cuenta",
+    "howToVerifyAccount": "Cómo verificar tu cuenta",
+    "clientVulnerability": "Vulnerabilidad del cliente",
+    "complaintsData": "Datos de reclamaciones (Clientes FCA)",
+    "learnMore": "Más información",
+    "howCopyTradingWorks": "Cómo funciona el Copy Trading",
+    "responsibleTrading": "Trading responsable",
+    "interestOnBalance": "Intereses sobre el saldo",
+    "whatIsLeverageAndMargin": "¿Qué es el apalancamiento y el margen?",
+    "buyAndSellExplained": "Compra y venta explicadas",
+    "downloadOurApp": "Descarga nuestra app desde las tiendas",
+    "aboutUs": "Sobre nosotros",
+    "aboutTraderTok": "Sobre TraderTok",
+    "reviews": "Reseñas",
+    "careers": "Carreras",
+    "ourOffices": "Nuestras oficinas",
+    "accessibility": "Accesibilidad",
+    "imprint": "Aviso legal",
+    "privacyAndRegulation": "Privacidad y regulaciones",
+    "privacyPolicy": "Política de privacidad",
+    "keyInformationDocuments": "Documentos de información clave",
+    "partnersAndPromotions": "Socios y promociones",
+    "inviteAFriend": "Invita a un amigo",
+    "affiliateProgram": "Programa IB",
+    "TraderTokClub": "TraderTok Club",
+    "investmentInsurance": "Cuenta Segregada",
+    "partnerSmartPortfolios": "Smart Portfolios asociados",
+    "taxReport": "Reporte fiscal",
+    "contactUs": "Contáctanos",
+    "availableSupport": "Disponible 24/5 para soporte",
+    "copyright": "© 2026 Amber Rock Trade Ltd. Nivel 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauricio. N.º de empresa: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">N.º de licencia: GB24203892</a>. Amber Rock Trade Ltd está autorizada y regulada por la Comisión de Servicios Financieros de Mauricio (FSC).",
+    "paymentInfo": "Los servicios de procesamiento de pagos son proporcionados por el agente de pagos autorizado de la Compañía, B-Tech Ltd, registrado en Louki Akrita 1, Akritas Court, 3.er Piso, Oficina 301, 3030 Limassol, Chipre (N.º de empresa: HE 414065).",
+    "copyright-extra": "Este sitio web es operado por Amber Rock Trade Ltd.",
+    "riskWarning": "Advertencia de riesgo:",
+    "riskWarningText": "El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada.",
+    "riskWarningHtml": "<strong>Advertencia de riesgo:</strong> El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada."
+  },
   "common": {
     "loading": "Cargando...",
     "error": "Error",
@@ -403,7 +1125,11 @@
     "pageTitle": "Plataformas de Trading - TraderTok | Tecnología de Trading Avanzada",
     "pageDescription": "Opera con plataformas de vanguardia diseñadas para velocidad, confiabilidad y rendimiento.",
     "heroTitle": "Opera",
-    "typewriterWords": ["Más Inteligente", "Más Rápido", "A Tu Manera"],
+    "typewriterWords": [
+      "Más Inteligente",
+      "Más Rápido",
+      "A Tu Manera"
+    ],
     "heroSubtitle": "En TraderTok, creemos que la tecnología debe empoderar, no complicar. Por eso construimos plataformas que te dan control total de tu experiencia de trading.",
     "mobilePlatform": "Plataforma Móvil",
     "webDesktop": "Web y Escritorio",
@@ -600,5 +1326,64 @@
       "title": "Fundamentos de Forex - Dominando el Trading de Divisas",
       "description": "Descubre las estrategias esenciales para el trading exitoso de forex. Nuestros analistas expertos te guiarán a través del análisis de mercado, gestión de riesgos y técnicas de trading rentables."
     }
+  },
+  "tradingCentral": {
+    "eyebrow": "Trading Central",
+    "heroTitlePart1": "Análisis avanzado para",
+    "heroTitlePart2": "un trading más inteligente",
+    "heroSubtitle": "TraderTok te trae una de las herramientas de mercado más poderosas para el trading moderno. Trading Central combina tecnología de punta con análisis de mercado experto para elevar tu experiencia de trading.",
+    "heroBtn": "Acceder a Trading Central",
+    "stats": {
+      "s1lbl": "Cobertura de Mercado Global",
+      "s2lbl": "Desglose de Activos",
+      "s3lbl": "Eventos Monitoreados",
+      "s4lbl": "Fuentes de Noticias Agregadas"
+    },
+    "midTitlePart1": "Manténte a la vanguardia de las tendencias del mercado",
+    "midTitlePart2": "con análisis en tiempo real",
+    "features": {
+      "f1title": "Perspectivas Basadas en Datos",
+      "f1desc": "Mantente un paso adelante de los últimos movimientos del mercado con análisis avanzados y perspectivas de expertos.",
+      "registerBtn": "Regístrate para Acceder",
+      "f2title": "Análisis de Calidad Profesional",
+      "f2desc": "Navega por los mercados globales con las últimas herramientas de escaneo de mercado impulsadas por IA.",
+      "f3title": "Oportunidades de Mercado Ilimitadas",
+      "f3desc": "Accede a perspectivas en tiempo real de cientos de instrumentos financieros."
+    },
+    "cta": {
+      "title": "Regístrate para acceder a Trading Central GRATIS",
+      "desc": "Desbloquea todo el poder de Trading Central al registrarte con TraderTok. Trading Central mejora tu experiencia de trading proporcionando información accionable y análisis de expertos sin costo alguno.",
+      "btn": "Regístrate para Acceder"
+    },
+    "tools": {
+      "title": "La suite definitiva de herramientas de mercado",
+      "subtitle": "En TraderTok, nos enorgullecemos de proporcionarte las herramientas e información que necesitas para tener éxito. Explora el poder de Trading Central y redefine tu forma de operar.",
+      "t1title": "Noticias y Análisis de Sentimiento",
+      "t1desc": "Mantente informado con un exhaustivo análisis de noticias y sentimiento sobre forex, acciones, materias primas, índices, criptomonedas y más. Aprovecha información imparcial basada en datos para navegar por los mercados con confianza y aprovechar las oportunidades tan pronto como surjan.",
+      "t2title": "Análisis de Precios",
+      "t2desc": "Analiza los movimientos de precios en tiempo real y descubre oportunidades de trading en más de 250 activos. Anticípate a las tendencias del mercado con proyecciones económicas precisas y análisis de precios que te permiten actuar de forma decisiva y aprovechar al máximo tu potencial de inversión.",
+      "t3title": "Instrumentos y Perspectivas",
+      "t3desc": "Accede a análisis técnicos aplicables a una amplia gama de instrumentos financieros. Aprovecha analíticas avanzadas, tecnología de reconocimiento de patrones y datos en tiempo real para identificar oportunidades en el mercado y tomar decisiones de trading informadas. Obtén la claridad y confianza que necesitas para desenvolverte en el dinámico panorama financiero actual.",
+      "t4title": "Ideas Accionables",
+      "t4desc": "Descubre ideas de trading en vivo generadas a partir de una combinación de análisis técnico y fundamental. Detecta oportunidades alcistas y bajistas en tiempo real y toma decisiones confiables, respaldadas por datos, que se alineen con tu estrategia de inversión.",
+      "btn": "Comenzar"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Trading Central",
+      "q1": "¿Qué es Trading Central?",
+      "a1": "Trading Central es un conjunto de análisis e investigación de mercado de última generación que combina tecnología impulsada por IA con la experiencia de analistas financieros experimentados. Al fusionar a la perfección el aprendizaje automático con la inteligencia humana, Trading Central proporciona ideas de trading precisas, análisis del mercado en profundidad y datos en tiempo real para ayudar a los inversores a tomar decisiones asertivas.",
+      "q2": "¿Cómo acceder a Trading Central?",
+      "a2": "Para acceder a Trading Central desde la plataforma de TraderTok, es necesario que inicies sesión en tu cuenta de usuario. Todas las herramientas de Trading Central se encuentran a tu disposición dentro del entorno de inversión. Su integración sin fisuras permite acceder directamente a potentes funcionalidades y recursos analíticos.",
+      "q3": "¿A qué mercados aplica Trading Central?",
+      "a3": "Trading Central arroja luz sobre un espectro muy amplio de mercados disponibles en la oferta de TraderTok, desde los que cubren Forex, Materias Primas, Índices, Criptomonedas y Acciones. La cobertura multi-instrumento de Trading Central ofrece análisis y sugerencias de trading fundamentadas en datos fiables de manera directa en todas y cada una de tus decisiones.",
+      "q4": "¿Por qué elegir TraderTok y Trading Central?",
+      "a4": "Al decidir operar a través de TraderTok, comienzas a formar parte de un entorno de confianza. TraderTok es una plataforma dedicada al éxito financiero de sus clientes, ofreciendo herramientas de trading, una infraestructura completa con altos estándares de soporte y tecnología, además de ofrecer acceso al servicio gratuito de Trading Central."
+    }
+  },
+  "tradingEssentials": {
+    "titlePart1": "Recursos",
+    "titlePart2": "Educativos",
+    "subtitle1": "Domina los fundamentos del mercado forex con nuestra colección curada de guías de trading esenciales.",
+    "subtitle2": "Explora nuestra biblioteca de más de 20 artículos. Comienza desde el principio o adéntrate en un tema específico."
   }
 }

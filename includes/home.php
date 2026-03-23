@@ -115,7 +115,7 @@
         </p>
       </div>
     </div> -->
-
+    
     <!-- Promo Image Popup (trader.jpg) -->
     <!-- <div class="trader-popup" id="trader-popup">
       <div class="trader-popup-overlay"></div>
@@ -161,7 +161,7 @@
               in trading, and that's why we've engineered an environment where speed meets stability, and innovation
               meets opportunity.</p>
 
-            <a href="<?php echo $get->register_url; ?>" class="btn-about" data-i18n="hero.learnMore"
+            <a href="about" class="btn-about" data-i18n="hero.learnMore"
               style="text-decoration: none;">Learn More</a>
           </div>
 
@@ -260,28 +260,28 @@
 
         <div class="insights-cards">
           <?php
-          // Mapping for i18n keys based on card titles
-          $cardI18nMap = [
-            'Financial Strategy' => 'financialStrategy',
-            'Free Trainings' => 'freeTrainings',
-            'Asset Management' => 'assetManagement',
-            'Demo Account' => 'demoAccount'
-          ];
+                    // Mapping for i18n keys based on card titles
+                    $cardI18nMap = [
+                        'Financial Strategy' => 'financialStrategy',
+                        'Free Trainings' => 'freeTrainings',
+                        'Asset Management' => 'assetManagement',
+                        'Demo Account' => 'demoAccount'
+                    ];
 
-          foreach ($cards as $card) {
-            // Normalize title to match keys (remove <br>, trim whitespace)
-            $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($card->title)));
-            $i18nSuffix = isset($cardI18nMap[$cleanTitle]) ? $cardI18nMap[$cleanTitle] : null;
-          ?>
-            <article class="insight-card">
-              <div class="card-overlay"></div>
-              <div class="card-content">
-                <h3 class="card-title" <?php echo $i18nSuffix ? 'data-i18n-html="insights.' . $i18nSuffix . '"' : ''; ?>>
-                  <?php echo $card->title; ?></h3>
-                <p class="card-description" <?php echo $i18nSuffix ? 'data-i18n="insights.' . $i18nSuffix . 'Desc"' : ''; ?>>
-                  <?php echo $card->content; ?></p>
-              </div>
-            </article>
+                    foreach ($cards as $card) {
+                        // Normalize title to match keys (remove <br>, trim whitespace)
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($card->title)));
+                        $i18nSuffix = isset($cardI18nMap[$cleanTitle]) ? $cardI18nMap[$cleanTitle] : null;
+                    ?>
+          <article class="insight-card">
+            <div class="card-overlay"></div>
+            <div class="card-content">
+              <h3 class="card-title" <?php echo $i18nSuffix ? 'data-i18n-html="insights.' . $i18nSuffix . '"' : ''; ?>>
+                <?php echo $card->title; ?></h3>
+              <p class="card-description" <?php echo $i18nSuffix ? 'data-i18n="insights.' . $i18nSuffix . 'Desc"' : ''; ?>>
+                <?php echo $card->content; ?></p>
+            </div>
+          </article>
           <?php } ?>
 
         </div>
@@ -389,7 +389,9 @@
     <section class="instruments-section-home">
       <!-- Background Video -->
       <div class="instruments-video-bg">
-        <video autoplay loop muted playsinline class="lazy-video" data-src="assets/images/education.mp4"></video>
+        <video autoplay loop muted playsinline>
+          <source src="assets/images/education.mp4" type="video/mp4">
+        </video>
         <div class="instruments-video-overlay"></div>
       </div>
 
@@ -424,34 +426,34 @@
         <!-- Instruments Accordion -->
         <div class="instruments-accordion-home">
           <?php
-          $instrumentI18nMap = [
-            'Forex' => 'forex',
-            'Commodities' => 'commodities',
-            'Stocks' => 'stocks',
-            'Indices' => 'indices',
-            'Cryptocurrencies' => 'cryptocurrencies'
-          ];
+                    $instrumentI18nMap = [
+                        'Forex' => 'forex',
+                        'Commodities' => 'commodities',
+                        'Stocks' => 'stocks',
+                        'Indices' => 'indices',
+                        'Cryptocurrencies' => 'cryptocurrencies'
+                    ];
 
-          $advantId = 0;
-          foreach ($advantages as $advantage) {
-            $advantage_img = $advantage->image ?   $get->assets_url . '/' . $advantage->image : "wp-content/uploads/2019/02/banner-image-one.jpg";
+                    $advantId = 0;
+                    foreach ($advantages as $advantage) {
+                        $advantage_img = $advantage->image ?   $get->assets_url . '/' . $advantage->image : "wp-content/uploads/2019/02/banner-image-one.jpg";
 
-            // Normalize title
-            $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($advantage->title)));
-            $i18nSuffix = isset($instrumentI18nMap[$cleanTitle]) ? $instrumentI18nMap[$cleanTitle] : null;
-          ?>
-            <div class="accordion-item">
-              <button class="accordion-header">
-                <span class="accordion-title"
-                  <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . '"' : ''; ?>><?php echo $advantage->title; ?></span>
-                <span class="accordion-icon">+</span>
-              </button>
-              <div class="accordion-content">
-                <div class="accordion-body" <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . 'Desc"' : ''; ?>>
-                  <?php echo $advantage->content; ?>
-                </div>
+                        // Normalize title
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($advantage->title)));
+                        $i18nSuffix = isset($instrumentI18nMap[$cleanTitle]) ? $instrumentI18nMap[$cleanTitle] : null;
+                    ?>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span class="accordion-title"
+                <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . '"' : ''; ?>><?php echo $advantage->title; ?></span>
+              <span class="accordion-icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-body" <?php echo $i18nSuffix ? 'data-i18n="instruments.' . $i18nSuffix . 'Desc"' : ''; ?>>
+                <?php echo $advantage->content; ?>
               </div>
             </div>
+          </div>
           <?php } ?>
 
         </div>
@@ -472,42 +474,51 @@
         <div class="why-choose-grid">
           <!-- Left Column: Video -->
           <div class="why-choose-video">
-            <video autoplay loop muted playsinline class="lazy-video trading-video trading-video-dark" data-src="assets/images/why-choose-video1.mp4"></video>
+            <video autoplay loop muted playsinline class="trading-video trading-video-dark"
+              aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
+              <source src="assets/images/why-choose-video1.mp4" type="video/mp4">
+              <track kind="captions" src="captions.vtt" srclang="en" label="English captions">
+              Your browser does not support the video tag.
+            </video>
+            <video autoplay loop muted playsinline class="trading-video trading-video-light"
+              aria-label="Professional trader using TraderTok platform" preload="metadata" loading="lazy">
+              <source src="assets/images/why-choose-video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           <!-- Right Column: Accordion FAQ -->
           <div class="why-choose-accordion">
             <?php
-            $whyChooseI18nMap = [
-              'Lightning-Fast Execution' => 'whyChoose.lightningExecution',
-              'Cutting-Edge Platforms' => 'whyChoose.cuttingEdgePlatforms',
-              'Global Markets, Local Insights' => 'whyChoose.globalMarkets',
-              'Competitive Pricing & Tight Spreads' => 'whyChoose.competitivePricing',
-              'Expert Support' => 'whyChoose.expertSupport',
-              'Security & Trust' => 'whyChoose.securityTrust',
-              'Education & Resources' => 'whyChoose.educationResources'
-            ];
+                    $whyChooseI18nMap = [
+                        'Lightning-Fast Execution' => 'whyChoose.lightningExecution',
+                        'Cutting-Edge Platforms' => 'whyChoose.cuttingEdgePlatforms',
+                        'Global Markets, Local Insights' => 'whyChoose.globalMarkets',
+                        'Competitive Pricing & Tight Spreads' => 'whyChoose.competitivePricing',
+                        'Expert Support' => 'whyChoose.expertSupport',
+                        'Security & Trust' => 'whyChoose.securityTrust',
+                        'Education & Resources' => 'whyChoose.educationResources'
+                    ];
 
-            $questId = 0;
-            foreach ($questions as $quest) {
-              // Normalize title
-              $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($quest->title)));
-              $i18nKey = isset($whyChooseI18nMap[$cleanTitle]) ? $whyChooseI18nMap[$cleanTitle] : null;
-            ?>
-              <div class="accordion-item">
-                <button class="accordion-header">
-                  <span class="accordion-title"
-                    <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . '"' : ''; ?>><?php echo $quest->title; ?></span>
-                  <span class="accordion-icon">+</span>
-                </button>
-                <div class="accordion-content">
-                  <div class="accordion-body" <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . 'Desc"' : ''; ?>>
-                    <?php echo $quest->content; ?>
-                  </div>
+                    $questId=0;
+                    foreach ($questions as $quest) {
+                        // Normalize title
+                        $cleanTitle = trim(preg_replace('/\s+/', ' ', strip_tags($quest->title)));
+                        $i18nKey = isset($whyChooseI18nMap[$cleanTitle]) ? $whyChooseI18nMap[$cleanTitle] : null;
+                    ?>
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span class="accordion-title"
+                  <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . '"' : ''; ?>><?php echo $quest->title; ?></span>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-content">
+                <div class="accordion-body" <?php echo $i18nKey ? 'data-i18n="' . $i18nKey . 'Desc"' : ''; ?>>
+                  <?php echo $quest->content; ?>
                 </div>
               </div>
-            <?php $questId++;
-            } ?>
+            </div>
+            <?php $questId++; } ?>
 
           </div>
         </div>
@@ -604,7 +615,7 @@
           <div class="telegram-person">
             <img src="assets/images/Person holding phone happily.png" alt="Happy trader" loading="lazy">
           </div>
-          <a href="https://t.me/YOUR_CHANNEL" target="_blank" class="btn-telegram">
+          <a href="https://t.me/+awNc7BFxH45jOTNk" target="_blank" class="btn-telegram">
             <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
               <path
                 d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
@@ -744,7 +755,7 @@
     </section>
 
     <!-- Trustpilot Reviews Section -->
-    <!-- <section class="trustpilot-section">
+    <section class="trustpilot-section">
       <div class="container">
         <div class="trustpilot-header">
           <div class="trustpilot-logo">
@@ -763,7 +774,7 @@
                 <span class="star">★</span>
                 <span class="star">★</span>
               </div>
-              <span class="trustpilot-score">4.8 out of 5</span>
+              <span class="trustpilot-score">3.8 out of 5</span>
             </div>
           </div>
         </div>
@@ -776,7 +787,7 @@
           </svg>
         </a>
       </div>
-    </section> -->
+    </section>
 
     <!-- Banking Partners Section -->
     <section class="payment-methods-section">
@@ -792,12 +803,12 @@
           <div class="payment-marquee-track">
             <?php
             if ($companies) {
-              foreach ($companies as $companie) {
-                echo '
+                foreach ($companies as $companie) {
+                    echo '
                                         <div class="payment-method-item">
                         <img class="payment-method-logo bank-logo" src="' . $get->assets_url . '/' . $companie->image . '" alt="' . $companie->title . '" />
                     </div>   ';
-              }
+                }
             }
             ?>
 

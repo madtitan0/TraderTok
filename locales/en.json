@@ -17,7 +17,9 @@
     "riskDisclaimer": "Risk Disclaimer",
     "termsConditions": "Terms & Conditions",
     "cookiePolicy": "Cookie Policy",
-    "offers": "Offers"
+    "offers": "Offers",
+    "educationHub": "Education Hub",
+    "trading": "Trading"
   },
   "dropdown": {
     "tradingEssentials": "Trading Essentials",
@@ -33,7 +35,15 @@
     "legalDocuments": "Legal Documents",
     "legalDocumentsDesc": "Explore our legal documents",
     "regulations": "Regulations",
-    "regulationsDesc": "Explore our regulations"
+    "regulationsDesc": "Explore our regulations",
+    "tradingPlatform": "Trading Platform",
+    "tradingPlatformDesc": "Explore our platforms",
+    "tradingCentral": "Trading Central",
+    "tradingCentralDesc": "Advanced analytics & insights"
+  },
+  "whatsapp": {
+    "tooltip": "Chat with us",
+    "greeting": "Hello! Welcome to TraderTok. We are here to help you. What can we do for you today?"
   },
   "language": {
     "title": "Language",
@@ -97,6 +107,720 @@
     "happyClients": "Happy Clients",
     "support": "Support",
     "secure": "Secure"
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Our Story",
+      "titleLine1": "The Platform Built to",
+      "titleHighlight": "Turn Noise Into Insight",
+      "lead": "Financial markets move faster than ever before. TraderTok was created to give traders the clarity, infrastructure, and confidence to navigate them.",
+      "stat1Title": "Multi-Asset",
+      "stat1Label": "Market Access",
+      "stat2Title": "24/7",
+      "stat2Label": "Client Support",
+      "stat3Title": "Global",
+      "stat3Label": "Markets Covered"
+    },
+    "origin": {
+      "label": "Real-time executon",
+      "front": "Trading deriven by insight, not noise",
+      "title": "Why TraderTok Was Built",
+      "p1": "Information travels instantly, global events reshape markets within seconds, and traders are constantly surrounded by noise — opinions, speculation, signals, and overwhelming volumes of data.",
+      "p2": "While access to global markets has expanded significantly, many traders still struggle to find platforms that combine reliability, transparency, and institutional-level infrastructure in one place.",
+      "p3": "TraderTok was created to address this challenge. Rather than focusing only on market access, TraderTok builds a complete trading ecosystem — providing the tools, infrastructure, and stability required to navigate global financial markets with confidence."
+    },
+    "vision": {
+      "badge": "Vision",
+      "statement": "To establish TraderTok as a globally trusted, technology-driven multi-asset trading platform providing transparent access to international financial markets.",
+      "p1": "We aim to build a sustainable trading ecosystem that combines institutional-grade infrastructure, regulatory integrity, and advanced execution technology — empowering traders and strategic partners to participate confidently in the global economy.",
+      "p2": "TraderTok's long-term vision is to deliver performance, stability, and credibility across high-growth regions while maintaining the highest standards of governance, compliance, and client protection."
+    },
+    "pillars": {
+      "title": "Strategic Focus",
+      "subtitle": "Six core pillars that define how we operate and grow",
+      "p1Title": "Advanced Trading Technology",
+      "p1Body": "Delivering cutting-edge trading technology and low-latency execution infrastructure for optimal performance.",
+      "p2Title": "Diversified Market Access",
+      "p2Body": "Multi-asset coverage including Forex, CFDs, indices, and commodities through a single integrated environment.",
+      "p3Title": "Regulatory Framework",
+      "p3Body": "Operating within a structured regulatory framework aligned with the highest international financial standards.",
+      "p4Title": "Transparent Conditions",
+      "p4Body": "Promoting transparent trading conditions and responsible risk management practices for every trader.",
+      "p5Title": "Emerging Markets Growth",
+      "p5Body": "Expanding across emerging and high-growth markets through scalable, sustainable, and community-driven models.",
+      "p6Title": "Long-Term Partnerships",
+      "p6Body": "Building long-term client and partner relationships based on trust, performance, and operational excellence."
+    },
+    "values": {
+      "title": "Core Values",
+      "subtitle": "The principles that guide every decision we make",
+      "v1Title": "Transparency",
+      "v1Body": "By prioritizing transparency, reliability, and operational efficiency, TraderTok aims to build long-term relationships with traders and partners worldwide.",
+      "v2Title": "Reliability",
+      "v2Body": "A robust technological infrastructure designed to deliver efficient trade execution, system stability, and secure trading operations — always.",
+      "v3Title": "Technology-First",
+      "v3Body": "Technology is not simply an operational component — it is the foundation that enables performance, stability, and transparency in trading.",
+      "v4Title": "Client-Centered",
+      "v4Body": "Every element of the TraderTok environment is designed to help traders focus on what matters most: strategy, decision-making, and long-term performance."
+    },
+    "global": {
+      "title": "Global Market Access",
+      "body": "Through its platform, traders gain access to a diversified range of financial instruments, allowing them to participate in international markets through a single integrated environment.",
+      "forex": "Forex",
+      "cfds": "CFDs",
+      "indices": "Indices",
+      "commodities": "Commodities"
+    },
+    "cta": {
+      "title": "Ready to trade with clarity?",
+      "body": "Join a platform where technology, market access, and operational transparency work together.",
+      "primary": "Start Trading",
+      "secondary": "Explore Education Hub"
+    }
+  },
+  "educationHub": {
+    "hero": {
+      "title": "Learn Forex the <span>Right Way</span>",
+      "subtitle": "Access 20+ comprehensive trading guides designed specifically for beginners. No complex jargon, just clear explanations to help you start your journey.",
+      "cta": "View Articles",
+      "trust": "Join 5,000+ traders learning with TraderTok"
+    },
+    "learn": {
+      "title": "What You'll Learn",
+      "subtitle": "Our curriculum covers everything you need to know to get started.",
+      "items": [
+        {
+          "title": "Forex Fundamentals",
+          "description": "Understand the basic mechanics of the world's largest financial market."
+        },
+        {
+          "title": "Leverage & Margin",
+          "description": "Learn how to use trading power wisely and protect your capital."
+        },
+        {
+          "title": "Risk Management Basics",
+          "description": "The #1 skill every trader needs to survive and grow."
+        },
+        {
+          "title": "Common Beginner Mistakes",
+          "description": "Save time and money by avoiding the pitfalls most new traders face."
+        },
+        {
+          "title": "Market Sessions",
+          "description": "Learn when to trade (and when not to) for the best opportunities."
+        },
+        {
+          "title": "Trading Psychology",
+          "description": "Master your emotions to make better, more rational trading decisions."
+        }
+      ]
+    },
+    "whoFor": {
+      "title": "Is This Education for You?",
+      "for": {
+        "title": "This is for you if:",
+        "items": [
+          "You are a complete beginner with zero trading experience.",
+          "You want to learn the fundamentals of the forex market.",
+          "You prefer structured, easy-to-read lessons."
+        ]
+      },
+      "notFor": {
+        "title": "This is NOT for you if:",
+        "items": [
+          "You are looking for guaranteed profits or \"get rich quick\" schemes.",
+          "You want trading signals or someone to trade for you.",
+          "You are unwilling to accept the risks involved in trading."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "title": "Create Your Free Account",
+          "description": "Fill out the simple registration form below to unlock the hub."
+        },
+        {
+          "title": "Get Instant Access",
+          "description": "Once registered, you'll have full access to all 20+ articles immediately."
+        },
+        {
+          "title": "Explore at Your Own Pace",
+          "description": "Read on any device, anytime. New content is added monthly."
+        }
+      ]
+    },
+    "resources": {
+      "courses": {
+        "title": "Courses",
+        "description": "Kickstart your trading journey with free online trading courses. Master the art of trading with a comprehensive curriculum designed for beginners.",
+        "cta": "Learn More"
+      },
+      "videos": {
+        "title": "Educational Videos",
+        "description": "Unlock your trading potential with free educational videos covering essential trading concepts and strategies.",
+        "cta": "Watch Now"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Is the Education Hub really free?<span>+</span>",
+          "a": "Yes! Our goal is to empower traders with the right knowledge. There are no hidden fees."
+        },
+        {
+          "q": "Do I need a trading account to access the hub?<span>+</span>",
+          "a": "No, you just need to register via the form on this page to unlock the content."
+        },
+        {
+          "q": "Are the articles suitable for complete beginners?<span>+</span>",
+          "a": "Absolutely. We've designed all articles specifically for people with zero market experience."
+        },
+        {
+          "q": "Is this financial advice?<span>+</span>",
+          "a": "No. All content is for educational purposes only. Trading involves risk."
+        },
+        {
+          "q": "Can I read the articles on my phone?<span>+</span>",
+          "a": "Yes, the Education Hub is fully optimized for mobile, tablet, and desktop viewing."
+        },
+        {
+          "q": "What happens after I register?<span>+</span>",
+          "a": "You will get instant access to the content. Our team might reach out to support your journey."
+        }
+      ]
+    },
+    "modal": {
+      "title": "Access Educational Content",
+      "subtitle": "To unlock this content, please provide your contact details. Our team will get in touch to support your trading journey.",
+      "submit": "Submit & Unlock",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Our manager will contact you shortly.",
+      "modal": "By submitting, you agree to our Terms of Service and Privacy Policy"
+    }
+  },
+  "educationArticles": {
+    "general": {
+      "title": "Education Academy",
+      "time": "5 min read",
+      "disclosure": "Risk Disclosure:"
+    },
+    "what-is-forex-trading-a-beginners-guide": {
+      "title": "What Is Forex Trading? A Beginner's Guide",
+      "seo_title": "What Is Forex Trading? Beginner Guide to the Forex Market",
+      "meta_description": "Learn what forex trading is, how the global currency market works, and the basic concepts",
+      "category": "Beginner",
+      "excerpt": "Forex trading, also known as foreign exchange trading, is the process of buying and selling currencies in the global financial market...",
+      "content": {
+        "introduction": "Forex trading, also known as foreign exchange trading, is the process of buying and selling currencies in the global financial market. It is one of the largest financial markets in the world, with trillions of dollars traded every day. People participate in the forex market for different reasons. Some traders aim to take advantage of currency price movements, while businesses and institutions may exchange currencies to support international trade. For beginners, understanding how the forex market works is an important first step toward learning about financial markets.",
+        "sections": [
+          {
+            "heading": "What Is the Forex Market?",
+            "text": "The forex market is a global marketplace where currencies are exchanged. Unlike stock markets, which operate through centralized exchanges, the forex market operates over-the-counter (OTC) through a network of banks, financial institutions, and trading platforms. Currencies are always traded in pairs, meaning one currency is exchanged for another. For example: EUR/USD GBP/USD USD/JPY These pairs represent the value of one currency relative to another. The forex market operates 24 hours a day, five days a week, making it accessible to traders across different regions of the world."
+          },
+          {
+            "heading": "How Forex Trading Works",
+            "text": "In forex trading, participants speculate on whether a currency will increase or decrease in value relative to another currency. For example: If a trader believes the euro will strengthen against the US dollar, they may buy the EUR/USD currency pair. If the euro rises in value, the price of the pair increases. If the euro weakens, the price decreases. Currency prices change constantly due to many factors such as economic data, interest rates, geopolitical events, and market sentiment."
+          },
+          {
+            "heading": "Major Participants in the Forex Market",
+            "text": "The forex market includes a wide range of participants. These include: Central banks, Commercial banks, Investment funds, Corporations, Retail traders. Central banks play an important role in influencing currency markets through monetary policy decisions, including interest rate changes. Large financial institutions conduct most of the trading volume, but modern technology has made the forex market more accessible to individual traders."
+          },
+          {
+            "heading": "Why Currency Prices Change",
+            "text": "Currency values fluctuate due to several global economic factors. Some of the most common factors include: Economic growth, Interest rate changes, Inflation levels, Political events, International trade activity. For example, when a country raises interest rates, its currency may become more attractive to investors seeking higher returns. This can increase demand for that currency in the global market."
+          },
+          {
+            "heading": "Important Concepts Beginners Should Know",
+            "text": "Before exploring forex trading further, beginners should become familiar with a few basic concepts. Currency Pairs: Currencies are always traded in pairs. Pips: A pip is the smallest price movement in most currency pairs. Spread: The spread represents the difference between the bid price and the ask price. Leverage: Leverage allows traders to control larger positions with a smaller amount of capital, though it also increases risk. Understanding these concepts can help beginners better interpret how trading works in practice."
+          }
+        ],
+        "conclusion": "Forex trading involves buying and selling currencies in the global financial market. As one of the most active financial markets in the world, it plays an important role in international trade and economic activity. For beginners, learning about currency pairs, market drivers, and trading mechanics can provide a foundation for understanding how financial markets operate. Educational resources and market analysis can help individuals continue developing their knowledge of the forex market.",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-financial-markets-work": {
+      "title": "How Financial Markets Work",
+      "seo_title": "How Financial Markets Work: A Beginner’s Guide",
+      "meta_description": "Discover how financial markets work, the different types of markets, and how global",
+      "category": "Beginner",
+      "excerpt": "Financial markets play a central role in the global economy...",
+      "content": {
+        "introduction": "Financial markets play a central role in the global economy...",
+        "sections": [
+          {
+            "heading": "What Are Financial Markets?",
+            "text": "A financial market is a system where buyers and sellers exchange financial assets..."
+          },
+          {
+            "heading": "Major Types of Financial Markets",
+            "text": "Several different types of financial markets operate around the world..."
+          },
+          {
+            "heading": "How Prices Are Determined",
+            "text": "Prices in financial markets are largely determined by supply and demand..."
+          },
+          {
+            "heading": "Market Participants",
+            "text": "Financial markets include a wide range of participants..."
+          },
+          {
+            "heading": "Why Financial Markets Matter",
+            "text": "Financial markets perform several important functions..."
+          }
+        ],
+        "conclusion": "Financial markets are complex systems...",
+        "disclaimer": "The information provided in this article is for educational purposes only..."
+      }
+    },
+    "what-are-currency-pairs-in-forex": {
+      "title": "What Are Currency Pairs in Forex?",
+      "seo_title": "Currency Pairs Explained: Understanding Forex Pairs",
+      "meta_description": "Learn what currency pairs are in forex trading...",
+      "category": "Beginner",
+      "excerpt": "In the forex market, currencies are traded in pairs...",
+      "content": {
+        "introduction": "In the forex market, currencies are traded in pairs. This means that when one currency is bought, another currency is sold at the same time. Understanding how currency pairs work is one of the most important concepts for anyone learning about forex trading.",
+        "sections": [
+          {
+            "heading": "Base Currency and Quote Currency",
+            "text": "Every currency pair contains two currencies. The base currency is the first currency listed in the pair. The quote currency is the second currency. For example: EUR/USD Here: EUR = base currency USD = quote currency If the pair is trading at 1.10, it means one euro equals 1.10 US dollars. "
+          },
+          {
+            "heading": "Major Currency Pairs",
+            "text": "Major currency pairs include the most widely traded currencies in the world. Examples include: EUR/USD USD/JPY GBP/USD USD/CHF These pairs typically have high liquidity and smaller price spreads. "
+          },
+          {
+            "heading": "Minor Currency Pairs",
+            "text": "Minor currency pairs do not include the US dollar. Examples include: EUR/GBP EUR/AUD GBP/JPY These pairs are still actively traded but may have slightly lower trading volume. "
+          },
+          {
+            "heading": "Exotic Currency Pairs",
+            "text": "Exotic pairs involve a major currency combined with the currency of an emerging economy. Examples include: USD/TRY USD/ZAR USD/MXN Exotic pairs may experience higher volatility. "
+          },
+          {
+            "heading": "Why Currency Pairs Move",
+            "text": "Currency pairs fluctuate in value due to changes in economic conditions, central bank policies, and global events. Interest rate changes, economic growth, and geopolitical developments can all influence currency prices. "
+          }
+        ],
+        "conclusion": "Currency pairs are the foundation of the forex market. By understanding the relationship between base and quote currencies, beginners can better interpret price movements and market activity. Learning how different currency pairs behave can help traders gain deeper insights into global financial markets. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-leverage-in-trading": {
+      "title": "What Is Leverage in Trading?",
+      "excerpt": "Leverage is a common concept in financial markets that allows traders to control a larger position using a smaller amount of capital. While leverage c...",
+      "content": {
+        "introduction": "Leverage is a common concept in financial markets that allows traders to control a larger position using a smaller amount of capital. While leverage can increase potential returns, it also increases the level of risk involved in trading. Understanding how leverage works is an important step for anyone learning about financial markets. ",
+        "sections": [
+          {
+            "heading": "What Is Leverage?",
+            "text": "Leverage refers to the use of borrowed funds to increase the size of a trading position. For example, if a trader uses 1:100 leverage, they can control a position worth 100 units using only 1 unit of their own capital. Leverage is widely used in forex markets because currency price movements are typically small. "
+          },
+          {
+            "heading": "Why Leverage Is Used",
+            "text": "Leverage allows traders to participate in larger positions without needing the full value of the trade. This can make trading more accessible for participants who may not have large capital resources. However, it is important to understand that leverage magnifies both gains and losses. "
+          },
+          {
+            "heading": "Example of Leverage",
+            "text": "Suppose a trader wants to trade a position worth $10,000. If the leverage is 1:100, the trader may only need $100 of margin to open that position. If the market moves favorably, profits may increase relative to the invested capital. If the market moves against the position, losses can also increase quickly. "
+          },
+          {
+            "heading": "Key Considerations",
+            "text": "Before using leverage, traders should understand: Market volatility Risk management Margin requirements Potential losses Many educational resources emphasize responsible trading and proper risk control when using leverage. "
+          }
+        ],
+        "conclusion": "Leverage is an important tool used in financial markets that allows traders to increase exposure with limited capital. However, it also introduces additional risk. Understanding how leverage works can help individuals approach trading with greater awareness of both opportunities and risks. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-spread-in-forex": {
+      "title": "What Is Spread in Forex?",
+      "excerpt": "In forex trading, the spread is one of the most important concepts to understand. It represents the difference between the price at which a currency p...",
+      "content": {
+        "introduction": "In forex trading, the spread is one of the most important concepts to understand. It represents the difference between the price at which a currency pair can be bought and the price at which it can be sold. Understanding spreads helps traders better interpret trading costs and market liquidity. ",
+        "sections": [
+          {
+            "heading": "Bid Price and Ask Price",
+            "text": "Every currency pair has two prices. Bid Price The price at which the market is willing to buy a currency. Ask Price The price at which the market is willing to sell a currency. The difference between these two prices is known as the spread. "
+          },
+          {
+            "heading": "Example of a Spread",
+            "text": "If the EUR/USD pair shows the following prices: Bid: 1.1050 Ask: 1.1052 The spread is 2 pips. This difference reflects market liquidity and transaction costs. "
+          },
+          {
+            "heading": "Why Spreads Change",
+            "text": "Spreads can vary depending on market conditions. Several factors influence spreads, including: Market liquidity Trading volume Economic news events Market volatility During major economic announcements, spreads may widen due to increased uncertainty. "
+          },
+          {
+            "heading": "Fixed vs Variable Spreads",
+            "text": "Some markets operate with fixed spreads, while others use variable spreads. Variable spreads change based on supply and demand in the market. Highly liquid markets usually have tighter spreads. "
+          }
+        ],
+        "conclusion": "The spread represents the difference between buying and selling prices in the forex market. Understanding spreads can help traders better interpret trading costs and market liquidity. By learning about spreads alongside other trading concepts, beginners can gain a clearer understanding of how financial markets function. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-margin-trading": {
+      "title": "What Is Margin Trading?",
+      "excerpt": "Margin trading is a common concept in financial markets that allows traders to open positions using only a portion of the total trade value. In market...",
+      "content": {
+        "introduction": "Margin trading is a common concept in financial markets that allows traders to open positions using only a portion of the total trade value. In markets such as forex, margin is closely related to leverage and plays an important role in how trading positions are managed. For beginners, understanding margin is essential because it helps explain how traders are able to participate in larger trades without needing the full amount of capital upfront. ",
+        "sections": [
+          {
+            "heading": "What Is Margin?",
+            "text": "Margin is the amount of money required to open and maintain a trading position. Instead of paying the full value of a trade, traders deposit a smaller amount of funds known as margin. This amount acts as a form of collateral that allows the position to remain open. For example, if a trader wants to open a position worth $10,000 and the margin requirement is 1%, the trader would need $100 to open the position. "
+          },
+          {
+            "heading": "Margin and Leverage",
+            "text": "Margin and leverage are closely connected. Leverage allows traders to control larger positions, while margin represents the funds required to maintain those positions. For example: Leverage: 1:100 Margin required: 1% Higher leverage generally means lower margin requirements, although it also increases exposure to market risk. "
+          },
+          {
+            "heading": "What Is a Margin Call?",
+            "text": "A margin call occurs when the funds in a trading account fall below the required margin level. This may happen if the market moves against an open position. When this occurs, additional funds may be required to maintain the position. Understanding margin calls helps traders become more aware of how risk is managed in financial markets. "
+          },
+          {
+            "heading": "Why Margin Matters",
+            "text": "Margin plays an important role in trading because it determines how much capital is needed to maintain open positions. Traders often monitor margin levels carefully to ensure that their account balance remains above the required level. Risk management strategies are commonly used to help control exposure when trading with margin. "
+          }
+        ],
+        "conclusion": "Margin trading allows traders to participate in financial markets using a portion of the total trade value. While this approach can increase market exposure, it also introduces additional risk. Learning how margin works helps beginners better understand how trading accounts operate and how positions are maintained in financial markets. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "understanding-market-volatility": {
+      "title": "Understanding Market Volatility",
+      "excerpt": "Financial markets are constantly moving. Prices of currencies, stocks, commodities, and other assets change throughout the day due to various economic...",
+      "content": {
+        "introduction": "Financial markets are constantly moving. Prices of currencies, stocks, commodities, and other assets change throughout the day due to various economic and global factors. These price fluctuations are commonly referred to as market volatility. Understanding volatility is important because it helps explain why markets rise and fall over time. ",
+        "sections": [
+          {
+            "heading": "What Is Market Volatility?",
+            "text": "Market volatility refers to the degree of price movement in a financial asset over time. When prices move rapidly or significantly, the market is considered highly volatile. When price movements are smaller and more stable, volatility is considered lower. Volatility can occur in all financial markets, including forex, stocks, commodities, and cryptocurrencies."
+          },
+          {
+            "heading": "What Causes Market Volatility?",
+            "text": "Several factors influence volatility in financial markets. Some of the most common drivers include: Economic data releases, Interest rate decisions, Political developments, Global economic events, Market sentiment. For example, when a central bank announces a change in interest rates, currency markets may react quickly as traders adjust their expectations."
+          },
+          {
+            "heading": "High vs Low Volatility",
+            "text": "Markets may experience different levels of volatility depending on economic conditions. High volatility: Large and rapid price movements. Low volatility: Smaller price changes and more stable market conditions. Different market environments can influence trading strategies and risk management approaches. "
+          },
+          {
+            "heading": "Why Volatility Matters",
+            "text": "Volatility plays an important role in financial markets because it reflects uncertainty and changes in investor expectations. Understanding volatility helps traders and investors interpret market conditions and manage risk."
+          }
+        ],
+        "conclusion": "Market volatility refers to the changing prices of financial assets over time. These movements are influenced by economic data, global events, and investor behavior. Learning how volatility works can help beginners better understand how financial markets react to new information. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "best-times-to-trade-forex-(trading": {
+      "title": "Best Times to Trade Forex (Trading Sessions Explained)",
+      "excerpt": "The forex market operates 24 hours a day during the trading week, allowing participants from around the world to trade currencies at different times. ...",
+      "content": {
+        "introduction": "The forex market operates 24 hours a day during the trading week, allowing participants from around the world to trade currencies at different times. However, market activity is not evenly distributed throughout the day. Certain periods known as trading sessions tend to experience higher levels of market activity and liquidity. ",
+        "sections": [
+          {
+            "heading": "The Major Forex Trading Sessions",
+            "text": "SThe global forex market is divided into four major trading sessions. Asian Session The Asian session begins the global trading day and is often associated with markets in Tokyo, Singapore, and Hong Kong. Price movements during this session are sometimes more moderate compared to other sessions. London Session The London session is one of the most active periods in the forex market. A large portion of global currency trading volume occurs during this time because many financial institutions are based in Europe. New York Session The New York session overlaps with the London session for several hours, creating one of the most active trading periods of the day. Important economic announcements from the United States often occur during this session. "
+          },
+          {
+            "heading": " Session Overlaps",
+            "text": "One of the most active periods in the forex market occurs when the London and New York sessions overlap. During this time, liquidity tends to increase and markets may experience stronger price movements."
+          },
+          {
+            "heading": " Why Trading Sessions Matter",
+            "text": " Trading sessions influence market activity, volatility, and liquidity. Understanding when different markets are active helps traders better interpret global market behavior."
+          }
+        ],
+        "conclusion": "The forex market operates continuously during the trading week, but activity levels vary depending on global trading sessions. Learning about trading sessions can help beginners understand when financial markets tend to be most active. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-read-forex-charts": {
+      "title": "How to Read Forex Charts",
+      "excerpt": "Price charts are one of the most commonly used tools in financial markets. They help traders visualize how the price of an asset changes over time. Le...",
+      "content": {
+        "introduction": "Price charts are one of the most commonly used tools in financial markets. They help traders visualize how the price of an asset changes over time. Learning how to read charts is an important skill for anyone interested in understanding market behavior. ",
+        "sections": [
+          {
+            "heading": "Types of Trading Charts ",
+            "text": "Several types of charts are used in financial markets. Line Charts: Line charts connect closing prices over time and provide a simple overview of price movements.  Bar Charts: Bar charts display the opening, closing, highest, and lowest prices for a specific time period. Candlestick Charts: Candlestick charts are widely used because they provide detailed information about price movement during each time interval."
+          },
+          {
+            "heading": " Understanding Candlesticks",
+            "text": " Each candlestick represents price activity during a specific time frame. A candlestick includes: Open price, Close price, Highest price, Lowest price. The color of the candlestick usually indicates whether the price moved upward or downward during that period."
+          },
+          {
+            "heading": " Why Charts Matter",
+            "text": "  Charts help traders analyze patterns, identify trends, and observe how markets respond to new information. While charts cannot predict the future, they provide valuable insight into historical price behavior. "
+          }
+        ],
+        "conclusion": "Forex charts provide a visual representation of market activity. By learning how to interpret charts, beginners can better understand how prices move and how traders analyze financial markets. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "support-and-resistance-explained": {
+      "title": "Support and Resistance Explained",
+      "excerpt": "In financial markets, prices often move within certain ranges. Traders frequently observe that prices tend to pause, reverse, or slow down near specif...",
+      "content": {
+        "introduction": "In financial markets, prices often move within certain ranges. Traders frequently observe that prices tend to pause, reverse, or slow down near specific levels. These levels are known as support and resistance. Understanding support and resistance is one of the basic concepts used when analyzing market price movements.  ",
+        "sections": [
+          {
+            "heading": "What Is Support?",
+            "text": "Support is a price level where an asset tends to stop falling and may begin to rise again. This happens because buyers often become more active at lower price levels. When demand increases, it can slow down or reverse downward price movements. For example, if a currency pair repeatedly stops falling near a certain price level, that level may be considered support."
+          },
+          {
+            "heading": " What Is Resistance?",
+            "text": "Resistance is the opposite of support. Resistance is a price level where an asset may struggle to move higher because selling pressure increases. When prices approach resistance levels, traders may start selling or taking profits, which can slow down upward movement."
+          },
+          {
+            "heading": "Why These Levels Matter ",
+            "text": "Support and resistance levels are important because they help traders understand where price reactions might occur. These levels often develop because many market participants are watching similar price areas and making decisions based on them. Support and resistance may also form around: Previous highs and lows, Psychological price levels, Historical trading ranges. "
+          },
+          {
+            "heading": " Support and Resistance in Practice",
+            "text": " Markets rarely move in straight lines. Instead, they often move in waves, bouncing between support and resistance levels. When prices break above resistance or fall below support, the market may enter a new trading range. These price behaviors are commonly studied as part of technical analysis."
+          }
+        ],
+        "conclusion": "Support and resistance levels represent important price areas where markets may pause or change direction. Learning to recognize these levels helps beginners better understand how market prices react to supply and demand forces. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "risk-management-in-trading": {
+      "title": "Risk Management in Trading",
+      "excerpt": "Financial markets involve uncertainty, and prices can change quickly. Because of this, many traders focus on risk management, which refers to the meth...",
+      "content": {
+        "introduction": "Financial markets involve uncertainty, and prices can change quickly. Because of this, many traders focus on risk management, which refers to the methods used to control potential losses. Understanding risk management is an important part of learning about financial markets.",
+        "sections": [
+          {
+            "heading": "What Is Risk Management?",
+            "text": "Risk management refers to the strategies and tools used to limit potential losses in trading activities. Instead of focusing only on potential profits, traders often consider how much they are willing to risk in each trade. Risk management helps maintain balance in trading decisions."
+          },
+          {
+            "heading": "Why Risk Management Matters",
+            "text": "Markets can move unpredictably due to economic events, geopolitical developments, or changes in market sentiment. Without risk management, traders may expose themselves to large losses if the market moves unexpectedly. Managing risk helps traders maintain a more disciplined approach to financial markets."
+          },
+          {
+            "heading": "Common Risk Management Concepts",
+            "text": "Several tools and strategies are commonly used to manage risk. Position sizing is the process of determining how large a trade should be relative to account size. Stop loss orders are predefined price levels where positions may be closed if the market moves against the trade. Diversification is the practice of spreading exposure across different assets. These concepts are widely discussed in trading education."
+          },
+          {
+            "heading": "Risk and Market Volatility",
+            "text": "Volatile markets may require additional attention to risk management because prices can change rapidly. Understanding how volatility affects markets can help traders better assess potential risks."
+          }
+        ],
+        "conclusion": "Risk management plays a central role in financial market participation. By learning how to manage risk effectively, individuals can approach trading with greater awareness of potential outcomes. Educational resources often emphasize risk management as one of the most important aspects of trading knowledge. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "trading-psychology-for-beginners": {
+      "title": "Trading Psychology for Beginners",
+      "excerpt": "Financial markets can trigger strong emotions such as excitement, fear, and frustration. Because prices move quickly and uncertainty is always present...",
+      "content": {
+        "introduction": "Financial markets can trigger strong emotions such as excitement, fear, and frustration. Because prices move quickly and uncertainty is always present, emotions can influence trading decisions. This is why trading psychology is often discussed in educational resources about financial markets. ",
+        "sections": [
+          {
+            "heading": "What Is Trading Psychology?",
+            "text": "Trading psychology refers to the mental and emotional factors that influence decisionmaking in trading. Even experienced traders can face psychological challenges when markets move unexpectedly. Emotions such as fear and overconfidence may affect how people respond to market movements. "
+          },
+          {
+            "heading": "Common Emotional Challenges",
+            "text": "Several psychological factors commonly affect trading decisions. Fear Fear may cause traders to exit positions too early or avoid opportunities. Greed Greed may lead to excessive risk-taking in pursuit of larger profits. Impatience Markets do not always move quickly, which may lead to impulsive decisions. "
+          },
+          {
+            "heading": "The Importance of Discipline",
+            "text": "Many trading education resources emphasize the importance of discipline and structured decision-making. Having clear rules and strategies can help reduce emotional reactions to short-term market movements. Understanding the psychological side of trading can help individuals approach financial markets more objectively."
+          }
+        ],
+        "conclusion": "Trading psychology focuses on the emotional and behavioral aspects of financial market participation. By learning how emotions influence decisions, individuals can develop greater awareness when analyzing market opportunities and risks. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "understanding-market-trends": {
+      "title": "Understanding Market Trends",
+      "excerpt": "Financial markets rarely move randomly for long periods of time. Instead, prices often move in trends, where markets gradually move upward, downward, ...",
+      "content": {
+        "introduction": "Financial markets rarely move randomly for long periods of time. Instead, prices often move in trends, where markets gradually move upward, downward, or sideways. Understanding market trends is an important concept for anyone learning about financial markets.",
+        "sections": [
+          {
+            "heading": "What Is a Market Trend?",
+            "text": "A market trend refers to the general direction in which prices move over a period of time. Trends may occur across different financial markets, including forex, stocks, commodities, and indices. Trends can last for minutes, days, months, or even years depending on market conditions."
+          },
+          {
+            "heading": "Types of Market Trends",
+            "text": "Uptrend: An uptrend occurs when prices gradually move higher over time. In an uptrend, markets tend to create higher highs and higher lows. Downtrend: A downtrend occurs when prices gradually move lower over time. In this case, markets often form lower highs and lower lows. Sideways Trend: Sometimes markets move within a narrow range without a clear direction. This is known as a sideways trend or consolidation."
+          },
+          {
+            "heading": "Why Trends Matter",
+            "text": "Trends help traders and investors understand the overall direction of market activity. Many analytical methods used in financial markets attempt to identify trends and observe how long they may continue."
+          }
+        ],
+        "conclusion": "Market trends represent the general direction of price movements over time. By observing trends, individuals can gain insights into broader market behavior and changing economic conditions. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-trading-strategies-work": {
+      "title": "How Trading Strategies Work",
+      "excerpt": "Financial markets offer many opportunities for analysis and decision-making. Because markets can be unpredictable, many traders rely on structured tra...",
+      "content": {
+        "introduction": "Financial markets offer many opportunities for analysis and decision-making. Because markets can be unpredictable, many traders rely on structured trading strategies to guide their actions. A trading strategy is essentially a plan that outlines how a trader approaches the market. ",
+        "sections": [
+          {
+            "heading": "What Is a Trading Strategy?",
+            "text": "A trading strategy is a set of rules or guidelines used to analyze markets and make trading decisions. These rules may include: Market conditions, Entry and exit criteria, Risk management considerations. Different traders develop strategies based on their preferred analytical methods."
+          },
+          {
+            "heading": "Types of Trading Strategies",
+            "text": "Several types of strategies are commonly discussed in trading education. Trend strategies Focus on identifying markets that are moving consistently in one direction. Range strategies Focus on markets moving within defined support and resistance levels. News-based strategies Focus on market reactions to economic announcements."
+          },
+          {
+            "heading": " Why Strategies Are Used",
+            "text": "Trading strategies help create a structured approach to market analysis. Instead of making decisions randomly, strategies encourage traders to follow predefined guidelines. Educational materials often emphasize the importance of discipline and consistency when applying strategies."
+          }
+        ],
+        "conclusion": "Trading strategies provide a framework for analyzing financial markets and making informed decisions. By learning how different strategies work, beginners can better understand how traders approach the dynamic nature of financial markets. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-moves-the-forex-market": {
+      "title": "What Moves the Forex Market?",
+      "excerpt": "The foreign exchange market is constantly changing as currency prices move up and down throughout the day. These movements are influenced by many econ...",
+      "content": {
+        "introduction": "The foreign exchange market is constantly changing as currency prices move up and down throughout the day. These movements are influenced by many economic, financial, and political factors. Understanding what drives currency prices can help beginners gain a clearer picture of how the forex market works. ",
+        "sections": [
+          {
+            "heading": "Interest Rates",
+            "text": "Interest rates are one of the most important factors affecting currency values. When a country's central bank raises interest rates, the currency may become more attractive to investors because higher rates can offer better returns. As a result, demand for that currency may increase in global markets."
+          },
+          {
+            "heading": "Economic Data ",
+            "text": "Economic reports are regularly released by governments and financial institutions. These reports provide insight into the health of an economy. Common economic indicators include: Gross Domestic Product (GDP) Employment data Inflation reports Retail sales Strong economic data can strengthen a country's currency, while weaker data may have the opposite effect. "
+          },
+          {
+            "heading": "Political and Global Events",
+            "text": "Political developments and global events can also influence currency markets. Examples include: Elections Trade policies Geopolitical tensions Global economic shifts Markets often react quickly to news and changes in economic expectations."
+          },
+          {
+            "heading": "Market Sentiment",
+            "text": " Market sentiment refers to the overall attitude of investors toward a particular currency or market. If investors believe an economy is strengthening, they may increase demand for that country's currency. Changes in sentiment can influence price movements in the forex market."
+          }
+        ],
+        "conclusion": "Currency prices are influenced by many factors, including interest rates, economic data, political events, and investor sentiment. By understanding these drivers, beginners can gain better insight into how the forex market operates. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-interest-rates-affect-currency": {
+      "title": "How Interest Rates Affect Currency Markets",
+      "excerpt": "Interest rates are one of the most important economic tools used by central banks to manage economic growth and inflation. Changes in interest rates c...",
+      "content": {
+        "introduction": "Interest rates are one of the most important economic tools used by central banks to manage economic growth and inflation. Changes in interest rates can have a significant impact on financial markets, including currency prices. Understanding how interest rates influence currencies can help beginners better interpret market movements. ",
+        "sections": [
+          {
+            "heading": "What Are Interest Rates?",
+            "text": "Interest rates represent the cost of borrowing money. Central banks adjust interest rates to help manage economic activity, inflation, and financial stability. When interest rates rise, borrowing typically becomes more expensive. When rates fall, borrowing may become more affordable."
+          },
+          {
+            "heading": "Why Interest Rates Influence Currencies",
+            "text": "Currencies are influenced by interest rates because investors often seek opportunities where they can earn higher returns. When a country's interest rates increase, financial assets in that country may become more attractive to investors. This can lead to increased demand for the country's currency."
+          },
+          {
+            "heading": "Central Bank Decisions",
+            "text": "Central banks regularly review economic conditions and decide whether to increase, decrease, or maintain interest rates. Examples of major central banks include: Federal Reserve (United States) European Central Bank Bank of England Bank of Japan Announcements from these institutions often influence financial markets."
+          },
+          {
+            "heading": "Market Expectations",
+            "text": "Financial markets often react not only to actual interest rate changes but also to expectations about future decisions. Investors closely follow economic indicators and central bank statements to anticipate possible policy changes."
+          }
+        ],
+        "conclusion": "Interest rates play a major role in shaping currency markets. By influencing investor behavior and economic activity, central bank policies can affect the value of currencies in global financial markets. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "why-gold-prices-fluctuate": {
+      "title": "Why Gold Prices Fluctuate",
+      "excerpt": "Gold has been valued for centuries as both a precious metal and a financial asset. Today, gold continues to play an important role in global financial...",
+      "content": {
+        "introduction": "Gold has been valued for centuries as both a precious metal and a financial asset. Today, gold continues to play an important role in global financial markets. The price of gold can rise or fall depending on various economic and financial factors.  ",
+        "sections": [
+          {
+            "heading": "Gold as a Safe-Haven Asset",
+            "text": "Gold is often considered a safe-haven asset, meaning investors may turn to gold during periods of economic uncertainty. When financial markets experience instability, demand for gold may increase. This demand can influence gold prices."
+          },
+          {
+            "heading": "Inflation and Gold",
+            "text": "Inflation measures how quickly the prices of goods and services increase over time. When inflation rises, the purchasing power of currencies may decline. Some investors view gold as a way to preserve value during periods of rising inflation."
+          },
+          {
+            "heading": "Interest Rates and Gold",
+            "text": "Interest rates can also influence gold prices. When interest rates are high, investors may prefer interest-bearing assets such as bonds. When interest rates are lower, gold may become more attractive because the opportunity cost of holding gold decreases."
+          },
+          {
+            "heading": "Global Demand",
+            "text": "Gold demand comes from several sources, including: Jewelry production Investment demand Central bank reserves Industrial use Changes in global demand can influence the overall price of gold."
+          }
+        ],
+        "conclusion": "Gold prices fluctuate due to a combination of economic conditions, inflation expectations, interest rates, and global demand. By understanding these factors, beginners can gain a clearer understanding of how gold markets operate. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "oil-prices-and-global-markets": {
+      "title": "Oil Prices and Global Markets",
+      "excerpt": "Oil is one of the most important commodities in the global economy. It is widely used for transportation, manufacturing, and energy production. Becaus...",
+      "content": {
+        "introduction": "Oil is one of the most important commodities in the global economy. It is widely used for transportation, manufacturing, and energy production. Because of its importance, changes in oil prices can influence financial markets and economic activity around the world.  ",
+        "sections": [
+          {
+            "heading": "Oil Supply and Demand",
+            "text": "Oil prices are heavily influenced by global supply and demand. When demand for oil increases, prices may rise. When supply increases or demand decreases, prices may fall. Many factors can affect supply and demand, including global economic growth and energy consumption patterns."
+          },
+          {
+            "heading": "Oil-Producing Countries",
+            "text": "Several countries play a major role in global oil production. Organizations such as OPEC (Organization of the Petroleum Exporting Countries) help coordinate oil production levels among member countries. Production decisions from major oil producers can influence oil prices."
+          },
+          {
+            "heading": "Oil and Currency Markets",
+            "text": "Oil prices can also affect currency markets. Currencies of oil-exporting countries may be influenced by changes in oil prices because energy exports are an important part of their economies. This relationship highlights how commodity markets and currency markets are interconnected."
+          },
+          {
+            "heading": "Oil and Inflation",
+            "text": "Oil prices can influence inflation because energy costs affect transportation, manufacturing, and consumer goods. When oil prices increase significantly, production costs may rise across multiple industries."
+          }
+        ],
+        "conclusion": "Oil prices play an important role in the global economy. By influencing energy costs, inflation, and trade balances, oil markets can affect financial markets around the world. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-central-banks-influence-financial": {
+      "title": "How Central Banks Influence Financial Markets",
+      "excerpt": "Central banks play a major role in the global financial system. These institutions are responsible for managing a country's monetary policy and mainta...",
+      "content": {
+        "introduction": "Central banks play a major role in the global financial system. These institutions are responsible for managing a country's monetary policy and maintaining financial stability. Decisions made by central banks can influence currencies, stock markets, and economic activity. ",
+        "sections": [
+          {
+            "heading": "What Is a Central Bank?",
+            "text": "A central bank is a national financial authority responsible for overseeing monetary policy. Some well-known central banks include: Federal Reserve (United States) European Central Bank Bank of England Bank of Japan These institutions work to maintain stable economic conditions."
+          },
+          {
+            "heading": "Monetary Policy",
+            "text": " Monetary policy refers to the actions central banks take to manage economic activity. Key tools used by central banks include: Interest rate adjustments Money supply management Economic guidance These decisions can influence borrowing costs, investment activity, and financial market behavior."
+          },
+          {
+            "heading": " Market Reactions ",
+            "text": "Financial markets often react quickly to central bank announcements. Investors pay close attention to central bank statements because they can signal future economic policy changes. Expectations about monetary policy can influence asset prices across global markets."
+          },
+          {
+            "heading": " Why Central Banks Matter  ",
+            "text": "Central banks help maintain economic stability by managing inflation, employment levels, and financial system risks. Because of this role, their decisions are closely monitored by financial market participants worldwide."
+          }
+        ],
+        "conclusion": "Central banks play a central role in shaping financial markets. Through monetary policy decisions and economic guidance, these institutions influence currencies, interest rates, and overall market conditions. ",
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    }
   },
   "tradersClub": {
     "free": "FREE",
@@ -267,9 +991,9 @@
     "keyInformationDocuments": "Key Information Documents",
     "partnersAndPromotions": "Partners and Promotions",
     "inviteAFriend": "Invite a Friend",
-    "affiliateProgram": "Affiliate Program",
+    "affiliateProgram": "IB Program",
     "TraderTokClub": "TraderTok Club",
-    "investmentInsurance": "Investment Insurance",
+    "investmentInsurance": "Segregated Account",
     "partnerSmartPortfolios": "Partner Smart Portfolios",
     "taxReport": "Tax Report",
     "contactUs": "Contact Us",
@@ -403,7 +1127,11 @@
     "pageTitle": "Trading Platforms - TraderTok | Advanced Trading Technology",
     "pageDescription": "Trade with cutting-edge platforms designed for speed, reliability, and performance. Access powerful tools and analytics on desktop, web, and mobile.",
     "heroTitle": "Trade",
-    "typewriterWords": ["Smarter", "Faster", "Your Way"],
+    "typewriterWords": [
+      "Smarter",
+      "Faster",
+      "Your Way"
+    ],
     "heroSubtitle": "At TraderTok, we believe technology should empower, not complicate. That's why we built platforms that give you full control of your trading experience, whether you're at your desk or on the move.",
     "mobilePlatform": "Mobile Platform",
     "webDesktop": "Web & Desktop",
@@ -600,5 +1328,64 @@
       "title": "Forex Fundamentals - Mastering Currency Trading",
       "description": "Discover the essential strategies for successful forex trading. Our expert analysts will guide you through market analysis, risk management, and profitable trading techniques."
     }
+  },
+  "tradingCentral": {
+    "eyebrow": "Trading Central",
+    "heroTitlePart1": "Advanced analytics for",
+    "heroTitlePart2": "smarter trading",
+    "heroSubtitle": "TraderTok brings you one of the most powerful market tools for modern trading. Trading Central combines cutting-edge tech with expert market analysis to elevate your trading experience.",
+    "heroBtn": "Access Trading Central",
+    "stats": {
+      "s1lbl": "Global Market Coverage",
+      "s2lbl": "Asset Breakdowns",
+      "s3lbl": "Events Monitored",
+      "s4lbl": "Aggregated News Sources"
+    },
+    "midTitlePart1": "Stay ahead of market trends",
+    "midTitlePart2": "with real-time analytics",
+    "features": {
+      "f1title": "Data-Driven Insights",
+      "f1desc": "Stay ahead of the latest market moves with advanced analytics and expert insights.",
+      "registerBtn": "Register to Access",
+      "f2title": "Professional-Grade Analysis",
+      "f2desc": "Navigate global markets with the latest market-scanning tools powered by AI.",
+      "f3title": "Boundless Market Opportunities",
+      "f3desc": "Access real-time insights into hundreds of financial instruments."
+    },
+    "cta": {
+      "title": "Register to access Trading Central for FREE",
+      "desc": "Unlock the full power of Trading Central when you register with TraderTok. Trading Central enhances your trading experience by providing actionable insights and expert analysis at no cost.",
+      "btn": "Register to Access"
+    },
+    "tools": {
+      "title": "The ultimate suite of market tools",
+      "subtitle": "At TraderTok, we take pride in arming you with the tools and insights you need to succeed. Explore the power of Trading Central and redefine the way you trade.",
+      "t1title": "News & Sentiment Analysis",
+      "t1desc": "Stay informed with comprehensive news and sentiment analysis across forex, stocks, commodities, indices, cryptocurrencies, and more. Leverage unbiased, data-driven insights to navigate the markets confidently and seize opportunities as they emerge.",
+      "t2title": "Pricing Analytics",
+      "t2desc": "Analyze real-time price movements and uncover trading opportunities across 250+ assets. Stay ahead of market trends with precise economic insights and pricing analytics that empower you to act decisively and maximize your trading potential.",
+      "t3title": "Instruments & Insights",
+      "t3desc": "Access actionable technical analysis on a wide range of financial instruments. Harness advanced analytics, pattern recognition technology, and real-time data to identify market opportunities and make informed trading decisions. Gain the clarity and confidence you need to navigate today's fast-moving financial landscape.",
+      "t4title": "Actionable Ideas",
+      "t4desc": "Discover live trading ideas generated from a combination of technical and fundamental analysis. Spot bullish and bearish opportunities in real time and make confident, data-backed decisions that align with your trading strategy.",
+      "btn": "Get Started"
+    },
+    "faq": {
+      "title": "Trading Central FAQs",
+      "q1": "What is Trading Central?",
+      "a1": "Trading Central is a state-of-the-art market analysis and research suite that combines cutting-edge AI technology with the expertise of seasoned financial analysts. By seamlessly merging machine learning with human intelligence, Trading Central provides accurate, actionable trade ideas, in-depth market insights, and real-time data to help traders of all levels make informed decisions.",
+      "q2": "How do I access Trading Central?",
+      "a2": "To access TraderTok's Trading Central, you need to log in to your account. You will find all the Trading Central tools within our trading environments. Trading Central is seamlessly integrated within the platform, providing you with powerful tools and insights at your fingertips.",
+      "q3": "What markets does Trading Central cover?",
+      "a3": "Trading Central provides comprehensive insights into a wide array of markets offered by TraderTok, empowering you to diversify your trading portfolio. From Forex and Commodities to Indices, Cryptocurrencies, and Stocks, Trading Central delivers expert analysis and trade ideas across various financial instruments.",
+      "q4": "Why choose TraderTok and Trading Central?",
+      "a4": "When you choose TraderTok, you're joining a trusted brokerage committed to your success. We provide a seamless trading experience with unparalleled support, low spreads, and an array of premium trading tools, including Trading Central, at no extra cost. By partnering with TraderTok, you gain access to the expertise, resources, and technology needed to achieve your financial goals."
+    }
+  },
+  "tradingEssentials": {
+    "titlePart1": "Educational",
+    "titlePart2": "Resources",
+    "subtitle1": "Master the fundamentals of the forex market with our curated collection of essential trading guides.",
+    "subtitle2": "Explore our library of 20+ articles. Start from the beginning or dive into a specific topic."
   }
 }
