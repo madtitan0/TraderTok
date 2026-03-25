@@ -774,7 +774,7 @@
                 <span class="star">★</span>
                 <span class="star">★</span>
               </div>
-              <span class="trustpilot-score">3.8 out of 5</span>
+              <span class="trustpilot-score">4.2 out of 5</span>
             </div>
           </div>
         </div>
