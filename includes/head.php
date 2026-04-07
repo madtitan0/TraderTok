@@ -2,6 +2,12 @@
 <html lang="en">
 
   <head>
+    <!-- Primary Meta Tags -->
+    <title><?php echo $get->title; ?></title>
+    <meta name="title" content="<?php echo $get->title; ?>">
+    <meta name="description" content="<?php echo $get->desc; ?>">
+    <meta name="keywords" content="<?php echo $get->keyw; ?>">
+    <meta name="author" content=" <?php echo $get->brand_name; ?>">
     <?php echo $get->head_code; ?>
   </head>
 
