@@ -1,136 +1,51 @@
+<style>
+
+.gold-silver-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.gold-silver-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* adjust darkness here */
+  z-index: 1;
+}
+
+/* make sure content stays above overlay */
+.gold-silver-banner > * {
+  position: relative;
+  z-index: 2;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gold-silver-banner {
+    min-height: 210px;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+    object-position: center center;
+    background: #000000;
+  }
+}
+</style>    
     <!-- Hero Section -->
-    <section class="hero gold-silver-banner">
-      <div class="banner-left">
-        <div class="banner-content">
-          <p class="banner-subtitle" data-i18n-html="hero.subtitle">Precious Metals Investment</p>
-          <h1 class="banner-title" data-i18n-html="hero.title">
-            <span class="highlight-gold">Gold</span> & <span class="highlight-silver">Silver</span>: The Smart Money's
-            Safe Haven
-          </h1>
-          <p class="banner-text" data-i18n-html="hero.description">
-            When markets shake, precious metals stand strong. Discover why gold and silver are the go-to assets for
-            preserving wealth and seizing buying opportunities right now. With limited supply and growing global demand,
-            today's prices could be tomorrow's missed chance.
-          </p>
-          <a data-i18n="hero.getStarted" href="<?php echo $get->register_url; ?>" class="btn-hero btn-primary-hero"
-            onclick="openAuthModal('register')">Get
-            Started</a>
-        </div>
-      </div>
-      <div class="banner-right">
-        <img src="assets/images/gold-silver-bar-transparent-background.png" alt="Gold and Silver"
-          class="banner-bg-image" fetchpriority="high">
-      </div>
-    </section>
+<section class="hero gold-silver-banner" aria-label="TraderTok banner">
+  <img src="assets/images/banner.jpeg" alt="Banner" class="banner-img">
+</section>
 
-    <!-- Earnings Reports Promo Popup -->
-    <!-- <div class="earnings-popup" id="earnings-popup">
-      <div class="earnings-popup-overlay"></div>
-      <div class="earnings-popup-content">
-        <button class="earnings-popup-close" id="earnings-popup-close" aria-label="Close">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
-        </button>
 
-        Animated Logo Background
-        <div class="earnings-logos-bg">
-          <div class="earnings-logo earnings-logo-nvidia">
-            <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
-          </div>
-          <div class="earnings-logo earnings-logo-apple">
-            <img src="assets/images/Apple_logo_black.svg" alt="Apple">
-          </div>
-          <div class="earnings-logo earnings-logo-amazon">
-            <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
-          </div>
-        </div>
-
-        Content
-        <div class="earnings-popup-header">
-          <span class="earnings-badge-text" data-i18n="earningsPopup.badge">Limited Time Offer</span>
-          <h2 class="earnings-popup-title" data-i18n="earningsPopup.title">
-            Earnings Reports & Premarket Opportunities
-          </h2>
-          <p class="earnings-popup-period" data-i18n="earningsPopup.period">
-            January & February 2026
-          </p>
-
-          Countdown Timer
-          <div class="earnings-countdown" id="earnings-countdown">
-            <div class="earnings-countdown-item">
-              <span class="earnings-countdown-value" id="earnings-days">00</span>
-              <span class="earnings-countdown-label" data-i18n="earningsPopup.days">Days</span>
-            </div>
-            <div class="earnings-countdown-item">
-              <span class="earnings-countdown-value" id="earnings-hours">00</span>
-              <span class="earnings-countdown-label" data-i18n="earningsPopup.hours">Hours</span>
-            </div>
-            <div class="earnings-countdown-item">
-              <span class="earnings-countdown-value" id="earnings-minutes">00</span>
-              <span class="earnings-countdown-label" data-i18n="earningsPopup.minutes">Min</span>
-            </div>
-            <div class="earnings-countdown-item">
-              <span class="earnings-countdown-value" id="earnings-seconds">00</span>
-              <span class="earnings-countdown-label" data-i18n="earningsPopup.seconds">Sec</span>
-            </div>
-          </div>
-        </div>
-
-        Company Logos Showcase
-        <div class="earnings-companies">
-          <div class="earnings-company" data-company="nvidia">
-            <div class="company-icon">
-              <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
-            </div>
-            <span class="company-name">NVIDIA</span>
-            <span class="company-ticker">NVDA</span>
-          </div>
-          <div class="earnings-company" data-company="apple">
-            <div class="company-icon">
-              <img src="assets/images/Apple_logo_black.svg" alt="Apple">
-            </div>
-            <span class="company-name">Apple</span>
-            <span class="company-ticker">AAPL</span>
-          </div>
-          <div class="earnings-company" data-company="amazon">
-            <div class="company-icon">
-              <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
-            </div>
-            <span class="company-name">Amazon</span>
-            <span class="company-ticker">AMZN</span>
-          </div>
-        </div>
-
-        <p class="earnings-popup-description" data-i18n="earningsPopup.description">
-          Register your interest now and get exclusive promotions with guaranteed returns
-        </p>
-
-        <button class="btn-earnings-register" onclick="openAuthSidebar('signin')" data-i18n="earningsPopup.cta">
-          Register Interest Now
-        </button>
-
-        <p class="earnings-popup-disclaimer" data-i18n="earningsPopup.disclaimer">
-          *Terms and conditions apply. Capital at risk.
-        </p>
-      </div>
-    </div> -->
-    
-    <!-- Promo Image Popup (trader.jpg) -->
-    <!-- <div class="trader-popup" id="trader-popup">
-      <div class="trader-popup-overlay"></div>
-      <div class="trader-popup-content">
-        <button class="trader-popup-close" id="trader-popup-close" aria-label="Close">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 6L6 18M6 6l12 12" />
-          </svg>
-        </button>
-        <div class="trader-popup-image-container">
-          <img src="assets/images/trader.jpg" alt="Promo Offer" class="trader-popup-img">
-          <button class="btn-trader-claim" onclick="openAuthSidebar('signin')">Claim Offer</button>
-        </div>
-      </div>
-    </div> -->
 
     <!-- About Us Section -->
     <section class="about-us">
@@ -215,42 +130,88 @@
       </div>
     </section>
 
-    <!-- Traders Club Modal -->
+    <!-- Traders Club Modal
     <div class="traders-club-modal" id="tradersClubModal">
       <div class="traders-club-modal-overlay"></div>
-      <div class="traders-club-modal-content">
-        <button class="modal-close" id="closeTradersClubModal">
+      <div class="traders-club-modal-content" id="tradersClubModalContent">
+        <button type="button" class="modal-close" id="closeTradersClubModal" aria-label="Close">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div class="modal-header">
-          <h3 class="modal-title" data-i18n="tradersClub.modalTitle">Join Traders Club</h3>
-          <p class="modal-subtitle" data-i18n="tradersClub.modalSubtitle">Get your free virtual card today</p>
+        <div id="tradersClubModalBody">
+          <div class="modal-header">
+            <h3 class="modal-title" data-i18n="tradersClub.modalTitle">Join Traders Club</h3>
+            <p class="modal-subtitle" data-i18n="tradersClub.modalSubtitle">Get your free virtual card today</p>
+          </div>
+          <form class="traders-club-form" id="tradersClubForm" novalidate>
+            <div class="traders-club-mode" role="group" aria-labelledby="tradersClubModeLabel">
+              <span id="tradersClubModeLabel" class="traders-club-mode-label" data-i18n="tradersClub.choosePath">How would you like to continue?</span>
+              <div class="traders-club-mode-toggle">
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="tradersClubMode" value="existing" checked>
+                  <span data-i18n="tradersClub.haveAccount">I have an account</span>
+                </label>
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="tradersClubMode" value="new">
+                  <span data-i18n="tradersClub.createAccount">Create an account</span>
+                </label>
+              </div>
+            </div>
+
+            <div id="tradersClubPanelExisting" class="traders-club-panel">
+              <div class="form-group">
+                <label for="clubEmailExisting" data-i18n="tradersClub.email">Email</label>
+                <input type="email" id="clubEmailExisting" name="email_existing"
+                  data-i18n-placeholder="tradersClub.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <p class="traders-club-hint" data-i18n="tradersClub.existingHint">We’ll check your Traders Club eligibility using your account email.</p>
+            </div>
+
+            <div id="tradersClubPanelNew" class="traders-club-panel" hidden>
+              <div class="traders-club-form-row">
+                <div class="form-group">
+                  <label for="clubFirstname" data-i18n="auth.firstName">First name</label>
+                  <input type="text" id="clubFirstname" name="firstname"
+                    data-i18n-placeholder="auth.firstNamePlaceholder" placeholder="John" autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="clubLastname" data-i18n="auth.lastName">Last name</label>
+                  <input type="text" id="clubLastname" name="lastname"
+                    data-i18n-placeholder="auth.lastNamePlaceholder" placeholder="Doe" autocomplete="family-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="clubEmailNew" data-i18n="tradersClub.email">Email</label>
+                <input type="email" id="clubEmailNew" name="email_new"
+                  data-i18n-placeholder="tradersClub.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="clubPhone" data-i18n="tradersClub.phone">Phone</label>
+                <input type="tel" id="clubPhone" name="phone"
+                  data-i18n-placeholder="tradersClub.phonePlaceholder" placeholder="Enter your phone"
+                  autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="clubPassword" data-i18n="auth.password">Password</label>
+                <input type="password" id="clubPassword" name="password"
+                  data-i18n-placeholder="auth.passwordPlaceholder" placeholder="Create a password" minlength="8"
+                  autocomplete="new-password">
+              </div>
+            </div>
+
+            <p class="traders-club-form-error" id="tradersClubFormError" role="alert" hidden></p>
+
+            <button type="submit" class="btn-submit-club" id="tradersClubSubmit" data-i18n="tradersClub.continueEligible">
+              Continue
+            </button>
+          </form>
         </div>
-        <form class="traders-club-form" id="tradersClubForm">
-          <div class="form-group">
-            <label for="clubName" data-i18n="tradersClub.name">Name</label>
-            <input type="text" id="clubName" name="name" data-i18n-placeholder="tradersClub.namePlaceholder"
-              placeholder="Enter your name" required>
-          </div>
-          <div class="form-group">
-            <label for="clubEmail" data-i18n="tradersClub.email">Email</label>
-            <input type="email" id="clubEmail" name="email" data-i18n-placeholder="tradersClub.emailPlaceholder"
-              placeholder="Enter your email" required>
-          </div>
-          <div class="form-group">
-            <label for="clubPhone" data-i18n="tradersClub.phone">Phone</label>
-            <input type="tel" id="clubPhone" name="phone" data-i18n-placeholder="tradersClub.phonePlaceholder"
-              placeholder="Enter your phone" required>
-          </div>
-          <button type="submit" class="btn-submit-club" data-i18n="tradersClub.getMyFreeCard">
-            Get My Free Card
-          </button>
-        </form>
       </div>
-    </div>
+    </div> -->
 
     <!-- Insights Section -->
     <section class="insights">
@@ -525,6 +486,8 @@
       </div>
     </section>
 
+    <?php include __DIR__ . '/partials/home-faq-section.php'; ?>
+
     <!-- Deposit Account Section -->
     <section class="deposit-section">
       <div class="container">
@@ -556,51 +519,89 @@
       </div>
     </section>
 
-    <!-- Deposit Modal -->
-    <div class="deposit-modal" id="depositModal">
+    <!-- Deposit Modal (same API flow as Traders Club; group = DepositAccount) -->
+    <!-- <div class="deposit-modal" id="depositModal">
       <div class="deposit-modal-overlay"></div>
-      <div class="deposit-modal-content">
-        <button class="modal-close" id="closeDepositModal">
+      <div class="deposit-modal-content" id="depositModalContent">
+        <button type="button" class="modal-close" id="closeDepositModal" aria-label="Close">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div class="modal-header">
-          <h3 class="modal-title" data-i18n="deposit.modalTitle">Open Deposit Account</h3>
-          <p class="modal-subtitle" data-i18n="deposit.modalSubtitle">Fill in your details and our manager will contact
-            you</p>
+        <div id="depositModalBody">
+          <div class="modal-header">
+            <h3 class="modal-title" data-i18n="deposit.modalTitle">Open Deposit Account</h3>
+            <p class="modal-subtitle" data-i18n="deposit.modalSubtitle">Fill in your details and our manager will contact
+              you</p>
+          </div>
+          <form class="deposit-form" id="depositForm" novalidate>
+            <div class="traders-club-mode" role="group" aria-labelledby="depositModeLabel">
+              <span id="depositModeLabel" class="traders-club-mode-label" data-i18n="deposit.choosePath">How would you like to continue?</span>
+              <div class="traders-club-mode-toggle">
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="depositMode" value="existing" checked>
+                  <span data-i18n="deposit.haveAccount">I have an account</span>
+                </label>
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="depositMode" value="new">
+                  <span data-i18n="deposit.createAccount">Create an account</span>
+                </label>
+              </div>
+            </div>
+
+            <div id="depositPanelExisting" class="traders-club-panel">
+              <div class="form-group">
+                <label for="depositEmailExisting" data-i18n="deposit.email">Email</label>
+                <input type="email" id="depositEmailExisting" name="email_existing"
+                  data-i18n-placeholder="deposit.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <p class="traders-club-hint" data-i18n="deposit.existingHint">We’ll check your eligibility using your account email.</p>
+            </div>
+
+            <div id="depositPanelNew" class="traders-club-panel" hidden>
+              <div class="traders-club-form-row">
+                <div class="form-group">
+                  <label for="depositFirstname" data-i18n="auth.firstName">First name</label>
+                  <input type="text" id="depositFirstname" name="firstname"
+                    data-i18n-placeholder="auth.firstNamePlaceholder" placeholder="John" autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="depositLastname" data-i18n="auth.lastName">Last name</label>
+                  <input type="text" id="depositLastname" name="lastname"
+                    data-i18n-placeholder="auth.lastNamePlaceholder" placeholder="Doe" autocomplete="family-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="depositEmailNew" data-i18n="deposit.email">Email</label>
+                <input type="email" id="depositEmailNew" name="email_new"
+                  data-i18n-placeholder="deposit.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="depositPhone" data-i18n="deposit.phone">Phone</label>
+                <input type="tel" id="depositPhone" name="phone"
+                  data-i18n-placeholder="deposit.phonePlaceholder" placeholder="+1 (555) 000-0000"
+                  autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="depositPassword" data-i18n="auth.password">Password</label>
+                <input type="password" id="depositPassword" name="password"
+                  data-i18n-placeholder="auth.passwordPlaceholder" placeholder="Enter your password" minlength="8"
+                  autocomplete="new-password">
+              </div>
+            </div>
+
+            <p class="traders-club-form-error" id="depositFormError" role="alert" hidden></p>
+
+            <button type="submit" class="btn-submit-deposit" id="depositSubmit" data-i18n="deposit.continueEligible">Continue</button>
+          </form>
+          <p class="modal-disclaimer" data-i18n="deposit.modalDisclaimer">By submitting, you agree to our Terms of Service
+            and Privacy Policy</p>
         </div>
-        <form class="deposit-form" id="depositForm">
-          <div class="form-group">
-            <label for="depositName" data-i18n="deposit.name">Name</label>
-            <input type="text" id="depositName" name="name" placeholder="Enter your name"
-              data-i18n-placeholder="deposit.namePlaceholder" required>
-          </div>
-          <div class="form-group">
-            <label for="depositEmail" data-i18n="deposit.email">Email</label>
-            <input type="email" id="depositEmail" name="email" placeholder="Enter your email"
-              data-i18n-placeholder="deposit.emailPlaceholder" required>
-          </div>
-          <div class="form-group">
-            <label for="depositPhone" data-i18n="deposit.phone">Phone</label>
-            <input type="tel" id="depositPhone" name="phone" placeholder="+1 (555) 000-0000"
-              data-i18n-placeholder="deposit.phonePlaceholder" required>
-          </div>
-          <button type="submit" class="btn-submit-deposit">
-            <span class="btn-text" data-i18n="deposit.submitApplication">Submit Application</span>
-            <span class="btn-loading">
-              <svg class="spinner" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none"
-                  stroke-dasharray="31.4 31.4" stroke-linecap="round" />
-              </svg>
-            </span>
-          </button>
-        </form>
-        <p class="modal-disclaimer" data-i18n="deposit.modalDisclaimer">By submitting, you agree to our Terms of Service
-          and Privacy Policy</p>
       </div>
-    </div>
+    </div> -->
 
     <!-- Telegram Section -->
     <section class="telegram-section">
@@ -779,7 +780,6 @@
           </div>
         </div>
 
-
         <a href="https://www.trustpilot.com/review/tradertok.com" target="_blank" class="trustpilot-link">
           <span data-i18n="trustpilot.moreReviews">More reviews on Trustpilot</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
@@ -788,6 +788,7 @@
         </a>
       </div>
     </section>
+
 
     <!-- Banking Partners Section -->
     <section class="payment-methods-section">

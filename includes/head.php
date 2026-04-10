@@ -9,6 +9,7 @@
     <meta name="keywords" content="<?php echo $get->keyw; ?>">
     <meta name="author" content=" <?php echo $get->brand_name; ?>">
     <?php echo $get->head_code; ?>
+    <link rel="stylesheet" href="assets/css/design-tokens.css" >
   </head>
 
   <body>

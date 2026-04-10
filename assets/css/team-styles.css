@@ -198,8 +198,8 @@ body.light-theme .department-tab.active {
 }
 
 .team-stack {
-    width: 800px;
-    max-width: 100%;
+    width: 100%;
+    max-width: none;
     flex: 1;
     position: absolute;
     left: -9999px;
@@ -265,7 +265,8 @@ body.light-theme .department-tab.active {
 .team-card-content {
     position: relative;
     z-index: 2;
-    max-width: 550px;
+    width: 100%;
+    max-width: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -284,7 +285,7 @@ body.light-theme .department-tab.active {
     line-height: 1.3;
     margin: 0 0 16px 0;
     flex-shrink: 0;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .team-card-role {
@@ -294,6 +295,13 @@ body.light-theme .department-tab.active {
     opacity: 0.7;
     margin: 0;
     font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+}
+
+.team-card-avatar {
+    display: none;
 }
 
 /* Stack z-index and variables - cards stack from bottom to top */
@@ -454,7 +462,7 @@ body.light-theme .department-tab.active {
     }
 
     .team-card-content {
-        max-width: calc(100% - 90px);
+        max-width: none;
         min-height: auto;
     }
 
@@ -469,17 +477,7 @@ body.light-theme .department-tab.active {
     }
 
     .team-card-avatar {
-        position: absolute;
-        width: 75px;
-        height: 75px;
-        object-fit: cover;
-        object-position: center top;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-        left: auto;
-        right: 15px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        display: none;
     }
 }
 
@@ -544,7 +542,7 @@ body.light-theme .department-tab.active {
     }
 
     .team-card-content {
-        max-width: calc(100% - 75px);
+        max-width: none;
     }
 
     .team-card-name {
@@ -558,10 +556,7 @@ body.light-theme .department-tab.active {
     }
 
     .team-card-avatar {
-        width: 65px;
-        height: 65px;
-        right: 10px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        display: none;
     }
 }
 
