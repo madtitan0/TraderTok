@@ -57,7 +57,47 @@ if (!$page) {
       require("includes/client-service-agreement.php");
         }elseif ($page == 'cookie-policy'){
       require("includes/cookie-policy.php");
-        }
+        } elseif ($page == 'top-instruments'){
+      require("includes/top-instruments.php");
+        }  elseif ($page == 'help-center'){
+      require("includes/help-center.php");
+        }  elseif ($page == 'how-to-deposit'){
+      require("includes/how-to-deposit.php");
+        }  elseif ($page == 'how-to-withdraw'){
+      require("includes/how-to-withdraw.php");
+        }  elseif ($page == 'how-to-open-account'){
+      require("includes/how-to-open-account.php");
+        }  elseif ($page == 'how-to-verify-account'){
+      require("includes/how-to-verify-account.php");
+        }  elseif ($page == 'client-vulnerability'){
+      require("includes/client-vulnerability.php");
+        }  elseif ($page == 'how-copy-trading-works'){
+      require("includes/how-copy-trading-works.php");
+        }  elseif ($page == 'responsible-trading'){
+      require("includes/responsible-trading.php");
+        }  elseif ($page == 'interest-on-balance'){
+      require("includes/interest-on-balance.php");
+        }  elseif ($page == 'what-is-leverage-and-margin'){
+      require("includes/what-is-leverage-and-margin.php");
+        }  elseif ($page == 'buy-and-sell-explained'){
+      require("includes/buy-and-sell-explained.php");
+        }  elseif ($page == 'tax-report'){
+      require("includes/tax-report.php");
+        }  elseif ($page == 'accessibility'){
+      require("includes/accessibility.php");
+        }  elseif ($page == 'key-information-documents'){
+      require("includes/key-information-documents.php");
+        }  elseif ($page == 'invite-a-friend'){
+      require("includes/invite-a-friend.php");
+        }  elseif ($page == 'ib-program'){
+      require("includes/ib-program.php");
+        }  elseif ($page == 'tradertok-club'){
+      require("includes/tradertok-club.php");
+        }  elseif ($page == 'segregated-account'){
+      require("includes/segregated-account.php");
+        }  elseif ($page == 'key-information-documents'){
+      require("includes/key-information-documents.php");
+        } 
          else if($page == 'otherPage'){
 
             foreach ($get->other_page as $pageOther) {

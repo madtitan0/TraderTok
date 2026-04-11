@@ -9,15 +9,15 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
-        <span data-i18n="privacyPolicyPage.heroTitle">COOKIE POLICY</span>
-      </div>
-      <h1 class="doc-page-hero-title">
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+    <div class="doc-page-hero-title">
+      <span data-i18n="privacyPolicyPage.heroTitle">Cookies Policy</span>
+    </div>
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">Introduction</span>
       </h1>
       <p class="doc-page-hero-subtitle">
-        This Cookie Policy explains how Amber Rock Trade Ltd (“Company”, “we”, “us”, or “our”)
+        This Cookies Policy explains how Amber Rock Trade Ltd (“Company”, “we”, “us”, or “our”)
         uses cookies and similar technologies when you visit our website <a class="license-link"
           href="https://tradertok.com/">
           https://tradertok.com/</a>
@@ -31,7 +31,7 @@
         your browser settings.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">1. What Are Cookies?</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -40,7 +40,7 @@
         experience, and provide analytical and performance-related information.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">
           Types of Cookies We Use
         </span>
@@ -112,7 +112,7 @@
         These cookies are only placed with your consent, where required by applicable law.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">3. Third-Party Cookies
         </span>
       </h1>
@@ -133,7 +133,7 @@
         parties.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">4. How Long Cookies Are Stored
         </span>
       </h1>
@@ -144,7 +144,7 @@
       </ul>
       <p class="doc-page-hero-subtitle"></p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">5. Managing Cookies
         </span>
       </h1>
@@ -164,7 +164,7 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">6. Data Protection and Privacy
         </span>
       </h1>
@@ -173,11 +173,11 @@
         how we process personal data, please refer to our Privacy Policy.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. Changes to This Cookie Policy
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">7. Changes to This Cookies Policy
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">We may update this Cookie Policy from time to time. Any changes will be posted
+      <p class="doc-page-hero-subtitle">We may update this Cookies Policy from time to time. Any changes will be posted
         on this
         page with an updated revision date.</p>
     </div>

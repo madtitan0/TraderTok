@@ -9,11 +9,11 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
-        <span data-i18n="privacyPolicyPage.heroTitle">RISK DISCLOSURE</span>
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+      <div class="doc-page-hero-title">
+        <span data-i18n="privacyPolicyPage.heroTitle">RISK DISCLAIMER</span>
       </div>
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">Definitions</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
@@ -38,7 +38,7 @@
         undersigned ("Customer," "you," "your") acknowledges, understands, and agrees to the following:
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">1. GENERAL RISK DISCLOSURE ON TRADING</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -76,7 +76,7 @@
         for all trading decisions and related risks.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">2. DISCLOSURE ASSOCIATED WITH LONG CFD POSITIONS (FOR PURCHASERS
           OF CFDS)
         </span>
@@ -96,7 +96,7 @@
         in a loss.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">3. DISCLOSURE ASSOCIATED WITH SHORT CFD POSITIONS (FOR SELLERS OF
           CFDS)
         </span>
@@ -121,7 +121,7 @@
         certain circumstances. Clients acknowledge and accept these risks before entering short positions.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">4. HIGH LEVERAGE AND LOW MARGINS CAN LEAD TO RAPID LOSSES
         </span>
       </h1>
@@ -149,7 +149,7 @@
         directly influences the outcome of their investment.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">5. MARGIN REQUIREMENTS
         </span>
       </h1>
@@ -171,7 +171,7 @@
         loss, for which Client will be liable.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">6. CASH SETTLEMENT
         </span>
       </h1>
@@ -186,7 +186,7 @@
         the Company.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">7. OTC TRANSACTIONS
         </span>
       </h1>
@@ -211,7 +211,7 @@
         and execution, and by trading OTC instruments, you acknowledge and accept these risks.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">8. CFDS AND FX CONTRACTS
         </span>
       </h1>
@@ -223,7 +223,7 @@
         Customer’s sole responsibility to monitor positions and manage all associated risks.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">9. PRICES, MARGIN, AND VALUATIONS ARE SET BY THE COMPANY AND MAY
           DIFFER FROM OTHER SOURCES
         </span>
@@ -242,7 +242,7 @@
         time to time.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">10. EXTENT OF LOSSES
         </span>
       </h1>
@@ -254,7 +254,7 @@
         risks associated with your position before entering any transaction.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">11. RIGHTS TO UNDERLYING ASSETS
         </span>
       </h1>
@@ -268,7 +268,7 @@
         and commodities.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">12. CURRENCY RISK
         </span>
       </h1>
@@ -284,7 +284,7 @@
         entering into such transactions.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">13. ONE-CLICK TRADING AND IMMEDIATE EXECUTION
         </span>
       </h1>
@@ -300,7 +300,7 @@
         rapidly moving markets.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">14. THE COMPANY IS NOT AN ADVISER OR FIDUCIARY
         </span>
       </h1>
@@ -322,7 +322,7 @@
         provides.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">15. RECOMMENDATIONS ARE NOT GUARANTEED
         </span>
       </h1>
@@ -344,7 +344,7 @@
         recommendations is done entirely at the Customer’s own risk.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">16. NO GUARANTEES OF PROFIT
         </span>
       </h1>
@@ -358,7 +358,7 @@
         bearing any potential losses resulting from trading these instruments.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">17. CUSTOMER MAY NOT BE ABLE TO CLOSE OPEN POSITIONS
         </span>
       </h1>
@@ -373,7 +373,7 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">18. INTERNET TRADING
         </span>
       </h1>
@@ -392,7 +392,7 @@
         on such systems is at the Customer’s own risk.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">19. QUOTING ERRORS
         </span>
       </h1>
@@ -416,7 +416,7 @@
         submitted within 14 calendar days of the trade or quoting error to allow for a timely and fair review.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">20. UPDATES
         </span>
       </h1>

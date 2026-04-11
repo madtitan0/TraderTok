@@ -34,14 +34,14 @@
 
           <!-- Top Instruments -->
           <div class="footer-column">
-            <h3 class="footer-title" data-i18n="footer.topInstruments">Top Instruments</h3>
+            <a href="top-instruments" class="footer-title footer-title-link" data-i18n="footer.topInstruments">Top Instruments</a>
             <ul class="footer-links">
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.bitcoin">Bitcoin (BTC)</a></li>
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.ethereum">Ethereum (ETH)</a></li>
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.shiba">Shiba (In Millions)</a></li>
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.tesla">Tesla</a></li>
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.apple">Apple</a></li>
-              <li><a href="/events-calendar" class="footer-link" data-i18n="footer.nio">Nio</a></li>
+              <li><span class="footer-link" data-i18n="footer.bitcoin">Bitcoin (BTC)</span></li>
+              <li><span class="footer-link" data-i18n="footer.ethereum">Ethereum (ETH)</span></li>
+              <li><span class="footer-link" data-i18n="footer.shiba">Shiba (In Millions)</span></li>
+              <li><span class="footer-link" data-i18n="footer.tesla">Tesla</span></li>
+              <li><span class="footer-link" data-i18n="footer.apple">Apple</span></li>
+              <li><span class="footer-link" data-i18n="footer.nio">Nio</span></li>
             </ul>
           </div>
 
@@ -49,14 +49,13 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.support">Support</h3>
             <ul class="footer-links">
-              <li><a href="#" class="footer-link" data-i18n="footer.helpCenter">Help Center</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.howToDeposit">How to deposit</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.howToWithdraw">How to withdraw</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.howToOpenAccount">How to Open an Account</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.howToVerifyAccount">How to verify your account</a></li>
+              <li><a href="help-center" class="footer-link" data-i18n="footer.helpCenter">Help Center</a></li>
+              <li><a href="how-to-deposit" class="footer-link" data-i18n="footer.howToDeposit">How to deposit</a></li>
+              <li><a href="how-to-withdraw" class="footer-link" data-i18n="footer.howToWithdraw">How to withdraw</a></li>
+              <li><a href="how-to-open-account" class="footer-link" data-i18n="footer.howToOpenAccount">How to Open an Account</a></li>
+              <li><a href="how-to-verify-account" class="footer-link" data-i18n="footer.howToVerifyAccount">How to verify your account</a></li>
               <li><a href="contact-us" class="footer-link" data-i18n="footer.contactUs">Contact Us</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.clientVulnerability">Client Vulnerability</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.complaintsData">Complaints Data (FCA Clients)</a></li>
+              <li><a href="client-vulnerability" class="footer-link" data-i18n="footer.clientVulnerability">Client Vulnerability</a></li>
             </ul>
           </div>
 
@@ -64,14 +63,13 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.learnMore">Learn More</h3>
             <ul class="footer-links">
-              <li><a href="#" class="footer-link" data-i18n="footer.howCopyTradingWorks">How CopyTrading Works</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.responsibleTrading">Responsible Trading</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.interestOnBalance">Interest on Balance</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.whatIsLeverageAndMargin">What is Leverage &amp; Margin</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.buyAndSellExplained">Buy and Sell Explained</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.taxReport">Tax Report</a></li>
+              <li><a href="how-copy-trading-works" class="footer-link" data-i18n="footer.howCopyTradingWorks">How CopyTrading Works</a></li>
+              <li><a href="responsible-trading" class="footer-link" data-i18n="footer.responsibleTrading">Responsible Trading</a></li>
+              <li><a href="interest-on-balance" class="footer-link" data-i18n="footer.interestOnBalance">Interest on Balance</a></li>
+              <li><a href="what-is-leverage-and-margin" class="footer-link" data-i18n="footer.whatIsLeverageAndMargin">What is Leverage &amp; Margin</a></li>
+              <li><a href="buy-and-sell-explained" class="footer-link" data-i18n="footer.buyAndSellExplained">Buy and Sell Explained</a></li>
+              <li><a href="tax-report" class="footer-link" data-i18n="footer.taxReport">Tax Report</a></li>
               <li><a href="trading-essentials" class="footer-link" data-i18n="nav.educationResources">Education Resources</a></li>
-              <li><a href="events-calendar" class="footer-link" data-i18n="nav.marketsOverview">Market Overview</a></li>
             </ul>
           </div>
 
@@ -127,8 +125,7 @@
             <h3 class="footer-title" data-i18n="footer.aboutUs">About Us</h3>
             <ul class="footer-links">
               <li><a href="about" class="footer-link" data-i18n="footer.aboutTraderTok">About TraderTok</a></li>
-              <li><a href="reviews" class="footer-link" data-i18n="footer.reviews">Reviews</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.accessibility">Accessibility</a></li>
+              <li><a href="accessibility" class="footer-link" data-i18n="footer.accessibility">Accessibility</a></li>
             </ul>
           </div>
 
@@ -143,7 +140,7 @@
               <li><a href="terms-conditions" class="footer-link" data-i18n="nav.termsConditions">Terms &amp; Conditions</a></li>
               <li><a href="client-service-agreement" class="footer-link" data-i18n="nav.clientServiceAgreement">Client Service Agreement</a></li>
               <li><a href="risk-disclosure" class="footer-link" data-i18n="nav.riskDisclaimer">Risk Disclaimer</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.keyInformationDocuments">Key Information Documents</a></li>
+              <li><a href="key-information-documents" class="footer-link" data-i18n="footer.keyInformationDocuments">Key Information Documents</a></li>
             </ul>
           </div>
 
@@ -151,10 +148,10 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.partnersAndPromotions">Partners and Promotions</h3>
             <ul class="footer-links">
-              <li><a href="#" class="footer-link" data-i18n="footer.inviteAFriend">Invite a friend</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.ibProgram">IB Program</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.traderTokClub">TraderTok Club</a></li>
-              <li><a href="#" class="footer-link" data-i18n="footer.segregatedAccount">Segregated Account</a></li>
+              <li><a href="invite-a-friend" class="footer-link" data-i18n="footer.inviteAFriend">Invite a friend</a></li>
+              <li><a href="ib-program" class="footer-link" data-i18n="footer.ibProgram">IB Program</a></li>
+              <li><a href="tradertok-club" class="footer-link" data-i18n="footer.traderTokClub">TraderTok Club</a></li>
+              <li><a href="segregated-account" class="footer-link" data-i18n="footer.segregatedAccount">Segregated Account</a></li>
               <li><a href="offers-promotions" class="footer-link" data-i18n="footer.offersAndPromotions">Offers &amp; Promotions</a></li>
             </ul>
           </div>
