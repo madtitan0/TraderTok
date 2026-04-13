@@ -23,6 +23,9 @@ function routeUrl($pageName, array $params = [])
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>window.subdomainData = <?php echo $subdomainJS; ?>;</script>
+    <?php if (!empty($tradertok_extra_geo_main_hosts) && is_array($tradertok_extra_geo_main_hosts)) : ?>
+    <script>window.TRADERTOK_MAIN_DOMAINS = <?php echo json_encode(array_values($tradertok_extra_geo_main_hosts)); ?>;</script>
+    <?php endif; ?>
 
     <!-- Canonical subdomain map + region redirect (load order matters) -->
     <script src="assets/js/tradertok-subdomain-config.js?v=<?php echo filemtime('assets/js/tradertok-subdomain-config.js'); ?>"></script>

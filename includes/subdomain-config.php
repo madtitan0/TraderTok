@@ -60,4 +60,11 @@ $subdomainJS = 'null';
 if ($detectedSubdomainData) {
     $subdomainJS = json_encode($detectedSubdomainData);
 }
+
+/**
+ * Optional extra apex hostnames treated as "main" for region-redirect.js first-visit geo
+ * (in addition to tradertok.com / www). Example: ['mybrand.com', 'www.mybrand.com']
+ * Leave empty if you only use tradertok.com.
+ */
+$tradertok_extra_geo_main_hosts = [];
 ?>

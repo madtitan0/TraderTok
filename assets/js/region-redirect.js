@@ -14,6 +14,19 @@
     'use strict';
 
     var MAIN_DOMAINS = ['tradertok.com', 'www.tradertok.com'];
+
+    function getMainDomains() {
+        var list = MAIN_DOMAINS.slice();
+        if (Array.isArray(window.TRADERTOK_MAIN_DOMAINS)) {
+            for (var i = 0; i < window.TRADERTOK_MAIN_DOMAINS.length; i++) {
+                var h = window.TRADERTOK_MAIN_DOMAINS[i];
+                if (h && list.indexOf(h) === -1) {
+                    list.push(h);
+                }
+            }
+        }
+        return list;
+    }
     var REDIRECT_SESSION_KEY = 'tradertok_redirected';
     var GEO_CACHE_KEY = 'tradertok_geo_region';
     var GEO_TIMEOUT_MS = 4000;
@@ -73,7 +86,7 @@
 
     function isMainDomain() {
         var h = getHostname();
-        return MAIN_DOMAINS.indexOf(h) !== -1 ||
+        return getMainDomains().indexOf(h) !== -1 ||
                h === 'localhost' ||
                /^\d+\.\d+\.\d+\.\d+$/.test(h);
     }
@@ -157,6 +170,38 @@
         window.location.replace(dest);
     }
 
+    function fetchWithAbort(url, timeoutMs) {
+        var controller = new AbortController();
+        var tid = setTimeout(function () { controller.abort(); }, timeoutMs);
+        return fetch(url, { signal: controller.signal }).finally(function () {
+            clearTimeout(tid);
+        });
+    }
+
+    async function fetchVisitorCountryCodeForRedirect() {
+        try {
+            var response = await fetchWithAbort('https://ipapi.co/json/', GEO_TIMEOUT_MS);
+            if (response.ok) {
+                var data = await response.json();
+                if (data && data.country_code) {
+                    return String(data.country_code).toUpperCase();
+                }
+            }
+        } catch (e) {}
+
+        try {
+            var response2 = await fetchWithAbort('https://get.geojs.io/v1/ip/country.json', GEO_TIMEOUT_MS);
+            if (response2.ok) {
+                var data2 = await response2.json();
+                if (data2 && data2.country && String(data2.country).length === 2) {
+                    return String(data2.country).toUpperCase();
+                }
+            }
+        } catch (e2) {}
+
+        return null;
+    }
+
     async function attemptGeoRedirect() {
         if (!shouldAttemptRedirect()) return;
 
@@ -167,16 +212,8 @@
             return;
         }
 
-        var controller = new AbortController();
-        var timeout = setTimeout(function () { controller.abort(); }, GEO_TIMEOUT_MS);
-
         try {
-            var response = await fetch('https://ipapi.co/json/', { signal: controller.signal });
-            clearTimeout(timeout);
-            if (!response.ok) return;
-
-            var data = await response.json();
-            var code = data.country_code;
+            var code = await fetchVisitorCountryCodeForRedirect();
             if (!code) return;
 
             var sub = mapCountryCodeToSubdomain(code);
@@ -184,9 +221,7 @@
                 try { sessionStorage.setItem(GEO_CACHE_KEY, sub); } catch (e) {}
                 performRedirect(sub);
             }
-        } catch (e) {
-            clearTimeout(timeout);
-        }
+        } catch (e) {}
     }
 
     function initHashChangeListener() {

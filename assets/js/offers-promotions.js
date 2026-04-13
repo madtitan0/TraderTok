@@ -783,13 +783,53 @@
     // Geo-Detection
     // -------------------------------------------------------------------------
 
+    function fetchWithAbort(url, timeoutMs) {
+        var controller = new AbortController();
+        var tid = setTimeout(function () {
+            controller.abort();
+        }, timeoutMs);
+        return fetch(url, { signal: controller.signal }).finally(function () {
+            clearTimeout(tid);
+        });
+    }
+
+    /**
+     * ISO country code (alpha-2). Uses ipapi.co first, then GeoJS (CORS-friendly fallback)
+     * if the first request fails — avoids relying on AbortSignal.timeout (not in older Safari).
+     */
+    async function fetchVisitorCountryCode() {
+        var ms = 4000;
+        try {
+            var response = await fetchWithAbort('https://ipapi.co/json/', ms);
+            if (response.ok) {
+                var data = await response.json();
+                if (data && data.country_code) {
+                    return String(data.country_code).toUpperCase();
+                }
+            }
+        } catch (e) {}
+
+        try {
+            var response2 = await fetchWithAbort('https://get.geojs.io/v1/ip/country.json', ms);
+            if (response2.ok) {
+                var data2 = await response2.json();
+                if (data2 && data2.country && String(data2.country).length === 2) {
+                    return String(data2.country).toUpperCase();
+                }
+            }
+        } catch (e2) {}
+
+        return null;
+    }
+
     async function attemptGeoDetection() {
         try {
-            // Check if a region is already selected
             if (selectedRegion) return;
 
-            // Check sessionStorage cache using a unique key
-            var cached = sessionStorage.getItem('tradertok_offers_geo');
+            var cached = null;
+            try {
+                cached = sessionStorage.getItem('tradertok_offers_geo');
+            } catch (e) {}
             if (cached) {
                 var cachedRegion = getRegionById(cached);
                 if (cachedRegion && !selectedRegion) {
@@ -798,23 +838,16 @@
                 return;
             }
 
-            var response = await fetch('https://ipapi.co/json/', {
-                signal: AbortSignal.timeout(3000)
-            });
-
-            if (!response.ok) return;
-
-            var data = await response.json();
-            var countryCode = data.country_code;
+            var countryCode = await fetchVisitorCountryCode();
             if (!countryCode) return;
 
             var detectedRegion = mapCountryToRegion(countryCode);
             if (!detectedRegion) return;
 
-            // Cache result
-            sessionStorage.setItem('tradertok_offers_geo', detectedRegion);
+            try {
+                sessionStorage.setItem('tradertok_offers_geo', detectedRegion);
+            } catch (e3) {}
 
-            // Only auto-select if no region already selected
             if (!selectedRegion) {
                 selectRegion(detectedRegion);
             }
