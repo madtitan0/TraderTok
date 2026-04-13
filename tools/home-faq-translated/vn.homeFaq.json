@@ -1,0 +1,359 @@
+{
+  "title": "Câu hỏi thường gặp",
+  "subtitle": "Giải đáp nhanh về TraderTok: thị trường, tài khoản, nạp rút, phí, quy định và hỗ trợ.",
+  "lead": "Khám phá các chủ đề bên dưới. Mỗi mục có thể mở rộng để xem chi tiết.",
+  "sections": [
+    {
+      "label": "Thông tin chung",
+      "intro": "Thông tin cốt lõi về TraderTok, thị trường của chúng tôi và cách nền tảng kết nối.",
+      "items": [
+        {
+          "question": "TraderTok là gì?",
+          "paragraphs": [
+            "TraderTok là nền tảng giao dịch trực tuyến toàn cầu, cung cấp quyền truy cập thị trường tài chính gồm forex, cổ phiếu, hàng hóa, chỉ số và tiền mã hóa.",
+            "Nền tảng có trên máy tính, di động và web, phù hợp cả người mới và trader có kinh nghiệm.",
+            "TraderTok hoạt động dưới Amber Rock Trade Ltd, được ủy quyền và giám sát bởi Ủy ban Dịch vụ Tài chính (FSC) Mauritius."
+          ]
+        },
+        {
+          "question": "TraderTok cung cấp những công cụ giao dịch nào?",
+          "paragraphs": [
+            "TraderTok cho phép truy cập:"
+          ],
+          "bullets": [
+            "Forex (cặp tiền tệ)",
+            "Hàng hóa (ví dụ: vàng, dầu)",
+            "Cổ phiếu từ các sàn lớn trên thế giới",
+            "Chỉ số thị trường",
+            "Tiền mã hóa"
+          ],
+          "paragraphs_after": [
+            "Danh mục công cụ có thể khác nhau tùy khu vực pháp lý và yêu cầu quy định."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Giáo dục & nền tảng",
+      "intro": "Tài nguyên học tập, tài khoản demo và cách truy cập nền tảng.",
+      "items": [
+        {
+          "question": "Có tài liệu giáo dục không?",
+          "paragraphs": [
+            "Có. TraderTok cung cấp tài liệu giáo dục gồm:"
+          ],
+          "bullets": [
+            "Video hướng dẫn",
+            "Buổi đào tạo",
+            "Thông tin và phân tích thị trường",
+            "Tài khoản demo để luyện tập"
+          ],
+          "paragraphs_after": [
+            "Mọi nội dung giáo dục chỉ mang tính thông tin, không phải tư vấn đầu tư."
+          ]
+        },
+        {
+          "question": "Tôi có thể luyện tập trước khi dùng tiền thật không?",
+          "paragraphs": [
+            "Có. TraderTok cung cấp tài khoản demo với tiền ảo để giao dịch trong điều kiện thị trường thời gian thực mà không rủi ro tài chính.",
+            "Kết quả trên môi trường demo không đảm bảo kết quả tương tự khi giao dịch thật."
+          ]
+        },
+        {
+          "question": "Tôi có thể dùng thiết bị nào?",
+          "paragraphs": [
+            "TraderTok có sẵn trên:"
+          ],
+          "bullets": [
+            "Máy tính (Windows & Mac)",
+            "Di động (iOS & Android)",
+            "Trình duyệt web"
+          ],
+          "paragraphs_after": [
+            "Khả dụng có thể khác nhau tùy khu vực và yêu cầu kỹ thuật."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tài khoản & hỗ trợ",
+      "intro": "Mở tài khoản, xác minh và cách liên hệ đội ngũ.",
+      "items": [
+        {
+          "question": "TraderTok có hỗ trợ khách hàng không?",
+          "paragraphs": [
+            "Có. Hỗ trợ khách hàng 24/5 qua:"
+          ],
+          "bullets": [
+            "Chat trực tiếp",
+            "Email",
+            "Điện thoại",
+            "Biểu mẫu liên hệ trên website"
+          ],
+          "paragraphs_after": [
+            "Thời gian phản hồi có thể thay đổi tùy khối lượng và yêu cầu xác minh."
+          ]
+        },
+        {
+          "question": "Làm sao liên hệ hỗ trợ?",
+          "paragraphs": [
+            "Điện thoại: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+            "Email: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+            "Biểu mẫu liên hệ trên website"
+          ]
+        },
+        {
+          "question": "Làm sao mở tài khoản?",
+          "paragraphs": [
+            "Để mở tài khoản:"
+          ],
+          "bullets": [
+            "Hoàn tất đơn đăng ký trực tuyến",
+            "Xác minh danh tính",
+            "Nạp tiền",
+            "Bắt đầu giao dịch"
+          ],
+          "paragraphs_after": [
+            "Việc phê duyệt tài khoản phụ thuộc quy trình tuân thủ."
+          ]
+        },
+        {
+          "question": "Tại sao tôi phải xác minh tài khoản?",
+          "paragraphs": [
+            "Xác minh là cần thiết để:"
+          ],
+          "bullets": [
+            "Tuân thủ quy định tài chính",
+            "Ngăn chặn gian lận",
+            "Đảm bảo an toàn nền tảng"
+          ],
+          "paragraphs_after": [
+            "Giấy tờ có thể bao gồm:"
+          ],
+          "bullets_after": [
+            "Giấy tờ tùy thân",
+            "Xác minh số điện thoại",
+            "Xác minh selfie"
+          ],
+          "paragraphs_final": [
+            "Không xác minh có thể dẫn đến hạn chế tài khoản."
+          ]
+        },
+        {
+          "question": "Tôi cần gì để bắt đầu?",
+          "paragraphs": [
+            "Để mở tài khoản, bạn phải:"
+          ],
+          "bullets": [
+            "Ít nhất 18 tuổi",
+            "Cung cấp giấy tờ hợp lệ",
+            "Có email và số điện thoại đã xác minh",
+            "Có kết nối internet"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Nạp & rút tiền",
+      "intro": "Nạp tiền, rút tiền và cách xử lý tiền khách hàng.",
+      "items": [
+        {
+          "question": "Nạp tiền hoạt động thế nào?",
+          "paragraphs": [
+            "Bạn có thể nạp qua:"
+          ],
+          "bullets": [
+            "Chuyển khoản ngân hàng",
+            "Thẻ tín dụng/ghi nợ",
+            "Ví điện tử được chấp thuận"
+          ],
+          "paragraphs_after": [
+            "Tiền thường được ghi có trong vòng 24 giờ, tùy nhà cung cấp.",
+            "TraderTok có thể yêu cầu thêm tài liệu để tuân thủ AML."
+          ]
+        },
+        {
+          "question": "Rút tiền hoạt động thế nào?",
+          "paragraphs": [
+            "Bạn có thể yêu cầu rút qua nền tảng; thường xử lý trong 24 giờ, tùy xác minh.",
+            "Thời gian ước tính:"
+          ],
+          "bullets": [
+            "Thẻ: tối đa 5 ngày làm việc",
+            "Chuyển khoản: tối đa 5 ngày làm việc",
+            "Ví: có thể tức thì"
+          ],
+          "paragraphs_after": [
+            "TraderTok có quyền:"
+          ],
+          "bullets_after": [
+            "Hoàn tiền về phương thức thanh toán ban đầu",
+            "Yêu cầu xác minh bổ sung",
+            "Trì hoãn xử lý để kiểm tra tuân thủ"
+          ]
+        },
+        {
+          "question": "Tiền của tôi có được bảo vệ không?",
+          "paragraphs": [
+            "Tiền khách hàng được giữ tài khoản tách biệt, tách khỏi tiền công ty.",
+            "Khoản đủ điều kiện có thể được bảo vệ tối đa USD 100.000, theo quy định và điều kiện áp dụng.",
+            "TraderTok không đảm bảo chống lại thua lỗ giao dịch."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Phí & giao dịch",
+      "intro": "Chi phí, ký quỹ và hình thức tư vấn.",
+      "items": [
+        {
+          "question": "Phí giao dịch là bao nhiêu?",
+          "paragraphs": [
+            "Lệnh micro (0,01–0,19 lot): không hoa hồng",
+            "Lệnh chuẩn (0,20–4,99 lot): USD 1,50 mỗi lệnh",
+            "Lệnh lớn (từ 5,00 lot): USD 3,50 mỗi lệnh",
+            "Hoa hồng áp dụng khi mở lệnh trừ khi có quy định khác.",
+            "TraderTok có quyền cập nhật biểu phí."
+          ]
+        },
+        {
+          "question": "Có phí chuyển đổi tiền tệ không?",
+          "paragraphs": [
+            "Có. Có thể áp dụng phí chuyển đổi khi nạp, rút hoặc giao dịch bằng tiền tệ khác nhau."
+          ]
+        },
+        {
+          "question": "Giao dịch ký quỹ là gì?",
+          "paragraphs": [
+            "Giao dịch ký quỹ cho phép bạn giao dịch với vốn vay, tăng mức độ rủi ro/lợi nhuận.",
+            "Có thể khuếch đại lợi nhuận nhưng cũng tăng rủi ro và có thể mất nhiều hơn số ký quỹ ban đầu."
+          ]
+        },
+        {
+          "question": "Có tư vấn đầu tư không?",
+          "paragraphs": [
+            "TraderTok cung cấp tài khoản tự giao dịch.",
+            "Trừ khi có thỏa thuận bằng văn bản theo hợp đồng tư vấn được quản lý, TraderTok không cung cấp tư vấn đầu tư cá nhân hóa."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Rủi ro & tuân thủ",
+      "intro": "Rủi ro quan trọng gồm tiền mã hóa và copy trading.",
+      "items": [
+        {
+          "question": "Tôi cần lưu ý rủi ro gì?",
+          "paragraphs": [
+            "Giao dịch có rủi ro đáng kể và có thể dẫn đến mất một phần hoặc toàn bộ vốn.",
+            "Bạn nên:"
+          ],
+          "bullets": [
+            "Hiểu rõ rủi ro",
+            "Chỉ giao dịch với số tiền có thể chấp nhận mất",
+            "Tìm tư vấn tài chính độc lập nếu cần"
+          ]
+        },
+        {
+          "question": "Rủi ro tiền mã hóa",
+          "paragraphs": [
+            "Thị trường tiền mã hóa biến động mạnh và mang tính đầu cơ. Giá có thể thay đổi lớn trong thời gian ngắn."
+          ]
+        },
+        {
+          "question": "Rủi ro copy trading",
+          "paragraphs": [
+            "Copy trading có thêm rủi ro. Bạn có thể theo trader có:"
+          ],
+          "bullets": [
+            "Khẩu vị rủi ro khác",
+            "Mục tiêu tài chính khác",
+            "Kinh nghiệm hạn chế"
+          ],
+          "paragraphs_after": [
+            "Kết quả trong quá khứ không đảm bảo tương lai.",
+            "Nội dung trên nền tảng không phải tư vấn đầu tư."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Quy định",
+      "intro": "Giấy phép và thông tin công ty.",
+      "items": [
+        {
+          "question": "TraderTok có được quản lý không?",
+          "paragraphs": [
+            "Có. TraderTok hoạt động dưới:"
+          ],
+          "bullets": [
+            "Amber Rock Trade Ltd",
+            "Địa chỉ: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+            "Mã số công ty: 222594",
+            "Số giấy phép: GB24203892",
+            "Cơ quan quản lý: Financial Services Commission (FSC), Mauritius"
+          ],
+          "paragraphs_after": [
+            "Khách hàng nên đối chiếu thông tin trên sổ đăng ký FSC."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TraderTok Club",
+      "intro": "Cấp độ thành viên và quyền lợi.",
+      "items": [
+        {
+          "question": "TraderTok Club là gì?",
+          "paragraphs": [
+            "TraderTok Club là chương trình khách hàng thân thiết với quyền lợi theo cấp.",
+            "Thành viên bắt đầu từ số dư tối thiểu USD 5.000 và gồm năm cấp:"
+          ],
+          "lists": [
+            {
+              "title": "Silver",
+              "items": [
+                "Webinar",
+                "Ứng dụng đối tác",
+                "Quản lý tài khoản riêng"
+              ]
+            },
+            {
+              "title": "Gold",
+              "items": [
+                "Mọi quyền lợi Silver",
+                "Lãi trên số dư",
+                "Thông tin thị trường hàng tuần",
+                "Liên hệ WhatsApp với quản lý tài khoản"
+              ]
+            },
+            {
+              "title": "Platinum",
+              "items": [
+                "Mọi quyền lợi Gold",
+                "Miễn phí rút tiền",
+                "Truy cập nội dung cao cấp"
+              ]
+            },
+            {
+              "title": "Platinum+",
+              "items": [
+                "Thư mời sự kiện",
+                "Thẻ TraderTok",
+                "Quyền lợi nền tảng nâng cao"
+              ]
+            },
+            {
+              "title": "Diamond",
+              "items": [
+                "Truy cập premium đầy đủ",
+                "Miễn giảm phí",
+                "Đặc quyền độc quyền"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "title": "Pertanyaan yang sering diajukan",
+  "subtitle": "Jawaban singkat tentang TraderTok—pasar, akun, setoran, penarikan, biaya, regulasi, dan dukungan.",
+  "lead": "Jelajahi topik di bawah ini. Setiap bagian dapat dibuka untuk detail lebih lanjut.",
+  "sections": [
+    {
+      "label": "Informasi umum",
+      "intro": "Fakta inti tentang TraderTok, pasar kami, dan cara platform bekerja.",
+      "items": [
+        {
+          "question": "Apa itu TraderTok?",
+          "paragraphs": [
+            "TraderTok adalah platform trading online global yang memberikan akses ke pasar keuangan, termasuk forex, saham, komoditas, indeks, dan mata uang kripto.",
+            "Platform ini tersedia di desktop, seluler, dan web, dirancang untuk pemula maupun trader berpengalaman.",
+            "TraderTok beroperasi di bawah Amber Rock Trade Ltd, berizin dan diawasi oleh Financial Services Commission (FSC) Mauritius."
+          ]
+        },
+        {
+          "question": "Instrumen trading apa yang ditawarkan TraderTok?",
+          "paragraphs": [
+            "TraderTok menyediakan akses ke:"
+          ],
+          "bullets": [
+            "Forex (pasangan mata uang)",
+            "Komoditas (mis. emas, minyak)",
+            "Saham dari bursa global utama",
+            "Indeks pasar",
+            "Mata uang kripto"
+          ],
+          "paragraphs_after": [
+            "Ketersediaan instrumen dapat berbeda tergantung yurisdiksi dan persyaratan regulator."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Edukasi & platform",
+      "intro": "Materi pembelajaran, akun demo, dan cara mengakses platform.",
+      "items": [
+        {
+          "question": "Apakah tersedia materi edukasi?",
+          "paragraphs": [
+            "Ya. TraderTok menyediakan materi edukasi, antara lain:"
+          ],
+          "bullets": [
+            "Video tutorial",
+            "Sesi pelatihan",
+            "Wawasan dan analisis pasar",
+            "Akun demo untuk berlatih"
+          ],
+          "paragraphs_after": [
+            "Semua konten edukasi bersifat informatif saja dan bukan merupakan nasihat investasi."
+          ]
+        },
+        {
+          "question": "Bisakah saya berlatih sebelum trading dengan uang sungguhan?",
+          "paragraphs": [
+            "Ya. TraderTok menawarkan akun demo dengan dana virtual agar Anda dapat trading dalam kondisi pasar real-time tanpa risiko finansial.",
+            "Performa di lingkungan demo tidak menjamin hasil serupa pada trading live."
+          ]
+        },
+        {
+          "question": "Perangkat apa yang bisa digunakan?",
+          "paragraphs": [
+            "TraderTok tersedia di:"
+          ],
+          "bullets": [
+            "Desktop (Windows & Mac)",
+            "Seluler (iOS & Android)",
+            "Peramban web"
+          ],
+          "paragraphs_after": [
+            "Ketersediaan dapat berbeda tergantung wilayah dan persyaratan teknis."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Akun & dukungan",
+      "intro": "Pembukaan akun, verifikasi, dan cara menghubungi tim kami.",
+      "items": [
+        {
+          "question": "Apakah TraderTok menyediakan layanan pelanggan?",
+          "paragraphs": [
+            "Ya. Dukungan pelanggan tersedia 24/5 melalui:"
+          ],
+          "bullets": [
+            "Obrolan langsung",
+            "Email",
+            "Telepon",
+            "Formulir kontak di situs web"
+          ],
+          "paragraphs_after": [
+            "Waktu respons dapat bervariasi tergantung volume dan persyaratan verifikasi."
+          ]
+        },
+        {
+          "question": "Bagaimana cara menghubungi dukungan?",
+          "paragraphs": [
+            "Telepon: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+            "Email: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+            "Formulir kontak di situs web"
+          ]
+        },
+        {
+          "question": "Bagaimana cara membuka akun?",
+          "paragraphs": [
+            "Untuk membuka akun:"
+          ],
+          "bullets": [
+            "Lengkapi aplikasi online",
+            "Verifikasi identitas Anda",
+            "Danai akun Anda",
+            "Mulai trading"
+          ],
+          "paragraphs_after": [
+            "Persetujuan akun tergantung peninjauan kepatuhan."
+          ]
+        },
+        {
+          "question": "Mengapa saya harus memverifikasi akun?",
+          "paragraphs": [
+            "Verifikasi diperlukan untuk:"
+          ],
+          "bullets": [
+            "Mematuhi regulasi keuangan",
+            "Mencegah penipuan",
+            "Memastikan keamanan platform"
+          ],
+          "paragraphs_after": [
+            "Dokumen yang mungkin diperlukan meliputi:"
+          ],
+          "bullets_after": [
+            "Bukti identitas",
+            "Verifikasi telepon",
+            "Verifikasi selfie"
+          ],
+          "paragraphs_final": [
+            "Kegagalan verifikasi dapat mengakibatkan pembatasan akun."
+          ]
+        },
+        {
+          "question": "Apa yang saya butuhkan untuk memulai?",
+          "paragraphs": [
+            "Untuk membuka akun, Anda harus:"
+          ],
+          "bullets": [
+            "Berusia minimal 18 tahun",
+            "Menyediakan identitas yang valid",
+            "Memiliki email dan nomor telepon terverifikasi",
+            "Memiliki akses internet"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Setoran & penarikan",
+      "intro": "Pendanaan akun, penarikan, dan penanganan dana klien.",
+      "items": [
+        {
+          "question": "Bagaimana cara kerja setoran?",
+          "paragraphs": [
+            "Setoran dapat dilakukan melalui:"
+          ],
+          "bullets": [
+            "Transfer bank",
+            "Kartu kredit/debit",
+            "Dompet digital yang disetujui"
+          ],
+          "paragraphs_after": [
+            "Dana biasanya dikreditkan dalam 24 jam, tergantung penyedia.",
+            "TraderTok dapat meminta dokumentasi tambahan untuk mematuhi AML."
+          ]
+        },
+        {
+          "question": "Bagaimana cara kerja penarikan?",
+          "paragraphs": [
+            "Penarikan dapat diminta melalui platform dan biasanya diproses dalam 24 jam, tergantung verifikasi.",
+            "Perkiraan waktu:"
+          ],
+          "bullets": [
+            "Kartu: hingga 5 hari kerja",
+            "Transfer bank: hingga 5 hari kerja",
+            "Dompet: dapat instan"
+          ],
+          "paragraphs_after": [
+            "TraderTok berhak untuk:"
+          ],
+          "bullets_after": [
+            "Mengembalikan dana ke metode pembayaran asli",
+            "Meminta verifikasi tambahan",
+            "Menunda pemrosesan untuk pemeriksaan kepatuhan"
+          ]
+        },
+        {
+          "question": "Apakah uang saya dilindungi?",
+          "paragraphs": [
+            "Dana klien disimpan di rekening terpisah dari dana perusahaan.",
+            "Dana yang memenuhi syarat dapat dilindungi hingga USD 100.000, sesuai aturan regulator dan kriteria kelayakan.",
+            "TraderTok tidak menjamin perlindungan terhadap kerugian trading."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Biaya & trading",
+      "intro": "Biaya, margin, dan penyediaan nasihat.",
+      "items": [
+        {
+          "question": "Berapa biaya trading Anda?",
+          "paragraphs": [
+            "Trading mikro (0,01–0,19 lot): tanpa komisi",
+            "Trading standar (0,20–4,99 lot): USD 1,50 per transaksi",
+            "Trading besar (5,00+ lot): USD 3,50 per transaksi",
+            "Komisi berlaku saat pembukaan posisi kecuali ditentukan lain.",
+            "TraderTok berhak memperbarui struktur biaya."
+          ]
+        },
+        {
+          "question": "Apakah ada biaya konversi?",
+          "paragraphs": [
+            "Ya. Biaya konversi mata uang dapat berlaku saat menyetor, menarik, atau trading dalam mata uang berbeda."
+          ]
+        },
+        {
+          "question": "Apa itu trading margin?",
+          "paragraphs": [
+            "Trading margin memungkinkan Anda trading dengan dana pinjaman, meningkatkan eksposur Anda.",
+            "Dapat memperbesar keuntungan tetapi juga risiko, dan dapat menyebabkan kerugian melebihi deposit awal."
+          ]
+        },
+        {
+          "question": "Apakah Anda memberikan nasihat investasi?",
+          "paragraphs": [
+            "TraderTok menyediakan akun trading mandiri.",
+            "Kecuali disepakati secara tertulis dalam perjanjian nasihat yang teregulasi, TraderTok tidak memberikan nasihat investasi yang dipersonalisasi."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Risiko & kepatuhan",
+      "intro": "Risiko penting termasuk kripto dan copy trading.",
+      "items": [
+        {
+          "question": "Risiko apa yang perlu saya waspadai?",
+          "paragraphs": [
+            "Trading melibatkan risiko signifikan dan dapat mengakibatkan kehilangan sebagian atau seluruh modal.",
+            "Anda sebaiknya:"
+          ],
+          "bullets": [
+            "Memahami risiko yang terlibat",
+            "Hanya trading dengan dana yang siap Anda tanggung kehilangannya",
+            "Mencari nasihat keuangan independen jika perlu"
+          ]
+        },
+        {
+          "question": "Risiko mata uang kripto",
+          "paragraphs": [
+            "Pasar kripto sangat volatil dan spekulatif. Harga dapat berfluktuasi kuat dalam waktu singkat."
+          ]
+        },
+        {
+          "question": "Risiko copy trading",
+          "paragraphs": [
+            "Copy trading melibatkan risiko tambahan. Anda dapat mengikuti trader dengan:"
+          ],
+          "bullets": [
+            "Toleransi risiko berbeda",
+            "Tujuan finansial berbeda",
+            "Pengalaman terbatas"
+          ],
+          "paragraphs_after": [
+            "Kinerja masa lalu tidak menjamin hasil di masa depan.",
+            "Konten di platform bukan nasihat investasi."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Regulasi",
+      "intro": "Perizinan dan detail perusahaan.",
+      "items": [
+        {
+          "question": "Apakah TraderTok teregulasi?",
+          "paragraphs": [
+            "Ya. TraderTok beroperasi di bawah:"
+          ],
+          "bullets": [
+            "Amber Rock Trade Ltd",
+            "Alamat: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+            "No. perusahaan: 222594",
+            "No. lisensi: GB24203892",
+            "Regulator: Financial Services Commission (FSC), Mauritius"
+          ],
+          "paragraphs_after": [
+            "Klien disarankan memverifikasi detail melalui register FSC."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TraderTok Club",
+      "intro": "Tingkat loyalitas dan manfaat.",
+      "items": [
+        {
+          "question": "Apa itu TraderTok Club?",
+          "paragraphs": [
+            "TraderTok Club adalah program loyalitas dengan manfaat berbasis tingkat.",
+            "Keanggotaan dimulai dari saldo minimum USD 5.000 dan mencakup lima tingkat:"
+          ],
+          "lists": [
+            {
+              "title": "Silver",
+              "items": [
+                "Webinar",
+                "Aplikasi mitra",
+                "Manajer akun khusus"
+              ]
+            },
+            {
+              "title": "Gold",
+              "items": [
+                "Semua manfaat Silver",
+                "Bunga atas saldo",
+                "Wawasan pasar mingguan",
+                "Akses WhatsApp ke manajer akun"
+              ]
+            },
+            {
+              "title": "Platinum",
+              "items": [
+                "Semua manfaat Gold",
+                "Tanpa biaya penarikan",
+                "Akses konten premium"
+              ]
+            },
+            {
+              "title": "Platinum+",
+              "items": [
+                "Undangan acara",
+                "TraderTok Card",
+                "Manfaat platform yang ditingkatkan"
+              ]
+            },
+            {
+              "title": "Diamond",
+              "items": [
+                "Akses premium penuh",
+                "Pengecualian biaya",
+                "Hak istimewa eksklusif"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

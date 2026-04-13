@@ -1,0 +1,359 @@
+{
+  "title": "Mga Madalas Itanong",
+  "subtitle": "Mabilis na sagot tungkol sa TraderTok—mga merkado, account, pondo, bayarin, regulasyon, at suporta.",
+  "lead": "Tingnan ang mga paksa sa ibaba. Makakapag-expand ang bawat seksyon para sa higit pang detalye.",
+  "sections": [
+    {
+      "label": "Pangkalahatang impormasyon",
+      "intro": "Mahahalagang katotohanan tungkol sa TraderTok, sa aming mga merkado, at kung paano nabubuo ang platform.",
+      "items": [
+        {
+          "question": "Ano ang TraderTok?",
+          "paragraphs": [
+            "Ang TraderTok ay isang pandaigdigang online trading platform na nagbibigay ng access sa mga financial market, kasama ang forex, stocks, commodities, indices, at cryptocurrencies.",
+            "Available ito sa desktop, mobile, at web, at idinisenyo para sa baguhan at may karanasang trader.",
+            "Ang TraderTok ay pinapatakbo sa ilalim ng Amber Rock Trade Ltd, awtorisado at regulated ng Financial Services Commission (FSC) ng Mauritius."
+          ]
+        },
+        {
+          "question": "Anong mga instrumento ang inaalok ng TraderTok?",
+          "paragraphs": [
+            "Nagbibigay ang TraderTok ng access sa:"
+          ],
+          "bullets": [
+            "Forex (currency pairs)",
+            "Commodities (hal. ginto, langis)",
+            "Stocks mula sa pangunahing global exchanges",
+            "Market indices",
+            "Cryptocurrencies"
+          ],
+          "paragraphs_after": [
+            "Maaaring mag-iba ang availability ng instrumento depende sa hurisdiksyon at regulatory requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Edukasyon at platform",
+      "intro": "Mga learning resource, demo trading, at kung paano i-access ang platform.",
+      "items": [
+        {
+          "question": "May educational resources ba?",
+          "paragraphs": [
+            "Oo. Nagbibigay ang TraderTok ng educational resources kabilang ang:"
+          ],
+          "bullets": [
+            "Video tutorials",
+            "Training sessions",
+            "Market insights at analysis",
+            "Demo accounts para magsanay"
+          ],
+          "paragraphs_after": [
+            "Ang lahat ng educational content ay para sa impormasyon lamang at hindi investment advice."
+          ]
+        },
+        {
+          "question": "Maaari bang magsanay bago gumamit ng totoong pera?",
+          "paragraphs": [
+            "Oo. May demo account ang TraderTok na may virtual funds para mag-trade sa real-time market conditions nang walang financial risk.",
+            "Ang performance sa demo ay hindi garantiya ng parehong resulta sa live trading."
+          ]
+        },
+        {
+          "question": "Anong mga device ang magagamit ko?",
+          "paragraphs": [
+            "Available ang TraderTok sa:"
+          ],
+          "bullets": [
+            "Desktop (Windows at Mac)",
+            "Mobile (iOS at Android)",
+            "Web browser"
+          ],
+          "paragraphs_after": [
+            "Maaaring mag-iba ang availability depende sa rehiyon at technical requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Account at suporta",
+      "intro": "Pagbubukas ng account, verification, at kung paano makipag-ugnayan sa aming team.",
+      "items": [
+        {
+          "question": "May customer support ba ang TraderTok?",
+          "paragraphs": [
+            "Oo. Available ang suporta 24/5 sa pamamagitan ng:"
+          ],
+          "bullets": [
+            "Live chat",
+            "Email",
+            "Telepono",
+            "Contact form sa website"
+          ],
+          "paragraphs_after": [
+            "Maaaring mag-iba ang response time depende sa volume at verification requirements."
+          ]
+        },
+        {
+          "question": "Paano makipag-ugnayan sa suporta?",
+          "paragraphs": [
+            "Telepono: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+            "Email: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+            "Contact form sa website"
+          ]
+        },
+        {
+          "question": "Paano magbukas ng account?",
+          "paragraphs": [
+            "Para magbukas ng account:"
+          ],
+          "bullets": [
+            "Kumpletuhin ang online application",
+            "I-verify ang iyong pagkakakilanlan",
+            "Mag-fund ng account",
+            "Magsimulang mag-trade"
+          ],
+          "paragraphs_after": [
+            "Ang pag-apruba ng account ay naka-depende sa compliance review."
+          ]
+        },
+        {
+          "question": "Bakit kailangan i-verify ang account?",
+          "paragraphs": [
+            "Kailangan ang verification para:"
+          ],
+          "bullets": [
+            "Sumunod sa financial regulations",
+            "Pigilan ang fraud",
+            "Siguruhin ang seguridad ng platform"
+          ],
+          "paragraphs_after": [
+            "Maaaring kabilang sa mga dokumento:"
+          ],
+          "bullets_after": [
+            "Proof of identity",
+            "Phone verification",
+            "Selfie verification"
+          ],
+          "paragraphs_final": [
+            "Ang hindi pag-verify ay maaaring magresulta sa mga restriksyon sa account."
+          ]
+        },
+        {
+          "question": "Ano ang kailangan para magsimula?",
+          "paragraphs": [
+            "Para magbukas ng account, dapat mong:"
+          ],
+          "bullets": [
+            "Maging hindi bababa sa 18 taong gulang",
+            "Magbigay ng valid na identification",
+            "May verified na email at phone number",
+            "May internet access"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Deposits at withdrawals",
+      "intro": "Pag-fund ng account, withdrawals, at kung paano hinahawakan ang pera ng kliyente.",
+      "items": [
+        {
+          "question": "Paano gumagana ang deposits?",
+          "paragraphs": [
+            "Maaaring mag-deposit sa pamamagitan ng:"
+          ],
+          "bullets": [
+            "Bank transfer",
+            "Credit/debit card",
+            "Aprubadong digital wallets"
+          ],
+          "paragraphs_after": [
+            "Karaniwang na-credit ang pondo sa loob ng 24 oras, depende sa provider.",
+            "Maaaring humiling ang TraderTok ng karagdagang dokumentasyon para sa AML."
+          ]
+        },
+        {
+          "question": "Paano gumagana ang withdrawals?",
+          "paragraphs": [
+            "Maaaring humiling ng withdrawal sa platform at karaniwang na-proseso sa loob ng 24 oras, subject sa verification.",
+            "Tinatayang timeline:"
+          ],
+          "bullets": [
+            "Cards: hanggang 5 business days",
+            "Bank transfer: hanggang 5 business days",
+            "Wallets: maaaring instant"
+          ],
+          "paragraphs_after": [
+            "May karapatang ang TraderTok na:"
+          ],
+          "bullets_after": [
+            "Ibalik ang pondo sa orihinal na paraan ng bayad",
+            "Humiling ng karagdagang verification",
+            "I-delay ang processing para sa compliance checks"
+          ]
+        },
+        {
+          "question": "Protektado ba ang pera ko?",
+          "paragraphs": [
+            "Ang pondo ng kliyente ay nakaimbak sa segregated accounts, hiwalay sa pondo ng kumpanya.",
+            "Ang eligible na pondo ay maaaring protektado hanggang USD $100,000, alinsunod sa regulatory rules at eligibility criteria.",
+            "Hindi ginagarantiya ng TraderTok ang proteksyon laban sa trading losses."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Bayarin at trading",
+      "intro": "Mga gastos, margin, at kung paano ibinibigay ang payo.",
+      "items": [
+        {
+          "question": "Ano ang inyong trading fees?",
+          "paragraphs": [
+            "Micro trades (0.01–0.19 lots): Walang commission",
+            "Standard trades (0.20–4.99 lots): $1.50 bawat trade",
+            "Malalaking trades (5.00+ lots): $3.50 bawat trade",
+            "Nalalapat ang commissions sa pagbubukas ng trade maliban kung may iba pang nakasaad.",
+            "May karapatang i-update ng TraderTok ang fee structure."
+          ]
+        },
+        {
+          "question": "May conversion fees ba?",
+          "paragraphs": [
+            "Oo. Maaaring may currency conversion fees kapag nag-deposit, nag-withdraw, o nag-trade sa iba't ibang currency."
+          ]
+        },
+        {
+          "question": "Ano ang margin trading?",
+          "paragraphs": [
+            "Ang margin trading ay nagpapahintulot na mag-trade gamit ang hiniram na pondo, na nagpapataas ng exposure mo.",
+            "Maaari nitong palakihin ang kita ngunit nagpapataas din ng risk at maaaring magresulta sa pagkalugi na higit sa initial deposit."
+          ]
+        },
+        {
+          "question": "Nagbibigay ba kayo ng investment advice?",
+          "paragraphs": [
+            "Nagbibigay ang TraderTok ng self-directed trading accounts.",
+            "Maliban kung may malinaw na nakasulat na kasunduan sa ilalim ng regulated advisory agreement, hindi nagbibigay ang TraderTok ng personalized investment advice."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Panganib at pagsunod",
+      "intro": "Mahahalagang panganib kasama ang crypto at copy trading.",
+      "items": [
+        {
+          "question": "Anong mga panganib ang dapat kong malaman?",
+          "paragraphs": [
+            "Ang trading ay may malaking panganib at maaaring magresulta sa pagkawala ng bahagi o buong invested capital.",
+            "Dapat mong:"
+          ],
+          "bullets": [
+            "Unawain ang mga panganib",
+            "Mag-trade lamang gamit ang pondong kayang mawala",
+            "Kumuha ng independent financial advice kung kinakailangan"
+          ]
+        },
+        {
+          "question": "Panganib sa cryptocurrency",
+          "paragraphs": [
+            "Ang cryptocurrency markets ay lubhang volatile at speculative. Maaaring biglang magbago ang presyo sa maikling panahon."
+          ]
+        },
+        {
+          "question": "Panganib sa copy trading",
+          "paragraphs": [
+            "Ang copy trading ay may karagdagang panganib. Maaari kang sumunod sa mga trader na may:"
+          ],
+          "bullets": [
+            "Iba't ibang risk tolerance",
+            "Iba't ibang financial objectives",
+            "Limitadong karanasan"
+          ],
+          "paragraphs_after": [
+            "Ang nakaraang performance ay hindi garantiya ng hinaharap na resulta.",
+            "Ang content sa platform ay hindi investment advice."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Regulasyon",
+      "intro": "Licensing at detalye ng kumpanya.",
+      "items": [
+        {
+          "question": "Regulated ba ang TraderTok?",
+          "paragraphs": [
+            "Oo. Ang TraderTok ay gumagana sa ilalim ng:"
+          ],
+          "bullets": [
+            "Amber Rock Trade Ltd",
+            "Address: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+            "Company No: 222594",
+            "License No: GB24203892",
+            "Regulator: Financial Services Commission (FSC), Mauritius"
+          ],
+          "paragraphs_after": [
+            "Inirerekomendang i-verify ang detalye sa FSC register."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TraderTok Club",
+      "intro": "Mga loyalty tier at benepisyo.",
+      "items": [
+        {
+          "question": "Ano ang TraderTok Club?",
+          "paragraphs": [
+            "Ang TraderTok Club ay isang loyalty program na may tier-based benefits.",
+            "Ang membership ay nagsisimula mula minimum balance na $5,000 at may limang tier:"
+          ],
+          "lists": [
+            {
+              "title": "Silver",
+              "items": [
+                "Webinars",
+                "Partner apps",
+                "Dedicated account manager"
+              ]
+            },
+            {
+              "title": "Gold",
+              "items": [
+                "Lahat ng Silver benefits",
+                "Interest on balance",
+                "Weekly market insights",
+                "WhatsApp access sa account manager"
+              ]
+            },
+            {
+              "title": "Platinum",
+              "items": [
+                "Lahat ng Gold benefits",
+                "Walang withdrawal fees",
+                "Premium content access"
+              ]
+            },
+            {
+              "title": "Platinum+",
+              "items": [
+                "Mga imbitasyon sa event",
+                "TraderTok Card",
+                "Pinahusay na platform benefits"
+              ]
+            },
+            {
+              "title": "Diamond",
+              "items": [
+                "Buong premium access",
+                "Mga exemption sa fee",
+                "Eksklusibong pribilehiyo"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

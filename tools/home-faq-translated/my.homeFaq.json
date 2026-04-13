@@ -1,0 +1,359 @@
+{
+  "title": "Soalan Lazim",
+  "subtitle": "Jawapan ringkas tentang TraderTok—pasaran, akaun, pendanaan, yuran, kawal selia dan sokongan.",
+  "lead": "Terokai topik di bawah. Setiap bahagian boleh dikembangkan untuk lebih banyak butiran.",
+  "sections": [
+    {
+      "label": "Maklumat umum",
+      "intro": "Fakta teras tentang TraderTok, pasaran kami dan bagaimana platform disusun.",
+      "items": [
+        {
+          "question": "Apakah TraderTok?",
+          "paragraphs": [
+            "TraderTok ialah platform dagangan dalam talian global yang memberikan akses kepada pasaran kewangan, termasuk forex, saham, komoditi, indeks dan mata wang kripto.",
+            "Platform ini tersedia pada desktop, mudah alih dan web, direka untuk pedagang baru dan berpengalaman.",
+            "TraderTok beroperasi di bawah Amber Rock Trade Ltd, diberi kuasa dan dikawal selia oleh Financial Services Commission (FSC) Mauritius."
+          ]
+        },
+        {
+          "question": "Instrumen dagangan apa yang ditawarkan TraderTok?",
+          "paragraphs": [
+            "TraderTok menyediakan akses kepada:"
+          ],
+          "bullets": [
+            "Forex (pasangan mata wang)",
+            "Komoditi (cth. emas, minyak)",
+            "Saham dari bursa global utama",
+            "Indeks pasaran",
+            "Mata wang kripto"
+          ],
+          "paragraphs_after": [
+            "Ketersediaan instrumen mungkin berbeza bergantung pada bidang kuasa dan keperluan regulatori."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Pendidikan & platform",
+      "intro": "Sumber pembelajaran, dagangan demo dan cara mengakses platform.",
+      "items": [
+        {
+          "question": "Adakah terdapat bahan pendidikan?",
+          "paragraphs": [
+            "Ya. TraderTok menyediakan bahan pendidikan termasuk:"
+          ],
+          "bullets": [
+            "Tutorial video",
+            "Sesi latihan",
+            "Wawasan dan analisis pasaran",
+            "Akaun demo untuk berlatih"
+          ],
+          "paragraphs_after": [
+            "Semua kandungan pendidikan adalah untuk maklumat sahaja dan bukan nasihat pelaburan."
+          ]
+        },
+        {
+          "question": "Bolehkah saya berlatih sebelum menggunakan wang sebenar?",
+          "paragraphs": [
+            "Ya. TraderTok menawarkan akaun demo dengan dana maya untuk berdagang dalam keadaan pasaran masa nyata tanpa risiko kewangan.",
+            "Prestasi dalam persekitaran demo tidak menjamin hasil yang sama dalam dagangan langsung."
+          ]
+        },
+        {
+          "question": "Peranti apa yang boleh digunakan?",
+          "paragraphs": [
+            "TraderTok tersedia pada:"
+          ],
+          "bullets": [
+            "Desktop (Windows & Mac)",
+            "Mudah alih (iOS & Android)",
+            "Pelayar web"
+          ],
+          "paragraphs_after": [
+            "Ketersediaan mungkin berbeza bergantung pada wilayah dan keperluan teknikal."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Akaun & sokongan",
+      "intro": "Membuka akaun, pengesahan dan cara menghubungi pasukan kami.",
+      "items": [
+        {
+          "question": "Adakah TraderTok menyediakan sokongan pelanggan?",
+          "paragraphs": [
+            "Ya. Sokongan pelanggan tersedia 24/5 melalui:"
+          ],
+          "bullets": [
+            "Sembang langsung",
+            "E-mel",
+            "Telefon",
+            "Borang hubungan di laman web"
+          ],
+          "paragraphs_after": [
+            "Masa respons mungkin berbeza bergantung pada volum dan keperluan pengesahan."
+          ]
+        },
+        {
+          "question": "Bagaimana menghubungi sokongan?",
+          "paragraphs": [
+            "Telefon: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+            "E-mel: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+            "Borang hubungan di laman web"
+          ]
+        },
+        {
+          "question": "Bagaimana membuka akaun?",
+          "paragraphs": [
+            "Untuk membuka akaun:"
+          ],
+          "bullets": [
+            "Lengkapkan permohonan dalam talian",
+            "Sahkan identiti anda",
+            "Dana akaun anda",
+            "Mula berdagang"
+          ],
+          "paragraphs_after": [
+            "Kelulusan akaun tertakluk kepada semakan pematuhan."
+          ]
+        },
+        {
+          "question": "Mengapa perlu mengesahkan akaun?",
+          "paragraphs": [
+            "Pengesahan diperlukan untuk:"
+          ],
+          "bullets": [
+            "Mematuhi peraturan kewangan",
+            "Mencegah penipuan",
+            "Memastikan keselamatan platform"
+          ],
+          "paragraphs_after": [
+            "Dokumen yang mungkin diperlukan termasuk:"
+          ],
+          "bullets_after": [
+            "Bukti identiti",
+            "Pengesahan telefon",
+            "Pengesahan selfie"
+          ],
+          "paragraphs_final": [
+            "Kegagalan mengesahkan boleh menyebabkan sekatan akaun."
+          ]
+        },
+        {
+          "question": "Apa yang diperlukan untuk bermula?",
+          "paragraphs": [
+            "Untuk membuka akaun, anda mesti:"
+          ],
+          "bullets": [
+            "Berumur sekurang-kurangnya 18 tahun",
+            "Memberikan pengenalan yang sah",
+            "Mempunyai e-mel dan nombor telefon disahkan",
+            "Mempunyai akses internet"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Deposit & pengeluaran",
+      "intro": "Pendanaan akaun, pengeluaran dan pengendalian wang pelanggan.",
+      "items": [
+        {
+          "question": "Bagaimana deposit berfungsi?",
+          "paragraphs": [
+            "Deposit boleh dibuat melalui:"
+          ],
+          "bullets": [
+            "Pindahan bank",
+            "Kad kredit/debit",
+            "Dompet digital yang diluluskan"
+          ],
+          "paragraphs_after": [
+            "Dana biasanya dikreditkan dalam masa 24 jam, bergantung pada penyedia.",
+            "TraderTok boleh meminta dokumentasi tambahan untuk mematuhi AML."
+          ]
+        },
+        {
+          "question": "Bagaimana pengeluaran berfungsi?",
+          "paragraphs": [
+            "Pengeluaran boleh diminta melalui platform dan biasanya diproses dalam 24 jam, tertakluk kepada pengesahan.",
+            "Anggaran masa:"
+          ],
+          "bullets": [
+            "Kad: sehingga 5 hari perniagaan",
+            "Pindahan bank: sehingga 5 hari perniagaan",
+            "Dompet: mungkin serta-merta"
+          ],
+          "paragraphs_after": [
+            "TraderTok berhak untuk:"
+          ],
+          "bullets_after": [
+            "Mengembalikan dana ke kaedah pembayaran asal",
+            "Meminta pengesahan tambahan",
+            "Melengah pemprosesan untuk pemeriksaan pematuhan"
+          ]
+        },
+        {
+          "question": "Adakah wang saya dilindungi?",
+          "paragraphs": [
+            "Dana pelanggan dipegang dalam akaun berasingan, terpisah daripada dana syarikat.",
+            "Dana yang layak mungkin dilindungi sehingga USD 100,000, tertakluk kepada peraturan dan kriteria kelayakan.",
+            "TraderTok tidak menjamin perlindungan terhadap kerugian dagangan."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Yuran & dagangan",
+      "intro": "Kos, margin dan cara nasihat diberikan.",
+      "items": [
+        {
+          "question": "Apakah yuran dagangan anda?",
+          "paragraphs": [
+            "Dagangan mikro (0.01–0.19 lot): Tiada komisen",
+            "Dagangan standard (0.20–4.99 lot): USD 1.50 setiap dagangan",
+            "Dagangan besar (5.00+ lot): USD 3.50 setiap dagangan",
+            "Komisen dikenakan pada pembukaan dagangan melainkan dinyatakan sebaliknya.",
+            "TraderTok berhak mengemas kini struktur yuran."
+          ]
+        },
+        {
+          "question": "Adakah yuran penukaran?",
+          "paragraphs": [
+            "Ya. Yuran penukaran mata wang mungkin dikenakan semasa deposit, pengeluaran atau dagangan dalam mata wang berbeza."
+          ]
+        },
+        {
+          "question": "Apakah dagangan margin?",
+          "paragraphs": [
+            "Dagangan margin membolehkan anda berdagang dengan dana pinjaman, meningkatkan pendedahan anda.",
+            "Ia boleh membesarkan keuntungan tetapi juga meningkatkan risiko dan boleh menyebabkan kerugian melebihi deposit awal."
+          ]
+        },
+        {
+          "question": "Adakah anda memberikan nasihat pelaburan?",
+          "paragraphs": [
+            "TraderTok menyediakan akaun dagangan kendiri.",
+            "Kecuali dipersetujui secara bertulis di bawah perjanjian nasihat berkawal selia, TraderTok tidak memberikan nasihat pelaburan peribadi."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Risiko & pematuhan",
+      "intro": "Risiko penting termasuk kripto dan copy trading.",
+      "items": [
+        {
+          "question": "Risiko apa yang perlu saya sedari?",
+          "paragraphs": [
+            "Dagangan melibatkan risiko ketara dan boleh mengakibatkan kehilangan sebahagian atau semua modal yang dilaburkan.",
+            "Anda perlu:"
+          ],
+          "bullets": [
+            "Memahami risiko yang terlibat",
+            "Berdagang hanya dengan dana yang mampu anda tanggung kerugian",
+            "Mendapatkan nasihat kewangan bebas jika perlu"
+          ]
+        },
+        {
+          "question": "Risiko mata wang kripto",
+          "paragraphs": [
+            "Pasaran mata wang kripto sangat tidak menentu dan bersifat spekulatif. Harga boleh berubah dengan ketara dalam tempoh singkat."
+          ]
+        },
+        {
+          "question": "Risiko copy trading",
+          "paragraphs": [
+            "Copy trading melibatkan risiko tambahan. Anda mungkin mengikuti pedagang dengan:"
+          ],
+          "bullets": [
+            "Toleransi risiko berbeza",
+            "Objektif kewangan berbeza",
+            "Pengalaman terhad"
+          ],
+          "paragraphs_after": [
+            "Prestasi lepas tidak menunjukkan hasil masa depan.",
+            "Kandungan dalam platform bukan nasihat pelaburan."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Peraturan",
+      "intro": "Pelesenan dan butiran syarikat.",
+      "items": [
+        {
+          "question": "Adakah TraderTok dikawal selia?",
+          "paragraphs": [
+            "Ya. TraderTok beroperasi di bawah:"
+          ],
+          "bullets": [
+            "Amber Rock Trade Ltd",
+            "Alamat: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+            "No. syarikat: 222594",
+            "No. lesen: GB24203892",
+            "Pengawal selia: Financial Services Commission (FSC), Mauritius"
+          ],
+          "paragraphs_after": [
+            "Pelanggan digalakkan mengesahkan butiran melalui daftar FSC."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TraderTok Club",
+      "intro": "Tingkat kesetiaan dan faedah.",
+      "items": [
+        {
+          "question": "Apakah TraderTok Club?",
+          "paragraphs": [
+            "TraderTok Club ialah program kesetiaan dengan faedah berdasarkan peringkat.",
+            "Keahlian bermula daripada baki minimum USD 5,000 dan merangkumi lima peringkat:"
+          ],
+          "lists": [
+            {
+              "title": "Silver",
+              "items": [
+                "Webinar",
+                "Aplikasi rakan kongsi",
+                "Pengurus akaun khusus"
+              ]
+            },
+            {
+              "title": "Gold",
+              "items": [
+                "Semua faedah Silver",
+                "Faedah atas baki",
+                "Wawasan pasaran mingguan",
+                "Akses WhatsApp kepada pengurus akaun"
+              ]
+            },
+            {
+              "title": "Platinum",
+              "items": [
+                "Semua faedah Gold",
+                "Tiada yuran pengeluaran",
+                "Akses kandungan premium"
+              ]
+            },
+            {
+              "title": "Platinum+",
+              "items": [
+                "Jemputan acara",
+                "TraderTok Card",
+                "Faedah platform dipertingkatkan"
+              ]
+            },
+            {
+              "title": "Diamond",
+              "items": [
+                "Akses premium penuh",
+                "Pengecualian yuran",
+                "Keistimewaan eksklusif"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

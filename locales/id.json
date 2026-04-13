@@ -186,648 +186,648 @@
     }
   },
   "educationHub": {
-  "hero": {
-    "title": "Belajar Forex dengan <span>Cara yang Benar</span>",
-    "subtitle": "Akses 20+ panduan trading lengkap yang dirancang khusus untuk pemula. Tanpa istilah rumit, hanya penjelasan jelas untuk membantu Anda memulai perjalanan trading.",
-    "cta": "Lihat Artikel",
-    "trust": "Bergabung dengan 5.000+ trader yang belajar bersama TraderTok"
-  },
-  "learn": {
-    "title": "Apa yang Akan Anda Pelajari",
-    "subtitle": "Kurikulum kami mencakup semua yang perlu Anda ketahui untuk memulai.",
-    "items": [
-      {
-        "title": "Dasar-dasar Forex",
-        "description": "Pahami mekanisme dasar pasar finansial terbesar di dunia."
-      },
-      {
-        "title": "Leverage & Margin",
-        "description": "Pelajari cara menggunakan kekuatan trading dengan bijak dan melindungi modal Anda."
-      },
-      {
-        "title": "Dasar-dasar Manajemen Risiko",
-        "description": "Keterampilan nomor 1 yang dibutuhkan setiap trader untuk bertahan dan berkembang."
-      },
-      {
-        "title": "Kesalahan Umum Pemula",
-        "description": "Hemat waktu dan uang dengan menghindari jebakan yang sering dialami trader baru."
-      },
-      {
-        "title": "Sesi Pasar",
-        "description": "Pelajari kapan harus trading (dan kapan tidak) untuk peluang terbaik."
-      },
-      {
-        "title": "Psikologi Trading",
-        "description": "Kuasi emosi Anda untuk membuat keputusan trading yang lebih baik dan rasional."
-      }
-    ]
-  },
-  "whoFor": {
-    "title": "Apakah Edukasi Ini Cocok untuk Anda?",
-    "for": {
-      "title": "Ini cocok untuk Anda jika:",
+    "hero": {
+      "title": "Belajar Forex dengan <span>Cara yang Benar</span>",
+      "subtitle": "Akses 20+ panduan trading lengkap yang dirancang khusus untuk pemula. Tanpa istilah rumit, hanya penjelasan jelas untuk membantu Anda memulai perjalanan trading.",
+      "cta": "Lihat Artikel",
+      "trust": "Bergabung dengan 5.000+ trader yang belajar bersama TraderTok"
+    },
+    "learn": {
+      "title": "Apa yang Akan Anda Pelajari",
+      "subtitle": "Kurikulum kami mencakup semua yang perlu Anda ketahui untuk memulai.",
       "items": [
-        "Anda pemula total tanpa pengalaman trading sebelumnya.",
-        "Anda ingin mempelajari dasar-dasar pasar forex.",
-        "Anda menyukai pelajaran yang terstruktur dan mudah dipahami."
+        {
+          "title": "Dasar-dasar Forex",
+          "description": "Pahami mekanisme dasar pasar finansial terbesar di dunia."
+        },
+        {
+          "title": "Leverage & Margin",
+          "description": "Pelajari cara menggunakan kekuatan trading dengan bijak dan melindungi modal Anda."
+        },
+        {
+          "title": "Dasar-dasar Manajemen Risiko",
+          "description": "Keterampilan nomor 1 yang dibutuhkan setiap trader untuk bertahan dan berkembang."
+        },
+        {
+          "title": "Kesalahan Umum Pemula",
+          "description": "Hemat waktu dan uang dengan menghindari jebakan yang sering dialami trader baru."
+        },
+        {
+          "title": "Sesi Pasar",
+          "description": "Pelajari kapan harus trading (dan kapan tidak) untuk peluang terbaik."
+        },
+        {
+          "title": "Psikologi Trading",
+          "description": "Kuasi emosi Anda untuk membuat keputusan trading yang lebih baik dan rasional."
+        }
       ]
     },
-    "notFor": {
-      "title": "Ini TIDAK cocok untuk Anda jika:",
-      "items": [
-        "Anda mencari keuntungan yang dijamin atau skema \"cepat kaya\".",
-        "Anda menginginkan sinyal trading atau orang lain yang trading untuk Anda.",
-        "Anda tidak siap menerima risiko yang terlibat dalam trading."
-      ]
-    }
-  },
-  "howItWorks": {
-    "title": "Cara Kerjanya",
-    "steps": [
-      {
-        "title": "Buat Akun Gratis Anda",
-        "description": "Isi formulir pendaftaran sederhana di bawah ini untuk membuka akses hub."
+    "whoFor": {
+      "title": "Apakah Edukasi Ini Cocok untuk Anda?",
+      "for": {
+        "title": "Ini cocok untuk Anda jika:",
+        "items": [
+          "Anda pemula total tanpa pengalaman trading sebelumnya.",
+          "Anda ingin mempelajari dasar-dasar pasar forex.",
+          "Anda menyukai pelajaran yang terstruktur dan mudah dipahami."
+        ]
       },
-      {
-        "title": "Dapatkan Akses Instan",
-        "description": "Setelah terdaftar, Anda akan memiliki akses penuh ke semua 20+ artikel secara langsung."
-      },
-      {
-        "title": "Jelajahi Sesuai Kecepatan Anda",
-        "description": "Baca di perangkat apa pun, kapan pun. Konten baru ditambahkan setiap bulan."
+      "notFor": {
+        "title": "Ini TIDAK cocok untuk Anda jika:",
+        "items": [
+          "Anda mencari keuntungan yang dijamin atau skema \"cepat kaya\".",
+          "Anda menginginkan sinyal trading atau orang lain yang trading untuk Anda.",
+          "Anda tidak siap menerima risiko yang terlibat dalam trading."
+        ]
       }
-    ]
-  },
-  "resources": {
-    "courses": {
-      "title": "Kursus",
-      "description": "Mulai perjalanan trading Anda dengan kursus online gratis. Kuasai seni trading dengan kurikulum lengkap yang dirancang untuk pemula.",
-      "cta": "Pelajari Lebih Lanjut"
     },
-    "videos": {
-      "title": "Video Edukasi",
-      "description": "Tingkatkan potensi trading Anda dengan video edukasi gratis yang membahas konsep dan strategi trading penting.",
-      "cta": "Tonton Sekarang"
-    }
-  },
-  "faq": {
-    "title": "Pertanyaan yang Sering Diajukan",
-    "items": [
-      {
-        "q": "Apakah Education Hub benar-benar gratis?<span>+</span>",
-        "a": "Ya! Tujuan kami adalah memberdayakan trader dengan pengetahuan yang tepat. Tidak ada biaya tersembunyi."
+    "howItWorks": {
+      "title": "Cara Kerjanya",
+      "steps": [
+        {
+          "title": "Buat Akun Gratis Anda",
+          "description": "Isi formulir pendaftaran sederhana di bawah ini untuk membuka akses hub."
+        },
+        {
+          "title": "Dapatkan Akses Instan",
+          "description": "Setelah terdaftar, Anda akan memiliki akses penuh ke semua 20+ artikel secara langsung."
+        },
+        {
+          "title": "Jelajahi Sesuai Kecepatan Anda",
+          "description": "Baca di perangkat apa pun, kapan pun. Konten baru ditambahkan setiap bulan."
+        }
+      ]
+    },
+    "resources": {
+      "courses": {
+        "title": "Kursus",
+        "description": "Mulai perjalanan trading Anda dengan kursus online gratis. Kuasai seni trading dengan kurikulum lengkap yang dirancang untuk pemula.",
+        "cta": "Pelajari Lebih Lanjut"
       },
-      {
-        "q": "Apakah saya memerlukan akun trading untuk mengakses hub?<span>+</span>",
-        "a": "Tidak, Anda hanya perlu mendaftar melalui formulir di halaman ini untuk membuka konten."
-      },
-      {
-        "q": "Apakah artikel ini cocok untuk pemula total?<span>+</span>",
-        "a": "Tentu. Semua artikel dirancang khusus untuk orang yang belum memiliki pengalaman di pasar."
-      },
-      {
-        "q": "Apakah ini saran keuangan?<span>+</span>",
-        "a": "Tidak. Semua konten hanya untuk tujuan edukasi. Trading melibatkan risiko."
-      },
-      {
-        "q": "Bisakah saya membaca artikel di ponsel saya?<span>+</span>",
-        "a": "Ya, Education Hub sepenuhnya dioptimalkan untuk tampilan mobile, tablet, dan desktop."
-      },
-      {
-        "q": "Apa yang terjadi setelah saya mendaftar?<span>+</span>",
-        "a": "Anda akan mendapatkan akses instan ke konten. Tim kami mungkin akan menghubungi untuk mendukung perjalanan trading Anda."
+      "videos": {
+        "title": "Video Edukasi",
+        "description": "Tingkatkan potensi trading Anda dengan video edukasi gratis yang membahas konsep dan strategi trading penting.",
+        "cta": "Tonton Sekarang"
       }
-    ]
-  },
-  "modal": {
-    "title": "Akses Konten Edukasi",
-    "subtitle": "Untuk membuka konten ini, silakan berikan detail kontak Anda. Tim kami akan menghubungi Anda untuk mendukung perjalanan trading Anda.",
-    "submit": "Kirim & Buka",
-    "successTitle": "Permohonan Dikirim!",
-    "successMessage": "Manajer kami akan menghubungi Anda segera.",
-    "modal": "Dengan mengirimkan, Anda setuju dengan Ketentuan Layanan dan Kebijakan Privasi kami"
-  }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "items": [
+        {
+          "q": "Apakah Education Hub benar-benar gratis?<span>+</span>",
+          "a": "Ya! Tujuan kami adalah memberdayakan trader dengan pengetahuan yang tepat. Tidak ada biaya tersembunyi."
+        },
+        {
+          "q": "Apakah saya memerlukan akun trading untuk mengakses hub?<span>+</span>",
+          "a": "Tidak, Anda hanya perlu mendaftar melalui formulir di halaman ini untuk membuka konten."
+        },
+        {
+          "q": "Apakah artikel ini cocok untuk pemula total?<span>+</span>",
+          "a": "Tentu. Semua artikel dirancang khusus untuk orang yang belum memiliki pengalaman di pasar."
+        },
+        {
+          "q": "Apakah ini saran keuangan?<span>+</span>",
+          "a": "Tidak. Semua konten hanya untuk tujuan edukasi. Trading melibatkan risiko."
+        },
+        {
+          "q": "Bisakah saya membaca artikel di ponsel saya?<span>+</span>",
+          "a": "Ya, Education Hub sepenuhnya dioptimalkan untuk tampilan mobile, tablet, dan desktop."
+        },
+        {
+          "q": "Apa yang terjadi setelah saya mendaftar?<span>+</span>",
+          "a": "Anda akan mendapatkan akses instan ke konten. Tim kami mungkin akan menghubungi untuk mendukung perjalanan trading Anda."
+        }
+      ]
+    },
+    "modal": {
+      "title": "Akses Konten Edukasi",
+      "subtitle": "Untuk membuka konten ini, silakan berikan detail kontak Anda. Tim kami akan menghubungi Anda untuk mendukung perjalanan trading Anda.",
+      "submit": "Kirim & Buka",
+      "successTitle": "Permohonan Dikirim!",
+      "successMessage": "Manajer kami akan menghubungi Anda segera.",
+      "modal": "Dengan mengirimkan, Anda setuju dengan Ketentuan Layanan dan Kebijakan Privasi kami"
+    }
   },
   "educationArticles": {
-  "general": {
-    "title": "Akademi Edukasi",
-    "time": "Baca 5 menit",
-    "disclosure": "Pengungkapan Risiko:"
-  },
-  "what-is-forex-trading-a-beginners-guide": {
-    "title": "Apa Itu Forex Trading? Panduan Pemula",
-    "seo_title": "Apa Itu Forex Trading? Panduan Pemula Pasar Forex",
-    "meta_description": "Pelajari apa itu forex trading, bagaimana pasar mata uang global bekerja, dan konsep dasar",
-    "category": "Pemula",
-    "excerpt": "Forex trading, juga dikenal sebagai perdagangan valuta asing, adalah proses membeli dan menjual mata uang di pasar keuangan global...",
-    "content": {
-      "introduction": "Forex trading, atau perdagangan valuta asing, adalah proses membeli dan menjual mata uang di pasar keuangan global. Ini adalah salah satu pasar keuangan terbesar di dunia, dengan triliunan dolar diperdagangkan setiap hari. Orang berpartisipasi di pasar forex untuk berbagai alasan. Beberapa trader bertujuan memanfaatkan pergerakan harga mata uang, sementara bisnis dan institusi dapat menukar mata uang untuk mendukung perdagangan internasional. Bagi pemula, memahami cara kerja pasar forex adalah langkah awal penting untuk belajar tentang pasar keuangan.",
-      "sections": [
-        {
-          "heading": "Apa Itu Pasar Forex?",
-          "text": "Pasar forex adalah pasar global tempat mata uang dipertukarkan. Berbeda dengan pasar saham yang beroperasi melalui bursa terpusat, pasar forex beroperasi secara over-the-counter (OTC) melalui jaringan bank, institusi keuangan, dan platform trading. Mata uang selalu diperdagangkan berpasangan, artinya satu mata uang ditukar dengan mata uang lain. Contoh: EUR/USD GBP/USD USD/JPY. Pasangan ini mewakili nilai satu mata uang relatif terhadap yang lain. Pasar forex beroperasi 24 jam sehari, lima hari seminggu, sehingga dapat diakses oleh trader di berbagai wilayah dunia."
-        },
-        {
-          "heading": "Bagaimana Cara Kerja Forex Trading",
-          "text": "Dalam forex trading, peserta berspekulasi apakah suatu mata uang akan naik atau turun nilainya relatif terhadap mata uang lain. Contohnya: Jika seorang trader percaya euro akan menguat terhadap dolar AS, mereka dapat membeli pasangan mata uang EUR/USD. Jika euro naik nilainya, harga pasangan meningkat. Jika euro melemah, harga menurun. Harga mata uang berubah terus-menerus karena berbagai faktor seperti data ekonomi, suku bunga, peristiwa geopolitik, dan sentimen pasar."
-        },
-        {
-          "heading": "Peserta Utama di Pasar Forex",
-          "text": "Pasar forex melibatkan berbagai peserta, termasuk: Bank sentral, Bank komersial, Dana investasi, Perusahaan, Trader ritel. Bank sentral memainkan peran penting dalam mempengaruhi pasar mata uang melalui keputusan kebijakan moneter, termasuk perubahan suku bunga. Institusi keuangan besar melakukan sebagian besar volume perdagangan, tetapi teknologi modern membuat pasar forex lebih mudah diakses oleh trader individu."
-        },
-        {
-          "heading": "Mengapa Harga Mata Uang Berubah",
-          "text": "Nilai mata uang berfluktuasi karena berbagai faktor ekonomi global. Beberapa faktor yang paling umum meliputi: Pertumbuhan ekonomi, Perubahan suku bunga, Tingkat inflasi, Peristiwa politik, Aktivitas perdagangan internasional. Misalnya, ketika suatu negara menaikkan suku bunga, mata uangnya mungkin menjadi lebih menarik bagi investor yang mencari imbal hasil lebih tinggi. Hal ini dapat meningkatkan permintaan mata uang tersebut di pasar global."
-        },
-        {
-          "heading": "Konsep Penting yang Harus Diketahui Pemula",
-          "text": "Sebelum mengeksplorasi forex trading lebih jauh, pemula harus memahami beberapa konsep dasar. Pasangan Mata Uang: Mata uang selalu diperdagangkan berpasangan. Pip: Pip adalah pergerakan harga terkecil pada sebagian besar pasangan mata uang. Spread: Spread adalah selisih antara harga bid dan ask. Leverage: Leverage memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil, namun meningkatkan risiko. Memahami konsep-konsep ini membantu pemula menginterpretasikan cara kerja trading secara praktik."
-        }
-      ],
-      "conclusion": "Forex trading melibatkan membeli dan menjual mata uang di pasar keuangan global. Sebagai salah satu pasar keuangan paling aktif di dunia, pasar ini memainkan peran penting dalam perdagangan internasional dan aktivitas ekonomi. Bagi pemula, mempelajari pasangan mata uang, faktor penggerak pasar, dan mekanisme trading memberikan dasar untuk memahami cara kerja pasar keuangan. Sumber edukasi dan analisis pasar dapat membantu individu terus mengembangkan pengetahuan mereka tentang pasar forex.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+    "general": {
+      "title": "Akademi Edukasi",
+      "time": "Baca 5 menit",
+      "disclosure": "Pengungkapan Risiko:"
+    },
+    "what-is-forex-trading-a-beginners-guide": {
+      "title": "Apa Itu Forex Trading? Panduan Pemula",
+      "seo_title": "Apa Itu Forex Trading? Panduan Pemula Pasar Forex",
+      "meta_description": "Pelajari apa itu forex trading, bagaimana pasar mata uang global bekerja, dan konsep dasar",
+      "category": "Pemula",
+      "excerpt": "Forex trading, juga dikenal sebagai perdagangan valuta asing, adalah proses membeli dan menjual mata uang di pasar keuangan global...",
+      "content": {
+        "introduction": "Forex trading, atau perdagangan valuta asing, adalah proses membeli dan menjual mata uang di pasar keuangan global. Ini adalah salah satu pasar keuangan terbesar di dunia, dengan triliunan dolar diperdagangkan setiap hari. Orang berpartisipasi di pasar forex untuk berbagai alasan. Beberapa trader bertujuan memanfaatkan pergerakan harga mata uang, sementara bisnis dan institusi dapat menukar mata uang untuk mendukung perdagangan internasional. Bagi pemula, memahami cara kerja pasar forex adalah langkah awal penting untuk belajar tentang pasar keuangan.",
+        "sections": [
+          {
+            "heading": "Apa Itu Pasar Forex?",
+            "text": "Pasar forex adalah pasar global tempat mata uang dipertukarkan. Berbeda dengan pasar saham yang beroperasi melalui bursa terpusat, pasar forex beroperasi secara over-the-counter (OTC) melalui jaringan bank, institusi keuangan, dan platform trading. Mata uang selalu diperdagangkan berpasangan, artinya satu mata uang ditukar dengan mata uang lain. Contoh: EUR/USD GBP/USD USD/JPY. Pasangan ini mewakili nilai satu mata uang relatif terhadap yang lain. Pasar forex beroperasi 24 jam sehari, lima hari seminggu, sehingga dapat diakses oleh trader di berbagai wilayah dunia."
+          },
+          {
+            "heading": "Bagaimana Cara Kerja Forex Trading",
+            "text": "Dalam forex trading, peserta berspekulasi apakah suatu mata uang akan naik atau turun nilainya relatif terhadap mata uang lain. Contohnya: Jika seorang trader percaya euro akan menguat terhadap dolar AS, mereka dapat membeli pasangan mata uang EUR/USD. Jika euro naik nilainya, harga pasangan meningkat. Jika euro melemah, harga menurun. Harga mata uang berubah terus-menerus karena berbagai faktor seperti data ekonomi, suku bunga, peristiwa geopolitik, dan sentimen pasar."
+          },
+          {
+            "heading": "Peserta Utama di Pasar Forex",
+            "text": "Pasar forex melibatkan berbagai peserta, termasuk: Bank sentral, Bank komersial, Dana investasi, Perusahaan, Trader ritel. Bank sentral memainkan peran penting dalam mempengaruhi pasar mata uang melalui keputusan kebijakan moneter, termasuk perubahan suku bunga. Institusi keuangan besar melakukan sebagian besar volume perdagangan, tetapi teknologi modern membuat pasar forex lebih mudah diakses oleh trader individu."
+          },
+          {
+            "heading": "Mengapa Harga Mata Uang Berubah",
+            "text": "Nilai mata uang berfluktuasi karena berbagai faktor ekonomi global. Beberapa faktor yang paling umum meliputi: Pertumbuhan ekonomi, Perubahan suku bunga, Tingkat inflasi, Peristiwa politik, Aktivitas perdagangan internasional. Misalnya, ketika suatu negara menaikkan suku bunga, mata uangnya mungkin menjadi lebih menarik bagi investor yang mencari imbal hasil lebih tinggi. Hal ini dapat meningkatkan permintaan mata uang tersebut di pasar global."
+          },
+          {
+            "heading": "Konsep Penting yang Harus Diketahui Pemula",
+            "text": "Sebelum mengeksplorasi forex trading lebih jauh, pemula harus memahami beberapa konsep dasar. Pasangan Mata Uang: Mata uang selalu diperdagangkan berpasangan. Pip: Pip adalah pergerakan harga terkecil pada sebagian besar pasangan mata uang. Spread: Spread adalah selisih antara harga bid dan ask. Leverage: Leverage memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil, namun meningkatkan risiko. Memahami konsep-konsep ini membantu pemula menginterpretasikan cara kerja trading secara praktik."
+          }
+        ],
+        "conclusion": "Forex trading melibatkan membeli dan menjual mata uang di pasar keuangan global. Sebagai salah satu pasar keuangan paling aktif di dunia, pasar ini memainkan peran penting dalam perdagangan internasional dan aktivitas ekonomi. Bagi pemula, mempelajari pasangan mata uang, faktor penggerak pasar, dan mekanisme trading memberikan dasar untuk memahami cara kerja pasar keuangan. Sumber edukasi dan analisis pasar dapat membantu individu terus mengembangkan pengetahuan mereka tentang pasar forex.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "how-financial-markets-work": {
+      "title": "Bagaimana Pasar Keuangan Bekerja",
+      "seo_title": "Bagaimana Pasar Keuangan Bekerja: Panduan Pemula",
+      "meta_description": "Pelajari bagaimana pasar keuangan bekerja, berbagai jenis pasar, dan cara global...",
+      "category": "Pemula",
+      "excerpt": "Pasar keuangan memainkan peran sentral dalam ekonomi global...",
+      "content": {
+        "introduction": "Pasar keuangan memainkan peran sentral dalam ekonomi global...",
+        "sections": [
+          {
+            "heading": "Apa Itu Pasar Keuangan?",
+            "text": "Pasar keuangan adalah sistem di mana pembeli dan penjual menukar aset keuangan..."
+          },
+          {
+            "heading": "Jenis-Jenis Utama Pasar Keuangan",
+            "text": "Berbagai jenis pasar keuangan beroperasi di seluruh dunia..."
+          },
+          {
+            "heading": "Bagaimana Harga Ditentukan",
+            "text": "Harga di pasar keuangan sebagian besar ditentukan oleh penawaran dan permintaan..."
+          },
+          {
+            "heading": "Peserta Pasar",
+            "text": "Pasar keuangan melibatkan berbagai peserta..."
+          },
+          {
+            "heading": "Mengapa Pasar Keuangan Penting",
+            "text": "Pasar keuangan menjalankan beberapa fungsi penting..."
+          }
+        ],
+        "conclusion": "Pasar keuangan adalah sistem kompleks...",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi..."
+      }
+    },
+    "what-are-currency-pairs-in-forex": {
+      "title": "Apa Itu Pasangan Mata Uang dalam Forex?",
+      "seo_title": "Penjelasan Pasangan Mata Uang: Memahami Pasangan Forex",
+      "meta_description": "Pelajari apa itu pasangan mata uang dalam trading forex...",
+      "category": "Pemula",
+      "excerpt": "Di pasar forex, mata uang diperdagangkan dalam pasangan...",
+      "content": {
+        "introduction": "Di pasar forex, mata uang diperdagangkan berpasangan. Artinya, saat satu mata uang dibeli, mata uang lain dijual pada waktu yang sama. Memahami cara kerja pasangan mata uang adalah salah satu konsep terpenting bagi siapa saja yang belajar trading forex.",
+        "sections": [
+          {
+            "heading": "Mata Uang Dasar dan Mata Uang Kutipan",
+            "text": "Setiap pasangan mata uang terdiri dari dua mata uang. Mata uang dasar adalah mata uang pertama yang tercantum dalam pasangan. Mata uang kutipan adalah mata uang kedua. Contoh: EUR/USD. Di sini: EUR = mata uang dasar USD = mata uang kutipan. Jika pasangan diperdagangkan pada 1,10, artinya satu euro sama dengan 1,10 dolar AS."
+          },
+          {
+            "heading": "Pasangan Mata Uang Utama",
+            "text": "Pasangan mata uang utama mencakup mata uang yang paling banyak diperdagangkan di dunia. Contoh: EUR/USD, USD/JPY, GBP/USD, USD/CHF. Pasangan ini biasanya memiliki likuiditas tinggi dan spread harga lebih kecil."
+          },
+          {
+            "heading": "Pasangan Mata Uang Minor",
+            "text": "Pasangan mata uang minor tidak termasuk dolar AS. Contoh: EUR/GBP, EUR/AUD, GBP/JPY. Pasangan ini masih aktif diperdagangkan tetapi mungkin memiliki volume perdagangan sedikit lebih rendah."
+          },
+          {
+            "heading": "Pasangan Mata Uang Eksotis",
+            "text": "Pasangan eksotis melibatkan mata uang utama yang dikombinasikan dengan mata uang dari ekonomi berkembang. Contoh: USD/TRY, USD/ZAR, USD/MXN. Pasangan eksotis cenderung memiliki volatilitas lebih tinggi."
+          },
+          {
+            "heading": "Mengapa Pasangan Mata Uang Bergerak",
+            "text": "Pasangan mata uang berfluktuasi karena perubahan kondisi ekonomi, kebijakan bank sentral, dan peristiwa global. Perubahan suku bunga, pertumbuhan ekonomi, dan perkembangan geopolitik dapat memengaruhi harga mata uang."
+          }
+        ],
+        "conclusion": "Pasangan mata uang adalah fondasi pasar forex. Dengan memahami hubungan antara mata uang dasar dan kutipan, pemula dapat lebih baik menginterpretasikan pergerakan harga dan aktivitas pasar. Mempelajari perilaku berbagai pasangan mata uang membantu trader mendapatkan wawasan lebih dalam tentang pasar keuangan global.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "what-is-leverage-in-trading": {
+      "title": "Apa Itu Leverage dalam Trading?",
+      "excerpt": "Leverage adalah konsep umum di pasar keuangan yang memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil...",
+      "content": {
+        "introduction": "Leverage adalah konsep umum di pasar keuangan yang memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil. Meskipun leverage dapat meningkatkan potensi keuntungan, hal ini juga meningkatkan tingkat risiko dalam trading. Memahami cara kerja leverage adalah langkah penting bagi siapa saja yang belajar tentang pasar keuangan.",
+        "sections": [
+          {
+            "heading": "Apa Itu Leverage?",
+            "text": "Leverage mengacu pada penggunaan dana pinjaman untuk memperbesar ukuran posisi trading. Contoh: jika trader menggunakan leverage 1:100, mereka dapat mengontrol posisi senilai 100 unit dengan hanya 1 unit modal sendiri. Leverage banyak digunakan di pasar forex karena pergerakan harga mata uang biasanya kecil."
+          },
+          {
+            "heading": "Mengapa Leverage Digunakan",
+            "text": "Leverage memungkinkan trader berpartisipasi dalam posisi lebih besar tanpa harus memiliki nilai penuh dari perdagangan. Ini membuat trading lebih mudah diakses bagi peserta dengan modal terbatas. Namun, penting untuk memahami bahwa leverage memperbesar keuntungan sekaligus kerugian."
+          },
+          {
+            "heading": "Contoh Leverage",
+            "text": "Misalkan trader ingin membuka posisi senilai $10.000. Jika leverage 1:100, trader hanya memerlukan margin $100 untuk membuka posisi tersebut. Jika pasar bergerak sesuai harapan, keuntungan meningkat relatif terhadap modal yang diinvestasikan. Jika pasar bergerak melawan posisi, kerugian juga dapat meningkat dengan cepat."
+          },
+          {
+            "heading": "Pertimbangan Utama",
+            "text": "Sebelum menggunakan leverage, trader harus memahami: Volatilitas pasar, Manajemen risiko, Persyaratan margin, Potensi kerugian. Banyak sumber edukasi menekankan trading bertanggung jawab dan pengendalian risiko yang tepat saat menggunakan leverage."
+          }
+        ],
+        "conclusion": "Leverage adalah alat penting yang memungkinkan trader meningkatkan eksposur dengan modal terbatas. Namun, hal ini juga menambah risiko. Memahami cara kerja leverage membantu individu mendekati trading dengan kesadaran lebih besar tentang peluang dan risiko.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "what-is-spread-in-forex": {
+      "title": "Apa Itu Spread dalam Forex?",
+      "excerpt": "Dalam trading forex, spread adalah salah satu konsep terpenting untuk dipahami. Ini menunjukkan perbedaan antara harga beli dan jual...",
+      "content": {
+        "introduction": "Dalam trading forex, spread adalah salah satu konsep terpenting yang perlu dipahami. Spread menunjukkan perbedaan antara harga di mana pasangan mata uang dapat dibeli dan dijual. Memahami spread membantu trader menginterpretasikan biaya trading dan likuiditas pasar.",
+        "sections": [
+          {
+            "heading": "Harga Bid dan Harga Ask",
+            "text": "Setiap pasangan mata uang memiliki dua harga. Harga Bid adalah harga di mana pasar bersedia membeli mata uang. Harga Ask adalah harga di mana pasar bersedia menjual mata uang. Perbedaan antara kedua harga ini dikenal sebagai spread."
+          },
+          {
+            "heading": "Contoh Spread",
+            "text": "Jika pasangan EUR/USD menunjukkan harga: Bid: 1.1050 Ask: 1.1052. Spread adalah 2 pips. Perbedaan ini mencerminkan likuiditas pasar dan biaya transaksi."
+          },
+          {
+            "heading": "Mengapa Spread Berubah",
+            "text": "Spread dapat bervariasi tergantung kondisi pasar. Beberapa faktor yang memengaruhi spread meliputi: Likuiditas pasar, Volume perdagangan, Berita ekonomi, Volatilitas pasar. Saat ada pengumuman ekonomi besar, spread bisa melebar karena meningkatnya ketidakpastian."
+          },
+          {
+            "heading": "Spread Tetap vs Variabel",
+            "text": "Beberapa pasar beroperasi dengan spread tetap, sementara lainnya menggunakan spread variabel. Spread variabel berubah berdasarkan penawaran dan permintaan di pasar. Pasar dengan likuiditas tinggi biasanya memiliki spread lebih ketat."
+          }
+        ],
+        "conclusion": "Spread menunjukkan perbedaan antara harga beli dan jual di pasar forex. Memahami spread membantu trader menginterpretasikan biaya trading dan likuiditas pasar. Dengan mempelajari spread bersamaan dengan konsep trading lainnya, pemula bisa lebih memahami cara kerja pasar keuangan.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "what-is-margin-trading": {
+      "title": "Apa Itu Margin Trading?",
+      "excerpt": "Margin trading adalah konsep umum di pasar keuangan yang memungkinkan trader membuka posisi dengan hanya sebagian nilai total perdagangan...",
+      "content": {
+        "introduction": "Margin trading adalah konsep umum di pasar keuangan yang memungkinkan trader membuka posisi dengan hanya sebagian nilai total perdagangan. Di pasar seperti forex, margin terkait erat dengan leverage dan memainkan peran penting dalam pengelolaan posisi trading. Bagi pemula, memahami margin penting karena menjelaskan bagaimana trader dapat berpartisipasi dalam perdagangan lebih besar tanpa modal penuh di muka.",
+        "sections": [
+          {
+            "heading": "Apa Itu Margin?",
+            "text": "Margin adalah jumlah uang yang diperlukan untuk membuka dan mempertahankan posisi trading. Alih-alih membayar nilai penuh perdagangan, trader menyetor sejumlah dana lebih kecil yang disebut margin. Jumlah ini bertindak sebagai jaminan agar posisi tetap terbuka. Contoh: jika trader ingin membuka posisi senilai $10.000 dan persyaratan margin 1%, trader hanya perlu $100 untuk membuka posisi."
+          },
+          {
+            "heading": "Margin dan Leverage",
+            "text": "Margin dan leverage saling terkait erat. Leverage memungkinkan trader mengontrol posisi lebih besar, sedangkan margin adalah dana yang diperlukan untuk mempertahankan posisi tersebut. Contoh: Leverage: 1:100, Margin diperlukan: 1%. Leverage tinggi biasanya berarti persyaratan margin lebih rendah, tetapi juga meningkatkan eksposur risiko pasar."
+          },
+          {
+            "heading": "Apa Itu Margin Call?",
+            "text": "Margin call terjadi ketika dana dalam akun trading turun di bawah tingkat margin yang diperlukan. Ini bisa terjadi jika pasar bergerak melawan posisi terbuka. Saat ini terjadi, dana tambahan mungkin diperlukan untuk mempertahankan posisi. Memahami margin call membantu trader lebih sadar bagaimana risiko dikelola di pasar keuangan."
+          },
+          {
+            "heading": "Mengapa Margin Penting",
+            "text": "Margin memainkan peran penting dalam trading karena menentukan berapa banyak modal yang dibutuhkan untuk mempertahankan posisi terbuka. Trader sering memantau level margin dengan cermat untuk memastikan saldo akun tetap di atas tingkat yang diperlukan. Strategi manajemen risiko digunakan untuk mengendalikan eksposur saat trading dengan margin."
+          }
+        ],
+        "conclusion": "Margin trading memungkinkan trader berpartisipasi di pasar keuangan menggunakan sebagian nilai total perdagangan. Meskipun pendekatan ini meningkatkan eksposur pasar, hal ini juga menambah risiko. Mempelajari cara kerja margin membantu pemula memahami bagaimana akun trading beroperasi dan bagaimana posisi dipertahankan di pasar keuangan.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "understanding-market-volatility": {
+      "title": "Memahami Volatilitas Pasar",
+      "excerpt": "Pasar keuangan terus bergerak. Harga mata uang, saham, komoditas, dan aset lainnya berubah sepanjang hari karena berbagai faktor ekonomi...",
+      "content": {
+        "introduction": "Pasar keuangan terus bergerak. Harga mata uang, saham, komoditas, dan aset lainnya berubah sepanjang hari karena berbagai faktor ekonomi dan global. Pergerakan harga ini biasanya disebut volatilitas pasar. Memahami volatilitas penting karena membantu menjelaskan mengapa pasar naik dan turun seiring waktu.",
+        "sections": [
+          {
+            "heading": "Apa Itu Volatilitas Pasar?",
+            "text": "Volatilitas pasar mengacu pada tingkat pergerakan harga suatu aset keuangan sepanjang waktu. Ketika harga bergerak cepat atau signifikan, pasar dianggap sangat volatil. Ketika pergerakan harga lebih kecil dan stabil, volatilitas dianggap rendah. Volatilitas dapat terjadi di semua pasar keuangan, termasuk forex, saham, komoditas, dan cryptocurrency."
+          },
+          {
+            "heading": "Apa Penyebab Volatilitas Pasar?",
+            "text": "Beberapa faktor memengaruhi volatilitas di pasar keuangan. Faktor yang paling umum meliputi: Rilis data ekonomi, Keputusan suku bunga, Perkembangan politik, Peristiwa ekonomi global, Sentimen pasar. Misalnya, ketika bank sentral mengumumkan perubahan suku bunga, pasar mata uang dapat bereaksi cepat saat trader menyesuaikan ekspektasi mereka."
+          },
+          {
+            "heading": "Volatilitas Tinggi vs Rendah",
+            "text": "Pasar dapat mengalami tingkat volatilitas yang berbeda tergantung kondisi ekonomi. Volatilitas tinggi: Pergerakan harga besar dan cepat. Volatilitas rendah: Perubahan harga lebih kecil dan kondisi pasar lebih stabil. Lingkungan pasar yang berbeda memengaruhi strategi trading dan pendekatan manajemen risiko."
+          },
+          {
+            "heading": "Mengapa Volatilitas Penting",
+            "text": "Volatilitas memainkan peran penting di pasar keuangan karena mencerminkan ketidakpastian dan perubahan ekspektasi investor. Memahami volatilitas membantu trader dan investor menafsirkan kondisi pasar dan mengelola risiko."
+          }
+        ],
+        "conclusion": "Volatilitas pasar mengacu pada perubahan harga aset keuangan seiring waktu. Pergerakan ini dipengaruhi oleh data ekonomi, peristiwa global, dan perilaku investor. Mempelajari cara kerja volatilitas membantu pemula lebih memahami bagaimana pasar keuangan bereaksi terhadap informasi baru.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "best-times-to-trade-forex-(trading": {
+      "title": "Waktu Terbaik untuk Trading Forex (Penjelasan Sesi Trading)",
+      "excerpt": "Pasar forex beroperasi 24 jam sehari selama minggu trading, memungkinkan peserta dari seluruh dunia memperdagangkan mata uang pada waktu berbeda...",
+      "content": {
+        "introduction": "Pasar forex beroperasi 24 jam sehari selama minggu trading, memungkinkan peserta dari seluruh dunia memperdagangkan mata uang pada waktu berbeda. Namun, aktivitas pasar tidak merata sepanjang hari. Beberapa periode yang dikenal sebagai sesi trading cenderung mengalami tingkat aktivitas dan likuiditas yang lebih tinggi.",
+        "sections": [
+          {
+            "heading": "Sesi Trading Forex Utama",
+            "text": "Pasar forex global dibagi menjadi empat sesi trading utama. \nSesi Asia: Sesi Asia memulai hari trading global dan sering terkait dengan pasar di Tokyo, Singapura, dan Hong Kong. Pergerakan harga selama sesi ini terkadang lebih moderat dibandingkan sesi lainnya. \nSesi London: Sesi London adalah salah satu periode paling aktif di pasar forex. Sebagian besar volume perdagangan mata uang global terjadi selama waktu ini karena banyak institusi keuangan berbasis di Eropa. \nSesi New York: Sesi New York tumpang tindih dengan sesi London selama beberapa jam, menciptakan salah satu periode trading paling aktif. Pengumuman ekonomi penting dari AS sering terjadi selama sesi ini."
+          },
+          {
+            "heading": "Tumpang Tindih Sesi",
+            "text": "Salah satu periode paling aktif di pasar forex terjadi ketika sesi London dan New York tumpang tindih. Selama waktu ini, likuiditas cenderung meningkat dan pasar dapat mengalami pergerakan harga lebih kuat."
+          },
+          {
+            "heading": "Mengapa Sesi Trading Penting",
+            "text": "Sesi trading memengaruhi aktivitas pasar, volatilitas, dan likuiditas. Memahami kapan pasar berbeda aktif membantu trader menafsirkan perilaku pasar global dengan lebih baik."
+          }
+        ],
+        "conclusion": "Pasar forex beroperasi terus-menerus selama minggu trading, tetapi tingkat aktivitas berbeda tergantung sesi trading global. Mempelajari sesi trading membantu pemula memahami kapan pasar keuangan cenderung paling aktif.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "how-to-read-forex-charts": {
+      "title": "Cara Membaca Grafik Forex",
+      "excerpt": "Grafik harga adalah salah satu alat yang paling umum digunakan di pasar keuangan. Mereka membantu trader memvisualisasikan bagaimana harga suatu aset berubah seiring waktu...",
+      "content": {
+        "introduction": "Grafik harga adalah salah satu alat yang paling umum digunakan di pasar keuangan. Mereka membantu trader memvisualisasikan bagaimana harga suatu aset berubah seiring waktu. Mempelajari cara membaca grafik adalah keterampilan penting bagi siapa saja yang ingin memahami perilaku pasar.",
+        "sections": [
+          {
+            "heading": "Jenis Grafik Trading",
+            "text": "Beberapa jenis grafik digunakan di pasar keuangan. \nGrafik Garis: Menghubungkan harga penutupan dari waktu ke waktu dan memberikan gambaran sederhana tentang pergerakan harga. \nGrafik Batang: Menampilkan harga pembukaan, penutupan, tertinggi, dan terendah untuk periode waktu tertentu. \nGrafik Candlestick: Banyak digunakan karena memberikan informasi rinci tentang pergerakan harga dalam setiap interval waktu."
+          },
+          {
+            "heading": "Memahami Candlestick",
+            "text": "Setiap candlestick mewakili aktivitas harga selama kerangka waktu tertentu. Candlestick mencakup: Harga buka, Harga tutup, Harga tertinggi, Harga terendah. Warna candlestick biasanya menunjukkan apakah harga naik atau turun selama periode tersebut."
+          },
+          {
+            "heading": "Mengapa Grafik Penting",
+            "text": "Grafik membantu trader menganalisis pola, mengidentifikasi tren, dan mengamati bagaimana pasar merespons informasi baru. Meskipun grafik tidak dapat memprediksi masa depan, mereka memberikan wawasan berharga tentang perilaku harga historis."
+          }
+        ],
+        "conclusion": "Grafik forex memberikan representasi visual dari aktivitas pasar. Dengan mempelajari cara menafsirkan grafik, pemula dapat lebih memahami bagaimana harga bergerak dan bagaimana trader menganalisis pasar keuangan.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "support-and-resistance-explained": {
+      "title": "Penjelasan Support dan Resistance",
+      "excerpt": "Di pasar keuangan, harga sering bergerak dalam rentang tertentu. Trader sering memperhatikan bahwa harga cenderung berhenti, berbalik, atau melambat dekat level tertentu...",
+      "content": {
+        "introduction": "Di pasar keuangan, harga sering bergerak dalam rentang tertentu. Trader sering memperhatikan bahwa harga cenderung berhenti, berbalik, atau melambat dekat level tertentu. Level-level ini dikenal sebagai support dan resistance. Memahami support dan resistance adalah salah satu konsep dasar yang digunakan saat menganalisis pergerakan harga pasar.",
+        "sections": [
+          {
+            "heading": "Apa Itu Support?",
+            "text": "Support adalah level harga di mana suatu aset cenderung berhenti turun dan mungkin mulai naik lagi. Ini terjadi karena pembeli biasanya lebih aktif pada harga yang lebih rendah. Ketika permintaan meningkat, hal ini dapat memperlambat atau membalikkan pergerakan harga ke bawah. Misalnya, jika pasangan mata uang berulang kali berhenti turun dekat level harga tertentu, level tersebut dapat dianggap sebagai support."
+          },
+          {
+            "heading": "Apa Itu Resistance?",
+            "text": "Resistance adalah kebalikan dari support. Resistance adalah level harga di mana suatu aset mungkin kesulitan untuk naik karena tekanan jual meningkat. Ketika harga mendekati level resistance, trader mungkin mulai menjual atau mengambil keuntungan, yang dapat memperlambat pergerakan naik."
+          },
+          {
+            "heading": "Mengapa Level Ini Penting",
+            "text": "Level support dan resistance penting karena membantu trader memahami di mana reaksi harga mungkin terjadi. Level ini sering terbentuk karena banyak peserta pasar mengamati area harga yang sama dan membuat keputusan berdasarkan hal tersebut. Support dan resistance juga dapat terbentuk di sekitar: Harga tertinggi dan terendah sebelumnya, Level harga psikologis, Rentang perdagangan historis."
+          },
+          {
+            "heading": "Support dan Resistance dalam Praktik",
+            "text": "Pasar jarang bergerak dalam garis lurus. Sebaliknya, pasar sering bergerak dalam gelombang, memantul antara level support dan resistance. Ketika harga menembus resistance atau turun di bawah support, pasar mungkin memasuki rentang perdagangan baru. Perilaku harga ini biasanya dipelajari sebagai bagian dari analisis teknikal."
+          }
+        ],
+        "conclusion": "Level support dan resistance mewakili area harga penting di mana pasar mungkin berhenti atau mengubah arah. Mempelajari cara mengenali level ini membantu pemula lebih memahami bagaimana harga pasar bereaksi terhadap kekuatan penawaran dan permintaan.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "risk-management-in-trading": {
+      "title": "Manajemen Risiko dalam Trading",
+      "excerpt": "Pasar keuangan melibatkan ketidakpastian, dan harga dapat berubah dengan cepat. Karena itu, banyak trader fokus pada manajemen risiko, yaitu metode untuk mengendalikan potensi kerugian...",
+      "content": {
+        "introduction": "Pasar keuangan melibatkan ketidakpastian, dan harga dapat berubah dengan cepat. Karena itu, banyak trader fokus pada manajemen risiko, yaitu metode untuk mengendalikan potensi kerugian. Memahami manajemen risiko adalah bagian penting dari belajar tentang pasar keuangan.",
+        "sections": [
+          {
+            "heading": "Apa Itu Manajemen Risiko?",
+            "text": "Manajemen risiko mengacu pada strategi dan alat yang digunakan untuk membatasi potensi kerugian dalam aktivitas trading. Alih-alih hanya fokus pada potensi keuntungan, trader sering mempertimbangkan seberapa banyak yang bersedia mereka risikokan pada setiap perdagangan. Manajemen risiko membantu menjaga keseimbangan dalam pengambilan keputusan trading."
+          },
+          {
+            "heading": "Mengapa Manajemen Risiko Penting",
+            "text": "Pasar bisa bergerak secara tak terduga karena peristiwa ekonomi, perkembangan geopolitik, atau perubahan sentimen pasar. Tanpa manajemen risiko, trader mungkin menghadapi kerugian besar jika pasar bergerak secara tidak terduga. Mengelola risiko membantu trader menjaga pendekatan yang lebih disiplin di pasar keuangan."
+          },
+          {
+            "heading": "Konsep Manajemen Risiko Umum",
+            "text": "Beberapa alat dan strategi yang umum digunakan untuk mengelola risiko antara lain: \nUkuran posisi: Menentukan seberapa besar perdagangan relatif terhadap ukuran akun. \nOrder stop loss: Level harga yang telah ditentukan di mana posisi dapat ditutup jika pasar bergerak berlawanan dengan perdagangan. \nDiversifikasi: Praktik menyebar eksposur di berbagai aset. Konsep-konsep ini banyak dibahas dalam edukasi trading."
+          },
+          {
+            "heading": "Risiko dan Volatilitas Pasar",
+            "text": "Pasar yang volatil mungkin memerlukan perhatian ekstra terhadap manajemen risiko karena harga dapat berubah dengan cepat. Memahami bagaimana volatilitas memengaruhi pasar dapat membantu trader menilai risiko secara lebih baik."
+          }
+        ],
+        "conclusion": "Manajemen risiko memainkan peran sentral dalam partisipasi di pasar keuangan. Dengan mempelajari cara mengelola risiko secara efektif, individu dapat mendekati trading dengan kesadaran lebih terhadap kemungkinan hasil. Sumber edukasi sering menekankan manajemen risiko sebagai salah satu aspek paling penting dalam pengetahuan trading.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "trading-psychology-for-beginners": {
+      "title": "Psikologi Trading untuk Pemula",
+      "excerpt": "Pasar keuangan dapat memicu emosi kuat seperti kegembiraan, ketakutan, dan frustrasi. Karena harga bergerak cepat dan ketidakpastian selalu hadir...",
+      "content": {
+        "introduction": "Pasar keuangan dapat memicu emosi kuat seperti kegembiraan, ketakutan, dan frustrasi. Karena harga bergerak cepat dan ketidakpastian selalu hadir, emosi dapat memengaruhi keputusan trading. Inilah sebabnya psikologi trading sering dibahas dalam sumber edukasi tentang pasar keuangan.",
+        "sections": [
+          {
+            "heading": "Apa Itu Psikologi Trading?",
+            "text": "Psikologi trading mengacu pada faktor mental dan emosional yang memengaruhi pengambilan keputusan dalam trading. Bahkan trader berpengalaman dapat menghadapi tantangan psikologis ketika pasar bergerak tak terduga. Emosi seperti ketakutan dan overconfidence dapat memengaruhi bagaimana orang merespons pergerakan pasar."
+          },
+          {
+            "heading": "Tantangan Emosional Umum",
+            "text": "Beberapa faktor psikologis yang umum memengaruhi keputusan trading: \nKetakutan: Dapat membuat trader menutup posisi terlalu cepat atau menghindari peluang. \nKeserakahan: Dapat mendorong pengambilan risiko berlebihan demi keuntungan lebih besar. \nKetidaksabaran: Pasar tidak selalu bergerak cepat, yang dapat memicu keputusan impulsif."
+          },
+          {
+            "heading": "Pentingnya Disiplin",
+            "text": "Banyak sumber edukasi trading menekankan pentingnya disiplin dan pengambilan keputusan yang terstruktur. Memiliki aturan dan strategi yang jelas dapat membantu mengurangi reaksi emosional terhadap pergerakan pasar jangka pendek. Memahami sisi psikologis trading membantu individu mendekati pasar keuangan dengan lebih objektif."
+          }
+        ],
+        "conclusion": "Psikologi trading fokus pada aspek emosional dan perilaku dalam partisipasi pasar keuangan. Dengan memahami bagaimana emosi memengaruhi keputusan, individu dapat mengembangkan kesadaran lebih saat menganalisis peluang dan risiko pasar.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "understanding-market-trends": {
+      "title": "Memahami Tren Pasar",
+      "excerpt": "Pasar keuangan jarang bergerak secara acak untuk jangka waktu lama. Sebaliknya, harga sering bergerak dalam tren, di mana pasar secara bertahap naik, turun, atau...",
+      "content": {
+        "introduction": "Pasar keuangan jarang bergerak secara acak untuk jangka waktu lama. Sebaliknya, harga sering bergerak dalam tren, di mana pasar secara bertahap naik, turun, atau bergerak menyamping. Memahami tren pasar adalah konsep penting bagi siapa saja yang belajar tentang pasar keuangan.",
+        "sections": [
+          {
+            "heading": "Apa Itu Tren Pasar?",
+            "text": "Tren pasar mengacu pada arah umum pergerakan harga selama periode waktu tertentu. Tren dapat terjadi di berbagai pasar keuangan, termasuk forex, saham, komoditas, dan indeks. Tren bisa berlangsung beberapa menit, hari, bulan, atau bahkan tahun tergantung kondisi pasar."
+          },
+          {
+            "heading": "Jenis Tren Pasar",
+            "text": "Uptrend: Terjadi ketika harga secara bertahap naik dari waktu ke waktu. Dalam uptrend, pasar cenderung membuat higher highs dan higher lows. \nDowntrend: Terjadi ketika harga secara bertahap turun dari waktu ke waktu. Dalam hal ini, pasar sering membentuk lower highs dan lower lows. \nSideways Trend: Kadang pasar bergerak dalam rentang sempit tanpa arah jelas. Ini dikenal sebagai sideways trend atau konsolidasi."
+          },
+          {
+            "heading": "Mengapa Tren Penting",
+            "text": "Tren membantu trader dan investor memahami arah umum aktivitas pasar. Banyak metode analisis yang digunakan di pasar keuangan mencoba mengidentifikasi tren dan mengamati seberapa lama tren tersebut mungkin berlangsung."
+          }
+        ],
+        "conclusion": "Tren pasar mewakili arah umum pergerakan harga seiring waktu. Dengan mengamati tren, individu dapat memperoleh wawasan tentang perilaku pasar yang lebih luas dan perubahan kondisi ekonomi.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "how-trading-strategies-work": {
+      "title": "Bagaimana Strategi Trading Bekerja",
+      "excerpt": "Pasar keuangan menawarkan banyak peluang untuk analisis dan pengambilan keputusan. Karena pasar bisa tidak terduga, banyak trader mengandalkan strategi trading terstruktur...",
+      "content": {
+        "introduction": "Pasar keuangan menawarkan banyak peluang untuk analisis dan pengambilan keputusan. Karena pasar bisa tidak terduga, banyak trader mengandalkan strategi trading terstruktur untuk membimbing tindakan mereka. Strategi trading pada dasarnya adalah rencana yang menjelaskan bagaimana seorang trader mendekati pasar.",
+        "sections": [
+          {
+            "heading": "Apa Itu Strategi Trading?",
+            "text": "Strategi trading adalah seperangkat aturan atau pedoman yang digunakan untuk menganalisis pasar dan membuat keputusan trading. Aturan ini dapat mencakup: Kondisi pasar, Kriteria masuk dan keluar, Pertimbangan manajemen risiko. Berbagai trader mengembangkan strategi berdasarkan metode analisis yang mereka sukai."
+          },
+          {
+            "heading": "Jenis Strategi Trading",
+            "text": "Beberapa jenis strategi yang umum dibahas dalam edukasi trading: \nStrategi Tren: Fokus pada mengidentifikasi pasar yang bergerak konsisten ke satu arah. \nStrategi Rentang: Fokus pada pasar yang bergerak dalam level support dan resistance yang ditentukan. \nStrategi Berbasis Berita: Fokus pada reaksi pasar terhadap pengumuman ekonomi."
+          },
+          {
+            "heading": "Mengapa Strategi Digunakan",
+            "text": "Strategi trading membantu menciptakan pendekatan terstruktur untuk analisis pasar. Alih-alih membuat keputusan secara acak, strategi mendorong trader mengikuti pedoman yang telah ditetapkan. Materi edukasi sering menekankan pentingnya disiplin dan konsistensi saat menerapkan strategi."
+          }
+        ],
+        "conclusion": "Strategi trading memberikan kerangka kerja untuk menganalisis pasar keuangan dan membuat keputusan yang terinformasi. Dengan mempelajari cara kerja berbagai strategi, pemula dapat lebih memahami bagaimana trader mendekati dinamika pasar keuangan.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "what-moves-the-forex-market": {
+      "title": "Apa yang Mempengaruhi Pasar Forex?",
+      "excerpt": "Pasar valuta asing terus berubah saat harga mata uang bergerak naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi...",
+      "content": {
+        "introduction": "Pasar valuta asing terus berubah saat harga mata uang bergerak naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi, keuangan, dan politik. Memahami apa yang mendorong harga mata uang dapat membantu pemula memperoleh gambaran lebih jelas tentang cara kerja pasar forex.",
+        "sections": [
+          {
+            "heading": "Suku Bunga",
+            "text": "Suku bunga adalah salah satu faktor terpenting yang memengaruhi nilai mata uang. Ketika bank sentral suatu negara menaikkan suku bunga, mata uang tersebut dapat menjadi lebih menarik bagi investor karena tingkat pengembalian yang lebih tinggi. Akibatnya, permintaan terhadap mata uang itu dapat meningkat di pasar global."
+          },
+          {
+            "heading": "Data Ekonomi",
+            "text": "Laporan ekonomi secara rutin diterbitkan oleh pemerintah dan lembaga keuangan. Laporan ini memberikan wawasan tentang kesehatan suatu ekonomi. Indikator ekonomi umum meliputi: Produk Domestik Bruto (PDB), Data ketenagakerjaan, Laporan inflasi, Penjualan ritel. Data ekonomi yang kuat dapat memperkuat mata uang suatu negara, sedangkan data yang lebih lemah dapat memiliki efek sebaliknya."
+          },
+          {
+            "heading": "Peristiwa Politik dan Global",
+            "text": "Perkembangan politik dan peristiwa global juga dapat memengaruhi pasar mata uang. Contohnya termasuk: Pemilihan umum, Kebijakan perdagangan, Ketegangan geopolitik, Perubahan ekonomi global. Pasar sering bereaksi cepat terhadap berita dan perubahan ekspektasi ekonomi."
+          },
+          {
+            "heading": "Sentimen Pasar",
+            "text": "Sentimen pasar mengacu pada sikap keseluruhan investor terhadap suatu mata uang atau pasar tertentu. Jika investor percaya bahwa suatu ekonomi sedang menguat, mereka mungkin meningkatkan permintaan terhadap mata uang negara tersebut. Perubahan sentimen dapat memengaruhi pergerakan harga di pasar forex."
+          }
+        ],
+        "conclusion": "Harga mata uang dipengaruhi oleh berbagai faktor, termasuk suku bunga, data ekonomi, peristiwa politik, dan sentimen investor. Dengan memahami faktor-faktor ini, pemula dapat memperoleh wawasan yang lebih baik tentang cara pasar forex beroperasi.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "how-interest-rates-affect-currency": {
+      "title": "Bagaimana Suku Bunga Mempengaruhi Pasar Mata Uang",
+      "excerpt": "Suku bunga adalah salah satu alat ekonomi terpenting yang digunakan bank sentral untuk mengelola pertumbuhan ekonomi dan inflasi. Perubahan suku bunga dapat...",
+      "content": {
+        "introduction": "Suku bunga adalah salah satu alat ekonomi terpenting yang digunakan bank sentral untuk mengelola pertumbuhan ekonomi dan inflasi. Perubahan suku bunga dapat memiliki dampak signifikan pada pasar keuangan, termasuk harga mata uang. Memahami bagaimana suku bunga memengaruhi mata uang dapat membantu pemula menafsirkan pergerakan pasar dengan lebih baik.",
+        "sections": [
+          {
+            "heading": "Apa Itu Suku Bunga?",
+            "text": "Suku bunga mewakili biaya meminjam uang. Bank sentral menyesuaikan suku bunga untuk membantu mengelola aktivitas ekonomi, inflasi, dan stabilitas keuangan. Ketika suku bunga naik, biaya pinjaman biasanya menjadi lebih mahal. Ketika suku bunga turun, pinjaman mungkin menjadi lebih terjangkau."
+          },
+          {
+            "heading": "Mengapa Suku Bunga Mempengaruhi Mata Uang",
+            "text": "Mata uang dipengaruhi oleh suku bunga karena investor sering mencari peluang untuk mendapatkan pengembalian lebih tinggi. Ketika suku bunga suatu negara meningkat, aset keuangan di negara tersebut dapat menjadi lebih menarik bagi investor. Hal ini dapat menyebabkan meningkatnya permintaan terhadap mata uang negara tersebut."
+          },
+          {
+            "heading": "Keputusan Bank Sentral",
+            "text": "Bank sentral secara rutin meninjau kondisi ekonomi dan memutuskan apakah akan menaikkan, menurunkan, atau mempertahankan suku bunga. Contoh bank sentral besar meliputi: Federal Reserve (Amerika Serikat), European Central Bank, Bank of England, Bank of Japan. Pengumuman dari institusi ini sering memengaruhi pasar keuangan."
+          },
+          {
+            "heading": "Ekspektasi Pasar",
+            "text": "Pasar keuangan sering bereaksi tidak hanya terhadap perubahan suku bunga aktual tetapi juga terhadap ekspektasi keputusan di masa depan. Investor mengikuti indikator ekonomi dan pernyataan bank sentral dengan cermat untuk memperkirakan kemungkinan perubahan kebijakan."
+          }
+        ],
+        "conclusion": "Suku bunga memainkan peran besar dalam membentuk pasar mata uang. Dengan memengaruhi perilaku investor dan aktivitas ekonomi, kebijakan bank sentral dapat memengaruhi nilai mata uang di pasar keuangan global.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "why-gold-prices-fluctuate": {
+      "title": "Mengapa Harga Emas Berfluktuasi",
+      "excerpt": "Emas telah dihargai selama berabad-abad sebagai logam mulia dan aset keuangan. Saat ini, emas terus memainkan peran penting di pasar keuangan global...",
+      "content": {
+        "introduction": "Emas telah dihargai selama berabad-abad sebagai logam mulia dan aset keuangan. Saat ini, emas terus memainkan peran penting di pasar keuangan global. Harga emas dapat naik atau turun tergantung pada berbagai faktor ekonomi dan keuangan.",
+        "sections": [
+          {
+            "heading": "Emas sebagai Aset Safe-Haven",
+            "text": "Emas sering dianggap sebagai aset safe-haven, artinya investor mungkin beralih ke emas selama periode ketidakpastian ekonomi. Ketika pasar keuangan mengalami ketidakstabilan, permintaan emas dapat meningkat. Permintaan ini dapat memengaruhi harga emas."
+          },
+          {
+            "heading": "Inflasi dan Emas",
+            "text": "Inflasi mengukur seberapa cepat harga barang dan jasa meningkat dari waktu ke waktu. Ketika inflasi naik, daya beli mata uang dapat menurun. Beberapa investor melihat emas sebagai cara untuk menjaga nilai selama periode inflasi yang meningkat."
+          },
+          {
+            "heading": "Suku Bunga dan Emas",
+            "text": "Suku bunga juga dapat memengaruhi harga emas. Ketika suku bunga tinggi, investor mungkin lebih memilih aset berbunga seperti obligasi. Ketika suku bunga lebih rendah, emas dapat menjadi lebih menarik karena biaya peluang memegang emas menurun."
+          },
+          {
+            "heading": "Permintaan Global",
+            "text": "Permintaan emas berasal dari berbagai sumber, termasuk: Produksi perhiasan, Permintaan investasi, Cadangan bank sentral, Penggunaan industri. Perubahan permintaan global dapat memengaruhi harga emas secara keseluruhan."
+          }
+        ],
+        "conclusion": "Harga emas berfluktuasi karena kombinasi kondisi ekonomi, ekspektasi inflasi, suku bunga, dan permintaan global. Dengan memahami faktor-faktor ini, pemula dapat memperoleh pemahaman yang lebih jelas tentang cara kerja pasar emas.",
+        "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
+      }
+    },
+    "oil-prices-and-global-markets": {
+      "title": "Harga Minyak dan Pasar Global",
+      "excerpt": "Minyak adalah salah satu komoditas paling penting dalam ekonomi global. Minyak digunakan secara luas untuk transportasi, manufaktur, dan produksi energi...",
+      "content": {
+        "introduction": "Minyak adalah salah satu komoditas paling penting dalam ekonomi global. Minyak digunakan secara luas untuk transportasi, manufaktur, dan produksi energi. Karena perannya yang penting, perubahan harga minyak dapat memengaruhi pasar keuangan dan aktivitas ekonomi di seluruh dunia.",
+        "sections": [
+          {
+            "heading": "Penawaran dan Permintaan Minyak",
+            "text": "Harga minyak sangat dipengaruhi oleh penawaran dan permintaan global. Ketika permintaan minyak meningkat, harga dapat naik. Ketika pasokan meningkat atau permintaan menurun, harga dapat turun. Banyak faktor dapat memengaruhi penawaran dan permintaan, termasuk pertumbuhan ekonomi global dan pola konsumsi energi."
+          },
+          {
+            "heading": "Negara Penghasil Minyak",
+            "text": "Beberapa negara memainkan peran besar dalam produksi minyak global. Organisasi seperti OPEC (Organization of the Petroleum Exporting Countries) membantu mengoordinasikan tingkat produksi minyak di antara negara-negara anggotanya. Keputusan produksi dari produsen minyak utama dapat memengaruhi harga minyak."
+          },
+          {
+            "heading": "Minyak dan Pasar Mata Uang",
+            "text": "Harga minyak juga dapat memengaruhi pasar mata uang. Mata uang negara pengekspor minyak dapat dipengaruhi oleh perubahan harga minyak karena ekspor energi merupakan bagian penting dari ekonomi mereka. Hubungan ini menunjukkan bagaimana pasar komoditas dan pasar mata uang saling terhubung."
+          },
+          {
+            "heading": "Minyak dan Inflasi",
+            "text": "Harga minyak dapat memengaruhi inflasi karena biaya energi memengaruhi transportasi, manufaktur, dan barang konsumsi. Ketika harga minyak meningkat secara signifikan, biaya produksi di berbagai industri juga dapat meningkat."
+          }
+        ],
+        "conclusion": "Harga minyak memainkan peran penting dalam ekonomi global. Dengan memengaruhi biaya energi, inflasi, dan neraca perdagangan, pasar minyak dapat berdampak pada pasar keuangan di seluruh dunia.",
+        "disclaimer": "Informasi yang diberikan dalam artikel ini hanya untuk tujuan edukasi dan bukan merupakan nasihat keuangan atau rekomendasi investasi."
+      }
+    },
+    "how-central-banks-influence-financial": {
+      "title": "Bagaimana Bank Sentral Mempengaruhi Pasar Keuangan",
+      "excerpt": "Bank sentral memainkan peran penting dalam sistem keuangan global. Lembaga ini bertanggung jawab mengelola kebijakan moneter suatu negara dan menjaga...",
+      "content": {
+        "introduction": "Bank sentral memainkan peran penting dalam sistem keuangan global. Lembaga-lembaga ini bertanggung jawab untuk mengelola kebijakan moneter suatu negara dan menjaga stabilitas keuangan. Keputusan yang diambil oleh bank sentral dapat memengaruhi mata uang, pasar saham, dan aktivitas ekonomi.",
+        "sections": [
+          {
+            "heading": "Apa Itu Bank Sentral?",
+            "text": "Bank sentral adalah otoritas keuangan nasional yang bertanggung jawab mengawasi kebijakan moneter. Beberapa bank sentral terkenal meliputi: Federal Reserve (Amerika Serikat), European Central Bank, Bank of England, dan Bank of Japan. Lembaga-lembaga ini bekerja untuk menjaga kondisi ekonomi yang stabil."
+          },
+          {
+            "heading": "Kebijakan Moneter",
+            "text": "Kebijakan moneter merujuk pada tindakan yang diambil bank sentral untuk mengelola aktivitas ekonomi. Alat utama yang digunakan bank sentral meliputi: Penyesuaian suku bunga, Pengelolaan jumlah uang beredar, Panduan ekonomi. Keputusan ini dapat memengaruhi biaya pinjaman, aktivitas investasi, dan perilaku pasar keuangan."
+          },
+          {
+            "heading": "Reaksi Pasar",
+            "text": "Pasar keuangan sering bereaksi cepat terhadap pengumuman bank sentral. Investor memperhatikan dengan saksama pernyataan bank sentral karena dapat memberi sinyal perubahan kebijakan ekonomi di masa depan. Ekspektasi terhadap kebijakan moneter dapat memengaruhi harga aset di pasar global."
+          },
+          {
+            "heading": "Mengapa Bank Sentral Penting",
+            "text": "Bank sentral membantu menjaga stabilitas ekonomi dengan mengelola inflasi, tingkat pekerjaan, dan risiko dalam sistem keuangan. Karena peran ini, keputusan mereka dipantau secara ketat oleh pelaku pasar keuangan di seluruh dunia."
+          }
+        ],
+        "conclusion": "Bank sentral memainkan peran utama dalam membentuk pasar keuangan. Melalui keputusan kebijakan moneter dan panduan ekonomi, lembaga-lembaga ini memengaruhi mata uang, suku bunga, dan kondisi pasar secara keseluruhan.",
+        "disclaimer": "Informasi yang diberikan dalam artikel ini hanya untuk tujuan edukasi dan bukan merupakan nasihat keuangan atau rekomendasi investasi."
+      }
     }
-  },
-  "how-financial-markets-work": {
-    "title": "Bagaimana Pasar Keuangan Bekerja",
-    "seo_title": "Bagaimana Pasar Keuangan Bekerja: Panduan Pemula",
-    "meta_description": "Pelajari bagaimana pasar keuangan bekerja, berbagai jenis pasar, dan cara global...",
-    "category": "Pemula",
-    "excerpt": "Pasar keuangan memainkan peran sentral dalam ekonomi global...",
-    "content": {
-      "introduction": "Pasar keuangan memainkan peran sentral dalam ekonomi global...",
-      "sections": [
-        {
-          "heading": "Apa Itu Pasar Keuangan?",
-          "text": "Pasar keuangan adalah sistem di mana pembeli dan penjual menukar aset keuangan..."
-        },
-        {
-          "heading": "Jenis-Jenis Utama Pasar Keuangan",
-          "text": "Berbagai jenis pasar keuangan beroperasi di seluruh dunia..."
-        },
-        {
-          "heading": "Bagaimana Harga Ditentukan",
-          "text": "Harga di pasar keuangan sebagian besar ditentukan oleh penawaran dan permintaan..."
-        },
-        {
-          "heading": "Peserta Pasar",
-          "text": "Pasar keuangan melibatkan berbagai peserta..."
-        },
-        {
-          "heading": "Mengapa Pasar Keuangan Penting",
-          "text": "Pasar keuangan menjalankan beberapa fungsi penting..."
-        }
-      ],
-      "conclusion": "Pasar keuangan adalah sistem kompleks...",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi..."
-    }
-  },
-  "what-are-currency-pairs-in-forex": {
-    "title": "Apa Itu Pasangan Mata Uang dalam Forex?",
-    "seo_title": "Penjelasan Pasangan Mata Uang: Memahami Pasangan Forex",
-    "meta_description": "Pelajari apa itu pasangan mata uang dalam trading forex...",
-    "category": "Pemula",
-    "excerpt": "Di pasar forex, mata uang diperdagangkan dalam pasangan...",
-    "content": {
-      "introduction": "Di pasar forex, mata uang diperdagangkan berpasangan. Artinya, saat satu mata uang dibeli, mata uang lain dijual pada waktu yang sama. Memahami cara kerja pasangan mata uang adalah salah satu konsep terpenting bagi siapa saja yang belajar trading forex.",
-      "sections": [
-        {
-          "heading": "Mata Uang Dasar dan Mata Uang Kutipan",
-          "text": "Setiap pasangan mata uang terdiri dari dua mata uang. Mata uang dasar adalah mata uang pertama yang tercantum dalam pasangan. Mata uang kutipan adalah mata uang kedua. Contoh: EUR/USD. Di sini: EUR = mata uang dasar USD = mata uang kutipan. Jika pasangan diperdagangkan pada 1,10, artinya satu euro sama dengan 1,10 dolar AS."
-        },
-        {
-          "heading": "Pasangan Mata Uang Utama",
-          "text": "Pasangan mata uang utama mencakup mata uang yang paling banyak diperdagangkan di dunia. Contoh: EUR/USD, USD/JPY, GBP/USD, USD/CHF. Pasangan ini biasanya memiliki likuiditas tinggi dan spread harga lebih kecil."
-        },
-        {
-          "heading": "Pasangan Mata Uang Minor",
-          "text": "Pasangan mata uang minor tidak termasuk dolar AS. Contoh: EUR/GBP, EUR/AUD, GBP/JPY. Pasangan ini masih aktif diperdagangkan tetapi mungkin memiliki volume perdagangan sedikit lebih rendah."
-        },
-        {
-          "heading": "Pasangan Mata Uang Eksotis",
-          "text": "Pasangan eksotis melibatkan mata uang utama yang dikombinasikan dengan mata uang dari ekonomi berkembang. Contoh: USD/TRY, USD/ZAR, USD/MXN. Pasangan eksotis cenderung memiliki volatilitas lebih tinggi."
-        },
-        {
-          "heading": "Mengapa Pasangan Mata Uang Bergerak",
-          "text": "Pasangan mata uang berfluktuasi karena perubahan kondisi ekonomi, kebijakan bank sentral, dan peristiwa global. Perubahan suku bunga, pertumbuhan ekonomi, dan perkembangan geopolitik dapat memengaruhi harga mata uang."
-        }
-      ],
-      "conclusion": "Pasangan mata uang adalah fondasi pasar forex. Dengan memahami hubungan antara mata uang dasar dan kutipan, pemula dapat lebih baik menginterpretasikan pergerakan harga dan aktivitas pasar. Mempelajari perilaku berbagai pasangan mata uang membantu trader mendapatkan wawasan lebih dalam tentang pasar keuangan global.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "what-is-leverage-in-trading": {
-    "title": "Apa Itu Leverage dalam Trading?",
-    "excerpt": "Leverage adalah konsep umum di pasar keuangan yang memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil...",
-    "content": {
-      "introduction": "Leverage adalah konsep umum di pasar keuangan yang memungkinkan trader mengontrol posisi lebih besar dengan modal lebih kecil. Meskipun leverage dapat meningkatkan potensi keuntungan, hal ini juga meningkatkan tingkat risiko dalam trading. Memahami cara kerja leverage adalah langkah penting bagi siapa saja yang belajar tentang pasar keuangan.",
-      "sections": [
-        {
-          "heading": "Apa Itu Leverage?",
-          "text": "Leverage mengacu pada penggunaan dana pinjaman untuk memperbesar ukuran posisi trading. Contoh: jika trader menggunakan leverage 1:100, mereka dapat mengontrol posisi senilai 100 unit dengan hanya 1 unit modal sendiri. Leverage banyak digunakan di pasar forex karena pergerakan harga mata uang biasanya kecil."
-        },
-        {
-          "heading": "Mengapa Leverage Digunakan",
-          "text": "Leverage memungkinkan trader berpartisipasi dalam posisi lebih besar tanpa harus memiliki nilai penuh dari perdagangan. Ini membuat trading lebih mudah diakses bagi peserta dengan modal terbatas. Namun, penting untuk memahami bahwa leverage memperbesar keuntungan sekaligus kerugian."
-        },
-        {
-          "heading": "Contoh Leverage",
-          "text": "Misalkan trader ingin membuka posisi senilai $10.000. Jika leverage 1:100, trader hanya memerlukan margin $100 untuk membuka posisi tersebut. Jika pasar bergerak sesuai harapan, keuntungan meningkat relatif terhadap modal yang diinvestasikan. Jika pasar bergerak melawan posisi, kerugian juga dapat meningkat dengan cepat."
-        },
-        {
-          "heading": "Pertimbangan Utama",
-          "text": "Sebelum menggunakan leverage, trader harus memahami: Volatilitas pasar, Manajemen risiko, Persyaratan margin, Potensi kerugian. Banyak sumber edukasi menekankan trading bertanggung jawab dan pengendalian risiko yang tepat saat menggunakan leverage."
-        }
-      ],
-      "conclusion": "Leverage adalah alat penting yang memungkinkan trader meningkatkan eksposur dengan modal terbatas. Namun, hal ini juga menambah risiko. Memahami cara kerja leverage membantu individu mendekati trading dengan kesadaran lebih besar tentang peluang dan risiko.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "what-is-spread-in-forex": {
-    "title": "Apa Itu Spread dalam Forex?",
-    "excerpt": "Dalam trading forex, spread adalah salah satu konsep terpenting untuk dipahami. Ini menunjukkan perbedaan antara harga beli dan jual...",
-    "content": {
-      "introduction": "Dalam trading forex, spread adalah salah satu konsep terpenting yang perlu dipahami. Spread menunjukkan perbedaan antara harga di mana pasangan mata uang dapat dibeli dan dijual. Memahami spread membantu trader menginterpretasikan biaya trading dan likuiditas pasar.",
-      "sections": [
-        {
-          "heading": "Harga Bid dan Harga Ask",
-          "text": "Setiap pasangan mata uang memiliki dua harga. Harga Bid adalah harga di mana pasar bersedia membeli mata uang. Harga Ask adalah harga di mana pasar bersedia menjual mata uang. Perbedaan antara kedua harga ini dikenal sebagai spread."
-        },
-        {
-          "heading": "Contoh Spread",
-          "text": "Jika pasangan EUR/USD menunjukkan harga: Bid: 1.1050 Ask: 1.1052. Spread adalah 2 pips. Perbedaan ini mencerminkan likuiditas pasar dan biaya transaksi."
-        },
-        {
-          "heading": "Mengapa Spread Berubah",
-          "text": "Spread dapat bervariasi tergantung kondisi pasar. Beberapa faktor yang memengaruhi spread meliputi: Likuiditas pasar, Volume perdagangan, Berita ekonomi, Volatilitas pasar. Saat ada pengumuman ekonomi besar, spread bisa melebar karena meningkatnya ketidakpastian."
-        },
-        {
-          "heading": "Spread Tetap vs Variabel",
-          "text": "Beberapa pasar beroperasi dengan spread tetap, sementara lainnya menggunakan spread variabel. Spread variabel berubah berdasarkan penawaran dan permintaan di pasar. Pasar dengan likuiditas tinggi biasanya memiliki spread lebih ketat."
-        }
-      ],
-      "conclusion": "Spread menunjukkan perbedaan antara harga beli dan jual di pasar forex. Memahami spread membantu trader menginterpretasikan biaya trading dan likuiditas pasar. Dengan mempelajari spread bersamaan dengan konsep trading lainnya, pemula bisa lebih memahami cara kerja pasar keuangan.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "what-is-margin-trading": {
-    "title": "Apa Itu Margin Trading?",
-    "excerpt": "Margin trading adalah konsep umum di pasar keuangan yang memungkinkan trader membuka posisi dengan hanya sebagian nilai total perdagangan...",
-    "content": {
-      "introduction": "Margin trading adalah konsep umum di pasar keuangan yang memungkinkan trader membuka posisi dengan hanya sebagian nilai total perdagangan. Di pasar seperti forex, margin terkait erat dengan leverage dan memainkan peran penting dalam pengelolaan posisi trading. Bagi pemula, memahami margin penting karena menjelaskan bagaimana trader dapat berpartisipasi dalam perdagangan lebih besar tanpa modal penuh di muka.",
-      "sections": [
-        {
-          "heading": "Apa Itu Margin?",
-          "text": "Margin adalah jumlah uang yang diperlukan untuk membuka dan mempertahankan posisi trading. Alih-alih membayar nilai penuh perdagangan, trader menyetor sejumlah dana lebih kecil yang disebut margin. Jumlah ini bertindak sebagai jaminan agar posisi tetap terbuka. Contoh: jika trader ingin membuka posisi senilai $10.000 dan persyaratan margin 1%, trader hanya perlu $100 untuk membuka posisi."
-        },
-        {
-          "heading": "Margin dan Leverage",
-          "text": "Margin dan leverage saling terkait erat. Leverage memungkinkan trader mengontrol posisi lebih besar, sedangkan margin adalah dana yang diperlukan untuk mempertahankan posisi tersebut. Contoh: Leverage: 1:100, Margin diperlukan: 1%. Leverage tinggi biasanya berarti persyaratan margin lebih rendah, tetapi juga meningkatkan eksposur risiko pasar."
-        },
-        {
-          "heading": "Apa Itu Margin Call?",
-          "text": "Margin call terjadi ketika dana dalam akun trading turun di bawah tingkat margin yang diperlukan. Ini bisa terjadi jika pasar bergerak melawan posisi terbuka. Saat ini terjadi, dana tambahan mungkin diperlukan untuk mempertahankan posisi. Memahami margin call membantu trader lebih sadar bagaimana risiko dikelola di pasar keuangan."
-        },
-        {
-          "heading": "Mengapa Margin Penting",
-          "text": "Margin memainkan peran penting dalam trading karena menentukan berapa banyak modal yang dibutuhkan untuk mempertahankan posisi terbuka. Trader sering memantau level margin dengan cermat untuk memastikan saldo akun tetap di atas tingkat yang diperlukan. Strategi manajemen risiko digunakan untuk mengendalikan eksposur saat trading dengan margin."
-        }
-      ],
-      "conclusion": "Margin trading memungkinkan trader berpartisipasi di pasar keuangan menggunakan sebagian nilai total perdagangan. Meskipun pendekatan ini meningkatkan eksposur pasar, hal ini juga menambah risiko. Mempelajari cara kerja margin membantu pemula memahami bagaimana akun trading beroperasi dan bagaimana posisi dipertahankan di pasar keuangan.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "understanding-market-volatility": {
-    "title": "Memahami Volatilitas Pasar",
-    "excerpt": "Pasar keuangan terus bergerak. Harga mata uang, saham, komoditas, dan aset lainnya berubah sepanjang hari karena berbagai faktor ekonomi...",
-    "content": {
-      "introduction": "Pasar keuangan terus bergerak. Harga mata uang, saham, komoditas, dan aset lainnya berubah sepanjang hari karena berbagai faktor ekonomi dan global. Pergerakan harga ini biasanya disebut volatilitas pasar. Memahami volatilitas penting karena membantu menjelaskan mengapa pasar naik dan turun seiring waktu.",
-      "sections": [
-        {
-          "heading": "Apa Itu Volatilitas Pasar?",
-          "text": "Volatilitas pasar mengacu pada tingkat pergerakan harga suatu aset keuangan sepanjang waktu. Ketika harga bergerak cepat atau signifikan, pasar dianggap sangat volatil. Ketika pergerakan harga lebih kecil dan stabil, volatilitas dianggap rendah. Volatilitas dapat terjadi di semua pasar keuangan, termasuk forex, saham, komoditas, dan cryptocurrency."
-        },
-        {
-          "heading": "Apa Penyebab Volatilitas Pasar?",
-          "text": "Beberapa faktor memengaruhi volatilitas di pasar keuangan. Faktor yang paling umum meliputi: Rilis data ekonomi, Keputusan suku bunga, Perkembangan politik, Peristiwa ekonomi global, Sentimen pasar. Misalnya, ketika bank sentral mengumumkan perubahan suku bunga, pasar mata uang dapat bereaksi cepat saat trader menyesuaikan ekspektasi mereka."
-        },
-        {
-          "heading": "Volatilitas Tinggi vs Rendah",
-          "text": "Pasar dapat mengalami tingkat volatilitas yang berbeda tergantung kondisi ekonomi. Volatilitas tinggi: Pergerakan harga besar dan cepat. Volatilitas rendah: Perubahan harga lebih kecil dan kondisi pasar lebih stabil. Lingkungan pasar yang berbeda memengaruhi strategi trading dan pendekatan manajemen risiko."
-        },
-        {
-          "heading": "Mengapa Volatilitas Penting",
-          "text": "Volatilitas memainkan peran penting di pasar keuangan karena mencerminkan ketidakpastian dan perubahan ekspektasi investor. Memahami volatilitas membantu trader dan investor menafsirkan kondisi pasar dan mengelola risiko."
-        }
-      ],
-      "conclusion": "Volatilitas pasar mengacu pada perubahan harga aset keuangan seiring waktu. Pergerakan ini dipengaruhi oleh data ekonomi, peristiwa global, dan perilaku investor. Mempelajari cara kerja volatilitas membantu pemula lebih memahami bagaimana pasar keuangan bereaksi terhadap informasi baru.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "best-times-to-trade-forex-(trading": {
-    "title": "Waktu Terbaik untuk Trading Forex (Penjelasan Sesi Trading)",
-    "excerpt": "Pasar forex beroperasi 24 jam sehari selama minggu trading, memungkinkan peserta dari seluruh dunia memperdagangkan mata uang pada waktu berbeda...",
-    "content": {
-      "introduction": "Pasar forex beroperasi 24 jam sehari selama minggu trading, memungkinkan peserta dari seluruh dunia memperdagangkan mata uang pada waktu berbeda. Namun, aktivitas pasar tidak merata sepanjang hari. Beberapa periode yang dikenal sebagai sesi trading cenderung mengalami tingkat aktivitas dan likuiditas yang lebih tinggi.",
-      "sections": [
-        {
-          "heading": "Sesi Trading Forex Utama",
-          "text": "Pasar forex global dibagi menjadi empat sesi trading utama. \nSesi Asia: Sesi Asia memulai hari trading global dan sering terkait dengan pasar di Tokyo, Singapura, dan Hong Kong. Pergerakan harga selama sesi ini terkadang lebih moderat dibandingkan sesi lainnya. \nSesi London: Sesi London adalah salah satu periode paling aktif di pasar forex. Sebagian besar volume perdagangan mata uang global terjadi selama waktu ini karena banyak institusi keuangan berbasis di Eropa. \nSesi New York: Sesi New York tumpang tindih dengan sesi London selama beberapa jam, menciptakan salah satu periode trading paling aktif. Pengumuman ekonomi penting dari AS sering terjadi selama sesi ini."
-        },
-        {
-          "heading": "Tumpang Tindih Sesi",
-          "text": "Salah satu periode paling aktif di pasar forex terjadi ketika sesi London dan New York tumpang tindih. Selama waktu ini, likuiditas cenderung meningkat dan pasar dapat mengalami pergerakan harga lebih kuat."
-        },
-        {
-          "heading": "Mengapa Sesi Trading Penting",
-          "text": "Sesi trading memengaruhi aktivitas pasar, volatilitas, dan likuiditas. Memahami kapan pasar berbeda aktif membantu trader menafsirkan perilaku pasar global dengan lebih baik."
-        }
-      ],
-      "conclusion": "Pasar forex beroperasi terus-menerus selama minggu trading, tetapi tingkat aktivitas berbeda tergantung sesi trading global. Mempelajari sesi trading membantu pemula memahami kapan pasar keuangan cenderung paling aktif.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "how-to-read-forex-charts": {
-    "title": "Cara Membaca Grafik Forex",
-    "excerpt": "Grafik harga adalah salah satu alat yang paling umum digunakan di pasar keuangan. Mereka membantu trader memvisualisasikan bagaimana harga suatu aset berubah seiring waktu...",
-    "content": {
-      "introduction": "Grafik harga adalah salah satu alat yang paling umum digunakan di pasar keuangan. Mereka membantu trader memvisualisasikan bagaimana harga suatu aset berubah seiring waktu. Mempelajari cara membaca grafik adalah keterampilan penting bagi siapa saja yang ingin memahami perilaku pasar.",
-      "sections": [
-        {
-          "heading": "Jenis Grafik Trading",
-          "text": "Beberapa jenis grafik digunakan di pasar keuangan. \nGrafik Garis: Menghubungkan harga penutupan dari waktu ke waktu dan memberikan gambaran sederhana tentang pergerakan harga. \nGrafik Batang: Menampilkan harga pembukaan, penutupan, tertinggi, dan terendah untuk periode waktu tertentu. \nGrafik Candlestick: Banyak digunakan karena memberikan informasi rinci tentang pergerakan harga dalam setiap interval waktu."
-        },
-        {
-          "heading": "Memahami Candlestick",
-          "text": "Setiap candlestick mewakili aktivitas harga selama kerangka waktu tertentu. Candlestick mencakup: Harga buka, Harga tutup, Harga tertinggi, Harga terendah. Warna candlestick biasanya menunjukkan apakah harga naik atau turun selama periode tersebut."
-        },
-        {
-          "heading": "Mengapa Grafik Penting",
-          "text": "Grafik membantu trader menganalisis pola, mengidentifikasi tren, dan mengamati bagaimana pasar merespons informasi baru. Meskipun grafik tidak dapat memprediksi masa depan, mereka memberikan wawasan berharga tentang perilaku harga historis."
-        }
-      ],
-      "conclusion": "Grafik forex memberikan representasi visual dari aktivitas pasar. Dengan mempelajari cara menafsirkan grafik, pemula dapat lebih memahami bagaimana harga bergerak dan bagaimana trader menganalisis pasar keuangan.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "support-and-resistance-explained": {
-    "title": "Penjelasan Support dan Resistance",
-    "excerpt": "Di pasar keuangan, harga sering bergerak dalam rentang tertentu. Trader sering memperhatikan bahwa harga cenderung berhenti, berbalik, atau melambat dekat level tertentu...",
-    "content": {
-      "introduction": "Di pasar keuangan, harga sering bergerak dalam rentang tertentu. Trader sering memperhatikan bahwa harga cenderung berhenti, berbalik, atau melambat dekat level tertentu. Level-level ini dikenal sebagai support dan resistance. Memahami support dan resistance adalah salah satu konsep dasar yang digunakan saat menganalisis pergerakan harga pasar.",
-      "sections": [
-        {
-          "heading": "Apa Itu Support?",
-          "text": "Support adalah level harga di mana suatu aset cenderung berhenti turun dan mungkin mulai naik lagi. Ini terjadi karena pembeli biasanya lebih aktif pada harga yang lebih rendah. Ketika permintaan meningkat, hal ini dapat memperlambat atau membalikkan pergerakan harga ke bawah. Misalnya, jika pasangan mata uang berulang kali berhenti turun dekat level harga tertentu, level tersebut dapat dianggap sebagai support."
-        },
-        {
-          "heading": "Apa Itu Resistance?",
-          "text": "Resistance adalah kebalikan dari support. Resistance adalah level harga di mana suatu aset mungkin kesulitan untuk naik karena tekanan jual meningkat. Ketika harga mendekati level resistance, trader mungkin mulai menjual atau mengambil keuntungan, yang dapat memperlambat pergerakan naik."
-        },
-        {
-          "heading": "Mengapa Level Ini Penting",
-          "text": "Level support dan resistance penting karena membantu trader memahami di mana reaksi harga mungkin terjadi. Level ini sering terbentuk karena banyak peserta pasar mengamati area harga yang sama dan membuat keputusan berdasarkan hal tersebut. Support dan resistance juga dapat terbentuk di sekitar: Harga tertinggi dan terendah sebelumnya, Level harga psikologis, Rentang perdagangan historis."
-        },
-        {
-          "heading": "Support dan Resistance dalam Praktik",
-          "text": "Pasar jarang bergerak dalam garis lurus. Sebaliknya, pasar sering bergerak dalam gelombang, memantul antara level support dan resistance. Ketika harga menembus resistance atau turun di bawah support, pasar mungkin memasuki rentang perdagangan baru. Perilaku harga ini biasanya dipelajari sebagai bagian dari analisis teknikal."
-        }
-      ],
-      "conclusion": "Level support dan resistance mewakili area harga penting di mana pasar mungkin berhenti atau mengubah arah. Mempelajari cara mengenali level ini membantu pemula lebih memahami bagaimana harga pasar bereaksi terhadap kekuatan penawaran dan permintaan.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "risk-management-in-trading": {
-    "title": "Manajemen Risiko dalam Trading",
-    "excerpt": "Pasar keuangan melibatkan ketidakpastian, dan harga dapat berubah dengan cepat. Karena itu, banyak trader fokus pada manajemen risiko, yaitu metode untuk mengendalikan potensi kerugian...",
-    "content": {
-      "introduction": "Pasar keuangan melibatkan ketidakpastian, dan harga dapat berubah dengan cepat. Karena itu, banyak trader fokus pada manajemen risiko, yaitu metode untuk mengendalikan potensi kerugian. Memahami manajemen risiko adalah bagian penting dari belajar tentang pasar keuangan.",
-      "sections": [
-        {
-          "heading": "Apa Itu Manajemen Risiko?",
-          "text": "Manajemen risiko mengacu pada strategi dan alat yang digunakan untuk membatasi potensi kerugian dalam aktivitas trading. Alih-alih hanya fokus pada potensi keuntungan, trader sering mempertimbangkan seberapa banyak yang bersedia mereka risikokan pada setiap perdagangan. Manajemen risiko membantu menjaga keseimbangan dalam pengambilan keputusan trading."
-        },
-        {
-          "heading": "Mengapa Manajemen Risiko Penting",
-          "text": "Pasar bisa bergerak secara tak terduga karena peristiwa ekonomi, perkembangan geopolitik, atau perubahan sentimen pasar. Tanpa manajemen risiko, trader mungkin menghadapi kerugian besar jika pasar bergerak secara tidak terduga. Mengelola risiko membantu trader menjaga pendekatan yang lebih disiplin di pasar keuangan."
-        },
-        {
-          "heading": "Konsep Manajemen Risiko Umum",
-          "text": "Beberapa alat dan strategi yang umum digunakan untuk mengelola risiko antara lain: \nUkuran posisi: Menentukan seberapa besar perdagangan relatif terhadap ukuran akun. \nOrder stop loss: Level harga yang telah ditentukan di mana posisi dapat ditutup jika pasar bergerak berlawanan dengan perdagangan. \nDiversifikasi: Praktik menyebar eksposur di berbagai aset. Konsep-konsep ini banyak dibahas dalam edukasi trading."
-        },
-        {
-          "heading": "Risiko dan Volatilitas Pasar",
-          "text": "Pasar yang volatil mungkin memerlukan perhatian ekstra terhadap manajemen risiko karena harga dapat berubah dengan cepat. Memahami bagaimana volatilitas memengaruhi pasar dapat membantu trader menilai risiko secara lebih baik."
-        }
-      ],
-      "conclusion": "Manajemen risiko memainkan peran sentral dalam partisipasi di pasar keuangan. Dengan mempelajari cara mengelola risiko secara efektif, individu dapat mendekati trading dengan kesadaran lebih terhadap kemungkinan hasil. Sumber edukasi sering menekankan manajemen risiko sebagai salah satu aspek paling penting dalam pengetahuan trading.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "trading-psychology-for-beginners": {
-    "title": "Psikologi Trading untuk Pemula",
-    "excerpt": "Pasar keuangan dapat memicu emosi kuat seperti kegembiraan, ketakutan, dan frustrasi. Karena harga bergerak cepat dan ketidakpastian selalu hadir...",
-    "content": {
-      "introduction": "Pasar keuangan dapat memicu emosi kuat seperti kegembiraan, ketakutan, dan frustrasi. Karena harga bergerak cepat dan ketidakpastian selalu hadir, emosi dapat memengaruhi keputusan trading. Inilah sebabnya psikologi trading sering dibahas dalam sumber edukasi tentang pasar keuangan.",
-      "sections": [
-        {
-          "heading": "Apa Itu Psikologi Trading?",
-          "text": "Psikologi trading mengacu pada faktor mental dan emosional yang memengaruhi pengambilan keputusan dalam trading. Bahkan trader berpengalaman dapat menghadapi tantangan psikologis ketika pasar bergerak tak terduga. Emosi seperti ketakutan dan overconfidence dapat memengaruhi bagaimana orang merespons pergerakan pasar."
-        },
-        {
-          "heading": "Tantangan Emosional Umum",
-          "text": "Beberapa faktor psikologis yang umum memengaruhi keputusan trading: \nKetakutan: Dapat membuat trader menutup posisi terlalu cepat atau menghindari peluang. \nKeserakahan: Dapat mendorong pengambilan risiko berlebihan demi keuntungan lebih besar. \nKetidaksabaran: Pasar tidak selalu bergerak cepat, yang dapat memicu keputusan impulsif."
-        },
-        {
-          "heading": "Pentingnya Disiplin",
-          "text": "Banyak sumber edukasi trading menekankan pentingnya disiplin dan pengambilan keputusan yang terstruktur. Memiliki aturan dan strategi yang jelas dapat membantu mengurangi reaksi emosional terhadap pergerakan pasar jangka pendek. Memahami sisi psikologis trading membantu individu mendekati pasar keuangan dengan lebih objektif."
-        }
-      ],
-      "conclusion": "Psikologi trading fokus pada aspek emosional dan perilaku dalam partisipasi pasar keuangan. Dengan memahami bagaimana emosi memengaruhi keputusan, individu dapat mengembangkan kesadaran lebih saat menganalisis peluang dan risiko pasar.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "understanding-market-trends": {
-    "title": "Memahami Tren Pasar",
-    "excerpt": "Pasar keuangan jarang bergerak secara acak untuk jangka waktu lama. Sebaliknya, harga sering bergerak dalam tren, di mana pasar secara bertahap naik, turun, atau...",
-    "content": {
-      "introduction": "Pasar keuangan jarang bergerak secara acak untuk jangka waktu lama. Sebaliknya, harga sering bergerak dalam tren, di mana pasar secara bertahap naik, turun, atau bergerak menyamping. Memahami tren pasar adalah konsep penting bagi siapa saja yang belajar tentang pasar keuangan.",
-      "sections": [
-        {
-          "heading": "Apa Itu Tren Pasar?",
-          "text": "Tren pasar mengacu pada arah umum pergerakan harga selama periode waktu tertentu. Tren dapat terjadi di berbagai pasar keuangan, termasuk forex, saham, komoditas, dan indeks. Tren bisa berlangsung beberapa menit, hari, bulan, atau bahkan tahun tergantung kondisi pasar."
-        },
-        {
-          "heading": "Jenis Tren Pasar",
-          "text": "Uptrend: Terjadi ketika harga secara bertahap naik dari waktu ke waktu. Dalam uptrend, pasar cenderung membuat higher highs dan higher lows. \nDowntrend: Terjadi ketika harga secara bertahap turun dari waktu ke waktu. Dalam hal ini, pasar sering membentuk lower highs dan lower lows. \nSideways Trend: Kadang pasar bergerak dalam rentang sempit tanpa arah jelas. Ini dikenal sebagai sideways trend atau konsolidasi."
-        },
-        {
-          "heading": "Mengapa Tren Penting",
-          "text": "Tren membantu trader dan investor memahami arah umum aktivitas pasar. Banyak metode analisis yang digunakan di pasar keuangan mencoba mengidentifikasi tren dan mengamati seberapa lama tren tersebut mungkin berlangsung."
-        }
-      ],
-      "conclusion": "Tren pasar mewakili arah umum pergerakan harga seiring waktu. Dengan mengamati tren, individu dapat memperoleh wawasan tentang perilaku pasar yang lebih luas dan perubahan kondisi ekonomi.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "how-trading-strategies-work": {
-    "title": "Bagaimana Strategi Trading Bekerja",
-    "excerpt": "Pasar keuangan menawarkan banyak peluang untuk analisis dan pengambilan keputusan. Karena pasar bisa tidak terduga, banyak trader mengandalkan strategi trading terstruktur...",
-    "content": {
-      "introduction": "Pasar keuangan menawarkan banyak peluang untuk analisis dan pengambilan keputusan. Karena pasar bisa tidak terduga, banyak trader mengandalkan strategi trading terstruktur untuk membimbing tindakan mereka. Strategi trading pada dasarnya adalah rencana yang menjelaskan bagaimana seorang trader mendekati pasar.",
-      "sections": [
-        {
-          "heading": "Apa Itu Strategi Trading?",
-          "text": "Strategi trading adalah seperangkat aturan atau pedoman yang digunakan untuk menganalisis pasar dan membuat keputusan trading. Aturan ini dapat mencakup: Kondisi pasar, Kriteria masuk dan keluar, Pertimbangan manajemen risiko. Berbagai trader mengembangkan strategi berdasarkan metode analisis yang mereka sukai."
-        },
-        {
-          "heading": "Jenis Strategi Trading",
-          "text": "Beberapa jenis strategi yang umum dibahas dalam edukasi trading: \nStrategi Tren: Fokus pada mengidentifikasi pasar yang bergerak konsisten ke satu arah. \nStrategi Rentang: Fokus pada pasar yang bergerak dalam level support dan resistance yang ditentukan. \nStrategi Berbasis Berita: Fokus pada reaksi pasar terhadap pengumuman ekonomi."
-        },
-        {
-          "heading": "Mengapa Strategi Digunakan",
-          "text": "Strategi trading membantu menciptakan pendekatan terstruktur untuk analisis pasar. Alih-alih membuat keputusan secara acak, strategi mendorong trader mengikuti pedoman yang telah ditetapkan. Materi edukasi sering menekankan pentingnya disiplin dan konsistensi saat menerapkan strategi."
-        }
-      ],
-      "conclusion": "Strategi trading memberikan kerangka kerja untuk menganalisis pasar keuangan dan membuat keputusan yang terinformasi. Dengan mempelajari cara kerja berbagai strategi, pemula dapat lebih memahami bagaimana trader mendekati dinamika pasar keuangan.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "what-moves-the-forex-market": {
-    "title": "Apa yang Mempengaruhi Pasar Forex?",
-    "excerpt": "Pasar valuta asing terus berubah saat harga mata uang bergerak naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi...",
-    "content": {
-      "introduction": "Pasar valuta asing terus berubah saat harga mata uang bergerak naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi, keuangan, dan politik. Memahami apa yang mendorong harga mata uang dapat membantu pemula memperoleh gambaran lebih jelas tentang cara kerja pasar forex.",
-      "sections": [
-        {
-          "heading": "Suku Bunga",
-          "text": "Suku bunga adalah salah satu faktor terpenting yang memengaruhi nilai mata uang. Ketika bank sentral suatu negara menaikkan suku bunga, mata uang tersebut dapat menjadi lebih menarik bagi investor karena tingkat pengembalian yang lebih tinggi. Akibatnya, permintaan terhadap mata uang itu dapat meningkat di pasar global."
-        },
-        {
-          "heading": "Data Ekonomi",
-          "text": "Laporan ekonomi secara rutin diterbitkan oleh pemerintah dan lembaga keuangan. Laporan ini memberikan wawasan tentang kesehatan suatu ekonomi. Indikator ekonomi umum meliputi: Produk Domestik Bruto (PDB), Data ketenagakerjaan, Laporan inflasi, Penjualan ritel. Data ekonomi yang kuat dapat memperkuat mata uang suatu negara, sedangkan data yang lebih lemah dapat memiliki efek sebaliknya."
-        },
-        {
-          "heading": "Peristiwa Politik dan Global",
-          "text": "Perkembangan politik dan peristiwa global juga dapat memengaruhi pasar mata uang. Contohnya termasuk: Pemilihan umum, Kebijakan perdagangan, Ketegangan geopolitik, Perubahan ekonomi global. Pasar sering bereaksi cepat terhadap berita dan perubahan ekspektasi ekonomi."
-        },
-        {
-          "heading": "Sentimen Pasar",
-          "text": "Sentimen pasar mengacu pada sikap keseluruhan investor terhadap suatu mata uang atau pasar tertentu. Jika investor percaya bahwa suatu ekonomi sedang menguat, mereka mungkin meningkatkan permintaan terhadap mata uang negara tersebut. Perubahan sentimen dapat memengaruhi pergerakan harga di pasar forex."
-        }
-      ],
-      "conclusion": "Harga mata uang dipengaruhi oleh berbagai faktor, termasuk suku bunga, data ekonomi, peristiwa politik, dan sentimen investor. Dengan memahami faktor-faktor ini, pemula dapat memperoleh wawasan yang lebih baik tentang cara pasar forex beroperasi.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "how-interest-rates-affect-currency": {
-    "title": "Bagaimana Suku Bunga Mempengaruhi Pasar Mata Uang",
-    "excerpt": "Suku bunga adalah salah satu alat ekonomi terpenting yang digunakan bank sentral untuk mengelola pertumbuhan ekonomi dan inflasi. Perubahan suku bunga dapat...",
-    "content": {
-      "introduction": "Suku bunga adalah salah satu alat ekonomi terpenting yang digunakan bank sentral untuk mengelola pertumbuhan ekonomi dan inflasi. Perubahan suku bunga dapat memiliki dampak signifikan pada pasar keuangan, termasuk harga mata uang. Memahami bagaimana suku bunga memengaruhi mata uang dapat membantu pemula menafsirkan pergerakan pasar dengan lebih baik.",
-      "sections": [
-        {
-          "heading": "Apa Itu Suku Bunga?",
-          "text": "Suku bunga mewakili biaya meminjam uang. Bank sentral menyesuaikan suku bunga untuk membantu mengelola aktivitas ekonomi, inflasi, dan stabilitas keuangan. Ketika suku bunga naik, biaya pinjaman biasanya menjadi lebih mahal. Ketika suku bunga turun, pinjaman mungkin menjadi lebih terjangkau."
-        },
-        {
-          "heading": "Mengapa Suku Bunga Mempengaruhi Mata Uang",
-          "text": "Mata uang dipengaruhi oleh suku bunga karena investor sering mencari peluang untuk mendapatkan pengembalian lebih tinggi. Ketika suku bunga suatu negara meningkat, aset keuangan di negara tersebut dapat menjadi lebih menarik bagi investor. Hal ini dapat menyebabkan meningkatnya permintaan terhadap mata uang negara tersebut."
-        },
-        {
-          "heading": "Keputusan Bank Sentral",
-          "text": "Bank sentral secara rutin meninjau kondisi ekonomi dan memutuskan apakah akan menaikkan, menurunkan, atau mempertahankan suku bunga. Contoh bank sentral besar meliputi: Federal Reserve (Amerika Serikat), European Central Bank, Bank of England, Bank of Japan. Pengumuman dari institusi ini sering memengaruhi pasar keuangan."
-        },
-        {
-          "heading": "Ekspektasi Pasar",
-          "text": "Pasar keuangan sering bereaksi tidak hanya terhadap perubahan suku bunga aktual tetapi juga terhadap ekspektasi keputusan di masa depan. Investor mengikuti indikator ekonomi dan pernyataan bank sentral dengan cermat untuk memperkirakan kemungkinan perubahan kebijakan."
-        }
-      ],
-      "conclusion": "Suku bunga memainkan peran besar dalam membentuk pasar mata uang. Dengan memengaruhi perilaku investor dan aktivitas ekonomi, kebijakan bank sentral dapat memengaruhi nilai mata uang di pasar keuangan global.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "why-gold-prices-fluctuate": {
-    "title": "Mengapa Harga Emas Berfluktuasi",
-    "excerpt": "Emas telah dihargai selama berabad-abad sebagai logam mulia dan aset keuangan. Saat ini, emas terus memainkan peran penting di pasar keuangan global...",
-    "content": {
-      "introduction": "Emas telah dihargai selama berabad-abad sebagai logam mulia dan aset keuangan. Saat ini, emas terus memainkan peran penting di pasar keuangan global. Harga emas dapat naik atau turun tergantung pada berbagai faktor ekonomi dan keuangan.",
-      "sections": [
-        {
-          "heading": "Emas sebagai Aset Safe-Haven",
-          "text": "Emas sering dianggap sebagai aset safe-haven, artinya investor mungkin beralih ke emas selama periode ketidakpastian ekonomi. Ketika pasar keuangan mengalami ketidakstabilan, permintaan emas dapat meningkat. Permintaan ini dapat memengaruhi harga emas."
-        },
-        {
-          "heading": "Inflasi dan Emas",
-          "text": "Inflasi mengukur seberapa cepat harga barang dan jasa meningkat dari waktu ke waktu. Ketika inflasi naik, daya beli mata uang dapat menurun. Beberapa investor melihat emas sebagai cara untuk menjaga nilai selama periode inflasi yang meningkat."
-        },
-        {
-          "heading": "Suku Bunga dan Emas",
-          "text": "Suku bunga juga dapat memengaruhi harga emas. Ketika suku bunga tinggi, investor mungkin lebih memilih aset berbunga seperti obligasi. Ketika suku bunga lebih rendah, emas dapat menjadi lebih menarik karena biaya peluang memegang emas menurun."
-        },
-        {
-          "heading": "Permintaan Global",
-          "text": "Permintaan emas berasal dari berbagai sumber, termasuk: Produksi perhiasan, Permintaan investasi, Cadangan bank sentral, Penggunaan industri. Perubahan permintaan global dapat memengaruhi harga emas secara keseluruhan."
-        }
-      ],
-      "conclusion": "Harga emas berfluktuasi karena kombinasi kondisi ekonomi, ekspektasi inflasi, suku bunga, dan permintaan global. Dengan memahami faktor-faktor ini, pemula dapat memperoleh pemahaman yang lebih jelas tentang cara kerja pasar emas.",
-      "disclaimer": "Informasi dalam artikel ini hanya untuk tujuan edukasi dan tidak merupakan saran keuangan atau rekomendasi investasi."
-    }
-  },
-  "oil-prices-and-global-markets": {
-    "title": "Harga Minyak dan Pasar Global",
-    "excerpt": "Minyak adalah salah satu komoditas paling penting dalam ekonomi global. Minyak digunakan secara luas untuk transportasi, manufaktur, dan produksi energi...",
-    "content": {
-      "introduction": "Minyak adalah salah satu komoditas paling penting dalam ekonomi global. Minyak digunakan secara luas untuk transportasi, manufaktur, dan produksi energi. Karena perannya yang penting, perubahan harga minyak dapat memengaruhi pasar keuangan dan aktivitas ekonomi di seluruh dunia.",
-      "sections": [
-        {
-          "heading": "Penawaran dan Permintaan Minyak",
-          "text": "Harga minyak sangat dipengaruhi oleh penawaran dan permintaan global. Ketika permintaan minyak meningkat, harga dapat naik. Ketika pasokan meningkat atau permintaan menurun, harga dapat turun. Banyak faktor dapat memengaruhi penawaran dan permintaan, termasuk pertumbuhan ekonomi global dan pola konsumsi energi."
-        },
-        {
-          "heading": "Negara Penghasil Minyak",
-          "text": "Beberapa negara memainkan peran besar dalam produksi minyak global. Organisasi seperti OPEC (Organization of the Petroleum Exporting Countries) membantu mengoordinasikan tingkat produksi minyak di antara negara-negara anggotanya. Keputusan produksi dari produsen minyak utama dapat memengaruhi harga minyak."
-        },
-        {
-          "heading": "Minyak dan Pasar Mata Uang",
-          "text": "Harga minyak juga dapat memengaruhi pasar mata uang. Mata uang negara pengekspor minyak dapat dipengaruhi oleh perubahan harga minyak karena ekspor energi merupakan bagian penting dari ekonomi mereka. Hubungan ini menunjukkan bagaimana pasar komoditas dan pasar mata uang saling terhubung."
-        },
-        {
-          "heading": "Minyak dan Inflasi",
-          "text": "Harga minyak dapat memengaruhi inflasi karena biaya energi memengaruhi transportasi, manufaktur, dan barang konsumsi. Ketika harga minyak meningkat secara signifikan, biaya produksi di berbagai industri juga dapat meningkat."
-        }
-      ],
-      "conclusion": "Harga minyak memainkan peran penting dalam ekonomi global. Dengan memengaruhi biaya energi, inflasi, dan neraca perdagangan, pasar minyak dapat berdampak pada pasar keuangan di seluruh dunia.",
-      "disclaimer": "Informasi yang diberikan dalam artikel ini hanya untuk tujuan edukasi dan bukan merupakan nasihat keuangan atau rekomendasi investasi."
-    }
-  },
-  "how-central-banks-influence-financial": {
-    "title": "Bagaimana Bank Sentral Mempengaruhi Pasar Keuangan",
-    "excerpt": "Bank sentral memainkan peran penting dalam sistem keuangan global. Lembaga ini bertanggung jawab mengelola kebijakan moneter suatu negara dan menjaga...",
-    "content": {
-      "introduction": "Bank sentral memainkan peran penting dalam sistem keuangan global. Lembaga-lembaga ini bertanggung jawab untuk mengelola kebijakan moneter suatu negara dan menjaga stabilitas keuangan. Keputusan yang diambil oleh bank sentral dapat memengaruhi mata uang, pasar saham, dan aktivitas ekonomi.",
-      "sections": [
-        {
-          "heading": "Apa Itu Bank Sentral?",
-          "text": "Bank sentral adalah otoritas keuangan nasional yang bertanggung jawab mengawasi kebijakan moneter. Beberapa bank sentral terkenal meliputi: Federal Reserve (Amerika Serikat), European Central Bank, Bank of England, dan Bank of Japan. Lembaga-lembaga ini bekerja untuk menjaga kondisi ekonomi yang stabil."
-        },
-        {
-          "heading": "Kebijakan Moneter",
-          "text": "Kebijakan moneter merujuk pada tindakan yang diambil bank sentral untuk mengelola aktivitas ekonomi. Alat utama yang digunakan bank sentral meliputi: Penyesuaian suku bunga, Pengelolaan jumlah uang beredar, Panduan ekonomi. Keputusan ini dapat memengaruhi biaya pinjaman, aktivitas investasi, dan perilaku pasar keuangan."
-        },
-        {
-          "heading": "Reaksi Pasar",
-          "text": "Pasar keuangan sering bereaksi cepat terhadap pengumuman bank sentral. Investor memperhatikan dengan saksama pernyataan bank sentral karena dapat memberi sinyal perubahan kebijakan ekonomi di masa depan. Ekspektasi terhadap kebijakan moneter dapat memengaruhi harga aset di pasar global."
-        },
-        {
-          "heading": "Mengapa Bank Sentral Penting",
-          "text": "Bank sentral membantu menjaga stabilitas ekonomi dengan mengelola inflasi, tingkat pekerjaan, dan risiko dalam sistem keuangan. Karena peran ini, keputusan mereka dipantau secara ketat oleh pelaku pasar keuangan di seluruh dunia."
-        }
-      ],
-      "conclusion": "Bank sentral memainkan peran utama dalam membentuk pasar keuangan. Melalui keputusan kebijakan moneter dan panduan ekonomi, lembaga-lembaga ini memengaruhi mata uang, suku bunga, dan kondisi pasar secara keseluruhan.",
-      "disclaimer": "Informasi yang diberikan dalam artikel ini hanya untuk tujuan edukasi dan bukan merupakan nasihat keuangan atau rekomendasi investasi."
-    }
-  }
   },
   "tradersClub": {
     "free": "GRATIS",
@@ -880,6 +880,8 @@
     "stocksDesc": "Perdagangkan saham perusahaan-perusahaan terkemuka dari bursa global utama. Instrumen saham kami memungkinkan Anda berspekulasi terhadap pergerakan harga tanpa memiliki aset dasarnya, memberi Anda fleksibilitas untuk membuka posisi beli maupun jual. Nikmati akses ke sektor utama seperti teknologi, kesehatan, energi, dan lainnya—memberdayakan Anda untuk membangun strategi berdasarkan kinerja perusahaan dan momentum pasar.",
     "indices": "Indeks",
     "indicesDesc": "Indeks mewakili kinerja sekelompok saham, menjadikannya cara yang efektif untuk mendapatkan eksposur pasar yang luas. Baik Anda memperdagangkan S&P 500, NASDAQ, FTSE, atau indeks utama lainnya, platform kami menyediakan akses efisien dengan latensi rendah dan alat grafik canggih. Indeks ideal bagi trader yang ingin mengambil posisi berdasarkan tren ekonomi yang lebih luas daripada perusahaan individual.",
+    "cryptocurrencies": "Cryptocurrency",
+    "cryptocurrenciesDesc": "Perdagangkan aset digital populer dengan likuiditas dalam dan leverage fleksibel. Cryptocurrency dapat bergerak independen dari pasar tradisional, menawarkan diversifikasi dan peluang sepanjang waktu. Platform kami mendukung koin dan pasangan utama dengan harga kompetitif dan eksekusi cepat agar Anda dapat merespons di pasar yang dinamis.",
     "crypto": "Kripto",
     "all": "Semua",
     "search": "Cari instrumen...",
@@ -1038,94 +1040,94 @@
     }
   },
   "meetTheTeam": {
-  "pageTitle": "Temui Tim - TraderTok | Pakar Trading Global Kami",
-  "pageDescription": "Temui tim global pakar trading kami dari seluruh dunia. Trader profesional yang berbicara dalam bahasa Inggris, Spanyol, dan Hindi.",
-  "heroTitle": "Temui Tim Kami",
-  "heroSubtitle": "Tim global pakar trading kami siap membimbing Anda dalam perjalanan trading Anda dengan bahasa yang Anda pilih.",
-  "tabEnglish": "Bahasa Inggris",
-  "tabSpanish": "Bahasa Spanyol",
-  "tabHindi": "Bahasa Hindi",
-  "departmentAgents": "Agen",
-  "departmentManagers": "Manajer",
-  "departmentBilling": "Penagihan",
-  "managers": {
-    "alex_taylor": {
-      "name": "Alex Taylor",
-      "role": "Alex Taylor adalah Account Manager yang sangat perhatian dan berfokus pada klien, yang selalu berusaha memahami prioritas setiap klien. Dengan keterampilan komunikasi yang kuat serta sikap yang tenang dan profesional, Alex memastikan kerja sama yang lancar serta hasil yang konsisten dan dapat diandalkan."
+    "pageTitle": "Temui Tim - TraderTok | Pakar Trading Global Kami",
+    "pageDescription": "Temui tim global pakar trading kami dari seluruh dunia. Trader profesional yang berbicara dalam bahasa Inggris, Spanyol, dan Hindi.",
+    "heroTitle": "Temui Tim Kami",
+    "heroSubtitle": "Tim global pakar trading kami siap membimbing Anda dalam perjalanan trading Anda dengan bahasa yang Anda pilih.",
+    "tabEnglish": "Bahasa Inggris",
+    "tabSpanish": "Bahasa Spanyol",
+    "tabHindi": "Bahasa Hindi",
+    "departmentAgents": "Agen",
+    "departmentManagers": "Manajer",
+    "departmentBilling": "Penagihan",
+    "managers": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor adalah Account Manager yang sangat perhatian dan berfokus pada klien, yang selalu berusaha memahami prioritas setiap klien. Dengan keterampilan komunikasi yang kuat serta sikap yang tenang dan profesional, Alex memastikan kerja sama yang lancar serta hasil yang konsisten dan dapat diandalkan."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans adalah Account Manager yang dinamis dan berorientasi pada detail, yang menggabungkan keterampilan komunikasi yang kuat dengan pola pikir strategis. Dengan fokus pada pemahaman tujuan klien dan memberikan hasil yang konsisten, Chris membangun kepercayaan melalui transparansi, keandalan, dan pendekatan yang berorientasi pada solusi."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin adalah Account Manager yang sangat terorganisir dan berorientasi pada klien, yang secara konsisten memenuhi komitmennya. Dengan keterampilan komunikasi yang kuat serta pendekatan yang tenang dan profesional, Lucas dengan cepat membangun kepercayaan dan memastikan setiap klien merasa didukung serta mendapatkan informasi yang jelas."
+      }
     },
-    "chris_evans": {
-      "name": "Chris Evans",
-      "role": "Chris Evans adalah Account Manager yang dinamis dan berorientasi pada detail, yang menggabungkan keterampilan komunikasi yang kuat dengan pola pikir strategis. Dengan fokus pada pemahaman tujuan klien dan memberikan hasil yang konsisten, Chris membangun kepercayaan melalui transparansi, keandalan, dan pendekatan yang berorientasi pada solusi."
+    "billing": {
+      "brooke_davis": {
+        "name": "Brooke Davis",
+        "role": "Brooke Davis adalah Billing Specialist yang teliti dan berfokus pada klien, yang memastikan transaksi keuangan berjalan lancar untuk semua klien. Dengan keahlian dalam pemrosesan pembayaran dan manajemen akun, Brooke menangani deposit, penarikan, dan pertanyaan penagihan dengan presisi dan perhatian, membuat setiap interaksi keuangan berjalan mulus dan transparan."
+      },
+      "roy_bruce": {
+        "name": "Roy Bruce",
+        "role": "Roy Bruce adalah Billing Specialist yang berorientasi pada detail dengan pengalaman luas dalam operasi keuangan dan dukungan klien. Dikenal karena pendekatan analitis dan kemampuan pemecahan masalah yang cepat, Roy menangani verifikasi pembayaran, rekonsiliasi akun, dan memastikan semua transaksi memenuhi standar akurasi dan keamanan tertinggi."
+      }
     },
-    "lucas_martin": {
-      "name": "Lucas Martin",
-      "role": "Lucas Martin adalah Account Manager yang sangat terorganisir dan berorientasi pada klien, yang secara konsisten memenuhi komitmennya. Dengan keterampilan komunikasi yang kuat serta pendekatan yang tenang dan profesional, Lucas dengan cepat membangun kepercayaan dan memastikan setiap klien merasa didukung serta mendapatkan informasi yang jelas."
+    "english": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor adalah Account Manager yang sangat perhatian dan berfokus pada klien, yang selalu berusaha memahami prioritas setiap klien. Dengan keterampilan komunikasi yang kuat serta sikap yang tenang dan profesional.<br><br>Alex memastikan kerja sama yang lancar serta hasil yang konsisten dan dapat diandalkan."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans adalah Account Manager yang dinamis dan berorientasi pada detail, yang menggabungkan keterampilan komunikasi yang kuat dengan pola pikir strategis. Dengan fokus pada pemahaman tujuan klien dan memberikan hasil yang konsisten, Chris membangun kepercayaan melalui transparansi, keandalan, dan pendekatan yang berorientasi pada solusi."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin adalah Account Manager yang sangat terorganisir dan berorientasi pada klien, yang secara konsisten memenuhi komitmennya. Dengan keterampilan komunikasi yang kuat serta pendekatan yang tenang dan profesional, Lucas dengan cepat membangun kepercayaan dan memastikan setiap klien merasa didukung serta mendapatkan informasi yang jelas."
+      },
+      "kai_lockwood": {
+        "name": "Kai Lockwood",
+        "role": "Kai Lockwood adalah Account Manager yang proaktif dan berfokus pada klien dengan rekam jejak yang kuat dalam membangun kemitraan jangka panjang. Dikenal karena komunikasi yang jelas, perhatian terhadap detail, dan pemecahan masalah yang cepat, Kai selalu memenuhi tujuan klien sambil mempertahankan gaya kerja yang positif dan kolaboratif."
+      },
+      "dominic_weber": {
+        "name": "Dominic Weber",
+        "role": "Dominic Weber adalah Account Manager yang dapat diandalkan dan berorientasi pada hasil, yang selalu menempatkan klien sebagai prioritas utama. Dengan keterampilan komunikasi yang kuat dan pendekatan kerja yang terstruktur, Dominic dengan cepat memahami kebutuhan klien, memberikan solusi yang jelas, dan menjaga kerja sama profesional yang lancar di setiap tahap."
+      },
+      "dasha_petrova": {
+        "name": "Dasha Petrova",
+        "role": "Dasha Petrova adalah Account Manager yang berdedikasi dan berorientasi pada solusi, yang selalu menempatkan prioritas klien di pusat setiap keputusan. Dikenal karena komunikasi yang jelas, keandalan, dan pendekatan langsung, Dasha memastikan kerja sama yang lancar dan hasil yang konsisten serta terukur."
+      },
+      "david_faris": {
+        "name": "David Faris",
+        "role": "David Faris adalah Account Manager yang bijaksana dan berorientasi pada tujuan dengan fokus kuat pada kepuasan klien. Menggabungkan komunikasi yang jelas dengan pendekatan analitis dan terstruktur, David dengan cepat mengidentifikasi kebutuhan klien, menawarkan solusi praktis, dan memastikan kerja sama yang lancar dan profesional."
+      },
+      "michael_smith": {
+        "name": "Michael Smith",
+        "role": "Michael Smith adalah Account Manager yang percaya diri dan berorientasi pada hasil dengan rasa tanggung jawab yang tinggi. Dikenal karena komunikasi yang jelas, reaksi cepat terhadap kebutuhan klien, dan pola pikir yang praktis dan berfokus pada solusi, Michael memastikan setiap klien merasa didukung dan mengendalikan tujuan mereka."
+      },
+      "oscar_dupont": {
+        "name": "Oscar Dupont",
+        "role": "Oscar Dupont adalah Account Manager yang teliti dan dapat diandalkan dengan komitmen kuat terhadap keberhasilan klien. Menggabungkan komunikasi yang jelas dengan pola pikir proaktif dan berfokus pada solusi, Oscar memastikan kerja sama yang lancar dan selalu memenuhi tujuan yang telah disepakati."
+      },
+      "simon_bjork": {
+        "name": "Simon Bjork",
+        "role": "Simon Bjork adalah Account Manager yang metodis dan berorientasi pada klien dengan bakat untuk mengubah konsep pasar yang kompleks menjadi strategi yang dapat diterapkan. Dikenal karena presisi analitis dan sikap tenangnya, Simon membangun hubungan klien yang langgeng melalui kepercayaan, keahlian, dan komitmen yang teguh terhadap keunggulan."
+      }
+    },
+    "spanish": {
+      "juan_garcia": {
+        "name": "Juan Garcia",
+        "role": "Juan Garcia adalah Account Manager yang strategis dan berfokus pada klien, yang unggul dalam membangun hubungan kuat dengan klien berbahasa Spanyol. Dengan pengetahuan pasar yang mendalam dan pendekatan proaktif, Juan memberikan solusi yang dipersonalisasi dan memastikan setiap klien mencapai tujuan trading mereka."
+      }
+    },
+    "hindi": {
+      "aaron_dev": {
+        "name": "Vikram Patel",
+        "role": "Vikram Patel adalah Account Manager yang berdedikasi dan berpengetahuan luas, yang berspesialisasi melayani klien berbahasa Hindi. Dengan pemahaman yang kuat tentang pasar India dan internasional, Vikram memberikan panduan yang disesuaikan dan memastikan pengalaman trading yang lancar dan mendukung untuk setiap klien."
+      }
     }
-  },
-  "billing": {
-    "brooke_davis": {
-      "name": "Brooke Davis",
-      "role": "Brooke Davis adalah Billing Specialist yang teliti dan berfokus pada klien, yang memastikan transaksi keuangan berjalan lancar untuk semua klien. Dengan keahlian dalam pemrosesan pembayaran dan manajemen akun, Brooke menangani deposit, penarikan, dan pertanyaan penagihan dengan presisi dan perhatian, membuat setiap interaksi keuangan berjalan mulus dan transparan."
-    },
-    "roy_bruce": {
-      "name": "Roy Bruce",
-      "role": "Roy Bruce adalah Billing Specialist yang berorientasi pada detail dengan pengalaman luas dalam operasi keuangan dan dukungan klien. Dikenal karena pendekatan analitis dan kemampuan pemecahan masalah yang cepat, Roy menangani verifikasi pembayaran, rekonsiliasi akun, dan memastikan semua transaksi memenuhi standar akurasi dan keamanan tertinggi."
-    }
-  },
-  "english": {
-    "alex_taylor": {
-      "name": "Alex Taylor",
-      "role": "Alex Taylor adalah Account Manager yang sangat perhatian dan berfokus pada klien, yang selalu berusaha memahami prioritas setiap klien. Dengan keterampilan komunikasi yang kuat serta sikap yang tenang dan profesional.<br><br>Alex memastikan kerja sama yang lancar serta hasil yang konsisten dan dapat diandalkan."
-    },
-    "chris_evans": {
-      "name": "Chris Evans",
-      "role": "Chris Evans adalah Account Manager yang dinamis dan berorientasi pada detail, yang menggabungkan keterampilan komunikasi yang kuat dengan pola pikir strategis. Dengan fokus pada pemahaman tujuan klien dan memberikan hasil yang konsisten, Chris membangun kepercayaan melalui transparansi, keandalan, dan pendekatan yang berorientasi pada solusi."
-    },
-    "lucas_martin": {
-      "name": "Lucas Martin",
-      "role": "Lucas Martin adalah Account Manager yang sangat terorganisir dan berorientasi pada klien, yang secara konsisten memenuhi komitmennya. Dengan keterampilan komunikasi yang kuat serta pendekatan yang tenang dan profesional, Lucas dengan cepat membangun kepercayaan dan memastikan setiap klien merasa didukung serta mendapatkan informasi yang jelas."
-    },
-    "kai_lockwood": {
-      "name": "Kai Lockwood",
-      "role": "Kai Lockwood adalah Account Manager yang proaktif dan berfokus pada klien dengan rekam jejak yang kuat dalam membangun kemitraan jangka panjang. Dikenal karena komunikasi yang jelas, perhatian terhadap detail, dan pemecahan masalah yang cepat, Kai selalu memenuhi tujuan klien sambil mempertahankan gaya kerja yang positif dan kolaboratif."
-    },
-    "dominic_weber": {
-      "name": "Dominic Weber",
-      "role": "Dominic Weber adalah Account Manager yang dapat diandalkan dan berorientasi pada hasil, yang selalu menempatkan klien sebagai prioritas utama. Dengan keterampilan komunikasi yang kuat dan pendekatan kerja yang terstruktur, Dominic dengan cepat memahami kebutuhan klien, memberikan solusi yang jelas, dan menjaga kerja sama profesional yang lancar di setiap tahap."
-    },
-    "dasha_petrova": {
-      "name": "Dasha Petrova",
-      "role": "Dasha Petrova adalah Account Manager yang berdedikasi dan berorientasi pada solusi, yang selalu menempatkan prioritas klien di pusat setiap keputusan. Dikenal karena komunikasi yang jelas, keandalan, dan pendekatan langsung, Dasha memastikan kerja sama yang lancar dan hasil yang konsisten serta terukur."
-    },
-    "david_faris": {
-      "name": "David Faris",
-      "role": "David Faris adalah Account Manager yang bijaksana dan berorientasi pada tujuan dengan fokus kuat pada kepuasan klien. Menggabungkan komunikasi yang jelas dengan pendekatan analitis dan terstruktur, David dengan cepat mengidentifikasi kebutuhan klien, menawarkan solusi praktis, dan memastikan kerja sama yang lancar dan profesional."
-    },
-    "michael_smith": {
-      "name": "Michael Smith",
-      "role": "Michael Smith adalah Account Manager yang percaya diri dan berorientasi pada hasil dengan rasa tanggung jawab yang tinggi. Dikenal karena komunikasi yang jelas, reaksi cepat terhadap kebutuhan klien, dan pola pikir yang praktis dan berfokus pada solusi, Michael memastikan setiap klien merasa didukung dan mengendalikan tujuan mereka."
-    },
-    "oscar_dupont": {
-      "name": "Oscar Dupont",
-      "role": "Oscar Dupont adalah Account Manager yang teliti dan dapat diandalkan dengan komitmen kuat terhadap keberhasilan klien. Menggabungkan komunikasi yang jelas dengan pola pikir proaktif dan berfokus pada solusi, Oscar memastikan kerja sama yang lancar dan selalu memenuhi tujuan yang telah disepakati."
-    },
-    "simon_bjork": {
-      "name": "Simon Bjork",
-      "role": "Simon Bjork adalah Account Manager yang metodis dan berorientasi pada klien dengan bakat untuk mengubah konsep pasar yang kompleks menjadi strategi yang dapat diterapkan. Dikenal karena presisi analitis dan sikap tenangnya, Simon membangun hubungan klien yang langgeng melalui kepercayaan, keahlian, dan komitmen yang teguh terhadap keunggulan."
-    }
-  },
-  "spanish": {
-    "juan_garcia": {
-      "name": "Juan Garcia",
-      "role": "Juan Garcia adalah Account Manager yang strategis dan berfokus pada klien, yang unggul dalam membangun hubungan kuat dengan klien berbahasa Spanyol. Dengan pengetahuan pasar yang mendalam dan pendekatan proaktif, Juan memberikan solusi yang dipersonalisasi dan memastikan setiap klien mencapai tujuan trading mereka."
-    }
-  },
-  "hindi": {
-    "aaron_dev": {
-      "name": "Vikram Patel",
-      "role": "Vikram Patel adalah Account Manager yang berdedikasi dan berpengetahuan luas, yang berspesialisasi melayani klien berbahasa Hindi. Dengan pemahaman yang kuat tentang pasar India dan internasional, Vikram memberikan panduan yang disesuaikan dan memastikan pengalaman trading yang lancar dan mendukung untuk setiap klien."
-    }
-  }
   },
   "marketsOverview": {
     "title": "Ikhtisar Pasar"
@@ -1394,5 +1396,364 @@
     "titlePart2": "Edukasi",
     "subtitle1": "Kuasi dasar-dasar pasar forex dengan koleksi panduan trading penting kami.",
     "subtitle2": "Jelajahi perpustakaan kami yang berisi 20+ artikel. Mulai dari awal atau fokus pada topik tertentu."
+  },
+  "homeFaq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "subtitle": "Jawaban singkat tentang TraderTok—pasar, akun, setoran, penarikan, biaya, regulasi, dan dukungan.",
+    "lead": "Jelajahi topik di bawah ini. Setiap bagian dapat dibuka untuk detail lebih lanjut.",
+    "sections": [
+      {
+        "label": "Informasi umum",
+        "intro": "Fakta inti tentang TraderTok, pasar kami, dan cara platform bekerja.",
+        "items": [
+          {
+            "question": "Apa itu TraderTok?",
+            "paragraphs": [
+              "TraderTok adalah platform trading online global yang memberikan akses ke pasar keuangan, termasuk forex, saham, komoditas, indeks, dan mata uang kripto.",
+              "Platform ini tersedia di desktop, seluler, dan web, dirancang untuk pemula maupun trader berpengalaman.",
+              "TraderTok beroperasi di bawah Amber Rock Trade Ltd, berizin dan diawasi oleh Financial Services Commission (FSC) Mauritius."
+            ]
+          },
+          {
+            "question": "Instrumen trading apa yang ditawarkan TraderTok?",
+            "paragraphs": [
+              "TraderTok menyediakan akses ke:"
+            ],
+            "bullets": [
+              "Forex (pasangan mata uang)",
+              "Komoditas (mis. emas, minyak)",
+              "Saham dari bursa global utama",
+              "Indeks pasar",
+              "Mata uang kripto"
+            ],
+            "paragraphs_after": [
+              "Ketersediaan instrumen dapat berbeda tergantung yurisdiksi dan persyaratan regulator."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Edukasi & platform",
+        "intro": "Materi pembelajaran, akun demo, dan cara mengakses platform.",
+        "items": [
+          {
+            "question": "Apakah tersedia materi edukasi?",
+            "paragraphs": [
+              "Ya. TraderTok menyediakan materi edukasi, antara lain:"
+            ],
+            "bullets": [
+              "Video tutorial",
+              "Sesi pelatihan",
+              "Wawasan dan analisis pasar",
+              "Akun demo untuk berlatih"
+            ],
+            "paragraphs_after": [
+              "Semua konten edukasi bersifat informatif saja dan bukan merupakan nasihat investasi."
+            ]
+          },
+          {
+            "question": "Bisakah saya berlatih sebelum trading dengan uang sungguhan?",
+            "paragraphs": [
+              "Ya. TraderTok menawarkan akun demo dengan dana virtual agar Anda dapat trading dalam kondisi pasar real-time tanpa risiko finansial.",
+              "Performa di lingkungan demo tidak menjamin hasil serupa pada trading live."
+            ]
+          },
+          {
+            "question": "Perangkat apa yang bisa digunakan?",
+            "paragraphs": [
+              "TraderTok tersedia di:"
+            ],
+            "bullets": [
+              "Desktop (Windows & Mac)",
+              "Seluler (iOS & Android)",
+              "Peramban web"
+            ],
+            "paragraphs_after": [
+              "Ketersediaan dapat berbeda tergantung wilayah dan persyaratan teknis."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Akun & dukungan",
+        "intro": "Pembukaan akun, verifikasi, dan cara menghubungi tim kami.",
+        "items": [
+          {
+            "question": "Apakah TraderTok menyediakan layanan pelanggan?",
+            "paragraphs": [
+              "Ya. Dukungan pelanggan tersedia 24/5 melalui:"
+            ],
+            "bullets": [
+              "Obrolan langsung",
+              "Email",
+              "Telepon",
+              "Formulir kontak di situs web"
+            ],
+            "paragraphs_after": [
+              "Waktu respons dapat bervariasi tergantung volume dan persyaratan verifikasi."
+            ]
+          },
+          {
+            "question": "Bagaimana cara menghubungi dukungan?",
+            "paragraphs": [
+              "Telepon: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+              "Email: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+              "Formulir kontak di situs web"
+            ]
+          },
+          {
+            "question": "Bagaimana cara membuka akun?",
+            "paragraphs": [
+              "Untuk membuka akun:"
+            ],
+            "bullets": [
+              "Lengkapi aplikasi online",
+              "Verifikasi identitas Anda",
+              "Danai akun Anda",
+              "Mulai trading"
+            ],
+            "paragraphs_after": [
+              "Persetujuan akun tergantung peninjauan kepatuhan."
+            ]
+          },
+          {
+            "question": "Mengapa saya harus memverifikasi akun?",
+            "paragraphs": [
+              "Verifikasi diperlukan untuk:"
+            ],
+            "bullets": [
+              "Mematuhi regulasi keuangan",
+              "Mencegah penipuan",
+              "Memastikan keamanan platform"
+            ],
+            "paragraphs_after": [
+              "Dokumen yang mungkin diperlukan meliputi:"
+            ],
+            "bullets_after": [
+              "Bukti identitas",
+              "Verifikasi telepon",
+              "Verifikasi selfie"
+            ],
+            "paragraphs_final": [
+              "Kegagalan verifikasi dapat mengakibatkan pembatasan akun."
+            ]
+          },
+          {
+            "question": "Apa yang saya butuhkan untuk memulai?",
+            "paragraphs": [
+              "Untuk membuka akun, Anda harus:"
+            ],
+            "bullets": [
+              "Berusia minimal 18 tahun",
+              "Menyediakan identitas yang valid",
+              "Memiliki email dan nomor telepon terverifikasi",
+              "Memiliki akses internet"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Setoran & penarikan",
+        "intro": "Pendanaan akun, penarikan, dan penanganan dana klien.",
+        "items": [
+          {
+            "question": "Bagaimana cara kerja setoran?",
+            "paragraphs": [
+              "Setoran dapat dilakukan melalui:"
+            ],
+            "bullets": [
+              "Transfer bank",
+              "Kartu kredit/debit",
+              "Dompet digital yang disetujui"
+            ],
+            "paragraphs_after": [
+              "Dana biasanya dikreditkan dalam 24 jam, tergantung penyedia.",
+              "TraderTok dapat meminta dokumentasi tambahan untuk mematuhi AML."
+            ]
+          },
+          {
+            "question": "Bagaimana cara kerja penarikan?",
+            "paragraphs": [
+              "Penarikan dapat diminta melalui platform dan biasanya diproses dalam 24 jam, tergantung verifikasi.",
+              "Perkiraan waktu:"
+            ],
+            "bullets": [
+              "Kartu: hingga 5 hari kerja",
+              "Transfer bank: hingga 5 hari kerja",
+              "Dompet: dapat instan"
+            ],
+            "paragraphs_after": [
+              "TraderTok berhak untuk:"
+            ],
+            "bullets_after": [
+              "Mengembalikan dana ke metode pembayaran asli",
+              "Meminta verifikasi tambahan",
+              "Menunda pemrosesan untuk pemeriksaan kepatuhan"
+            ]
+          },
+          {
+            "question": "Apakah uang saya dilindungi?",
+            "paragraphs": [
+              "Dana klien disimpan di rekening terpisah dari dana perusahaan.",
+              "Dana yang memenuhi syarat dapat dilindungi hingga USD 100.000, sesuai aturan regulator dan kriteria kelayakan.",
+              "TraderTok tidak menjamin perlindungan terhadap kerugian trading."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Biaya & trading",
+        "intro": "Biaya, margin, dan penyediaan nasihat.",
+        "items": [
+          {
+            "question": "Berapa biaya trading Anda?",
+            "paragraphs": [
+              "Trading mikro (0,01–0,19 lot): tanpa komisi",
+              "Trading standar (0,20–4,99 lot): USD 1,50 per transaksi",
+              "Trading besar (5,00+ lot): USD 3,50 per transaksi",
+              "Komisi berlaku saat pembukaan posisi kecuali ditentukan lain.",
+              "TraderTok berhak memperbarui struktur biaya."
+            ]
+          },
+          {
+            "question": "Apakah ada biaya konversi?",
+            "paragraphs": [
+              "Ya. Biaya konversi mata uang dapat berlaku saat menyetor, menarik, atau trading dalam mata uang berbeda."
+            ]
+          },
+          {
+            "question": "Apa itu trading margin?",
+            "paragraphs": [
+              "Trading margin memungkinkan Anda trading dengan dana pinjaman, meningkatkan eksposur Anda.",
+              "Dapat memperbesar keuntungan tetapi juga risiko, dan dapat menyebabkan kerugian melebihi deposit awal."
+            ]
+          },
+          {
+            "question": "Apakah Anda memberikan nasihat investasi?",
+            "paragraphs": [
+              "TraderTok menyediakan akun trading mandiri.",
+              "Kecuali disepakati secara tertulis dalam perjanjian nasihat yang teregulasi, TraderTok tidak memberikan nasihat investasi yang dipersonalisasi."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Risiko & kepatuhan",
+        "intro": "Risiko penting termasuk kripto dan copy trading.",
+        "items": [
+          {
+            "question": "Risiko apa yang perlu saya waspadai?",
+            "paragraphs": [
+              "Trading melibatkan risiko signifikan dan dapat mengakibatkan kehilangan sebagian atau seluruh modal.",
+              "Anda sebaiknya:"
+            ],
+            "bullets": [
+              "Memahami risiko yang terlibat",
+              "Hanya trading dengan dana yang siap Anda tanggung kehilangannya",
+              "Mencari nasihat keuangan independen jika perlu"
+            ]
+          },
+          {
+            "question": "Risiko mata uang kripto",
+            "paragraphs": [
+              "Pasar kripto sangat volatil dan spekulatif. Harga dapat berfluktuasi kuat dalam waktu singkat."
+            ]
+          },
+          {
+            "question": "Risiko copy trading",
+            "paragraphs": [
+              "Copy trading melibatkan risiko tambahan. Anda dapat mengikuti trader dengan:"
+            ],
+            "bullets": [
+              "Toleransi risiko berbeda",
+              "Tujuan finansial berbeda",
+              "Pengalaman terbatas"
+            ],
+            "paragraphs_after": [
+              "Kinerja masa lalu tidak menjamin hasil di masa depan.",
+              "Konten di platform bukan nasihat investasi."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Regulasi",
+        "intro": "Perizinan dan detail perusahaan.",
+        "items": [
+          {
+            "question": "Apakah TraderTok teregulasi?",
+            "paragraphs": [
+              "Ya. TraderTok beroperasi di bawah:"
+            ],
+            "bullets": [
+              "Amber Rock Trade Ltd",
+              "Alamat: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+              "No. perusahaan: 222594",
+              "No. lisensi: GB24203892",
+              "Regulator: Financial Services Commission (FSC), Mauritius"
+            ],
+            "paragraphs_after": [
+              "Klien disarankan memverifikasi detail melalui register FSC."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "TraderTok Club",
+        "intro": "Tingkat loyalitas dan manfaat.",
+        "items": [
+          {
+            "question": "Apa itu TraderTok Club?",
+            "paragraphs": [
+              "TraderTok Club adalah program loyalitas dengan manfaat berbasis tingkat.",
+              "Keanggotaan dimulai dari saldo minimum USD 5.000 dan mencakup lima tingkat:"
+            ],
+            "lists": [
+              {
+                "title": "Silver",
+                "items": [
+                  "Webinar",
+                  "Aplikasi mitra",
+                  "Manajer akun khusus"
+                ]
+              },
+              {
+                "title": "Gold",
+                "items": [
+                  "Semua manfaat Silver",
+                  "Bunga atas saldo",
+                  "Wawasan pasar mingguan",
+                  "Akses WhatsApp ke manajer akun"
+                ]
+              },
+              {
+                "title": "Platinum",
+                "items": [
+                  "Semua manfaat Gold",
+                  "Tanpa biaya penarikan",
+                  "Akses konten premium"
+                ]
+              },
+              {
+                "title": "Platinum+",
+                "items": [
+                  "Undangan acara",
+                  "TraderTok Card",
+                  "Manfaat platform yang ditingkatkan"
+                ]
+              },
+              {
+                "title": "Diamond",
+                "items": [
+                  "Akses premium penuh",
+                  "Pengecualian biaya",
+                  "Hak istimewa eksklusif"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

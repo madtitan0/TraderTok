@@ -29,6 +29,7 @@
     }
     var REDIRECT_SESSION_KEY = 'tradertok_redirected';
     var GEO_CACHE_KEY = 'tradertok_geo_region';
+    var GEO_LOCALE_STORAGE_KEY = 'tradertok_geo_locale';
     var GEO_TIMEOUT_MS = 4000;
 
     /**
@@ -202,26 +203,64 @@
         return null;
     }
 
-    async function attemptGeoRedirect() {
-        if (!shouldAttemptRedirect()) return;
+    /**
+     * Single IP lookup: main domain → subdomain redirect when applicable;
+     * otherwise (e.g. whitelabel host) → set regionData + UI locale to match geo.
+     */
+    async function resolveGeoIpEffects() {
+        if (window.subdomainData && window.subdomainData.lang) return;
+        if (buildRegionData()) return;
 
-        var cached = null;
-        try { cached = sessionStorage.getItem(GEO_CACHE_KEY); } catch (e) {}
-        if (cached) {
-            performRedirect(cached);
+        var code = await fetchVisitorCountryCodeForRedirect();
+        if (!code) return;
+
+        var sub = mapCountryCodeToSubdomain(code);
+        if (!sub) return;
+
+        if (isMainDomain()) {
+            if (!shouldAttemptRedirect()) return;
+            var cached = null;
+            try { cached = sessionStorage.getItem(GEO_CACHE_KEY); } catch (e) {}
+            if (cached) {
+                performRedirect(cached);
+                return;
+            }
+            try { sessionStorage.setItem(GEO_CACHE_KEY, sub); } catch (e) {}
+            performRedirect(sub);
             return;
         }
 
-        try {
-            var code = await fetchVisitorCountryCodeForRedirect();
-            if (!code) return;
+        var locale =
+            typeof TraderTokCountryCodeToLocale === 'function'
+                ? TraderTokCountryCodeToLocale(code)
+                : null;
+        if (!locale) return;
 
-            var sub = mapCountryCodeToSubdomain(code);
-            if (sub) {
-                try { sessionStorage.setItem(GEO_CACHE_KEY, sub); } catch (e) {}
-                performRedirect(sub);
-            }
+        var countrySlug =
+            window.TRADERTOK_SUBDOMAIN_MAP && window.TRADERTOK_SUBDOMAIN_MAP[sub]
+                ? window.TRADERTOK_SUBDOMAIN_MAP[sub]
+                : null;
+
+        window.regionData = {
+            country: countrySlug,
+            lang: locale,
+            subdomain: sub,
+            source: 'geo-ip'
+        };
+
+        try {
+            sessionStorage.setItem(GEO_LOCALE_STORAGE_KEY, locale);
         } catch (e) {}
+
+        function applyWhenI18nReady() {
+            if (!window.i18n || typeof window.i18n.setLanguage !== 'function') {
+                setTimeout(applyWhenI18nReady, 30);
+                return;
+            }
+            if (window.i18n.isLanguageLocked && window.i18n.isLanguageLocked()) return;
+            window.i18n.setLanguage(locale);
+        }
+        applyWhenI18nReady();
     }
 
     function initHashChangeListener() {
@@ -229,16 +268,21 @@
             var country = getCountryFromHash();
             if (!country) return;
 
+            var hl = COUNTRY_TO_LANG[country] || 'en';
             window.regionData = {
                 country: country,
-                lang: COUNTRY_TO_LANG[country] || 'en',
+                lang: hl,
                 subdomain: null,
                 source: 'hash'
             };
 
+            try {
+                sessionStorage.setItem(GEO_LOCALE_STORAGE_KEY, hl);
+            } catch (e) {}
+
             if (window.i18n && window.i18n.setLanguage) {
                 if (!window.i18n.isLanguageLocked || !window.i18n.isLanguageLocked()) {
-                    window.i18n.setLanguage(COUNTRY_TO_LANG[country] || 'en');
+                    window.i18n.setLanguage(hl);
                 }
             }
         });
@@ -249,8 +293,8 @@
 
     initHashChangeListener();
 
-    if (!regionData && isMainDomain()) {
-        attemptGeoRedirect();
+    if (!regionData) {
+        resolveGeoIpEffects();
     }
 
 })();

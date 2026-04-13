@@ -11,10 +11,10 @@
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
     <div class="doc-page-hero-title">
-      <span data-i18n="privacyPolicyPage.heroTitle">Cookies Policy</span>
+      <span data-i18n="cookiesPolicyPage.h1">Cookies Policy</span>
     </div>
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">Introduction</span>
+        <span data-i18n="cookiesPolicyPage.h2">Introduction</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         This Cookies Policy explains how Amber Rock Trade Ltd (“Company”, “we”, “us”, or “our”)
@@ -32,7 +32,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. What Are Cookies?</span>
+        <span data-i18n="cookiesPolicyPage.h3">1. What Are Cookies?</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Cookies are small text files that are stored on your device (computer, tablet, or mobile
@@ -41,7 +41,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">
+        <span data-i18n="cookiesPolicyPage.h4">
           Types of Cookies We Use
         </span>
       </h1>
@@ -113,7 +113,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. Third-Party Cookies
+        <span data-i18n="cookiesPolicyPage.h5">3. Third-Party Cookies
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -134,7 +134,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. How Long Cookies Are Stored
+        <span data-i18n="cookiesPolicyPage.h6">4. How Long Cookies Are Stored
         </span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:disc">
@@ -145,7 +145,7 @@
       <p class="doc-page-hero-subtitle"></p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. Managing Cookies
+        <span data-i18n="cookiesPolicyPage.h7">5. Managing Cookies
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -165,7 +165,7 @@
 
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. Data Protection and Privacy
+        <span data-i18n="cookiesPolicyPage.h8">6. Data Protection and Privacy
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -174,7 +174,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. Changes to This Cookie Policy
+        <span data-i18n="cookiesPolicyPage.h9">7. Changes to This Cookie Policy
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">We may update this Cookie Policy from time to time. Any changes will be posted

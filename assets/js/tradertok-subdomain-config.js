@@ -76,6 +76,17 @@
     };
 
     /**
+     * ISO country code → UI locale (locales/*.json). Used for IP geolocation language.
+     * @param {string} iso Two-letter country code
+     * @returns {string|null} locale code or null if no mapped trading region
+     */
+    global.TraderTokCountryCodeToLocale = function (iso) {
+        var sub = global.TraderTokCountryCodeToSubdomainKey(iso);
+        if (!sub || !global.TRADERTOK_SUBDOMAIN_TO_LANG) return null;
+        return global.TRADERTOK_SUBDOMAIN_TO_LANG[sub] || null;
+    };
+
+    /**
      * @param {string} sub Subdomain label from host (e.g. ng, vn, es)
      * @returns {string|null} canonical key present in TRADERTOK_SUBDOMAIN_MAP
      */
