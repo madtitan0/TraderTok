@@ -69,7 +69,7 @@
               <li><a href="what-is-leverage-and-margin" class="footer-link" data-i18n="footer.whatIsLeverageAndMargin">What is Leverage &amp; Margin</a></li>
               <li><a href="buy-and-sell-explained" class="footer-link" data-i18n="footer.buyAndSellExplained">Buy and Sell Explained</a></li>
               <li><a href="tax-report" class="footer-link" data-i18n="footer.taxReport">Tax Report</a></li>
-              <li><a href="trading-essentials" class="footer-link" data-i18n="nav.educationResources">Education Resources</a></li>
+              <li><a href="education-hub" class="footer-link" data-i18n="nav.educationResources">Education Resources</a></li>
             </ul>
           </div>
 
@@ -133,7 +133,7 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.privacyAndRegulation">Privacy and Regulation</h3>
             <ul class="footer-links">
-              <li><a href="cookie-policy" class="footer-link" data-i18n="nav.cookiePolicy">Cookie Policy</a></li>
+              <li><a href="cookie-policy" class="footer-link" data-i18n="nav.cookiePolicy">Cookies Policy</a></li>
               <li><a href="privacy-policy" class="footer-link" data-i18n="footer.privacyPolicy">Privacy Policy</a></li>
               <li><a href="regulations" class="footer-link" data-i18n="nav.regulations">Regulation &amp; License</a></li>
               <li><a href="general-risk-disclosure" class="footer-link" data-i18n="nav.generalRiskDisclosure">General Risk Disclosure</a></li>

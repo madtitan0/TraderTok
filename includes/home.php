@@ -130,7 +130,7 @@
       </div>
     </section>
 
-    <!-- Traders Club Modal
+    <!-- Traders Club Modal -->
     <div class="traders-club-modal" id="tradersClubModal">
       <div class="traders-club-modal-overlay"></div>
       <div class="traders-club-modal-content" id="tradersClubModalContent">
@@ -211,7 +211,7 @@
           </form>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Insights Section -->
     <section class="insights">
@@ -520,7 +520,7 @@
     </section>
 
     <!-- Deposit Modal (same API flow as Traders Club; group = DepositAccount) -->
-    <!-- <div class="deposit-modal" id="depositModal">
+    <div class="deposit-modal" id="depositModal">
       <div class="deposit-modal-overlay"></div>
       <div class="deposit-modal-content" id="depositModalContent">
         <button type="button" class="modal-close" id="closeDepositModal" aria-label="Close">
@@ -601,7 +601,7 @@
             and Privacy Policy</p>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Telegram Section -->
     <section class="telegram-section">
