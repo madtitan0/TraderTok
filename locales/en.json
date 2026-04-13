@@ -50,7 +50,13 @@
     "title": "Language",
     "english": "English",
     "hindi": "हिन्दी",
-    "spanish": "Español"
+    "spanish": "Español",
+    "thai": "ไทย",
+    "vietnamese": "Tiếng Việt",
+    "malay": "Bahasa Melayu",
+    "indonesian": "Bahasa Indonesia",
+    "tagalog": "Tagalog",
+    "urdu": "اردو"
   },
   "auth": {
     "signIn": "Sign In",
@@ -300,6 +306,17 @@
       "successTitle": "Application Submitted!",
       "successMessage": "Our manager will contact you shortly.",
       "modal": "By submitting, you agree to our Terms of Service and Privacy Policy"
+    },
+    "menu": {
+      "home": "Hub Home",
+      "courses": "Courses",
+      "articles": "Articles",
+      "marketNews": "Market News & Insights",
+      "ebooks": "eBooks",
+      "webinars": "Webinars",
+      "glossary": "Trading Glossary",
+      "tutorials": "Platform Tutorials",
+      "resources": "Tools & Resources"
     }
   },
   "educationArticles": {

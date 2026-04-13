@@ -1282,17 +1282,31 @@ const languageNames = {
   it: "IT",
   hi: "HI",
   "es-419": "ES",
+  vn: "VN",
+  th: "TH",
+  my: "MY",
+  ph: "PH",
+  id: "ID",
+  pk: "PK",
 };
+
+function isRegionalLanguageLocked() {
+  return !!(window.subdomainData && window.subdomainData.lang);
+}
 
 // Function to update language
 function updateLanguage(lang, flagHTML) {
+  if (isRegionalLanguageLocked() && lang !== window.subdomainData.lang) {
+    return;
+  }
+
   currentLanguage = lang;
 
   // Update desktop button if exists
   if (languageBtn) {
     languageBtn.querySelector(".language-flag").innerHTML = flagHTML;
     languageBtn.querySelector(".language-code").textContent =
-      languageNames[lang];
+      languageNames[lang] || String(lang).toUpperCase().slice(0, 2);
   }
 
   // Update all language items active state
@@ -1313,13 +1327,15 @@ function updateLanguage(lang, flagHTML) {
     }
   });
 
-  // Store in localStorage
-  localStorage.setItem("preferredLanguage", lang);
+  if (!isRegionalLanguageLocked()) {
+    localStorage.setItem("preferredLanguage", lang);
+  }
 
-  console.log("Language changed to:", lang);
-
-  // Apply translations using i18n module
-  if (typeof window.i18n !== "undefined" && window.i18n.setLanguage) {
+  if (
+    !isRegionalLanguageLocked() &&
+    typeof window.i18n !== "undefined" &&
+    window.i18n.setLanguage
+  ) {
     window.i18n.setLanguage(lang);
   }
 }
@@ -1327,6 +1343,9 @@ function updateLanguage(lang, flagHTML) {
 // Toggle language dropdown (desktop)
 if (languageBtn) {
   languageBtn.addEventListener("click", (e) => {
+    if (isRegionalLanguageLocked()) {
+      return;
+    }
     e.stopPropagation();
     languageDropdown.classList.toggle("active");
     languageBtn.classList.toggle("active");
@@ -1336,6 +1355,7 @@ if (languageBtn) {
 // Select language (desktop)
 languageItems.forEach((item) => {
   item.addEventListener("click", () => {
+    if (isRegionalLanguageLocked()) return;
     const lang = item.dataset.lang;
     const flagHTML = item.querySelector(".language-flag").innerHTML;
 
@@ -1354,6 +1374,9 @@ languageItems.forEach((item) => {
 // Select language (mobile menu)
 mobileLanguageItems.forEach((item) => {
   item.addEventListener("click", () => {
+    if (isRegionalLanguageLocked()) {
+      return;
+    }
     const lang = item.dataset.lang;
     const flagHTML = item.querySelector(".language-flag").innerHTML;
 
@@ -1380,7 +1403,10 @@ document.addEventListener("click", (e) => {
 
 // Load saved language preference on page load
 window.addEventListener("DOMContentLoaded", () => {
-  const savedLanguage = localStorage.getItem("preferredLanguage") || "en";
+  const savedLanguage =
+    (window.subdomainData && window.subdomainData.lang) ||
+    localStorage.getItem("preferredLanguage") ||
+    "en";
 
   // Find the item in desktop or mobile
   let savedItem = document.querySelector(
@@ -1404,6 +1430,24 @@ window.addEventListener("DOMContentLoaded", () => {
       const flagHTML = englishItem.querySelector(".language-flag").innerHTML;
       updateLanguage("en", flagHTML);
     }
+  }
+
+  if (isRegionalLanguageLocked()) {
+    document.body.classList.add("region-language-locked");
+    if (languageBtn) {
+      languageBtn.setAttribute("disabled", "disabled");
+      languageBtn.setAttribute("aria-disabled", "true");
+    }
+    languageItems.forEach((i) => {
+      i.style.pointerEvents = "none";
+      i.style.cursor = "default";
+      i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
+    });
+    mobileLanguageItems.forEach((i) => {
+      i.style.pointerEvents = "none";
+      i.style.cursor = "default";
+      i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
+    });
   }
 });
 

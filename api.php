@@ -1,4 +1,5 @@
 <?php
+set_time_limit(60);
 $key = 'f2f7ef3b-8168-4a6e-be8d-aab31fdb980e';
 $localFile = __DIR__ . "/cache_$key.json";
 $remoteUrl = "https://cdn-customer.theteampower.com/data/$key.json";

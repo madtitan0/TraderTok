@@ -174,10 +174,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. Changes to This Cookies Policy
+        <span data-i18n="privacyPolicyPage.heroTitle">7. Changes to This Cookie Policy
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">We may update this Cookies Policy from time to time. Any changes will be posted
+      <p class="doc-page-hero-subtitle">We may update this Cookie Policy from time to time. Any changes will be posted
         on this
         page with an updated revision date.</p>
     </div>

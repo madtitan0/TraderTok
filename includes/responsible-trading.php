@@ -53,7 +53,7 @@
           If you would like more information about support, financial vulnerability, and the safeguards
           available to clients, please review our Client Vulnerability Policy.
         </p>
-        <a class="responsible-trading-link" href="client-vulnerability">
+        <a class="responsible-trading-link" href="<?php echo routeUrl('client-vulnerability'); ?>">
           Learn more about Client Vulnerability
         </a>
       </article>

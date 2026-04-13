@@ -486,6 +486,18 @@ h6 {
   background-clip: text;
 }
 
+.offers-dropdown-item--disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.offers-dropdown-item--disabled .offers-dropdown-name,
+.offers-dropdown-item--disabled .offers-dropdown-offer {
+  -webkit-text-fill-color: var(--text-secondary);
+  color: var(--text-secondary);
+}
+
 .offers-dropdown-offer {
   font-size: 11px;
   color: var(--text-secondary);
@@ -531,6 +543,14 @@ h6 {
 /* Language Selector */
 .language-selector {
   position: relative;
+}
+
+body.region-language-locked .language-btn {
+  cursor: default;
+}
+
+body.region-language-locked .language-btn .language-arrow {
+  opacity: 0.35;
 }
 
 /* Hide mobile language section on desktop */

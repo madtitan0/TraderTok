@@ -710,6 +710,8 @@
         var sidebarList = document.getElementById('sidebarCountryList');
         if (sidebarList) {
             sidebarList.addEventListener('click', function (e) {
+                if (getOffersLockCountry()) return;
+
                 var item = e.target.closest('.sidebar-country-item');
                 if (!item) return;
                 var regionId = item.getAttribute('data-region');
@@ -726,6 +728,8 @@
         var strip = document.getElementById('countryStrip');
         if (strip) {
             strip.addEventListener('click', function (e) {
+                if (getOffersLockCountry()) return;
+
                 var item = e.target.closest('.strip-country-item');
                 if (!item) return;
                 var regionId = item.getAttribute('data-region');
@@ -742,6 +746,11 @@
         var dropdown = document.getElementById('regionDropdown');
         if (dropdown) {
             dropdown.addEventListener('change', function () {
+                if (getOffersLockCountry()) {
+                    dropdown.value = window.subdomainData.country;
+                    return;
+                }
+
                 var value = dropdown.value;
                 if (value) {
                     selectRegion(value);
@@ -755,12 +764,14 @@
         var clearBtn = document.getElementById('clearRegion');
         if (clearBtn) {
             clearBtn.addEventListener('click', function () {
+                if (getOffersLockCountry()) return;
                 clearSelection();
             });
         }
 
         // React to hash changes (e.g. clicking nav dropdown while already on page)
         window.addEventListener('hashchange', function () {
+            if (getOffersLockCountry()) return;
             var region = getRegionFromURL();
             if (region && region !== selectedRegion) {
                 selectRegion(region);
@@ -777,8 +788,8 @@
             // Check if a region is already selected
             if (selectedRegion) return;
 
-            // Check sessionStorage cache
-            var cached = sessionStorage.getItem('tradertok_geo_region');
+            // Check sessionStorage cache using a unique key
+            var cached = sessionStorage.getItem('tradertok_offers_geo');
             if (cached) {
                 var cachedRegion = getRegionById(cached);
                 if (cachedRegion && !selectedRegion) {
@@ -801,7 +812,7 @@
             if (!detectedRegion) return;
 
             // Cache result
-            sessionStorage.setItem('tradertok_geo_region', detectedRegion);
+            sessionStorage.setItem('tradertok_offers_geo', detectedRegion);
 
             // Only auto-select if no region already selected
             if (!selectedRegion) {
@@ -854,37 +865,41 @@
         return null;
     }
 
-    // Subdomain → region mapping
-    // e.g. vn.tradertok.com → vietnam, th.tradertok.com → thailand
-    var SUBDOMAIN_MAP = {
-        vn: 'vietnam',
-        th: 'thailand',
-        my: 'malaysia',
-        ph: 'philippines',
-        id: 'indonesia',
-        pk: 'pakistan',
-        latam: 'latam',
-        na: 'namibia',
-        ke: 'kenya',
-        gh: 'ghana',
-        ng: 'nigeria',
-        za: 'south-africa',
-        tt: 'trinidad-tobago',
-        gy: 'guyana'
-    };
-
+    /**
+     * Canonical map lives in tradertok-subdomain-config.js (TRADERTOK_SUBDOMAIN_MAP).
+     */
     function getRegionFromSubdomain() {
-        var hostname = window.location.hostname; // e.g. "vn.tradertok.com"
+        var hostname = window.location.hostname;
         var parts = hostname.split('.');
-
-        // Need at least 3 parts: subdomain.domain.tld
-        // Skip "www" and localhost/IP addresses
         if (parts.length < 3) return null;
+        var raw = parts[0];
+        if (
+            typeof window.TraderTokNormalizeSubdomainKey !== 'function' ||
+            !window.TRADERTOK_SUBDOMAIN_MAP
+        ) {
+            return null;
+        }
+        var canon = window.TraderTokNormalizeSubdomainKey(raw);
+        if (!canon) return null;
+        return window.TRADERTOK_SUBDOMAIN_MAP[canon] || null;
+    }
 
-        var sub = parts[0].toLowerCase();
-        if (sub === 'www') return null;
+    function getOffersLockCountry() {
+        if (window.subdomainData && window.subdomainData.country) {
+            return window.subdomainData.country;
+        }
+        return null;
+    }
 
-        return SUBDOMAIN_MAP[sub] || null;
+    function updateOffersLockUI(locked) {
+        var sb = document.getElementById('offersSidebar');
+        var strip = document.getElementById('countryStrip');
+        var dd = document.getElementById('regionDropdown');
+        var clearBtn = document.getElementById('clearRegion');
+        if (sb) sb.classList.toggle('is-locked', !!locked);
+        if (strip) strip.classList.toggle('is-locked', !!locked);
+        if (dd) dd.disabled = !!locked;
+        if (clearBtn) clearBtn.style.display = locked ? 'none' : '';
     }
 
     function init() {
@@ -892,21 +907,28 @@
         renderStrip();
         initEventListeners();
 
-        // Priority: 1) URL hash/param  2) subdomain  3) IP geo-detection
+        if (window.subdomainData && window.subdomainData.country) {
+            selectRegion(window.subdomainData.country);
+            updateOffersLockUI(true);
+            return;
+        }
+
         var urlRegion = getRegionFromURL();
         if (urlRegion) {
             selectRegion(urlRegion);
+            updateOffersLockUI(false);
             return;
         }
 
         var subdomainRegion = getRegionFromSubdomain();
         if (subdomainRegion) {
             selectRegion(subdomainRegion);
+            updateOffersLockUI(!!getOffersLockCountry());
             return;
         }
 
-        // No explicit region — show prompt and try geo-detection
         renderPromotions(null);
+        updateOffersLockUI(false);
         attemptGeoDetection();
     }
 

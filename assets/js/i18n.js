@@ -9,7 +9,7 @@
     // Configuration
     const CONFIG = {
         defaultLang: 'en',
-        supportedLangs: ['en', 'hi', 'es-419', 'it'],
+        supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
         localStorageKey: 'preferredLanguage',
         localesPath: 'locales/' // Path to locales folder
     };
@@ -163,7 +163,14 @@
      * @param {string} lang - Language code
      * @returns {Promise<void>}
      */
+    function isLanguageLocked() {
+        return !!(window.subdomainData && window.subdomainData.country && window.subdomainData.lang);
+    }
+
     async function setLanguage(lang) {
+        if (isLanguageLocked()) {
+            return;
+        }
         if (!CONFIG.supportedLangs.includes(lang)) {
             console.warn(`Language ${lang} is not supported. Using ${CONFIG.defaultLang}`);
             lang = CONFIG.defaultLang;
@@ -200,11 +207,18 @@
      * @returns {Promise<void>}
      */
     async function init() {
-        // Get saved language or detect from browser
         const savedLang = localStorage.getItem(CONFIG.localStorageKey);
 
-        if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
+        // Regional subdomain: fixed locale (overrides saved preference)
+        if (window.subdomainData && window.subdomainData.lang) {
+            currentLang = window.subdomainData.lang;
+        } else if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
             currentLang = savedLang;
+        } else if (window.regionData && window.regionData.lang &&
+                   (window.regionData.source === 'php-subdomain' ||
+                    window.regionData.source === 'client-subdomain' ||
+                    window.regionData.source === 'hash')) {
+            currentLang = window.regionData.lang;
         } else {
             // Try to detect from browser
             const browserLang = navigator.language || navigator.userLanguage;
@@ -215,6 +229,11 @@
             } else {
                 currentLang = CONFIG.defaultLang;
             }
+        }
+
+        // Validate that locale file exists for the language
+        if (!CONFIG.supportedLangs.includes(currentLang)) {
+            currentLang = CONFIG.defaultLang;
         }
 
         // Preload English (always needed as fallback)
@@ -237,7 +256,8 @@
         init,
         loadTranslations,
         applyTranslations: applyTranslationsToDOM,
-        supportedLangs: CONFIG.supportedLangs
+        supportedLangs: CONFIG.supportedLangs,
+        isLanguageLocked
     };
 
     // Auto-initialize when DOM is ready
