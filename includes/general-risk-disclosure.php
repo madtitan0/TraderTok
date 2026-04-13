@@ -9,11 +9,11 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+      <div class="doc-page-hero-title">
         <span data-i18n="privacyPolicyPage.heroTitle">GENERAL RISK DISCLOSURE</span>
       </div>
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">This Risk Disclosure Notice is part of the Client Agreements as
           defined in our Terms & Conditions</span>
       </h1>

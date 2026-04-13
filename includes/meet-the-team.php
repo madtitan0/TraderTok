@@ -97,7 +97,6 @@
                         </article> -->
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Avatars/Dominic_Weber.png" alt="Dominic Weber" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.dominic_weber.name">Dominic Weber</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.dominic_weber.role">Dominic Weber is a reliable and results-driven Account Manager who always puts clients first. With strong communication skills and a structured approach to work, Dominique quickly understands client needs, provides clear solutions, and maintains smooth, professional collaboration at every stage.</p>
@@ -105,7 +104,6 @@
                         </article>
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Dasha_Petrova.png" alt="Dasha Petrova" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.dasha_petrova.name">Dasha Petrova</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.dasha_petrova.role">Dasha Petrova is a dedicated and solution-oriented Account Manager who always keeps client priorities at the center of every decision. Known for clear communication, reliability, and a hands-on approach, Sasha ensures smooth cooperation and consistent, measurable results.</p>
@@ -113,7 +111,6 @@
                         </article>
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Avatars/David_Faris.png" alt="David Faris" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.david_faris.name">David Faris</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.david_faris.role">David Faris is a thoughtful and goal-oriented Account Manager with a strong focus on client satisfaction. Combining clear communication with a structured, analytical approach, Chris quickly identifies client needs, offers practical solutions, and ensures smooth, professional cooperation.</p>
@@ -121,7 +118,6 @@
                         </article>
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Avatars/Michael_Smith.png" alt="Michael Smith" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.michael_smith.name">Michael Smith</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.michael_smith.role">Michael Smith is a confident and results-focused Account Manager with a strong sense of responsibility. Known for clear communication, fast reaction to client needs, and a practical, solution-driven mindset, Harvey ensures every client feels supported and in control of their goals.</p>
@@ -129,7 +125,6 @@
                         </article>
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Avatars/Oscar_Dupont.png" alt="Oscar Dupont" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.oscar_dupont.name">Oscar Dupont</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.oscar_dupont.role">Oscar Dupont is a detail-focused and dependable Account Manager with a strong commitment to client success. Combining clear communication with a proactive, solution-driven mindset, Oscar ensures smooth cooperation and consistently delivers on agreed goals.</p>
@@ -137,7 +132,6 @@
                         </article>
                         <article class="team-card">
                             <div class="team-card-overlay"></div>
-                            <img src="assets/images/Avatars/Simon_Bjork.png" alt="Simon Bjork" class="team-card-avatar">
                             <div class="team-card-content">
                                 <h3 class="team-card-name" data-i18n="meetTheTeam.english.simon_bjork.name">Simon Bjork</h3>
                                 <p class="team-card-role" data-i18n="meetTheTeam.english.simon_bjork.role">Simon Bjork is a methodical and client-centric Account Manager with a talent for turning complex market concepts into actionable strategies. Known for his analytical precision and calm demeanor, Simon builds lasting client relationships through trust, expertise, and unwavering commitment to excellence.</p>
@@ -208,7 +202,7 @@
                         <div class="team-cards">
                             <article class="team-card">
                                 <div class="team-card-overlay"></div>
-                                <img src="assets/images/Avatars/Alex_Taylor.png" alt="Alex Taylor" class="team-card-avatar">
+                                <!-- <img src="assets/images/Avatars/Alex_Taylor.png" alt="Alex Taylor" class="team-card-avatar"> -->
                                 <div class="team-card-content">
                                     <h3 class="team-card-name" data-i18n="meetTheTeam.managers.alex_taylor.name">Alex Taylor</h3>
                                     <p class="team-card-role" data-i18n="meetTheTeam.managers.alex_taylor.role">Alex Taylor is a highly attentive and client-focused Account Manager who always strives to understand each client's priorities. With strong communication skills and a calm, professional manner, Alex ensures smooth cooperation and consistent, reliable results.</p>
@@ -216,7 +210,7 @@
                             </article>
                             <article class="team-card">
                                 <div class="team-card-overlay"></div>
-                                <img src="assets/images/Avatars/Chris_Evans.png" alt="Chris Evans" class="team-card-avatar">
+                                <!-- <img src="assets/images/Avatars/Chris_Evans.png" alt="Chris Evans" class="team-card-avatar"> -->
                                 <div class="team-card-content">
                                     <h3 class="team-card-name" data-i18n="meetTheTeam.managers.chris_evans.name">Chris Evans</h3>
                                     <p class="team-card-role" data-i18n="meetTheTeam.managers.chris_evans.role">Chris Evans is a dynamic and detail-oriented Account Manager who combines strong communication skills with a strategic mindset. Focused on understanding client goals and delivering consistent results, Chris builds trust through transparency, reliability, and a solution-oriented approach.</p>
@@ -224,7 +218,7 @@
                             </article>
                             <article class="team-card">
                                 <div class="team-card-overlay"></div>
-                                <img src="assets/images/Avatars/Lucas_Martin.png" alt="Lucas Martin" class="team-card-avatar">
+                                <!-- <img src="assets/images/Avatars/Lucas_Martin.png" alt="Lucas Martin" class="team-card-avatar"> -->
                                 <div class="team-card-content">
                                     <h3 class="team-card-name" data-i18n="meetTheTeam.managers.lucas_martin.name">Lucas Martin</h3>
                                     <p class="team-card-role" data-i18n="meetTheTeam.managers.lucas_martin.role">Lucas Martin is a highly organized and client-oriented Account Manager who consistently delivers on commitments. With strong communication skills and a calm, professional approach, Lucas builds trust quickly and ensures every client feels supported and well-informed.</p>
@@ -263,7 +257,7 @@
                         <div class="team-cards">
                             <article class="team-card">
                                 <div class="team-card-overlay"></div>
-                                <img src="assets/images/Avatars/Brooke_Davis.png" alt="Brooke Davis" class="team-card-avatar">
+                                <!-- <img src="assets/images/Avatars/Brooke_Davis.png" alt="Brooke Davis" class="team-card-avatar"> -->
                                 <div class="team-card-content">
                                     <h3 class="team-card-name" data-i18n="meetTheTeam.billing.brooke_davis.name">Brooke Davis</h3>
                                     <p class="team-card-role" data-i18n="meetTheTeam.billing.brooke_davis.role">Brooke Davis is a meticulous and client-oriented Billing Specialist who ensures seamless financial transactions for all clients. With expertise in payment processing and account management, Brooke handles deposits, withdrawals, and billing inquiries with precision and care, making every financial interaction smooth and transparent.</p>
@@ -271,7 +265,7 @@
                             </article>
                             <article class="team-card">
                                 <div class="team-card-overlay"></div>
-                                <img src="assets/images/Avatars/Roy_Bruce.png" alt="Roy Bruce" class="team-card-avatar">
+                                <!-- <img src="assets/images/Avatars/Roy_Bruce.png" alt="Roy Bruce" class="team-card-avatar"> -->
                                 <div class="team-card-content">
                                     <h3 class="team-card-name" data-i18n="meetTheTeam.billing.roy_bruce.name">Roy Bruce</h3>
                                     <p class="team-card-role" data-i18n="meetTheTeam.billing.roy_bruce.role">Roy Bruce is a detail-driven Billing Specialist with extensive experience in financial operations and client support. Known for his analytical approach and quick problem-solving skills, Roy manages payment verifications, account reconciliations, and ensures all transactions meet the highest standards of accuracy and security.</p>

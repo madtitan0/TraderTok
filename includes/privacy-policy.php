@@ -9,11 +9,11 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+      <div class="doc-page-hero-title">
         <span data-i18n="privacyPolicyPage.heroTitle">Privacy Policy</span>
       </div>
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">INTRODUCTION</span>
       </h1>
       <p class="doc-page-hero-subtitle" data-i18n="privacyPolicyPage.heroSubtitle">
@@ -35,7 +35,7 @@
         Policy.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">1. SCOPE AND APPLICATION</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -53,7 +53,7 @@
         mobile applications, email, telephone, or other electronic or physical means.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">2. DEFINITIONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -83,7 +83,7 @@
         <b>“Third Parties”</b> means any entity other than the Company and its Affiliates.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">3.COLLECTION OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -121,7 +121,7 @@
         enforcement obligations.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">4. CLIENT CONSENT AND ONGOING AUTHORIZATION</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -134,7 +134,7 @@
         Continues use of services constitutes ongoing consent, subject to applicable law.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">5. USE OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -164,7 +164,7 @@
         Company at: <a class="license-link" href="mailto:compliance@tradetok.com">compliance@tradetok.com</a>
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">6. PROTECTION OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -181,7 +181,7 @@
         events.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">7. AFFILIATES AND PARTNERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -191,7 +191,7 @@
         Company to do so.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">8. NON-AFFILIATED THIRD PARTIES</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -211,7 +211,7 @@
         Company’s reasonable control.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">9. CONTACTING CLIENTS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -246,7 +246,7 @@
         the request is fully implemented.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">10. CLIENT RIGHTS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -277,7 +277,7 @@
         good faith.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">11. LIMITATION OF LIABILITY</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -300,7 +300,7 @@
         personal information
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">12. USE OF COOKIES</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -329,7 +329,7 @@
         the placement and use of cookies as described in this Policy.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">13. PRIVACY POLICY UPDATES</span>
       </h1>
       <p class="doc-page-hero-subtitle">

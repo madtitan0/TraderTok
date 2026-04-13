@@ -1,9 +1,32 @@
+<?php
+require_once 'includes/subdomain-config.php';
+
+function assetStylesheetTag($path)
+{
+    if (!file_exists($path)) {
+        return '';
+    }
+
+    return '<link rel="stylesheet" href="' . $path . '?v=' . filemtime($path) . '">';
+}
+
+function routeUrl($pageName, array $params = [])
+{
+    $query = array_merge(['page' => $pageName], $params);
+    return './?' . http_build_query($query);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>window.subdomainData = <?php echo $subdomainJS; ?>;</script>
+
+    <!-- Canonical subdomain map + region redirect (load order matters) -->
+    <script src="assets/js/tradertok-subdomain-config.js?v=<?php echo filemtime('assets/js/tradertok-subdomain-config.js'); ?>"></script>
+    <script src="assets/js/region-redirect.js?v=<?php echo filemtime('assets/js/region-redirect.js'); ?>"></script>
 
     <!-- Google Tag Manager -->
     <?php include 'gtm-head-code.php'; ?>
@@ -56,17 +79,25 @@
     <link rel="icon" href="<?php echo $get->assets_url . '/' . $get->favicon; ?>" />
     <?php echo $theme->css_files; ?>
 
-    <link rel="stylesheet" href="assets/css/education-hub.css?v=<?php echo filemtime('assets/css/education-hub.css'); ?>">
-    <link rel="stylesheet" href="assets/css/education-article.css?v=<?php echo filemtime('assets/css/education-article.css'); ?>"> 
-    <link rel="stylesheet" href="assets/css/about-styles.css?v=<?php echo filemtime('assets/css/about-styles.css'); ?>">
-    <link rel="stylesheet" href="assets/css/styles.css?v=<?php echo filemtime('assets/css/styles.css'); ?>">
-    <link rel="stylesheet" href="assets/css/team-styles.css?v=<?php echo filemtime('assets/css/team-styles.css'); ?>">
-    <link rel="stylesheet"
-      href="assets/css/instruments-styles.css?v=<?php echo filemtime('assets/css/instruments-styles.css'); ?>">
-    <link rel="stylesheet" href="assets/css/offers-promotions-styles.css?v=<?php echo filemtime('assets/css/offers-promotions-styles.css'); ?>">
-    <link rel="stylesheet" href="assets/css/market-ticker.css?v=<?php echo filemtime('assets/css/market-ticker.css'); ?>">
-    <link rel="stylesheet" href="assets/css/whatsapp-widget.css?v=<?php echo filemtime('assets/css/whatsapp-widget.css'); ?>">
-    <link rel="stylesheet" href="assets/css/education-styles.css?v=<?php echo filemtime('assets/css/education-styles.css'); ?>">
+    <?php
+    $sharedStylesheets = [
+        'assets/css/design-tokens.css',
+        'assets/css/education-hub.css',
+        'assets/css/education-article.css',
+        'assets/css/about-styles.css',
+        'assets/css/styles.css',
+        'assets/css/team-styles.css',
+        'assets/css/instruments-styles.css',
+        'assets/css/offers-promotions-styles.css',
+        'assets/css/market-ticker.css',
+        'assets/css/whatsapp-widget.css',
+        'assets/css/education-styles.css',
+    ];
+
+    foreach ($sharedStylesheets as $stylesheet) {
+        echo assetStylesheetTag($stylesheet);
+    }
+    ?>
 
     <?php echo $get->head_code; ?>
   </head>
@@ -136,8 +167,86 @@
               <li class="nav-item">
                 <a href="./account-types" class="nav-link" data-i18n="nav.accountTypes">Account Types</a>
               </li>
-              <li class="nav-item">
-                <a href="./education-hub" class="nav-link" data-i18n="nav.educationHub">Education Hub</a>
+              <li class="nav-item dropdown">
+                <a href="./education-hub" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
+                    data-i18n="nav.educationHub">Education Hub</span> <span class="arrow">▼</span></a>
+                <div class="dropdown-menu" role="menu">
+                  <div class="dropdown-cards">
+                    <a href="<?php echo routeUrl('courses'); ?>" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.courses">Courses</h3>
+                        <p>Learn trading fundamentals</p>
+                      </div>
+                    </a>
+                    <a href="<?php echo routeUrl('trading-essentials'); ?>" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.articles">Articles</h3>
+                        <p>Expert trading guides</p>
+                      </div>
+                    </a>
+                    <a href="./edu-market-news" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+                          <path d="M17 6h6v6"></path>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.marketNews">Market News</h3>
+                        <p>Latest insights & analysis</p>
+                      </div>
+                    </a>
+                    <a href="./edu-ebooks" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.ebooks">eBooks</h3>
+                        <p>Downloadable guides</p>
+                      </div>
+                    </a>
+                    <a href="./edu-webinars" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                          <line x1="8" y1="21" x2="16" y2="21"></line>
+                          <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.webinars">Webinars</h3>
+                        <p>Learn from experts live</p>
+                      </div>
+                    </a>
+                    <a href="./edu-glossary" class="menu-card">
+                      <span class="menu-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                      </span>
+                      <div class="menu-text">
+                        <h3 data-i18n="educationHub.menu.glossary">Glossary</h3>
+                        <p>Master trading terms</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
@@ -273,6 +382,54 @@
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
                   </button>
+                  <button class="mobile-language-item" data-lang="th" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>
+                    <span class="mobile-language-name" data-i18n="language.thai">ไทย</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="vn" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇻🇳</span>
+                    <span class="mobile-language-name" data-i18n="language.vietnamese">Tiếng Việt</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="my" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇲🇾</span>
+                    <span class="mobile-language-name" data-i18n="language.malay">Bahasa Melayu</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="id" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇮🇩</span>
+                    <span class="mobile-language-name" data-i18n="language.indonesian">Bahasa Indonesia</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="ph" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇵🇭</span>
+                    <span class="mobile-language-name" data-i18n="language.tagalog">Tagalog</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="pk" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇵🇰</span>
+                    <span class="mobile-language-name" data-i18n="language.urdu">اردو</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
 
                 </div>
               </div>
@@ -328,6 +485,30 @@
                     </svg>
                   </span>
                   <span class="language-name" data-i18n="language.spanish">Español</span>
+                </div>
+                <div class="language-item" data-lang="th" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>
+                  <span class="language-name" data-i18n="language.thai">ไทย</span>
+                </div>
+                <div class="language-item" data-lang="vn" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇻🇳</span>
+                  <span class="language-name" data-i18n="language.vietnamese">Tiếng Việt</span>
+                </div>
+                <div class="language-item" data-lang="my" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇲🇾</span>
+                  <span class="language-name" data-i18n="language.malay">Bahasa Melayu</span>
+                </div>
+                <div class="language-item" data-lang="id" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇮🇩</span>
+                  <span class="language-name" data-i18n="language.indonesian">Bahasa Indonesia</span>
+                </div>
+                <div class="language-item" data-lang="ph" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇵🇭</span>
+                  <span class="language-name" data-i18n="language.tagalog">Tagalog</span>
+                </div>
+                <div class="language-item" data-lang="pk" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇵🇰</span>
+                  <span class="language-name" data-i18n="language.urdu">اردو</span>
                 </div>
               </div>
             </div>

@@ -1,0 +1,1398 @@
+{
+  "meta": {
+    "title": "TraderTok - Platform Dagangan Profesional | Berdagang dengan Keyakinan",
+    "description": "Kembangkan simpanan anda dengan yakin di TraderTok. Akses platform dagangan desktop dan mudah alih yang berkuasa, analisis pasaran masa nyata, sokongan 24/7, dan pandangan pakar."
+  },
+  "nav": {
+    "meetTheTeam": "Temui Pasukan Kami",
+    "tradingPlatforms": "Platform Dagangan",
+    "accountTypes": "Jenis Akaun",
+    "educationResources": "Sumber Pendidikan",
+    "marketsOverview": "Gambaran Keseluruhan Pasaran",
+    "legal": "Undang-undang",
+    "contactUs": "Hubungi Kami",
+    "regulations": "Peraturan",
+    "generalRiskDisclosure": "Pendedahan Risiko Umum",
+    "clientServiceAgreement": "Perjanjian Perkhidmatan Pelanggan",
+    "riskDisclaimer": "Penafian Risiko",
+    "termsConditions": "Terma & Syarat",
+    "cookiePolicy": "Polisi Kuki",
+    "offers": "Tawaran",
+    "educationHub": "Pusat Pendidikan",
+    "trading": "Dagangan",
+    "aboutUs": "Tentang Kami"
+  },
+  "dropdown": {
+    "tradingEssentials": "Asas Dagangan",
+    "tradingEssentialsDesc": "Pelajari asas-asas dagangan",
+    "videoEducation": "Pendidikan Video",
+    "videoEducationDesc": "Tonton tutorial dan pandangan pakar",
+    "eventsCalendar": "Kalendar Acara",
+    "eventsCalendarDesc": "Jejaki acara pasaran penting",
+    "research": "Kajian",
+    "researchDesc": "Analisis pasaran mendalam dan pandangan",
+    "liveTraining": "Latihan Langsung",
+    "liveTrainingDesc": "Sertai sesi langsung dengan pakar",
+    "legalDocuments": "Dokumen Undang-undang",
+    "legalDocumentsDesc": "Terokai dokumen undang-undang kami",
+    "regulations": "Peraturan",
+    "regulationsDesc": "Terokai peraturan kami",
+    "tradingPlatform": "Platform Dagangan",
+    "tradingPlatformDesc": "Terokai platform kami",
+    "tradingCentral": "Trading Central",
+    "tradingCentralDesc": "Analitik & pandangan lanjutan"
+  },
+  "whatsapp": {
+    "tooltip": "Berbual dengan kami",
+    "greeting": "Helo! Selamat datang ke TraderTok. Kami di sini untuk membantu anda. Apa yang boleh kami bantu hari ini?"
+  },
+  "language": {
+    "title": "Bahasa",
+    "english": "English",
+    "hindi": "हिन्दी",
+    "spanish": "Español",
+    "thai": "ไทย",
+    "vietnamese": "Tiếng Việt",
+    "malay": "Bahasa Melayu",
+    "indonesian": "Bahasa Indonesia",
+    "tagalog": "Tagalog",
+    "urdu": "اردو"
+  },
+  "auth": {
+    "signIn": "Log Masuk",
+    "signUp": "Daftar",
+    "welcomeBack": "Selamat Kembali",
+    "signInToContinue": "Log masuk untuk meneruskan dagangan",
+    "createAccount": "Cipta Akaun",
+    "startJourney": "Mulakan perjalanan dagangan anda hari ini",
+    "email": "E-mel",
+    "emailPlaceholder": "support@tradertok.com",
+    "password": "Kata Laluan",
+    "passwordPlaceholder": "Masukkan kata laluan anda",
+    "createPassword": "Cipta kata laluan yang kuat",
+    "confirmPassword": "Sahkan Kata Laluan",
+    "confirmPasswordPlaceholder": "Sahkan kata laluan anda",
+    "firstName": "Nama Pertama",
+    "firstNamePlaceholder": "John",
+    "lastName": "Nama Akhir",
+    "lastNamePlaceholder": "Doe",
+    "phoneNumber": "Nombor Telefon",
+    "phonePlaceholder": "7520 640 890",
+    "rememberMe": "Ingat saya",
+    "forgotPassword": "Lupa kata laluan?",
+    "orContinueWith": "atau teruskan dengan",
+    "termsAgree": "Saya bersetuju dengan",
+    "termsOfService": "Terma Perkhidmatan",
+    "and": "dan",
+    "privacyPolicy": "Polisi Privasi",
+    "searchCountry": "Cari negara..."
+  },
+  "hero": {
+    "subtitle": "Pelaburan Logam Berharga",
+    "title": "Masuki <span class=\"highlight-gold\">Emas</span> & <span class=\"highlight-silver\">Perak</span>: Tempat Selamat Untuk Wang Pintar",
+    "description": "Apabila pasaran bergegar, logam berharga tetap kukuh. Temui mengapa emas dan perak adalah aset pilihan untuk memelihara kekayaan dan merebut peluang pembelian sekarang.",
+    "getStarted": "Mulakan",
+    "learnMore": "Ketahui Lebih Lanjut"
+  },
+  "earningsPopup": {
+    "badge": "Tawaran Terhad",
+    "title": "Laporan Pendapatan & Peluang Pra-Pasaran",
+    "period": "Januari & Februari 2026",
+    "days": "Hari",
+    "hours": "Jam",
+    "minutes": "Min",
+    "seconds": "Saat",
+    "description": "Daftarkan minat anda sekarang dan dapatkan promosi eksklusif dengan pulangan terjamin",
+    "cta": "Daftar Minat Sekarang",
+    "disclaimer": "*Tertakluk kepada terma dan syarat. Modal berisiko."
+  },
+  "about": {
+    "title": "Rakan Terpercaya Anda dalam Pertumbuhan Kewangan",
+    "subtitle": "Di TraderTok, kami mentakrifkan semula erti berdagang di pasaran global.",
+    "description1": "Lahir daripada semangat ketepatan, teknologi, dan peluang, kami telah membina platform yang memperkasakan pedagang di semua peringkat untuk mengawal masa depan kewangan mereka.",
+    "description2": "Kami bukan sekadar menyediakan akses ke pasaran — kami menyediakan kejelasan, keyakinan, dan alatan canggih yang membuat perbezaan sebenar.",
+    "happyClients": "Pelanggan Gembira",
+    "support": "Sokongan",
+    "secure": "Selamat"
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Kisah Kami",
+      "titleLine1": "Platform yang Dibina untuk",
+      "titleHighlight": "Menukar Kebisingan Menjadi Wawasan",
+      "lead": "Pasaran kewangan bergerak lebih pantas daripada sebelumnya. TraderTok dicipta untuk memberi pedagang kejelasan, infrastruktur, dan keyakinan untuk menavigasinya.",
+      "stat1Title": "Pelbagai Aset",
+      "stat1Label": "Akses Pasaran",
+      "stat2Title": "24/7",
+      "stat2Label": "Sokongan Pelanggan",
+      "stat3Title": "Global",
+      "stat3Label": "Pasaran Diliputi"
+    },
+    "origin": {
+      "label": "Pelaksanaan masa nyata",
+      "front": "Dagangan yang didorong oleh wawasan, bukan kebisingan",
+      "title": "Mengapa TraderTok Dibina",
+      "p1": "Maklumat bergerak serta-merta, peristiwa global membentuk semula pasaran dalam beberapa saat, dan pedagang sentiasa dikelilingi oleh kebisingan — pendapat, spekulasi, isyarat, dan jumlah data yang luar biasa.",
+      "p2": "Walaupun akses ke pasaran global telah berkembang dengan ketara, ramai pedagang masih bergelut untuk mencari platform yang menggabungkan kebolehpercayaan, ketelusan, dan infrastruktur peringkat institusi dalam satu tempat.",
+      "p3": "TraderTok dicipta untuk menangani cabaran ini. Daripada hanya memberi tumpuan kepada akses pasaran, TraderTok membina ekosistem dagangan yang lengkap — menyediakan alatan, infrastruktur, dan kestabilan yang diperlukan untuk menavigasi pasaran kewangan global dengan yakin."
+    },
+    "vision": {
+      "badge": "Visi",
+      "statement": "Untuk menjadikan TraderTok sebagai platform dagangan pelbagai aset yang didorong teknologi dan dipercayai secara global yang menyediakan akses telus ke pasaran kewangan antarabangsa.",
+      "p1": "Kami bertujuan untuk membina ekosistem dagangan yang mampan yang menggabungkan infrastruktur berperingkat institusi, integriti regulasi, dan teknologi pelaksanaan lanjutan.",
+      "p2": "Visi jangka panjang TraderTok adalah untuk menyampaikan prestasi, kestabilan, dan kredibiliti merentasi rantau pertumbuhan tinggi sambil mengekalkan piawaian tadbir urus, pematuhan, dan perlindungan pelanggan tertinggi."
+    },
+    "pillars": {
+      "title": "Fokus Strategik",
+      "subtitle": "Enam teras utama yang menentukan cara kami beroperasi dan berkembang",
+      "p1Title": "Teknologi Dagangan Lanjutan",
+      "p1Body": "Menyampaikan teknologi dagangan terkini dan infrastruktur pelaksanaan kependaman rendah untuk prestasi optimum.",
+      "p2Title": "Akses Pasaran Pelbagai",
+      "p2Body": "Liputan pelbagai aset termasuk Forex, CFD, indeks, dan komoditi melalui satu persekitaran bersepadu.",
+      "p3Title": "Rangka Kerja Regulasi",
+      "p3Body": "Beroperasi dalam rangka kerja regulasi berstruktur yang selaras dengan piawaian kewangan antarabangsa tertinggi.",
+      "p4Title": "Syarat-syarat Telus",
+      "p4Body": "Mempromosikan syarat dagangan yang telus dan amalan pengurusan risiko yang bertanggungjawab untuk setiap pedagang.",
+      "p5Title": "Pertumbuhan Pasaran Pesat Membangun",
+      "p5Body": "Berkembang merentasi pasaran pesat membangun dan pertumbuhan tinggi melalui model yang boleh diskalakan, mampan, dan dipacu komuniti.",
+      "p6Title": "Perkongsian Jangka Panjang",
+      "p6Body": "Membina hubungan pelanggan dan rakan kongsi jangka panjang berdasarkan kepercayaan, prestasi, dan kecemerlangan operasi."
+    },
+    "values": {
+      "title": "Nilai Teras",
+      "subtitle": "Prinsip yang membimbing setiap keputusan yang kami buat",
+      "v1Title": "Ketelusan",
+      "v1Body": "Dengan mengutamakan ketelusan, kebolehpercayaan, dan kecekapan operasi, TraderTok bertujuan untuk membina hubungan jangka panjang dengan pedagang dan rakan kongsi di seluruh dunia.",
+      "v2Title": "Kebolehpercayaan",
+      "v2Body": "Infrastruktur teknologi yang kukuh yang direka untuk menyampaikan pelaksanaan dagangan yang cekap, kestabilan sistem, dan operasi dagangan yang selamat — sentiasa.",
+      "v3Title": "Teknologi Dahulu",
+      "v3Body": "Teknologi bukan sekadar komponen operasi — ia adalah asas yang membolehkan prestasi, kestabilan, dan ketelusan dalam dagangan.",
+      "v4Title": "Berpusatkan Pelanggan",
+      "v4Body": "Setiap elemen persekitaran TraderTok direka untuk membantu pedagang memberi tumpuan kepada perkara yang paling penting: strategi, membuat keputusan, dan prestasi jangka panjang."
+    },
+    "global": {
+      "title": "Akses Pasaran Global",
+      "body": "Melalui platformnya, pedagang mendapat akses kepada pelbagai instrumen kewangan, membolehkan mereka menyertai pasaran antarabangsa melalui satu persekitaran bersepadu.",
+      "forex": "Forex",
+      "cfds": "CFD",
+      "indices": "Indeks",
+      "commodities": "Komoditi"
+    },
+    "cta": {
+      "title": "Bersedia untuk berdagang dengan jelas?",
+      "body": "Sertai platform di mana teknologi, akses pasaran, dan ketelusan operasi berfungsi bersama.",
+      "primary": "Mula Dagangan",
+      "secondary": "Terokai Pusat Pendidikan"
+    }
+  },
+  "educationHub": {
+    "hero": {
+      "title": "Pelajari Forex dengan <span>Cara yang Betul</span>",
+      "subtitle": "Akses lebih 20 panduan dagangan komprehensif yang direka khusus untuk pemula. Tiada jargon yang kompleks, hanya penjelasan yang jelas untuk membantu anda memulakan perjalanan.",
+      "cta": "Lihat Artikel",
+      "trust": "Sertai lebih 5,000 pedagang yang belajar dengan TraderTok"
+    },
+    "learn": {
+      "title": "Apa yang Akan Anda Pelajari",
+      "subtitle": "Kurikulum kami merangkumi semua yang anda perlu tahu untuk bermula.",
+      "items": [
+        {
+          "title": "Asas Forex",
+          "description": "Fahami mekanik asas pasaran kewangan terbesar di dunia."
+        },
+        {
+          "title": "Leverage & Margin",
+          "description": "Ketahui cara menggunakan kuasa dagangan dengan bijak dan melindungi modal anda."
+        },
+        {
+          "title": "Asas Pengurusan Risiko",
+          "description": "Kemahiran #1 yang diperlukan setiap pedagang untuk terus wujud dan berkembang."
+        },
+        {
+          "title": "Kesilapan Pemula Biasa",
+          "description": "Jimat masa dan wang dengan mengelakkan perangkap yang dihadapi oleh kebanyakan pedagang baru."
+        },
+        {
+          "title": "Sesi Pasaran",
+          "description": "Ketahui bila untuk berdagang (dan bila tidak) untuk peluang terbaik."
+        },
+        {
+          "title": "Psikologi Dagangan",
+          "description": "Kuasai emosi anda untuk membuat keputusan dagangan yang lebih baik dan lebih rasional."
+        }
+      ]
+    },
+    "whoFor": {
+      "title": "Adakah Pendidikan Ini Untuk Anda?",
+      "for": {
+        "title": "Ini untuk anda jika:",
+        "items": [
+          "Anda seorang pemula sepenuhnya tanpa pengalaman dagangan.",
+          "Anda ingin mempelajari asas-asas pasaran forex.",
+          "Anda lebih suka pelajaran yang berstruktur dan mudah dibaca."
+        ]
+      },
+      "notFor": {
+        "title": "Ini BUKAN untuk anda jika:",
+        "items": [
+          "Anda mencari keuntungan terjamin atau skim 'cepat kaya'.",
+          "Anda mahu isyarat dagangan atau seseorang untuk berdagang untuk anda.",
+          "Anda tidak sanggup menerima risiko yang terlibat dalam dagangan."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Cara Ia Berfungsi",
+      "steps": [
+        {
+          "title": "Cipta Akaun Percuma Anda",
+          "description": "Isi borang pendaftaran mudah di bawah untuk membuka kunci pusat."
+        },
+        {
+          "title": "Dapatkan Akses Segera",
+          "description": "Setelah berdaftar, anda akan mempunyai akses penuh kepada semua 20+ artikel dengan segera."
+        },
+        {
+          "title": "Terokai Mengikut Kadar Sendiri",
+          "description": "Baca pada mana-mana peranti, bila-bila masa. Kandungan baru ditambah setiap bulan."
+        }
+      ]
+    },
+    "resources": {
+      "courses": {
+        "title": "Kursus",
+        "description": "Mulakan perjalanan dagangan anda dengan kursus dagangan dalam talian percuma. Kuasai seni dagangan dengan kurikulum komprehensif yang direka untuk pemula.",
+        "cta": "Ketahui Lebih Lanjut"
+      },
+      "videos": {
+        "title": "Video Pendidikan",
+        "description": "Buka kunci potensi dagangan anda dengan video pendidikan percuma yang merangkumi konsep dan strategi dagangan penting.",
+        "cta": "Tonton Sekarang"
+      }
+    },
+    "faq": {
+      "title": "Soalan Lazim",
+      "items": [
+        {
+          "q": "Adakah Pusat Pendidikan benar-benar percuma?<span>+</span>",
+          "a": "Ya! Matlamat kami adalah untuk memperkasakan pedagang dengan pengetahuan yang betul. Tiada yuran tersembunyi."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun dagangan untuk mengakses pusat?<span>+</span>",
+          "a": "Tidak, anda hanya perlu mendaftar melalui borang di halaman ini untuk membuka kunci kandungan."
+        },
+        {
+          "q": "Adakah artikel sesuai untuk pemula sepenuhnya?<span>+</span>",
+          "a": "Tentu sekali. Kami telah mereka semua artikel khusus untuk orang yang tiada pengalaman pasaran."
+        },
+        {
+          "q": "Adakah ini nasihat kewangan?<span>+</span>",
+          "a": "Tidak. Semua kandungan adalah untuk tujuan pendidikan sahaja. Dagangan melibatkan risiko."
+        },
+        {
+          "q": "Bolehkah saya membaca artikel di telefon saya?<span>+</span>",
+          "a": "Ya, Pusat Pendidikan dioptimumkan sepenuhnya untuk tontonan mudah alih, tablet, dan desktop."
+        },
+        {
+          "q": "Apa yang berlaku selepas saya mendaftar?<span>+</span>",
+          "a": "Anda akan mendapat akses segera kepada kandungan. Pasukan kami mungkin menghubungi untuk menyokong perjalanan anda."
+        }
+      ]
+    },
+    "modal": {
+      "title": "Akses Kandungan Pendidikan",
+      "subtitle": "Untuk membuka kunci kandungan ini, sila berikan butiran kenalan anda. Pasukan kami akan menghubungi untuk menyokong perjalanan dagangan anda.",
+      "submit": "Hantar & Buka Kunci",
+      "successTitle": "Permohonan Diserahkan!",
+      "successMessage": "Pengurus kami akan menghubungi anda tidak lama lagi.",
+      "modal": "Dengan menghantar, anda bersetuju dengan Terma Perkhidmatan dan Polisi Privasi kami"
+    }
+  },
+  "educationArticles": {
+    "general": {
+      "title": "Akademi Pendidikan",
+      "time": "5 min baca",
+      "disclosure": "Pendedahan Risiko:"
+    },
+    "what-is-forex-trading-a-beginners-guide": {
+      "title": "Apakah Dagangan Forex? Panduan Untuk Pemula",
+      "seo_title": "Apakah Dagangan Forex? Panduan Pemula Pasaran Forex",
+      "meta_description": "Pelajari apa itu dagangan forex, bagaimana pasaran mata wang global berfungsi, dan konsep asasnya",
+      "category": "Pemula",
+      "excerpt": "Dagangan forex, juga dikenali sebagai dagangan pertukaran asing, adalah proses membeli dan menjual mata wang di pasaran kewangan global...",
+      "content": {
+        "introduction": "Dagangan forex, atau dagangan pertukaran asing, ialah proses membeli dan menjual mata wang dalam pasaran kewangan global. Ia merupakan salah satu pasaran kewangan terbesar di dunia, dengan trilion dolar diniagakan setiap hari. Orang mengambil bahagian dalam pasaran forex atas pelbagai sebab. Sesetengah pedagang ingin memanfaatkan pergerakan harga mata wang, manakala perniagaan dan institusi mungkin menukar mata wang untuk menyokong perdagangan antarabangsa. Bagi pemula, memahami cara pasaran forex berfungsi adalah langkah pertama yang penting untuk mempelajari pasaran kewangan.",
+        "sections": [
+          {
+            "heading": "Apakah Pasaran Forex?",
+            "text": "Pasaran forex adalah pasaran global di mana mata wang dipertukarkan. Berbeza dengan pasaran saham yang beroperasi melalui bursa pusat, pasaran forex beroperasi secara over-the-counter (OTC) melalui rangkaian bank, institusi kewangan, dan platform dagangan. Mata wang sentiasa diniagakan dalam pasangan, bermaksud satu mata wang ditukar dengan mata wang lain. Contohnya: EUR/USD, GBP/USD, USD/JPY. Pasangan ini mewakili nilai satu mata wang berbanding mata wang lain. Pasaran forex beroperasi 24 jam sehari, lima hari seminggu, membolehkan pedagang di seluruh dunia mengaksesnya."
+          },
+          {
+            "heading": "Bagaimana Dagangan Forex Berfungsi",
+            "text": "Dalam dagangan forex, peserta membuat spekulasi sama ada nilai sesuatu mata wang akan meningkat atau menurun berbanding mata wang lain. Contohnya: Jika seorang pedagang percaya euro akan mengukuh berbanding dolar AS, mereka mungkin membeli pasangan mata wang EUR/USD. Jika euro meningkat nilainya, harga pasangan meningkat. Jika euro melemah, harga menurun. Harga mata wang sentiasa berubah disebabkan oleh banyak faktor seperti data ekonomi, kadar faedah, peristiwa geopolitik, dan sentimen pasaran."
+          },
+          {
+            "heading": "Peserta Utama Dalam Pasaran Forex",
+            "text": "Pasaran forex melibatkan pelbagai peserta, termasuk: Bank pusat, Bank komersial, Dana pelaburan, Syarikat, Pedagang runcit. Bank pusat memainkan peranan penting dalam mempengaruhi pasaran mata wang melalui keputusan dasar monetari, termasuk perubahan kadar faedah. Institusi kewangan besar mengendalikan sebahagian besar volum dagangan, tetapi teknologi moden telah menjadikan pasaran forex lebih mudah diakses oleh pedagang individu."
+          },
+          {
+            "heading": "Mengapa Harga Mata Wang Berubah",
+            "text": "Nilai mata wang berubah disebabkan oleh beberapa faktor ekonomi global. Antara faktor paling umum termasuk: Pertumbuhan ekonomi, Perubahan kadar faedah, Tahap inflasi, Peristiwa politik, Aktiviti perdagangan antarabangsa. Contohnya, apabila sesebuah negara menaikkan kadar faedah, mata wangnya mungkin menjadi lebih menarik kepada pelabur yang mencari pulangan lebih tinggi. Ini boleh meningkatkan permintaan untuk mata wang tersebut di pasaran global."
+          },
+          {
+            "heading": "Konsep Penting Yang Perlu Diketahui Pemula",
+            "text": "Sebelum menerokai dagangan forex lebih lanjut, pemula perlu memahami beberapa konsep asas: Pasangan Mata Wang: Mata wang sentiasa diniagakan dalam pasangan. Pip: Pip adalah pergerakan harga terkecil dalam kebanyakan pasangan mata wang. Spread: Spread mewakili perbezaan antara harga bida dan harga tanya. Leverage: Leverage membolehkan pedagang mengawal posisi lebih besar dengan modal lebih kecil, tetapi ia juga meningkatkan risiko. Memahami konsep ini membantu pemula menafsirkan cara dagangan berfungsi dalam praktik."
+          }
+        ],
+        "conclusion": "Dagangan forex melibatkan membeli dan menjual mata wang dalam pasaran kewangan global. Sebagai salah satu pasaran kewangan paling aktif di dunia, ia memainkan peranan penting dalam perdagangan antarabangsa dan aktiviti ekonomi. Bagi pemula, mempelajari tentang pasangan mata wang, pemacu pasaran, dan mekanik dagangan boleh memberikan asas untuk memahami bagaimana pasaran kewangan beroperasi. Sumber pendidikan dan analisis pasaran boleh membantu individu terus membangunkan pengetahuan mereka tentang pasaran forex.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "how-financial-markets-work": {
+      "title": "Bagaimana Pasaran Kewangan Berfungsi",
+      "seo_title": "Bagaimana Pasaran Kewangan Berfungsi: Panduan Pemula",
+      "meta_description": "Temui cara pasaran kewangan berfungsi, jenis pasaran yang berbeza, dan cara global",
+      "category": "Pemula",
+      "excerpt": "Pasaran kewangan memainkan peranan penting dalam ekonomi global...",
+      "content": {
+        "introduction": "Pasaran kewangan memainkan peranan penting dalam ekonomi global...",
+        "sections": [
+          {
+            "heading": "Apakah Pasaran Kewangan?",
+            "text": "Pasaran kewangan adalah sistem di mana pembeli dan penjual menukar aset kewangan..."
+          },
+          {
+            "heading": "Jenis Utama Pasaran Kewangan",
+            "text": "Beberapa jenis pasaran kewangan yang berbeza beroperasi di seluruh dunia..."
+          },
+          {
+            "heading": "Bagaimana Harga Ditentukan",
+            "text": "Harga dalam pasaran kewangan ditentukan terutamanya oleh penawaran dan permintaan..."
+          },
+          {
+            "heading": "Peserta Pasaran",
+            "text": "Pasaran kewangan melibatkan pelbagai peserta..."
+          },
+          {
+            "heading": "Mengapa Pasaran Kewangan Penting",
+            "text": "Pasaran kewangan melaksanakan beberapa fungsi penting..."
+          }
+        ],
+        "conclusion": "Pasaran kewangan adalah sistem kompleks...",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan..."
+      }
+    },
+    "what-are-currency-pairs-in-forex": {
+      "title": "Apakah Pasangan Mata Wang Dalam Forex?",
+      "seo_title": "Penjelasan Pasangan Mata Wang: Memahami Pasangan Forex",
+      "meta_description": "Pelajari apa itu pasangan mata wang dalam dagangan forex...",
+      "category": "Pemula",
+      "excerpt": "Dalam pasaran forex, mata wang diniagakan dalam bentuk pasangan...",
+      "content": {
+        "introduction": "Dalam pasaran forex, mata wang diniagakan dalam pasangan. Ini bermaksud apabila satu mata wang dibeli, mata wang lain dijual pada masa yang sama. Memahami cara pasangan mata wang berfungsi adalah salah satu konsep paling penting bagi sesiapa yang belajar dagangan forex.",
+        "sections": [
+          {
+            "heading": "Mata Wang Asas dan Mata Wang Kuar",
+            "text": "Setiap pasangan mata wang mengandungi dua mata wang. Mata wang asas ialah mata wang pertama yang disenaraikan dalam pasangan. Mata wang kuar ialah mata wang kedua. Contohnya: EUR/USD Di sini: EUR = mata wang asas USD = mata wang kuar Jika pasangan diniagakan pada 1.10, ini bermakna satu euro bersamaan dengan 1.10 dolar AS."
+          },
+          {
+            "heading": "Pasangan Mata Wang Utama",
+            "text": "Pasangan mata wang utama merangkumi mata wang yang paling banyak diniagakan di dunia. Contohnya: EUR/USD, USD/JPY, GBP/USD, USD/CHF. Pasangan ini biasanya mempunyai kecairan tinggi dan spread harga lebih kecil."
+          },
+          {
+            "heading": "Pasangan Mata Wang Minor",
+            "text": "Pasangan minor tidak melibatkan dolar AS. Contohnya: EUR/GBP, EUR/AUD, GBP/JPY. Pasangan ini masih diniagakan secara aktif tetapi mungkin mempunyai volum dagangan sedikit lebih rendah."
+          },
+          {
+            "heading": "Pasangan Mata Wang Eksotik",
+            "text": "Pasangan eksotik melibatkan mata wang utama digabungkan dengan mata wang ekonomi baru muncul. Contohnya: USD/TRY, USD/ZAR, USD/MXN. Pasangan eksotik mungkin mengalami volatiliti lebih tinggi."
+          },
+          {
+            "heading": "Mengapa Pasangan Mata Wang Bergerak",
+            "text": "Pasangan mata wang berubah nilai disebabkan oleh perubahan keadaan ekonomi, dasar bank pusat, dan peristiwa global. Perubahan kadar faedah, pertumbuhan ekonomi, dan perkembangan geopolitik boleh mempengaruhi harga mata wang."
+          }
+        ],
+        "conclusion": "Pasangan mata wang adalah asas pasaran forex. Dengan memahami hubungan antara mata wang asas dan kuar, pemula dapat menafsirkan pergerakan harga dan aktiviti pasaran dengan lebih baik. Memahami bagaimana pasangan mata wang berbeza berkelakuan dapat membantu pedagang mendapat pemahaman lebih mendalam tentang pasaran kewangan global.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "what-is-leverage-in-trading": {
+      "title": "Apakah Leverage Dalam Dagangan?",
+      "excerpt": "Leverage adalah konsep biasa dalam pasaran kewangan yang membolehkan pedagang mengawal posisi lebih besar dengan modal lebih kecil...",
+      "content": {
+        "introduction": "Leverage adalah konsep biasa dalam pasaran kewangan yang membolehkan pedagang mengawal posisi lebih besar menggunakan modal lebih kecil. Walaupun leverage boleh meningkatkan potensi pulangan, ia juga meningkatkan tahap risiko dalam dagangan. Memahami cara leverage berfungsi adalah langkah penting bagi sesiapa yang belajar tentang pasaran kewangan.",
+        "sections": [
+          {
+            "heading": "Apakah Leverage?",
+            "text": "Leverage merujuk kepada penggunaan dana pinjaman untuk meningkatkan saiz posisi dagangan. Contohnya, jika seorang pedagang menggunakan leverage 1:100, mereka boleh mengawal posisi bernilai 100 unit dengan hanya 1 unit modal sendiri. Leverage banyak digunakan dalam pasaran forex kerana pergerakan harga mata wang biasanya kecil."
+          },
+          {
+            "heading": "Mengapa Leverage Digunakan",
+            "text": "Leverage membolehkan pedagang mengambil bahagian dalam posisi lebih besar tanpa memerlukan nilai penuh perdagangan. Ini memudahkan dagangan bagi peserta yang mungkin tidak mempunyai modal besar. Walau bagaimanapun, penting untuk memahami bahawa leverage membesar kedua-dua keuntungan dan kerugian."
+          },
+          {
+            "heading": "Contoh Leverage",
+            "text": "Misalkan seorang pedagang ingin berdagang posisi bernilai $10,000. Jika leverage 1:100, pedagang hanya memerlukan margin $100 untuk membuka posisi tersebut. Jika pasaran bergerak mengikut arah yang menguntungkan, keuntungan meningkat berbanding modal yang dilaburkan. Jika pasaran bergerak bertentangan, kerugian juga boleh meningkat dengan cepat."
+          },
+          {
+            "heading": "Pertimbangan Utama",
+            "text": "Sebelum menggunakan leverage, pedagang perlu memahami: Volatiliti pasaran, Pengurusan risiko, Keperluan margin, Potensi kerugian. Banyak sumber pendidikan menekankan dagangan bertanggungjawab dan kawalan risiko yang betul semasa menggunakan leverage."
+          }
+        ],
+        "conclusion": "Leverage adalah alat penting dalam pasaran kewangan yang membolehkan pedagang meningkatkan pendedahan dengan modal terhad. Walau bagaimanapun, ia juga memperkenalkan risiko tambahan. Memahami cara leverage berfungsi dapat membantu individu mendekati dagangan dengan kesedaran lebih tinggi terhadap peluang dan risiko.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "what-is-spread-in-forex": {
+      "title": "Apakah Spread Dalam Forex?",
+      "excerpt": "Dalam dagangan forex, spread adalah salah satu konsep paling penting untuk difahami. Ia mewakili perbezaan antara harga di mana mata wang boleh dibeli...",
+      "content": {
+        "introduction": "Dalam dagangan forex, spread adalah salah satu konsep paling penting untuk difahami. Ia mewakili perbezaan antara harga di mana pasangan mata wang boleh dibeli dan harga di mana ia boleh dijual. Memahami spread membantu pedagang menafsirkan kos dagangan dan kecairan pasaran dengan lebih baik.",
+        "sections": [
+          {
+            "heading": "Harga Bida dan Harga Tawar",
+            "text": "Setiap pasangan mata wang mempunyai dua harga. Harga Bida: Harga di mana pasaran bersedia membeli mata wang. Harga Tawar: Harga di mana pasaran bersedia menjual mata wang. Perbezaan antara kedua-dua harga ini dikenali sebagai spread."
+          },
+          {
+            "heading": "Contoh Spread",
+            "text": "Jika pasangan EUR/USD menunjukkan harga berikut: Bida: 1.1050, Tawar: 1.1052. Spread adalah 2 pip. Perbezaan ini mencerminkan kecairan pasaran dan kos transaksi."
+          },
+          {
+            "heading": "Mengapa Spread Berubah",
+            "text": "Spread boleh berubah bergantung pada keadaan pasaran. Beberapa faktor yang mempengaruhi spread termasuk: Kecairan pasaran, Volum dagangan, Berita ekonomi, Volatiliti pasaran. Semasa pengumuman ekonomi utama, spread mungkin melebar kerana ketidakpastian meningkat."
+          },
+          {
+            "heading": "Spread Tetap vs Spread Boleh Berubah",
+            "text": "Sesetengah pasaran menggunakan spread tetap, manakala yang lain menggunakan spread boleh berubah. Spread boleh berubah berdasarkan penawaran dan permintaan di pasaran. Pasaran yang sangat cair biasanya mempunyai spread lebih ketat."
+          }
+        ],
+        "conclusion": "Spread mewakili perbezaan antara harga beli dan jual dalam pasaran forex. Memahami spread membantu pedagang menafsirkan kos dagangan dan kecairan pasaran dengan lebih baik. Dengan mempelajari spread bersama konsep dagangan lain, pemula dapat memahami dengan lebih jelas bagaimana pasaran kewangan berfungsi.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "what-is-margin-trading": {
+      "title": "Apakah Dagangan Margin?",
+      "excerpt": "Dagangan margin adalah konsep biasa dalam pasaran kewangan yang membolehkan pedagang membuka posisi hanya dengan sebahagian daripada nilai perdagangan...",
+      "content": {
+        "introduction": "Dagangan margin adalah konsep biasa dalam pasaran kewangan yang membolehkan pedagang membuka posisi menggunakan hanya sebahagian daripada nilai perdagangan penuh. Dalam pasaran seperti forex, margin berkait rapat dengan leverage dan memainkan peranan penting dalam pengurusan posisi dagangan. Bagi pemula, memahami margin adalah penting kerana ia membantu menjelaskan bagaimana pedagang boleh mengambil bahagian dalam perdagangan lebih besar tanpa memerlukan keseluruhan modal pada awalnya.",
+        "sections": [
+          {
+            "heading": "Apakah Margin?",
+            "text": "Margin ialah jumlah wang yang diperlukan untuk membuka dan mengekalkan posisi dagangan. Daripada membayar nilai penuh perdagangan, pedagang mendepositkan jumlah kecil yang dikenali sebagai margin. Jumlah ini bertindak sebagai cagaran yang membolehkan posisi kekal terbuka. Contohnya, jika seorang pedagang ingin membuka posisi bernilai $10,000 dan keperluan margin adalah 1%, pedagang hanya memerlukan $100 untuk membuka posisi tersebut."
+          },
+          {
+            "heading": "Margin dan Leverage",
+            "text": "Margin dan leverage saling berkait rapat. Leverage membolehkan pedagang mengawal posisi lebih besar, manakala margin mewakili dana yang diperlukan untuk mengekalkan posisi tersebut. Contohnya: Leverage: 1:100, Margin diperlukan: 1%. Leverage lebih tinggi biasanya bermakna keperluan margin lebih rendah, tetapi ia juga meningkatkan pendedahan terhadap risiko pasaran."
+          },
+          {
+            "heading": "Apakah Panggilan Margin?",
+            "text": "Panggilan margin berlaku apabila dana dalam akaun dagangan jatuh di bawah tahap margin yang diperlukan. Ini mungkin berlaku jika pasaran bergerak bertentangan dengan posisi terbuka. Apabila ini berlaku, dana tambahan mungkin diperlukan untuk mengekalkan posisi tersebut. Memahami panggilan margin membantu pedagang lebih sedar tentang cara risiko diurus dalam pasaran kewangan."
+          },
+          {
+            "heading": "Mengapa Margin Penting",
+            "text": "Margin memainkan peranan penting dalam dagangan kerana ia menentukan berapa banyak modal diperlukan untuk mengekalkan posisi terbuka. Pedagang biasanya memantau tahap margin dengan teliti untuk memastikan baki akaun mereka kekal di atas tahap yang diperlukan. Strategi pengurusan risiko sering digunakan untuk mengawal pendedahan ketika berdagang dengan margin."
+          }
+        ],
+        "conclusion": "Dagangan margin membolehkan pedagang mengambil bahagian dalam pasaran kewangan menggunakan sebahagian daripada nilai perdagangan penuh. Walaupun pendekatan ini boleh meningkatkan pendedahan pasaran, ia juga membawa risiko tambahan. Mempelajari cara margin berfungsi membantu pemula memahami cara akaun dagangan beroperasi dan bagaimana posisi dikekalkan dalam pasaran kewangan.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "understanding-market-volatility": {
+      "title": "Memahami Volatiliti Pasaran",
+      "excerpt": "Pasaran kewangan sentiasa bergerak. Harga mata wang, saham, komoditi, dan aset lain berubah sepanjang hari disebabkan pelbagai faktor ekonomi...",
+      "content": {
+        "introduction": "Pasaran kewangan sentiasa bergerak. Harga mata wang, saham, komoditi, dan aset lain berubah sepanjang hari disebabkan pelbagai faktor ekonomi dan global. Perubahan harga ini biasanya dirujuk sebagai volatiliti pasaran. Memahami volatiliti penting kerana ia membantu menjelaskan mengapa pasaran naik dan turun dari masa ke masa.",
+        "sections": [
+          {
+            "heading": "Apakah Volatiliti Pasaran?",
+            "text": "Volatiliti pasaran merujuk kepada tahap pergerakan harga sesuatu aset kewangan dari masa ke masa. Apabila harga bergerak dengan cepat atau ketara, pasaran dianggap sangat volatile. Apabila pergerakan harga lebih kecil dan stabil, volatiliti dianggap rendah. Volatiliti boleh berlaku dalam semua pasaran kewangan, termasuk forex, saham, komoditi, dan mata wang kripto."
+          },
+          {
+            "heading": "Apa Punca Volatiliti Pasaran?",
+            "text": "Beberapa faktor mempengaruhi volatiliti dalam pasaran kewangan. Antara pendorong paling biasa termasuk: Pelepasan data ekonomi, Keputusan kadar faedah, Perkembangan politik, Peristiwa ekonomi global, Sentimen pasaran. Contohnya, apabila bank pusat mengumumkan perubahan kadar faedah, pasaran mata wang mungkin bertindak balas dengan cepat apabila pedagang menyesuaikan jangkaan mereka."
+          },
+          {
+            "heading": "Volatiliti Tinggi vs Rendah",
+            "text": "Pasaran mungkin mengalami tahap volatiliti berbeza bergantung pada keadaan ekonomi. Volatiliti Tinggi: Pergerakan harga besar dan pantas. Volatiliti Rendah: Perubahan harga kecil dan pasaran lebih stabil. Persekitaran pasaran yang berbeza boleh mempengaruhi strategi dagangan dan pendekatan pengurusan risiko."
+          },
+          {
+            "heading": "Mengapa Volatiliti Penting",
+            "text": "Volatiliti memainkan peranan penting dalam pasaran kewangan kerana ia mencerminkan ketidakpastian dan perubahan jangkaan pelabur. Memahami volatiliti membantu pedagang dan pelabur menafsir keadaan pasaran dan mengurus risiko."
+          }
+        ],
+        "conclusion": "Volatiliti pasaran merujuk kepada perubahan harga aset kewangan dari masa ke masa. Pergerakan ini dipengaruhi oleh data ekonomi, peristiwa global, dan tingkah laku pelabur. Mempelajari cara volatiliti berfungsi dapat membantu pemula memahami bagaimana pasaran kewangan bertindak balas terhadap maklumat baru.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "best-times-to-trade-forex-(trading": {
+      "title": "Masa Terbaik untuk Berdagang Forex (Sesi Dagangan Dijelaskan)",
+      "excerpt": "Pasaran forex beroperasi 24 jam sehari sepanjang minggu dagangan, membolehkan peserta dari seluruh dunia berdagang mata wang pada waktu berlainan...",
+      "content": {
+        "introduction": "Pasaran forex beroperasi 24 jam sehari sepanjang minggu dagangan, membolehkan peserta dari seluruh dunia berdagang mata wang pada waktu berlainan. Walau bagaimanapun, aktiviti pasaran tidak diagihkan sama rata sepanjang hari. Tempoh tertentu yang dikenali sebagai sesi dagangan biasanya mengalami tahap aktiviti pasaran dan kecairan yang lebih tinggi.",
+        "sections": [
+          {
+            "heading": "Sesi Dagangan Forex Utama",
+            "text": "Pasaran forex global dibahagikan kepada empat sesi dagangan utama. Sesi Asia: Memulakan hari dagangan global dan sering dikaitkan dengan pasaran di Tokyo, Singapura, dan Hong Kong. Pergerakan harga semasa sesi ini kadangkala lebih sederhana berbanding sesi lain. Sesi London: Salah satu tempoh paling aktif dalam pasaran forex. Sebahagian besar volum perdagangan mata wang global berlaku pada waktu ini kerana banyak institusi kewangan berpusat di Eropah. Sesi New York: Sesi New York bertindih dengan sesi London selama beberapa jam, mencipta salah satu tempoh dagangan paling aktif dalam sehari. Pengumuman ekonomi penting dari Amerika Syarikat sering berlaku pada sesi ini."
+          },
+          {
+            "heading": "Pertindihan Sesi",
+            "text": "Salah satu tempoh paling aktif dalam pasaran forex berlaku apabila sesi London dan New York bertindih. Pada masa ini, kecairan cenderung meningkat dan pasaran mungkin mengalami pergerakan harga lebih kuat."
+          },
+          {
+            "heading": "Mengapa Sesi Dagangan Penting",
+            "text": "Sesi dagangan mempengaruhi aktiviti pasaran, volatiliti, dan kecairan. Memahami bila pasaran berlainan aktif membantu pedagang menafsir tingkah laku pasaran global dengan lebih baik."
+          }
+        ],
+        "conclusion": "Pasaran forex beroperasi secara berterusan sepanjang minggu dagangan, tetapi tahap aktiviti berbeza bergantung pada sesi dagangan global. Mempelajari sesi dagangan dapat membantu pemula memahami bila pasaran kewangan cenderung paling aktif.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "how-to-read-forex-charts": {
+      "title": "Cara Membaca Carta Forex",
+      "excerpt": "Carta harga adalah salah satu alat paling kerap digunakan dalam pasaran kewangan. Ia membantu pedagang melihat bagaimana harga aset berubah dari masa ke masa...",
+      "content": {
+        "introduction": "Carta harga adalah salah satu alat paling kerap digunakan dalam pasaran kewangan. Ia membantu pedagang melihat bagaimana harga sesuatu aset berubah dari masa ke masa. Mempelajari cara membaca carta adalah kemahiran penting bagi sesiapa yang ingin memahami tingkah laku pasaran.",
+        "sections": [
+          {
+            "heading": "Jenis Carta Dagangan",
+            "text": "Beberapa jenis carta digunakan dalam pasaran kewangan. Carta Garisan: Menghubungkan harga penutupan dari masa ke masa dan memberikan gambaran mudah tentang pergerakan harga. Carta Bar: Menunjukkan harga pembukaan, penutupan, tertinggi, dan terendah untuk tempoh masa tertentu. Carta Lilin: Carta lilin digunakan secara meluas kerana memberikan maklumat terperinci tentang pergerakan harga pada setiap selang masa."
+          },
+          {
+            "heading": "Memahami Lilin",
+            "text": "Setiap lilin mewakili aktiviti harga dalam tempoh masa tertentu. Lilin termasuk: Harga buka, Harga tutup, Harga tertinggi, Harga terendah. Warna lilin biasanya menunjukkan sama ada harga bergerak naik atau turun dalam tempoh tersebut."
+          },
+          {
+            "heading": "Mengapa Carta Penting",
+            "text": "Carta membantu pedagang menganalisis corak, mengenal pasti trend, dan melihat bagaimana pasaran bertindak balas terhadap maklumat baru. Walaupun carta tidak dapat meramalkan masa depan, ia memberikan pandangan berharga tentang tingkah laku harga sejarah."
+          }
+        ],
+        "conclusion": "Carta forex memberikan representasi visual aktiviti pasaran. Dengan mempelajari cara menafsir carta, pemula dapat memahami dengan lebih baik bagaimana harga bergerak dan bagaimana pedagang menganalisis pasaran kewangan.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "support-and-resistance-explained": {
+      "title": "Sokongan dan Rintangan Dijelaskan",
+      "excerpt": "Dalam pasaran kewangan, harga sering bergerak dalam julat tertentu. Pedagang sering perhatikan bahawa harga cenderung berhenti, berbalik, atau perlahan berhampiran tahap tertentu...",
+      "content": {
+        "introduction": "Dalam pasaran kewangan, harga sering bergerak dalam julat tertentu. Pedagang kerap memerhatikan bahawa harga cenderung berhenti, berbalik, atau perlahan berhampiran tahap tertentu. Tahap ini dikenali sebagai sokongan dan rintangan. Memahami sokongan dan rintangan adalah salah satu konsep asas yang digunakan apabila menganalisis pergerakan harga pasaran.",
+        "sections": [
+          {
+            "heading": "Apakah Sokongan?",
+            "text": "Sokongan adalah tahap harga di mana sesuatu aset cenderung berhenti jatuh dan mungkin mula naik semula. Ini berlaku kerana pembeli biasanya menjadi lebih aktif pada tahap harga rendah. Apabila permintaan meningkat, ia boleh memperlahankan atau membalikkan pergerakan harga menurun. Contohnya, jika pasangan mata wang berulang kali berhenti jatuh dekat tahap harga tertentu, tahap itu boleh dianggap sebagai sokongan."
+          },
+          {
+            "heading": "Apakah Rintangan?",
+            "text": "Rintangan adalah bertentangan dengan sokongan. Rintangan ialah tahap harga di mana sesuatu aset mungkin sukar bergerak lebih tinggi kerana tekanan jualan meningkat. Apabila harga menghampiri tahap rintangan, pedagang mungkin mula menjual atau mengambil keuntungan, yang boleh memperlahankan pergerakan naik."
+          },
+          {
+            "heading": "Mengapa Tahap Ini Penting",
+            "text": "Tahap sokongan dan rintangan penting kerana ia membantu pedagang memahami di mana reaksi harga mungkin berlaku. Tahap ini sering terbentuk kerana ramai peserta pasaran memerhatikan kawasan harga yang serupa dan membuat keputusan berdasarkan kawasan tersebut. Sokongan dan rintangan juga mungkin terbentuk di sekitar: Harga tertinggi dan terendah sebelumnya, Tahap harga psikologi, Julat dagangan sejarah."
+          },
+          {
+            "heading": "Sokongan dan Rintangan Dalam Amalan",
+            "text": "Pasaran jarang bergerak dalam garis lurus. Sebaliknya, ia kerap bergerak dalam gelombang, memantul antara tahap sokongan dan rintangan. Apabila harga menembusi rintangan atau jatuh di bawah sokongan, pasaran mungkin memasuki julat dagangan baru. Perilaku harga ini biasanya dikaji sebagai sebahagian daripada analisis teknikal."
+          }
+        ],
+        "conclusion": "Tahap sokongan dan rintangan mewakili kawasan harga penting di mana pasaran mungkin berhenti atau berubah arah. Mempelajari cara mengenal pasti tahap ini membantu pemula memahami bagaimana harga pasaran bertindak balas terhadap kuasa penawaran dan permintaan.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "risk-management-in-trading": {
+      "title": "Pengurusan Risiko Dalam Dagangan",
+      "excerpt": "Pasaran kewangan melibatkan ketidakpastian, dan harga boleh berubah dengan cepat. Oleh itu, ramai pedagang memberi tumpuan kepada pengurusan risiko, yang merujuk kepada kaedah untuk mengawal potensi kerugian...",
+      "content": {
+        "introduction": "Pasaran kewangan melibatkan ketidakpastian, dan harga boleh berubah dengan cepat. Oleh itu, ramai pedagang memberi tumpuan kepada pengurusan risiko, yang merujuk kepada kaedah yang digunakan untuk mengawal potensi kerugian. Memahami pengurusan risiko adalah bahagian penting dalam pembelajaran tentang pasaran kewangan.",
+        "sections": [
+          {
+            "heading": "Apakah Pengurusan Risiko?",
+            "text": "Pengurusan risiko merujuk kepada strategi dan alat yang digunakan untuk menghadkan potensi kerugian dalam aktiviti dagangan. Daripada hanya menumpukan pada potensi keuntungan, pedagang sering mempertimbangkan berapa banyak yang mereka sanggup risikokan dalam setiap perdagangan. Pengurusan risiko membantu mengekalkan keseimbangan dalam keputusan dagangan."
+          },
+          {
+            "heading": "Mengapa Pengurusan Risiko Penting",
+            "text": "Pasaran boleh bergerak secara tidak dijangka akibat peristiwa ekonomi, perkembangan geopolitik, atau perubahan sentimen pasaran. Tanpa pengurusan risiko, pedagang mungkin terdedah kepada kerugian besar jika pasaran bergerak secara tidak dijangka. Mengurus risiko membantu pedagang mengekalkan pendekatan yang lebih berdisiplin terhadap pasaran kewangan."
+          },
+          {
+            "heading": "Konsep Pengurusan Risiko Biasa",
+            "text": "Beberapa alat dan strategi biasa digunakan untuk mengurus risiko. Saiz posisi ialah proses menentukan berapa besar perdagangan berbanding saiz akaun. Pesanan stop loss ialah tahap harga yang telah ditetapkan di mana posisi mungkin ditutup jika pasaran bergerak bertentangan dengan perdagangan. Diversifikasi ialah amalan menyebarkan pendedahan merentasi aset yang berbeza. Konsep ini sering dibincangkan dalam pendidikan dagangan."
+          },
+          {
+            "heading": "Risiko dan Volatiliti Pasaran",
+            "text": "Pasaran yang volatile mungkin memerlukan perhatian tambahan terhadap pengurusan risiko kerana harga boleh berubah dengan cepat. Memahami bagaimana volatiliti mempengaruhi pasaran dapat membantu pedagang menilai potensi risiko dengan lebih baik."
+          }
+        ],
+        "conclusion": "Pengurusan risiko memainkan peranan penting dalam penyertaan pasaran kewangan. Dengan belajar cara mengurus risiko dengan berkesan, individu boleh mendekati dagangan dengan kesedaran lebih tinggi tentang hasil yang mungkin berlaku. Sumber pendidikan sering menekankan pengurusan risiko sebagai salah satu aspek terpenting dalam pengetahuan dagangan.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "trading-psychology-for-beginners": {
+      "title": "Psikologi Dagangan untuk Pemula",
+      "excerpt": "Pasaran kewangan boleh mencetuskan emosi kuat seperti keterujaan, ketakutan, dan kekecewaan. Oleh kerana harga bergerak dengan cepat dan ketidakpastian sentiasa wujud...",
+      "content": {
+        "introduction": "Pasaran kewangan boleh mencetuskan emosi kuat seperti keterujaan, ketakutan, dan kekecewaan. Oleh kerana harga bergerak dengan cepat dan ketidakpastian sentiasa wujud, emosi boleh mempengaruhi keputusan dagangan. Inilah sebabnya psikologi dagangan sering dibincangkan dalam sumber pendidikan tentang pasaran kewangan.",
+        "sections": [
+          {
+            "heading": "Apakah Psikologi Dagangan?",
+            "text": "Psikologi dagangan merujuk kepada faktor mental dan emosi yang mempengaruhi membuat keputusan dalam dagangan. Walaupun pedagang berpengalaman boleh menghadapi cabaran psikologi apabila pasaran bergerak secara tidak dijangka. Emosi seperti ketakutan dan keyakinan berlebihan boleh mempengaruhi cara seseorang bertindak balas terhadap pergerakan pasaran."
+          },
+          {
+            "heading": "Cabaran Emosi Biasa",
+            "text": "Beberapa faktor psikologi yang kerap mempengaruhi keputusan dagangan: Ketakutan – Ketakutan boleh menyebabkan pedagang keluar dari posisi terlalu awal atau mengelakkan peluang. Tamak – Tamak boleh menyebabkan pengambilan risiko berlebihan untuk mengejar keuntungan lebih besar. Tidak sabar – Pasaran tidak selalu bergerak dengan cepat, yang mungkin membawa kepada keputusan impulsif."
+          },
+          {
+            "heading": "Kepentingan Disiplin",
+            "text": "Banyak sumber pendidikan dagangan menekankan kepentingan disiplin dan membuat keputusan yang tersusun. Mempunyai peraturan dan strategi yang jelas boleh membantu mengurangkan reaksi emosi terhadap pergerakan pasaran jangka pendek. Memahami aspek psikologi dalam dagangan membantu individu mendekati pasaran kewangan dengan lebih objektif."
+          }
+        ],
+        "conclusion": "Psikologi dagangan menumpukan pada aspek emosi dan tingkah laku dalam penyertaan pasaran kewangan. Dengan mempelajari bagaimana emosi mempengaruhi keputusan, individu boleh meningkatkan kesedaran apabila menganalisis peluang dan risiko pasaran.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "understanding-market-trends": {
+      "title": "Memahami Trend Pasaran",
+      "excerpt": "Pasaran kewangan jarang bergerak secara rawak untuk tempoh masa yang panjang. Sebaliknya, harga sering bergerak dalam trend, di mana pasaran bergerak naik, turun, ...",
+      "content": {
+        "introduction": "Pasaran kewangan jarang bergerak secara rawak untuk tempoh masa yang panjang. Sebaliknya, harga sering bergerak dalam trend, di mana pasaran bergerak naik, turun, atau mendatar. Memahami trend pasaran adalah konsep penting bagi sesiapa yang ingin belajar tentang pasaran kewangan.",
+        "sections": [
+          {
+            "heading": "Apakah Trend Pasaran?",
+            "text": "Trend pasaran merujuk kepada arah umum pergerakan harga dalam tempoh masa tertentu. Trend boleh berlaku merentasi pelbagai pasaran kewangan, termasuk forex, saham, komoditi, dan indeks. Trend boleh bertahan selama beberapa minit, hari, bulan, atau bahkan tahun bergantung kepada keadaan pasaran."
+          },
+          {
+            "heading": "Jenis-Jenis Trend Pasaran",
+            "text": "Trend Naik: Berlaku apabila harga bergerak secara beransur-ansur lebih tinggi dari masa ke masa. Dalam trend naik, pasaran cenderung mencipta harga tinggi dan rendah yang lebih tinggi. Trend Turun: Berlaku apabila harga bergerak secara beransur-ansur lebih rendah dari masa ke masa. Dalam kes ini, pasaran sering membentuk harga tinggi dan rendah yang lebih rendah. Trend Mendatar: Kadang-kadang pasaran bergerak dalam julat sempit tanpa arah yang jelas. Ini dikenali sebagai trend mendatar atau konsolidasi."
+          },
+          {
+            "heading": "Mengapa Trend Penting",
+            "text": "Trend membantu pedagang dan pelabur memahami arah keseluruhan aktiviti pasaran. Banyak kaedah analisis yang digunakan dalam pasaran kewangan cuba mengenal pasti trend dan menilai berapa lama ia mungkin berterusan."
+          }
+        ],
+        "conclusion": "Trend pasaran mewakili arah umum pergerakan harga dari masa ke masa. Dengan memerhatikan trend, individu boleh mendapat gambaran tentang tingkah laku pasaran yang lebih luas dan perubahan keadaan ekonomi.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "how-trading-strategies-work": {
+      "title": "Bagaimana Strategi Dagangan Berfungsi",
+      "excerpt": "Pasaran kewangan menawarkan banyak peluang untuk analisis dan membuat keputusan. Oleh kerana pasaran boleh tidak menentu, ramai pedagang bergantung pada strategi dagangan berstruktur...",
+      "content": {
+        "introduction": "Pasaran kewangan menawarkan banyak peluang untuk analisis dan membuat keputusan. Oleh kerana pasaran boleh tidak menentu, ramai pedagang bergantung pada strategi dagangan berstruktur untuk membimbing tindakan mereka. Strategi dagangan pada dasarnya ialah pelan yang merangka bagaimana seorang pedagang mendekati pasaran.",
+        "sections": [
+          {
+            "heading": "Apakah Strategi Dagangan?",
+            "text": "Strategi dagangan ialah satu set peraturan atau panduan yang digunakan untuk menganalisis pasaran dan membuat keputusan dagangan. Peraturan ini mungkin merangkumi: Keadaan pasaran, Kriteria masuk dan keluar, Pertimbangan pengurusan risiko. Pedagang yang berbeza membangunkan strategi berdasarkan kaedah analisis pilihan mereka."
+          },
+          {
+            "heading": "Jenis Strategi Dagangan",
+            "text": "Beberapa jenis strategi sering dibincangkan dalam pendidikan dagangan. Strategi Trend – Menumpukan pada mengenal pasti pasaran yang bergerak secara konsisten ke satu arah. Strategi Julat – Menumpukan pada pasaran yang bergerak dalam tahap sokongan dan rintangan tertentu. Strategi Berasaskan Berita – Menumpukan pada reaksi pasaran terhadap pengumuman ekonomi."
+          },
+          {
+            "heading": "Mengapa Strategi Digunakan",
+            "text": "Strategi dagangan membantu mencipta pendekatan berstruktur untuk analisis pasaran. Daripada membuat keputusan secara rawak, strategi mendorong pedagang mengikuti panduan yang telah ditetapkan. Bahan pendidikan sering menekankan kepentingan disiplin dan konsistensi apabila menggunakan strategi."
+          }
+        ],
+        "conclusion": "Strategi dagangan menyediakan kerangka kerja untuk menganalisis pasaran kewangan dan membuat keputusan yang berinformasi. Dengan mempelajari bagaimana strategi berbeza berfungsi, pemula dapat memahami dengan lebih baik bagaimana pedagang mendekati sifat pasaran kewangan yang dinamik.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "what-moves-the-forex-market": {
+      "title": "Apakah Faktor yang Menggerakkan Pasaran Forex?",
+      "excerpt": "Pasaran pertukaran asing sentiasa berubah apabila harga mata wang naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi...",
+      "content": {
+        "introduction": "Pasaran pertukaran asing sentiasa berubah apabila harga mata wang naik dan turun sepanjang hari. Pergerakan ini dipengaruhi oleh banyak faktor ekonomi, kewangan, dan politik. Memahami apa yang memacu harga mata wang boleh membantu pemula memperoleh gambaran yang lebih jelas tentang cara pasaran forex berfungsi.",
+        "sections": [
+          {
+            "heading": "Kadar Faedah",
+            "text": "Kadar faedah ialah salah satu faktor paling penting yang mempengaruhi nilai mata wang. Apabila bank pusat sesebuah negara menaikkan kadar faedah, mata wang tersebut mungkin menjadi lebih menarik kepada pelabur kerana kadar yang lebih tinggi boleh menawarkan pulangan yang lebih baik. Akibatnya, permintaan untuk mata wang itu mungkin meningkat di pasaran global."
+          },
+          {
+            "heading": "Data Ekonomi",
+            "text": "Laporan ekonomi dikeluarkan secara berkala oleh kerajaan dan institusi kewangan. Laporan ini memberikan pandangan tentang kesihatan sesuatu ekonomi. Petunjuk ekonomi biasa termasuk: Keluaran Dalam Negara Kasar (KDNK), Data pekerjaan, Laporan inflasi, Jualan runcit. Data ekonomi yang kukuh boleh mengukuhkan mata wang sesuatu negara, manakala data yang lemah mungkin memberi kesan sebaliknya."
+          },
+          {
+            "heading": "Peristiwa Politik dan Global",
+            "text": "Perkembangan politik dan peristiwa global juga boleh mempengaruhi pasaran mata wang. Contohnya termasuk: Pilihan raya, Dasar perdagangan, Ketegangan geopolitik, Perubahan ekonomi global. Pasaran sering bertindak balas dengan cepat terhadap berita dan perubahan jangkaan ekonomi."
+          },
+          {
+            "heading": "Sentimen Pasaran",
+            "text": "Sentimen pasaran merujuk kepada sikap keseluruhan pelabur terhadap mata wang atau pasaran tertentu. Jika pelabur percaya sesuatu ekonomi sedang mengukuh, mereka mungkin meningkatkan permintaan untuk mata wang negara itu. Perubahan dalam sentimen boleh mempengaruhi pergerakan harga dalam pasaran forex."
+          }
+        ],
+        "conclusion": "Harga mata wang dipengaruhi oleh banyak faktor, termasuk kadar faedah, data ekonomi, peristiwa politik, dan sentimen pelabur. Dengan memahami faktor-faktor ini, pemula boleh memperoleh pandangan yang lebih baik tentang bagaimana pasaran forex beroperasi.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "how-interest-rates-affect-currency": {
+      "title": "Bagaimana Kadar Faedah Mempengaruhi Pasaran Mata Wang",
+      "excerpt": "Kadar faedah ialah salah satu alat ekonomi paling penting yang digunakan oleh bank pusat untuk mengurus pertumbuhan ekonomi dan inflasi. Perubahan kadar faedah boleh...",
+      "content": {
+        "introduction": "Kadar faedah ialah salah satu alat ekonomi paling penting yang digunakan oleh bank pusat untuk mengurus pertumbuhan ekonomi dan inflasi. Perubahan kadar faedah boleh memberi impak besar pada pasaran kewangan, termasuk harga mata wang. Memahami bagaimana kadar faedah mempengaruhi mata wang boleh membantu pemula mentafsir pergerakan pasaran dengan lebih baik.",
+        "sections": [
+          {
+            "heading": "Apakah Kadar Faedah?",
+            "text": "Kadar faedah mewakili kos meminjam wang. Bank pusat menyesuaikan kadar faedah untuk membantu mengurus aktiviti ekonomi, inflasi, dan kestabilan kewangan. Apabila kadar faedah meningkat, pinjaman biasanya menjadi lebih mahal. Apabila kadar menurun, pinjaman mungkin menjadi lebih mampu milik."
+          },
+          {
+            "heading": "Mengapa Kadar Faedah Mempengaruhi Mata Wang",
+            "text": "Mata wang dipengaruhi oleh kadar faedah kerana pelabur sering mencari peluang di mana mereka boleh memperoleh pulangan lebih tinggi. Apabila kadar faedah sesuatu negara meningkat, aset kewangan di negara itu mungkin menjadi lebih menarik kepada pelabur. Ini boleh membawa kepada peningkatan permintaan untuk mata wang negara tersebut."
+          },
+          {
+            "heading": "Keputusan Bank Pusat",
+            "text": "Bank pusat secara berkala menilai keadaan ekonomi dan memutuskan sama ada untuk menaikkan, menurunkan, atau mengekalkan kadar faedah. Contoh bank pusat utama termasuk: Federal Reserve (Amerika Syarikat), European Central Bank, Bank of England, Bank of Japan. Pengumuman dari institusi ini sering mempengaruhi pasaran kewangan."
+          },
+          {
+            "heading": "Jangkaan Pasaran",
+            "text": "Pasaran kewangan sering bertindak balas bukan sahaja kepada perubahan kadar faedah sebenar tetapi juga kepada jangkaan tentang keputusan masa depan. Pelabur mengikuti petunjuk ekonomi dan kenyataan bank pusat dengan teliti untuk meramalkan kemungkinan perubahan dasar."
+          }
+        ],
+        "conclusion": "Kadar faedah memainkan peranan penting dalam membentuk pasaran mata wang. Dengan mempengaruhi tingkah laku pelabur dan aktiviti ekonomi, dasar bank pusat boleh menjejaskan nilai mata wang dalam pasaran kewangan global.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "why-gold-prices-fluctuate": {
+      "title": "Mengapa Harga Emas Berubah-ubah",
+      "excerpt": "Emas telah dihargai selama berabad-abad sebagai logam berharga dan aset kewangan. Hari ini, emas terus memainkan peranan penting dalam pasaran kewangan global...",
+      "content": {
+        "introduction": "Emas telah dihargai selama berabad-abad sebagai logam berharga dan aset kewangan. Hari ini, emas terus memainkan peranan penting dalam pasaran kewangan global. Harga emas boleh naik atau turun bergantung kepada pelbagai faktor ekonomi dan kewangan.",
+        "sections": [
+          {
+            "heading": "Emas sebagai Aset Selamat",
+            "text": "Emas sering dianggap sebagai aset selamat, bermakna pelabur mungkin beralih kepada emas semasa tempoh ketidakpastian ekonomi. Apabila pasaran kewangan mengalami ketidakstabilan, permintaan terhadap emas mungkin meningkat. Permintaan ini boleh mempengaruhi harga emas."
+          },
+          {
+            "heading": "Inflasi dan Emas",
+            "text": "Inflasi mengukur seberapa cepat harga barangan dan perkhidmatan meningkat dari masa ke masa. Apabila inflasi meningkat, kuasa beli mata wang mungkin menurun. Sesetengah pelabur melihat emas sebagai cara untuk mengekalkan nilai semasa tempoh inflasi meningkat."
+          },
+          {
+            "heading": "Kadar Faedah dan Emas",
+            "text": "Kadar faedah juga boleh mempengaruhi harga emas. Apabila kadar faedah tinggi, pelabur mungkin memilih aset berfaedah seperti bon. Apabila kadar faedah rendah, emas mungkin menjadi lebih menarik kerana kos peluang memegang emas berkurangan."
+          },
+          {
+            "heading": "Permintaan Global",
+            "text": "Permintaan emas datang dari beberapa sumber, termasuk: Pengeluaran perhiasan, Permintaan pelaburan, Rizab bank pusat, Penggunaan industri. Perubahan dalam permintaan global boleh mempengaruhi harga keseluruhan emas."
+          }
+        ],
+        "conclusion": "Harga emas berubah-ubah disebabkan gabungan keadaan ekonomi, jangkaan inflasi, kadar faedah, dan permintaan global. Dengan memahami faktor-faktor ini, pemula boleh memperoleh gambaran lebih jelas tentang cara pasaran emas berfungsi.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "oil-prices-and-global-markets": {
+      "title": "Harga Minyak dan Pasaran Global",
+      "excerpt": "Minyak ialah salah satu komoditi paling penting dalam ekonomi global. Ia digunakan secara meluas untuk pengangkutan, pembuatan, dan pengeluaran tenaga. Kerana...",
+      "content": {
+        "introduction": "Minyak ialah salah satu komoditi paling penting dalam ekonomi global. Ia digunakan secara meluas untuk pengangkutan, pembuatan, dan pengeluaran tenaga. Disebabkan kepentingannya, perubahan harga minyak boleh mempengaruhi pasaran kewangan dan aktiviti ekonomi di seluruh dunia.",
+        "sections": [
+          {
+            "heading": "Bekalan dan Permintaan Minyak",
+            "text": "Harga minyak dipengaruhi dengan ketara oleh bekalan dan permintaan global. Apabila permintaan terhadap minyak meningkat, harga mungkin naik. Apabila bekalan meningkat atau permintaan menurun, harga boleh jatuh. Banyak faktor boleh mempengaruhi bekalan dan permintaan, termasuk pertumbuhan ekonomi global dan corak penggunaan tenaga."
+          },
+          {
+            "heading": "Negara Pengeluar Minyak",
+            "text": "Beberapa negara memainkan peranan utama dalam pengeluaran minyak global. Organisasi seperti OPEC (Organization of the Petroleum Exporting Countries) membantu menyelaraskan tahap pengeluaran minyak di kalangan negara anggota. Keputusan pengeluaran daripada pengeluar minyak utama boleh mempengaruhi harga minyak."
+          },
+          {
+            "heading": "Minyak dan Pasaran Mata Wang",
+            "text": "Harga minyak juga boleh mempengaruhi pasaran mata wang. Mata wang negara pengeluar minyak mungkin terkesan oleh perubahan harga minyak kerana eksport tenaga merupakan bahagian penting ekonomi mereka. Hubungan ini menunjukkan bagaimana pasaran komoditi dan pasaran mata wang saling berkaitan."
+          },
+          {
+            "heading": "Minyak dan Inflasi",
+            "text": "Harga minyak boleh mempengaruhi inflasi kerana kos tenaga menjejaskan pengangkutan, pembuatan, dan barangan pengguna. Apabila harga minyak meningkat dengan ketara, kos pengeluaran mungkin naik dalam pelbagai industri."
+          }
+        ],
+        "conclusion": "Harga minyak memainkan peranan penting dalam ekonomi global. Dengan mempengaruhi kos tenaga, inflasi, dan imbangan perdagangan, pasaran minyak boleh menjejaskan pasaran kewangan di seluruh dunia.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    },
+    "how-central-banks-influence-financial": {
+      "title": "Bagaimana Bank Pusat Mempengaruhi Pasaran Kewangan",
+      "excerpt": "Bank pusat memainkan peranan utama dalam sistem kewangan global. Institusi ini bertanggungjawab untuk mengurus dasar monetari sesuatu negara dan mengekalkan...",
+      "content": {
+        "introduction": "Bank pusat memainkan peranan utama dalam sistem kewangan global. Institusi ini bertanggungjawab untuk mengurus dasar monetari sesuatu negara dan mengekalkan kestabilan kewangan. Keputusan yang dibuat oleh bank pusat boleh mempengaruhi mata wang, pasaran saham, dan aktiviti ekonomi.",
+        "sections": [
+          {
+            "heading": "Apakah Bank Pusat?",
+            "text": "Bank pusat ialah pihak berkuasa kewangan negara yang bertanggungjawab mengawasi dasar monetari. Beberapa bank pusat terkenal termasuk: Federal Reserve (Amerika Syarikat), European Central Bank, Bank of England, Bank of Japan. Institusi ini bekerja untuk mengekalkan keadaan ekonomi yang stabil."
+          },
+          {
+            "heading": "Dasar Monetari",
+            "text": "Dasar monetari merujuk kepada tindakan yang diambil oleh bank pusat untuk mengurus aktiviti ekonomi. Alat utama yang digunakan oleh bank pusat termasuk: Pelarasan kadar faedah, Pengurusan bekalan wang, Panduan ekonomi. Keputusan ini boleh mempengaruhi kos pinjaman, aktiviti pelaburan, dan tingkah laku pasaran kewangan."
+          },
+          {
+            "heading": "Reaksi Pasaran",
+            "text": "Pasaran kewangan sering bertindak balas dengan cepat terhadap pengumuman bank pusat. Pelabur memberi perhatian kepada kenyataan bank pusat kerana ia boleh menandakan perubahan dasar ekonomi pada masa hadapan. Jangkaan mengenai dasar monetari boleh mempengaruhi harga aset di seluruh pasaran global."
+          },
+          {
+            "heading": "Mengapa Bank Pusat Penting",
+            "text": "Bank pusat membantu mengekalkan kestabilan ekonomi dengan mengurus inflasi, tahap pekerjaan, dan risiko sistem kewangan. Kerana peranan ini, keputusan mereka dipantau dengan teliti oleh peserta pasaran kewangan di seluruh dunia."
+          }
+        ],
+        "conclusion": "Bank pusat memainkan peranan penting dalam membentuk pasaran kewangan. Melalui keputusan dasar monetari dan panduan ekonomi, institusi ini mempengaruhi mata wang, kadar faedah, dan keadaan pasaran secara keseluruhan.",
+        "disclaimer": "Maklumat dalam artikel ini hanya untuk tujuan pendidikan dan tidak merupakan nasihat kewangan atau cadangan pelaburan."
+      }
+    }
+  },
+"tradersClub": {
+  "free": "PERCUMA",
+  "description": "Sertai Kelab Pedagang kami dan dapatkan kad maya percuma. Pengeluaran segera, boleh digunakan di seluruh dunia tanpa yuran dan tanpa had.",
+  "disclaimer": "*Tersedia untuk ahli kelab yang telah disahkan sahaja",
+  "joinNow": "Sertai Sekarang",
+  "modalTitle": "Sertai Kelab Pedagang",
+  "modalSubtitle": "Dapatkan kad maya percuma anda hari ini",
+  "name": "Nama",
+  "namePlaceholder": "Masukkan nama anda",
+  "email": "Emel",
+  "emailPlaceholder": "Masukkan emel anda",
+  "phone": "Telefon",
+  "phonePlaceholder": "Masukkan nombor telefon anda",
+  "getMyFreeCard": "Dapatkan Kad Percuma Saya"
+},
+"insights": {
+  "title": "Dapatkan wawasan analitik terkini — terus dari pasukan kami kepada anda.",
+  "financialStrategy": "Strategi<br>Kewangan",
+  "financialStrategyDesc": "Strategi perdagangan peribadi yang disesuaikan mengikut matlamat kewangan dan tahap pengalaman unik anda.",
+  "freeTrainings": "Latihan<br>Percuma",
+  "freeTrainingsDesc": "Latihan forex dikendalikan pakar dari tahap permulaan hingga pertengahan, sepenuhnya percuma dengan sokongan langsung.",
+  "assetManagement": "Pengurusan<br>Aset",
+  "assetManagementDesc": "Panduan pakar 24/7 untuk mengenal pasti dan mengurus aset yang tepat bagi keuntungan maksimum.",
+  "demoAccount": "Akaun<br>Demo",
+  "demoAccountDesc": "Amalkan tanpa risiko dengan $10,000 wang maya menggunakan data pasaran masa nyata sebelum berdagang secara langsung."
+},
+"platforms": {
+  "eyebrow": "Platform Perdagangan Kami",
+  "title": "Mari Berdagang Bersama Kami",
+  "subtitle": "Pilih cara anda ingin berdagang: aplikasi desktop yang berkuasa untuk analisis mendalam atau platform mudah alih ringan untuk kekal di pasaran semasa bergerak.",
+  "webDesktop": "Web & Desktop",
+  "desktopTitle": "TraderTok Desktop",
+  "desktopDescription": "Akses aplikasi TraderTok Desktop kami pada Mac atau PC Windows anda dan dapatkan akses penuh kepada carta, indikator dan ruang kerja multi-skrin untuk perdagangan profesional.",
+  "windows": "Windows",
+  "mac": "Mac",
+  "mobilePlatform": "Platform Mudah Alih",
+  "mobileTitle": "TraderTok Mobile",
+  "mobileDescription": "Akses platform mudah alih kami di iOS dan Android dan berdagang di mana sahaja: buka, urus dan tutup posisi terus dari telefon anda hanya dengan beberapa ketukan."
+},
+"instruments": {
+  "sectionTitle": "Terokai Instrumen Perdagangan Kami",
+  "sectionSubtitle": "Di TraderTok, kami menawarkan pelbagai instrumen perdagangan yang luas untuk memenuhi keperluan setiap jenis pedagang — sama ada anda baru bermula atau mengurus portfolio yang kompleks.",
+  "sectionDescription": "Dengan akses kepada pasaran global dan kecairan mendalam, platform kami membolehkan anda meneroka peluang merentas pelbagai kelas aset, semua di satu tempat. Kami percaya bahawa pilihan adalah kuasa, oleh itu kami sentiasa menambah senarai instrumen untuk menyesuaikan dengan lanskap kewangan yang sentiasa berubah.",
+  "forex": "Forex",
+  "forexDesc": "Pasaran pertukaran asing adalah pasaran paling cair di dunia, menawarkan akses sepanjang masa dan spread yang ketat. Tawaran forex kami merangkumi semua pasangan utama, minor dan pelbagai eksotik, menyediakan peluang untuk pedagang harian dan strategi jangka panjang. Dengan pelaksanaan rendah latensi dan pilihan leverage tinggi, platform kami membolehkan anda bertindak cepat dalam pasaran yang bergerak pantas.",
+  "commodities": "Komoditi",
+  "commoditiesDesc": "Komoditi seperti emas, minyak, dan perak menawarkan pedagang lindung nilai terhadap inflasi dan volatiliti pasaran. Aset ini selalunya bergerak bebas daripada saham dan mata wang, menjadikannya alat terbaik untuk kepelbagaian. Instrumen komoditi kami didagangkan dengan harga kompetitif dan pelaksanaan pantas, membolehkan anda memanfaatkan perubahan bekalan dan permintaan global dengan keyakinan.",
+  "stocks": "Saham",
+  "stocksDesc": "Dagangkan saham syarikat berprestasi tinggi dari bursa global terkemuka. Instrumen saham kami membolehkan anda menjangka pergerakan harga tanpa memiliki aset asas, memberi fleksibiliti untuk mengambil posisi panjang atau pendek. Akses kepada sektor utama seperti teknologi, penjagaan kesihatan, tenaga dan banyak lagi — membolehkan anda membina strategi berdasarkan prestasi korporat dan momentum pasaran.",
+  "indices": "Indeks",
+  "indicesDesc": "Indeks mewakili prestasi sekumpulan saham, menjadikannya cara berkuasa untuk mendapat pendedahan pasaran yang luas. Sama ada anda berdagang S&P 500, NASDAQ, FTSE, atau indeks utama lain, platform kami menyediakan akses efisien dengan latensi rendah dan alat carta canggih. Indeks sesuai untuk pedagang yang ingin mengambil posisi pada tren ekonomi yang lebih luas berbanding syarikat individu.",
+  "crypto": "Kripto",
+  "all": "Semua",
+  "search": "Cari instrumen...",
+  "spread": "Spread",
+  "leverage": "Leverage",
+  "trade": "Dagangkan",
+  "noResults": "Tiada instrumen ditemui yang sepadan dengan carian anda."
+},
+"whyChoose": {
+  "title": "Mengapa Pilih TraderTok",
+  "subtitle": "Kami menyediakan pelabur kami dengan peningkatan berterusan, peluang baru untuk meneroka pasaran kewangan dan peluang untuk bekerja dengan peneraju yang diiktiraf dalam industri kewangan.",
+  "lightningExecution": "Pelaksanaan Pantas Seperti Kilat",
+  "lightningExecutionDesc": "Setiap milisaat penting dalam perdagangan. Infrastruktur canggih kami memastikan pesanan anda dilaksanakan dengan cepat, boleh dipercayai, dan dengan slip rendah, supaya anda tidak terlepas peluang.",
+  "cuttingEdgePlatforms": "Platform Terkini",
+  "cuttingEdgePlatformsDesc": "Berdagang di TraderTool, platform intuitif kami sendiri. Dengan carta canggih, analitik berkuasa, dan alat boleh disesuaikan, anda mempunyai semua yang diperlukan untuk berdagang dengan lebih bijak.",
+  "globalMarkets": "Pasaran Global, Wawasan Tempatan",
+  "globalMarketsDesc": "Akses pelbagai instrumen kewangan, dari forex dan komoditi hingga indeks dan kripto. Jangkauan global kami dilengkapi dengan wawasan pasaran pakar untuk membantu anda membuat keputusan yang berinformasi.",
+  "competitivePricing": "Harga Kompetitif & Spread Ketat",
+  "competitivePricingDesc": "Kami menawarkan spread terkemuka pasaran, yuran rendah, dan harga telus — direka untuk memberi anda kelebihan dalam setiap perdagangan.",
+  "expertSupport": "Sokongan Pakar",
+  "expertSupportDesc": "Pasukan sokongan berdedikasi kami tersedia bila-bila masa anda memerlukan. Kami menggabungkan pengetahuan industri dengan perkhidmatan pantas dan mesra, supaya anda boleh fokus berdagang dengan yakin.",
+  "securityTrust": "Keselamatan & Kepercayaan",
+  "securityTrustDesc": "Dana dan data anda dilindungi dengan protokol keselamatan standard industri dan perlindungan akaun yang kukuh. Berdagang dengan yakin mengetahui pelaburan anda selamat.",
+  "educationResources": "Pendidikan & Sumber",
+  "educationResourcesDesc": "Sama ada anda baru dalam perdagangan atau profesional berpengalaman, sumber pembelajaran, webinar, dan wawasan pasaran kami membantu anda meningkatkan kemahiran dan berkembang sebagai pedagang."
+},
+"deposit": {
+  "interest": "7.6% faedah",
+  "isMonthly": "adalah Bulanan",
+  "description": "Terima pembayaran faedah bulanan terus ke baki tunai anda, tanpa sebarang obligasi.",
+  "disclaimer": "*Kredit dan risiko lain terpakai, sila baca Terma dan Syarat",
+  "joinNow": "Sertai Sekarang",
+  "modalTitle": "Buka Akaun Deposit",
+  "modalSubtitle": "Isikan butiran anda dan pengurus kami akan menghubungi anda",
+  "name": "Nama",
+  "namePlaceholder": "Masukkan nama anda",
+  "email": "Emel",
+  "emailPlaceholder": "Masukkan emel anda",
+  "phone": "Telefon",
+  "phonePlaceholder": "+1 (555) 000-0000",
+  "submitApplication": "Hantar Permohonan",
+  "modalDisclaimer": "Dengan menghantar, anda bersetuju dengan Terma Perkhidmatan dan Polisi Privasi kami"
+},
+"telegram": {
+  "title": "Sertai <span class=\"gradient-text\">Komuniti</span> Kami",
+  "description": "Dapatkan isyarat perdagangan, analisis pasaran, dan berhubung dengan pedagang lain",
+  "joinNow": "Sertai Sekarang",
+  "signal": "ISYARAT",
+  "alert": "AMARAN",
+  "profit": "KEUNTUNGAN",
+  "analysis": "ANALISIS",
+  "hoursAgo": "jam lepas",
+  "dayAgo": "hari lepas"
+},
+"contactForm": {
+  "title": "Adakah Anda Bersedia Untuk Mendapatkan Pendapatan Dengan TraderTok?",
+  "subtitle": "Kami akan menghubungi anda",
+  "description": "Masuki pasaran dengan volume perdagangan terbesar di dunia dalam beberapa minit; mudah dan selamat.",
+  "name": "Nama",
+  "namePlaceholder": "Masukkan nama anda",
+  "surname": "Nama Keluarga",
+  "surnamePlaceholder": "Masukkan nama keluarga anda",
+  "phone": "Telefon",
+  "phonePlaceholder": "+44 7520 640 890",
+  "email": "Emel",
+  "emailPlaceholder": "support@tradertok.com",
+  "message": "Mesej",
+  "messagePlaceholder": "Ceritakan tentang matlamat perdagangan anda...",
+  "submit": "Hubungi Kami",
+  "successMessage": "Terima kasih! Kami akan menghubungi anda tidak lama lagi.",
+  "errorMessage": "Terjadi masalah. Sila cuba lagi."
+},
+"trustpilot": {
+  "name": "Trustpilot",
+  "rating": "4.8 daripada 5",
+  "moreReviews": "Lebih banyak ulasan di Trustpilot"
+},
+"banking": {
+  "title": "Dana anda disimpan di <span class=\"gradient-text\">institusi bertaraf tinggi</span>",
+  "subtitle": "Kumpulan TraderTok bekerjasama dengan rakan kongsi perbankan terkenal di seluruh dunia termasuk:",
+  "disclaimer": "*Bank-bank ini bekerjasama dengan kumpulan TraderTok dan tidak melayani semua entiti dalam kumpulan"
+},
+"footer": {
+  "findUs": "Cari Kami Di",
+  "topInstruments": "Instrumen Teratas",
+  "bitcoin": "Bitcoin (BTC)",
+  "ethereum": "Ethereum (ETH)",
+  "shiba": "Shiba (Dalam Juta)",
+  "tesla": "Tesla",
+  "apple": "Apple",
+  "nio": "Nio",
+  "support": "Sokongan",
+  "helpCenter": "Pusat Bantuan",
+  "howToDeposit": "Cara Deposit",
+  "howToWithdraw": "Cara Mengeluarkan",
+  "howToOpenAccount": "Cara Membuka Akaun",
+  "howToVerifyAccount": "Cara Mengesahkan Akaun Anda",
+  "clientVulnerability": "Kelemahan Pelanggan",
+  "complaintsData": "Data Aduan (Pelanggan FCA)",
+  "learnMore": "Ketahui Lebih Lanjut",
+  "howCopyTradingWorks": "Cara CopyTrading Berfungsi",
+  "responsibleTrading": "Perdagangan Bertanggungjawab",
+  "interestOnBalance": "Faedah pada Baki",
+  "whatIsLeverageAndMargin": "Apa itu Leverage & Margin",
+  "buyAndSellExplained": "Penjelasan Beli dan Jual",
+  "downloadOurApp": "Muat turun aplikasi kami dari kedai",
+  "aboutUs": "Tentang Kami",
+  "aboutTraderTok": "Tentang TraderTok",
+  "reviews": "Ulasan",
+  "careers": "Kerjaya",
+  "ourOffices": "Pejabat Kami",
+  "accessibility": "Kebolehcapaian",
+  "imprint": "Cetakan",
+  "privacyAndRegulations": "Privasi dan Peraturan",
+  "privacyPolicy": "Polisi Privasi",
+  "keyInformationDocuments": "Dokumen Maklumat Utama",
+  "partnersAndPromotions": "Rakan Kongsi dan Promosi",
+  "inviteAFriend": "Jemput Rakan",
+  "ibProgram": "Program IB",
+  "TraderTokClub": "Kelab TraderTok",
+  "segregatedAccount": "Akaun Berasingan",
+  "partnerSmartPortfolios": "Portfolio Pintar Rakan Kongsi",
+  "taxReport": "Laporan Cukai",
+  "contactUs": "Hubungi Kami",
+  "availableSupport": "Sokongan Tersedia 24/5",
+  "copyright": "© 2026 Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. No Syarikat: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>. Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Financial Services Commission Mauritius (FSC).",
+  "paymentInfo": "Perkhidmatan pemprosesan pembayaran disediakan oleh ejen pembayaran sah Syarikat, B-Tech Ltd, berdaftar di Louki Akrita 1, Akritas Court, Tingkat 3, Pejabat/Flat 301, 3030 Limassol, Cyprus (No Syarikat: HE 414065).",
+  "copyright-extra": "Laman web ini dikendalikan oleh Amber Rock Trade Ltd.",
+  "riskWarning": "Amaran Risiko:",
+  "riskWarningText": "Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci.",
+  "riskWarningHtml": "<strong>Amaran Risiko:</strong> Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci."
+},
+"common": {
+  "loading": "Sedang dimuatkan...",
+  "error": "Ralat",
+  "success": "Berjaya",
+  "close": "Tutup",
+  "submit": "Hantar",
+  "cancel": "Batal",
+  "learnMore": "Ketahui Lebih Lanjut",
+  "getStarted": "Mula",
+  "joinNow": "Sertai Sekarang",
+  "trade": "Berdagang",
+  "google": "Google",
+  "facebook": "Facebook"
+},
+"regulations": {
+  "heroBadge": "Peraturan",
+  "heroTitle": "Lesen",
+  "heroTitleHighlight": "TraderTok",
+  "heroSubtitle": "TraderTok sepenuhnya diberi kuasa dan dikawal selia oleh pihak berkuasa kawal selia yang dihormati dan bereputasi, memastikan pengalaman perdagangan anda bersama kami selamat, telus, dan boleh dipercayai. Pengawasan ini memberi anda ketenangan fikiran, mengetahui bahawa kami beroperasi mengikut piawaian pematuhan yang ketat dan mengekalkan tahap integriti tertinggi dalam semua perkhidmatan kami.",
+  "fsc": {
+    "name": "FSC",
+    "name2": "Suruhanjaya Perkhidmatan Kewangan",
+    "description": "Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Suruhanjaya Perkhidmatan Kewangan Mauritius (FSC) di bawah <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>."
+  }
+},
+  "meetTheTeam": {
+  "pageTitle": "Kenali Pasukan - TraderTok | Pakar Perdagangan Global Kami",
+  "pageDescription": "Kenali pasukan global kami yang terdiri daripada pakar perdagangan dari seluruh dunia. Pedagang profesional yang fasih berbahasa Inggeris, Sepanyol, dan Hindi.",
+  "heroTitle": "Kenali Pasukan",
+  "heroSubtitle": "Pasukan pakar perdagangan global kami sedia membimbing anda melalui perjalanan perdagangan anda dalam bahasa pilihan anda.",
+  "tabEnglish": "Inggeris",
+  "tabSpanish": "Sepanyol",
+  "tabHindi": "Hindi",
+  "departmentAgents": "Ejen",
+  "departmentManagers": "Pengurus",
+  "departmentBilling": "Bil",
+  "managers": {
+    "alex_taylor": {
+      "name": "Alex Taylor",
+      "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
+    },
+    "chris_evans": {
+      "name": "Chris Evans",
+      "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kuat dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
+    },
+    "lucas_martin": {
+      "name": "Lucas Martin",
+      "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
+    }
+  },
+  "billing": {
+    "brooke_davis": {
+      "name": "Brooke Davis",
+      "role": "Brooke Davis ialah Pakar Penagihan yang teliti dan berorientasikan pelanggan, memastikan setiap transaksi kewangan berjalan lancar bagi semua pelanggan. Dengan kepakaran dalam pemprosesan pembayaran dan pengurusan akaun, Brooke mengendalikan deposit, pengeluaran, dan pertanyaan penagihan dengan tepat dan berhati-hati, menjadikan setiap interaksi kewangan mudah dan telus."
+    },
+    "roy_bruce": {
+      "name": "Roy Bruce",
+      "role": "Roy Bruce ialah Pakar Penagihan yang terperinci dengan pengalaman luas dalam operasi kewangan dan sokongan pelanggan. Dikenali kerana pendekatan analitik dan kemahiran menyelesaikan masalah dengan cepat, Roy mengurus pengesahan pembayaran, penyelarasan akaun, dan memastikan semua transaksi mematuhi standard ketepatan dan keselamatan tertinggi."
+    }
+  },
+  "english": {
+    "alex_taylor": {
+      "name": "Alex Taylor",
+      "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan.<br><br>Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
+    },
+    "chris_evans": {
+      "name": "Chris Evans",
+      "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kukuh dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
+    },
+    "lucas_martin": {
+      "name": "Lucas Martin",
+      "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
+    },
+    "kai_lockwood": {
+      "name": "Kai Lockwood",
+      "role": "Kai Lockwood ialah Pengurus Akaun yang proaktif dan berfokus kepada pelanggan dengan rekod cemerlang dalam membina kerjasama jangka panjang. Dikenali kerana komunikasi yang jelas, perhatian terhadap perincian, dan penyelesaian masalah dengan cepat, Kai sentiasa mencapai matlamat pelanggan sambil mengekalkan gaya kerja positif dan kolaboratif."
+    },
+    "dominic_weber": {
+      "name": "Dominic Weber",
+      "role": "Dominic Weber ialah Pengurus Akaun yang boleh dipercayai dan berorientasikan hasil, sentiasa meletakkan pelanggan sebagai keutamaan. Dengan kemahiran komunikasi yang kukuh dan pendekatan kerja yang tersusun, Dominic cepat memahami keperluan pelanggan, menyediakan penyelesaian yang jelas, dan mengekalkan kerjasama profesional yang lancar di setiap peringkat."
+    },
+    "dasha_petrova": {
+      "name": "Dasha Petrova",
+      "role": "Dasha Petrova ialah Pengurus Akaun yang berdedikasi dan berorientasikan penyelesaian, sentiasa menempatkan keutamaan pelanggan di tengah setiap keputusan. Dikenali kerana komunikasi yang jelas, kebolehpercayaan, dan pendekatan praktikal, Dasha memastikan kerjasama lancar serta hasil yang konsisten dan boleh diukur."
+    },
+    "david_faris": {
+      "name": "David Faris",
+      "role": "David Faris ialah Pengurus Akaun yang berfikir secara teliti dan berorientasikan matlamat dengan tumpuan kuat pada kepuasan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan tersusun dan analitik, David cepat mengenal pasti keperluan pelanggan, menawarkan penyelesaian praktikal, dan memastikan kerjasama profesional berjalan lancar."
+    },
+    "michael_smith": {
+      "name": "Michael Smith",
+      "role": "Michael Smith ialah Pengurus Akaun yang yakin dan berfokus pada hasil dengan rasa tanggungjawab yang tinggi. Dikenali kerana komunikasi yang jelas, tindak balas pantas terhadap keperluan pelanggan, dan pendekatan praktikal berorientasikan penyelesaian, Michael memastikan setiap pelanggan berasa disokong dan mengawal matlamat mereka."
+    },
+    "oscar_dupont": {
+      "name": "Oscar Dupont",
+      "role": "Oscar Dupont ialah Pengurus Akaun yang berorientasikan perincian dan boleh dipercayai dengan komitmen tinggi terhadap kejayaan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan proaktif berorientasikan penyelesaian, Oscar memastikan kerjasama lancar dan sentiasa menepati matlamat yang dipersetujui."
+    },
+    "simon_bjork": {
+      "name": "Simon Bjork",
+      "role": "Simon Bjork ialah Pengurus Akaun yang metodikal dan berpusatkan pelanggan dengan bakat untuk menukar konsep pasaran yang kompleks menjadi strategi boleh dilaksanakan. Dikenali kerana ketepatan analitik dan sikap tenang, Simon membina hubungan pelanggan jangka panjang melalui kepercayaan, kepakaran, dan komitmen teguh terhadap kecemerlangan."
+    }
+  },
+  "spanish": {
+    "juan_garcia": {
+      "name": "Juan Garcia",
+      "role": "Juan Garcia ialah Pengurus Akaun yang strategik dan berfokus kepada pelanggan, cemerlang dalam membina hubungan kukuh dengan pelanggan berbahasa Sepanyol. Dengan pengetahuan pasaran yang mendalam dan pendekatan proaktif, Juan menyediakan penyelesaian yang diperibadikan dan memastikan setiap pelanggan mencapai matlamat dagangan mereka."
+    }
+  },
+  "hindi": {
+    "aaron_dev": {
+      "name": "Vikram Patel",
+      "role": "Vikram Patel ialah Pengurus Akaun yang berdedikasi dan berpengetahuan, pakar dalam melayani pelanggan berbahasa Hindi. Dengan pemahaman mendalam tentang pasaran India dan antarabangsa, Vikram menyediakan panduan yang disesuaikan dan memastikan pengalaman dagangan yang lancar dan menyokong bagi setiap pelanggan."
+    }
+  }
+  },
+  "marketsOverview": {
+    "title": "Gambaran Pasaran"
+  },
+  "tradingPlatformsPage": {
+    "pageTitle": "Platform Dagangan - TraderTok | Teknologi Dagangan Terkini",
+    "pageDescription": "Berdagang menggunakan platform canggih yang direka untuk kelajuan, kebolehpercayaan, dan prestasi. Akses alat dan analisis yang berkuasa di desktop, web, dan mudah alih.",
+    "heroTitle": "Berdagang",
+    "typewriterWords": [
+      "Lebih Pintar",
+      "Lebih Pantas",
+      "Dengan Cara Anda"
+    ],
+    "heroSubtitle": "Di TraderTok, kami percaya teknologi sepatutnya memudahkan, bukan menyukarkan. Itulah sebabnya kami membina platform yang memberi anda kawalan penuh terhadap pengalaman dagangan anda, sama ada di meja kerja atau di mana sahaja.",
+    "mobilePlatform": "Platform Mudah Alih",
+    "webDesktop": "Web & Desktop",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "mac": "Mac",
+    "signIn": "Log Masuk",
+    "download": "Muat Turun"
+  },
+  "contactUsPage": {
+    "pageTitle": "Hubungi Kami - TraderTok | Berhubung Dengan Kami",
+    "pageDescription": "Berhubung dengan TraderTok. Pasukan kami sedia membantu anda dengan sebarang pertanyaan mengenai dagangan, pengurusan akaun, atau sokongan platform.",
+    "heroTitle": "Hubungi",
+    "heroTitleHighlight": "Kami",
+    "heroDescription": "Kami sentiasa terbuka untuk sebarang pertanyaan atau soalan anda. Sila hantar pertanyaan melalui borang di bawah, dan pasukan sokongan kami akan membalas dengan segera.",
+    "formName": "Nama",
+    "formNamePlaceholder": "Masukkan nama anda",
+    "formSurname": "Nama Keluarga",
+    "formSurnamePlaceholder": "Masukkan nama keluarga anda",
+    "formPhone": "Telefon",
+    "formPhonePlaceholder": "+60 12-345 6789",
+    "formEmail": "Emel",
+    "formEmailPlaceholder": "sokongan@tradertok.com",
+    "formMessage": "Mesej",
+    "formMessagePlaceholder": "Ceritakan pertanyaan anda...",
+    "formSubmit": "Hantar Mesej"
+  },
+  "legalPage": {
+    "pageTitle": "Undang-Undang - TraderTok | Terma & Polisi",
+    "pageDescription": "Maklumat undang-undang TraderTok, terma perkhidmatan, polisi privasi, dan pendedahan pengawalseliaan.",
+    "heroTitle": "Maklumat Undang-Undang &",
+    "heroTitleHighlight": "Polisi",
+    "heroDescription1": "Di TraderTok, kami komited untuk mengekalkan standard tertinggi pematuhan pengawalseliaan, integriti undang-undang, dan perlindungan pelanggan.",
+    "heroDescription2": "Di bawah, anda akan menemui dokumen undang-undang utama kami, yang mentakrifkan rangka kerja perkhidmatan kami dan menggariskan hak serta tanggungjawab anda sebagai pelanggan.",
+    "heroNote": "Kami amat menggalakkan semua pelanggan untuk meneliti dengan teliti sebelum membuka akaun atau memulakan sebarang aktiviti dagangan:",
+    "docPrivacyPolicy": "Polisi Privasi",
+    "docPrivacyPolicyDesc": "Syarikat mengekalkan rangka kerja perlindungan data yang komprehensif.",
+    "docTermsConditions": "Terma & Syarat",
+    "docTermsConditionsDesc": "Perjanjian ini menetapkan perkhidmatan pelaburan dan tambahan yang disediakan oleh Syarikat.",
+    "docAmlPolicy": "Polisi Anti-Pengubahan Wang Haram",
+    "docAmlPolicyDesc": "Polisi ini menjelaskan komitmen Syarikat untuk mencegah dan mengesan pengubahan wang haram.",
+    "docOrderExecution": "Polisi Pelaksanaan Pesanan",
+    "docOrderExecutionDesc": "Syarikat komited untuk menyediakan keadaan dagangan yang optimum kepada pelanggan.",
+    "docRiskDisclosure": "Pendedahan Risiko",
+    "docRiskDisclosureDesc": "Dokumen ini memaklumkan anda tentang risiko yang wujud dalam dagangan.",
+    "docGeneralRiskDisclosure": "Pendedahan Risiko Umum",
+    "docGeneralRiskDisclosureDesc": "Menjelaskan risiko umum dalam dagangan instrumen kewangan dan memaklumkan pelanggan tentang kemungkinan kerugian dan ketidaktentuan pasaran.",
+    "docClientServiceAgreement": "Perjanjian Perkhidmatan Pelanggan",
+    "docClientServiceAgreementDesc": "Mentakrifkan terma, syarat, hak, dan kewajiban yang mengatur hubungan antara pelanggan dan Syarikat.",
+    "important": "Penting",
+    "importantNotice": "Dengan meneruskan penggunaan perkhidmatan kami, anda mengesahkan bahawa anda telah membaca, memahami, dan bersetuju dengan terma yang dinyatakan dalam polisi ini."
+  },
+  "accountTypesPage": {
+    "pageTitle": "Jenis Akaun - TraderTok | Pilih Akaun Dagangan Anda",
+    "pageDescription": "Terokai jenis akaun TraderTok yang direka untuk menepati pengalaman dan matlamat dagangan anda.",
+    "heroTitle": "Pilih",
+    "heroTitleHighlight": "Jenis Akaun",
+    "heroSubtitle": "Tidak kira matlamat dagangan anda, TraderTok menawarkan akaun yang disesuaikan dengan sempurna. Terokai dan bandingkan lima pilihan akaun kami untuk mencari yang paling sesuai dengan keperluan anda.",
+    "getStarted": "Mula",
+    "mostPopular": "Paling Popular",
+    "standard": {
+      "name": "Standard",
+      "feature1": "Akses asas ke platform dagangan",
+      "feature2": "Sokongan pelanggan standard",
+      "feature3": "Alat analisis pasaran standard",
+      "feature4": "Akses kepada sumber pendidikan",
+      "feature5": "Kemaskini pasaran secara berkala",
+      "feature6": "Pengurus Akaun"
+    },
+    "advanced": {
+      "name": "Lanjutan",
+      "feature1": "Semua kelebihan Akaun Standard",
+      "feature2": "Kos transaksi lebih rendah",
+      "feature3": "Alat carta lanjutan",
+      "feature4": "Sokongan pelanggan keutamaan",
+      "feature5": "Analisis pasaran harian dan laporan penyelidikan",
+      "feature6": "Pengurus Akaun",
+      "note": "Potensi Pendapatan Lebih Tinggi: Nikmati kos transaksi yang lebih rendah, membolehkan anda mengekalkan peratusan keuntungan lebih tinggi"
+    },
+    "professional": {
+      "name": "Profesional",
+      "feature1": "Semua kelebihan Akaun Lanjutan",
+      "feature2": "Pengurangan swap 50%",
+      "feature3": "Laporan penyelidikan eksklusif",
+      "feature4": "Kos transaksi lebih rendah",
+      "feature5": "Pembantu peribadi khusus",
+      "feature6": "Syarat dagangan boleh disesuaikan",
+      "feature7": "Penggunaan alat AI (terhad)",
+      "feature8": "Pendidikan menyeluruh oleh penganalisis senior",
+      "note": "Potensi Pendapatan Lebih Tinggi: Kos transaksi antara yang terendah, dengan penggunaan pembantu peribadi dan alat AI untuk membimbing anda melalui pasaran kewangan"
+    },
+    "exclusive": {
+      "name": "Eksklusif",
+      "feature1": "Semua kelebihan Akaun Profesional",
+      "feature2": "Tiada yuran swap!",
+      "feature3": "Kos transaksi terendah",
+      "feature4": "Akses keutamaan kepada ciri dan alat baru",
+      "feature5": "Sumber pendidikan eksklusif",
+      "feature6": "Acara VIP dan peluang jaringan",
+      "feature7": "Akses peribadi berkala kepada penganalisis senior",
+      "feature8": "Tahap sokongan pelanggan tertinggi dengan masa respons lebih pantas",
+      "note": "Nikmati kos transaksi terendah, tiada yuran swap, ciri eksklusif, dan sokongan peribadi, mengoptimumkan prestasi dagangan untuk potensi pulangan lebih tinggi"
+    },
+    "black": {
+      "name": "BLACK",
+      "feature1": "Semua kelebihan Akaun Eksklusif",
+      "feature2": "Penganalisis senior peribadi",
+      "feature3": "Bonus sambutan 300,000",
+      "feature4": "Akses kepada koleksi maklumat pendidikan peribadi",
+      "feature5": "Tawaran peribadi dan boleh dirunding",
+      "feature6": "Penganalisis pengawasan"
+    }
+  },
+  "researchPage": {
+    "pageTitle": "Penyelidikan - TraderTok | Analisis & Wawasan Pasaran",
+    "pageDescription": "Analisis pasaran mendalam dan wawasan daripada penganalisis pakar TraderTok.",
+    "heroTitle": "Wawasan Pasaran Yang",
+    "heroTitleHighlight": "Bermakna",
+    "heroDesc1": "Bahan penyelidikan kami disediakan dengan teliti untuk membantu pedagang dan pelabur memahami pasaran dengan lebih baik. Setiap video dan PDF di halaman ini dibangunkan untuk menawarkan wawasan yang praktikal, jelas, dan berdasarkan pengalaman pasaran sebenar.",
+    "heroDesc2": "Kami memahami dunia kewangan boleh kompleks, jadi kami berusaha untuk menyampaikan maklumat secara tersusun dan mudah difahami, tanpa mengorbankan kedalaman yang penting.",
+    "videoLessons": "Pelajaran Video",
+    "pdfReports": "Laporan PDF",
+    "weeklyUpdates": "Kemaskini Mingguan",
+    "videoMaterials": "Bahan Video",
+    "videoMaterialsDesc": "Tonton analisis pakar dan wawasan dagangan kami",
+    "latestVideos": "Video Terkini",
+    "researchReports": "Laporan Penyelidikan",
+    "researchReportsDesc": "Muat turun analisis mendalam dan laporan pasaran terperinci",
+    "pdfDownloads": "Muat Turun PDF",
+    "whyEducation": "Mengapa Pendidikan",
+    "whyEducationHighlight": "Penting",
+    "whyEducationDesc1": "Dalam dunia dagangan dan pelaburan yang pantas, pendidikan bukan pilihan—ia penting. Keputusan yang bijak bermula dengan memahami instrumen, risiko, dan konteks ekonomi yang lebih luas.",
+    "whyEducationDesc2": "Pasaran berubah, corak berkembang, dan peluang baru muncul setiap hari—mereka yang bersedia adalah yang sentiasa maklum. Kami percaya memberi pengetahuan kepada pedagang adalah salah satu perkhidmatan paling berharga yang boleh kami tawarkan.",
+    "practicalInsights": "Wawasan Praktikal",
+    "expertAnalysis": "Analisis Pakar",
+    "weeklyUpdatesFeature": "Kemaskini Mingguan",
+    "clearStructure": "Struktur Jelas"
+  },
+  "eventsCalendarPage": {
+    "pageTitle": "Kalendar Acara - TraderTok | Acara Pasaran Penting",
+    "pageDescription": "Jejak acara pasaran penting dan pelepasan ekonomi.",
+    "heroTitle": "Gambaran",
+    "heroTitleHighlight": "Pasaran",
+    "heroSubtitle": "Data pasaran masa nyata, acara ekonomi, dan harga mata wang kripto di satu tempat",
+    "liveMarket": "Pasaran Langsung",
+    "liveMarketDesc": "Kutipan masa nyata untuk pasangan forex utama, indeks, dan komoditi",
+    "live": "LANGSUNG",
+    "economicCalendar": "Kalendar Ekonomi",
+    "economicCalendarDesc": "Acara ekonomi yang akan datang dan kesannya dijangka kepada pasaran",
+    "cryptoMarket": "Pasaran Mata Wang Kripto",
+    "cryptoMarketDesc": "Mata wang kripto teratas mengikut permodalan pasaran dengan data masa nyata"
+  },
+  "tradingEssentialsPage": {
+    "pageTitle": "Asas Dagangan - TraderTok | Pelajari Asas Dagangan",
+    "pageDescription": "Pelajari asas dagangan dengan sumber pendidikan komprehensif kami.",
+    "heroTitle": "Asas",
+    "heroTitleHighlight": "Dagangan",
+    "heroSubtitle": "TraderTok menyediakan kandungan untuk semua pelanggan, mengikut tahap kemahiran dan pengalaman mereka. Bagi pemula, satu bahagian \"asas dagangan\" yang luas akan disediakan. Di sini, kami akan menerangkan semua terminologi penting serta pendidikan asas yang diperlukan untuk memulakan perjalanan dagangan anda."
+  },
+  "videoEducationPage": {
+    "pageTitle": "Pendidikan Video - TraderTok | Tutorial Dagangan",
+    "pageDescription": "Tonton tutorial dagangan dan wawasan pakar untuk meningkatkan kemahiran dagangan anda.",
+    "heroTitle": "Pendidikan",
+    "heroTitleHighlight": "Video",
+    "comingSoon": "Akan Datang",
+    "heroSubtitle": "TraderTok menawarkan pelbagai sumber pendidikan. Salah satu cara untuk mempelajari dagangan ialah melalui galeri video kami yang luas, merangkumi banyak topik hangat yang sentiasa relevan untuk pedagang profesional mahupun pemula."
+  },
+  "liveTrainingPage": {
+    "pageTitle": "Latihan Langsung - TraderTok | Sesi Dagangan Pakar",
+    "pageDescription": "Sertai sesi dagangan langsung bersama penganalisis pakar kami.",
+    "heroTitle": "Belajar Dagangan",
+    "heroTitleHighlight": "Secara Langsung",
+    "heroDescription": "Sertai sesi dagangan langsung dan webinar yang dikendalikan oleh pakar kami. Dapatkan analisis pasaran masa nyata, pelajari strategi terbukti, dan berinteraksi secara langsung dengan pedagang profesional.",
+    "sessionsMonth": "Sesi/Bulan",
+    "activeLearners": "Pelajar Aktif",
+    "expertTrainers": "Jurulatih Pakar",
+    "hoursTraining": "Jam Latihan",
+    "upcomingSessions": "Sesi Akan Datang",
+    "upcomingSessionsDesc": "Tempah tempat anda dalam sesi dagangan langsung seterusnya. Tempat adalah terhad.",
+    "registerNow": "Daftar Sekarang",
+    "daysLeft": "hari lagi sebelum acara",
+    "event1": {
+      "monthShort": "Feb",
+      "fullDate": "Rabu, 18 Februari 2026",
+      "time": "13:00 GMT+1",
+      "title": "Emas - Mencapai Tahap Baru pada 2026",
+      "description": "Tiada cara yang lebih baik untuk mengajar pelanggan tentang pasaran dan pelaburan selain melalui latihan langsung. Sertai webinar eksklusif kami untuk mempelajari lebih banyak setiap minggu."
+    },
+    "event2": {
+      "monthShort": "Feb",
+      "fullDate": "Jumaat, 20 Februari 2026",
+      "time": "14:00 GMT+1",
+      "title": "Asas Forex - Menguasai Dagangan Mata Wang",
+      "description": "Temui strategi penting untuk berjaya dalam dagangan forex. Penganalisis pakar kami akan membimbing anda melalui analisis pasaran, pengurusan risiko, dan teknik dagangan yang menguntungkan."
+    }
+  },
+  "tradingCentral": {
+    "eyebrow": "Trading Central",
+    "heroTitlePart1": "Analitik Maju untuk",
+    "heroTitlePart2": "Dagangan Lebih Bijak",
+    "heroSubtitle": "TraderTok membawa anda salah satu alat pasaran paling berkuasa untuk dagangan moden. Trading Central menggabungkan teknologi terkini dengan analisis pasaran pakar untuk meningkatkan pengalaman dagangan anda.",
+    "heroBtn": "Akses Trading Central",
+    "stats": {
+      "s1lbl": "Liputan Pasaran Global",
+      "s2lbl": "Pecahan Aset",
+      "s3lbl": "Acara Dipantau",
+      "s4lbl": "Sumber Berita Terkumpul"
+    },
+    "midTitlePart1": "Sentiasa Terkini dengan Trend Pasaran",
+    "midTitlePart2": "dengan Analitik Masa Sebenar",
+    "features": {
+      "f1title": "Wawasan Berdasarkan Data",
+      "f1desc": "Sentiasa selangkah lebih maju dengan analitik canggih dan wawasan pakar.",
+      "registerBtn": "Daftar untuk Akses",
+      "f2title": "Analisis Tahap Profesional",
+      "f2desc": "Navigasi pasaran global dengan alat imbasan pasaran terkini yang dikuasakan oleh AI.",
+      "f3title": "Peluang Pasaran Tanpa Had",
+      "f3desc": "Akses wawasan masa nyata ke ratusan instrumen kewangan."
+    },
+    "cta": {
+      "title": "Daftar untuk akses Trading Central secara PERCUMA",
+      "desc": "Buka kuasa penuh Trading Central apabila anda mendaftar dengan TraderTok. Trading Central meningkatkan pengalaman dagangan anda dengan menyediakan wawasan berguna dan analisis pakar tanpa kos tambahan.",
+      "btn": "Daftar untuk Akses"
+    },
+    "tools": {
+      "title": "Pakej Alat Pasaran Terunggul",
+      "subtitle": "Di TraderTok, kami berbangga menyediakan anda dengan alat dan wawasan yang diperlukan untuk berjaya. Terokai kuasa Trading Central dan ubah cara anda berdagang.",
+      "t1title": "Analisis Berita & Sentimen",
+      "t1desc": "Dapatkan maklumat terkini dengan analisis berita dan sentimen menyeluruh merangkumi forex, saham, komoditi, indeks, kriptowang, dan banyak lagi. Manfaatkan wawasan berdasarkan data untuk menavigasi pasaran dengan yakin dan merebut peluang sebaik ia muncul.",
+      "t2title": "Analitik Harga",
+      "t2desc": "Analisis pergerakan harga masa nyata dan temui peluang dagangan merangkumi 250+ aset. Kekal selangkah di hadapan trend pasaran dengan analisis ekonomi dan harga yang tepat, membolehkan anda bertindak dengan yakin dan memaksimumkan potensi dagangan.",
+      "t3title": "Instrumen & Wawasan",
+      "t3desc": "Akses analisis teknikal berguna untuk pelbagai instrumen kewangan. Gunakan analitik canggih, teknologi pengenalan corak, dan data masa nyata untuk mengenal pasti peluang pasaran dan membuat keputusan dagangan yang bijak. Dapatkan kejelasan dan keyakinan untuk menavigasi landskap kewangan yang pantas hari ini.",
+      "t4title": "Idea Boleh Dilaksanakan",
+      "t4desc": "Temui idea dagangan langsung yang dijana daripada gabungan analisis teknikal dan fundamental. Kenal pasti peluang bullish dan bearish masa nyata dan buat keputusan berdasarkan data yang selaras dengan strategi dagangan anda.",
+      "btn": "Mulakan"
+    },
+    "faq": {
+      "title": "Soalan Lazim Trading Central",
+      "q1": "Apa itu Trading Central?",
+      "a1": "Trading Central ialah suite analisis dan penyelidikan pasaran canggih yang menggabungkan teknologi AI terkini dengan kepakaran penganalisis kewangan berpengalaman. Dengan menggabungkan pembelajaran mesin dan kepintaran manusia, Trading Central menyediakan idea dagangan tepat, wawasan pasaran mendalam, dan data masa nyata untuk membantu pedagang dari semua tahap membuat keputusan yang berinformasi.",
+      "q2": "Bagaimana saya mengakses Trading Central?",
+      "a2": "Untuk mengakses Trading Central TraderTok, anda perlu log masuk ke akaun anda. Semua alat Trading Central boleh ditemui dalam persekitaran dagangan kami. Trading Central diintegrasikan dengan lancar dalam platform, memberikan anda alat dan wawasan yang berkuasa di hujung jari.",
+      "q3": "Pasaran apa yang diliputi Trading Central?",
+      "a3": "Trading Central menyediakan wawasan menyeluruh ke dalam pelbagai pasaran yang ditawarkan oleh TraderTok, membolehkan anda mempelbagaikan portfolio dagangan. Dari Forex, Komoditi, Indeks, Kriptowang hingga Saham, Trading Central menyampaikan analisis pakar dan idea dagangan merentas pelbagai instrumen kewangan.",
+      "q4": "Mengapa memilih TraderTok dan Trading Central?",
+      "a4": "Apabila anda memilih TraderTok, anda menyertai broker yang dipercayai dan komited terhadap kejayaan anda. Kami menyediakan pengalaman dagangan lancar dengan sokongan tiada tandingan, spread rendah, dan pelbagai alat dagangan premium termasuk Trading Central tanpa kos tambahan. Dengan bekerjasama dengan TraderTok, anda mendapat akses kepada kepakaran, sumber, dan teknologi yang diperlukan untuk mencapai matlamat kewangan anda."
+    }
+  },
+  "tradingEssentials": {
+    "titlePart1": "Sumber",
+    "titlePart2": "Pendidikan",
+    "subtitle1": "Kuasi asas pasaran forex dengan koleksi panduan dagangan penting kami.",
+    "subtitle2": "Terokai perpustakaan kami yang mempunyai lebih daripada 20 artikel. Mulakan dari asas atau fokus pada topik tertentu."
+  }
+}

@@ -66,25 +66,65 @@
             var parentLink = dropdown.parentElement.querySelector('a.nav-link');
             var basePath = parentLink ? parentLink.getAttribute('href') : './offers-promotions';
 
+            var lockedCountry =
+                window.subdomainData && window.subdomainData.country
+                    ? window.subdomainData.country
+                    : null;
+
             var html = '<div class="offers-dropdown-grid">';
             REGION_GROUPS.forEach(function(group) {
                 html += '<div class="offers-dropdown-col">';
                 html += '<h4 class="offers-dropdown-heading">' + group.title + '</h4>';
                 group.countries.forEach(function(c) {
-                    html += '<a href="' + basePath + '#' + c.id + '" class="offers-dropdown-item">' +
-                        '<span class="offers-flag">' + FLAGS[c.id] + '</span>' +
-                        '<span class="offers-dropdown-info">' +
-                            '<span class="offers-dropdown-name">' + c.name + '</span>' +
-                            '<span class="offers-dropdown-offer">' + c.offer + '</span>' +
+                    var isLockedInactive =
+                        lockedCountry && c.id !== lockedCountry;
+                    var rowClass =
+                        'offers-dropdown-item' +
+                        (isLockedInactive ? ' offers-dropdown-item--disabled' : '');
+                    var inner =
+                        '<span class="offers-flag">' +
+                        FLAGS[c.id] +
                         '</span>' +
-                    '</a>';
+                        '<span class="offers-dropdown-info">' +
+                        '<span class="offers-dropdown-name">' +
+                        c.name +
+                        '</span>' +
+                        '<span class="offers-dropdown-offer">' +
+                        c.offer +
+                        '</span>' +
+                        '</span>';
+                    if (isLockedInactive) {
+                        html +=
+                            '<span class="' +
+                            rowClass +
+                            '" aria-disabled="true" role="presentation">' +
+                            inner +
+                            '</span>';
+                    } else {
+                        html +=
+                            '<a href="' +
+                            basePath +
+                            '#' +
+                            c.id +
+                            '" class="' +
+                            rowClass +
+                            '">' +
+                            inner +
+                            '</a>';
+                    }
                 });
                 html += '</div>';
             });
             html += '</div>';
-            html += '<div class="offers-dropdown-footer">' +
-                    '<a href="' + basePath + '" class="offers-dropdown-all">View All Offers →</a>' +
-                    '</div>';
+            var footerHref = lockedCountry
+                ? basePath + '#' + lockedCountry
+                : basePath;
+            html +=
+                '<div class="offers-dropdown-footer">' +
+                '<a href="' +
+                footerHref +
+                '" class="offers-dropdown-all">View All Offers →</a>' +
+                '</div>';
 
             dropdown.innerHTML = html;
         });

@@ -1,252 +1,119 @@
 <?php
-$id = $_GET['id'] ?? '';
-$articles_json = file_get_contents('assets/data/education_articles.json');
+$articles_json = file_get_contents(__DIR__ . '/../assets/data/education_articles.json');
 $articles = json_decode($articles_json, true);
-
+$article_id = $_GET['id'] ?? '';
 $article = null;
-foreach ($articles as $a) {
-    if ($a['id'] === $id) {
-        $article = $a;
+
+foreach ($articles as $item) {
+    if (($item['id'] ?? '') === $article_id) {
+        $article = $item;
         break;
     }
 }
 
-if (!$article) {
-    header("Location: education-hub");
-    exit;
+if (!$article && !empty($articles)) {
+    $article = $articles[0];
 }
+
+$related_articles = array_values(array_filter($articles, function ($item) use ($article) {
+    return ($item['id'] ?? '') !== ($article['id'] ?? '');
+}));
+$related_articles = array_slice($related_articles, 0, 3);
 ?>
 
-<div class="article-detail-page">
-    <div class="container">
+<section class="education-subpage education-article-page">
+    <section class="education-subpage-hero education-article-hero">
+        <video class="page-hero-video" autoplay loop muted playsinline>
+            <source src="assets/images/education.mp4" type="video/mp4">
+        </video>
+        <div class="page-hero-overlay1"></div>
+        <div class="education-subpage-hero-inner container">
+            <div class="education-subpage-eyebrow"><?php echo htmlspecialchars($article['category'] ?? 'Article'); ?></div>
+            <h1 class="education-subpage-title"><?php echo htmlspecialchars($article['title'] ?? 'Education Article'); ?></h1>
+            <p class="education-subpage-subtitle"><?php echo htmlspecialchars($article['excerpt'] ?? ''); ?></p>
+        </div>
+    </section>
 
-        <!-- Breadcrumb -->
-        <nav class="edu-breadcrumb-nav">
-            <a href="education-hub" data-i18n="educationArticles.general.title">Education Academy</a>
-            <span class="separator">/</span>
-            <span class="current" data-i18n="educationArticles.<?php echo $article['id']; ?>.title"><?php echo htmlspecialchars($article['title']); ?></span>
-        </nav>
+    <section class="education-subpage-content">
+        <div class="container">
+            <div class="education-article-layout">
+                <aside class="education-article-sidebar">
+                    <div class="education-article-panel">
+                        <div class="education-article-panel-label">Article Overview</div>
+                        <h2><?php echo htmlspecialchars($article['title'] ?? ''); ?></h2>
+                        <p><?php echo htmlspecialchars($article['meta_description'] ?? $article['excerpt'] ?? ''); ?></p>
+                    </div>
 
-        <header class="article-header">
-            <!-- <h1 class="article-hero-title">
-                <?php echo htmlspecialchars($article['title']); ?>
-            </h1> -->
+                    <?php if (!empty($article['content']['sections'])): ?>
+                    <div class="education-article-panel">
+                        <div class="education-article-panel-label">In This Article</div>
+                        <ul class="education-article-toc">
+                            <?php foreach ($article['content']['sections'] as $index => $section): ?>
+                            <li>
+                                <a href="#article-section-<?php echo $index + 1; ?>">
+                                    <?php echo htmlspecialchars($section['heading'] ?? 'Section'); ?>
+                                </a>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                    <?php endif; ?>
+                </aside>
 
-            <h1 class="article-hero-title" data-i18n="educationArticles.<?php echo $article['id']; ?>.title">
-                <?php echo htmlspecialchars($article['title']); ?>
-            </h1>
-
-            <div class="article-meta">  
-                <span class="category">
-                    <?php echo htmlspecialchars($article['category']); ?>
-                </span>
-                <span class="read-time" data-i18n="educationArticles.general.time">5 min read</span>
-            </div>
-        </header>
-
-        <div class="article-content-wrapper">
-
-            <main class="article-main-content">
-
-                <div class="article-body-text">
-
-                    <!-- <p class="intro-lead">
-                        <?php echo htmlspecialchars($article['content']['introduction']); ?>
-                    </p> -->
-
-                    <p class="intro-lead" data-i18n="educationArticles.<?php echo $article['id']; ?>.content.introduction">
-                         <?php echo htmlspecialchars($article['content']['introduction']); ?>
-                    </p>
-
-
-                    <!-- <?php foreach($article['content']['sections'] as $section): ?>
-                        <section class="content-section">
-
-                            <h2>
-                                <?php echo htmlspecialchars($section['heading']); ?>
-                            </h2>
-
-                            <div class="section-text">
-                                <?php echo nl2br(htmlspecialchars($section['text'])); ?>
-                            </div>
-
-                        </section>
-                    <?php endforeach; ?> -->
-
-                    <?php foreach($article['content']['sections'] as $key => $section): ?>
-                    <section class="content-section">
-                        <h2 data-i18n="educationArticles.<?php echo $article['id']; ?>.content.sections.<?php echo $key; ?>.heading"></h2>
-                        <div class="section-text" data-i18n="educationArticles.<?php echo $article['id']; ?>.content.sections.<?php echo $key; ?>.text"></div>
+                <article class="education-article-main">
+                    <?php if (!empty($article['content']['introduction'])): ?>
+                    <section class="education-article-block">
+                        <div class="education-article-block-label">Introduction</div>
+                        <p><?php echo htmlspecialchars($article['content']['introduction']); ?></p>
                     </section>
-                    <?php endforeach; ?>
+                    <?php endif; ?>
 
-                    <div class="article-conclusion" data-i18n="educationArticles.<?php echo $article['id']; ?>.content.conclusion">
-                        <p>
-                            <?php echo htmlspecialchars($article['content']['conclusion']); ?>
-                        </p>
-                    </div>
-<!-- 
-                    <div class="article-disclosure">
-                        <p data-i18n-html="educationArticles.<?php echo $article['id']; ?>.content.disclaimer">
-                            <strong data-i18n="educationArticles.general.disclosure">Risk Disclosure:</strong>
-                            <?php echo htmlspecialchars($article['content']['disclaimer']); ?>
-                        </p>
-                    </div> -->
-                    <div class="article-disclosure">
-                        <p>
-                            <strong data-i18n="educationArticles.general.disclosure"></strong>
-                            <span data-i18n="educationArticles.<?php echo $article['id']; ?>.content.disclaimer"></span>
-                        </p>
-                    </div>
+                    <?php if (!empty($article['content']['sections'])): ?>
+                        <?php foreach ($article['content']['sections'] as $index => $section): ?>
+                        <section class="education-article-block" id="article-section-<?php echo $index + 1; ?>">
+                            <h2><?php echo htmlspecialchars($section['heading'] ?? ''); ?></h2>
+                            <p><?php echo htmlspecialchars($section['text'] ?? ''); ?></p>
+                        </section>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
 
+                    <?php if (!empty($article['content']['conclusion'])): ?>
+                    <section class="education-article-block">
+                        <div class="education-article-block-label">Conclusion</div>
+                        <p><?php echo htmlspecialchars($article['content']['conclusion']); ?></p>
+                    </section>
+                    <?php endif; ?>
+
+                    <?php if (!empty($article['content']['disclaimer'])): ?>
+                    <section class="education-article-disclaimer">
+                        <div class="education-article-block-label">Educational Disclaimer</div>
+                        <p><?php echo htmlspecialchars($article['content']['disclaimer']); ?></p>
+                    </section>
+                    <?php endif; ?>
+                </article>
+            </div>
+
+            <?php if (!empty($related_articles)): ?>
+            <section class="education-article-related">
+                <div class="education-subpage-header">
+                    <h2 class="education-subpage-section-title">Related Articles</h2>
+                    <p class="education-subpage-section-subtitle">Continue exploring other educational topics from the same content library.</p>
                 </div>
 
-            </main>
-
+                <div class="education-article-grid">
+                    <?php foreach ($related_articles as $related): ?>
+                    <article class="education-article-card" onclick="window.location.href='education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">
+                        <div class="education-article-card-body">
+                            <div class="education-article-meta"><?php echo htmlspecialchars($related['category'] ?? 'Article'); ?></div>
+                            <h3><?php echo htmlspecialchars($related['title'] ?? ''); ?></h3>
+                            <p><?php echo htmlspecialchars($related['excerpt'] ?? ''); ?></p>
+                            <button class="education-article-link" onclick="event.stopPropagation(); window.location.href='education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">Read Article</button>
+                        </div>
+                    </article>
+                    <?php endforeach; ?>
+                </div>
+            </section>
+            <?php endif; ?>
         </div>
-
-    </div>
-</div>
-
-<style>
-
-.article-detail-page {
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    padding: 150px 0 100px;
-}
-
-/* Breadcrumb */
-
-.edu-breadcrumb-nav {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.9rem;
-    opacity: 0.6;
-    margin-bottom: 30px;
-}
-
-.edu-breadcrumb-nav a {
-    color: inherit;
-    text-decoration: none;
-    transition: opacity 0.2s;
-}
-
-.edu-breadcrumb-nav a:hover {
-    opacity: 1;
-}
-
-/* Header */
-
-.article-header {
-    margin-bottom: 40px;
-}
-
-.article-hero-title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 900;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-
-.article-meta {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.article-meta .category {
-    background: var(--brand-gradient);
-    padding: 4px 12px;
-    border-radius: 40px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.article-meta .read-time {
-    font-size: 0.9rem;
-    opacity: 0.6;
-}
-
-/* Centered Layout */
-
-.article-content-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-/* Article Container */
-
-.article-main-content {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 60px;
-    border-radius: 32px;
-    max-width: 1200px;
-    width: 100%;
-}
-
-/* Typography */
-
-.article-body-text p {
-    margin-bottom: 20px;
-}
-
-.intro-lead {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    font-weight: 500;
-    margin-bottom: 40px;
-}
-
-/* Sections */
-
-.content-section {
-    margin-bottom: 50px;
-}
-
-.content-section h2 {
-    font-size: 1.75rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
-
-.section-text {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    opacity: 0.9;
-}
-
-/* Conclusion */
-
-.article-conclusion {
-    padding: 30px;
-    background: var(--bg-secondary);
-    border-radius: 20px;
-    font-style: italic;
-    margin-bottom: 40px;
-}
-
-/* Disclosure */
-
-.article-disclosure {
-    font-size: 0.85rem;
-    opacity: 0.5;
-    border-top: 1px solid var(--card-border);
-    padding-top: 30px;
-}
-
-/* Mobile */
-
-@media (max-width: 991px) {
-
-    .article-main-content {
-        padding: 40px 20px;
-    }
-
-}
-
-</style>
+    </section>
+</section>

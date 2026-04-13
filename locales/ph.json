@@ -1,0 +1,1398 @@
+{
+  "meta": {
+    "title": "TraderTok - Propesyonal na Trading Platform | Mag-trade nang may Kumpiyansa",
+    "description": "Palaguin ang iyong ipon nang may kumpiyansa sa TraderTok. Mag-access sa makapangyarihang desktop at mobile trading platforms, real-time na market analysis, 24/7 support, at ekspertong insights."
+  },
+  "nav": {
+    "meetTheTeam": "Kilalanin ang Koponan",
+    "tradingPlatforms": "Trading Platforms",
+    "accountTypes": "Mga Uri ng Account",
+    "educationResources": "Mga Pinagkukunan ng Edukasyon",
+    "marketsOverview": "Pangkalahatang Pagsusuri ng Merkado",
+    "legal": "Legal",
+    "contactUs": "Makipag-ugnayan sa Amin",
+    "regulations": "Regulasyon",
+    "generalRiskDisclosure": "Pangkalahatang Pagpapahayag ng Panganib",
+    "clientServiceAgreement": "Kasunduan sa Serbisyo ng Kliyente",
+    "riskDisclaimer": "Paalala sa Panganib",
+    "termsConditions": "Mga Tuntunin at Kundisyon",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "offers": "Mga Alok",
+    "educationHub": "Education Hub",
+    "trading": "Trading",
+    "aboutUs": "Tungkol sa Amin"
+  },
+  "dropdown": {
+    "tradingEssentials": "Mga Pangunahing Kaalaman sa Trading",
+    "tradingEssentialsDesc": "Matutunan ang mga pangunahing kaalaman sa trading",
+    "videoEducation": "Edukasyong Video",
+    "videoEducationDesc": "Manood ng mga tutorial at ekspertong insights",
+    "eventsCalendar": "Kalendaryo ng Mga Kaganapan",
+    "eventsCalendarDesc": "Subaybayan ang mahahalagang kaganapan sa merkado",
+    "research": "Pananaliksik",
+    "researchDesc": "Malalim na pagsusuri at insights sa merkado",
+    "liveTraining": "Live na Pagsasanay",
+    "liveTrainingDesc": "Sumali sa live sessions kasama ang mga eksperto",
+    "legalDocuments": "Mga Legal na Dokumento",
+    "legalDocumentsDesc": "Tuklasin ang aming mga legal na dokumento",
+    "regulations": "Regulasyon",
+    "regulationsDesc": "Tuklasin ang aming mga regulasyon",
+    "tradingPlatform": "Trading Platform",
+    "tradingPlatformDesc": "Tuklasin ang aming mga platform",
+    "tradingCentral": "Trading Central",
+    "tradingCentralDesc": "Advanced na analytics at insights"
+  },
+  "whatsapp": {
+    "tooltip": "Makipag-chat sa amin",
+    "greeting": "Kamusta! Maligayang pagdating sa TraderTok. Narito kami upang tulungan ka. Ano ang maaari naming gawin para sa iyo ngayon?"
+  },
+  "language": {
+    "title": "Wika",
+    "english": "Ingles",
+    "hindi": "हिन्दी",
+    "spanish": "Español",
+    "thai": "ไทย",
+    "vietnamese": "Tiếng Việt",
+    "malay": "Bahasa Melayu",
+    "indonesian": "Bahasa Indonesia",
+    "tagalog": "Tagalog",
+    "urdu": "اردو"
+  },
+  "auth": {
+    "signIn": "Mag-sign In",
+    "signUp": "Mag-sign Up",
+    "welcomeBack": "Maligayang Pagbabalik",
+    "signInToContinue": "Mag-sign in upang ipagpatuloy ang trading",
+    "createAccount": "Gumawa ng Account",
+    "startJourney": "Simulan ang iyong trading journey ngayon",
+    "email": "Email",
+    "emailPlaceholder": "support@tradertok.com",
+    "password": "Password",
+    "passwordPlaceholder": "Ilagay ang iyong password",
+    "createPassword": "Gumawa ng malakas na password",
+    "confirmPassword": "Kumpirmahin ang Password",
+    "confirmPasswordPlaceholder": "Kumpirmahin ang iyong password",
+    "firstName": "Unang Pangalan",
+    "firstNamePlaceholder": "Juan",
+    "lastName": "Apelyido",
+    "lastNamePlaceholder": "Dela Cruz",
+    "phoneNumber": "Numero ng Telepono",
+    "phonePlaceholder": "0917 123 4567",
+    "rememberMe": "Tandaan Ako",
+    "forgotPassword": "Nakalimutan ang password?",
+    "orContinueWith": "o magpatuloy gamit ang",
+    "termsAgree": "Sumasang-ayon ako sa",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "and": "at",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "searchCountry": "Hanapin ang bansa..."
+  },
+  "hero": {
+    "subtitle": "Pamumuhunan sa Mahahalagang Metal",
+    "title": "Pasukin ang <span class=\"highlight-gold\">Ginto</span> at <span class=\"highlight-silver\">Pilak</span>: Ang Ligtas na Kanlungan ng Matatalinong Puhunan",
+    "description": "Kapag nanginginig ang merkado, matibay ang mga mahahalagang metal. Tuklasin kung bakit ang ginto at pilak ang pangunahing assets para mapanatili ang yaman at samantalahin ang mga pagkakataon sa pagbili ngayon. Sa limitadong supply at lumalaking global demand, ang presyo ngayon ay maaaring maging nakaligtaang pagkakataon bukas.",
+    "getStarted": "Magsimula",
+    "learnMore": "Matuto Pa"
+  },
+  "earningsPopup": {
+    "badge": "Limitadong Panahon na Alok",
+    "title": "Ulat sa Kita at Premarket na Mga Pagkakataon",
+    "period": "Enero at Pebrero 2026",
+    "days": "Araw",
+    "hours": "Oras",
+    "minutes": "Min",
+    "seconds": "Seg",
+    "description": "Magrehistro ng interes ngayon at makakuha ng eksklusibong promosyon na may garantisadong kita",
+    "cta": "Magrehistro Ngayon",
+    "disclaimer": "*May mga tuntunin at kundisyon. Nanganganib ang kapital."
+  },
+  "about": {
+    "title": "Ang Iyong Mapagkakatiwalaang Kaagapay sa Paglago ng Pananalapi",
+    "subtitle": "Sa TraderTok, muling binibigyang kahulugan namin ang trading sa global markets.",
+    "description1": "Dahil sa aming passion para sa katumpakan, teknolohiya, at oportunidad, nakabuo kami ng platform na nagbibigay kapangyarihan sa mga trader ng lahat ng antas upang kontrolin ang kanilang pinansyal na kinabukasan.",
+    "description2": "Hindi lang kami nagbibigay ng access sa merkado — nagbibigay din kami ng kalinawan, kumpiyansa, at mga makabagong kagamitan na tunay na nakakaapekto. Bawat segundo ay mahalaga sa trading, kaya ginawa namin ang isang environment kung saan ang bilis ay kasabay ng katatagan, at ang inobasyon ay kasabay ng oportunidad.",
+    "happyClients": "Masayang Kliyente",
+    "support": "Suporta",
+    "secure": "Ligtas"
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "Ang Aming Kwento",
+      "titleLine1": "Ang Platform na Nilikhang",
+      "titleHighlight": "Gawin ang Ingay na Maging Insight",
+      "lead": "Mas mabilis kaysa dati ang galaw ng financial markets. Ang TraderTok ay nilikha upang bigyan ang mga trader ng kalinawan, imprastruktura, at kumpiyansa sa pag-navigate nito.",
+      "stat1Title": "Multi-Asset",
+      "stat1Label": "Access sa Merkado",
+      "stat2Title": "24/7",
+      "stat2Label": "Suporta sa Kliyente",
+      "stat3Title": "Global",
+      "stat3Label": "Saklaw ng Merkado"
+    },
+    "origin": {
+      "label": "Real-time na pagpapatupad",
+      "front": "Trading na pinapatakbo ng insight, hindi ingay",
+      "title": "Bakit Nilikha ang TraderTok",
+      "p1": "Ang impormasyon ay mabilis kumalat, ang mga global na kaganapan ay nagbabago ng merkado sa loob ng ilang segundo, at ang mga trader ay palaging napapalibutan ng ingay — opinyon, hula, signal, at napakaraming data.",
+      "p2": "Habang lumawak ang access sa global markets, marami pa ring trader ang nahihirapang makahanap ng platform na pinagsasama ang pagiging maaasahan, transparency, at institutional-level na imprastruktura sa iisang lugar.",
+      "p3": "Nilikha ang TraderTok upang tugunan ang hamon na ito. Sa halip na magpokus lamang sa access sa merkado, binuo ng TraderTok ang isang kumpletong trading ecosystem — na nagbibigay ng mga tools, imprastruktura, at katatagan na kailangan upang makipag-navigate sa global financial markets nang may kumpiyansa."
+    },
+    "vision": {
+      "badge": "Vision",
+      "statement": "Itatag ang TraderTok bilang globally trusted, technology-driven na multi-asset trading platform na nagbibigay ng transparent na access sa international financial markets.",
+      "p1": "Layunin naming bumuo ng sustainable na trading ecosystem na pinagsasama ang institutional-grade na imprastruktura, regulatory integrity, at advanced execution technology — upang bigyan kapangyarihan ang mga trader at strategic partners na lumahok nang may kumpiyansa sa global economy.",
+      "p2": "Ang pangmatagalang vision ng TraderTok ay maghatid ng performance, katatagan, at kredibilidad sa mga high-growth na rehiyon habang pinapanatili ang pinakamataas na pamantayan ng governance, compliance, at proteksyon ng kliyente."
+    },
+    "pillars": {
+      "title": "Strategic Focus",
+      "subtitle": "Anim na pangunahing haligi na gumagabay sa aming operasyon at paglago",
+      "p1Title": "Advanced Trading Technology",
+      "p1Body": "Nagbibigay ng makabagong trading technology at low-latency execution infrastructure para sa optimal na performance.",
+      "p2Title": "Diversified Market Access",
+      "p2Body": "Multi-asset coverage kabilang ang Forex, CFDs, indices, at commodities sa iisang integrated environment.",
+      "p3Title": "Regulatory Framework",
+      "p3Body": "Nag-ooperate sa loob ng structured regulatory framework alinsunod sa pinakamataas na international financial standards.",
+      "p4Title": "Transparent Conditions",
+      "p4Body": "Nagpo-promote ng transparent trading conditions at responsible risk management practices para sa bawat trader.",
+      "p5Title": "Emerging Markets Growth",
+      "p5Body": "Pinalalawak sa emerging at high-growth markets sa pamamagitan ng scalable, sustainable, at community-driven na modelo.",
+      "p6Title": "Long-Term Partnerships",
+      "p6Body": "Nagtatayo ng pangmatagalang relasyon sa kliyente at partner base sa tiwala, performance, at operational excellence."
+    },
+    "values": {
+      "title": "Core Values",
+      "subtitle": "Ang mga prinsipyo na gumagabay sa bawat desisyon namin",
+      "v1Title": "Transparency",
+      "v1Body": "Sa pamamagitan ng pagpapahalaga sa transparency, pagiging maaasahan, at operational efficiency, layunin ng TraderTok na bumuo ng pangmatagalang relasyon sa mga trader at partner sa buong mundo.",
+      "v2Title": "Reliability",
+      "v2Body": "Matibay na teknolohikal na imprastruktura na dinisenyo upang maghatid ng efficient trade execution, system stability, at secure trading operations — palaging.",
+      "v3Title": "Technology-First",
+      "v3Body": "Ang teknolohiya ay hindi lamang operational component — ito ang pundasyon na nagpapagana ng performance, katatagan, at transparency sa trading.",
+      "v4Title": "Client-Centered",
+      "v4Body": "Bawat elemento ng TraderTok environment ay dinisenyo upang tulungan ang mga trader na mag-focus sa pinakamahalaga: strategy, decision-making, at pangmatagalang performance."
+    },
+    "global": {
+      "title": "Global Market Access",
+      "body": "Sa pamamagitan ng platform, nakakakuha ang mga trader ng access sa diversified na hanay ng financial instruments, na nagpapahintulot sa kanila na lumahok sa international markets sa iisang integrated environment.",
+      "forex": "Forex",
+      "cfds": "CFDs",
+      "indices": "Indices",
+      "commodities": "Commodities"
+    },
+    "cta": {
+      "title": "Handa nang mag-trade nang malinaw?",
+      "body": "Sumali sa platform kung saan nagtutulungan ang teknolohiya, access sa merkado, at operational transparency.",
+      "primary": "Magsimulang Mag-trade",
+      "secondary": "Tuklasin ang Education Hub"
+    }
+  },
+  "educationHub": {
+    "hero": {
+      "title": "Matutunan ang Forex sa <span>Tamang Paraan</span>",
+      "subtitle": "Ma-access ang 20+ na komprehensibong trading guides na partikular na idinisenyo para sa mga baguhan. Walang komplikadong jargon, malinaw na paliwanag para masimulan ang iyong paglalakbay.",
+      "cta": "Tingnan ang Mga Artikulo",
+      "trust": "Sumali sa 5,000+ trader na nag-aaral sa TraderTok"
+    },
+    "learn": {
+      "title": "Ano ang Matututunan Mo",
+      "subtitle": "Saklaw ng aming kurikulum ang lahat ng kailangan mong malaman upang makapagsimula.",
+      "items": [
+        {
+          "title": "Pangunahing Kaalaman sa Forex",
+          "description": "Unawain ang mga pangunahing mekanismo ng pinakamalaking financial market sa mundo."
+        },
+        {
+          "title": "Leverage at Margin",
+          "description": "Matutunan kung paano gamitin ang trading power nang maayos at protektahan ang iyong kapital."
+        },
+        {
+          "title": "Pangunahing Pamamahala ng Panganib",
+          "description": "Ang pangunahing kasanayan na kailangan ng bawat trader upang mabuhay at lumago."
+        },
+        {
+          "title": "Karaniwang Pagkakamali ng Baguhan",
+          "description": "Makatipid ng oras at pera sa pamamagitan ng pag-iwas sa mga pitfall na karaniwang nararanasan ng mga bagong trader."
+        },
+        {
+          "title": "Market Sessions",
+          "description": "Matutunan kung kailan dapat (at hindi dapat) mag-trade para sa pinakamainam na oportunidad."
+        },
+        {
+          "title": "Trading Psychology",
+          "description": "Maging master sa iyong emosyon upang makagawa ng mas mahusay at mas makatwirang trading decisions."
+        }
+      ]
+    },
+    "whoFor": {
+      "title": "Para Kanino ang Edukasyong Ito?",
+      "for": {
+        "title": "Ito ay para sa iyo kung:",
+        "items": [
+          "Ikaw ay ganap na baguhan na walang karanasan sa trading.",
+          "Gusto mong matutunan ang mga pangunahing kaalaman sa forex market.",
+          "Mas gusto mo ang istrukturado at madaling maintindihan na mga leksyon."
+        ]
+      },
+      "notFor": {
+        "title": "Hindi Ito para sa iyo kung:",
+        "items": [
+          "Naghahanap ka ng garantisadong kita o \"get rich quick\" na scheme.",
+          "Gusto mo ng trading signals o may ibang mag-trade para sa iyo.",
+          "Ayaw mong tanggapin ang mga panganib na kasama sa trading."
+        ]
+      }
+    },
+    "howItWorks": {
+      "title": "Paano Ito Gumagana",
+      "steps": [
+        {
+          "title": "Gumawa ng Iyong Libreng Account",
+          "description": "Punan ang simpleng registration form sa ibaba upang ma-unlock ang hub."
+        },
+        {
+          "title": "Makuha ang Instant Access",
+          "description": "Pagkatapos magrehistro, magkakaroon ka ng full access sa lahat ng 20+ artikulo agad-agad."
+        },
+        {
+          "title": "Mag-explore sa Iyong Sariling Bilis",
+          "description": "Basahin sa anumang device, kahit kailan. Bagong content ay idinadagdag buwan-buwan."
+        }
+      ]
+    },
+    "resources": {
+      "courses": {
+        "title": "Mga Kurso",
+        "description": "Simulan ang iyong trading journey gamit ang libreng online trading courses. Masterin ang sining ng trading sa isang komprehensibong kurikulum na idinisenyo para sa mga baguhan.",
+        "cta": "Matuto Pa"
+      },
+      "videos": {
+        "title": "Mga Educational Video",
+        "description": "I-unlock ang iyong trading potential gamit ang libreng educational videos na sumasaklaw sa mga pangunahing konsepto at estratehiya sa trading.",
+        "cta": "Panoorin Ngayon"
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "items": [
+        {
+          "q": "Libre ba talaga ang Education Hub?<span>+</span>",
+          "a": "Oo! Layunin naming bigyan ang mga trader ng tamang kaalaman. Walang nakatagong bayad."
+        },
+        {
+          "q": "Kailangan ko ba ng trading account para ma-access ang hub?<span>+</span>",
+          "a": "Hindi, kailangan mo lamang magrehistro gamit ang form sa pahinang ito upang ma-unlock ang content."
+        },
+        {
+          "q": "Angkop ba ang mga artikulo para sa ganap na baguhan?<span>+</span>",
+          "a": "Oo, lahat ng artikulo ay idinisenyo para sa mga taong walang karanasan sa merkado."
+        },
+        {
+          "q": "Ito ba ay payo sa pananalapi?<span>+</span>",
+          "a": "Hindi. Ang lahat ng content ay para sa edukasyonal na layunin lamang. May kasamang panganib ang trading."
+        },
+        {
+          "q": "Pwede ko bang basahin ang mga artikulo sa aking telepono?<span>+</span>",
+          "a": "Oo, fully optimized ang Education Hub para sa mobile, tablet, at desktop viewing."
+        },
+        {
+          "q": "Ano ang mangyayari pagkatapos kong magrehistro?<span>+</span>",
+          "a": "Makakakuha ka ng instant access sa content. Maaaring makipag-ugnayan ang aming team upang suportahan ang iyong pag-aaral."
+        }
+      ]
+    },
+    "modal": {
+      "title": "Access sa Educational Content",
+      "subtitle": "Upang ma-unlock ang content na ito, pakibigay ang iyong contact details. Makikipag-ugnayan ang aming team upang suportahan ang iyong trading journey.",
+      "submit": "I-submit & I-unlock",
+      "successTitle": "Naipasa ang Application!",
+      "successMessage": "Makikipag-ugnayan sa iyo ang aming manager sa lalong madaling panahon.",
+      "modal": "Sa pamamagitan ng pagsusumite, sumasang-ayon ka sa aming Terms of Service at Privacy Policy"
+    }
+  },
+  "educationArticles": {
+  "general": {
+    "title": "Education Academy",
+    "time": "5 min na pagbasa",
+    "disclosure": "Pahayag ng Panganib:"
+  },
+  "what-is-forex-trading-a-beginners-guide": {
+    "title": "Ano ang Forex Trading? Gabay para sa mga Baguhan",
+    "seo_title": "Ano ang Forex Trading? Gabay ng Baguhan sa Forex Market",
+    "meta_description": "Alamin kung ano ang forex trading, paano gumagana ang global currency market, at ang mga pangunahing konsepto",
+    "category": "Baguhan",
+    "excerpt": "Ang forex trading, kilala rin bilang foreign exchange trading, ay ang proseso ng pagbili at pagbenta ng mga pera sa global financial market...",
+    "content": {
+      "introduction": "Ang forex trading, kilala rin bilang foreign exchange trading, ay ang proseso ng pagbili at pagbenta ng mga pera sa global financial market. Isa ito sa pinakamalaking financial markets sa mundo, na may trilyong dolyar na ipinagpapalit araw-araw. Ang mga tao ay lumalahok sa forex market sa iba't ibang dahilan. Ang ilang trader ay nagnanais samantalahin ang galaw ng presyo ng pera, habang ang mga negosyo at institusyon ay maaaring magpalitan ng pera upang suportahan ang internasyonal na kalakalan. Para sa mga baguhan, ang pag-unawa kung paano gumagana ang forex market ay mahalagang unang hakbang sa pagkatuto tungkol sa financial markets.",
+      "sections": [
+        {
+          "heading": "Ano ang Forex Market?",
+          "text": "Ang forex market ay isang global na pamilihan kung saan ipinagpapalit ang mga pera. Hindi tulad ng stock markets na gumagana sa pamamagitan ng centralized exchanges, ang forex market ay over-the-counter (OTC) sa pamamagitan ng network ng mga bangko, financial institutions, at trading platforms. Laging ipinagpapalit ang mga pera sa pares, ibig sabihin, isang pera ang ipinagpapalit para sa isa pa. Halimbawa: EUR/USD, GBP/USD, USD/JPY. Ang mga pares na ito ay kumakatawan sa halaga ng isang pera kaugnay ng isa pa. Ang forex market ay bukas 24 oras sa isang araw, limang araw sa isang linggo, kaya accessible ito sa mga trader sa iba't ibang rehiyon sa mundo."
+        },
+        {
+          "heading": "Paano Gumagana ang Forex Trading",
+          "text": "Sa forex trading, naghuhula ang mga kalahok kung tataas o bababa ang halaga ng isang pera kaugnay ng iba pang pera. Halimbawa: Kung naniniwala ang isang trader na lalakas ang euro laban sa US dollar, maaari nilang bilhin ang EUR/USD currency pair. Kung tataas ang euro sa halaga, tataas ang presyo ng pair. Kung bababa ang euro, bababa rin ang presyo. Ang presyo ng pera ay palaging nagbabago dahil sa maraming salik tulad ng economic data, interest rates, geopolitical events, at market sentiment."
+        },
+        {
+          "heading": "Mga Pangunahing Kalahok sa Forex Market",
+          "text": "Kasama sa forex market ang iba't ibang kalahok. Kabilang dito: Central banks, Commercial banks, Investment funds, Corporations, Retail traders. Mahalaga ang papel ng central banks sa pag-impluwensya ng currency markets sa pamamagitan ng monetary policy decisions, kabilang ang pagbabago ng interest rates. Ang malalaking financial institutions ang gumagawa ng karamihan ng trading volume, ngunit ang modernong teknolohiya ay naging mas accessible ang forex market para sa mga individual traders."
+        },
+        {
+          "heading": "Bakit Nagbabago ang Presyo ng Pera",
+          "text": "Ang halaga ng pera ay nagbabago dahil sa ilang global economic factors. Ilan sa mga karaniwang salik ay: Economic growth, Pagbabago ng interest rates, Inflation, Mga pangyayaring pampolitika, Internasyonal na kalakalan. Halimbawa, kapag nagtataas ang isang bansa ng interest rates, ang kanilang pera ay maaaring maging mas kaakit-akit sa mga investor na naghahanap ng mas mataas na kita. Maaari itong magpataas ng demand para sa pera na iyon sa global market."
+        },
+        {
+          "heading": "Mahalagang Konsepto na Dapat Malaman ng Baguhan",
+          "text": "Bago laliman ang pag-aaral sa forex trading, dapat maging pamilyar ang baguhan sa ilang pangunahing konsepto. Currency Pairs: Laging ipinagpapalit ang mga pera sa pares. Pips: Ang pip ang pinakamaliit na paggalaw ng presyo sa karamihan ng currency pairs. Spread: Ang spread ay ang pagkakaiba sa pagitan ng bid price at ask price. Leverage: Pinapayagan ng leverage ang trader na kontrolin ang mas malalaking posisyon gamit ang mas maliit na kapital, ngunit nadaragdagan rin ang panganib. Ang pag-unawa sa mga konseptong ito ay makakatulong sa baguhan na mas maunawaan kung paano gumagana ang trading sa praktika."
+        }
+      ],
+      "conclusion": "Ang forex trading ay kinasasangkutan ng pagbili at pagbenta ng mga pera sa global financial market. Bilang isa sa pinaka-aktibong financial markets sa mundo, mahalaga ito sa internasyonal na kalakalan at economic activity. Para sa mga baguhan, ang pagkatuto tungkol sa currency pairs, market drivers, at trading mechanics ay nagbibigay ng pundasyon sa pag-unawa kung paano gumagana ang financial markets. Ang educational resources at market analysis ay makakatulong sa indibidwal na patuloy na paunlarin ang kanilang kaalaman sa forex market.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "how-financial-markets-work": {
+    "title": "Paano Gumagana ang Financial Markets",
+    "seo_title": "Paano Gumagana ang Financial Markets: Gabay ng Baguhan",
+    "meta_description": "Alamin kung paano gumagana ang financial markets, iba't ibang uri ng merkado, at paano sa global level",
+    "category": "Baguhan",
+    "excerpt": "Ang financial markets ay may sentral na papel sa global economy...",
+    "content": {
+      "introduction": "Ang financial markets ay may sentral na papel sa global economy...",
+      "sections": [
+        {
+          "heading": "Ano ang Financial Markets?",
+          "text": "Ang financial market ay isang sistema kung saan nagkakapalitan ang mga buyer at seller ng financial assets..."
+        },
+        {
+          "heading": "Mga Pangunahing Uri ng Financial Markets",
+          "text": "Iba’t ibang uri ng financial markets ang umiiral sa buong mundo..."
+        },
+        {
+          "heading": "Paano Natutukoy ang Presyo",
+          "text": "Ang presyo sa financial markets ay kadalasang natutukoy ng supply at demand..."
+        },
+        {
+          "heading": "Mga Kalahok sa Merkado",
+          "text": "Kasama sa financial markets ang iba't ibang kalahok..."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Financial Markets",
+          "text": "Ang financial markets ay nagsasagawa ng ilang mahahalagang tungkulin..."
+        }
+      ],
+      "conclusion": "Ang financial markets ay kumplikadong sistema...",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin..."
+    }
+  },
+  "what-are-currency-pairs-in-forex": {
+    "title": "Ano ang Currency Pairs sa Forex?",
+    "seo_title": "Paliwanag ng Currency Pairs: Pag-unawa sa Forex Pairs",
+    "meta_description": "Alamin kung ano ang currency pairs sa forex trading...",
+    "category": "Baguhan",
+    "excerpt": "Sa forex market, ipinagpapalit ang mga pera sa pares...",
+    "content": {
+      "introduction": "Sa forex market, ipinagpapalit ang mga pera sa pares. Ibig sabihin, kapag bumibili ka ng isang pera, sabay kang nagbebenta ng isa pang pera. Ang pag-unawa sa kung paano gumagana ang currency pairs ay isa sa pinakamahalagang konsepto para sa sinumang nag-aaral ng forex trading.",
+      "sections": [
+        {
+          "heading": "Base Currency at Quote Currency",
+          "text": "Bawat currency pair ay may dalawang pera. Ang base currency ay ang unang pera na nakalista sa pair. Ang quote currency ay ang pangalawang pera. Halimbawa: EUR/USD. Dito: EUR = base currency USD = quote currency. Kung ang pair ay nasa 1.10, ibig sabihin ang isang euro ay katumbas ng 1.10 US dollars."
+        },
+        {
+          "heading": "Major Currency Pairs",
+          "text": "Ang major currency pairs ay kinabibilangan ng mga pinakaginagamit na pera sa buong mundo. Halimbawa: EUR/USD, USD/JPY, GBP/USD, USD/CHF. Karaniwang may mataas na liquidity at mas maliit na price spreads ang mga pares na ito."
+        },
+        {
+          "heading": "Minor Currency Pairs",
+          "text": "Ang minor currency pairs ay hindi kasama ang US dollar. Halimbawa: EUR/GBP, EUR/AUD, GBP/JPY. Ang mga pares na ito ay aktibong ipinagpapalit pa rin ngunit maaaring may bahagyang mas mababang trading volume."
+        },
+        {
+          "heading": "Exotic Currency Pairs",
+          "text": "Ang exotic pairs ay pinagsamang major currency at pera mula sa emerging economies. Halimbawa: USD/TRY, USD/ZAR, USD/MXN. Maaaring mas mataas ang volatility ng mga exotic pairs."
+        },
+        {
+          "heading": "Bakit Gumagalaw ang Currency Pairs",
+          "text": "Ang mga currency pair ay nagbabago ang halaga dahil sa pagbabago sa economic conditions, patakaran ng central bank, at mga global events. Ang pagbabago sa interest rates, economic growth, at geopolitical developments ay nakakaapekto sa presyo ng pera."
+        }
+      ],
+      "conclusion": "Ang currency pairs ang pundasyon ng forex market. Sa pamamagitan ng pag-unawa sa relasyon ng base at quote currencies, mas maiintindihan ng mga baguhan ang galaw ng presyo at aktibidad sa merkado. Ang pag-aaral kung paano kumikilos ang iba't ibang currency pairs ay makakatulong sa mas malalim na pag-unawa sa global financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "what-is-leverage-in-trading": {
+    "title": "Ano ang Leverage sa Trading?",
+    "excerpt": "Ang leverage ay isang karaniwang konsepto sa financial markets na nagbibigay-daan sa trader na kontrolin ang mas malaking posisyon gamit ang mas maliit na kapital...",
+    "content": {
+      "introduction": "Ang leverage ay isang karaniwang konsepto sa financial markets na nagbibigay-daan sa trader na kontrolin ang mas malaking posisyon gamit ang mas maliit na kapital. Bagama’t maaaring dagdagan ng leverage ang potensyal na kita, pinapataas din nito ang panganib. Ang pag-unawa kung paano gumagana ang leverage ay mahalaga para sa sinumang nag-aaral ng financial markets.",
+      "sections": [
+        {
+          "heading": "Ano ang Leverage?",
+          "text": "Ang leverage ay tumutukoy sa paggamit ng hiniram na pondo upang palakihin ang laki ng trading position. Halimbawa, kung ang isang trader ay gumagamit ng 1:100 leverage, maaari nilang kontrolin ang posisyon na nagkakahalaga ng 100 units gamit lamang ang 1 unit ng sariling kapital. Malawakang ginagamit ang leverage sa forex markets dahil karaniwang maliit ang galaw ng presyo ng pera."
+        },
+        {
+          "heading": "Bakit Ginagamit ang Leverage",
+          "text": "Pinapayagan ng leverage ang mga trader na lumahok sa mas malalaking posisyon nang hindi kailangan ang buong halaga ng trade. Ginagawa nitong mas accessible ang trading para sa mga may limitadong kapital. Gayunpaman, mahalagang maunawaan na pinapalaki ng leverage ang parehong kita at lugi."
+        },
+        {
+          "heading": "Halimbawa ng Leverage",
+          "text": "Halimbawa, gusto ng isang trader na mag-trade ng posisyon na nagkakahalaga ng $10,000. Kung 1:100 ang leverage, kailangan lamang ng $100 na margin upang buksan ang posisyon. Kapag pabor sa trader ang galaw ng merkado, tataas ang kita kaugnay ng kapital. Kapag laban naman, mabilis ding tataas ang lugi."
+        },
+        {
+          "heading": "Mga Dapat Isaalang-alang",
+          "text": "Bago gumamit ng leverage, dapat maunawaan ng trader: Market volatility, Risk management, Margin requirements, Potensyal na lugi. Maraming educational resources ang nagbibigay-diin sa responsableng trading at wastong risk control kapag gumagamit ng leverage."
+        }
+      ],
+      "conclusion": "Ang leverage ay mahalagang tool sa financial markets na nagbibigay-daan sa trader na dagdagan ang exposure gamit ang limitadong kapital. Gayunpaman, nagdadala rin ito ng karagdagang panganib. Ang pag-unawa kung paano gumagana ang leverage ay makakatulong sa mas maingat at may kaalamang approach sa trading.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "what-is-spread-in-forex": {
+    "title": "Ano ang Spread sa Forex?",
+    "excerpt": "Sa forex trading, ang spread ay isa sa pinakamahalagang konsepto na dapat maunawaan...",
+    "content": {
+      "introduction": "Sa forex trading, ang spread ay isa sa pinakamahalagang konsepto na dapat maunawaan. Ito ay kumakatawan sa pagkakaiba sa pagitan ng presyo kung saan maaaring bilhin ang isang currency pair at kung saan ito maaaring ibenta. Ang pag-unawa sa spreads ay nakakatulong sa trader na mas maunawaan ang trading costs at market liquidity.",
+      "sections": [
+        {
+          "heading": "Bid Price at Ask Price",
+          "text": "Bawat currency pair ay may dalawang presyo. Bid Price: Presyo kung saan handang bumili ang merkado. Ask Price: Presyo kung saan handang magbenta ang merkado. Ang pagkakaiba ng dalawang presyo na ito ay tinatawag na spread."
+        },
+        {
+          "heading": "Halimbawa ng Spread",
+          "text": "Halimbawa, ang EUR/USD ay may sumusunod na presyo: Bid: 1.1050 Ask: 1.1052. Ang spread ay 2 pips. Ipinapakita ng pagkakaibang ito ang market liquidity at transaction costs."
+        },
+        {
+          "heading": "Bakit Nagbabago ang Spread",
+          "text": "Ang spreads ay maaaring magbago depende sa kondisyon ng merkado. Ilang salik na nakakaapekto sa spread: Market liquidity, Trading volume, Economic news events, Market volatility. Sa panahon ng malalaking economic announcements, maaaring lumawak ang spread dahil sa pagtaas ng uncertainty."
+        },
+        {
+          "heading": "Fixed vs Variable Spreads",
+          "text": "Ang ilang merkado ay may fixed spreads, habang ang iba ay variable spreads. Ang variable spreads ay nagbabago batay sa supply at demand. Karaniwang mas masikip ang spreads sa highly liquid markets."
+        }
+      ],
+      "conclusion": "Ang spread ay kumakatawan sa pagkakaiba ng presyo sa pagbili at pagbenta sa forex market. Ang pag-unawa sa spreads ay makakatulong sa trader na mas maunawaan ang trading costs at liquidity. Kasabay ng iba pang trading concepts, mas maiintindihan ng baguhan kung paano gumagana ang financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "what-is-margin-trading": {
+    "title": "Ano ang Margin Trading?",
+    "excerpt": "Ang margin trading ay isang karaniwang konsepto sa financial markets na nagbibigay-daan sa trader na magbukas ng posisyon gamit ang bahagi lamang ng kabuuang halaga ng trade...",
+    "content": {
+      "introduction": "Ang margin trading ay isang karaniwang konsepto sa financial markets na nagbibigay-daan sa trader na magbukas ng posisyon gamit ang bahagi lamang ng kabuuang halaga ng trade. Sa merkado tulad ng forex, ang margin ay malapit na kaugnay ng leverage at may mahalagang papel sa kung paano pinamamahalaan ang trading positions. Para sa baguhan, ang pag-unawa sa margin ay mahalaga dahil ito ang nagpapaliwanag kung paano nakikilahok ang trader sa mas malalaking trades nang hindi kinakailangang bayaran ang buong kapital upfront.",
+      "sections": [
+        {
+          "heading": "Ano ang Margin?",
+          "text": "Ang margin ay ang halaga ng pera na kailangan upang buksan at panatilihin ang isang trading position. Sa halip na bayaran ang buong halaga ng trade, nagdedeposito ang trader ng mas maliit na halaga na tinatawag na margin. Ang halagang ito ay nagsisilbing collateral para manatiling bukas ang posisyon. Halimbawa, kung ang isang trader ay nais magbukas ng posisyon na nagkakahalaga ng $10,000 at ang margin requirement ay 1%, kakailanganin lamang ng $100 upang buksan ang posisyon."
+        },
+        {
+          "heading": "Margin at Leverage",
+          "text": "Malapit na kaugnay ang margin at leverage. Pinapayagan ng leverage ang trader na kontrolin ang mas malalaking posisyon, habang ang margin ay kumakatawan sa pondo na kailangan upang mapanatili ang mga posisyong iyon. Halimbawa: Leverage: 1:100, Margin requirement: 1%. Karaniwang nangangahulugan ng mas mataas na leverage ang mas mababang margin requirement, ngunit pinapataas din nito ang exposure sa market risk."
+        },
+        {
+          "heading": "Ano ang Margin Call?",
+          "text": "Ang margin call ay nangyayari kapag bumaba ang pondo sa trading account sa ibaba ng kinakailangang margin level. Maaaring mangyari ito kapag galaw ng merkado ay laban sa open position. Kapag nangyari ito, maaaring kailanganin ang karagdagang pondo upang mapanatili ang posisyon. Ang pag-unawa sa margin calls ay nakakatulong sa trader na mas maunawaan kung paano pinamamahalaan ang panganib sa financial markets."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Margin",
+          "text": "Mahalaga ang margin sa trading dahil ito ang nagtatakda kung gaano karaming kapital ang kailangan upang mapanatili ang open positions. Madalas binabantayan ng trader ang margin levels upang matiyak na ang account balance ay mananatiling lampas sa kinakailangang antas. Karaniwang ginagamit ang risk management strategies upang kontrolin ang exposure kapag nagte-trade gamit ang margin."
+        }
+      ],
+      "conclusion": "Ang margin trading ay nagbibigay-daan sa trader na lumahok sa financial markets gamit ang bahagi lamang ng kabuuang trade value. Bagama’t pinapataas nito ang exposure, nagdadala rin ito ng karagdagang panganib. Ang pag-unawa sa margin ay makakatulong sa baguhan na mas maunawaan kung paano gumagana ang trading account at paano pinamamahalaan ang mga posisyon sa financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "understanding-market-volatility": {
+    "title": "Pag-unawa sa Market Volatility",
+    "excerpt": "Ang mga financial market ay patuloy na gumagalaw. Ang presyo ng mga pera, stocks, commodities, at iba pang assets ay nagbabago araw-araw dahil sa iba't ibang economic...",
+    "content": {
+      "introduction": "Ang mga financial market ay patuloy na gumagalaw. Ang presyo ng mga pera, stocks, commodities, at iba pang assets ay nagbabago sa buong araw dahil sa iba't ibang economic at global na salik. Ang mga pagbabago sa presyo ay karaniwang tinatawag na market volatility. Mahalaga ang pag-unawa sa volatility dahil ito ay nagpapaliwanag kung bakit tumataas o bumababa ang merkado sa paglipas ng panahon.",
+      "sections": [
+        {
+          "heading": "Ano ang Market Volatility?",
+          "text": "Ang market volatility ay tumutukoy sa lawak ng pagbabago ng presyo ng isang financial asset sa paglipas ng panahon. Kapag mabilis o malaki ang galaw ng presyo, itinuturing ang merkado na mataas ang volatility. Kapag mas maliit at mas matatag ang galaw ng presyo, mababa ang volatility. Maaari itong mangyari sa lahat ng financial markets, kabilang ang forex, stocks, commodities, at cryptocurrencies."
+        },
+        {
+          "heading": "Ano ang Nagdudulot ng Market Volatility?",
+          "text": "Maraming salik ang nakakaapekto sa volatility sa financial markets. Kabilang sa karaniwang dahilan: Paglabas ng economic data, Desisyon sa interest rate, Mga pangyayaring pampulitika, Global economic events, Market sentiment. Halimbawa, kapag nag-anunsiyo ang central bank ng pagbabago sa interest rate, mabilis na maaaring tumugon ang currency markets habang ina-adjust ng mga trader ang kanilang inaasahan."
+        },
+        {
+          "heading": "Mataas vs Mababang Volatility",
+          "text": "Maaaring makaranas ang merkado ng iba't ibang lebel ng volatility depende sa kondisyon ng ekonomiya. Mataas na volatility: Malaki at mabilis na galaw ng presyo. Mababang volatility: Maliit na pagbabago ng presyo at mas matatag na merkado. Ang iba't ibang market environments ay nakakaapekto sa trading strategies at risk management."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Volatility",
+          "text": "Mahalaga ang volatility sa financial markets dahil ito ay sumasalamin sa kawalang-katiyakan at pagbabago sa inaasahan ng mga investor. Ang pag-unawa sa volatility ay nakakatulong sa traders at investors na mas maunawaan ang kondisyon ng merkado at pamahalaan ang panganib."
+        }
+      ],
+      "conclusion": "Ang market volatility ay tumutukoy sa pagbabago-bago ng presyo ng financial assets sa paglipas ng panahon. Ang mga galaw na ito ay naaapektuhan ng economic data, global events, at behavior ng investors. Ang pag-aaral kung paano gumagana ang volatility ay makakatulong sa mga baguhan na mas maunawaan kung paano tumutugon ang merkado sa bagong impormasyon.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "best-times-to-trade-forex-(trading": {
+    "title": "Pinakamainam na Oras para Mag-trade ng Forex (Paliwanag sa Trading Sessions)",
+    "excerpt": "Ang forex market ay bukas 24 na oras sa isang trading week, kaya maaaring mag-trade ang mga kalahok mula sa iba't ibang bahagi ng mundo sa iba't ibang oras...",
+    "content": {
+      "introduction": "Ang forex market ay bukas 24 na oras sa isang trading week, kaya maaaring mag-trade ang mga kalahok mula sa iba't ibang bahagi ng mundo sa iba't ibang oras. Gayunpaman, ang aktibidad sa merkado ay hindi pantay sa buong araw. May ilang period na tinatawag na trading sessions na karaniwang may mataas na market activity at liquidity.",
+      "sections": [
+        {
+          "heading": "Mga Pangunahing Forex Trading Sessions",
+          "text": "Ang global forex market ay nahahati sa apat na pangunahing trading sessions. Asian Session: Nagsisimula ang araw ng global trading sa Asian session at kadalasang nauugnay sa merkado sa Tokyo, Singapore, at Hong Kong. Minsan mas moderate ang galaw ng presyo sa session na ito kumpara sa iba. London Session: Isa sa pinaka-aktibong session sa forex market. Malaking bahagi ng global currency trading volume ang nangyayari dito dahil maraming financial institutions ang nasa Europe. New York Session: Ang New York session ay tumatapat sa London session sa loob ng ilang oras, kaya isa ito sa pinaka-aktibong trading period. Karaniwang may mahahalagang economic announcements mula sa United States sa session na ito."
+        },
+        {
+          "heading": "Pagtatapat ng Sessions",
+          "text": "Isa sa pinaka-aktibong periods sa forex market ay kapag nagtatapat ang London at New York sessions. Sa panahong ito, tumataas ang liquidity at maaaring mas malakas ang galaw ng presyo."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Trading Sessions",
+          "text": "Nakakaapekto ang trading sessions sa market activity, volatility, at liquidity. Ang pag-unawa kung kailan aktibo ang iba't ibang merkado ay nakakatulong sa trader na mas maunawaan ang global market behavior."
+        }
+      ],
+      "conclusion": "Ang forex market ay patuloy na bukas sa trading week, ngunit nag-iiba ang aktibidad depende sa global trading sessions. Ang pag-aaral tungkol sa trading sessions ay makakatulong sa mga baguhan na malaman kung kailan pinakamataas ang market activity.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "how-to-read-forex-charts": {
+    "title": "Paano Basahin ang Forex Charts",
+    "excerpt": "Ang price charts ay isa sa pinaka-karaniwang ginagamit na tools sa financial markets. Tinutulungan nito ang trader na makita kung paano nagbabago ang presyo ng asset sa paglipas ng panahon...",
+    "content": {
+      "introduction": "Ang price charts ay isa sa pinaka-karaniwang ginagamit na tools sa financial markets. Tinutulungan nito ang trader na makita kung paano nagbabago ang presyo ng isang asset sa paglipas ng panahon. Ang pag-aaral kung paano basahin ang charts ay mahalagang kasanayan para sa sinumang interesado sa pag-unawa sa galaw ng merkado.",
+      "sections": [
+        {
+          "heading": "Mga Uri ng Trading Charts",
+          "text": "Maraming uri ng charts ang ginagamit sa financial markets. Line Charts: Kinokonekta ang closing prices sa paglipas ng panahon at nagbibigay ng simpleng overview ng galaw ng presyo. Bar Charts: Ipinapakita ang opening, closing, highest, at lowest prices para sa isang tiyak na period. Candlestick Charts: Malawakang ginagamit ang candlestick charts dahil nagbibigay ito ng detalyadong impormasyon tungkol sa galaw ng presyo sa bawat time interval."
+        },
+        {
+          "heading": "Pag-unawa sa Candlesticks",
+          "text": "Bawat candlestick ay kumakatawan sa galaw ng presyo sa isang partikular na time frame. Kasama sa candlestick ang: Open price, Close price, Highest price, Lowest price. Ang kulay ng candlestick ay karaniwang nagpapakita kung ang presyo ay tumaas o bumaba sa panahong iyon."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Charts",
+          "text": "Tinutulungan ng charts ang trader na suriin ang patterns, tuklasin ang trends, at obserbahan kung paano tumutugon ang merkado sa bagong impormasyon. Bagama’t hindi nito kayang hulaan ang hinaharap, nagbibigay ito ng mahalagang insight sa historical price behavior."
+        }
+      ],
+      "conclusion": "Nagbibigay ang forex charts ng visual na representasyon ng aktibidad sa merkado. Sa pamamagitan ng pag-aaral kung paano i-interpret ang charts, mas maiintindihan ng mga baguhan kung paano gumagalaw ang presyo at paano sinusuri ng trader ang financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "support-and-resistance-explained": {
+    "title": "Paliwanag sa Support at Resistance",
+    "excerpt": "Sa financial markets, kadalasang gumagalaw ang presyo sa loob ng ilang range. Madalas napapansin ng mga trader na ang presyo ay tumitigil, bumabalik, o bumabagal sa tabi ng partikular na level...",
+    "content": {
+      "introduction": "Sa financial markets, kadalasang gumagalaw ang presyo sa loob ng ilang range. Madalas napapansin ng mga trader na ang presyo ay tumitigil, bumabalik, o bumabagal sa tabi ng partikular na level. Ang mga level na ito ay tinatawag na support at resistance. Ang pag-unawa sa support at resistance ay isa sa mga pangunahing konsepto sa pagsusuri ng galaw ng presyo sa merkado.",
+      "sections": [
+        {
+          "heading": "Ano ang Support?",
+          "text": "Ang support ay isang price level kung saan ang asset ay karaniwang humihinto sa pagbagsak at maaaring magsimulang tumaas muli. Nangyayari ito dahil mas aktibo ang mga buyer sa mas mababang price level. Kapag tumaas ang demand, maaaring bumagal o bumalik ang pagbaba ng presyo. Halimbawa, kapag paulit-ulit na humihinto ang pagbaba ng currency pair malapit sa isang price level, maaaring ituring itong support."
+        },
+        {
+          "heading": "Ano ang Resistance?",
+          "text": "Ang resistance ay kabaligtaran ng support. Ang resistance ay isang price level kung saan nahihirapang tumaas ang asset dahil tumataas ang selling pressure. Kapag ang presyo ay malapit sa resistance level, maaaring magsimulang magbenta o kumuha ng profit ang mga trader, na nagpapabagal sa pagtaas ng presyo."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Mga Level na Ito",
+          "text": "Mahalaga ang support at resistance dahil nakakatulong ito sa trader na malaman kung saan maaaring magkaroon ng reaksyon ang presyo. Ang mga level na ito ay kadalasang nabubuo dahil maraming kalahok sa merkado ang nagbabantay sa parehong price areas at gumagawa ng desisyon base rito. Maaari rin itong mabuo sa paligid ng: Previous highs and lows, Psychological price levels, Historical trading ranges."
+        },
+        {
+          "heading": "Support at Resistance sa Praktika",
+          "text": "Bihira ang merkado na gumalaw sa isang tuwid na linya. Sa halip, kadalasang gumagalaw ito sa alon, tumatalbog sa pagitan ng support at resistance levels. Kapag ang presyo ay tumawid sa resistance o bumagsak sa support, maaaring pumasok ang merkado sa bagong trading range. Karaniwang pinag-aaralan ang mga galaw na ito bilang bahagi ng technical analysis."
+        }
+      ],
+      "conclusion": "Ang support at resistance ay kumakatawan sa mahalagang price areas kung saan maaaring tumigil o magbago ang direksyon ng merkado. Ang pag-aaral kung paano kilalanin ang mga level na ito ay nakakatulong sa mga baguhan na mas maunawaan kung paano tumutugon ang presyo sa supply at demand.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "risk-management-in-trading": {
+    "title": "Pamamahala ng Panganib sa Trading",
+    "excerpt": "Ang mga financial market ay may kasamang kawalang-katiyakan, at mabilis magbago ang presyo. Dahil dito, maraming trader ang nakatuon sa risk management, na tumutukoy sa mga pamamaraan upang kontrolin ang posibleng pagkalugi...",
+    "content": {
+      "introduction": "Ang mga financial market ay may kasamang kawalang-katiyakan, at mabilis magbago ang presyo. Dahil dito, maraming trader ang nakatuon sa pamamahala ng panganib, na tumutukoy sa mga pamamaraan upang kontrolin ang posibleng pagkalugi. Mahalaga ang pag-unawa sa risk management bilang bahagi ng pag-aaral tungkol sa financial markets.",
+      "sections": [
+        {
+          "heading": "Ano ang Risk Management?",
+          "text": "Ang risk management ay tumutukoy sa mga estratehiya at tools na ginagamit upang limitahan ang posibleng pagkalugi sa trading activities. Sa halip na tumutok lamang sa potensyal na kita, madalas iniisip ng mga trader kung gaano karami ang handa nilang ipagsapalaran sa bawat trade. Nakakatulong ang risk management upang mapanatili ang balanse sa trading decisions."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Risk Management",
+          "text": "Maaaring maging hindi inaasahan ang galaw ng merkado dahil sa economic events, geopolitical developments, o pagbabago sa market sentiment. Kung walang risk management, maaaring malantad ang trader sa malaking pagkalugi kapag hindi inaasahang gumalaw ang merkado. Nakakatulong ang pamamahala ng panganib upang mapanatili ang disiplinadong approach sa financial markets."
+        },
+        {
+          "heading": "Karaniwang Konsepto sa Risk Management",
+          "text": "Maraming tools at estratehiya ang karaniwang ginagamit upang pamahalaan ang panganib. Position sizing: pagtukoy kung gaano kalaki ang trade kumpara sa account size. Stop loss orders: predefined price levels kung saan maaaring isara ang posisyon kung gumalaw laban sa trade ang merkado. Diversification: pamamahagi ng exposure sa iba't ibang assets. Ang mga konseptong ito ay malawak na tinalakay sa trading education."
+        },
+        {
+          "heading": "Risk at Market Volatility",
+          "text": "Ang volatile na merkado ay nangangailangan ng mas mataas na pansin sa risk management dahil mabilis magbago ang presyo. Ang pag-unawa kung paano naaapektuhan ng volatility ang merkado ay makakatulong sa trader na mas ma-assess ang posibleng panganib."
+        }
+      ],
+      "conclusion": "Mahalaga ang risk management sa pakikilahok sa financial market. Sa pamamagitan ng pag-aaral kung paano pamahalaan ang panganib ng epektibo, maaaring lumapit ang mga indibidwal sa trading nang may mas mataas na kamalayan sa posibleng kinalabasan. Madalas binibigyang-diin sa edukasyonal na resources ang risk management bilang isa sa pinakamahalagang aspeto ng trading knowledge.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "trading-psychology-for-beginners": {
+    "title": "Trading Psychology para sa mga Baguhan",
+    "excerpt": "Ang financial markets ay maaaring magdulot ng malakas na emosyon tulad ng excitement, takot, at frustration. Dahil mabilis magbago ang presyo at laging may kawalang-katiyakan...",
+    "content": {
+      "introduction": "Ang financial markets ay maaaring magdulot ng malakas na emosyon tulad ng excitement, takot, at frustration. Dahil mabilis magbago ang presyo at laging may kawalang-katiyakan, maaaring maapektuhan ng emosyon ang trading decisions. Kaya’t madalas tinatalakay ang trading psychology sa mga edukasyonal na resources tungkol sa financial markets.",
+      "sections": [
+        {
+          "heading": "Ano ang Trading Psychology?",
+          "text": "Ang trading psychology ay tumutukoy sa mental at emosyonal na salik na nakakaapekto sa decision-making sa trading. Kahit ang mga eksperyensadong trader ay maaaring harapin ang psychological challenges kapag hindi inaasahan ang galaw ng merkado. Ang emosyon tulad ng takot at overconfidence ay maaaring makaapekto sa kung paano tumugon ang tao sa galaw ng merkado."
+        },
+        {
+          "heading": "Karaniwang Hamon sa Emosyon",
+          "text": "Maraming psychological factors ang karaniwang nakakaapekto sa trading decisions. Takot: Maaaring magdulot ng maagang paglabas sa posisyon o pag-iwas sa pagkakataon. Greed (Kahakiman): Maaaring magdulot ng labis na panganib sa paghahangad ng mas malaking kita. Impatience (Kawalang-pasensya): Hindi palaging mabilis ang galaw ng merkado, na maaaring humantong sa padalos-dalos na desisyon."
+        },
+        {
+          "heading": "Kahalagahan ng Disiplina",
+          "text": "Maraming edukasyonal na resources ang binibigyang-diin ang kahalagahan ng disiplina at structured decision-making. Ang pagkakaroon ng malinaw na patakaran at estratehiya ay nakakatulong na mabawasan ang emosyonal na reaksyon sa panandaliang galaw ng merkado. Ang pag-unawa sa psychological side ng trading ay makakatulong sa indibidwal na lumapit sa financial markets nang mas obhetibo."
+        }
+      ],
+      "conclusion": "Nakatuon ang trading psychology sa emosyonal at behavioral na aspeto ng pakikilahok sa financial markets. Sa pamamagitan ng pag-aaral kung paano naaapektuhan ng emosyon ang desisyon, maaaring magkaroon ng mas mataas na kamalayan ang indibidwal sa pagsusuri ng market opportunities at risks.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "understanding-market-trends": {
+    "title": "Pag-unawa sa Market Trends",
+    "excerpt": "Bihira gumalaw nang random ang financial markets sa mahabang panahon. Sa halip, kadalasang gumagalaw ang presyo sa trends, kung saan unti-unting umaakyat, bumababa, o gumagalaw nang pantay ang merkado...",
+    "content": {
+      "introduction": "Bihira gumalaw nang random ang financial markets sa mahabang panahon. Sa halip, kadalasang gumagalaw ang presyo sa trends, kung saan unti-unting umaakyat, bumababa, o gumagalaw nang pantay ang merkado. Mahalaga ang pag-unawa sa market trends para sa sinumang nag-aaral ng financial markets.",
+      "sections": [
+        {
+          "heading": "Ano ang Market Trend?",
+          "text": "Ang market trend ay tumutukoy sa pangkalahatang direksyon ng galaw ng presyo sa isang tiyak na panahon. Maaaring mangyari ang trends sa iba't ibang financial markets, kabilang ang forex, stocks, commodities, at indices. Ang trends ay maaaring tumagal ng ilang minuto, araw, buwan, o taon depende sa kondisyon ng merkado."
+        },
+        {
+          "heading": "Mga Uri ng Market Trends",
+          "text": "Uptrend: Nangyayari kapag unti-unting tumataas ang presyo sa paglipas ng panahon. Sa uptrend, karaniwang lumilikha ang merkado ng higher highs at higher lows. Downtrend: Nangyayari kapag unti-unting bumababa ang presyo sa paglipas ng panahon. Sa ganitong kaso, kadalasang bumubuo ang merkado ng lower highs at lower lows. Sideways Trend: Minsan, gumagalaw ang merkado sa makitid na range nang walang malinaw na direksyon. Ito ay tinatawag na sideways trend o consolidation."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Trends",
+          "text": "Nakakatulong ang trends sa trader at investor na maunawaan ang pangkalahatang direksyon ng market activity. Maraming analytical methods sa financial markets ang nagtatangkang tuklasin ang trends at obserbahan kung gaano katagal ito magpapatuloy."
+        }
+      ],
+      "conclusion": "Ang market trends ay kumakatawan sa pangkalahatang direksyon ng galaw ng presyo sa paglipas ng panahon. Sa pamamagitan ng pagmamasid sa trends, maaaring makakuha ng insight ang indibidwal sa mas malawak na galaw ng merkado at pagbabago sa kondisyon ng ekonomiya.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "how-trading-strategies-work": {
+    "title": "Paano Gumagana ang Trading Strategies",
+    "excerpt": "Nagbibigay ang financial markets ng maraming pagkakataon para sa pagsusuri at paggawa ng desisyon. Dahil hindi laging predictable ang merkado, maraming trader ang umaasa sa structured trading strategies...",
+    "content": {
+      "introduction": "Nagbibigay ang financial markets ng maraming pagkakataon para sa pagsusuri at paggawa ng desisyon. Dahil hindi laging predictable ang merkado, maraming trader ang umaasa sa structured trading strategies upang gabayan ang kanilang aksyon. Ang trading strategy ay isang plano na naglalarawan kung paano lumalapit ang trader sa merkado.",
+      "sections": [
+        {
+          "heading": "Ano ang Trading Strategy?",
+          "text": "Ang trading strategy ay set ng rules o guidelines na ginagamit upang suriin ang merkado at gumawa ng trading decisions. Kasama sa rules na ito: Market conditions, Entry at exit criteria, Mga konsiderasyon sa risk management. Iba't ibang trader ang nag-develop ng strategy base sa kanilang preferred analytical methods."
+        },
+        {
+          "heading": "Mga Uri ng Trading Strategies",
+          "text": "Maraming uri ng strategy ang karaniwang tinalakay sa trading education. Trend strategies: Nakatuon sa pagtukoy ng mga merkado na consistent ang galaw sa isang direksyon. Range strategies: Nakatuon sa mga merkado na gumagalaw sa loob ng defined support at resistance levels. News-based strategies: Nakatuon sa reaksyon ng merkado sa economic announcements."
+        },
+        {
+          "heading": "Bakit Ginagamit ang Strategies",
+          "text": "Nakakatulong ang trading strategies upang magkaroon ng structured approach sa pagsusuri ng merkado. Sa halip na random na gumawa ng desisyon, hinihikayat ng strategies ang trader na sundin ang predefined guidelines. Madalas binibigyang-diin sa edukasyonal na materyales ang kahalagahan ng disiplina at consistency sa paggamit ng strategy."
+        }
+      ],
+      "conclusion": "Nagbibigay ang trading strategies ng framework para sa pagsusuri ng financial markets at paggawa ng informed decisions. Sa pamamagitan ng pag-aaral kung paano gumagana ang iba't ibang strategies, mas mauunawaan ng mga baguhan kung paano lumalapit ang trader sa dynamic na kalikasan ng financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "what-moves-the-forex-market": {
+    "title": "Ano ang Nagpapagalaw sa Forex Market?",
+    "excerpt": "Patuloy na nagbabago ang foreign exchange market habang gumagalaw pataas at pababa ang presyo ng mga pera sa buong araw. Ang mga galaw na ito ay naaapektuhan ng maraming ekonomik, pinansyal, at politikal na salik...",
+    "content": {
+      "introduction": "Patuloy na nagbabago ang foreign exchange market habang gumagalaw pataas at pababa ang presyo ng mga pera sa buong araw. Ang mga galaw na ito ay naaapektuhan ng maraming ekonomik, pinansyal, at politikal na salik. Ang pag-unawa kung ano ang nagpapagalaw sa presyo ng pera ay makakatulong sa mga baguhan na magkaroon ng mas malinaw na larawan kung paano gumagana ang forex market.",
+      "sections": [
+        {
+          "heading": "Interest Rates",
+          "text": "Ang interest rates ay isa sa pinakamahalagang salik na nakakaapekto sa halaga ng pera. Kapag itinaas ng central bank ng isang bansa ang interest rates, maaaring maging mas kaakit-akit ang pera sa mga investor dahil mas mataas ang posibleng kita. Bilang resulta, maaaring tumaas ang demand para sa perang iyon sa global markets."
+        },
+        {
+          "heading": "Economic Data",
+          "text": "Regular na inilalabas ng mga gobyerno at financial institutions ang economic reports. Nagbibigay ang mga ito ng insight sa kalusugan ng ekonomiya. Karaniwang economic indicators ay kinabibilangan ng: Gross Domestic Product (GDP), Employment data, Inflation reports, Retail sales. Ang malakas na economic data ay maaaring magpalakas sa pera ng isang bansa, habang ang mas mahina ay maaaring magdulot ng kabaligtaran."
+        },
+        {
+          "heading": "Political at Global Events",
+          "text": "Maaaring maapektuhan din ng political developments at global events ang currency markets. Halimbawa nito ay: Elections, Trade policies, Geopolitical tensions, Global economic shifts. Madalas mabilis na tumutugon ang merkado sa balita at pagbabago sa economic expectations."
+        },
+        {
+          "heading": "Market Sentiment",
+          "text": "Ang market sentiment ay tumutukoy sa pangkalahatang pananaw ng mga investor sa isang partikular na pera o merkado. Kung naniniwala ang mga investor na lumalakas ang ekonomiya, maaaring tumaas ang demand para sa pera ng bansang iyon. Ang pagbabago sa sentiment ay maaaring makaapekto sa galaw ng presyo sa forex market."
+        }
+      ],
+      "conclusion": "Ang presyo ng pera ay naaapektuhan ng maraming salik, kabilang ang interest rates, economic data, political events, at investor sentiment. Sa pamamagitan ng pag-unawa sa mga ito, mas mauunawaan ng mga baguhan kung paano gumagana ang forex market.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "how-interest-rates-affect-currency": {
+    "title": "Paano Nakakaapekto ang Interest Rates sa Currency Markets",
+    "excerpt": "Ang interest rates ay isa sa pinakamahalagang economic tools na ginagamit ng central banks upang pamahalaan ang paglago ng ekonomiya at inflation. Ang pagbabago sa interest rates ay maaaring makaapekto sa...",
+    "content": {
+      "introduction": "Ang interest rates ay isa sa pinakamahalagang economic tools na ginagamit ng central banks upang pamahalaan ang paglago ng ekonomiya at inflation. Ang pagbabago sa interest rates ay maaaring magdulot ng malaking epekto sa financial markets, kabilang ang presyo ng pera. Ang pag-unawa kung paano nakakaapekto ang interest rates sa currencies ay makakatulong sa mga baguhan na mas ma-interpret ang galaw ng merkado.",
+      "sections": [
+        {
+          "heading": "Ano ang Interest Rates?",
+          "text": "Ang interest rates ay kumakatawan sa halaga ng paghiram ng pera. Ina-adjust ng central banks ang interest rates upang tulungan pamahalaan ang economic activity, inflation, at financial stability. Kapag tumaas ang interest rates, karaniwang mas mahal ang pangungutang. Kapag bumaba, maaaring mas abot-kaya ang pangungutang."
+        },
+        {
+          "heading": "Bakit Nakakaapekto ang Interest Rates sa Currencies",
+          "text": "Nakakaapekto ang interest rates sa currencies dahil kadalasang naghahanap ang mga investor ng pagkakataon na kumita ng mas mataas na return. Kapag tumaas ang interest rates ng isang bansa, maaaring maging mas kaakit-akit ang financial assets sa bansang iyon. Ito ay maaaring magdulot ng pagtaas sa demand para sa pera ng bansa."
+        },
+        {
+          "heading": "Desisyon ng Central Bank",
+          "text": "Regular na nire-review ng central banks ang economic conditions at nagdedesisyon kung itataas, ibababa, o panatilihin ang interest rates. Halimbawa ng major central banks ay: Federal Reserve (United States), European Central Bank, Bank of England, Bank of Japan. Ang mga anunsyo mula sa mga institusyong ito ay madalas nakakaapekto sa financial markets."
+        },
+        {
+          "heading": "Market Expectations",
+          "text": "Ang financial markets ay kadalasang tumutugon hindi lamang sa aktwal na pagbabago ng interest rates kundi pati na rin sa inaasahang desisyon sa hinaharap. Maingat na sinusubaybayan ng mga investor ang economic indicators at statements ng central bank upang mahulaan ang posibleng policy changes."
+        }
+      ],
+      "conclusion": "Malaki ang papel ng interest rates sa paghubog ng currency markets. Sa pamamagitan ng pag-influence sa investor behavior at economic activity, ang mga polisiya ng central bank ay maaaring makaapekto sa halaga ng pera sa global financial markets.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "why-gold-prices-fluctuate": {
+    "title": "Bakit Nagbabago ang Presyo ng Ginto",
+    "excerpt": "Ang ginto ay pinahahalagahan sa loob ng maraming siglo bilang isang mahalagang metal at financial asset. Sa kasalukuyan, patuloy itong may mahalagang papel sa global financial markets...",
+    "content": {
+      "introduction": "Ang ginto ay pinahahalagahan sa loob ng maraming siglo bilang isang mahalagang metal at financial asset. Sa kasalukuyan, patuloy itong may mahalagang papel sa global financial markets. Maaaring tumaas o bumaba ang presyo ng ginto depende sa iba't ibang ekonomik at pinansyal na salik.",
+      "sections": [
+        {
+          "heading": "Ginto bilang Safe-Haven Asset",
+          "text": "Madalas ituring ang ginto bilang safe-haven asset, ibig sabihin ay maaaring lumapit ang mga investor sa ginto sa panahon ng kawalang-katiyakan sa ekonomiya. Kapag nagkaroon ng instability sa financial markets, maaaring tumaas ang demand para sa ginto. Ang demand na ito ay maaaring makaapekto sa presyo ng ginto."
+        },
+        {
+          "heading": "Inflation at Ginto",
+          "text": "Ang inflation ay sumusukat kung gaano kabilis tumataas ang presyo ng mga kalakal at serbisyo sa paglipas ng panahon. Kapag tumataas ang inflation, maaaring bumaba ang purchasing power ng pera. Nakikita ng ilang investor ang ginto bilang paraan upang mapanatili ang halaga sa panahon ng tumataas na inflation."
+        },
+        {
+          "heading": "Interest Rates at Ginto",
+          "text": "Maaaring makaapekto rin ang interest rates sa presyo ng ginto. Kapag mataas ang interest rates, maaaring mas piliin ng investor ang interest-bearing assets tulad ng bonds. Kapag mas mababa ang rates, maaaring maging mas kaakit-akit ang ginto dahil bumababa ang opportunity cost ng paghawak sa ginto."
+        },
+        {
+          "heading": "Global Demand",
+          "text": "Ang demand para sa ginto ay nagmumula sa ilang sources, kabilang ang: Jewelry production, Investment demand, Central bank reserves, Industrial use. Ang pagbabago sa global demand ay maaaring makaapekto sa pangkalahatang presyo ng ginto."
+        }
+      ],
+      "conclusion": "Nagbabago ang presyo ng ginto dahil sa kombinasyon ng economic conditions, inaasahan sa inflation, interest rates, at global demand. Sa pamamagitan ng pag-unawa sa mga salik na ito, mas mauunawaan ng mga baguhan kung paano gumagana ang merkado ng ginto.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "oil-prices-and-global-markets": {
+    "title": "Presyo ng Langis at Global Markets",
+    "excerpt": "Ang langis ay isa sa pinakamahalagang commodities sa global na ekonomiya. Malawak itong ginagamit sa transportasyon, paggawa, at produksyon ng enerhiya. Dahil dito...",
+    "content": {
+      "introduction": "Ang langis ay isa sa pinakamahalagang commodities sa global na ekonomiya. Malawak itong ginagamit sa transportasyon, paggawa, at produksyon ng enerhiya. Dahil sa kahalagahan nito, ang pagbabago sa presyo ng langis ay maaaring makaapekto sa financial markets at economic activity sa buong mundo.",
+      "sections": [
+        {
+          "heading": "Supply at Demand ng Langis",
+          "text": "Malaki ang epekto ng global supply at demand sa presyo ng langis. Kapag tumaas ang demand, maaaring tumaas ang presyo. Kapag tumaas ang supply o bumaba ang demand, maaaring bumaba ang presyo. Maraming salik ang nakakaapekto sa supply at demand, kabilang ang global economic growth at energy consumption patterns."
+        },
+        {
+          "heading": "Mga Bansang Nagpo-produce ng Langis",
+          "text": "Maraming bansa ang may malaking papel sa global oil production. Ang mga organisasyon tulad ng OPEC (Organization of the Petroleum Exporting Countries) ay tumutulong sa koordinasyon ng production levels ng mga member countries. Ang production decisions ng major oil producers ay maaaring makaapekto sa presyo ng langis."
+        },
+        {
+          "heading": "Langis at Currency Markets",
+          "text": "Maaaring makaapekto rin ang presyo ng langis sa currency markets. Ang mga pera ng mga bansang nag-e-export ng langis ay maaaring maapektuhan ng pagbabago sa presyo ng langis dahil mahalaga ang energy exports sa kanilang ekonomiya. Ipinapakita nito kung paano magkakaugnay ang commodity markets at currency markets."
+        },
+        {
+          "heading": "Langis at Inflation",
+          "text": "Maaaring makaapekto ang presyo ng langis sa inflation dahil ang gastos sa enerhiya ay nakakaapekto sa transportasyon, paggawa, at presyo ng mga consumer goods. Kapag tumaas nang malaki ang presyo ng langis, maaaring tumaas din ang production costs sa iba't ibang industriya."
+        }
+      ],
+      "conclusion": "Mahalaga ang presyo ng langis sa global na ekonomiya. Sa pamamagitan ng pag-influence sa energy costs, inflation, at trade balances, maaaring makaapekto ang oil markets sa financial markets sa buong mundo.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  },
+  "how-central-banks-influence-financial": {
+    "title": "Paano Nakakaapekto ang Central Banks sa Financial Markets",
+    "excerpt": "Malaki ang papel ng central banks sa global financial system. Ang mga institusyong ito ay responsable sa pamamahala ng monetary policy at pagpapanatili ng katatagan sa pananalapi...",
+    "content": {
+      "introduction": "Malaki ang papel ng central banks sa global financial system. Ang mga institusyong ito ay responsable sa pamamahala ng monetary policy ng isang bansa at pagpapanatili ng financial stability. Ang mga desisyon ng central banks ay maaaring makaapekto sa currencies, stock markets, at economic activity.",
+      "sections": [
+        {
+          "heading": "Ano ang Central Bank?",
+          "text": "Ang central bank ay isang pambansang financial authority na responsable sa oversight ng monetary policy. Ilan sa mga kilalang central banks ay: Federal Reserve (United States), European Central Bank, Bank of England, Bank of Japan. Ang mga institusyong ito ay nagtatrabaho upang mapanatili ang matatag na economic conditions."
+        },
+        {
+          "heading": "Monetary Policy",
+          "text": "Ang monetary policy ay tumutukoy sa mga aksyon ng central banks upang pamahalaan ang economic activity. Kabilang sa mga pangunahing tools na ginagamit ng central banks ay: Interest rate adjustments, Money supply management, Economic guidance. Ang mga desisyong ito ay maaaring makaapekto sa borrowing costs, investment activity, at paggalaw ng financial markets."
+        },
+        {
+          "heading": "Reaksyon ng Merkado",
+          "text": "Madalas mabilis na tumutugon ang financial markets sa mga anunsyo ng central bank. Pinag-iintay ng mga investor ang central bank statements dahil maaaring ito ay mag-signal ng posibleng pagbabago sa economic policy sa hinaharap. Ang expectations tungkol sa monetary policy ay maaaring makaapekto sa presyo ng assets sa global markets."
+        },
+        {
+          "heading": "Bakit Mahalaga ang Central Banks",
+          "text": "Tinutulungan ng central banks na mapanatili ang economic stability sa pamamagitan ng pamamahala sa inflation, employment levels, at financial system risks. Dahil sa papel na ito, mahigpit na sinusubaybayan ang kanilang desisyon ng mga kalahok sa financial markets sa buong mundo."
+        }
+      ],
+      "conclusion": "Mahalaga ang papel ng central banks sa paghubog ng financial markets. Sa pamamagitan ng monetary policy decisions at economic guidance, nakakaapekto ang mga institusyong ito sa currencies, interest rates, at kabuuang kondisyon ng merkado.",
+      "disclaimer": "Ang impormasyon sa artikulong ito ay para lamang sa edukasyonal na layunin at hindi bumubuo ng payo sa pananalapi o rekomendasyon sa investment."
+    }
+  }
+  },
+  "tradersClub": {
+    "free": "LIBRE",
+    "description": "Sumali sa aming Traders Club at kumuha ng libreng virtual card. Instant withdrawals, magamit sa buong mundo nang walang fees at walang limitasyon.",
+    "disclaimer": "*Available lamang para sa mga verified club members",
+    "joinNow": "Sumali Ngayon",
+    "modalTitle": "Sumali sa Traders Club",
+    "modalSubtitle": "Kunin ang iyong libreng virtual card ngayon",
+    "name": "Pangalan",
+    "namePlaceholder": "Ilagay ang iyong pangalan",
+    "email": "Email",
+    "emailPlaceholder": "Ilagay ang iyong email",
+    "phone": "Telepono",
+    "phonePlaceholder": "Ilagay ang iyong telepono",
+    "getMyFreeCard": "Kunin ang Aking Libreng Card"
+  },
+  "insights": {
+    "title": "Kunin ang pinakabagong analytics insights — direkta mula sa aming team para sa iyo.",
+    "financialStrategy": "Pinansyal<br>na Estratehiya",
+    "financialStrategyDesc": "Personalized trading strategies na angkop sa iyong mga layunin sa pananalapi at karanasan sa trading.",
+    "freeTrainings": "Libreng<br>Training",
+    "freeTrainingsDesc": "Expert-led forex training mula beginner hanggang intermediate level, libre at may live support.",
+    "assetManagement": "Pamahalaan ang<br>Assets",
+    "assetManagementDesc": "24/7 expert guidance upang matukoy at pamahalaan ang tamang assets para sa maximum na kita.",
+    "demoAccount": "Demo<br>Account",
+    "demoAccountDesc": "Mag-practice nang risk-free gamit ang $10,000 virtual money sa real-time market data bago mag-live."
+  },
+  "platforms": {
+    "eyebrow": "Aming Trading Platforms",
+    "title": "Makipag-trade sa Amin",
+    "subtitle": "Piliin kung paano mo nais mag-trade: malakas na desktop application para sa malalim na analysis o magaan na mobile platform para manatiling konektado sa merkado kahit saan ka man.",
+    "webDesktop": "Web at Desktop",
+    "desktopTitle": "TraderTok Desktop",
+    "desktopDescription": "I-access ang TraderTok Desktop application sa iyong Mac o Windows PC at makakuha ng full access sa charts, indicators, at multi-screen workspace para sa propesyonal na trading.",
+    "windows": "Windows",
+    "mac": "Mac",
+    "mobilePlatform": "Mobile Platform",
+    "mobileTitle": "TraderTok Mobile",
+    "mobileDescription": "I-access ang aming mobile platform sa iOS at Android at mag-trade kahit saan: buksan, pamahalaan, at isara ang mga posisyon direkta mula sa iyong telepono sa ilang taps lang."
+  },
+  "instruments": {
+    "sectionTitle": "Tuklasin ang Aming Trading Instruments",
+    "sectionSubtitle": "Sa TraderTok, nag-aalok kami ng malawak na hanay ng trading instruments na akma sa pangangailangan ng bawat trader—baguhan man o may advanced portfolio.",
+    "sectionDescription": "Sa access sa global markets at malalim na liquidity, pinapagana ka ng aming platform na tuklasin ang mga oportunidad sa iba't ibang asset classes, lahat sa iisang lugar. Naniniwala kami na ang pagpipilian ay kapangyarihan, kaya patuloy naming pinalalawak ang aming listahan ng instruments para makasabay sa mabilis na pagbabago ng financial landscape.",
+    "forex": "Forex",
+    "forexDesc": "Ang foreign exchange market ang pinaka-liquid na merkado sa mundo, na nagbibigay ng 24/7 access at tight spreads. Saklaw ng aming forex offerings ang lahat ng major pairs, minors, at malawak na seleksyon ng exotics, na nagbibigay ng oportunidad sa day traders at long-term strategists. Sa low latency execution at high leverage options, pinapagana ng aming platform ang mabilis na aksyon sa mabilis na merkado.",
+    "commodities": "Commodities",
+    "commoditiesDesc": "Ang commodities tulad ng ginto, langis, at pilak ay nagbibigay sa traders ng hedge laban sa inflation at market volatility. Kadalasan ay kumikilos ang mga assets na ito nang independent sa stocks at currencies, kaya mahusay para sa diversification. Ang aming commodity instruments ay traded nang may competitive pricing at mabilis na execution, na nagbibigay sa iyo ng kumpiyansa sa global supply at demand shifts.",
+    "stocks": "Stocks",
+    "stocksDesc": "Mag-trade ng shares ng mga top-performing companies mula sa nangungunang global exchanges. Pinapayagan ka ng aming stock instruments na mag-speculate sa price movements nang hindi pag-aari ang underlying asset, na nagbibigay flexibility na mag-long o mag-short. Magkaroon ng access sa major sectors tulad ng tech, healthcare, energy, at iba pa—na nagbibigay kapangyarihan sa iyo na bumuo ng mga strategy batay sa corporate performance at market momentum.",
+    "indices": "Indices",
+    "indicesDesc": "Kinakatawan ng indices ang performance ng isang grupo ng stocks, kaya ito ay mabisang paraan para makakuha ng broad market exposure. Maging ito man ay S&P 500, NASDAQ, FTSE, o iba pang major indices, nagbibigay ang aming platform ng efficient access na may low latency at advanced charting tools. Ang indices ay perpekto para sa traders na nais mag-position sa broader economic trends kaysa sa individual companies.",
+    "crypto": "Crypto",
+    "all": "Lahat",
+    "search": "Maghanap ng instruments...",
+    "spread": "Spread",
+    "leverage": "Leverage",
+    "trade": "Trade",
+    "noResults": "Walang instruments na tugma sa iyong paghahanap."
+  },
+  "whyChoose": {
+    "title": "Bakit Piliin ang TraderTok",
+    "subtitle": "Pinapabuti namin ang aming mga investors nang tuloy-tuloy, nag-aalok ng bagong oportunidad sa financial markets, at nagbibigay pagkakataon na makatrabaho ang isang kilalang lider sa industriya ng pananalapi.",
+    "lightningExecution": "Mabilis na Pag-execute",
+    "lightningExecutionDesc": "Bawat millisecond ay mahalaga sa trading. Tinitiyak ng aming advanced infrastructure na ang iyong orders ay na-execute nang mabilis, maaasahan, at may minimal na slippage, kaya hindi ka mawawala sa pagkakataon.",
+    "cuttingEdgePlatforms": "Makabagong Platform",
+    "cuttingEdgePlatformsDesc": "Mag-trade sa TraderTool, ang aming intuitive platform. Sa advanced charts, powerful analytics, at customizable tools, mayroon kang lahat ng kailangan para mag-trade nang mas matalino.",
+    "globalMarkets": "Global Markets, Lokal na Insights",
+    "globalMarketsDesc": "Mag-access sa malawak na hanay ng financial instruments, mula forex at commodities hanggang indices at cryptocurrencies. Pinapalakas ng aming global reach ang expert market insights para matulungan kang gumawa ng informed decisions.",
+    "competitivePricing": "Competitive Pricing & Tight Spreads",
+    "competitivePricingDesc": "Nag-aalok kami ng market-leading spreads, mababang fees, at transparent pricing — dinisenyo para bigyan ka ng edge sa bawat trade.",
+    "expertSupport": "Expert Support",
+    "expertSupportDesc": "Ang aming dedicated support team ay available anumang oras na kailangan mo sila. Pinagsasama namin ang industry knowledge sa mabilis at friendly service, kaya makakapag-focus ka sa trading nang may kumpiyansa.",
+    "securityTrust": "Seguridad at Tiwala",
+    "securityTrustDesc": "Ang iyong pondo at data ay protektado gamit ang industry-standard security protocols at matibay na account protection. Mag-trade nang may kumpiyansa alam na ligtas ang iyong investments.",
+    "educationResources": "Edukasyon at Resources",
+    "educationResourcesDesc": "Kung ikaw man ay baguhan o seasoned professional, ang aming learning resources, webinars, at market insights ay tutulong sa iyo na hasain ang iyong skills at lumago bilang trader."
+  },
+  "deposit": {
+    "interest": "7.6% interes",
+    "isMonthly": "ay Buwanang",
+    "description": "Tanggapin ang buwanang interes direkta sa iyong cash balance, walang obligasyon.",
+    "disclaimer": "*May credit at iba pang risks, mangyaring basahin ang Terms and Conditions",
+    "joinNow": "Sumali Ngayon",
+    "modalTitle": "Buksan ang Deposit Account",
+    "modalSubtitle": "Punan ang iyong detalye at kokontakin ka ng aming manager",
+    "name": "Pangalan",
+    "namePlaceholder": "Ilagay ang iyong pangalan",
+    "email": "Email",
+    "emailPlaceholder": "Ilagay ang iyong email",
+    "phone": "Telepono",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "submitApplication": "Isumite ang Aplikasyon",
+    "modalDisclaimer": "Sa pagsusumite, sumasang-ayon ka sa aming Terms of Service at Privacy Policy"
+  },
+  "telegram": {
+    "title": "Sumali sa aming <span class=\"gradient-text\">Komunidad</span>",
+    "description": "Kumuha ng trading signals, market analysis, at makipag-connect sa ibang traders",
+    "joinNow": "Sumali Ngayon",
+    "signal": "SIGNAL",
+    "alert": "ALERTA",
+    "profit": "KITA",
+    "analysis": "ANALISIS",
+    "hoursAgo": "oras nakalipas",
+    "dayAgo": "araw nakalipas"
+  },
+  "contactForm": {
+    "title": "Handa Ka Na Bang Kumita Sa TraderTok?",
+    "subtitle": "Tatawagan ka namin",
+    "description": "Sumabak sa pinakamalaking trading volume market sa mundo sa ilang minuto; madali at ligtas.",
+    "name": "Pangalan",
+    "namePlaceholder": "Ilagay ang iyong pangalan",
+    "surname": "Apelyido",
+    "surnamePlaceholder": "Ilagay ang iyong apelyido",
+    "phone": "Telepono",
+    "phonePlaceholder": "+44 7520 640 890",
+    "email": "Email",
+    "emailPlaceholder": "support@tradertok.com",
+    "message": "Mensahe",
+    "messagePlaceholder": "Sabihin sa amin ang tungkol sa iyong trading goals...",
+    "submit": "Makipag-ugnayan",
+    "successMessage": "Salamat! Kokontakin ka namin sa lalong madaling panahon.",
+    "errorMessage": "May nangyaring mali. Pakisubukang muli."
+  },
+  "trustpilot": {
+    "name": "Trustpilot",
+    "rating": "4.8 sa 5",
+    "moreReviews": "Higit pang reviews sa Trustpilot"
+  },
+  "banking": {
+    "title": "Ang iyong pondo ay hawak sa <span class=\"gradient-text\">top-tier institutions</span>",
+    "subtitle": "Nakikipagtulungan ang TraderTok Group sa globally renowned banking partners kabilang ang:",
+    "disclaimer": "*Ang mga bankong ito ay kasosyo ng TraderTok group at hindi nagseserbisyo sa lahat ng entities sa loob ng grupo"
+  },
+  "footer": {
+    "findUs": "Hanapin Kami Sa",
+    "topInstruments": "Pinakamahusay na Instrumento",
+    "bitcoin": "Bitcoin (BTC)",
+    "ethereum": "Ethereum (ETH)",
+    "shiba": "Shiba (Sa Milyon)",
+    "tesla": "Tesla",
+    "apple": "Apple",
+    "nio": "Nio",
+    "support": "Suporta",
+    "helpCenter": "Help Center",
+    "howToDeposit": "Paano Mag-deposito",
+    "howToWithdraw": "Paano Mag-withdraw",
+    "howToOpenAccount": "Paano Magbukas ng Account",
+    "howToVerifyAccount": "Paano I-verify ang Iyong Account",
+    "clientVulnerability": "Kahinaan ng Kliyente",
+    "complaintsData": "Data ng Reklamo (FCA Clients)",
+    "learnMore": "Matuto Pa",
+    "howCopyTradingWorks": "Paano Gumagana ang CopyTrading",
+    "responsibleTrading": "Responsible Trading",
+    "interestOnBalance": "Interes sa Balanse",
+    "whatIsLeverageAndMargin": "Ano ang Leverage at Margin",
+    "buyAndSellExplained": "Paliwanag sa Pagbili at Pagbenta",
+    "downloadOurApp": "I-download ang aming app mula sa mga stores",
+    "aboutUs": "Tungkol sa Amin",
+    "aboutTraderTok": "Tungkol sa TraderTok",
+    "reviews": "Mga Review",
+    "careers": "Karera",
+    "ourOffices": "Aming Mga Opisina",
+    "accessibility": "Accessibility",
+    "imprint": "Imprint",
+    "privacyAndRegulations": "Privacy at Regulasyon",
+    "privacyPolicy": "Privacy Policy",
+    "keyInformationDocuments": "Key Information Documents",
+    "partnersAndPromotions": "Mga Partner at Promosyon",
+    "inviteAFriend": "Imbitahan ang Kaibigan",
+    "ibProgram": "IB Program",
+    "TraderTokClub": "TraderTok Club",
+    "segregatedAccount": "Segregated Account",
+    "partnerSmartPortfolios": "Partner Smart Portfolios",
+    "taxReport": "Tax Report",
+    "contactUs": "Makipag-ugnayan",
+    "availableSupport": "Available 24/5 para sa suporta",
+    "copyright": "© 2026 Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. Company No: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>. Ang Amber Rock Trade Ltd ay awtorisado at regulated ng Financial Services Commission ng Mauritius (FSC).",
+    "paymentInfo": "Ang mga serbisyo sa pagproseso ng bayad ay ibinibigay ng awtorisadong payment agent ng Kumpanya, B-Tech Ltd, na nakarehistro sa Louki Akrita 1, Akritas Court, 3rd Floor, Flat/Office 301, 3030 Limassol, Cyprus (Company No: HE 414065).",
+    "copyright-extra": "Ang website na ito ay pinapatakbo ng Amber Rock Trade Ltd.",
+    "riskWarning": "Babala sa Panganib:",
+    "riskWarningText": "Ang pag-trade sa derivative financial instruments, kasama na ang CFDs at iba pang leveraged products, ay may mataas na panganib at maaaring hindi angkop para sa lahat ng investors. Maaari mong mawala ang lahat o higit pa sa iyong initial investment. Ang trading ay nakadepende sa market volatility, leverage risk, at iba pang panganib. Dapat kang mag-trade lamang gamit ang pondo na kaya mong mawala. Bago magsimula sa trading, siguraduhing nauunawaan mo nang buo ang mga panganib, iyong financial objectives, at level ng iyong karanasan. Kung kinakailangan, humingi ng independent professional advice. Mangyaring tingnan ang aming buong Risk Disclosure Statement para sa detalyadong impormasyon.",
+    "riskWarningHtml": "<strong>Babala sa Panganib:</strong> Ang pag-trade sa derivative financial instruments, kasama ang CFDs at iba pang leveraged products, ay may mataas na panganib at maaaring hindi angkop para sa lahat ng investors. Maaari mong mawala ang lahat o higit pa sa iyong initial investment. Ang trading ay nakadepende sa market volatility, leverage risk, at iba pang panganib. Dapat kang mag-trade lamang gamit ang pondo na kaya mong mawala. Bago magsimula sa trading, siguraduhing nauunawaan mo nang buo ang mga panganib, iyong financial objectives, at level ng iyong karanasan. Kung kinakailangan, humingi ng independent professional advice. Mangyaring tingnan ang aming buong Risk Disclosure Statement para sa detalyadong impormasyon."
+  },
+  "common": {
+    "loading": "Naglo-load...",
+    "error": "Error",
+    "success": "Tagumpay",
+    "close": "Isara",
+    "submit": "Isumite",
+    "cancel": "Kanselahin",
+    "learnMore": "Matuto Pa",
+    "getStarted": "Magsimula Na",
+    "joinNow": "Sumali Ngayon",
+    "trade": "Mag-trade",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "regulations": {
+    "heroBadge": "Regulasyon",
+    "heroTitle": "Lisensya",
+    "heroTitleHighlight": "TraderTok",
+    "heroSubtitle": "Ang TraderTok ay ganap na awtorisado at regulated ng respetado at kagalang-galang na regulatory authorities, na tinitiyak na ang iyong karanasan sa trading sa amin ay ligtas, transparent, at maaasahan. Ang oversight na ito ay nagbibigay sa iyo ng kapayapaan ng isip, alam na kami ay sumusunod sa mahigpit na compliance standards at pinananatili ang pinakamataas na antas ng integridad sa lahat ng aming serbisyo.",
+    "fsc": {
+      "name": "FSC",
+      "name2": "Financial Services Commission",
+      "description": "Ang Amber Rock Trade Ltd ay awtorisado at regulated ng Financial Services Commission ng Mauritius (FSC) sa ilalim ng <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">License No: GB24203892</a>."
+    }
+  },
+  "meetTheTeam": {
+  "pageTitle": "Kilalanin ang Team - TraderTok | Aming Pandaigdigang Trading Experts",
+  "pageDescription": "Kilalanin ang aming pandaigdigang team ng mga eksperto sa trading mula sa iba't ibang panig ng mundo. Mga propesyonal na traders na nagsasalita ng English, Spanish, at Hindi.",
+  "heroTitle": "Kilalanin ang Team",
+  "heroSubtitle": "Ang aming pandaigdigang team ng mga eksperto sa trading ay narito upang gabayan ka sa iyong trading journey sa wikang iyong nais.",
+  "tabEnglish": "Ingles",
+  "tabSpanish": "Espanyol",
+  "tabHindi": "Hindi",
+  "departmentAgents": "Mga Ahente",
+  "departmentManagers": "Mga Manager",
+  "departmentBilling": "Pag-bill",
+  "managers": {
+    "alex_taylor": {
+      "name": "Alex Taylor",
+      "role": "Si Alex Taylor ay isang maingat at nakatutok sa kliyente na Account Manager na palaging nagsusumikap na maunawaan ang mga prayoridad ng bawat kliyente. Sa pamamagitan ng mahusay na kasanayan sa komunikasyon at mahinahong propesyonal na pamamaraan, tinitiyak ni Alex ang maayos na pakikipagtulungan at palagian, maaasahang resulta."
+    },
+    "chris_evans": {
+      "name": "Chris Evans",
+      "role": "Si Chris Evans ay isang dynamic at detalyadong Account Manager na pinagsasama ang mahusay na kasanayan sa komunikasyon sa isang strategic na pag-iisip. Nakatuon sa pag-unawa sa mga layunin ng kliyente at paghahatid ng palagiang resulta, bumubuo si Chris ng tiwala sa pamamagitan ng transparency, pagiging maaasahan, at solusyon-orientadong pamamaraan."
+    },
+    "lucas_martin": {
+      "name": "Lucas Martin",
+      "role": "Si Lucas Martin ay isang organisado at kliyente-orientadong Account Manager na palaging tumutupad sa mga pangako. Sa pamamagitan ng mahusay na kasanayan sa komunikasyon at mahinahong propesyonal na pamamaraan, mabilis na bumubuo ng tiwala si Lucas at tinitiyak na bawat kliyente ay nararamdaman ang suporta at malinaw na impormasyon."
+    }
+  },
+  "billing": {
+    "brooke_davis": {
+      "name": "Brooke Davis",
+      "role": "Si Brooke Davis ay isang maingat at kliyente-orientadong Billing Specialist na tinitiyak ang maayos na transaksyong pinansyal para sa lahat ng kliyente. Sa kanyang kaalaman sa payment processing at pamamahala ng account, maingat na hinahandle ni Brooke ang deposits, withdrawals, at billing inquiries, ginagawang maayos at malinaw ang bawat transaksyong pinansyal."
+    },
+    "roy_bruce": {
+      "name": "Roy Bruce",
+      "role": "Si Roy Bruce ay isang detalyado at mahusay sa Billing Specialist na may malawak na karanasan sa financial operations at suporta sa kliyente. Kilala sa kanyang analytical na approach at mabilis na kakayahan sa paglutas ng problema, pinamamahalaan ni Roy ang payment verifications, account reconciliations, at tinitiyak na lahat ng transaksyon ay sumusunod sa pinakamataas na pamantayan ng katumpakan at seguridad."
+    }
+  },
+  "english": {
+    "alex_taylor": {
+      "name": "Alex Taylor",
+      "role": "Si Alex Taylor ay isang maingat at nakatutok sa kliyente na Account Manager na palaging nagsusumikap na maunawaan ang mga prayoridad ng bawat kliyente. Sa pamamagitan ng mahusay na kasanayan sa komunikasyon at mahinahong propesyonal na pamamaraan.<br><br>Tinitiyak ni Alex ang maayos na pakikipagtulungan at palagian, maaasahang resulta."
+    },
+    "chris_evans": {
+      "name": "Chris Evans",
+      "role": "Si Chris Evans ay isang dynamic at detalyadong Account Manager na pinagsasama ang mahusay na kasanayan sa komunikasyon sa isang strategic na pag-iisip. Nakatuon sa pag-unawa sa mga layunin ng kliyente at paghahatid ng palagiang resulta, bumubuo si Chris ng tiwala sa pamamagitan ng transparency, pagiging maaasahan, at solusyon-orientadong pamamaraan."
+    },
+    "lucas_martin": {
+      "name": "Lucas Martin",
+      "role": "Si Lucas Martin ay isang organisado at kliyente-orientadong Account Manager na palaging tumutupad sa mga pangako. Sa pamamagitan ng mahusay na kasanayan sa komunikasyon at mahinahong propesyonal na pamamaraan, mabilis na bumubuo ng tiwala si Lucas at tinitiyak na bawat kliyente ay nararamdaman ang suporta at malinaw na impormasyon."
+    },
+    "kai_lockwood": {
+      "name": "Kai Lockwood",
+      "role": "Si Kai Lockwood ay isang proaktibo at nakatutok sa kliyente na Account Manager na may mahusay na track record sa pagtataguyod ng pangmatagalang partnership. Kilala sa malinaw na komunikasyon, atensyon sa detalye, at mabilis na paglutas ng problema, palagiang naihahatid ni Kai ang mga layunin ng kliyente habang pinananatili ang positibo at collaborative na estilo ng pagtatrabaho."
+    },
+    "dominic_weber": {
+      "name": "Dominic Weber",
+      "role": "Si Dominic Weber ay isang maaasahan at result-oriented na Account Manager na palaging inuuna ang kliyente. Sa mahusay na kasanayan sa komunikasyon at structured na paraan ng pagtatrabaho, mabilis na nauunawaan ni Dominic ang pangangailangan ng kliyente, nagbibigay ng malinaw na solusyon, at pinananatili ang maayos at propesyonal na pakikipagtulungan sa bawat yugto."
+    },
+    "dasha_petrova": {
+      "name": "Dasha Petrova",
+      "role": "Si Dasha Petrova ay isang dedikado at solution-oriented na Account Manager na palaging inuuna ang prayoridad ng kliyente sa bawat desisyon. Kilala sa malinaw na komunikasyon, pagiging maaasahan, at hands-on na approach, tinitiyak ni Dasha ang maayos na pakikipagtulungan at palagian, nasusukat na resulta."
+    },
+    "david_faris": {
+      "name": "David Faris",
+      "role": "Si David Faris ay isang maingat at goal-oriented na Account Manager na nakatuon sa kasiyahan ng kliyente. Pinagsasama ang malinaw na komunikasyon sa structured at analytical na approach, mabilis na natutukoy ni David ang pangangailangan ng kliyente, nagbibigay ng praktikal na solusyon, at tinitiyak ang maayos at propesyonal na pakikipagtulungan."
+    },
+    "michael_smith": {
+      "name": "Michael Smith",
+      "role": "Si Michael Smith ay isang tiwala at results-focused na Account Manager na may matinding sense of responsibility. Kilala sa malinaw na komunikasyon, mabilis na pagtugon sa pangangailangan ng kliyente, at practical, solution-driven na pag-iisip, tinitiyak ni Michael na ang bawat kliyente ay nararamdaman ang suporta at kontrol sa kanilang mga layunin."
+    },
+    "oscar_dupont": {
+      "name": "Oscar Dupont",
+      "role": "Si Oscar Dupont ay isang detalyado at maaasahang Account Manager na may malakas na commitment sa tagumpay ng kliyente. Pinagsasama ang malinaw na komunikasyon sa proaktibo at solution-driven na pag-iisip, tinitiyak ni Oscar ang maayos na pakikipagtulungan at palagiang naihahatid ang mga napagkasunduang layunin."
+    },
+    "simon_bjork": {
+      "name": "Simon Bjork",
+      "role": "Si Simon Bjork ay isang methodical at client-centric na Account Manager na may talento sa pag-turn ng kumplikadong konsepto sa merkado tungo sa actionable na mga estratehiya. Kilala sa analytical na precision at mahinahong disposisyon, bumubuo si Simon ng matibay na relasyon sa kliyente sa pamamagitan ng tiwala, kaalaman, at hindi matitinag na commitment sa kahusayan."
+    }
+  },
+  "spanish": {
+    "juan_garcia": {
+      "name": "Juan Garcia",
+      "role": "Si Juan Garcia ay isang strategic at nakatutok sa kliyente na Account Manager na mahusay sa pagtatayo ng matibay na relasyon sa mga kliyenteng nagsasalita ng Espanyol. Sa malalim na kaalaman sa merkado at proaktibong approach, naghahatid si Juan ng personalized na solusyon at tinitiyak na maabot ng bawat kliyente ang kanilang trading goals."
+    }
+  },
+  "hindi": {
+    "aaron_dev": {
+      "name": "Vikram Patel",
+      "role": "Si Vikram Patel ay isang dedikado at knowledgeable na Account Manager na dalubhasa sa paglilingkod sa mga kliyenteng nagsasalita ng Hindi. Sa malalim na pag-unawa sa parehong Indian at international markets, nagbibigay si Vikram ng angkop na gabay at tinitiyak ang maayos at suportadong trading experience para sa bawat kliyente."
+    }
+  }
+  },
+  "marketsOverview": {
+    "title": "Pangkalahatang Pagsusuri ng Merkado"
+  },
+  "tradingPlatformsPage": {
+    "pageTitle": "Mga Plataporma sa Trading - TraderTok | Advanced na Teknolohiya sa Trading",
+    "pageDescription": "Mag-trade gamit ang mga makabagong plataporma na dinisenyo para sa bilis, pagiging maaasahan, at performance. Ma-access ang malalakas na tools at analytics sa desktop, web, at mobile.",
+    "heroTitle": "Mag-trade",
+    "typewriterWords": [
+      "Mas Matalino",
+      "Mas Mabilis",
+      "Sa Iyong Paraan"
+    ],
+    "heroSubtitle": "Sa TraderTok, naniniwala kami na dapat magbigay ng kapangyarihan ang teknolohiya, hindi komplikasyon. Kaya kami ay nagdisenyo ng mga plataporma na nagbibigay sa iyo ng buong kontrol sa iyong karanasan sa trading, maging nasa desk ka man o on-the-go.",
+    "mobilePlatform": "Mobile na Plataporma",
+    "webDesktop": "Web at Desktop",
+    "ios": "iOS",
+    "android": "Android",
+    "windows": "Windows",
+    "mac": "Mac",
+    "signIn": "Mag-sign In",
+    "download": "I-download"
+  },
+  "contactUsPage": {
+    "pageTitle": "Makipag-ugnayan sa Amin - TraderTok | Makipag-ugnayan",
+    "pageDescription": "Makipag-ugnayan sa TraderTok. Ang aming team ay narito upang tulungan ka sa anumang katanungan tungkol sa trading, pamamahala ng account, o suporta sa plataporma.",
+    "heroTitle": "Makipag-ugnayan",
+    "heroTitleHighlight": "Sa Amin",
+    "heroDescription": "Bukás kami para sa anumang katanungan o inquiry. Mangyaring isumite ang iyong mensahe sa mga fields sa ibaba, at ang aming support team ay agad na tutugon.",
+    "formName": "Pangalan",
+    "formNamePlaceholder": "Ilagay ang iyong pangalan",
+    "formSurname": "Apelyido",
+    "formSurnamePlaceholder": "Ilagay ang iyong apelyido",
+    "formPhone": "Telepono",
+    "formPhonePlaceholder": "+44 7520 640 890",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "support@tradertok.com",
+    "formMessage": "Mensahe",
+    "formMessagePlaceholder": "Ikuwento ang iyong inquiry...",
+    "formSubmit": "Ipadala ang Mensahe"
+  },
+  "legalPage": {
+    "pageTitle": "Legal - TraderTok | Mga Tuntunin at Patakaran",
+    "pageDescription": "Impormasyon sa legal ng TraderTok, mga tuntunin ng serbisyo, patakaran sa privacy, at mga regulatory disclosure.",
+    "heroTitle": "Mahalagang Impormasyon sa Legal at",
+    "heroTitleHighlight": "Patakaran",
+    "heroDescription1": "Sa TraderTok, kami ay nakatuon sa pagpapanatili ng pinakamataas na pamantayan ng pagsunod sa regulasyon, legal na integridad, at proteksyon ng kliyente.",
+    "heroDescription2": "Makikita sa ibaba ang aming mga pangunahing dokumentong legal, na nagtatakda ng balangkas ng aming mga serbisyo at naglalahad ng iyong mga karapatan at responsibilidad bilang kliyente.",
+    "heroNote": "Lubos naming hinihikayat ang lahat ng kliyente na maingat na suriin ang mga sumusunod bago magbukas ng account o simulan ang anumang trading activity:",
+    "docPrivacyPolicy": "Patakaran sa Privacy",
+    "docPrivacyPolicyDesc": "Pinapanatili ng Kumpanya ang komprehensibong balangkas para sa proteksyon ng datos.",
+    "docTermsConditions": "Mga Tuntunin at Kundisyon",
+    "docTermsConditionsDesc": "Itinatakda ng Kasunduan ang mga serbisyong pamumuhunan at kaugnay na serbisyo na ibinibigay ng Kumpanya.",
+    "docAmlPolicy": "Patakaran laban sa Money Laundering",
+    "docAmlPolicyDesc": "Itinatakda ng patakarang ito ang pangako ng Kumpanya sa pagpigil at pagtukoy ng money laundering.",
+    "docOrderExecution": "Patakaran sa Pagpapatupad ng Order",
+    "docOrderExecutionDesc": "Ang Kumpanya ay nakatuon sa pagbibigay sa mga kliyente ng pinakamainam na kundisyon sa trading.",
+    "docRiskDisclosure": "Pahayag ng Panganib",
+    "docRiskDisclosureDesc": "Ipinapaalam ng dokumentong ito sa iyo ang mga likas na panganib na kaakibat ng trading.",
+    "docGeneralRiskDisclosure": "Pangkalahatang Pahayag ng Panganib",
+    "docGeneralRiskDisclosureDesc": "Naglalahad ng pangkalahatang panganib sa pag-trade ng financial instruments at ipinapaalam sa kliyente ang mga posibleng pagkalugi at pagbabago sa merkado.",
+    "docClientServiceAgreement": "Kasunduan sa Serbisyo ng Kliyente",
+    "docClientServiceAgreementDesc": "Itinatakda ang mga tuntunin, kundisyon, karapatan, at obligasyon na namamahala sa relasyon ng kliyente at ng Kumpanya.",
+    "important": "Mahalaga",
+    "importantNotice": "Sa patuloy na paggamit ng aming mga serbisyo, pinatutunayan mo na nabasa, naunawaan, at sumasang-ayon ka sa mga tuntuning nakasaad sa mga patakarang ito."
+  },
+  "accountTypesPage": {
+    "pageTitle": "Mga Uri ng Account - TraderTok | Piliin ang Iyong Trading Account",
+    "pageDescription": "Tuklasin ang mga uri ng account sa TraderTok na idinisenyo upang umayon sa iyong karanasan at layunin sa trading.",
+    "heroTitle": "Piliin ang Iyong",
+    "heroTitleHighlight": "Uri ng Account",
+    "heroSubtitle": "Anuman ang iyong layunin sa trading, nag-aalok ang TraderTok ng account na akma sa iyong pangangailangan. Tuklasin at ihambing ang aming limang opsyon sa account upang mahanap ang pinakamainam para sa iyo.",
+    "getStarted": "Magsimula",
+    "mostPopular": "Pinakapopular",
+    "standard": {
+      "name": "Standard",
+      "feature1": "Pangunahing access sa trading platform",
+      "feature2": "Karaniwang customer support",
+      "feature3": "Karaniwang tools sa pagsusuri ng merkado",
+      "feature4": "Access sa mga materyales pang-edukasyon",
+      "feature5": "Regular na updates sa merkado",
+      "feature6": "Account Manager"
+    },
+    "advanced": {
+      "name": "Advanced",
+      "feature1": "Lahat ng benepisyo ng Standard Account",
+      "feature2": "Mas mababang gastos sa transaksyon",
+      "feature3": "Advanced charting tools",
+      "feature4": "Priority customer support",
+      "feature5": "Araw-araw na market insights at research reports",
+      "feature6": "Account Manager",
+      "note": "Potensyal para sa Mas Mataas na Kita: Mas mababang gastos sa transaksyon, na nagbibigay-daan sa iyo na mapanatili ang mas malaking bahagi ng iyong kita"
+    },
+    "professional": {
+      "name": "Professional",
+      "feature1": "Lahat ng benepisyo ng Advanced Account",
+      "feature2": "50% bawas sa Swap",
+      "feature3": "Eksklusibong research reports",
+      "feature4": "Mas mababang gastos sa transaksyon",
+      "feature5": "Dedikadong personal assistant",
+      "feature6": "Maaaring i-customize na kundisyon sa trading",
+      "feature7": "Paggamit ng AI tools (limitado)",
+      "feature8": "Malawak na edukasyon mula sa senior analyst",
+      "note": "Potensyal para sa Mas Mataas na Kita: Isa sa pinakamababang gastos sa transaksyon sa branch, kasama ang paggamit ng personal assistant at AI tool upang gabayan ka sa financial markets"
+    },
+    "exclusive": {
+      "name": "Exclusive",
+      "feature1": "Lahat ng benepisyo ng Professional Account",
+      "feature2": "Zero swap fees!",
+      "feature3": "Pinakamababang posibleng gastos sa transaksyon",
+      "feature4": "Priority access sa bagong features at tools",
+      "feature5": "Eksklusibong materyales pang-edukasyon",
+      "feature6": "VIP events at networking opportunities",
+      "feature7": "Regular na personal na access sa senior analysts",
+      "feature8": "Pinakamataas na level ng customer support na may mas mabilis na tugon",
+      "note": "Makakuha ng pinakamababang gastos sa transaksyon, zero swap fees, eksklusibong features, at personalized na suporta, upang i-optimize ang iyong trading performance para sa mas mataas na potensyal na kita"
+    },
+    "black": {
+      "name": "BLACK",
+      "feature1": "Lahat ng benepisyo ng Exclusive Account",
+      "feature2": "Personal na dedikadong senior analyst",
+      "feature3": "300,000 welcome bonus",
+      "feature4": "Access sa pribadong koleksyon ng educational info",
+      "feature5": "Personalized at napag-uusapang alok",
+      "feature6": "Oversight analyst"
+    }
+  },
+  "researchPage": {
+    "pageTitle": "Pananaliksik - TraderTok | Pagsusuri at Insights sa Merkado",
+    "pageDescription": "Malalim na pagsusuri ng merkado at insights mula sa mga eksperto ng TraderTok.",
+    "heroTitle": "Insights sa Merkado na",
+    "heroTitleHighlight": "Mahalaga",
+    "heroDesc1": "Ang aming mga materyales sa pananaliksik ay maingat na inihanda upang matulungan ang mga trader at investor na mas maunawaan ang merkado. Bawat video at PDF sa pahinang ito ay maingat na dinisenyo upang magbigay ng praktikal, malinaw, at batay sa tunay na karanasan sa merkado na insights.",
+    "heroDesc2": "Alam naming maaaring maging komplikado ang mundo ng pananalapi, kaya layunin naming ipakita ang impormasyon sa isang malinaw at madaling sundan na paraan, nang hindi nawawala ang lalim na mahalaga.",
+    "videoLessons": "Mga Aralin sa Video",
+    "pdfReports": "Mga PDF Report",
+    "weeklyUpdates": "Lingguhang Update",
+    "videoMaterials": "Mga Materyal na Video",
+    "videoMaterialsDesc": "Panuorin ang aming ekspertong pagsusuri at trading insights",
+    "latestVideos": "Pinakabagong Videos",
+    "researchReports": "Research Reports",
+    "researchReportsDesc": "I-download ang malalim na pagsusuri at detalyadong market reports",
+    "pdfDownloads": "PDF Downloads",
+    "whyEducation": "Bakit Mahalaga ang",
+    "whyEducationHighlight": "Edukasyon",
+    "whyEducationDesc1": "Sa mabilis na mundo ng trading at investing, ang edukasyon ay hindi opsyonal—ito ay mahalaga. Ang matalinong paggawa ng desisyon ay nagsisimula sa pag-unawa sa mga instrumento, panganib, at mas malawak na konteksto ng ekonomiya.",
+    "whyEducationDesc2": "Nagbabago ang merkado, umuusbong ang mga pattern, at lumilitaw ang bagong oportunidad araw-araw—ang mga pinakamahusay na handa ay yaong nananatiling may alam. Naniniwala kami na ang pagbibigay kapangyarihan sa mga trader sa pamamagitan ng kaalaman ay isa sa pinakamahalagang serbisyo na maibibigay namin.",
+    "practicalInsights": "Praktikal na Insights",
+    "expertAnalysis": "Ekspertong Pagsusuri",
+    "weeklyUpdatesFeature": "Lingguhang Updates",
+    "clearStructure": "Malinaw na Estruktura"
+  },
+  "eventsCalendarPage": {
+    "pageTitle": "Kalendaryo ng Mga Kaganapan - TraderTok | Mahahalagang Kaganapan sa Merkado",
+    "pageDescription": "Subaybayan ang mahahalagang kaganapan sa merkado at economic releases.",
+    "heroTitle": "Pangkalahatang",
+    "heroTitleHighlight": "Merkado",
+    "heroSubtitle": "Real-time na data ng merkado, mga kaganapang pang-ekonomiya, at presyo ng cryptocurrency lahat sa isang lugar",
+    "liveMarket": "Live Market",
+    "liveMarketDesc": "Real-time na quotes para sa pangunahing forex pairs, indices, at commodities",
+    "live": "LIVE",
+    "economicCalendar": "Kalendaryo ng Ekonomiya",
+    "economicCalendarDesc": "Mga paparating na kaganapang pang-ekonomiya at ang inaasahang epekto nito sa merkado",
+    "cryptoMarket": "Merkado ng Cryptocurrency",
+    "cryptoMarketDesc": "Pinakamahalagang cryptocurrencies ayon sa market capitalization na may real-time na data"
+  },
+  "tradingEssentialsPage": {
+    "pageTitle": "Trading Essentials - TraderTok | Matutunan ang Mga Pangunahing Kaalaman sa Trading",
+    "pageDescription": "Matutunan ang mga pangunahing kaalaman sa trading gamit ang aming komprehensibong materyales pang-edukasyon.",
+    "heroTitle": "Trading",
+    "heroTitleHighlight": "Essentials",
+    "heroSubtitle": "Ang TraderTok ay naglilingkod sa lahat ng kliyente, batay sa kanilang kasanayan at karanasan. Para sa mga baguhan, isang malawak na seksyon na \"trading essentials\" ang ilalaan. Dito, tatalakayin namin ang lahat ng pinakamahalagang termino, pati na rin ang pangunahing edukasyon na kinakailangan sa pagsisimula ng iyong trading journey."
+  },
+  "videoEducationPage": {
+    "pageTitle": "Video Education - TraderTok | Mga Tutorial sa Trading",
+    "pageDescription": "Panuorin ang mga tutorial sa trading at ekspertong insights upang mapabuti ang iyong kakayahan sa trading.",
+    "heroTitle": "Video",
+    "heroTitleHighlight": "Edukasyon",
+    "comingSoon": "Malapit Nang Dumating",
+    "heroSubtitle": "Nag-aalok ang TraderTok ng malawak na saklaw ng mga materyales pang-edukasyon. Isang paraan upang matuto pa tungkol sa trading ay sa pamamagitan ng aming malawak na video gallery, na sumasaklaw sa dosenang mainit na paksa, palaging may kaugnayan para sa parehong propesyonal at baguhang trader."
+  },
+  "liveTrainingPage": {
+    "pageTitle": "Live Training - TraderTok | Ekspertong Sesyon sa Trading",
+    "pageDescription": "Sumali sa mga live trading sessions kasama ang aming ekspertong analyst.",
+    "heroTitle": "Matutunan ang Trading",
+    "heroTitleHighlight": "Live",
+    "heroDescription": "Sumali sa aming ekspertong pinamumunuan na live trading sessions at webinars. Makakuha ng real-time na pagsusuri ng merkado, matutunan ang napatunayang mga estratehiya, at makipag-ugnayan nang direkta sa mga propesyonal na trader.",
+    "sessionsMonth": "Sesyon/Buwan",
+    "activeLearners": "Aktibong Nag-aaral",
+    "expertTrainers": "Ekspertong Tagapagsanay",
+    "hoursTraining": "Oras ng Pagsasanay",
+    "upcomingSessions": "Mga Paparating na Sesyon",
+    "upcomingSessionsDesc": "Ireserba ang iyong puwesto sa aming susunod na live trading sessions. Limitado lamang ang mga upuan.",
+    "registerNow": "Magrehistro Ngayon",
+    "daysLeft": "araw na natitira bago ang kaganapan",
+    "event1": {
+      "monthShort": "Peb",
+      "fullDate": "Miyerkules, 18 ng Pebrero 2026",
+      "time": "13:00 GMT+1",
+      "title": "Ginto - Abot ng Bagong Taas sa 2026",
+      "description": "Walang mas mahusay na paraan upang turuan ang aming mga kliyente tungkol sa pasikot-sikot ng merkado at pamumuhunan kaysa sa paggamit ng live training. Sumali sa aming eksklusibong webinars upang matuto nang mas detalyado bawat linggo."
+    },
+    "event2": {
+      "monthShort": "Peb",
+      "fullDate": "Biyernes, 20 ng Pebrero 2026",
+      "time": "14:00 GMT+1",
+      "title": "Pangunahing Kaalaman sa Forex - Mastering Currency Trading",
+      "description": "Tuklasin ang mga pangunahing estratehiya para sa matagumpay na forex trading. Gagabayan ka ng aming ekspertong analyst sa pagsusuri ng merkado, pamamahala ng panganib, at kumikitang teknik sa trading."
+    }
+  },
+  "tradingCentral": {
+    "eyebrow": "Trading Central",
+    "heroTitlePart1": "Advanced analytics para sa",
+    "heroTitlePart2": "mas matalinong trading",
+    "heroSubtitle": "Ipinakikilala ng TraderTok ang isa sa pinakamakapangyarihang market tools para sa modernong trading. Pinagsasama ng Trading Central ang makabagong teknolohiya at ekspertong pagsusuri sa merkado upang iangat ang iyong trading experience.",
+    "heroBtn": "I-access ang Trading Central",
+    "stats": {
+      "s1lbl": "Saklaw ng Pandaigdigang Merkado",
+      "s2lbl": "Pagkakahati ng Asset",
+      "s3lbl": "Mga Binabantayang Kaganapan",
+      "s4lbl": "Pinagsama-samang Mga Pinagmumulan ng Balita"
+    },
+    "midTitlePart1": "Manatiling nangunguna sa mga trend ng merkado",
+    "midTitlePart2": "sa pamamagitan ng real-time analytics",
+    "features": {
+      "f1title": "Data-Driven Insights",
+      "f1desc": "Manatiling updated sa pinakabagong galaw ng merkado gamit ang advanced analytics at ekspertong insights.",
+      "registerBtn": "Magrehistro para Makapag-access",
+      "f2title": "Professional-Grade Analysis",
+      "f2desc": "Mag-navigate sa pandaigdigang merkado gamit ang pinakabagong market-scanning tools na pinapagana ng AI.",
+      "f3title": "Walang Hanggang Oportunidad sa Merkado",
+      "f3desc": "Makakuha ng real-time insights sa daan-daang financial instruments."
+    },
+    "cta": {
+      "title": "Magrehistro para makapag-access sa Trading Central nang LIBRE",
+      "desc": "Buksan ang buong kapangyarihan ng Trading Central kapag nagrehistro ka sa TraderTok. Pinapahusay ng Trading Central ang iyong trading experience sa pamamagitan ng pagbibigay ng actionable insights at ekspertong pagsusuri nang walang bayad.",
+      "btn": "Magrehistro para Makapag-access"
+    },
+    "tools": {
+      "title": "Ang pinakahuling suite ng market tools",
+      "subtitle": "Sa TraderTok, ipinagmamalaki naming bigyan ka ng mga tools at insights na kailangan mo upang magtagumpay. Tuklasin ang kapangyarihan ng Trading Central at baguhin ang paraan ng iyong pagte-trade.",
+      "t1title": "Pagsusuri ng Balita at Sentimyento",
+      "t1desc": "Manatiling updated sa komprehensibong pagsusuri ng balita at sentimyento sa forex, stocks, commodities, indices, cryptocurrencies, at iba pa. Gamitin ang patas at data-driven insights upang mag-navigate sa merkado nang may kumpiyansa at samantalahin ang mga oportunidad.",
+      "t2title": "Pricing Analytics",
+      "t2desc": "Suriin ang real-time na galaw ng presyo at tuklasin ang trading opportunities sa higit 250+ na asset. Manatiling nangunguna sa trend ng merkado gamit ang tumpak na economic insights at pricing analytics na nagbibigay kapangyarihan sa iyong agarang aksyon at pag-maximize ng trading potential.",
+      "t3title": "Mga Instrumento at Insights",
+      "t3desc": "Makakuha ng actionable technical analysis sa malawak na hanay ng financial instruments. Gamitin ang advanced analytics, pattern recognition technology, at real-time data upang tuklasin ang mga oportunidad sa merkado at gumawa ng matalinong desisyon sa trading. Makamit ang kalinawan at kumpiyansa na kailangan upang mag-navigate sa mabilis na takbo ng financial landscape ngayon.",
+      "t4title": "Actionable Ideas",
+      "t4desc": "Tuklasin ang live trading ideas na nilikha mula sa kombinasyon ng technical at fundamental analysis. Tuklasin ang bullish at bearish opportunities sa real time at gumawa ng kumpiyansang desisyon na suportado ng data na naaayon sa iyong trading strategy.",
+      "btn": "Magsimula Ngayon"
+    },
+    "faq": {
+      "title": "Trading Central FAQs",
+      "q1": "Ano ang Trading Central?",
+      "a1": "Ang Trading Central ay isang state-of-the-art na market analysis at research suite na pinagsasama ang makabagong AI technology at kaalaman ng bihasang financial analysts. Sa pamamagitan ng seamless na pagsasanib ng machine learning at human intelligence, nagbibigay ang Trading Central ng tumpak at actionable trade ideas, malalim na market insights, at real-time data upang matulungan ang mga trader sa lahat ng antas na gumawa ng matalinong desisyon.",
+      "q2": "Paano ako makaka-access sa Trading Central?",
+      "a2": "Upang ma-access ang Trading Central ng TraderTok, kailangan mong mag-login sa iyong account. Makikita mo ang lahat ng Trading Central tools sa loob ng aming trading environments. Seamlessly na-integrate ang Trading Central sa platform, nagbibigay sa iyo ng makapangyarihang tools at insights sa iyong mga kamay.",
+      "q3": "Anong mga merkado ang nasasakop ng Trading Central?",
+      "a3": "Nagbibigay ang Trading Central ng komprehensibong insights sa malawak na hanay ng merkado na inaalok ng TraderTok, na nagpapalakas sa iyo upang i-diversify ang iyong trading portfolio. Mula Forex at Commodities hanggang Indices, Cryptocurrencies, at Stocks, naghahatid ang Trading Central ng ekspertong pagsusuri at trade ideas sa iba't ibang financial instruments.",
+      "q4": "Bakit pipiliin ang TraderTok at Trading Central?",
+      "a4": "Kapag pinili mo ang TraderTok, sumasali ka sa isang pinagkakatiwalaang brokerage na nakatuon sa iyong tagumpay. Nagbibigay kami ng seamless trading experience na may walang kapantay na suporta, mababang spreads, at hanay ng premium trading tools, kabilang ang Trading Central, nang walang dagdag na bayad. Sa pakikipagtulungan sa TraderTok, nakakakuha ka ng access sa expertise, resources, at technology na kailangan upang makamit ang iyong financial goals."
+    }
+  },
+  "tradingEssentials": {
+    "titlePart1": "Mga Pang-edukasyon",
+    "titlePart2": "na Resources",
+    "subtitle1": "Magsanay sa mga pangunahing kaalaman ng forex market gamit ang aming piniling koleksyon ng essential trading guides.",
+    "subtitle2": "Tuklasin ang aming library ng 20+ artikulo. Magsimula sa simula o sumisid sa isang partikular na paksa."
+  }
+}

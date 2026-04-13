@@ -1,27 +1,60 @@
+<style>
+  /* .gold-silver-banner {
+  background-image: url('assets/images/banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  
+  width: 100%;
+  height: 500px;
+} */
+
+.gold-silver-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.gold-silver-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* adjust darkness here */
+  z-index: 1;
+}
+
+/* make sure content stays above overlay */
+.gold-silver-banner > * {
+  position: relative;
+  z-index: 2;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gold-silver-banner {
+    min-height: 210px;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: 210px;
+    object-fit: contain;
+    object-position: center center;
+    background: #000000;
+  }
+}
+</style>    
     <!-- Hero Section -->
-    <section class="hero gold-silver-banner">
-      <div class="banner-left">
-        <div class="banner-content">
-          <p class="banner-subtitle" data-i18n-html="hero.subtitle">Precious Metals Investment</p>
-          <h1 class="banner-title" data-i18n-html="hero.title">
-            <span class="highlight-gold">Gold</span> & <span class="highlight-silver">Silver</span>: The Smart Money's
-            Safe Haven
-          </h1>
-          <p class="banner-text" data-i18n-html="hero.description">
-            When markets shake, precious metals stand strong. Discover why gold and silver are the go-to assets for
-            preserving wealth and seizing buying opportunities right now. With limited supply and growing global demand,
-            today's prices could be tomorrow's missed chance.
-          </p>
-          <a data-i18n="hero.getStarted" href="<?php echo $get->register_url; ?>" class="btn-hero btn-primary-hero"
-            onclick="openAuthModal('register')">Get
-            Started</a>
-        </div>
-      </div>
-      <div class="banner-right">
-        <img src="assets/images/gold-silver-bar-transparent-background.png" alt="Gold and Silver"
-          class="banner-bg-image" fetchpriority="high">
-      </div>
-    </section>
+<section class="hero gold-silver-banner" aria-label="TraderTok banner">
+  <img src="assets/images/banner.jpeg" alt="Banner" class="banner-img">
+</section>
+
+
 
     <!-- Earnings Reports Promo Popup -->
     <!-- <div class="earnings-popup" id="earnings-popup">
@@ -774,7 +807,7 @@
                 <span class="star">★</span>
                 <span class="star">★</span>
               </div>
-              <span class="trustpilot-score">4.2 out of 5</span>
+              <span class="trustpilot-score">4.5 out of 5</span>
             </div>
           </div>
         </div>

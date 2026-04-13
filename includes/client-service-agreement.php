@@ -9,11 +9,11 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+      <div class="doc-page-hero-title">
         <span data-i18n="privacyPolicyPage.heroTitle">CLIENT SERVICE AGREEMENT</span>
       </div>
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">INTRODUCTION</span>
       </h1>
       <p class="doc-page-hero-subtitle">This Client Services Agreement (the <strong>“Agreement”</strong>) governs the
@@ -32,7 +32,7 @@
         read, understood, and accepted this Agreement in its entirety. This Agreement is legally
         binding and forms the basis of your relationship with us.</p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">WHEREAS:
         </span>
       </h1>
@@ -68,7 +68,7 @@
         Parties hereby covenant and agree as follows:
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">1. COMMUNICATION WITH US
         </span>
       </h1>
@@ -107,7 +107,7 @@
         consent to the monitoring, recording, and processing of such communications.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">2. MEMBERSHIP ELIGIBILITY
         </span>
       </h1>
@@ -131,7 +131,7 @@
         directives relevant to your country of residency.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">3. DEFINITIONS – INTEPRETATION
         </span>
       </h1>
@@ -228,7 +228,7 @@
         be extended, re-enacted or amended
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">4. PROVISION OF SERVICES
         </span>
       </h1>
@@ -289,7 +289,7 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">5. ACCOUNT OPENING INFORMATION AND REQUIREMENTS
         </span>
       </h1>
@@ -332,7 +332,7 @@
         data providers.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">6. GUARANTEES ON BEHALF OF THE CLIENT
         </span>
       </h1>
@@ -371,7 +371,7 @@
         Company are authentic, valid, and accurate.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">7. ELECTRONIC TRADING
         </span>
       </h1>
@@ -485,7 +485,7 @@
         such suspensions or terminations.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">8. FINANCIAL INFORMATION
         </span>
       </h1>
@@ -528,7 +528,7 @@
         its Services or Financial Information.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">9. ORDERS – INSTRUCTIONS AND BASIS OF DEALINGS
         </span>
       </h1>
@@ -620,7 +620,7 @@
         maker.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">10.CONFIRMATIONS
         </span>
       </h1>
@@ -659,7 +659,7 @@
         conflicts of interest.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">11.PRICING
         </span>
       </h1>
@@ -704,7 +704,7 @@
         currency pairs and value dates at any time.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">12.REFUSAL TO EXECUTE ORDERS
         </span>
       </h1>
@@ -756,7 +756,7 @@
         acknowledges that the Company’s refusal to execute Orders may be in accordance with
         these rules, policies, or applicable law.</p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">13.CANCELLATION OF TRANSACTIONS
         </span>
       </h1>
@@ -781,7 +781,7 @@
         cancellation, and failure to provide such notice shall not affect the Company’s right to
         cancel. </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">14.SETTLEMENT OF TRANSACTIONS
         </span>
       </h1>
@@ -803,7 +803,7 @@
         Force Majeure clause, shall not constitute a breach by the Company.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">15.BONUS AND PROMOTIONS POLICY
         </span>
       </h1>
@@ -889,7 +889,7 @@
         bonus’s terms and conditions here above and hereinafter.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">16.CLIENTS FUNDS
         </span>
       </h1>
@@ -1016,7 +1016,7 @@
         Account shall
         not form part of the assets of the Company in the event of the Client’s insolvency.</p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">MINIMUM WITHDRAWAL AMOUNTS
         </span>
       </h1>
@@ -1026,7 +1026,7 @@
         Account.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">WITHDRAWAL CHARGES
         </span>
       </h1>
@@ -1044,7 +1044,7 @@
         *The commissions of wire withdrawals will be placed onto the beneficiary.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">17.DORMANT ACCOUNT PROCEDURE
         </span>
       </h1>
@@ -1059,7 +1059,7 @@
         Reactivation is subject to the approval of the Company.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">18.COSTS AND CHARGES
         </span>
       </h1>
@@ -1109,7 +1109,7 @@
         remuneration from third parties based on a written agreement.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">19.COMPANY LIABILITY AND INDEMNITY
         </span>
       </h1>
@@ -1146,7 +1146,7 @@
         unexpressed representations, whether negligent or otherwise.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">20.DURATION OF THE AGREEMENT AND AMENDMENT THEREOF
         </span>
       </h1>
@@ -1171,7 +1171,7 @@
         following such amendments constitutes acceptance of the updated Agreement.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">21.IMPROPER OR ABUSIVE TRADING AND/ OR UNAUTHORISED
           ACTIVITIES
         </span>
@@ -1249,7 +1249,7 @@
         conditions or otherwise, and You agree that you are fully responsible for managing their
         trades and maintaining communication with the Company as necessary.</p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">22.CFD TRADING TERMS
         </span>
       </h1>
@@ -1445,7 +1445,7 @@
         necessary.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">23.TERMINATION
         </span>
       </h1>
@@ -1497,7 +1497,7 @@
         interests at risk before terminating the Agreement.</p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">24.EVENTS OF DEFAULT AND RIGHTS ON DEFAULT
         </span>
       </h1>
@@ -1549,7 +1549,7 @@
       </ul>
       <p class="doc-page-hero-subtitle"></p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">25.ACKNOWLEDGEMENT OF RISKS
         </span>
       </h1>
@@ -1591,7 +1591,7 @@
         binding Agreement made between you, as the Client and the Company, and is not
         transferable, negotiable or assignable to or with any third party.</p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">26.CONFIDENTIAL INFORMATION
         </span>
       </h1>
@@ -1615,7 +1615,7 @@
         the Company’s website.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">27.NOTICES
         </span>
       </h1>
@@ -1632,7 +1632,7 @@
         The Company reserves the right to specify any other means of communication with you.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">28.CONFILICT OF INTEREST
         </span>
       </h1>
@@ -1650,7 +1650,7 @@
         Company’s official website.
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">29.GENERAL PROVISIONS
         </span>
       </h1>
@@ -1700,7 +1700,7 @@
         actions, or changes in laws or regulations (“Force Majeure Event”).
       </p>
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">30.APPLICABLE LAW, JURISDICTION
         </span>
       </h1>
@@ -1714,7 +1714,7 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">31.DISPUTE RESOLUTION PROVISION
         </span>
       </h1>
@@ -1753,7 +1753,7 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
+      <h1 class="doc-sub">
         <span data-i18n="privacyPolicyPage.heroTitle">32.MISCELLANEOUS
         </span>
       </h1>

@@ -11,7 +11,7 @@
     <div class="container">
         <div class="about-hero-inner">
             <div class="about-hero-eyebrow"  data-i18n="aboutPage.hero.eyebrow">
-                <span class="eyebrow-dot"></span>
+                <span class="eyebrow-dot gradient-text"></span>
                 Our Story
             </div>
             <h1 class="about-hero-title gradient-text">
@@ -47,7 +47,7 @@
 <section class="about-origin">
     <div class="container">
         <div class="about-origin-grid">
-            <div class="about-origin-visual">
+            <!-- <div class="about-origin-visual">
                 <div class="origin-card-stack">
                     <div class="origin-card origin-card-back">
                         <div class="origin-card-line"></div>
@@ -66,7 +66,7 @@
                         <div class="origin-brand">— TraderTok</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="about-origin-content">
                 <h2 class="section-title" data-i18n="aboutPage.origin.title">Why TraderTok Was Built</h2>
                 <p class="section-body" data-i18n="aboutPage.origin.p1">

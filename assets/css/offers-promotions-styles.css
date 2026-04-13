@@ -222,10 +222,38 @@
     filter: grayscale(0.3);
 }
 
+/* Locked state for subdomains */
+.offers-sidebar.is-locked .sidebar-country-item:not(.active) {
+    opacity: 0.25;
+    cursor: default;
+    pointer-events: none;
+}
 
-/* ----------------------------------------
-   4. Mobile Selector & Horizontal Strip
-   ---------------------------------------- */
+.offers-sidebar.is-locked .sidebar-country-item.active {
+    cursor: default;
+    pointer-events: none;
+    border-left-color: var(--brand-color-start);
+    background: rgba(230, 57, 70, 0.05);
+}
+
+.offers-country-strip.is-locked .strip-country-item:not(.active) {
+    opacity: 0.25;
+    cursor: default;
+    pointer-events: none;
+}
+
+.offers-country-strip.is-locked .strip-country-item.active {
+    cursor: default;
+    pointer-events: none;
+    border-color: var(--brand-color-start);
+    background: rgba(230, 57, 70, 0.05);
+}
+
+.region-dropdown:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    background-color: var(--bg-tertiary);
+}
 
 .offers-mobile-selector {
     display: none;
