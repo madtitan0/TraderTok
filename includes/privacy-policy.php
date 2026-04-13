@@ -11,10 +11,10 @@
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">Privacy Policy</span>
+        <span data-i18n="privacyPolicyPage.h1">Privacy Policy</span>
       </div>
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">INTRODUCTION</span>
+        <span data-i18n="privacyPolicyPage.h2">INTRODUCTION</span>
       </h1>
       <p class="doc-page-hero-subtitle" data-i18n="privacyPolicyPage.heroSubtitle">
         Our comprehensive data protection policy reflects our commitment to upholding high security standards.
@@ -36,7 +36,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. SCOPE AND APPLICATION</span>
+        <span data-i18n="privacyPolicyPage.h3">1. SCOPE AND APPLICATION</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         This Privacy Policy applies to:
@@ -54,7 +54,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. DEFINITIONS</span>
+        <span data-i18n="privacyPolicyPage.h4">2. DEFINITIONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         For the purposes of this Privacy Policy:
@@ -84,7 +84,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">3.COLLECTION OF PERSONAL DATA</span>
+        <span data-i18n="privacyPolicyPage.h5">3.COLLECTION OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company collects the necessary information required to open a client's trading account
@@ -122,7 +122,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. CLIENT CONSENT AND ONGOING AUTHORIZATION</span>
+        <span data-i18n="privacyPolicyPage.h6">4. CLIENT CONSENT AND ONGOING AUTHORIZATION</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         By opening an account, using the Company’s services, or continuing to interact with the
@@ -135,7 +135,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. USE OF PERSONAL DATA</span>
+        <span data-i18n="privacyPolicyPage.h7">5. USE OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company uses clients' personal data for legitimate business and regulatory purposes
@@ -165,7 +165,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. PROTECTION OF PERSONAL DATA</span>
+        <span data-i18n="privacyPolicyPage.h8">6. PROTECTION OF PERSONAL DATA</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company implements administrative, technical, and physical safeguards consistent
@@ -182,7 +182,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. AFFILIATES AND PARTNERS</span>
+        <span data-i18n="privacyPolicyPage.h9">7. AFFILIATES AND PARTNERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company may share personal data with affiliates as reasonably necessary to provide
@@ -192,7 +192,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">8. NON-AFFILIATED THIRD PARTIES</span>
+        <span data-i18n="privacyPolicyPage.h10">8. NON-AFFILIATED THIRD PARTIES</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company does not sell, license, lease, or otherwise disclose clients' personal data to
@@ -212,7 +212,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">9. CONTACTING CLIENTS</span>
+        <span data-i18n="privacyPolicyPage.h11">9. CONTACTING CLIENTS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company may contact clients regarding promotional offers, as consented to during
@@ -247,7 +247,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">10. CLIENT RIGHTS</span>
+        <span data-i18n="privacyPolicyPage.h12">10. CLIENT RIGHTS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Subject to applicable law, client may request to access their Personal Data, to correction
@@ -278,7 +278,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">11. LIMITATION OF LIABILITY</span>
+        <span data-i18n="privacyPolicyPage.h13">11. LIMITATION OF LIABILITY</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company is not responsible for the privacy practices or content of websites linked to
@@ -301,7 +301,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">12. USE OF COOKIES</span>
+        <span data-i18n="privacyPolicyPage.h14">12. USE OF COOKIES</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company uses cookies to secure client trading activities and improve the
@@ -330,7 +330,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">13. PRIVACY POLICY UPDATES</span>
+        <span data-i18n="privacyPolicyPage.h15">13. PRIVACY POLICY UPDATES</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company reserves the unilateral right to amend, modify, update, or revise this Policy

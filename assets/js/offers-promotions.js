@@ -26,6 +26,38 @@
         { id: 'guyana', name: 'Guyana', code: 'GY' }
     ];
 
+    /** Region id → locales/*.json code (aligned with tradertok-subdomain-config TRADERTOK_SUBDOMAIN_TO_LANG) */
+    var REGION_ID_TO_LOCALE = {
+        vietnam: 'vn',
+        thailand: 'th',
+        malaysia: 'my',
+        philippines: 'ph',
+        indonesia: 'id',
+        pakistan: 'pk',
+        latam: 'es-419',
+        namibia: 'en',
+        kenya: 'en',
+        ghana: 'en',
+        nigeria: 'en',
+        'south-africa': 'en',
+        'trinidad-tobago': 'en',
+        guyana: 'en'
+    };
+
+    var GEO_LOCALE_SESSION_KEY = 'tradertok_geo_locale';
+
+    function syncUiLanguageToOfferRegion(regionId) {
+        if (!regionId) return;
+        if (window.subdomainData && window.subdomainData.lang) return;
+        if (window.i18n && window.i18n.isLanguageLocked && window.i18n.isLanguageLocked()) return;
+        var lang = REGION_ID_TO_LOCALE[regionId];
+        if (!lang || !window.i18n || typeof window.i18n.setLanguage !== 'function') return;
+        try {
+            sessionStorage.setItem(GEO_LOCALE_SESSION_KEY, lang);
+        } catch (e) {}
+        window.i18n.setLanguage(lang);
+    }
+
     // -------------------------------------------------------------------------
     // Flag SVGs
     // -------------------------------------------------------------------------
@@ -663,6 +695,8 @@
         if (content && window.innerWidth < 768) {
             content.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
+
+        syncUiLanguageToOfferRegion(regionId);
     }
 
     // -------------------------------------------------------------------------
@@ -970,5 +1004,18 @@
     } else {
         init();
     }
+
+    window.addEventListener('languageChanged', function () {
+        renderSidebar();
+        renderStrip();
+        if (selectedRegion) {
+            renderPromotions(selectedRegion);
+        } else {
+            renderPromotions(null);
+        }
+        if (window.i18n && typeof window.i18n.applyTranslations === 'function') {
+            window.i18n.applyTranslations();
+        }
+    });
 
 })();

@@ -1336,7 +1336,7 @@ function updateLanguage(lang, flagHTML) {
     typeof window.i18n !== "undefined" &&
     window.i18n.setLanguage
   ) {
-    window.i18n.setLanguage(lang);
+    window.i18n.setLanguage(lang, { fromUser: true });
   }
 }
 

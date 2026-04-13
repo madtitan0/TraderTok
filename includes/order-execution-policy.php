@@ -11,10 +11,10 @@
   <div class="container">
     <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="page-hero-badge">
-        <span data-i18n="privacyPolicyPage.heroTitle">ORDER EXECUTION POLICY</span>
+        <span data-i18n="orderExecutionPolicyPage.h1">ORDER EXECUTION POLICY</span>
       </div>
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">Definitions</span>
+        <span data-i18n="orderExecutionPolicyPage.h2">Definitions</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
 
@@ -70,7 +70,7 @@
       <p class="doc-page-hero-subtitle"></p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. OBJECTIVE</span>
+        <span data-i18n="orderExecutionPolicyPage.h3">1. OBJECTIVE</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The purpose of this policy is to establish efficient processes for order execution to ensure that
@@ -82,7 +82,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. SCOPE SECTION
+        <span data-i18n="orderExecutionPolicyPage.h4">2. SCOPE SECTION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -92,7 +92,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. GENERAL EXECUTION POLICY
+        <span data-i18n="orderExecutionPolicyPage.h5">3. GENERAL EXECUTION POLICY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -119,7 +119,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. CLIENT COMMUNICATION
+        <span data-i18n="orderExecutionPolicyPage.h6">4. CLIENT COMMUNICATION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -130,7 +130,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">5.BEST EXECUTION CRITERIA
+        <span data-i18n="orderExecutionPolicyPage.h7">5.BEST EXECUTION CRITERIA
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -158,7 +158,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. EXECUTION FACTORS
+        <span data-i18n="orderExecutionPolicyPage.h8">6. EXECUTION FACTORS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">When managing client orders without specific instructions on the method of
@@ -175,7 +175,7 @@
       <p class="doc-page-hero-title"></p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. EXECUTION VENUES
+        <span data-i18n="orderExecutionPolicyPage.h9">7. EXECUTION VENUES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -202,7 +202,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">8. SLIPPAGE
+        <span data-i18n="orderExecutionPolicyPage.h10">8. SLIPPAGE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -226,7 +226,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">9. SPECIFIC INSTRUCTIONS
+        <span data-i18n="orderExecutionPolicyPage.h11">9. SPECIFIC INSTRUCTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -261,7 +261,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">10. TYPES OF ORDERS</span>
+        <span data-i18n="orderExecutionPolicyPage.h12">10. TYPES OF ORDERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Due to the risks and volatility in financial markets, clients might benefit from using different order
@@ -319,7 +319,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">11. PRICING
+        <span data-i18n="orderExecutionPolicyPage.h13">11. PRICING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -334,7 +334,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">12. ORDER SIZE
+        <span data-i18n="orderExecutionPolicyPage.h14">12. ORDER SIZE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -346,7 +346,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">13. ORDER SPEED
+        <span data-i18n="orderExecutionPolicyPage.h15">13. ORDER SPEED
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -360,7 +360,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">14. ORDER EXECUTION PROBABILITY
+        <span data-i18n="orderExecutionPolicyPage.h16">14. ORDER EXECUTION PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -372,7 +372,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">15. ORDER SETTLEMENT PROBABILITY
+        <span data-i18n="orderExecutionPolicyPage.h17">15. ORDER SETTLEMENT PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -385,7 +385,7 @@
 
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">16. MARKET IMPACT
+        <span data-i18n="orderExecutionPolicyPage.h18">16. MARKET IMPACT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -398,7 +398,7 @@
 
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">17. CONCLUSION
+        <span data-i18n="orderExecutionPolicyPage.h19">17. CONCLUSION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">

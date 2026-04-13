@@ -11,10 +11,10 @@
   <div class="container">
     <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="page-hero-badge">
-        <span data-i18n="privacyPolicyPage.heroTitle">ANTI-MONEY LAUNDERING AND KNOW YOUR CLIENT POLICY</span>
+        <span data-i18n="amlPolicyPage.h1">ANTI-MONEY LAUNDERING AND KNOW YOUR CLIENT POLICY</span>
       </div>
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">Purpose</span>
+        <span data-i18n="amlPolicyPage.h2">Purpose</span>
       </h1>
       <p class="doc-page-hero-subtitle" data-i18n="privacyPolicyPage.heroSubtitle">
         The purpose of this policy is to provide guidance on the Anti-Money Laundering
@@ -23,7 +23,7 @@
         Anti-Money Laundering legislation.
       </p>
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">Legal Framework</span>
+        <span data-i18n="amlPolicyPage.h3">Legal Framework</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Investment Firms are required to comply with the provisions of the Anti-Money
@@ -69,7 +69,7 @@
       <p class="doc-page-hero-title"></p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">DEFINITIONS</span>
+        <span data-i18n="amlPolicyPage.h4">DEFINITIONS</span>
       </h1>
 
       <ul class="doc-page-hero-list" style="list-style-type: none; margin-left: 0px">
@@ -85,7 +85,7 @@
       <p class="doc-page-hero-title"></p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">Policy</span>
+        <span data-i18n="amlPolicyPage.h5">Policy</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The provisions of the Act have been adopted by the Company, which introduces
@@ -99,7 +99,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. CLIENT IDENTIFICATION AND DUE DILIGENCE PROCEDURES
+        <span data-i18n="amlPolicyPage.h6">1. CLIENT IDENTIFICATION AND DUE DILIGENCE PROCEDURES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -318,7 +318,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">POLITICALLY EXPOSED PERSONS</span>
+        <span data-i18n="amlPolicyPage.h7">POLITICALLY EXPOSED PERSONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The meaning <i>“politically exposed persons”</i> includes the following natural persons
@@ -494,7 +494,7 @@
         transaction execution, and monitoring procedures.</p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. CLIENT ACCOUNT OPENING PROCEDURES</span>
+        <span data-i18n="amlPolicyPage.h8">2. CLIENT ACCOUNT OPENING PROCEDURES</span>
       </h1>
 
       <p class="doc-page-hero-subtitle">
@@ -523,7 +523,7 @@
         staff to promote awareness and a culture of compliance across the organization.</p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">2.1 Client Risk Classification</span>
+        <span data-i18n="amlPolicyPage.h9">2.1 Client Risk Classification</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:disc">
         <li><strong>Low risk customers:</strong> Individuals and entities whose identities and source of wealth can be
@@ -569,7 +569,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">2.2 Client’s acceptance policy</span>
+        <span data-i18n="amlPolicyPage.h10">2.2 Client’s acceptance policy</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The customers’ acceptance policy has been prepared after detailed assessment of the
@@ -1237,7 +1237,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. ADDITIONAL MEASURES
+        <span data-i18n="amlPolicyPage.h11">3. ADDITIONAL MEASURES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1277,7 +1277,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">4 High Risk and Non-Cooperative Jurisdictions and FATF
+        <span data-i18n="amlPolicyPage.h12">4 High Risk and Non-Cooperative Jurisdictions and FATF
           Recommendations</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1404,7 +1404,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. ANTI-MONEY LAUNDERING COMPLIANCE OFFICER’S
+        <span data-i18n="amlPolicyPage.h13">5. ANTI-MONEY LAUNDERING COMPLIANCE OFFICER’S
           OBLIGATIONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1447,7 +1447,7 @@
       </p>
 
       <h1 class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. REVIEW OF POLICY</span>
+        <span data-i18n="amlPolicyPage.h14">6. REVIEW OF POLICY</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company's Anti-Money Laundering (AML) and Know Your Customer (KYC)

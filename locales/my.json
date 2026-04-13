@@ -829,303 +829,305 @@
       }
     }
   },
-"tradersClub": {
-  "free": "PERCUMA",
-  "description": "Sertai Kelab Pedagang kami dan dapatkan kad maya percuma. Pengeluaran segera, boleh digunakan di seluruh dunia tanpa yuran dan tanpa had.",
-  "disclaimer": "*Tersedia untuk ahli kelab yang telah disahkan sahaja",
-  "joinNow": "Sertai Sekarang",
-  "modalTitle": "Sertai Kelab Pedagang",
-  "modalSubtitle": "Dapatkan kad maya percuma anda hari ini",
-  "name": "Nama",
-  "namePlaceholder": "Masukkan nama anda",
-  "email": "Emel",
-  "emailPlaceholder": "Masukkan emel anda",
-  "phone": "Telefon",
-  "phonePlaceholder": "Masukkan nombor telefon anda",
-  "getMyFreeCard": "Dapatkan Kad Percuma Saya"
-},
-"insights": {
-  "title": "Dapatkan wawasan analitik terkini — terus dari pasukan kami kepada anda.",
-  "financialStrategy": "Strategi<br>Kewangan",
-  "financialStrategyDesc": "Strategi perdagangan peribadi yang disesuaikan mengikut matlamat kewangan dan tahap pengalaman unik anda.",
-  "freeTrainings": "Latihan<br>Percuma",
-  "freeTrainingsDesc": "Latihan forex dikendalikan pakar dari tahap permulaan hingga pertengahan, sepenuhnya percuma dengan sokongan langsung.",
-  "assetManagement": "Pengurusan<br>Aset",
-  "assetManagementDesc": "Panduan pakar 24/7 untuk mengenal pasti dan mengurus aset yang tepat bagi keuntungan maksimum.",
-  "demoAccount": "Akaun<br>Demo",
-  "demoAccountDesc": "Amalkan tanpa risiko dengan $10,000 wang maya menggunakan data pasaran masa nyata sebelum berdagang secara langsung."
-},
-"platforms": {
-  "eyebrow": "Platform Perdagangan Kami",
-  "title": "Mari Berdagang Bersama Kami",
-  "subtitle": "Pilih cara anda ingin berdagang: aplikasi desktop yang berkuasa untuk analisis mendalam atau platform mudah alih ringan untuk kekal di pasaran semasa bergerak.",
-  "webDesktop": "Web & Desktop",
-  "desktopTitle": "TraderTok Desktop",
-  "desktopDescription": "Akses aplikasi TraderTok Desktop kami pada Mac atau PC Windows anda dan dapatkan akses penuh kepada carta, indikator dan ruang kerja multi-skrin untuk perdagangan profesional.",
-  "windows": "Windows",
-  "mac": "Mac",
-  "mobilePlatform": "Platform Mudah Alih",
-  "mobileTitle": "TraderTok Mobile",
-  "mobileDescription": "Akses platform mudah alih kami di iOS dan Android dan berdagang di mana sahaja: buka, urus dan tutup posisi terus dari telefon anda hanya dengan beberapa ketukan."
-},
-"instruments": {
-  "sectionTitle": "Terokai Instrumen Perdagangan Kami",
-  "sectionSubtitle": "Di TraderTok, kami menawarkan pelbagai instrumen perdagangan yang luas untuk memenuhi keperluan setiap jenis pedagang — sama ada anda baru bermula atau mengurus portfolio yang kompleks.",
-  "sectionDescription": "Dengan akses kepada pasaran global dan kecairan mendalam, platform kami membolehkan anda meneroka peluang merentas pelbagai kelas aset, semua di satu tempat. Kami percaya bahawa pilihan adalah kuasa, oleh itu kami sentiasa menambah senarai instrumen untuk menyesuaikan dengan lanskap kewangan yang sentiasa berubah.",
-  "forex": "Forex",
-  "forexDesc": "Pasaran pertukaran asing adalah pasaran paling cair di dunia, menawarkan akses sepanjang masa dan spread yang ketat. Tawaran forex kami merangkumi semua pasangan utama, minor dan pelbagai eksotik, menyediakan peluang untuk pedagang harian dan strategi jangka panjang. Dengan pelaksanaan rendah latensi dan pilihan leverage tinggi, platform kami membolehkan anda bertindak cepat dalam pasaran yang bergerak pantas.",
-  "commodities": "Komoditi",
-  "commoditiesDesc": "Komoditi seperti emas, minyak, dan perak menawarkan pedagang lindung nilai terhadap inflasi dan volatiliti pasaran. Aset ini selalunya bergerak bebas daripada saham dan mata wang, menjadikannya alat terbaik untuk kepelbagaian. Instrumen komoditi kami didagangkan dengan harga kompetitif dan pelaksanaan pantas, membolehkan anda memanfaatkan perubahan bekalan dan permintaan global dengan keyakinan.",
-  "stocks": "Saham",
-  "stocksDesc": "Dagangkan saham syarikat berprestasi tinggi dari bursa global terkemuka. Instrumen saham kami membolehkan anda menjangka pergerakan harga tanpa memiliki aset asas, memberi fleksibiliti untuk mengambil posisi panjang atau pendek. Akses kepada sektor utama seperti teknologi, penjagaan kesihatan, tenaga dan banyak lagi — membolehkan anda membina strategi berdasarkan prestasi korporat dan momentum pasaran.",
-  "indices": "Indeks",
-  "indicesDesc": "Indeks mewakili prestasi sekumpulan saham, menjadikannya cara berkuasa untuk mendapat pendedahan pasaran yang luas. Sama ada anda berdagang S&P 500, NASDAQ, FTSE, atau indeks utama lain, platform kami menyediakan akses efisien dengan latensi rendah dan alat carta canggih. Indeks sesuai untuk pedagang yang ingin mengambil posisi pada tren ekonomi yang lebih luas berbanding syarikat individu.",
-  "crypto": "Kripto",
-  "all": "Semua",
-  "search": "Cari instrumen...",
-  "spread": "Spread",
-  "leverage": "Leverage",
-  "trade": "Dagangkan",
-  "noResults": "Tiada instrumen ditemui yang sepadan dengan carian anda."
-},
-"whyChoose": {
-  "title": "Mengapa Pilih TraderTok",
-  "subtitle": "Kami menyediakan pelabur kami dengan peningkatan berterusan, peluang baru untuk meneroka pasaran kewangan dan peluang untuk bekerja dengan peneraju yang diiktiraf dalam industri kewangan.",
-  "lightningExecution": "Pelaksanaan Pantas Seperti Kilat",
-  "lightningExecutionDesc": "Setiap milisaat penting dalam perdagangan. Infrastruktur canggih kami memastikan pesanan anda dilaksanakan dengan cepat, boleh dipercayai, dan dengan slip rendah, supaya anda tidak terlepas peluang.",
-  "cuttingEdgePlatforms": "Platform Terkini",
-  "cuttingEdgePlatformsDesc": "Berdagang di TraderTool, platform intuitif kami sendiri. Dengan carta canggih, analitik berkuasa, dan alat boleh disesuaikan, anda mempunyai semua yang diperlukan untuk berdagang dengan lebih bijak.",
-  "globalMarkets": "Pasaran Global, Wawasan Tempatan",
-  "globalMarketsDesc": "Akses pelbagai instrumen kewangan, dari forex dan komoditi hingga indeks dan kripto. Jangkauan global kami dilengkapi dengan wawasan pasaran pakar untuk membantu anda membuat keputusan yang berinformasi.",
-  "competitivePricing": "Harga Kompetitif & Spread Ketat",
-  "competitivePricingDesc": "Kami menawarkan spread terkemuka pasaran, yuran rendah, dan harga telus — direka untuk memberi anda kelebihan dalam setiap perdagangan.",
-  "expertSupport": "Sokongan Pakar",
-  "expertSupportDesc": "Pasukan sokongan berdedikasi kami tersedia bila-bila masa anda memerlukan. Kami menggabungkan pengetahuan industri dengan perkhidmatan pantas dan mesra, supaya anda boleh fokus berdagang dengan yakin.",
-  "securityTrust": "Keselamatan & Kepercayaan",
-  "securityTrustDesc": "Dana dan data anda dilindungi dengan protokol keselamatan standard industri dan perlindungan akaun yang kukuh. Berdagang dengan yakin mengetahui pelaburan anda selamat.",
-  "educationResources": "Pendidikan & Sumber",
-  "educationResourcesDesc": "Sama ada anda baru dalam perdagangan atau profesional berpengalaman, sumber pembelajaran, webinar, dan wawasan pasaran kami membantu anda meningkatkan kemahiran dan berkembang sebagai pedagang."
-},
-"deposit": {
-  "interest": "7.6% faedah",
-  "isMonthly": "adalah Bulanan",
-  "description": "Terima pembayaran faedah bulanan terus ke baki tunai anda, tanpa sebarang obligasi.",
-  "disclaimer": "*Kredit dan risiko lain terpakai, sila baca Terma dan Syarat",
-  "joinNow": "Sertai Sekarang",
-  "modalTitle": "Buka Akaun Deposit",
-  "modalSubtitle": "Isikan butiran anda dan pengurus kami akan menghubungi anda",
-  "name": "Nama",
-  "namePlaceholder": "Masukkan nama anda",
-  "email": "Emel",
-  "emailPlaceholder": "Masukkan emel anda",
-  "phone": "Telefon",
-  "phonePlaceholder": "+1 (555) 000-0000",
-  "submitApplication": "Hantar Permohonan",
-  "modalDisclaimer": "Dengan menghantar, anda bersetuju dengan Terma Perkhidmatan dan Polisi Privasi kami"
-},
-"telegram": {
-  "title": "Sertai <span class=\"gradient-text\">Komuniti</span> Kami",
-  "description": "Dapatkan isyarat perdagangan, analisis pasaran, dan berhubung dengan pedagang lain",
-  "joinNow": "Sertai Sekarang",
-  "signal": "ISYARAT",
-  "alert": "AMARAN",
-  "profit": "KEUNTUNGAN",
-  "analysis": "ANALISIS",
-  "hoursAgo": "jam lepas",
-  "dayAgo": "hari lepas"
-},
-"contactForm": {
-  "title": "Adakah Anda Bersedia Untuk Mendapatkan Pendapatan Dengan TraderTok?",
-  "subtitle": "Kami akan menghubungi anda",
-  "description": "Masuki pasaran dengan volume perdagangan terbesar di dunia dalam beberapa minit; mudah dan selamat.",
-  "name": "Nama",
-  "namePlaceholder": "Masukkan nama anda",
-  "surname": "Nama Keluarga",
-  "surnamePlaceholder": "Masukkan nama keluarga anda",
-  "phone": "Telefon",
-  "phonePlaceholder": "+44 7520 640 890",
-  "email": "Emel",
-  "emailPlaceholder": "support@tradertok.com",
-  "message": "Mesej",
-  "messagePlaceholder": "Ceritakan tentang matlamat perdagangan anda...",
-  "submit": "Hubungi Kami",
-  "successMessage": "Terima kasih! Kami akan menghubungi anda tidak lama lagi.",
-  "errorMessage": "Terjadi masalah. Sila cuba lagi."
-},
-"trustpilot": {
-  "name": "Trustpilot",
-  "rating": "4.8 daripada 5",
-  "moreReviews": "Lebih banyak ulasan di Trustpilot"
-},
-"banking": {
-  "title": "Dana anda disimpan di <span class=\"gradient-text\">institusi bertaraf tinggi</span>",
-  "subtitle": "Kumpulan TraderTok bekerjasama dengan rakan kongsi perbankan terkenal di seluruh dunia termasuk:",
-  "disclaimer": "*Bank-bank ini bekerjasama dengan kumpulan TraderTok dan tidak melayani semua entiti dalam kumpulan"
-},
-"footer": {
-  "findUs": "Cari Kami Di",
-  "topInstruments": "Instrumen Teratas",
-  "bitcoin": "Bitcoin (BTC)",
-  "ethereum": "Ethereum (ETH)",
-  "shiba": "Shiba (Dalam Juta)",
-  "tesla": "Tesla",
-  "apple": "Apple",
-  "nio": "Nio",
-  "support": "Sokongan",
-  "helpCenter": "Pusat Bantuan",
-  "howToDeposit": "Cara Deposit",
-  "howToWithdraw": "Cara Mengeluarkan",
-  "howToOpenAccount": "Cara Membuka Akaun",
-  "howToVerifyAccount": "Cara Mengesahkan Akaun Anda",
-  "clientVulnerability": "Kelemahan Pelanggan",
-  "complaintsData": "Data Aduan (Pelanggan FCA)",
-  "learnMore": "Ketahui Lebih Lanjut",
-  "howCopyTradingWorks": "Cara CopyTrading Berfungsi",
-  "responsibleTrading": "Perdagangan Bertanggungjawab",
-  "interestOnBalance": "Faedah pada Baki",
-  "whatIsLeverageAndMargin": "Apa itu Leverage & Margin",
-  "buyAndSellExplained": "Penjelasan Beli dan Jual",
-  "downloadOurApp": "Muat turun aplikasi kami dari kedai",
-  "aboutUs": "Tentang Kami",
-  "aboutTraderTok": "Tentang TraderTok",
-  "reviews": "Ulasan",
-  "careers": "Kerjaya",
-  "ourOffices": "Pejabat Kami",
-  "accessibility": "Kebolehcapaian",
-  "imprint": "Cetakan",
-  "privacyAndRegulations": "Privasi dan Peraturan",
-  "privacyPolicy": "Polisi Privasi",
-  "keyInformationDocuments": "Dokumen Maklumat Utama",
-  "partnersAndPromotions": "Rakan Kongsi dan Promosi",
-  "inviteAFriend": "Jemput Rakan",
-  "ibProgram": "Program IB",
-  "TraderTokClub": "Kelab TraderTok",
-  "segregatedAccount": "Akaun Berasingan",
-  "partnerSmartPortfolios": "Portfolio Pintar Rakan Kongsi",
-  "taxReport": "Laporan Cukai",
-  "contactUs": "Hubungi Kami",
-  "availableSupport": "Sokongan Tersedia 24/5",
-  "copyright": "© 2026 Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. No Syarikat: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>. Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Financial Services Commission Mauritius (FSC).",
-  "paymentInfo": "Perkhidmatan pemprosesan pembayaran disediakan oleh ejen pembayaran sah Syarikat, B-Tech Ltd, berdaftar di Louki Akrita 1, Akritas Court, Tingkat 3, Pejabat/Flat 301, 3030 Limassol, Cyprus (No Syarikat: HE 414065).",
-  "copyright-extra": "Laman web ini dikendalikan oleh Amber Rock Trade Ltd.",
-  "riskWarning": "Amaran Risiko:",
-  "riskWarningText": "Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci.",
-  "riskWarningHtml": "<strong>Amaran Risiko:</strong> Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci."
-},
-"common": {
-  "loading": "Sedang dimuatkan...",
-  "error": "Ralat",
-  "success": "Berjaya",
-  "close": "Tutup",
-  "submit": "Hantar",
-  "cancel": "Batal",
-  "learnMore": "Ketahui Lebih Lanjut",
-  "getStarted": "Mula",
-  "joinNow": "Sertai Sekarang",
-  "trade": "Berdagang",
-  "google": "Google",
-  "facebook": "Facebook"
-},
-"regulations": {
-  "heroBadge": "Peraturan",
-  "heroTitle": "Lesen",
-  "heroTitleHighlight": "TraderTok",
-  "heroSubtitle": "TraderTok sepenuhnya diberi kuasa dan dikawal selia oleh pihak berkuasa kawal selia yang dihormati dan bereputasi, memastikan pengalaman perdagangan anda bersama kami selamat, telus, dan boleh dipercayai. Pengawasan ini memberi anda ketenangan fikiran, mengetahui bahawa kami beroperasi mengikut piawaian pematuhan yang ketat dan mengekalkan tahap integriti tertinggi dalam semua perkhidmatan kami.",
-  "fsc": {
-    "name": "FSC",
-    "name2": "Suruhanjaya Perkhidmatan Kewangan",
-    "description": "Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Suruhanjaya Perkhidmatan Kewangan Mauritius (FSC) di bawah <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>."
-  }
-},
+  "tradersClub": {
+    "free": "PERCUMA",
+    "description": "Sertai Kelab Pedagang kami dan dapatkan kad maya percuma. Pengeluaran segera, boleh digunakan di seluruh dunia tanpa yuran dan tanpa had.",
+    "disclaimer": "*Tersedia untuk ahli kelab yang telah disahkan sahaja",
+    "joinNow": "Sertai Sekarang",
+    "modalTitle": "Sertai Kelab Pedagang",
+    "modalSubtitle": "Dapatkan kad maya percuma anda hari ini",
+    "name": "Nama",
+    "namePlaceholder": "Masukkan nama anda",
+    "email": "Emel",
+    "emailPlaceholder": "Masukkan emel anda",
+    "phone": "Telefon",
+    "phonePlaceholder": "Masukkan nombor telefon anda",
+    "getMyFreeCard": "Dapatkan Kad Percuma Saya"
+  },
+  "insights": {
+    "title": "Dapatkan wawasan analitik terkini — terus dari pasukan kami kepada anda.",
+    "financialStrategy": "Strategi<br>Kewangan",
+    "financialStrategyDesc": "Strategi perdagangan peribadi yang disesuaikan mengikut matlamat kewangan dan tahap pengalaman unik anda.",
+    "freeTrainings": "Latihan<br>Percuma",
+    "freeTrainingsDesc": "Latihan forex dikendalikan pakar dari tahap permulaan hingga pertengahan, sepenuhnya percuma dengan sokongan langsung.",
+    "assetManagement": "Pengurusan<br>Aset",
+    "assetManagementDesc": "Panduan pakar 24/7 untuk mengenal pasti dan mengurus aset yang tepat bagi keuntungan maksimum.",
+    "demoAccount": "Akaun<br>Demo",
+    "demoAccountDesc": "Amalkan tanpa risiko dengan $10,000 wang maya menggunakan data pasaran masa nyata sebelum berdagang secara langsung."
+  },
+  "platforms": {
+    "eyebrow": "Platform Perdagangan Kami",
+    "title": "Mari Berdagang Bersama Kami",
+    "subtitle": "Pilih cara anda ingin berdagang: aplikasi desktop yang berkuasa untuk analisis mendalam atau platform mudah alih ringan untuk kekal di pasaran semasa bergerak.",
+    "webDesktop": "Web & Desktop",
+    "desktopTitle": "TraderTok Desktop",
+    "desktopDescription": "Akses aplikasi TraderTok Desktop kami pada Mac atau PC Windows anda dan dapatkan akses penuh kepada carta, indikator dan ruang kerja multi-skrin untuk perdagangan profesional.",
+    "windows": "Windows",
+    "mac": "Mac",
+    "mobilePlatform": "Platform Mudah Alih",
+    "mobileTitle": "TraderTok Mobile",
+    "mobileDescription": "Akses platform mudah alih kami di iOS dan Android dan berdagang di mana sahaja: buka, urus dan tutup posisi terus dari telefon anda hanya dengan beberapa ketukan."
+  },
+  "instruments": {
+    "sectionTitle": "Terokai Instrumen Perdagangan Kami",
+    "sectionSubtitle": "Di TraderTok, kami menawarkan pelbagai instrumen perdagangan yang luas untuk memenuhi keperluan setiap jenis pedagang — sama ada anda baru bermula atau mengurus portfolio yang kompleks.",
+    "sectionDescription": "Dengan akses kepada pasaran global dan kecairan mendalam, platform kami membolehkan anda meneroka peluang merentas pelbagai kelas aset, semua di satu tempat. Kami percaya bahawa pilihan adalah kuasa, oleh itu kami sentiasa menambah senarai instrumen untuk menyesuaikan dengan lanskap kewangan yang sentiasa berubah.",
+    "forex": "Forex",
+    "forexDesc": "Pasaran pertukaran asing adalah pasaran paling cair di dunia, menawarkan akses sepanjang masa dan spread yang ketat. Tawaran forex kami merangkumi semua pasangan utama, minor dan pelbagai eksotik, menyediakan peluang untuk pedagang harian dan strategi jangka panjang. Dengan pelaksanaan rendah latensi dan pilihan leverage tinggi, platform kami membolehkan anda bertindak cepat dalam pasaran yang bergerak pantas.",
+    "commodities": "Komoditi",
+    "commoditiesDesc": "Komoditi seperti emas, minyak, dan perak menawarkan pedagang lindung nilai terhadap inflasi dan volatiliti pasaran. Aset ini selalunya bergerak bebas daripada saham dan mata wang, menjadikannya alat terbaik untuk kepelbagaian. Instrumen komoditi kami didagangkan dengan harga kompetitif dan pelaksanaan pantas, membolehkan anda memanfaatkan perubahan bekalan dan permintaan global dengan keyakinan.",
+    "stocks": "Saham",
+    "stocksDesc": "Dagangkan saham syarikat berprestasi tinggi dari bursa global terkemuka. Instrumen saham kami membolehkan anda menjangka pergerakan harga tanpa memiliki aset asas, memberi fleksibiliti untuk mengambil posisi panjang atau pendek. Akses kepada sektor utama seperti teknologi, penjagaan kesihatan, tenaga dan banyak lagi — membolehkan anda membina strategi berdasarkan prestasi korporat dan momentum pasaran.",
+    "indices": "Indeks",
+    "indicesDesc": "Indeks mewakili prestasi sekumpulan saham, menjadikannya cara berkuasa untuk mendapat pendedahan pasaran yang luas. Sama ada anda berdagang S&P 500, NASDAQ, FTSE, atau indeks utama lain, platform kami menyediakan akses efisien dengan latensi rendah dan alat carta canggih. Indeks sesuai untuk pedagang yang ingin mengambil posisi pada tren ekonomi yang lebih luas berbanding syarikat individu.",
+    "cryptocurrencies": "Mata wang kripto",
+    "cryptocurrenciesDesc": "Dagangkan aset digital popular dengan kecairan mendalam dan leveraj fleksibel. Mata wang kripto boleh bergerak bebas daripada pasaran tradisional, menawarkan kepelbagaian dan peluang sepanjang masa. Platform kami menyokong syiling dan pasangan utama dengan harga kompetitif dan pelaksanaan pantas.",
+    "crypto": "Kripto",
+    "all": "Semua",
+    "search": "Cari instrumen...",
+    "spread": "Spread",
+    "leverage": "Leverage",
+    "trade": "Dagangkan",
+    "noResults": "Tiada instrumen ditemui yang sepadan dengan carian anda."
+  },
+  "whyChoose": {
+    "title": "Mengapa Pilih TraderTok",
+    "subtitle": "Kami menyediakan pelabur kami dengan peningkatan berterusan, peluang baru untuk meneroka pasaran kewangan dan peluang untuk bekerja dengan peneraju yang diiktiraf dalam industri kewangan.",
+    "lightningExecution": "Pelaksanaan Pantas Seperti Kilat",
+    "lightningExecutionDesc": "Setiap milisaat penting dalam perdagangan. Infrastruktur canggih kami memastikan pesanan anda dilaksanakan dengan cepat, boleh dipercayai, dan dengan slip rendah, supaya anda tidak terlepas peluang.",
+    "cuttingEdgePlatforms": "Platform Terkini",
+    "cuttingEdgePlatformsDesc": "Berdagang di TraderTool, platform intuitif kami sendiri. Dengan carta canggih, analitik berkuasa, dan alat boleh disesuaikan, anda mempunyai semua yang diperlukan untuk berdagang dengan lebih bijak.",
+    "globalMarkets": "Pasaran Global, Wawasan Tempatan",
+    "globalMarketsDesc": "Akses pelbagai instrumen kewangan, dari forex dan komoditi hingga indeks dan kripto. Jangkauan global kami dilengkapi dengan wawasan pasaran pakar untuk membantu anda membuat keputusan yang berinformasi.",
+    "competitivePricing": "Harga Kompetitif & Spread Ketat",
+    "competitivePricingDesc": "Kami menawarkan spread terkemuka pasaran, yuran rendah, dan harga telus — direka untuk memberi anda kelebihan dalam setiap perdagangan.",
+    "expertSupport": "Sokongan Pakar",
+    "expertSupportDesc": "Pasukan sokongan berdedikasi kami tersedia bila-bila masa anda memerlukan. Kami menggabungkan pengetahuan industri dengan perkhidmatan pantas dan mesra, supaya anda boleh fokus berdagang dengan yakin.",
+    "securityTrust": "Keselamatan & Kepercayaan",
+    "securityTrustDesc": "Dana dan data anda dilindungi dengan protokol keselamatan standard industri dan perlindungan akaun yang kukuh. Berdagang dengan yakin mengetahui pelaburan anda selamat.",
+    "educationResources": "Pendidikan & Sumber",
+    "educationResourcesDesc": "Sama ada anda baru dalam perdagangan atau profesional berpengalaman, sumber pembelajaran, webinar, dan wawasan pasaran kami membantu anda meningkatkan kemahiran dan berkembang sebagai pedagang."
+  },
+  "deposit": {
+    "interest": "7.6% faedah",
+    "isMonthly": "adalah Bulanan",
+    "description": "Terima pembayaran faedah bulanan terus ke baki tunai anda, tanpa sebarang obligasi.",
+    "disclaimer": "*Kredit dan risiko lain terpakai, sila baca Terma dan Syarat",
+    "joinNow": "Sertai Sekarang",
+    "modalTitle": "Buka Akaun Deposit",
+    "modalSubtitle": "Isikan butiran anda dan pengurus kami akan menghubungi anda",
+    "name": "Nama",
+    "namePlaceholder": "Masukkan nama anda",
+    "email": "Emel",
+    "emailPlaceholder": "Masukkan emel anda",
+    "phone": "Telefon",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "submitApplication": "Hantar Permohonan",
+    "modalDisclaimer": "Dengan menghantar, anda bersetuju dengan Terma Perkhidmatan dan Polisi Privasi kami"
+  },
+  "telegram": {
+    "title": "Sertai <span class=\"gradient-text\">Komuniti</span> Kami",
+    "description": "Dapatkan isyarat perdagangan, analisis pasaran, dan berhubung dengan pedagang lain",
+    "joinNow": "Sertai Sekarang",
+    "signal": "ISYARAT",
+    "alert": "AMARAN",
+    "profit": "KEUNTUNGAN",
+    "analysis": "ANALISIS",
+    "hoursAgo": "jam lepas",
+    "dayAgo": "hari lepas"
+  },
+  "contactForm": {
+    "title": "Adakah Anda Bersedia Untuk Mendapatkan Pendapatan Dengan TraderTok?",
+    "subtitle": "Kami akan menghubungi anda",
+    "description": "Masuki pasaran dengan volume perdagangan terbesar di dunia dalam beberapa minit; mudah dan selamat.",
+    "name": "Nama",
+    "namePlaceholder": "Masukkan nama anda",
+    "surname": "Nama Keluarga",
+    "surnamePlaceholder": "Masukkan nama keluarga anda",
+    "phone": "Telefon",
+    "phonePlaceholder": "+44 7520 640 890",
+    "email": "Emel",
+    "emailPlaceholder": "support@tradertok.com",
+    "message": "Mesej",
+    "messagePlaceholder": "Ceritakan tentang matlamat perdagangan anda...",
+    "submit": "Hubungi Kami",
+    "successMessage": "Terima kasih! Kami akan menghubungi anda tidak lama lagi.",
+    "errorMessage": "Terjadi masalah. Sila cuba lagi."
+  },
+  "trustpilot": {
+    "name": "Trustpilot",
+    "rating": "4.8 daripada 5",
+    "moreReviews": "Lebih banyak ulasan di Trustpilot"
+  },
+  "banking": {
+    "title": "Dana anda disimpan di <span class=\"gradient-text\">institusi bertaraf tinggi</span>",
+    "subtitle": "Kumpulan TraderTok bekerjasama dengan rakan kongsi perbankan terkenal di seluruh dunia termasuk:",
+    "disclaimer": "*Bank-bank ini bekerjasama dengan kumpulan TraderTok dan tidak melayani semua entiti dalam kumpulan"
+  },
+  "footer": {
+    "findUs": "Cari Kami Di",
+    "topInstruments": "Instrumen Teratas",
+    "bitcoin": "Bitcoin (BTC)",
+    "ethereum": "Ethereum (ETH)",
+    "shiba": "Shiba (Dalam Juta)",
+    "tesla": "Tesla",
+    "apple": "Apple",
+    "nio": "Nio",
+    "support": "Sokongan",
+    "helpCenter": "Pusat Bantuan",
+    "howToDeposit": "Cara Deposit",
+    "howToWithdraw": "Cara Mengeluarkan",
+    "howToOpenAccount": "Cara Membuka Akaun",
+    "howToVerifyAccount": "Cara Mengesahkan Akaun Anda",
+    "clientVulnerability": "Kelemahan Pelanggan",
+    "complaintsData": "Data Aduan (Pelanggan FCA)",
+    "learnMore": "Ketahui Lebih Lanjut",
+    "howCopyTradingWorks": "Cara CopyTrading Berfungsi",
+    "responsibleTrading": "Perdagangan Bertanggungjawab",
+    "interestOnBalance": "Faedah pada Baki",
+    "whatIsLeverageAndMargin": "Apa itu Leverage & Margin",
+    "buyAndSellExplained": "Penjelasan Beli dan Jual",
+    "downloadOurApp": "Muat turun aplikasi kami dari kedai",
+    "aboutUs": "Tentang Kami",
+    "aboutTraderTok": "Tentang TraderTok",
+    "reviews": "Ulasan",
+    "careers": "Kerjaya",
+    "ourOffices": "Pejabat Kami",
+    "accessibility": "Kebolehcapaian",
+    "imprint": "Cetakan",
+    "privacyAndRegulations": "Privasi dan Peraturan",
+    "privacyPolicy": "Polisi Privasi",
+    "keyInformationDocuments": "Dokumen Maklumat Utama",
+    "partnersAndPromotions": "Rakan Kongsi dan Promosi",
+    "inviteAFriend": "Jemput Rakan",
+    "ibProgram": "Program IB",
+    "TraderTokClub": "Kelab TraderTok",
+    "segregatedAccount": "Akaun Berasingan",
+    "partnerSmartPortfolios": "Portfolio Pintar Rakan Kongsi",
+    "taxReport": "Laporan Cukai",
+    "contactUs": "Hubungi Kami",
+    "availableSupport": "Sokongan Tersedia 24/5",
+    "copyright": "© 2026 Amber Rock Trade Ltd. Level 5, Alexander House, 35 Cybercity, 72201 Ebene, Mauritius. No Syarikat: 222594. <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>. Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Financial Services Commission Mauritius (FSC).",
+    "paymentInfo": "Perkhidmatan pemprosesan pembayaran disediakan oleh ejen pembayaran sah Syarikat, B-Tech Ltd, berdaftar di Louki Akrita 1, Akritas Court, Tingkat 3, Pejabat/Flat 301, 3030 Limassol, Cyprus (No Syarikat: HE 414065).",
+    "copyright-extra": "Laman web ini dikendalikan oleh Amber Rock Trade Ltd.",
+    "riskWarning": "Amaran Risiko:",
+    "riskWarningText": "Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci.",
+    "riskWarningHtml": "<strong>Amaran Risiko:</strong> Perdagangan dalam instrumen kewangan derivatif, termasuk CFD dan produk leverage lain, membawa tahap risiko yang tinggi dan mungkin tidak sesuai untuk semua pelabur. Anda boleh kehilangan semua atau lebih daripada pelaburan awal anda. Perdagangan tertakluk kepada turun naik pasaran, risiko leverage, dan risiko lain. Anda harus berdagang hanya dengan dana yang anda mampu kehilangan. Sebelum melibatkan diri dalam aktiviti perdagangan, pastikan anda memahami sepenuhnya risiko yang terlibat, objektif kewangan anda, dan tahap pengalaman anda. Jika perlu, dapatkan nasihat profesional bebas. Sila rujuk kepada Kenyataan Pendedahan Risiko penuh kami untuk maklumat terperinci."
+  },
+  "common": {
+    "loading": "Sedang dimuatkan...",
+    "error": "Ralat",
+    "success": "Berjaya",
+    "close": "Tutup",
+    "submit": "Hantar",
+    "cancel": "Batal",
+    "learnMore": "Ketahui Lebih Lanjut",
+    "getStarted": "Mula",
+    "joinNow": "Sertai Sekarang",
+    "trade": "Berdagang",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "regulations": {
+    "heroBadge": "Peraturan",
+    "heroTitle": "Lesen",
+    "heroTitleHighlight": "TraderTok",
+    "heroSubtitle": "TraderTok sepenuhnya diberi kuasa dan dikawal selia oleh pihak berkuasa kawal selia yang dihormati dan bereputasi, memastikan pengalaman perdagangan anda bersama kami selamat, telus, dan boleh dipercayai. Pengawasan ini memberi anda ketenangan fikiran, mengetahui bahawa kami beroperasi mengikut piawaian pematuhan yang ketat dan mengekalkan tahap integriti tertinggi dalam semua perkhidmatan kami.",
+    "fsc": {
+      "name": "FSC",
+      "name2": "Suruhanjaya Perkhidmatan Kewangan",
+      "description": "Amber Rock Trade Ltd diberi kuasa dan dikawal selia oleh Suruhanjaya Perkhidmatan Kewangan Mauritius (FSC) di bawah <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" class=\"license-link\">No Lesen: GB24203892</a>."
+    }
+  },
   "meetTheTeam": {
-  "pageTitle": "Kenali Pasukan - TraderTok | Pakar Perdagangan Global Kami",
-  "pageDescription": "Kenali pasukan global kami yang terdiri daripada pakar perdagangan dari seluruh dunia. Pedagang profesional yang fasih berbahasa Inggeris, Sepanyol, dan Hindi.",
-  "heroTitle": "Kenali Pasukan",
-  "heroSubtitle": "Pasukan pakar perdagangan global kami sedia membimbing anda melalui perjalanan perdagangan anda dalam bahasa pilihan anda.",
-  "tabEnglish": "Inggeris",
-  "tabSpanish": "Sepanyol",
-  "tabHindi": "Hindi",
-  "departmentAgents": "Ejen",
-  "departmentManagers": "Pengurus",
-  "departmentBilling": "Bil",
-  "managers": {
-    "alex_taylor": {
-      "name": "Alex Taylor",
-      "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
+    "pageTitle": "Kenali Pasukan - TraderTok | Pakar Perdagangan Global Kami",
+    "pageDescription": "Kenali pasukan global kami yang terdiri daripada pakar perdagangan dari seluruh dunia. Pedagang profesional yang fasih berbahasa Inggeris, Sepanyol, dan Hindi.",
+    "heroTitle": "Kenali Pasukan",
+    "heroSubtitle": "Pasukan pakar perdagangan global kami sedia membimbing anda melalui perjalanan perdagangan anda dalam bahasa pilihan anda.",
+    "tabEnglish": "Inggeris",
+    "tabSpanish": "Sepanyol",
+    "tabHindi": "Hindi",
+    "departmentAgents": "Ejen",
+    "departmentManagers": "Pengurus",
+    "departmentBilling": "Bil",
+    "managers": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kuat dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
+      }
     },
-    "chris_evans": {
-      "name": "Chris Evans",
-      "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kuat dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
+    "billing": {
+      "brooke_davis": {
+        "name": "Brooke Davis",
+        "role": "Brooke Davis ialah Pakar Penagihan yang teliti dan berorientasikan pelanggan, memastikan setiap transaksi kewangan berjalan lancar bagi semua pelanggan. Dengan kepakaran dalam pemprosesan pembayaran dan pengurusan akaun, Brooke mengendalikan deposit, pengeluaran, dan pertanyaan penagihan dengan tepat dan berhati-hati, menjadikan setiap interaksi kewangan mudah dan telus."
+      },
+      "roy_bruce": {
+        "name": "Roy Bruce",
+        "role": "Roy Bruce ialah Pakar Penagihan yang terperinci dengan pengalaman luas dalam operasi kewangan dan sokongan pelanggan. Dikenali kerana pendekatan analitik dan kemahiran menyelesaikan masalah dengan cepat, Roy mengurus pengesahan pembayaran, penyelarasan akaun, dan memastikan semua transaksi mematuhi standard ketepatan dan keselamatan tertinggi."
+      }
     },
-    "lucas_martin": {
-      "name": "Lucas Martin",
-      "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
+    "english": {
+      "alex_taylor": {
+        "name": "Alex Taylor",
+        "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan.<br><br>Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
+      },
+      "chris_evans": {
+        "name": "Chris Evans",
+        "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kukuh dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
+      },
+      "lucas_martin": {
+        "name": "Lucas Martin",
+        "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
+      },
+      "kai_lockwood": {
+        "name": "Kai Lockwood",
+        "role": "Kai Lockwood ialah Pengurus Akaun yang proaktif dan berfokus kepada pelanggan dengan rekod cemerlang dalam membina kerjasama jangka panjang. Dikenali kerana komunikasi yang jelas, perhatian terhadap perincian, dan penyelesaian masalah dengan cepat, Kai sentiasa mencapai matlamat pelanggan sambil mengekalkan gaya kerja positif dan kolaboratif."
+      },
+      "dominic_weber": {
+        "name": "Dominic Weber",
+        "role": "Dominic Weber ialah Pengurus Akaun yang boleh dipercayai dan berorientasikan hasil, sentiasa meletakkan pelanggan sebagai keutamaan. Dengan kemahiran komunikasi yang kukuh dan pendekatan kerja yang tersusun, Dominic cepat memahami keperluan pelanggan, menyediakan penyelesaian yang jelas, dan mengekalkan kerjasama profesional yang lancar di setiap peringkat."
+      },
+      "dasha_petrova": {
+        "name": "Dasha Petrova",
+        "role": "Dasha Petrova ialah Pengurus Akaun yang berdedikasi dan berorientasikan penyelesaian, sentiasa menempatkan keutamaan pelanggan di tengah setiap keputusan. Dikenali kerana komunikasi yang jelas, kebolehpercayaan, dan pendekatan praktikal, Dasha memastikan kerjasama lancar serta hasil yang konsisten dan boleh diukur."
+      },
+      "david_faris": {
+        "name": "David Faris",
+        "role": "David Faris ialah Pengurus Akaun yang berfikir secara teliti dan berorientasikan matlamat dengan tumpuan kuat pada kepuasan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan tersusun dan analitik, David cepat mengenal pasti keperluan pelanggan, menawarkan penyelesaian praktikal, dan memastikan kerjasama profesional berjalan lancar."
+      },
+      "michael_smith": {
+        "name": "Michael Smith",
+        "role": "Michael Smith ialah Pengurus Akaun yang yakin dan berfokus pada hasil dengan rasa tanggungjawab yang tinggi. Dikenali kerana komunikasi yang jelas, tindak balas pantas terhadap keperluan pelanggan, dan pendekatan praktikal berorientasikan penyelesaian, Michael memastikan setiap pelanggan berasa disokong dan mengawal matlamat mereka."
+      },
+      "oscar_dupont": {
+        "name": "Oscar Dupont",
+        "role": "Oscar Dupont ialah Pengurus Akaun yang berorientasikan perincian dan boleh dipercayai dengan komitmen tinggi terhadap kejayaan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan proaktif berorientasikan penyelesaian, Oscar memastikan kerjasama lancar dan sentiasa menepati matlamat yang dipersetujui."
+      },
+      "simon_bjork": {
+        "name": "Simon Bjork",
+        "role": "Simon Bjork ialah Pengurus Akaun yang metodikal dan berpusatkan pelanggan dengan bakat untuk menukar konsep pasaran yang kompleks menjadi strategi boleh dilaksanakan. Dikenali kerana ketepatan analitik dan sikap tenang, Simon membina hubungan pelanggan jangka panjang melalui kepercayaan, kepakaran, dan komitmen teguh terhadap kecemerlangan."
+      }
+    },
+    "spanish": {
+      "juan_garcia": {
+        "name": "Juan Garcia",
+        "role": "Juan Garcia ialah Pengurus Akaun yang strategik dan berfokus kepada pelanggan, cemerlang dalam membina hubungan kukuh dengan pelanggan berbahasa Sepanyol. Dengan pengetahuan pasaran yang mendalam dan pendekatan proaktif, Juan menyediakan penyelesaian yang diperibadikan dan memastikan setiap pelanggan mencapai matlamat dagangan mereka."
+      }
+    },
+    "hindi": {
+      "aaron_dev": {
+        "name": "Vikram Patel",
+        "role": "Vikram Patel ialah Pengurus Akaun yang berdedikasi dan berpengetahuan, pakar dalam melayani pelanggan berbahasa Hindi. Dengan pemahaman mendalam tentang pasaran India dan antarabangsa, Vikram menyediakan panduan yang disesuaikan dan memastikan pengalaman dagangan yang lancar dan menyokong bagi setiap pelanggan."
+      }
     }
-  },
-  "billing": {
-    "brooke_davis": {
-      "name": "Brooke Davis",
-      "role": "Brooke Davis ialah Pakar Penagihan yang teliti dan berorientasikan pelanggan, memastikan setiap transaksi kewangan berjalan lancar bagi semua pelanggan. Dengan kepakaran dalam pemprosesan pembayaran dan pengurusan akaun, Brooke mengendalikan deposit, pengeluaran, dan pertanyaan penagihan dengan tepat dan berhati-hati, menjadikan setiap interaksi kewangan mudah dan telus."
-    },
-    "roy_bruce": {
-      "name": "Roy Bruce",
-      "role": "Roy Bruce ialah Pakar Penagihan yang terperinci dengan pengalaman luas dalam operasi kewangan dan sokongan pelanggan. Dikenali kerana pendekatan analitik dan kemahiran menyelesaikan masalah dengan cepat, Roy mengurus pengesahan pembayaran, penyelarasan akaun, dan memastikan semua transaksi mematuhi standard ketepatan dan keselamatan tertinggi."
-    }
-  },
-  "english": {
-    "alex_taylor": {
-      "name": "Alex Taylor",
-      "role": "Alex Taylor ialah Pengurus Akaun yang sangat prihatin dan berfokus kepada pelanggan, sentiasa berusaha memahami keutamaan setiap pelanggan.<br><br>Alex memastikan kerjasama lancar serta keputusan yang konsisten dan boleh dipercayai."
-    },
-    "chris_evans": {
-      "name": "Chris Evans",
-      "role": "Chris Evans ialah Pengurus Akaun yang dinamik dan teliti, menggabungkan kemahiran komunikasi yang kukuh dengan pemikiran strategik. Fokusnya adalah untuk memahami matlamat pelanggan dan menghasilkan keputusan yang konsisten, membina kepercayaan melalui ketelusan, kebolehpercayaan, dan pendekatan berorientasikan penyelesaian."
-    },
-    "lucas_martin": {
-      "name": "Lucas Martin",
-      "role": "Lucas Martin ialah Pengurus Akaun yang sangat tersusun dan berorientasikan pelanggan, sentiasa menepati janji. Dengan kemahiran komunikasi yang kukuh dan pendekatan profesional yang tenang, Lucas membina kepercayaan dengan cepat dan memastikan setiap pelanggan berasa disokong serta sentiasa dimaklumkan."
-    },
-    "kai_lockwood": {
-      "name": "Kai Lockwood",
-      "role": "Kai Lockwood ialah Pengurus Akaun yang proaktif dan berfokus kepada pelanggan dengan rekod cemerlang dalam membina kerjasama jangka panjang. Dikenali kerana komunikasi yang jelas, perhatian terhadap perincian, dan penyelesaian masalah dengan cepat, Kai sentiasa mencapai matlamat pelanggan sambil mengekalkan gaya kerja positif dan kolaboratif."
-    },
-    "dominic_weber": {
-      "name": "Dominic Weber",
-      "role": "Dominic Weber ialah Pengurus Akaun yang boleh dipercayai dan berorientasikan hasil, sentiasa meletakkan pelanggan sebagai keutamaan. Dengan kemahiran komunikasi yang kukuh dan pendekatan kerja yang tersusun, Dominic cepat memahami keperluan pelanggan, menyediakan penyelesaian yang jelas, dan mengekalkan kerjasama profesional yang lancar di setiap peringkat."
-    },
-    "dasha_petrova": {
-      "name": "Dasha Petrova",
-      "role": "Dasha Petrova ialah Pengurus Akaun yang berdedikasi dan berorientasikan penyelesaian, sentiasa menempatkan keutamaan pelanggan di tengah setiap keputusan. Dikenali kerana komunikasi yang jelas, kebolehpercayaan, dan pendekatan praktikal, Dasha memastikan kerjasama lancar serta hasil yang konsisten dan boleh diukur."
-    },
-    "david_faris": {
-      "name": "David Faris",
-      "role": "David Faris ialah Pengurus Akaun yang berfikir secara teliti dan berorientasikan matlamat dengan tumpuan kuat pada kepuasan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan tersusun dan analitik, David cepat mengenal pasti keperluan pelanggan, menawarkan penyelesaian praktikal, dan memastikan kerjasama profesional berjalan lancar."
-    },
-    "michael_smith": {
-      "name": "Michael Smith",
-      "role": "Michael Smith ialah Pengurus Akaun yang yakin dan berfokus pada hasil dengan rasa tanggungjawab yang tinggi. Dikenali kerana komunikasi yang jelas, tindak balas pantas terhadap keperluan pelanggan, dan pendekatan praktikal berorientasikan penyelesaian, Michael memastikan setiap pelanggan berasa disokong dan mengawal matlamat mereka."
-    },
-    "oscar_dupont": {
-      "name": "Oscar Dupont",
-      "role": "Oscar Dupont ialah Pengurus Akaun yang berorientasikan perincian dan boleh dipercayai dengan komitmen tinggi terhadap kejayaan pelanggan. Menggabungkan komunikasi yang jelas dengan pendekatan proaktif berorientasikan penyelesaian, Oscar memastikan kerjasama lancar dan sentiasa menepati matlamat yang dipersetujui."
-    },
-    "simon_bjork": {
-      "name": "Simon Bjork",
-      "role": "Simon Bjork ialah Pengurus Akaun yang metodikal dan berpusatkan pelanggan dengan bakat untuk menukar konsep pasaran yang kompleks menjadi strategi boleh dilaksanakan. Dikenali kerana ketepatan analitik dan sikap tenang, Simon membina hubungan pelanggan jangka panjang melalui kepercayaan, kepakaran, dan komitmen teguh terhadap kecemerlangan."
-    }
-  },
-  "spanish": {
-    "juan_garcia": {
-      "name": "Juan Garcia",
-      "role": "Juan Garcia ialah Pengurus Akaun yang strategik dan berfokus kepada pelanggan, cemerlang dalam membina hubungan kukuh dengan pelanggan berbahasa Sepanyol. Dengan pengetahuan pasaran yang mendalam dan pendekatan proaktif, Juan menyediakan penyelesaian yang diperibadikan dan memastikan setiap pelanggan mencapai matlamat dagangan mereka."
-    }
-  },
-  "hindi": {
-    "aaron_dev": {
-      "name": "Vikram Patel",
-      "role": "Vikram Patel ialah Pengurus Akaun yang berdedikasi dan berpengetahuan, pakar dalam melayani pelanggan berbahasa Hindi. Dengan pemahaman mendalam tentang pasaran India dan antarabangsa, Vikram menyediakan panduan yang disesuaikan dan memastikan pengalaman dagangan yang lancar dan menyokong bagi setiap pelanggan."
-    }
-  }
   },
   "marketsOverview": {
     "title": "Gambaran Pasaran"
@@ -1394,5 +1396,364 @@
     "titlePart2": "Pendidikan",
     "subtitle1": "Kuasi asas pasaran forex dengan koleksi panduan dagangan penting kami.",
     "subtitle2": "Terokai perpustakaan kami yang mempunyai lebih daripada 20 artikel. Mulakan dari asas atau fokus pada topik tertentu."
+  },
+  "homeFaq": {
+    "title": "Soalan Lazim",
+    "subtitle": "Jawapan ringkas tentang TraderTok—pasaran, akaun, pendanaan, yuran, kawal selia dan sokongan.",
+    "lead": "Terokai topik di bawah. Setiap bahagian boleh dikembangkan untuk lebih banyak butiran.",
+    "sections": [
+      {
+        "label": "Maklumat umum",
+        "intro": "Fakta teras tentang TraderTok, pasaran kami dan bagaimana platform disusun.",
+        "items": [
+          {
+            "question": "Apakah TraderTok?",
+            "paragraphs": [
+              "TraderTok ialah platform dagangan dalam talian global yang memberikan akses kepada pasaran kewangan, termasuk forex, saham, komoditi, indeks dan mata wang kripto.",
+              "Platform ini tersedia pada desktop, mudah alih dan web, direka untuk pedagang baru dan berpengalaman.",
+              "TraderTok beroperasi di bawah Amber Rock Trade Ltd, diberi kuasa dan dikawal selia oleh Financial Services Commission (FSC) Mauritius."
+            ]
+          },
+          {
+            "question": "Instrumen dagangan apa yang ditawarkan TraderTok?",
+            "paragraphs": [
+              "TraderTok menyediakan akses kepada:"
+            ],
+            "bullets": [
+              "Forex (pasangan mata wang)",
+              "Komoditi (cth. emas, minyak)",
+              "Saham dari bursa global utama",
+              "Indeks pasaran",
+              "Mata wang kripto"
+            ],
+            "paragraphs_after": [
+              "Ketersediaan instrumen mungkin berbeza bergantung pada bidang kuasa dan keperluan regulatori."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Pendidikan & platform",
+        "intro": "Sumber pembelajaran, dagangan demo dan cara mengakses platform.",
+        "items": [
+          {
+            "question": "Adakah terdapat bahan pendidikan?",
+            "paragraphs": [
+              "Ya. TraderTok menyediakan bahan pendidikan termasuk:"
+            ],
+            "bullets": [
+              "Tutorial video",
+              "Sesi latihan",
+              "Wawasan dan analisis pasaran",
+              "Akaun demo untuk berlatih"
+            ],
+            "paragraphs_after": [
+              "Semua kandungan pendidikan adalah untuk maklumat sahaja dan bukan nasihat pelaburan."
+            ]
+          },
+          {
+            "question": "Bolehkah saya berlatih sebelum menggunakan wang sebenar?",
+            "paragraphs": [
+              "Ya. TraderTok menawarkan akaun demo dengan dana maya untuk berdagang dalam keadaan pasaran masa nyata tanpa risiko kewangan.",
+              "Prestasi dalam persekitaran demo tidak menjamin hasil yang sama dalam dagangan langsung."
+            ]
+          },
+          {
+            "question": "Peranti apa yang boleh digunakan?",
+            "paragraphs": [
+              "TraderTok tersedia pada:"
+            ],
+            "bullets": [
+              "Desktop (Windows & Mac)",
+              "Mudah alih (iOS & Android)",
+              "Pelayar web"
+            ],
+            "paragraphs_after": [
+              "Ketersediaan mungkin berbeza bergantung pada wilayah dan keperluan teknikal."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Akaun & sokongan",
+        "intro": "Membuka akaun, pengesahan dan cara menghubungi pasukan kami.",
+        "items": [
+          {
+            "question": "Adakah TraderTok menyediakan sokongan pelanggan?",
+            "paragraphs": [
+              "Ya. Sokongan pelanggan tersedia 24/5 melalui:"
+            ],
+            "bullets": [
+              "Sembang langsung",
+              "E-mel",
+              "Telefon",
+              "Borang hubungan di laman web"
+            ],
+            "paragraphs_after": [
+              "Masa respons mungkin berbeza bergantung pada volum dan keperluan pengesahan."
+            ]
+          },
+          {
+            "question": "Bagaimana menghubungi sokongan?",
+            "paragraphs": [
+              "Telefon: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+              "E-mel: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+              "Borang hubungan di laman web"
+            ]
+          },
+          {
+            "question": "Bagaimana membuka akaun?",
+            "paragraphs": [
+              "Untuk membuka akaun:"
+            ],
+            "bullets": [
+              "Lengkapkan permohonan dalam talian",
+              "Sahkan identiti anda",
+              "Dana akaun anda",
+              "Mula berdagang"
+            ],
+            "paragraphs_after": [
+              "Kelulusan akaun tertakluk kepada semakan pematuhan."
+            ]
+          },
+          {
+            "question": "Mengapa perlu mengesahkan akaun?",
+            "paragraphs": [
+              "Pengesahan diperlukan untuk:"
+            ],
+            "bullets": [
+              "Mematuhi peraturan kewangan",
+              "Mencegah penipuan",
+              "Memastikan keselamatan platform"
+            ],
+            "paragraphs_after": [
+              "Dokumen yang mungkin diperlukan termasuk:"
+            ],
+            "bullets_after": [
+              "Bukti identiti",
+              "Pengesahan telefon",
+              "Pengesahan selfie"
+            ],
+            "paragraphs_final": [
+              "Kegagalan mengesahkan boleh menyebabkan sekatan akaun."
+            ]
+          },
+          {
+            "question": "Apa yang diperlukan untuk bermula?",
+            "paragraphs": [
+              "Untuk membuka akaun, anda mesti:"
+            ],
+            "bullets": [
+              "Berumur sekurang-kurangnya 18 tahun",
+              "Memberikan pengenalan yang sah",
+              "Mempunyai e-mel dan nombor telefon disahkan",
+              "Mempunyai akses internet"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Deposit & pengeluaran",
+        "intro": "Pendanaan akaun, pengeluaran dan pengendalian wang pelanggan.",
+        "items": [
+          {
+            "question": "Bagaimana deposit berfungsi?",
+            "paragraphs": [
+              "Deposit boleh dibuat melalui:"
+            ],
+            "bullets": [
+              "Pindahan bank",
+              "Kad kredit/debit",
+              "Dompet digital yang diluluskan"
+            ],
+            "paragraphs_after": [
+              "Dana biasanya dikreditkan dalam masa 24 jam, bergantung pada penyedia.",
+              "TraderTok boleh meminta dokumentasi tambahan untuk mematuhi AML."
+            ]
+          },
+          {
+            "question": "Bagaimana pengeluaran berfungsi?",
+            "paragraphs": [
+              "Pengeluaran boleh diminta melalui platform dan biasanya diproses dalam 24 jam, tertakluk kepada pengesahan.",
+              "Anggaran masa:"
+            ],
+            "bullets": [
+              "Kad: sehingga 5 hari perniagaan",
+              "Pindahan bank: sehingga 5 hari perniagaan",
+              "Dompet: mungkin serta-merta"
+            ],
+            "paragraphs_after": [
+              "TraderTok berhak untuk:"
+            ],
+            "bullets_after": [
+              "Mengembalikan dana ke kaedah pembayaran asal",
+              "Meminta pengesahan tambahan",
+              "Melengah pemprosesan untuk pemeriksaan pematuhan"
+            ]
+          },
+          {
+            "question": "Adakah wang saya dilindungi?",
+            "paragraphs": [
+              "Dana pelanggan dipegang dalam akaun berasingan, terpisah daripada dana syarikat.",
+              "Dana yang layak mungkin dilindungi sehingga USD 100,000, tertakluk kepada peraturan dan kriteria kelayakan.",
+              "TraderTok tidak menjamin perlindungan terhadap kerugian dagangan."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Yuran & dagangan",
+        "intro": "Kos, margin dan cara nasihat diberikan.",
+        "items": [
+          {
+            "question": "Apakah yuran dagangan anda?",
+            "paragraphs": [
+              "Dagangan mikro (0.01–0.19 lot): Tiada komisen",
+              "Dagangan standard (0.20–4.99 lot): USD 1.50 setiap dagangan",
+              "Dagangan besar (5.00+ lot): USD 3.50 setiap dagangan",
+              "Komisen dikenakan pada pembukaan dagangan melainkan dinyatakan sebaliknya.",
+              "TraderTok berhak mengemas kini struktur yuran."
+            ]
+          },
+          {
+            "question": "Adakah yuran penukaran?",
+            "paragraphs": [
+              "Ya. Yuran penukaran mata wang mungkin dikenakan semasa deposit, pengeluaran atau dagangan dalam mata wang berbeza."
+            ]
+          },
+          {
+            "question": "Apakah dagangan margin?",
+            "paragraphs": [
+              "Dagangan margin membolehkan anda berdagang dengan dana pinjaman, meningkatkan pendedahan anda.",
+              "Ia boleh membesarkan keuntungan tetapi juga meningkatkan risiko dan boleh menyebabkan kerugian melebihi deposit awal."
+            ]
+          },
+          {
+            "question": "Adakah anda memberikan nasihat pelaburan?",
+            "paragraphs": [
+              "TraderTok menyediakan akaun dagangan kendiri.",
+              "Kecuali dipersetujui secara bertulis di bawah perjanjian nasihat berkawal selia, TraderTok tidak memberikan nasihat pelaburan peribadi."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Risiko & pematuhan",
+        "intro": "Risiko penting termasuk kripto dan copy trading.",
+        "items": [
+          {
+            "question": "Risiko apa yang perlu saya sedari?",
+            "paragraphs": [
+              "Dagangan melibatkan risiko ketara dan boleh mengakibatkan kehilangan sebahagian atau semua modal yang dilaburkan.",
+              "Anda perlu:"
+            ],
+            "bullets": [
+              "Memahami risiko yang terlibat",
+              "Berdagang hanya dengan dana yang mampu anda tanggung kerugian",
+              "Mendapatkan nasihat kewangan bebas jika perlu"
+            ]
+          },
+          {
+            "question": "Risiko mata wang kripto",
+            "paragraphs": [
+              "Pasaran mata wang kripto sangat tidak menentu dan bersifat spekulatif. Harga boleh berubah dengan ketara dalam tempoh singkat."
+            ]
+          },
+          {
+            "question": "Risiko copy trading",
+            "paragraphs": [
+              "Copy trading melibatkan risiko tambahan. Anda mungkin mengikuti pedagang dengan:"
+            ],
+            "bullets": [
+              "Toleransi risiko berbeza",
+              "Objektif kewangan berbeza",
+              "Pengalaman terhad"
+            ],
+            "paragraphs_after": [
+              "Prestasi lepas tidak menunjukkan hasil masa depan.",
+              "Kandungan dalam platform bukan nasihat pelaburan."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Peraturan",
+        "intro": "Pelesenan dan butiran syarikat.",
+        "items": [
+          {
+            "question": "Adakah TraderTok dikawal selia?",
+            "paragraphs": [
+              "Ya. TraderTok beroperasi di bawah:"
+            ],
+            "bullets": [
+              "Amber Rock Trade Ltd",
+              "Alamat: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+              "No. syarikat: 222594",
+              "No. lesen: GB24203892",
+              "Pengawal selia: Financial Services Commission (FSC), Mauritius"
+            ],
+            "paragraphs_after": [
+              "Pelanggan digalakkan mengesahkan butiran melalui daftar FSC."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "TraderTok Club",
+        "intro": "Tingkat kesetiaan dan faedah.",
+        "items": [
+          {
+            "question": "Apakah TraderTok Club?",
+            "paragraphs": [
+              "TraderTok Club ialah program kesetiaan dengan faedah berdasarkan peringkat.",
+              "Keahlian bermula daripada baki minimum USD 5,000 dan merangkumi lima peringkat:"
+            ],
+            "lists": [
+              {
+                "title": "Silver",
+                "items": [
+                  "Webinar",
+                  "Aplikasi rakan kongsi",
+                  "Pengurus akaun khusus"
+                ]
+              },
+              {
+                "title": "Gold",
+                "items": [
+                  "Semua faedah Silver",
+                  "Faedah atas baki",
+                  "Wawasan pasaran mingguan",
+                  "Akses WhatsApp kepada pengurus akaun"
+                ]
+              },
+              {
+                "title": "Platinum",
+                "items": [
+                  "Semua faedah Gold",
+                  "Tiada yuran pengeluaran",
+                  "Akses kandungan premium"
+                ]
+              },
+              {
+                "title": "Platinum+",
+                "items": [
+                  "Jemputan acara",
+                  "TraderTok Card",
+                  "Faedah platform dipertingkatkan"
+                ]
+              },
+              {
+                "title": "Diamond",
+                "items": [
+                  "Akses premium penuh",
+                  "Pengecualian yuran",
+                  "Keistimewaan eksklusif"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -11,6 +11,8 @@
         defaultLang: 'en',
         supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
         localStorageKey: 'preferredLanguage',
+        /** sessionStorage: last locale applied from IP geolocation (region-redirect.js) */
+        geoLocaleStorageKey: 'tradertok_geo_locale',
         localesPath: 'locales/' // Path to locales folder
     };
 
@@ -167,7 +169,7 @@
         return !!(window.subdomainData && window.subdomainData.country && window.subdomainData.lang);
     }
 
-    async function setLanguage(lang) {
+    async function setLanguage(lang, opts) {
         if (isLanguageLocked()) {
             return;
         }
@@ -178,6 +180,11 @@
 
         currentLang = lang;
         localStorage.setItem(CONFIG.localStorageKey, lang);
+        if (opts && opts.fromUser) {
+            try {
+                sessionStorage.removeItem(CONFIG.geoLocaleStorageKey);
+            } catch (e) {}
+        }
 
         // Load translations if not cached
         await loadTranslations(lang);
@@ -208,19 +215,23 @@
      */
     async function init() {
         const savedLang = localStorage.getItem(CONFIG.localStorageKey);
+        let geoLocale = null;
+        try {
+            geoLocale = sessionStorage.getItem(CONFIG.geoLocaleStorageKey);
+        } catch (e) {}
 
-        // Regional subdomain: fixed locale (overrides saved preference)
+        // 1) PHP regional subdomain: fixed locale (highest priority)
         if (window.subdomainData && window.subdomainData.lang) {
             currentLang = window.subdomainData.lang;
+        } else if (window.regionData && window.regionData.lang) {
+            // 2) Hash / client subdomain / async geo-ip (set before or after this script)
+            currentLang = window.regionData.lang;
+        } else if (geoLocale && CONFIG.supportedLangs.includes(geoLocale)) {
+            // 3) Last IP-based locale (persists across pages until user changes language)
+            currentLang = geoLocale;
         } else if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
             currentLang = savedLang;
-        } else if (window.regionData && window.regionData.lang &&
-                   (window.regionData.source === 'php-subdomain' ||
-                    window.regionData.source === 'client-subdomain' ||
-                    window.regionData.source === 'hash')) {
-            currentLang = window.regionData.lang;
         } else {
-            // Try to detect from browser
             const browserLang = navigator.language || navigator.userLanguage;
             if (browserLang.startsWith('hi')) {
                 currentLang = 'hi';

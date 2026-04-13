@@ -1,0 +1,359 @@
+{
+  "title": "Preguntas frecuentes",
+  "subtitle": "Respuestas rápidas sobre TraderTok: mercados, cuentas, depósitos, comisiones, regulación y soporte.",
+  "lead": "Explora los temas a continuación. Cada sección se expande para más detalle.",
+  "sections": [
+    {
+      "label": "Información general",
+      "intro": "Datos clave sobre TraderTok, nuestros mercados y cómo encaja la plataforma.",
+      "items": [
+        {
+          "question": "¿Qué es TraderTok?",
+          "paragraphs": [
+            "TraderTok es una plataforma global de trading en línea que ofrece acceso a mercados financieros, incluidos forex, acciones, materias primas, índices y criptomonedas.",
+            "La plataforma está disponible en escritorio, móvil y web, y está pensada tanto para traders principiantes como experimentados.",
+            "TraderTok opera bajo Amber Rock Trade Ltd, autorizada y regulada por la Comisión de Servicios Financieros (FSC) de Mauricio."
+          ]
+        },
+        {
+          "question": "¿Qué instrumentos de trading ofrece TraderTok?",
+          "paragraphs": [
+            "TraderTok ofrece acceso a:"
+          ],
+          "bullets": [
+            "Forex (pares de divisas)",
+            "Materias primas (p. ej., oro, petróleo)",
+            "Acciones de las principales bolsas globales",
+            "Índices de mercado",
+            "Criptomonedas"
+          ],
+          "paragraphs_after": [
+            "La disponibilidad de instrumentos puede variar según la jurisdicción y los requisitos regulatorios."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Educación y plataforma",
+      "intro": "Recursos de aprendizaje, cuenta demo y cómo acceder a la plataforma.",
+      "items": [
+        {
+          "question": "¿Hay recursos educativos disponibles?",
+          "paragraphs": [
+            "Sí. TraderTok ofrece recursos educativos que incluyen:"
+          ],
+          "bullets": [
+            "Videotutoriales",
+            "Sesiones de formación",
+            "Información y análisis de mercado",
+            "Cuentas demo para practicar"
+          ],
+          "paragraphs_after": [
+            "Todo el contenido educativo se ofrece solo con fines informativos y no constituye asesoramiento de inversión."
+          ]
+        },
+        {
+          "question": "¿Puedo practicar antes de operar con dinero real?",
+          "paragraphs": [
+            "Sí. TraderTok ofrece una cuenta demo con fondos virtuales para operar en condiciones de mercado en tiempo real sin riesgo financiero.",
+            "El rendimiento en un entorno demo no garantiza resultados similares en trading real."
+          ]
+        },
+        {
+          "question": "¿En qué dispositivos puedo usar TraderTok?",
+          "paragraphs": [
+            "TraderTok está disponible en:"
+          ],
+          "bullets": [
+            "Escritorio (Windows y Mac)",
+            "Móvil (iOS y Android)",
+            "Navegador web"
+          ],
+          "paragraphs_after": [
+            "La disponibilidad puede variar según la región y los requisitos técnicos."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cuenta y soporte",
+      "intro": "Apertura de cuenta, verificación y cómo contactar a nuestro equipo.",
+      "items": [
+        {
+          "question": "¿TraderTok ofrece atención al cliente?",
+          "paragraphs": [
+            "Sí. El soporte está disponible 24/5 a través de:"
+          ],
+          "bullets": [
+            "Chat en vivo",
+            "Correo electrónico",
+            "Teléfono",
+            "Formulario de contacto en el sitio web"
+          ],
+          "paragraphs_after": [
+            "Los tiempos de respuesta pueden variar según el volumen y los requisitos de verificación."
+          ]
+        },
+        {
+          "question": "¿Cómo contacto al soporte?",
+          "paragraphs": [
+            "Teléfono: <a class=\"license-link\" href=\"tel:+447520640890\">+44 7520 640 890</a>",
+            "Correo: <a class=\"license-link\" href=\"mailto:support@tradertok.com\">support@tradertok.com</a>",
+            "Formulario de contacto en el sitio web"
+          ]
+        },
+        {
+          "question": "¿Cómo abro una cuenta?",
+          "paragraphs": [
+            "Para abrir una cuenta:"
+          ],
+          "bullets": [
+            "Completa la solicitud en línea",
+            "Verifica tu identidad",
+            "Deposita fondos",
+            "Comienza a operar"
+          ],
+          "paragraphs_after": [
+            "La aprobación de la cuenta está sujeta a revisión de cumplimiento."
+          ]
+        },
+        {
+          "question": "¿Por qué debo verificar mi cuenta?",
+          "paragraphs": [
+            "La verificación es necesaria para:"
+          ],
+          "bullets": [
+            "Cumplir con la normativa financiera",
+            "Prevenir el fraude",
+            "Garantizar la seguridad de la plataforma"
+          ],
+          "paragraphs_after": [
+            "Los documentos requeridos pueden incluir:"
+          ],
+          "bullets_after": [
+            "Prueba de identidad",
+            "Verificación telefónica",
+            "Verificación con selfie"
+          ],
+          "paragraphs_final": [
+            "No verificar puede implicar restricciones en la cuenta."
+          ]
+        },
+        {
+          "question": "¿Qué necesito para empezar?",
+          "paragraphs": [
+            "Para abrir una cuenta debes:"
+          ],
+          "bullets": [
+            "Ser mayor de 18 años",
+            "Proporcionar identificación válida",
+            "Tener correo y teléfono verificados",
+            "Tener acceso a internet"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Depósitos y retiros",
+      "intro": "Financiación de tu cuenta, retiros y cómo se custodian los fondos del cliente.",
+      "items": [
+        {
+          "question": "¿Cómo funcionan los depósitos?",
+          "paragraphs": [
+            "Puedes depositar mediante:"
+          ],
+          "bullets": [
+            "Transferencia bancaria",
+            "Tarjeta de crédito/débito",
+            "Monederos digitales aprobados"
+          ],
+          "paragraphs_after": [
+            "Los fondos suelen acreditarse en un plazo de 24 horas, según el proveedor.",
+            "TraderTok puede solicitar documentación adicional para cumplir con la normativa AML."
+          ]
+        },
+        {
+          "question": "¿Cómo funcionan los retiros?",
+          "paragraphs": [
+            "Puedes solicitar retiros desde la plataforma; normalmente se procesan en 24 horas, sujeto a verificación.",
+            "Plazos orientativos:"
+          ],
+          "bullets": [
+            "Tarjetas: hasta 5 días hábiles",
+            "Transferencia bancaria: hasta 5 días hábiles",
+            "Monederos: pueden ser instantáneos"
+          ],
+          "paragraphs_after": [
+            "TraderTok se reserva el derecho a:"
+          ],
+          "bullets_after": [
+            "Devolver fondos al método de pago original",
+            "Solicitar verificación adicional",
+            "Demorar el procesamiento por controles de cumplimiento"
+          ]
+        },
+        {
+          "question": "¿Está protegido mi dinero?",
+          "paragraphs": [
+            "Los fondos de clientes se mantienen en cuentas segregadas, separados de los fondos de la empresa.",
+            "Los fondos elegibles pueden estar protegidos hasta USD 100.000, según normas regulatorias y criterios de elegibilidad.",
+            "TraderTok no garantiza protección contra pérdidas de trading."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Comisiones y trading",
+      "intro": "Costos, margen y cómo se brinda asesoramiento.",
+      "items": [
+        {
+          "question": "¿Cuáles son las comisiones de trading?",
+          "paragraphs": [
+            "Operaciones micro (0,01–0,19 lotes): sin comisión",
+            "Operaciones estándar (0,20–4,99 lotes): USD 1,50 por operación",
+            "Operaciones grandes (5,00+ lotes): USD 3,50 por operación",
+            "Las comisiones aplican al abrir la operación salvo indicación contraria.",
+            "TraderTok se reserva el derecho de actualizar su estructura de comisiones."
+          ]
+        },
+        {
+          "question": "¿Hay comisiones por conversión de divisas?",
+          "paragraphs": [
+            "Sí. Pueden aplicarse comisiones de conversión al depositar, retirar u operar en distintas divisas."
+          ]
+        },
+        {
+          "question": "¿Qué es el trading con margen?",
+          "paragraphs": [
+            "El trading con margen te permite operar con fondos apalancados, aumentando tu exposición.",
+            "Puede amplificar ganancias, pero también aumenta el riesgo y puede generar pérdidas superiores a tu depósito inicial."
+          ]
+        },
+        {
+          "question": "¿Ofrecen asesoramiento de inversión?",
+          "paragraphs": [
+            "TraderTok ofrece cuentas de trading autodirigido.",
+            "Salvo acuerdo explícito por escrito bajo un contrato de asesoramiento regulado, TraderTok no brinda asesoramiento de inversión personalizado."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Riesgos y cumplimiento",
+      "intro": "Riesgos importantes, incluidos cripto y copy trading.",
+      "items": [
+        {
+          "question": "¿Qué riesgos debo tener en cuenta?",
+          "paragraphs": [
+            "El trading implica un riesgo significativo y puede suponer la pérdida total o parcial de tu capital invertido.",
+            "Deberías:"
+          ],
+          "bullets": [
+            "Comprender los riesgos involucrados",
+            "Operar solo con fondos que puedas permitirte perder",
+            "Buscar asesoramiento financiero independiente si es necesario"
+          ]
+        },
+        {
+          "question": "Riesgo de criptomonedas",
+          "paragraphs": [
+            "Los mercados de criptomonedas son muy volátiles y especulativos. Los precios pueden fluctuar fuertemente en cortos periodos."
+          ]
+        },
+        {
+          "question": "Riesgo de copy trading",
+          "paragraphs": [
+            "El copy trading conlleva riesgos adicionales. Puedes seguir a traders con:"
+          ],
+          "bullets": [
+            "Distinta tolerancia al riesgo",
+            "Distintos objetivos financieros",
+            "Experiencia limitada"
+          ],
+          "paragraphs_after": [
+            "El rendimiento pasado no garantiza resultados futuros.",
+            "El contenido compartido en la plataforma no constituye asesoramiento de inversión."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Regulación",
+      "intro": "Licencias y datos de la empresa.",
+      "items": [
+        {
+          "question": "¿TraderTok está regulado?",
+          "paragraphs": [
+            "Sí. TraderTok opera bajo:"
+          ],
+          "bullets": [
+            "Amber Rock Trade Ltd",
+            "Dirección: Level 5, Alexander House, 35 Cybercity, Ebene, Mauricio",
+            "N.º de empresa: 222594",
+            "N.º de licencia: GB24203892",
+            "Regulador: Financial Services Commission (FSC), Mauricio"
+          ],
+          "paragraphs_after": [
+            "Se recomienda verificar los datos en el registro de la FSC."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TraderTok Club",
+      "intro": "Niveles de fidelización y beneficios.",
+      "items": [
+        {
+          "question": "¿Qué es TraderTok Club?",
+          "paragraphs": [
+            "TraderTok Club es un programa de fidelización con beneficios por nivel.",
+            "La membresía comienza desde un saldo mínimo de USD 5.000 e incluye cinco niveles:"
+          ],
+          "lists": [
+            {
+              "title": "Silver",
+              "items": [
+                "Webinars",
+                "Aplicaciones de socios",
+                "Gestor de cuenta dedicado"
+              ]
+            },
+            {
+              "title": "Gold",
+              "items": [
+                "Todos los beneficios Silver",
+                "Interés sobre saldo",
+                "Información semanal de mercado",
+                "Acceso por WhatsApp al gestor de cuenta"
+              ]
+            },
+            {
+              "title": "Platinum",
+              "items": [
+                "Todos los beneficios Gold",
+                "Sin comisiones de retiro",
+                "Acceso a contenido premium"
+              ]
+            },
+            {
+              "title": "Platinum+",
+              "items": [
+                "Invitaciones a eventos",
+                "TraderTok Card",
+                "Beneficios mejorados en la plataforma"
+              ]
+            },
+            {
+              "title": "Diamond",
+              "items": [
+                "Acceso premium completo",
+                "Exenciones de comisiones",
+                "Privilegios exclusivos"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

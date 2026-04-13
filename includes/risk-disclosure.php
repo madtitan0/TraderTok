@@ -11,10 +11,10 @@
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="doc-page-hero-title">
-        <span data-i18n="privacyPolicyPage.heroTitle">RISK DISCLOSURE</span>
+        <span data-i18n="riskDisclosurePage.h1">RISK DISCLOSURE</span>
       </div>
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">Definitions</span>
+        <span data-i18n="riskDisclosurePage.h2">Definitions</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
 
@@ -39,7 +39,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. GENERAL RISK DISCLOSURE ON TRADING</span>
+        <span data-i18n="riskDisclosurePage.h3">1. GENERAL RISK DISCLOSURE ON TRADING</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Trading financial instruments, including CFDs and FX contracts, involves a high level of risk, it
@@ -77,7 +77,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. DISCLOSURE ASSOCIATED WITH LONG CFD POSITIONS (FOR PURCHASERS
+        <span data-i18n="riskDisclosurePage.h4">2. DISCLOSURE ASSOCIATED WITH LONG CFD POSITIONS (FOR PURCHASERS
           OF CFDS)
         </span>
       </h1>
@@ -97,7 +97,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. DISCLOSURE ASSOCIATED WITH SHORT CFD POSITIONS (FOR SELLERS OF
+        <span data-i18n="riskDisclosurePage.h5">3. DISCLOSURE ASSOCIATED WITH SHORT CFD POSITIONS (FOR SELLERS OF
           CFDS)
         </span>
       </h1>
@@ -122,7 +122,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. HIGH LEVERAGE AND LOW MARGINS CAN LEAD TO RAPID LOSSES
+        <span data-i18n="riskDisclosurePage.h6">4. HIGH LEVERAGE AND LOW MARGINS CAN LEAD TO RAPID LOSSES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -150,7 +150,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. MARGIN REQUIREMENTS
+        <span data-i18n="riskDisclosurePage.h7">5. MARGIN REQUIREMENTS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -172,7 +172,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. CASH SETTLEMENT
+        <span data-i18n="riskDisclosurePage.h8">6. CASH SETTLEMENT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -187,7 +187,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. OTC TRANSACTIONS
+        <span data-i18n="riskDisclosurePage.h9">7. OTC TRANSACTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">CFD and FX Contract transactions with the Company are conducted over-the-counter
@@ -212,7 +212,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">8. CFDS AND FX CONTRACTS
+        <span data-i18n="riskDisclosurePage.h10">8. CFDS AND FX CONTRACTS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -224,7 +224,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">9. PRICES, MARGIN, AND VALUATIONS ARE SET BY THE COMPANY AND MAY
+        <span data-i18n="riskDisclosurePage.h11">9. PRICES, MARGIN, AND VALUATIONS ARE SET BY THE COMPANY AND MAY
           DIFFER FROM OTHER SOURCES
         </span>
       </h1>
@@ -243,7 +243,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">10. EXTENT OF LOSSES
+        <span data-i18n="riskDisclosurePage.h12">10. EXTENT OF LOSSES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -255,7 +255,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">11. RIGHTS TO UNDERLYING ASSETS
+        <span data-i18n="riskDisclosurePage.h13">11. RIGHTS TO UNDERLYING ASSETS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -269,7 +269,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">12. CURRENCY RISK
+        <span data-i18n="riskDisclosurePage.h14">12. CURRENCY RISK
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -285,7 +285,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">13. ONE-CLICK TRADING AND IMMEDIATE EXECUTION
+        <span data-i18n="riskDisclosurePage.h15">13. ONE-CLICK TRADING AND IMMEDIATE EXECUTION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -301,7 +301,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">14. THE COMPANY IS NOT AN ADVISER OR FIDUCIARY
+        <span data-i18n="riskDisclosurePage.h16">14. THE COMPANY IS NOT AN ADVISER OR FIDUCIARY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -323,7 +323,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">15. RECOMMENDATIONS ARE NOT GUARANTEED
+        <span data-i18n="riskDisclosurePage.h17">15. RECOMMENDATIONS ARE NOT GUARANTEED
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -345,7 +345,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">16. NO GUARANTEES OF PROFIT
+        <span data-i18n="riskDisclosurePage.h18">16. NO GUARANTEES OF PROFIT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -359,7 +359,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">17. CUSTOMER MAY NOT BE ABLE TO CLOSE OPEN POSITIONS
+        <span data-i18n="riskDisclosurePage.h19">17. CUSTOMER MAY NOT BE ABLE TO CLOSE OPEN POSITIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -374,7 +374,7 @@
 
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">18. INTERNET TRADING
+        <span data-i18n="riskDisclosurePage.h20">18. INTERNET TRADING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -393,7 +393,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">19. QUOTING ERRORS
+        <span data-i18n="riskDisclosurePage.h21">19. QUOTING ERRORS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -417,7 +417,7 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">20. UPDATES
+        <span data-i18n="riskDisclosurePage.h22">20. UPDATES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">

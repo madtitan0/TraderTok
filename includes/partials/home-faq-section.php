@@ -21,64 +21,71 @@ if (!function_exists('home_faq_format_paragraph')) {
 <section class="home-faq-section" id="home-faq" aria-labelledby="home-faq-heading">
     <div class="container">
         <div class="home-faq-intro">
-            <h2 class="instruments-home-title" id="home-faq-heading">Frequently Asked Questions</h2>
-            <p class="instruments-home-subtitle gradient-text">Quick answers about TraderTok—markets, accounts, funding, fees, regulation, and support.</p>
-            <p class="home-faq-lead">Explore topics below. Each section expands for more detail.</p>
+            <h2 class="instruments-home-title" id="home-faq-heading" data-i18n="homeFaq.title">Frequently Asked Questions</h2>
+            <p class="instruments-home-subtitle gradient-text" data-i18n="homeFaq.subtitle">Quick answers about TraderTok—markets, accounts, funding, fees, regulation, and support.</p>
+            <p class="home-faq-lead" data-i18n="homeFaq.lead">Explore topics below. Each section expands for more detail.</p>
         </div>
 
         <?php foreach ($home_faq_sections as $secIndex => $section): ?>
             <div class="home-faq-category" id="home-faq-<?php echo (int) ($secIndex + 1); ?>">
                 <div class="home-faq-category-head">
-                    <h3 class="home-faq-category-title"><?php echo htmlspecialchars($section['label']); ?></h3>
-                    <p class="home-faq-category-intro"><?php echo htmlspecialchars($section['intro']); ?></p>
+                    <h3 class="home-faq-category-title" data-i18n="homeFaq.sections.<?php echo (int) $secIndex; ?>.label"><?php echo htmlspecialchars($section['label']); ?></h3>
+                    <p class="home-faq-category-intro" data-i18n="homeFaq.sections.<?php echo (int) $secIndex; ?>.intro"><?php echo htmlspecialchars($section['intro']); ?></p>
                 </div>
                 <div class="home-faq-list" role="list">
                     <?php foreach ($section['items'] as $itemIndex => $item): ?>
                         <div class="home-faq-item<?php echo ($secIndex === 0 && $itemIndex === 0) ? ' active' : ''; ?>" role="listitem">
                             <button type="button" class="home-faq-header" aria-expanded="<?php echo ($secIndex === 0 && $itemIndex === 0) ? 'true' : 'false'; ?>">
-                                <span class="home-faq-question-text"><?php echo htmlspecialchars($item['question']); ?></span>
+                                <span class="home-faq-question-text" data-i18n="homeFaq.sections.<?php echo (int) $secIndex; ?>.items.<?php echo (int) $itemIndex; ?>.question"><?php echo htmlspecialchars($item['question']); ?></span>
                                 <span class="home-faq-toggle" aria-hidden="true"></span>
                             </button>
                             <div class="home-faq-panel">
                                 <div class="home-faq-body">
                                     <?php
                                     if (!empty($item['paragraphs'])) {
-                                        foreach ($item['paragraphs'] as $p) {
-                                            echo '<p>' . home_faq_format_paragraph($p) . '</p>';
+                                        foreach ($item['paragraphs'] as $pi => $p) {
+                                            $pk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.paragraphs.' . (int) $pi;
+                                            echo '<p data-i18n-html="' . htmlspecialchars($pk, ENT_QUOTES, 'UTF-8') . '">' . home_faq_format_paragraph($p) . '</p>';
                                         }
                                     }
                                     if (!empty($item['bullets'])) {
                                         echo '<ul class="home-faq-ul">';
-                                        foreach ($item['bullets'] as $b) {
-                                            echo '<li>' . htmlspecialchars($b) . '</li>';
+                                        foreach ($item['bullets'] as $bi => $b) {
+                                            $bk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.bullets.' . (int) $bi;
+                                            echo '<li data-i18n="' . htmlspecialchars($bk, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($b) . '</li>';
                                         }
                                         echo '</ul>';
                                     }
                                     if (!empty($item['paragraphs_after'])) {
-                                        foreach ($item['paragraphs_after'] as $p) {
-                                            echo '<p>' . home_faq_format_paragraph($p) . '</p>';
+                                        foreach ($item['paragraphs_after'] as $pi => $p) {
+                                            $pk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.paragraphs_after.' . (int) $pi;
+                                            echo '<p data-i18n-html="' . htmlspecialchars($pk, ENT_QUOTES, 'UTF-8') . '">' . home_faq_format_paragraph($p) . '</p>';
                                         }
                                     }
                                     if (!empty($item['bullets_after'])) {
                                         echo '<ul class="home-faq-ul">';
-                                        foreach ($item['bullets_after'] as $b) {
-                                            echo '<li>' . htmlspecialchars($b) . '</li>';
+                                        foreach ($item['bullets_after'] as $bi => $b) {
+                                            $bk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.bullets_after.' . (int) $bi;
+                                            echo '<li data-i18n="' . htmlspecialchars($bk, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($b) . '</li>';
                                         }
                                         echo '</ul>';
                                     }
                                     if (!empty($item['paragraphs_final'])) {
-                                        foreach ($item['paragraphs_final'] as $p) {
-                                            echo '<p>' . home_faq_format_paragraph($p) . '</p>';
+                                        foreach ($item['paragraphs_final'] as $pi => $p) {
+                                            $pk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.paragraphs_final.' . (int) $pi;
+                                            echo '<p data-i18n-html="' . htmlspecialchars($pk, ENT_QUOTES, 'UTF-8') . '">' . home_faq_format_paragraph($p) . '</p>';
                                         }
                                     }
                                     if (!empty($item['lists'])) {
                                         echo '<div class="home-faq-tier-grid">';
-                                        foreach ($item['lists'] as $list) {
+                                        foreach ($item['lists'] as $li => $list) {
                                             echo '<div class="home-faq-tier-card">';
-                                            echo '<h4>' . htmlspecialchars($list['title']) . '</h4>';
+                                            $tk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.lists.' . (int) $li . '.title';
+                                            echo '<h4 data-i18n="' . htmlspecialchars($tk, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($list['title']) . '</h4>';
                                             echo '<ul class="home-faq-ul">';
-                                            foreach ($list['items'] as $li) {
-                                                echo '<li>' . htmlspecialchars($li) . '</li>';
+                                            foreach ($list['items'] as $ii => $lit) {
+                                                $lk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.lists.' . (int) $li . '.items.' . (int) $ii;
+                                                echo '<li data-i18n="' . htmlspecialchars($lk, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($lit) . '</li>';
                                             }
                                             echo '</ul></div>';
                                         }

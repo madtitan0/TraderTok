@@ -2,6 +2,11 @@
 
 /**
  * Home page FAQ content (also previously shown on Help Center).
+ *
+ * i18n: English copy is mirrored in locales/en.json under "homeFaq" for client-side translation.
+ * After changing structure or wording here, refresh en.json: export this file to JSON, then run
+ * node tools/merge-home-faq-en.js (see tools/home-faq-export.json + that script). Then update
+ * translated copies in tools/home-faq-translated/*.homeFaq.json and run node tools/merge-home-faq-locales.js
  */
 return [
     [
