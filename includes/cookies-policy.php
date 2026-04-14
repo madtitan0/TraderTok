@@ -11,7 +11,7 @@
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
     <div class="doc-page-hero-title">
-      <span data-i18n="cookiesPolicyPage.h1">Cookies Policy</span>
+      <span data-i18n="privacyPolicyPage.heroTitle" style='color: var(--brand-color-start)'>Cookies Policy</span>
     </div>
       <h1 class="doc-sub">
         <span data-i18n="cookiesPolicyPage.h2">Introduction</span>

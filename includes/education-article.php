@@ -31,6 +31,7 @@ $related_articles = array_slice($related_articles, 0, 3);
             <div class="education-subpage-eyebrow"><?php echo htmlspecialchars($article['category'] ?? 'Article'); ?></div>
             <h1 class="education-subpage-title"><?php echo htmlspecialchars($article['title'] ?? 'Education Article'); ?></h1>
             <p class="education-subpage-subtitle"><?php echo htmlspecialchars($article['excerpt'] ?? ''); ?></p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -102,18 +103,20 @@ $related_articles = array_slice($related_articles, 0, 3);
 
                 <div class="education-article-grid">
                     <?php foreach ($related_articles as $related): ?>
-                    <article class="education-article-card" onclick="window.location.href='education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">
+                    <article class="education-article-card" onclick="window.location.href='./education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">
                         <div class="education-article-card-body">
                             <div class="education-article-meta"><?php echo htmlspecialchars($related['category'] ?? 'Article'); ?></div>
                             <h3><?php echo htmlspecialchars($related['title'] ?? ''); ?></h3>
                             <p><?php echo htmlspecialchars($related['excerpt'] ?? ''); ?></p>
-                            <button class="education-article-link" onclick="event.stopPropagation(); window.location.href='education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">Read Article</button>
+                            <button class="education-article-link" onclick="event.stopPropagation(); window.location.href='./education-article?id=<?php echo htmlspecialchars($related['id']); ?>'">Read Article</button>
                         </div>
                     </article>
                     <?php endforeach; ?>
                 </div>
             </section>
             <?php endif; ?>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>

@@ -90,7 +90,7 @@
 
 .responsible-trading-card h2 {
   margin: 0 0 18px;
-  color: #ff6b35;
+  color: #d02c2d;
   font-size: clamp(1.7rem, 2.4vw, 2.35rem);
   line-height: 1.18;
   font-weight: 700;
@@ -131,21 +131,21 @@
   padding: 0 22px;
   margin-top: 12px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #ff6b35 0%, #ff3b30 100%);
+  background: linear-gradient(135deg, #d02c2d 0%, #ff3b30 100%);
   color: #ffffff;
   font-weight: 600;
   text-decoration: none;
-  box-shadow: 0 14px 28px rgba(255, 107, 53, 0.24);
+  box-shadow: 0 14px 28px rgba(230, 57, 70, 0.24);
   transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
 
 .responsible-trading-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 18px 34px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 18px 34px rgba(230, 57, 70, 0.3);
 }
 
 .responsible-trading-link:focus-visible {
-  outline: 3px solid rgba(255, 107, 53, 0.28);
+  outline: 3px solid rgba(230, 57, 70, 0.28);
   outline-offset: 3px;
 }
 

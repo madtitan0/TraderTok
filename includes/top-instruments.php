@@ -317,7 +317,7 @@
 }
 
 .asset-info-eyebrow {
-  color: #ff5a36;
+  color: #d02c2d;
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -389,7 +389,7 @@
   font-size: 0.96rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #ff5a36;
+  color: #d02c2d;
   margin-bottom: 8px;
 }
 

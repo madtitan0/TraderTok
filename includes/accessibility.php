@@ -106,7 +106,7 @@
 }
 
 .accessibility-eyebrow {
-  color: #ff5a36;
+  color: #d02c2d;
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.08em;

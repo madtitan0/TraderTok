@@ -10,8 +10,8 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="doc-page-hero-title">
-        <span data-i18n="generalRiskDisclosurePage.h1">GENERAL RISK DISCLOSURE</span>
+      <div class="doc-page-hero-title" >
+        <span data-i18n="privacyPolicyPage.heroTitle" style='color: var(--brand-color-start)'>GENERAL RISK DISCLOSURE</span>
       </div>
       <h1 class="doc-sub">
         <span data-i18n="generalRiskDisclosurePage.h2">This Risk Disclosure Notice is part of the Client Agreements as

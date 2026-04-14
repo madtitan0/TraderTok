@@ -59,7 +59,7 @@
   background: var(--bg-secondary);
   color: var(--text-primary);
   padding: 8px 16px;
-  border-radius: 10px;
+  border-radius: var(--btn-pill-radius, 9999px);
   font-size: 14px;
   font-weight: 600;
   box-shadow: 0 4px 15px var(--shadow-color);

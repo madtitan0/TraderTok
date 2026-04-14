@@ -112,6 +112,8 @@ $faq_items = [
     ['q' => 'Why do forex market sessions matter?', 'a' => 'Different market sessions can affect liquidity and volatility, which may influence how active certain currency pairs are during the day.'],
     ['q' => 'Is this forex trading fundamentals course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand the forex market, currency pairs, and key trading terms before moving to more advanced topics.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -124,10 +126,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly forex trading course explains how the forex market works, how currency pairs are quoted, what pips and spreads mean, and why trading sessions matter. If you are new to forex trading, this course gives you the core knowledge you need before moving into leverage, risk management, and platform execution.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -153,9 +152,12 @@ $faq_items = [
                             <a href="#course-example">Simple Forex Quote Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -202,14 +204,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Forex trading fundamentals begin with three things: understanding what the forex market is, knowing how currency pairs are quoted, and learning basic terms such as pip, spread, and lot size.</p>
                         <p>These concepts may look simple, but they are essential. A beginner who does not understand pair structure, price movement, or basic terminology can easily misread trades and underestimate risk.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple forex quote example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -230,14 +230,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Learning forex trading fundamentals is not only about terminology. It is also about understanding that forex and CFD trading involve risk, especially when leverage is used. The CFTC warns that leveraged retail forex losses can happen quickly and that customers trade through the dealer’s platform, not a centralized exchange. That makes education, broker due diligence, and risk management especially important before trading live.</p>
                         <p>Forex and CFD trading involve significant risk and may not be suitable for all traders. Educational content should not be treated as investment advice.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <article class="education-article-panel">
@@ -268,8 +266,8 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="courses-faq-list">
                             <?php foreach ($faq_items as $faq): ?>
@@ -280,16 +278,17 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="courses-final-cta">
                         <div class="courses-final-cta-panel">
-                            <div class="education-article-meta">Final CTA</div>
                             <h2>Build Your Forex Foundation Before You Trade</h2>
                             <p>Start with the basics, then continue your learning with CFD trading, leverage, risk management, and chart-reading courses inside TraderTok Academy.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
                                 <a href="./education-article?id=what-is-forex-trading" class="education-article-link courses-secondary-cta">Explore Forex Articles</a>
-                                <a href="./account-types" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>
                         </div>
                     </section>

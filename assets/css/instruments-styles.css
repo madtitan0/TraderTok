@@ -44,16 +44,16 @@
 
 /* Unique styles for each symbol */
 .symbol:nth-child(1) { color: rgba(230, 57, 70, 0.06); }
-.symbol:nth-child(2) { color: rgba(255, 107, 53, 0.05); }
+.symbol:nth-child(2) { color: rgba(230, 57, 70, 0.05); }
 .symbol:nth-child(3) { color: rgba(255, 255, 255, 0.04); }
 .symbol:nth-child(4) { color: rgba(230, 57, 70, 0.07); }
-.symbol:nth-child(5) { color: rgba(255, 107, 53, 0.06); }
+.symbol:nth-child(5) { color: rgba(230, 57, 70, 0.06); }
 .symbol:nth-child(6) { color: rgba(255, 255, 255, 0.05); }
 .symbol:nth-child(7) { color: rgba(230, 57, 70, 0.05); }
-.symbol:nth-child(8) { color: rgba(255, 107, 53, 0.04); }
+.symbol:nth-child(8) { color: rgba(230, 57, 70, 0.04); }
 .symbol:nth-child(9) { color: rgba(255, 255, 255, 0.06); }
 .symbol:nth-child(10) { color: rgba(230, 57, 70, 0.04); }
-.symbol:nth-child(11) { color: rgba(255, 107, 53, 0.07); }
+.symbol:nth-child(11) { color: rgba(230, 57, 70, 0.07); }
 .symbol:nth-child(12) { color: rgba(255, 255, 255, 0.05); }
 
 /* Floating animation with rotation */
@@ -104,8 +104,8 @@
 /* Animated gradient for instruments intro subtitle */
 .intro-text-full .about-subtitle.gradient-text {
     background: linear-gradient(90deg,
-        #E63946 0%,
-        #FF6B35 25%,
+        #d02c2d 0%,
+        #d02c2d 25%,
         #ffffff 50%,
         #ffffff 100%
     );
@@ -465,7 +465,7 @@
     padding: 12px 24px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: var(--btn-pill-radius, 9999px);
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
@@ -619,7 +619,7 @@
     padding: 12px 20px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 10px;
+    border-radius: var(--btn-pill-radius, 9999px);
     color: #ffffff;
     font-size: 14px;
     font-weight: 600;
@@ -636,7 +636,7 @@
 /* CTA Section */
 .instruments-cta {
     padding: 80px 0;
-    background: linear-gradient(135deg, rgba(230, 57, 70, 0.1) 0%, rgba(255, 107, 53, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(230, 57, 70, 0.1) 0%, rgba(230, 57, 70, 0.1) 100%);
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }

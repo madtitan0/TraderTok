@@ -66,13 +66,13 @@ height: 100vh;
 .play-button svg {
   width: 24px;
   height: 24px;
-  fill: #E63946;
+  fill: #d02c2d;
   margin-left: 3px;
 }
 
 .video-card:hover .play-button {
   transform: translate(-50%, -50%) scale(1.1);
-  background: #E63946;
+  background: #d02c2d;
 }
 
 .video-card:hover .play-button svg {
@@ -98,7 +98,7 @@ height: 100vh;
 
 .video-category {
   font-size: 0.75rem;
-  color: #E63946;
+  color: #d02c2d;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -252,8 +252,7 @@ height: 100vh;
                 <p class="page-hero-subtitle" data-i18n="videoEducationPage.heroSubtitle">
                     TraderTok offers a wide range of educational resources. One way to learn more about trading, is through our extensive video gallery, covering dozens of hot topics, constantly relevant for traders, both professional and beginners alike.
                 </p>
-
-
+                <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
 
                          <div class="videos-grid">
            <!-- Video Card 1 -->

@@ -10,6 +10,7 @@
     const CONFIG = {
         defaultLang: 'en',
         supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
+        supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
         localStorageKey: 'preferredLanguage',
         /** sessionStorage: last locale applied from IP geolocation (region-redirect.js) */
         geoLocaleStorageKey: 'tradertok_geo_locale',
@@ -231,6 +232,15 @@
             currentLang = geoLocale;
         } else if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
             currentLang = savedLang;
+        // Auto-detect from subdomain if no explicit choice yet
+        } else if (window.subdomainData && window.subdomainData.lang) {
+            currentLang = window.subdomainData.lang;
+        // Auto-detect from client-side fallback
+        } else if (window.regionData && window.regionData.lang &&
+                   (window.regionData.source === 'php-subdomain' ||
+                    window.regionData.source === 'client-subdomain' ||
+                    window.regionData.source === 'hash')) {
+            currentLang = window.regionData.lang;
         } else {
             const browserLang = navigator.language || navigator.userLanguage;
             if (browserLang.startsWith('hi')) {
@@ -240,6 +250,11 @@
             } else {
                 currentLang = CONFIG.defaultLang;
             }
+        }
+
+        // Validate that locale file exists for the language
+        if (!CONFIG.supportedLangs.includes(currentLang)) {
+            currentLang = CONFIG.defaultLang;
         }
 
         // Validate that locale file exists for the language

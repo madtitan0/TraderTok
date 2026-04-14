@@ -18,42 +18,25 @@
 }
 
 .offers-title {
-    font-size: clamp(2.2rem, 4vw, 3rem);
-    font-weight: 700;
-    color: var(--text-primary);
+    font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--brand-color-start);
     margin: 0 0 16px 0;
     line-height: 1.2;
 }
 
-.offers-title .gradient-text {
-    background: linear-gradient(
-        90deg,
-        #E63946 0%,
-        #FF6B35 25%,
-        #ffffff 50%,
-        #ffffff 100%
-    );
-    background-size: 250% 100%;
-    background-position: 100% 0;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    animation: gradientFillOffers 1.8s ease-out forwards;
-    animation-delay: 0.3s;
-}
-
-@keyframes gradientFillOffers {
-    0% { background-position: 100% 0; }
-    100% { background-position: 0% 0; }
-}
+/* Second line uses .gradient-text — colors come from site-heading-accent-swap (white on brand headings) */
 
 .offers-subtitle {
     font-size: 1rem;
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.95);
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.7;
+}
+
+body.light-theme .offers-subtitle {
+    color: var(--text-secondary);
 }
 
 
@@ -281,9 +264,9 @@
 }
 
 .promotions-region-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-primary);
+    font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    font-weight: 800;
+    color: var(--brand-color-start);
     margin: 0;
 }
 
@@ -295,15 +278,15 @@
     font-size: 0.8rem;
     font-weight: 500;
     padding: 8px 18px;
-    border-radius: 8px;
+    border-radius: var(--btn-pill-radius, 9999px);
     cursor: pointer;
     transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .promotions-clear-btn:hover {
-    color: #E63946;
-    border-color: #E63946;
-    background: rgba(230, 57, 70, 0.05);
+    color: var(--brand-color-start);
+    border-color: var(--brand-color-start);
+    background: rgba(235, 0, 42, 0.08);
 }
 
 /* Promotions grid */
@@ -354,8 +337,8 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(230, 57, 70, 0.1);
-    color: #E63946;
+    background: rgba(235, 0, 42, 0.1);
+    color: var(--brand-color-start);
     font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -398,7 +381,7 @@
 }
 
 .promo-card-cta {
-    color: #E63946;
+    color: var(--brand-color-start);
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -467,13 +450,13 @@
 .btn-offers-cta {
     display: inline-block;
     padding: 14px 40px;
-    background: var(--brand-gradient, linear-gradient(135deg, #E63946 0%, #FF6B35 100%));
+    background: var(--brand-gradient, linear-gradient(135deg, #d02c2d 0%, #d02c2d 100%));
     color: #fff;
     font-family: 'Manrope', sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
     border: none;
-    border-radius: 50px;
+    border-radius: var(--btn-pill-radius, 9999px);
     cursor: pointer;
     text-decoration: none;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -528,7 +511,7 @@
 }
 
 .region-dropdown:focus {
-    border-color: var(--brand-color-start, #E63946);
+    border-color: var(--brand-color-start, #d02c2d);
     box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.1);
 }
 
@@ -597,7 +580,7 @@
         align-items: center;
         gap: 6px;
         padding: 10px 14px;
-        border-radius: 12px;
+        border-radius: var(--btn-pill-radius, 9999px);
         background: var(--bg-secondary);
         border: 1.5px solid var(--border-color);
         cursor: pointer;

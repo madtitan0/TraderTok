@@ -1,33 +1,42 @@
-<section class="education-hub">
+<section class="education-hub" style="margin-top: 20px;">
     <section class="page-hero1 education-hub-hero">
         <video class="page-hero-video" autoplay loop muted playsinline>
             <source src="assets/images/education.mp4" type="video/mp4">
         </video>
         <div class="page-hero-overlay1"></div>
-        <div class="page-hero-content1">
-            <div class="hub-hero-eyebrow">TraderTok Education Hub</div>
+        <div class="education-hub-hero-grid" aria-hidden="true"></div>
+        <div class="page-hero-content1 container">
+            <div class="hub-hero-eyebrow">
+                <span class="eyebrow-dot gradient-text"></span>
+                TraderTok Education Hub
+            </div>
             <h1 class="page-hero-title1">Learn about financial markets through a structured and accessible knowledge hub.</h1>
             <p class="page-hero-subtitle1">
                 TraderTok Education Hub brings together educational content designed to help users understand market concepts, trading foundations, risk awareness, and the broader trading ecosystem in one place.
             </p>
-            <div class="hero-ctas">
+            <div class="hero-ctas education-hub-main-hero-ctas">
                 <a href="#hub-sections" class="btn-secondary1">Explore Sections</a>
+                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-primary">Open demo account</a>
+                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary education-hub-hero-live-cta">Open live account</a>
             </div>
             <p class="micro-trust">Educational content only. Clear market knowledge, practical learning paths, and easier access to resources.</p>
+        </div>
+        <div class="about-hero-scroll-hint" aria-hidden="true">
+            <span></span>
         </div>
     </section>
 
     <section class="hub-section hub-intro-section">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">Overview</h2>
-                <p class="sec-subtitle">A central page for learning resources, insights, guides, webinars, glossary terms, tutorials, and tools.</p>
+            <div class="section-header">
+                <h2 class="section-title">Overview</h2>
+                <p class="section-subtitle">A central page for learning resources, insights, guides, webinars, glossary terms, tutorials, and tools.</p>
             </div>
             <div class="hub-intro-panel">
-                <p>
+                <p class="section-body">
                     Financial markets can feel complex, especially for new traders. This page is designed to make learning easier by organizing TraderTok educational resources into clear sections that users can explore based on their interests and experience level.
                 </p>
-                <p>
+                <p class="section-body">
                     Whether someone wants beginner education, deeper market insight, platform help, or glossary definitions, the hub should serve as the starting point.
                 </p>
             </div>
@@ -36,9 +45,9 @@
 
     <section class="learn-section" id="learn">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">What You'll Find</h2>
-                <p class="sec-subtitle">The hub is organized to help users move from foundational learning into deeper educational content at their own pace.</p>
+            <div class="section-header">
+                <h2 class="section-title">What You'll Find</h2>
+                <p class="section-subtitle">The hub is organized to help users move from foundational learning into deeper educational content at their own pace.</p>
             </div>
             <div class="learn-grid">
                 <div class="learn-card">
@@ -71,9 +80,9 @@
 
     <section class="who-for-sec">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">Is This Education for You?</h2>
-                <p class="sec-subtitle">A simple way to see whether this hub matches what you are looking for.</p>
+            <div class="section-header">
+                <h2 class="section-title">Is This Education for You?</h2>
+                <p class="section-subtitle">A simple way to see whether this hub matches what you are looking for.</p>
             </div>
             <div class="who-grid">
                 <div class="who-box for">
@@ -98,9 +107,9 @@
 
     <section class="hub-section hub-structure-section" id="hub-sections">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">Education Sections</h2>
-                <p class="sec-subtitle">Choose a section below to continue learning through the part of the hub that matches what you need.</p>
+            <div class="section-header">
+                <h2 class="section-title">Education Sections</h2>
+                <p class="section-subtitle">Choose a section below to continue learning through the part of the hub that matches what you need.</p>
             </div>
 
             <div class="hub-category-grid hub-category-grid--compact">
@@ -157,9 +166,9 @@
 
     <section class="how-it-works-sec">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">How It Works</h2>
-                <p class="sec-subtitle">A simple learning flow that helps users navigate the hub more easily.</p>
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">A simple learning flow that helps users navigate the hub more easily.</p>
             </div>
             <div class="steps-grid">
                 <div class="step">
@@ -181,11 +190,11 @@
         </div>
     </section>
 
-    <section class="faq-sec" id="faq" style="background: var(--bg-primary);">
+    <section class="faq-sec education-hub-faq" id="faq">
         <div class="container">
-            <div class="hub-section-header">
-                <h2 class="sec-title">Frequently Asked Questions</h2>
-                <p class="sec-subtitle">A few quick answers to help users understand what the Education Hub is for.</p>
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">A few quick answers to help users understand what the Education Hub is for.</p>
             </div>
             <div class="faq-list">
                 <div class="faq-item">
@@ -207,6 +216,8 @@
             </div>
         </div>
     </section>
+
+    <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {

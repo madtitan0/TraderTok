@@ -75,19 +75,78 @@
         line-height: 1.7;
     }
 
+    .tc-faq-section {
+        margin-top: 0;
+    }
     .tc-faq-item {
         border-bottom: 1px solid var(--card-border);
-        padding: 24px 0;
     }
-    .tc-faq-question {
+    .tc-faq-item:last-child {
+        border-bottom: none;
+    }
+    .tc-faq-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 24px 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        text-align: left;
+        color: var(--text-primary);
+    }
+    .tc-faq-header:hover {
+        background: rgba(230, 57, 70, 0.04);
+    }
+    .tc-faq-question-text {
+        flex: 1;
+        min-width: 0;
         font-size: 1.2rem;
         font-weight: 600;
-        color: var(--text-primary);
-        margin-bottom: 16px;
+        color: var(--brand-color-start);
     }
-    .tc-faq-answer {
+    .tc-faq-toggle {
+        position: relative;
+        width: 22px;
+        height: 22px;
+        flex-shrink: 0;
+        border-radius: 50%;
+        border: 2px solid rgba(230, 57, 70, 0.5);
+    }
+    .tc-faq-toggle::before,
+    .tc-faq-toggle::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10px;
+        height: 2px;
+        background: #d02c2d;
+        border-radius: 2px;
+        transform: translate(-50%, -50%);
+        transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .tc-faq-toggle::after {
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+    .tc-faq-item.active .tc-faq-toggle::after {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(90deg) scaleX(0.2);
+    }
+    .tc-faq-panel {
+        display: none;
+        border-top: 1px solid var(--card-border);
+    }
+    .tc-faq-item.active .tc-faq-panel {
+        display: block;
+    }
+    .tc-faq-body {
+        padding: 0 0 24px;
         color: var(--text-secondary);
         line-height: 1.8;
+        font-size: 1rem;
     }
 
     @media (max-width: 991px) {
@@ -107,9 +166,9 @@
     <div class="container">
         <!-- Hero Section -->
         <div style="text-align: center; max-width: 1200px; margin: 0 auto 40px;">
-            <p class="ptag" style="font-size: 1.1rem; font-weight: 600; color: var(--primary-color); letter-spacing: 2px; text-transform: uppercase;" data-i18n="tradingCentral.eyebrow">Trading Central</p>
-            <h1 style="font-size: 4.5rem; font-weight: 800; line-height: 1.2; color: var(--text-primary); margin: 24px 0;">
-                <span data-i18n="tradingCentral.heroTitlePart1">Advanced analytics for</span> <br><span style="background: var(--brand-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;" data-i18n="tradingCentral.heroTitlePart2">smarter trading</span>
+            <p class="ptag" style="font-size:3.4rem; font-weight: 800; background: var(--brand-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;  letter-spacing: 2px; text-transform: uppercase;" data-i18n="tradingCentral.eyebrow">Trading Central</p>
+            <h1 style="font-size: 2.2rem; font-weight: 700; line-height: 1.2; color: var(--text-primary); margin: 24px 0;">
+                <span data-i18n="tradingCentral.heroTitlePart1">Advanced analytics for</span> <br><span style=" color: var(--primary-color);" data-i18n="tradingCentral.heroTitlePart2">smarter trading</span>
             </h1>
             <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.8; max-width: 800px; margin: 0 auto 40px;" data-i18n="tradingCentral.heroSubtitle">
                 TraderTok brings you one of the most powerful market tools for modern trading. Trading Central combines cutting-edge tech with expert market analysis to elevate your trading experience.
@@ -142,7 +201,7 @@
         </div>
 
         <div style="text-align: center; margin: 120px 0 80px;">
-            <h2 style="font-size: 3rem; font-weight: 800; color: var(--text-primary);">
+            <h2 style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start);">
                 <span data-i18n="tradingCentral.midTitlePart1">Stay ahead of market trends</span><br><span data-i18n="tradingCentral.midTitlePart2">with real-time analytics</span>
             </h2>
         </div>
@@ -150,7 +209,7 @@
         <!-- Features -->
         <div class="tc-features-grid">
             <div class="tc-feature-text">
-                <h2 data-i18n="tradingCentral.features.f1title">Data-Driven Insights</h2>
+                <h2 data-i18n="tradingCentral.features.f1title" style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start);">Data-Driven Insights</h2>
                 <p data-i18n="tradingCentral.features.f1desc">Stay ahead of the latest market moves with advanced analytics and expert insights.</p>
                 <a href="https://appzone.tradertok.com/" class="btn-secondary" style="display: inline-block;" data-i18n="tradingCentral.features.registerBtn">Register to Access</a>
             </div>
@@ -161,7 +220,7 @@
 
         <div class="tc-features-grid" style="direction: rtl;">
             <div class="tc-feature-text" style="direction: ltr;">
-                <h2 data-i18n="tradingCentral.features.f2title">Professional-Grade Analysis</h2>
+                <h2 data-i18n="tradingCentral.features.f2title" style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start);">Professional-Grade Analysis</h2>
                 <p data-i18n="tradingCentral.features.f2desc">Navigate global markets with the latest market-scanning tools powered by AI.</p>
             </div>
             <div style="direction: ltr;">
@@ -171,7 +230,7 @@
 
         <div class="tc-features-grid">
             <div class="tc-feature-text">
-                <h2 data-i18n="tradingCentral.features.f3title">Boundless Market Opportunities</h2>
+                <h2 data-i18n="tradingCentral.features.f3title" style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start);">Boundless Market Opportunities</h2>
                 <p data-i18n="tradingCentral.features.f3desc">Access real-time insights into hundreds of financial instruments.</p>
             </div>
             <div>
@@ -181,7 +240,7 @@
 
         <!-- Registration CTA -->
         <div style="background: var(--card-bg); border-radius: 24px; padding: 64px 40px; text-align: center; margin-bottom: 120px;">
-            <h2 style="font-size: 2.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 24px;" data-i18n="tradingCentral.cta.title">Register to access Trading Central for FREE</h2>
+            <h2 style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start); margin-bottom: 24px;" data-i18n="tradingCentral.cta.title">Register to access Trading Central for FREE</h2>
             <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 40px;" data-i18n="tradingCentral.cta.desc">
                 Unlock the full power of Trading Central when you register with TraderTok. Trading Central enhances your trading experience by providing actionable insights and expert analysis at no cost.
             </p>
@@ -191,7 +250,7 @@
         <!-- Tools section -->
         <div style="margin-bottom: 120px;">
             <div style="text-align: center; margin-bottom: 64px;">
-                <h2 style="font-size: 3rem; font-weight: 800; color: var(--text-primary); margin-bottom: 24px;" data-i18n="tradingCentral.tools.title">The ultimate suite of market tools</h2>
+                <h2 style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start); margin-bottom: 24px;" data-i18n="tradingCentral.tools.title">The ultimate suite of market tools</h2>
                 <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto;" data-i18n="tradingCentral.tools.subtitle">
                     At TraderTok, we take pride in arming you with the tools and insights you need to succeed. Explore the power of Trading Central and redefine the way you trade.
                 </p>
@@ -199,19 +258,19 @@
 
             <div class="tc-tools-grid">
                 <div class="tc-tool-card">
-                    <h3 data-i18n="tradingCentral.tools.t1title">News & Sentiment Analysis</h3>
+                    <h3 data-i18n="tradingCentral.tools.t1title" style=" color: var(--brand-color-start);">News & Sentiment Analysis</h3>
                     <p data-i18n="tradingCentral.tools.t1desc">Stay informed with comprehensive news and sentiment analysis across forex, stocks, commodities, indices, cryptocurrencies, and more. Leverage unbiased, data-driven insights to navigate the markets confidently and seize opportunities as they emerge.</p>
                 </div>
                 <div class="tc-tool-card">
-                    <h3 data-i18n="tradingCentral.tools.t2title">Pricing Analytics</h3>
+                    <h3 data-i18n="tradingCentral.tools.t2title" style=" color: var(--brand-color-start);">Pricing Analytics</h3>
                     <p data-i18n="tradingCentral.tools.t2desc">Analyze real-time price movements and uncover trading opportunities across 250+ assets. Stay ahead of market trends with precise economic insights and pricing analytics that empower you to act decisively and maximize your trading potential.</p>
                 </div>
                 <div class="tc-tool-card">
-                    <h3 data-i18n="tradingCentral.tools.t3title">Instruments & Insights</h3>
+                    <h3 data-i18n="tradingCentral.tools.t3title" style=" color: var(--brand-color-start);">Instruments & Insights</h3>
                     <p data-i18n="tradingCentral.tools.t3desc">Access actionable technical analysis on a wide range of financial instruments. Harness advanced analytics, pattern recognition technology, and real-time data to identify market opportunities and make informed trading decisions. Gain the clarity and confidence you need to navigate today's fast-moving financial landscape.</p>
                 </div>
                 <div class="tc-tool-card">
-                    <h3 data-i18n="tradingCentral.tools.t4title">Actionable Ideas</h3>
+                    <h3 data-i18n="tradingCentral.tools.t4title" style=" color: var(--brand-color-start);">Actionable Ideas</h3>
                     <p data-i18n="tradingCentral.tools.t4desc">Discover live trading ideas generated from a combination of technical and fundamental analysis. Spot bullish and bearish opportunities in real time and make confident, data-backed decisions that align with your trading strategy.</p>
                 </div>
             </div>
@@ -222,36 +281,69 @@
         </div>
 
         <!-- FAQ Section -->
-        <div>
-            <h2 style="font-size: 2.5rem; font-weight: 700; color: var(--text-primary); margin-bottom: 40px;" data-i18n="tradingCentral.faq.title">Trading Central FAQs</h2>
-            
+        <div class="tc-faq-section">
+            <h2 style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start); margin-bottom: 40px;" data-i18n="tradingCentral.faq.title">Trading Central FAQs</h2>
+
             <div class="tc-faq-item">
-                <div class="tc-faq-question" data-i18n="tradingCentral.faq.q1">What is Trading Central?</div>
-                <div class="tc-faq-answer" data-i18n="tradingCentral.faq.a1">
-                    Trading Central is a state-of-the-art market analysis and research suite that combines cutting-edge AI technology with the expertise of seasoned financial analysts. By seamlessly merging machine learning with human intelligence, Trading Central provides accurate, actionable trade ideas, in-depth market insights, and real-time data to help traders of all levels make informed decisions.
-                </div>
-            </div>
-            
-            <div class="tc-faq-item">
-                <div class="tc-faq-question" data-i18n="tradingCentral.faq.q2">How do I access Trading Central?</div>
-                <div class="tc-faq-answer" data-i18n="tradingCentral.faq.a2">
-                    To access TraderTok's Trading Central, you need to log in to your account. You will find all the Trading Central tools within our trading environments. Trading Central is seamlessly integrated within the platform, providing you with powerful tools and insights at your fingertips.
+                <button type="button" class="tc-faq-header" id="tc-faq-h1" aria-expanded="false" aria-controls="tc-faq-p1">
+                    <span class="tc-faq-question-text" data-i18n="tradingCentral.faq.q1">What is Trading Central?</span>
+                    <span class="tc-faq-toggle" aria-hidden="true"></span>
+                </button>
+                <div class="tc-faq-panel" id="tc-faq-p1" role="region" aria-labelledby="tc-faq-h1">
+                    <div class="tc-faq-body" data-i18n="tradingCentral.faq.a1">
+                        Trading Central is a state-of-the-art market analysis and research suite that combines cutting-edge AI technology with the expertise of seasoned financial analysts. By seamlessly merging machine learning with human intelligence, Trading Central provides accurate, actionable trade ideas, in-depth market insights, and real-time data to help traders of all levels make informed decisions.
+                    </div>
                 </div>
             </div>
 
             <div class="tc-faq-item">
-                <div class="tc-faq-question" data-i18n="tradingCentral.faq.q3">What markets does Trading Central cover?</div>
-                <div class="tc-faq-answer" data-i18n="tradingCentral.faq.a3">
-                    Trading Central provides comprehensive insights into a wide array of markets offered by TraderTok, empowering you to diversify your trading portfolio. From Forex and Commodities to Indices, Cryptocurrencies, and Stocks, Trading Central delivers expert analysis and trade ideas across various financial instruments.
+                <button type="button" class="tc-faq-header" id="tc-faq-h2" aria-expanded="false" aria-controls="tc-faq-p2">
+                    <span class="tc-faq-question-text" data-i18n="tradingCentral.faq.q2">How do I access Trading Central?</span>
+                    <span class="tc-faq-toggle" aria-hidden="true"></span>
+                </button>
+                <div class="tc-faq-panel" id="tc-faq-p2" role="region" aria-labelledby="tc-faq-h2">
+                    <div class="tc-faq-body" data-i18n="tradingCentral.faq.a2">
+                        To access TraderTok's Trading Central, you need to log in to your account. You will find all the Trading Central tools within our trading environments. Trading Central is seamlessly integrated within the platform, providing you with powerful tools and insights at your fingertips.
+                    </div>
                 </div>
             </div>
 
             <div class="tc-faq-item">
-                <div class="tc-faq-question" data-i18n="tradingCentral.faq.q4">Why choose TraderTok and Trading Central?</div>
-                <div class="tc-faq-answer" data-i18n="tradingCentral.faq.a4">
-                    When you choose TraderTok, you're joining a trusted brokerage committed to your success. We provide a seamless trading experience with unparalleled support, low spreads, and an array of premium trading tools, including Trading Central, at no extra cost. By partnering with TraderTok, you gain access to the expertise, resources, and technology needed to achieve your financial goals.
+                <button type="button" class="tc-faq-header" id="tc-faq-h3" aria-expanded="false" aria-controls="tc-faq-p3">
+                    <span class="tc-faq-question-text" data-i18n="tradingCentral.faq.q3">What markets does Trading Central cover?</span>
+                    <span class="tc-faq-toggle" aria-hidden="true"></span>
+                </button>
+                <div class="tc-faq-panel" id="tc-faq-p3" role="region" aria-labelledby="tc-faq-h3">
+                    <div class="tc-faq-body" data-i18n="tradingCentral.faq.a3">
+                        Trading Central provides comprehensive insights into a wide array of markets offered by TraderTok, empowering you to diversify your trading portfolio. From Forex and Commodities to Indices, Cryptocurrencies, and Stocks, Trading Central delivers expert analysis and trade ideas across various financial instruments.
+                    </div>
+                </div>
+            </div>
+
+            <div class="tc-faq-item">
+                <button type="button" class="tc-faq-header" id="tc-faq-h4" aria-expanded="false" aria-controls="tc-faq-p4">
+                    <span class="tc-faq-question-text" data-i18n="tradingCentral.faq.q4">Why choose TraderTok and Trading Central?</span>
+                    <span class="tc-faq-toggle" aria-hidden="true"></span>
+                </button>
+                <div class="tc-faq-panel" id="tc-faq-p4" role="region" aria-labelledby="tc-faq-h4">
+                    <div class="tc-faq-body" data-i18n="tradingCentral.faq.a4">
+                        When you choose TraderTok, you're joining a trusted brokerage committed to your success. We provide a seamless trading experience with unparalleled support, low spreads, and an array of premium trading tools, including Trading Central, at no extra cost. By partnering with TraderTok, you gain access to the expertise, resources, and technology needed to achieve your financial goals.
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.tc-faq-section .tc-faq-header').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var item = btn.closest('.tc-faq-item');
+            var open = item.classList.contains('active');
+            item.classList.toggle('active', !open);
+            btn.setAttribute('aria-expanded', String(!open));
+        });
+    });
+});
+</script>

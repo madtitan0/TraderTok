@@ -32,7 +32,7 @@
   align-items: center;
   gap: 8px;
   background: rgba(230, 57, 70, 0.1);
-  color: #E63946;
+  color: #d02c2d;
   padding: 8px 16px;
   border-radius: 30px;
   font-size: 0.8rem;
@@ -51,7 +51,7 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 24px;
-  color: var(--text-primary);
+  color: var(--brand-color-start);
 }
 
 .hero-description {
@@ -64,7 +64,7 @@
 .hero-description-small {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 16px;
 }
 
@@ -106,7 +106,7 @@
 .clock-icon {
   width: 100%;
   height: 100%;
-  color: #E63946;
+  color: #d02c2d;
 }
 
 .clock-hand {
@@ -138,14 +138,13 @@
 }
 
 .section-title-group h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--text-primary);
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+  font-weight: 800;
   margin-bottom: 8px;
 }
 
 .section-title-group p {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   font-size: 1rem;
 }
 
@@ -228,13 +227,13 @@
 .play-button svg {
   width: 24px;
   height: 24px;
-  fill: #E63946;
+  fill: #d02c2d;
   margin-left: 3px;
 }
 
 .video-card:hover .play-button {
   transform: translate(-50%, -50%) scale(1.1);
-  background: #E63946;
+  background: #d02c2d;
 }
 
 .video-card:hover .play-button svg {
@@ -260,7 +259,7 @@
 
 .video-category {
   font-size: 0.75rem;
-  color: #E63946;
+  color: #d02c2d;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -352,7 +351,7 @@
   bottom: 8px;
   font-size: 0.55rem;
   font-weight: 800;
-  color: #dc2626;
+  color: #d02c2d;
   letter-spacing: 0.5px;
   background: rgba(220, 38, 38, 0.1);
   padding: 2px 6px;
@@ -406,7 +405,7 @@
 }
 
 .report-card:hover .report-download {
-  background: #E63946;
+  background: #d02c2d;
 }
 
 .report-card:hover .report-download svg {
@@ -427,16 +426,15 @@
 }
 
 .education-text h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--text-primary);
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+  font-weight: 800;
   margin-bottom: 20px;
 }
 
 .education-text p {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 16px;
 }
 
@@ -570,6 +568,12 @@
     justify-content: center;
   }
 }
+
+body.light-theme .research-page .hero-description-small,
+body.light-theme .research-page .section-title-group p,
+body.light-theme .research-page .education-text p {
+  color: var(--text-secondary);
+}
    </style>
 
    <!-- Main Content -->
@@ -579,7 +583,7 @@
        <div class="container">
          <div class="hero-content">
            <h1 class="hero-title"><span data-i18n="researchPage.heroTitle">Market Insights That</span> <span
-               class="gradient-text" data-i18n="researchPage.heroTitleHighlight">Matter</span></h1>
+               class="" data-i18n="researchPage.heroTitleHighlight">Matter</span></h1>
            <p class="hero-description-small" data-i18n="researchPage.heroDesc1">
              Our research materials are carefully prepared to help traders and investors better understand the markets.
              Each video and PDF on this page has been thoughtfully developed to offer insights that are practical,
@@ -589,6 +593,7 @@
              We know the financial world can be complex, so we aim to present information in a way that's structured and
              easy to follow, without losing the depth that matters.
            </p>
+           <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
 
            <div class="stats-bar">
              <div class="stat-item">
@@ -636,7 +641,7 @@
                        <div class="video-card">
              <div class="video-thumbnail">
                <div
-                 style="background: linear-gradient(135deg, #1a1a2e 0%, #e94560 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                 style="background: linear-gradient(135deg, #1a1a2e 0%, #d02c2d 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)"
                    stroke-width="1">
                    <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -674,7 +679,7 @@
             <div class="video-card">
              <div class="video-thumbnail">
                <div
-                 style="background: linear-gradient(135deg, #1a1a2e 0%, #e94560 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                 style="background: linear-gradient(135deg, #1a1a2e 0%, #d02c2d 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)"
                    stroke-width="1">
                    <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -713,7 +718,7 @@
            <div class="video-card">
              <div class="video-thumbnail">
                <div
-                 style="background: linear-gradient(135deg, #1a1a2e 0%, #e94560 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                 style="background: linear-gradient(135deg, #1a1a2e 0%, #d02c2d 50%, #1a1a2e 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)"
                    stroke-width="1">
                    <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -751,7 +756,7 @@
            <div class="video-card">
              <div class="video-thumbnail">
                <div
-                 style="background: linear-gradient(135deg, #2d4059 0%, #ea5455 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                 style="background: linear-gradient(135deg, #2d4059 0%, #d02c2d 100%); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)"
                    stroke-width="1">
                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -932,7 +937,7 @@
        <div class="container">
          <div class="education-content">
            <div class="education-text">
-             <h2><span data-i18n="researchPage.whyEducation">Why Education</span> <span class="gradient-text"
+             <h2><span data-i18n="researchPage.whyEducation">Why Education</span> <span class=""
                  data-i18n="researchPage.whyEducationHighlight">Matters</span></h2>
              <p data-i18n="researchPage.whyEducationDesc1">
                In the fast-paced world of trading and investing, education is not optional—it's essential. Sound

@@ -63,7 +63,8 @@
 
         // Detect base path from the parent nav link's href
         dropdowns.forEach(function(dropdown) {
-            var parentLink = dropdown.parentElement.querySelector('a.nav-link');
+            var navItem = dropdown.closest('.nav-item');
+            var parentLink = navItem ? navItem.querySelector('a.nav-link') : null;
             var basePath = parentLink ? parentLink.getAttribute('href') : './offers-promotions';
 
             var lockedCountry =

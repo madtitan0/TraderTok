@@ -110,6 +110,8 @@ $faq_items = [
     ['q' => 'Should beginners start with a demo account?', 'a' => 'Yes. A demo account helps beginners practice chart reading, order placement, and trade monitoring without using live funds.'],
     ['q' => 'Is this course suitable for beginners?', 'a' => 'Yes. This course is designed to help beginners understand chart layout, basic order tools, stop-loss, take-profit, and trade monitoring in a simple, practical way.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -122,10 +124,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly course explains how to use the TraderTok platform, including chart layout, watchlists, order types, stop-loss, take-profit, and trade monitoring tools. If you are new to trading, this course will help you feel more comfortable using the platform before placing live trades.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -151,9 +150,12 @@ $faq_items = [
                             <a href="#course-example">Simple Platform Workflow Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -200,14 +202,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Platform basics can be simplified into five core ideas: learn the difference between desktop and mobile workflow, use charts and watchlists to stay organized, understand the basic order ticket before placing trades, use stop-loss and take-profit as part of every planned setup, and practice everything in demo before trading live.</p>
                         <p>A structured platform routine can reduce avoidable execution mistakes and build confidence before live trading.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple platform workflow example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -227,14 +227,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>A platform can make trading feel simple because everything is only a few clicks away. But convenience is not the same as safety.</p>
                         <p>Using a trading platform correctly helps reduce execution mistakes, but it does not remove market risk. If leveraged products are used, losses can increase quickly. Beginners should practice on demo before trading live.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <div>
@@ -265,12 +263,12 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="faq-list">
                             <?php foreach ($faq_items as $index => $item): ?>
-                                <article class="faq-item<?php echo $index === 0 ? ' open' : ''; ?>">
+                                <article class="faq-item<?php echo $index === 0 ? ' active' : ''; ?>">
                                     <button class="faq-q" type="button">
                                         <span><?php echo htmlspecialchars($item['q']); ?></span>
                                         <span class="faq-icon"></span>
@@ -282,10 +280,10 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="education-course-final-cta">
                         <div class="education-course-final-cta-content">
-                            <span class="education-subpage-eyebrow">Final CTA</span>
                             <h2>Learn the platform before you trade live</h2>
                             <p>
                                 Get familiar with charts, watchlists, order placement, stop-loss, take-profit, and trade monitoring so you can use the TraderTok platform with more confidence.
@@ -294,7 +292,8 @@ $faq_items = [
                         <div class="education-course-final-cta-actions">
                             <a href="#" class="btn-primary">Start Next Course</a>
                             <a href="#" class="education-article-link courses-secondary-cta">Explore Platform Articles</a>
-                            <a href="#" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                         </div>
                     </section>
                 </main>

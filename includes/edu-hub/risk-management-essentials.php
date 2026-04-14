@@ -122,6 +122,8 @@ $faq_items = [
     ['q' => 'Can good risk management reduce emotional trading?', 'a' => 'Yes. When risk, stop-loss, and targets are defined before entry, traders are less likely to make impulsive decisions during volatility.'],
     ['q' => 'Is this course suitable for beginners?', 'a' => 'Yes. This course is designed for beginners and growing traders who want to improve position sizing, stop-loss use, and trade discipline.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -134,10 +136,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This course teaches the core principles of trading risk management, including how to use risk per trade properly, how to think about risk-reward ratio, how stop-loss placement affects exposure, and how disciplined trade management can reduce emotional mistakes.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -163,9 +162,12 @@ $faq_items = [
                             <a href="#course-example">Simple Risk-Reward Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -212,14 +214,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Risk management essentials can be reduced to five core ideas: define your downside before you enter, use risk per trade to avoid oversized losses, size positions based on your stop and account risk, compare downside and upside with risk-reward ratio, and reduce emotional decisions by using a pre-planned process.</p>
                         <p>This matters even more in leveraged markets, where poor risk control can lead to rapid losses.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple risk-reward example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -240,14 +240,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Risk management does not eliminate losses. It helps prevent one or two mistakes from causing outsized damage. That matters because leveraged products can lead to rapid losses when exposure is too high or when traders enter without a clear plan. The FCA’s retail CFD restrictions and mandatory warnings reflect that reality.</p>
                         <p>Trading leveraged products involves significant risk. Stop-loss orders, position sizing, and risk-reward planning can help manage risk, but they do not guarantee profits or prevent all losses. Educational content should not be treated as investment advice.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <article class="education-article-panel">
@@ -278,8 +276,8 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="courses-faq-list">
                             <?php foreach ($faq_items as $faq): ?>
@@ -290,16 +288,17 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="courses-final-cta">
                         <div class="courses-final-cta-panel">
-                            <div class="education-article-meta">Final CTA</div>
                             <h2>Protect Capital Before Chasing Opportunity</h2>
                             <p>Learn to control downside with better position sizing, stop-loss planning, and risk-reward thinking before moving into more advanced trading topics.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
                                 <a href="./education-article?id=risk-management-in-trading" class="education-article-link courses-secondary-cta">Explore Risk Articles</a>
-                                <a href="./account-types" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>
                         </div>
                     </section>

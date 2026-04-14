@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "TraderTok - Professional Trading Platform | Trade with Confidence",
-    "description": "Grow your savings with confidence at TraderTok. Access powerful desktop and mobile trading platforms, real-time market analysis, 24/7 support, and expert insights."
+    "description": "Grow your savings with confidence at TraderTok. Access powerful desktop and mobile trading platforms, real-time market analysis, 24/5 support, and expert insights."
   },
   "nav": {
     "meetTheTeam": "Meet the Team",
@@ -14,13 +14,18 @@
     "regulations": "Regulations",
     "generalRiskDisclosure": "General Risk Disclosure",
     "clientServiceAgreement": "Client Service Agreement",
-    "riskDisclaimer": "Risk Disclaimer",
+    "riskDisclaimer": "Risk Disclosure",
     "termsConditions": "Terms & Conditions",
+    "cookiePolicy": "Cookies Policy",
     "cookiePolicy": "Cookies Policy",
     "offers": "Offers",
     "educationHub": "Education Hub",
     "trading": "Trading",
-    "aboutUs": "About Us"
+    "aboutUs": "About Us",
+    "learn": "Learn",
+    "company": "Company",
+    "partnersOffers": "Partners & Offers",
+    "promotionsOffers": "Promotions / Offers"
   },
   "dropdown": {
     "tradingEssentials": "Trading Essentials",
@@ -29,7 +34,7 @@
     "videoEducationDesc": "Watch tutorials and expert insights",
     "eventsCalendar": "Events Calendar",
     "eventsCalendarDesc": "Track important market events",
-    "research": "Research",
+    "research": "Market Research",
     "researchDesc": "In-depth market analysis and insights",
     "liveTraining": "Live Training",
     "liveTrainingDesc": "Join live sessions with experts",
@@ -40,7 +45,18 @@
     "tradingPlatform": "Trading Platform",
     "tradingPlatformDesc": "Explore our platforms",
     "tradingCentral": "Trading Central",
-    "tradingCentralDesc": "Advanced analytics & insights"
+    "tradingCentralDesc": "Advanced analytics & insights",
+    "markets": "Markets",
+    "marketsDesc": "Popular instruments & market context",
+    "accountTypesDesc": "Compare accounts & features",
+    "educationHubDesc": "Guides, tools & learning paths",
+    "aboutUsDesc": "Our story & mission",
+    "meetTeamDesc": "People behind TraderTok",
+    "contactUsDesc": "Support & enquiries",
+    "ibProgramDesc": "Partner & referral programme",
+    "traderTokClubDesc": "Exclusive benefits & rewards",
+    "riskDisclosure": "Risk Disclosure",
+    "riskDisclosureDesc": "Important risk information"
   },
   "whatsapp": {
     "tooltip": "Chat with us",
@@ -123,7 +139,7 @@
       "lead": "Financial markets move faster than ever before. TraderTok was created to give traders the clarity, infrastructure, and confidence to navigate them.",
       "stat1Title": "Multi-Asset",
       "stat1Label": "Market Access",
-      "stat2Title": "24/7",
+      "stat2Title": "24/5",
       "stat2Label": "Client Support",
       "stat3Title": "Global",
       "stat3Label": "Markets Covered"
@@ -325,6 +341,17 @@
       "successTitle": "Application Submitted!",
       "successMessage": "Our manager will contact you shortly.",
       "modal": "By submitting, you agree to our Terms of Service and Privacy Policy"
+    },
+    "menu": {
+      "home": "Hub Home",
+      "courses": "Courses",
+      "articles": "Articles",
+      "marketNews": "Market News & Insights",
+      "ebooks": "eBooks",
+      "webinars": "Webinars",
+      "glossary": "Trading Glossary",
+      "tutorials": "Platform Tutorials",
+      "resources": "Tools & Resources"
     },
     "menu": {
       "home": "Hub Home",
@@ -872,7 +899,17 @@
     "emailPlaceholder": "Enter your email",
     "phone": "Phone",
     "phonePlaceholder": "Enter your phone",
-    "getMyFreeCard": "Get My Free Card"
+    "getMyFreeCard": "Get My Free Card",
+    "choosePath": "How would you like to continue?",
+    "haveAccount": "I have an account",
+    "createAccount": "Create an account",
+    "existingHint": "We’ll check your Traders Club eligibility using your account email.",
+    "continueEligible": "Continue",
+    "requestPendingTitle": "Request pending",
+    "requestPendingBody": "Your Traders Club request is pending. We’ll notify you when it’s processed.",
+    "registrationSuccessTitle": "You’re registered",
+    "registrationSuccessBody": "Thank you. Please check your email for next steps.",
+    "genericError": "Something went wrong. Please try again."
   },
   "insights": {
     "title": "Get the latest analytics insights — straight from our team to you.",
@@ -881,7 +918,7 @@
     "freeTrainings": "Free<br>Trainings",
     "freeTrainingsDesc": "Expert-led forex training from beginner to intermediate level, completely free with live support.",
     "assetManagement": "Asset<br>Management",
-    "assetManagementDesc": "24/7 expert guidance to identify and manage the right assets for maximum profitability.",
+    "assetManagementDesc": "24/5 expert guidance to identify and manage the right assets for maximum profitability.",
     "demoAccount": "Demo<br>Account",
     "demoAccountDesc": "Practice risk-free with $10,000 virtual money on real-time market data before going live."
   },
@@ -953,7 +990,16 @@
     "phone": "Phone",
     "phonePlaceholder": "+1 (555) 000-0000",
     "submitApplication": "Submit Application",
-    "modalDisclaimer": "By submitting, you agree to our Terms of Service and Privacy Policy"
+    "modalDisclaimer": "By submitting, you agree to our Terms of Service and Privacy Policy",
+    "choosePath": "How would you like to continue?",
+    "haveAccount": "I have an account",
+    "createAccount": "Create an account",
+    "existingHint": "We’ll check your deposit eligibility using your account email.",
+    "continueEligible": "Continue",
+    "requestPendingTitle": "Request pending",
+    "requestPendingBody": "Your deposit account request is pending. We’ll notify you when it’s processed.",
+    "registrationSuccessTitle": "You’re registered",
+    "registrationSuccessBody": "Thank you. Please check your email for next steps."
   },
   "telegram": {
     "title": "Join Our <span class=\"gradient-text\">Community</span>",
@@ -1050,7 +1096,6 @@
     "downloadOurApp": "Download our app from the stores",
     "aboutUs": "About Us",
     "aboutTraderTok": "About TraderTok",
-    "reviews": "Reviews",
     "careers": "Careers",
     "ourOffices": "Our Offices",
     "accessibility": "Accessibility",
@@ -1212,7 +1257,11 @@
     "windows": "Windows",
     "mac": "Mac",
     "signIn": "Sign In",
-    "download": "Download"
+    "download": "Download",
+    "downloadForIos": "Download for iOS",
+    "downloadForAndroid": "Download for Android",
+    "downloadForWindows": "Download for Windows",
+    "downloadForMac": "Download for Mac"
   },
   "contactUsPage": {
     "pageTitle": "Contact Us - TraderTok | Get in Touch",
@@ -1250,6 +1299,7 @@
     "docOrderExecutionDesc": "The Company is committed to providing clients with optimal trading conditions.",
     "docRiskDisclosure": "Risk Disclosure",
     "docRiskDisclosureDesc": "This document informs you of the inherent risks associated with trading.",
+    "riskDisclosureHeroTitle": "RISK DISCLOSURE",
     "docGeneralRiskDisclosure": "General Risk Disclosure",
     "docGeneralRiskDisclosureDesc": "Outlines the general risks involved in trading financial instruments and informs clients about potential losses and market volatility.",
     "docClientServiceAgreement": "Client Service Agreement",
@@ -1658,6 +1708,28 @@
         ]
       },
       {
+        "label": "Regulation",
+        "intro": "Licensing and company details.",
+        "items": [
+          {
+            "question": "Is TraderTok regulated?",
+            "paragraphs": [
+              "Yes. TraderTok operates under:"
+            ],
+            "bullets": [
+              "Amber Rock Trade Ltd",
+              "Address: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
+              "Company No: 222594",
+              "<a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"license-link\">License No: GB24203892</a>",
+              "Regulator: Financial Services Commission (FSC), Mauritius"
+            ],
+            "paragraphs_after": [
+              "Clients are encouraged to verify details via the <a href=\"https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"license-link\">FSC public register</a>."
+            ]
+          }
+        ]
+      },
+      {
         "label": "Education & Platform",
         "intro": "Learning resources, demo trading, and how to access the platform.",
         "items": [
@@ -1897,28 +1969,6 @@
             "paragraphs_after": [
               "Past performance is not indicative of future results.",
               "Content shared within the platform does not constitute investment advice."
-            ]
-          }
-        ]
-      },
-      {
-        "label": "Regulation",
-        "intro": "Licensing and company details.",
-        "items": [
-          {
-            "question": "Is TraderTok regulated?",
-            "paragraphs": [
-              "Yes. TraderTok operates under:"
-            ],
-            "bullets": [
-              "Amber Rock Trade Ltd",
-              "Address: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius",
-              "Company No: 222594",
-              "License No: GB24203892",
-              "Regulator: Financial Services Commission (FSC), Mauritius"
-            ],
-            "paragraphs_after": [
-              "Clients are encouraged to verify details via the FSC register."
             ]
           }
         ]

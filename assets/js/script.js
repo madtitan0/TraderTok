@@ -1,3 +1,31 @@
+/**
+ * Existing-user qualification: direct POST to DataConect webhook URL (with ?token=) from head.php.
+ */
+function tradersClubQualificationRequest(body) {
+  const c =
+    typeof window !== "undefined" ? window.TRADERS_CLUB_QUALIFICATION : null;
+  if (!c || !c.configured || !c.postUrl) {
+    return Promise.reject(
+      new Error(
+        "Qualification is not configured. Set qualification_token or qualification_bearer_token in includes/config/traders-club.local.php (or TRADERS_CLUB_QUALIFICATION_TOKEN / TRADERS_CLUB_QUALIFICATION_BEARER).",
+      ),
+    );
+  }
+  const headers = {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  };
+  if (c.bearer) {
+    headers.Authorization = "Bearer " + c.bearer;
+  }
+  return fetch(c.postUrl, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+    mode: "cors",
+  });
+}
+
 // ================== THEME TOGGLE ==================
 const themeToggle = document.getElementById("themeToggle");
 const body = document.body;
@@ -299,7 +327,7 @@ if (canvas) {
 
     candles.forEach((candle, idx) => {
       const bull = candle.close >= candle.open;
-      const color = bull ? "#22c55e" : "#ef4444";
+      const color = bull ? "#22c55e" : "#d02c2d";
 
       const x = offsetX + idx * candleWidth;
 
@@ -482,14 +510,6 @@ if (platformsSection) {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           platformsSection.classList.add("is-visible");
-
-          // Start gradient animation for subtitle
-          const platformsSubtitle = document.querySelector(
-            ".platforms-subtitle",
-          );
-          if (platformsSubtitle) {
-            platformsSubtitle.classList.add("animate");
-          }
 
           platformsObserver.unobserve(platformsSection);
         }
@@ -727,7 +747,7 @@ if (laptopCanvas && phoneCanvas) {
 
     candles.forEach((candle, idx) => {
       const bull = candle.close >= candle.open;
-      const color = bull ? "#22c55e" : "#ef4444";
+      const color = bull ? "#22c55e" : "#d02c2d";
 
       const x = offsetX + idx * candleWidth;
 
@@ -1373,6 +1393,13 @@ languageItems.forEach((item) => {
 
 // Select language (mobile menu)
 mobileLanguageItems.forEach((item) => {
+  // If subdomain is active, don't allow changing language
+  if (window.subdomainData && window.subdomainData.lang) {
+    item.style.opacity = '0.5';
+    item.style.cursor = 'default';
+    item.style.pointerEvents = 'none';
+  }
+
   item.addEventListener("click", () => {
     if (isRegionalLanguageLocked()) {
       return;
@@ -1399,6 +1426,30 @@ document.addEventListener("click", (e) => {
       languageBtn.classList.remove("active");
     }
   }
+});
+
+// ================== EDUCATION COURSE FAQ (accordion, #course-faq) ==================
+window.addEventListener("DOMContentLoaded", () => {
+  const list = document.querySelector(
+    ".education-course-page #course-faq .faq-list",
+  );
+  if (!list) return;
+
+  list.querySelectorAll(".faq-q").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const item = btn.closest(".faq-item");
+      if (!item) return;
+      const wasActive = item.classList.contains("active");
+
+      list.querySelectorAll(".faq-item").forEach((el) => {
+        el.classList.remove("active");
+      });
+
+      if (!wasActive) {
+        item.classList.add("active");
+      }
+    });
+  });
 });
 
 // Load saved language preference on page load
@@ -1803,7 +1854,7 @@ if (signupForm) {
       // clientzoneDisabled: true,
       accounts: [
         {
-          groupName: "118000\\Defauult.USD",
+          groupName: "118000\\Default.USD",
           leverage: 100,
           isDemoAccount: false,
         },
@@ -2082,197 +2133,354 @@ if (signupForm) {
   observer.observe(counter);
 })();
 
-// ================== DEPOSIT MODAL ==================
+// ================== DEPOSIT MODAL (same flow as Traders Club; group = DepositAccount) ==================
 (function () {
+  const DEPOSIT_LEADS_URL =
+    "https://6dfed096-backend-clientzone.dataconect.com/api/v1/clientzone/leads";
+  const DEPOSIT_WALLET_URL = "https://client.tradertok.com/#/wallet";
+  const DEPOSIT_GROUP = "DepositAccount";
+
   const modal = document.getElementById("depositModal");
   const openBtn = document.getElementById("openDepositModal");
-  const closeBtn = document.getElementById("closeDepositModal");
   const overlay = modal?.querySelector(".deposit-modal-overlay");
-  const form = document.getElementById("depositForm");
-  const submitBtn = form?.querySelector(".btn-submit-deposit");
 
-  // ===== CONFIGURATION =====
-  // Telegram Bot Configuration
-  const TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN"; // Replace with your bot token
-  const TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"; // Replace with your chat ID
+  let depositContentBackup = null;
 
-  // EmailJS Configuration (https://www.emailjs.com/)
-  const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
-  const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-  const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY";
-  // =========================
+  function getDepositModalContentEl() {
+    return (
+      document.getElementById("depositModalContent") ||
+      document.querySelector("#depositModal .deposit-modal-content")
+    );
+  }
+
+  function captureBackupIfNeeded() {
+    const content = getDepositModalContentEl();
+    if (content && !depositContentBackup) {
+      depositContentBackup = content.cloneNode(true);
+    }
+  }
+
+  function restoreModalFromBackup() {
+    const content = getDepositModalContentEl();
+    if (content && depositContentBackup) {
+      content.replaceWith(depositContentBackup.cloneNode(true));
+      bindDepositModal();
+    }
+  }
 
   function openModal() {
-    if (modal) {
-      modal.classList.add("active");
-      document.body.style.overflow = "hidden";
-    }
+    if (!modal) return;
+    captureBackupIfNeeded();
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   function closeModal() {
-    if (modal) {
-      modal.classList.remove("active");
-      document.body.style.overflow = "";
+    if (!modal) return;
+    modal.classList.remove("active");
+    document.body.style.overflow = "";
+    restoreModalFromBackup();
+  }
+
+  function setFormError(msg) {
+    const el = document.getElementById("depositFormError");
+    if (!el) return;
+    if (msg) {
+      el.textContent = msg;
+      el.hidden = false;
+    } else {
+      el.textContent = "";
+      el.hidden = true;
     }
   }
 
-  // Open modal
-  if (openBtn) {
-    openBtn.addEventListener("click", openModal);
+  function parseJsonSafe(txt) {
+    try {
+      return JSON.parse(txt);
+    } catch {
+      return null;
+    }
   }
 
-  // Close modal
-  if (closeBtn) {
-    closeBtn.addEventListener("click", closeModal);
+  function normalizeAction(data) {
+    const raw = data?.action ?? data?.data?.action;
+    if (typeof raw !== "string") return "";
+    return raw.trim().toUpperCase();
   }
 
-  // Close on overlay click
-  if (overlay) {
-    overlay.addEventListener("click", closeModal);
+  function getDepositLeadsHeaders() {
+    return {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+      Referer: "https://client.tradertok.com/",
+      "x-platform-name": "ClientZone",
+    };
   }
 
-  // Close on Escape key
+  function showDepositFeedbackPending() {
+    const body = document.getElementById("depositModalBody");
+    if (!body) return;
+    body.innerHTML = `
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="deposit.requestPendingTitle">Request pending</h3>
+        <p class="modal-subtitle" data-i18n="deposit.requestPendingBody">Your deposit account request is pending.</p>
+      </div>
+      <div style="text-align: center; padding: 24px 8px 8px;">
+        <button type="button" class="btn-submit-deposit" id="depositPendingClose">OK</button>
+      </div>
+    `;
+    document.getElementById("depositPendingClose")?.addEventListener("click", closeModal);
+    if (typeof window.updatePageLanguage === "function") {
+      window.updatePageLanguage();
+    }
+  }
+
+  function showDepositFeedbackRegistrationSuccess() {
+    const body = document.getElementById("depositModalBody");
+    if (!body) return;
+    body.innerHTML = `
+      <div style="text-align: center; padding: 32px 16px 24px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 72px; height: 72px; margin-bottom: 16px;">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="16 8 10 14 8 12"></polyline>
+        </svg>
+        <h3 class="modal-title" data-i18n="deposit.registrationSuccessTitle" style="margin-bottom: 10px;">You're registered</h3>
+        <p data-i18n="deposit.registrationSuccessBody" style="color: var(--text-secondary); line-height: 1.65; margin-bottom: 20px;">Thank you.</p>
+        <button type="button" class="btn-submit-deposit" id="depositRegSuccessClose">Close</button>
+      </div>
+    `;
+    document.getElementById("depositRegSuccessClose")?.addEventListener("click", closeModal);
+    if (typeof window.updatePageLanguage === "function") {
+      window.updatePageLanguage();
+    }
+  }
+
+  async function submitExistingAccount(email) {
+    setFormError("");
+    let res;
+    try {
+      res = await tradersClubQualificationRequest({
+        existing: true,
+        group: DEPOSIT_GROUP,
+        email: email.trim(),
+      });
+    } catch (err) {
+      setFormError(
+        err?.message ||
+          "Qualification request could not be sent. Check configuration.",
+      );
+      return;
+    }
+
+    const raw = await res.text();
+    const data = raw ? parseJsonSafe(raw) : null;
+
+    if (!res.ok) {
+      const msg =
+        data?.message ||
+        data?.error ||
+        (typeof data?.errors === "string" ? data.errors : null) ||
+        `Request failed (${res.status})`;
+      setFormError(msg);
+      return;
+    }
+
+    const action = normalizeAction(data);
+    if (action === "REDIRECT") {
+      window.location.href = DEPOSIT_WALLET_URL;
+      return;
+    }
+    if (action === "PENDING") {
+      showDepositFeedbackPending();
+      return;
+    }
+    setFormError(
+      "Unexpected response from the server. Please try again later.",
+    );
+  }
+
+  async function submitNewAccount(fields) {
+    setFormError("");
+    const fullPhone =
+      (typeof selectedCountryCode !== "undefined" ? selectedCountryCode : "+44") +
+      String(fields.phone).replace(/\s+/g, "");
+
+    const payload = {
+      firstName: fields.firstname,
+      lastName: fields.lastname,
+      email: fields.email.trim(),
+      phone: fullPhone,
+      password: fields.password,
+      country:
+        typeof selectedCountryIso !== "undefined" ? selectedCountryIso : "CY",
+      language: typeof currentLanguage !== "undefined" ? currentLanguage : "en",
+      brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+      businessUnitId: "34f7b5d6-fc0f-44fc-9323-8b0fcd3b26ed",
+      adGroup: DEPOSIT_GROUP,
+      tags: [
+        {
+          id: "fb251ea1-1956-428a-b5a3-015cfb017e37",
+        },
+      ],
+      accounts: [
+        {
+          groupName: "118000\\Default.USD",
+          leverage: 100,
+          isDemoAccount: false,
+        },
+      ],
+      userDevice:
+        typeof getUserDeviceInfo === "function" ? getUserDeviceInfo() : {},
+    };
+
+    const res = await fetch(DEPOSIT_LEADS_URL, {
+      method: "POST",
+      headers: getDepositLeadsHeaders(),
+      body: JSON.stringify(payload),
+    });
+
+    const raw = await res.text();
+    const data = raw ? parseJsonSafe(raw) : null;
+
+    if (!res.ok) {
+      const msg =
+        data?.message || data?.error || `Registration failed (${res.status})`;
+      setFormError(msg);
+      return;
+    }
+
+    showDepositFeedbackRegistrationSuccess();
+  }
+
+  function updateModeUI(mode) {
+    const panelEx = document.getElementById("depositPanelExisting");
+    const panelNew = document.getElementById("depositPanelNew");
+    const submitBtn = document.getElementById("depositSubmit");
+    if (panelEx) panelEx.hidden = mode !== "existing";
+    if (panelNew) panelNew.hidden = mode !== "new";
+    if (submitBtn) {
+      if (mode === "existing") {
+        submitBtn.textContent = "Continue";
+        submitBtn.setAttribute("data-i18n", "deposit.continueEligible");
+      } else {
+        submitBtn.textContent = "Submit Application";
+        submitBtn.setAttribute("data-i18n", "deposit.submitApplication");
+      }
+      if (typeof window.updatePageLanguage === "function") {
+        window.updatePageLanguage();
+      }
+    }
+  }
+
+  function bindDepositModal() {
+    const closeBtn = document.getElementById("closeDepositModal");
+    const form = document.getElementById("depositForm");
+    const submitBtn = document.getElementById("depositSubmit");
+    const modeRadios = form?.querySelectorAll('input[name="depositMode"]');
+
+    closeBtn?.addEventListener("click", closeModal);
+
+    if (modal && !modal.dataset.depositOverlayBound) {
+      modal.dataset.depositOverlayBound = "1";
+      overlay?.addEventListener("click", closeModal);
+    }
+
+    modeRadios?.forEach((r) => {
+      r.addEventListener("change", () => {
+        const m = form.querySelector('input[name="depositMode"]:checked')?.value;
+        if (m === "existing" || m === "new") updateModeUI(m);
+        setFormError("");
+      });
+    });
+
+    const initial =
+      form?.querySelector('input[name="depositMode"]:checked')?.value;
+    updateModeUI(initial === "new" ? "new" : "existing");
+
+    form?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      setFormError("");
+      const mode = form.querySelector('input[name="depositMode"]:checked')?.value;
+
+      if (mode === "existing") {
+        const email = document.getElementById("depositEmailExisting")?.value?.trim();
+        if (!email) {
+          setFormError("Please enter your email.");
+          return;
+        }
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Please wait…";
+        }
+        try {
+          await submitExistingAccount(email);
+        } catch (err) {
+          console.error(err);
+          setFormError(
+            err?.message ||
+              "Network error. Check your connection and try again.",
+          );
+        } finally {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+          }
+          const m = form.querySelector('input[name="depositMode"]:checked')?.value;
+          updateModeUI(m === "new" ? "new" : "existing");
+        }
+        return;
+      }
+
+      const firstname = document.getElementById("depositFirstname")?.value?.trim();
+      const lastname = document.getElementById("depositLastname")?.value?.trim();
+      const email = document.getElementById("depositEmailNew")?.value?.trim();
+      const phone = document.getElementById("depositPhone")?.value?.trim();
+      const password = document.getElementById("depositPassword")?.value;
+
+      if (!firstname || !lastname || !email || !phone || !password) {
+        setFormError("Please fill in all fields.");
+        return;
+      }
+      if (password.length < 8) {
+        setFormError("Password must be at least 8 characters.");
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Registering…";
+      }
+      try {
+        await submitNewAccount({
+          firstname,
+          lastname,
+          email,
+          phone,
+          password,
+        });
+      } catch (err) {
+        console.error(err);
+        setFormError(
+          err?.message ||
+            "Network error. Check your connection and try again.",
+        );
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+        }
+        updateModeUI("new");
+      }
+    });
+  }
+
+  openBtn?.addEventListener("click", openModal);
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal?.classList.contains("active")) {
       closeModal();
     }
   });
 
-  // Send to Telegram
-  async function sendToTelegram(data) {
-    const message = `
-🔔 *New Deposit Application*
-
-👤 *Name:* ${data.name}
-📧 *Email:* ${data.email}
-📱 *Phone:* ${data.phone}
-
-📅 *Date:* ${new Date().toLocaleString()}
-🌐 *Source:* TraderTok Website
-        `.trim();
-
-    try {
-      const response = await fetch(
-        `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: message,
-            parse_mode: "Markdown",
-          }),
-        },
-      );
-
-      return response.ok;
-    } catch (error) {
-      console.error("Telegram error:", error);
-      return false;
-    }
-  }
-
-  // Send via EmailJS
-  async function sendEmail(data) {
-    // Check if EmailJS is loaded
-    if (typeof emailjs === "undefined") {
-      console.warn("EmailJS not loaded");
-      return false;
-    }
-
-    try {
-      await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-        from_name: data.name,
-        from_email: data.email,
-        phone: data.phone,
-        message: `New deposit application from ${data.name}`,
-        date: new Date().toLocaleString(),
-      });
-      return true;
-    } catch (error) {
-      console.error("EmailJS error:", error);
-      return false;
-    }
-  }
-
-  // Form submission
-  if (form) {
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      const formData = {
-        name: document.getElementById("depositName").value.trim(),
-        email: document.getElementById("depositEmail").value.trim(),
-        phone: document.getElementById("depositPhone").value.trim(),
-      };
-
-      // Validate
-      if (!formData.name || !formData.email || !formData.phone) {
-        alert("Please fill in all fields");
-        return;
-      }
-
-      // Show loading state
-      if (submitBtn) {
-        submitBtn.classList.add("loading");
-        submitBtn.disabled = true;
-      }
-
-      try {
-        // Send to both Telegram and Email
-        const [telegramResult, emailResult] = await Promise.allSettled([
-          sendToTelegram(formData),
-          sendEmail(formData),
-        ]);
-
-        // Check if at least one succeeded
-        const telegramSuccess =
-          telegramResult.status === "fulfilled" && telegramResult.value;
-        const emailSuccess =
-          emailResult.status === "fulfilled" && emailResult.value;
-
-        if (telegramSuccess || emailSuccess) {
-          // Success
-          showSuccessMessage();
-          form.reset();
-          setTimeout(closeModal, 2000);
-        } else {
-          // Both failed - still show success to user (for demo purposes)
-          // In production, you might want to handle this differently
-          console.log("Form data:", formData);
-          showSuccessMessage();
-          form.reset();
-          setTimeout(closeModal, 2000);
-        }
-      } catch (error) {
-        console.error("Submission error:", error);
-        alert("Something went wrong. Please try again.");
-      } finally {
-        if (submitBtn) {
-          submitBtn.classList.remove("loading");
-          submitBtn.disabled = false;
-        }
-      }
-    });
-  }
-
-  function showSuccessMessage() {
-    const modalContent = modal?.querySelector(".deposit-modal-content");
-    if (modalContent) {
-      modalContent.innerHTML = `
-                <div style="text-align: center; padding: 40px 20px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="16 8 10 14 8 12"></polyline>
-                    </svg>
-                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Submitted!</h3>
-                    <p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>
-                </div>
-            `;
-    }
-  }
+  bindDepositModal();
 })();
 
 // ================== TRUSTPILOT REVIEWS SLIDER ==================
@@ -2385,178 +2593,535 @@ if (signupForm) {
   init();
 })();
 
+// ================== CLIENT TESTIMONIALS SLIDER (home) ==================
+(function () {
+  const track = document.getElementById("clientTestimonialsTrack");
+  const prevBtn = document.getElementById("clientTestimonialsPrev");
+  const nextBtn = document.getElementById("clientTestimonialsNext");
+  const dotsContainer = document.getElementById("clientTestimonialsDots");
+
+  if (!track || !prevBtn || !nextBtn || !dotsContainer) return;
+
+  const cards = track.querySelectorAll(".client-testimonials-card");
+  const totalCards = cards.length;
+  if (totalCards === 0) return;
+
+  let currentIndex = 0;
+  let autoPlayInterval;
+
+  function updateCards() {
+    const prevIndex = (currentIndex - 1 + totalCards) % totalCards;
+    const nextIndex = (currentIndex + 1) % totalCards;
+
+    cards.forEach((card, index) => {
+      card.classList.remove("active", "prev", "next");
+
+      if (index === currentIndex) {
+        card.classList.add("active");
+      } else if (index === prevIndex) {
+        card.classList.add("prev");
+      } else if (index === nextIndex) {
+        card.classList.add("next");
+      }
+    });
+
+    const dots = dotsContainer.querySelectorAll(".client-testimonials-dot");
+    dots.forEach((dot, index) => {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  function createDots() {
+    dotsContainer.innerHTML = "";
+    for (let i = 0; i < totalCards; i++) {
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.classList.add("client-testimonials-dot");
+      if (i === 0) dot.classList.add("active");
+      dot.setAttribute("aria-label", "Go to testimonial " + (i + 1));
+      dot.addEventListener("click", () => {
+        currentIndex = i;
+        updateCards();
+        startAutoPlay();
+      });
+      dotsContainer.appendChild(dot);
+    }
+  }
+
+  function goToSlide(index) {
+    currentIndex = index;
+    if (currentIndex < 0) currentIndex = totalCards - 1;
+    if (currentIndex >= totalCards) currentIndex = 0;
+    updateCards();
+  }
+
+  function nextSlide() {
+    goToSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    goToSlide(currentIndex - 1);
+  }
+
+  function startAutoPlay() {
+    stopAutoPlay();
+    autoPlayInterval = setInterval(nextSlide, 6000);
+  }
+
+  function stopAutoPlay() {
+    if (autoPlayInterval) {
+      clearInterval(autoPlayInterval);
+      autoPlayInterval = null;
+    }
+  }
+
+  function handleNavClick(e, slideFn) {
+    e.preventDefault();
+    e.stopPropagation();
+    slideFn();
+    startAutoPlay();
+  }
+
+  prevBtn.addEventListener(
+    "click",
+    (e) => handleNavClick(e, prevSlide),
+    true,
+  );
+  nextBtn.addEventListener(
+    "click",
+    (e) => handleNavClick(e, nextSlide),
+    true,
+  );
+
+  const sliderRoot = track.closest(".client-testimonials-slider");
+  const hoverTarget = sliderRoot || track;
+  hoverTarget.addEventListener("mouseenter", stopAutoPlay);
+  hoverTarget.addEventListener("mouseleave", startAutoPlay);
+
+  createDots();
+  updateCards();
+  startAutoPlay();
+})();
+
 // ================== TRADERS CLUB MODAL ==================
 (function () {
+  const TRADERS_CLUB_LEADS_URL =
+    "https://6dfed096-backend-clientzone.dataconect.com/api/v1/clientzone/leads";
+  const TRADERS_CLUB_WALLET_URL = "https://client.tradertok.com/#/wallet";
+  const TRADERS_CLUB_GROUP = "TradersClub";
+
   const modal = document.getElementById("tradersClubModal");
   const openBtn = document.getElementById("openTradersClubModal");
-  const closeBtn = document.getElementById("closeTradersClubModal");
   const overlay = modal?.querySelector(".traders-club-modal-overlay");
-  const form = document.getElementById("tradersClubForm");
-  const submitBtn = form?.querySelector(".btn-submit-club");
 
-  // ===== CONFIGURATION =====
-  // Telegram Bot Configuration
-  const TELEGRAM_BOT_TOKEN = "YOUR_BOT_TOKEN"; // Replace with your bot token
-  const TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"; // Replace with your chat ID
-  // =========================
+  let tradersClubContentBackup = null;
+
+  function getModalContentEl() {
+    return (
+      document.getElementById("tradersClubModalContent") ||
+      document.querySelector("#tradersClubModal .traders-club-modal-content")
+    );
+  }
+
+  function captureBackupIfNeeded() {
+    const content = getModalContentEl();
+    if (content && !tradersClubContentBackup) {
+      tradersClubContentBackup = content.cloneNode(true);
+    }
+  }
+
+  function restoreModalFromBackup() {
+    const content = getModalContentEl();
+    if (content && tradersClubContentBackup) {
+      content.replaceWith(tradersClubContentBackup.cloneNode(true));
+      bindTradersClubModal();
+    }
+  }
 
   function openModal() {
-    if (modal) {
-      modal.classList.add("active");
-      document.body.style.overflow = "hidden";
-    }
+    if (!modal) return;
+    captureBackupIfNeeded();
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden";
   }
 
   function closeModal() {
-    if (modal) {
-      modal.classList.remove("active");
-      document.body.style.overflow = "";
+    if (!modal) return;
+    modal.classList.remove("active");
+    document.body.style.overflow = "";
+    restoreModalFromBackup();
+  }
+
+  function setFormError(msg) {
+    const el = document.getElementById("tradersClubFormError");
+    if (!el) return;
+    if (msg) {
+      el.textContent = msg;
+      el.hidden = false;
+    } else {
+      el.textContent = "";
+      el.hidden = true;
     }
   }
 
-  // Event listeners
-  openBtn?.addEventListener("click", openModal);
-  closeBtn?.addEventListener("click", closeModal);
-  overlay?.addEventListener("click", closeModal);
+  function parseJsonSafe(txt) {
+    try {
+      return JSON.parse(txt);
+    } catch {
+      return null;
+    }
+  }
 
-  // Close on Escape key
+  function normalizeAction(data) {
+    const raw = data?.action ?? data?.data?.action;
+    if (typeof raw !== "string") return "";
+    return raw.trim().toUpperCase();
+  }
+
+  function getLeadsHeaders() {
+    return {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+      Referer: "https://client.tradertok.com/",
+      "x-platform-name": "ClientZone",
+    };
+  }
+
+  function showTradersClubFeedbackPending() {
+    const body = document.getElementById("tradersClubModalBody");
+    if (!body) return;
+    body.innerHTML = `
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="tradersClub.requestPendingTitle">Request pending</h3>
+        <p class="modal-subtitle" data-i18n="tradersClub.requestPendingBody">Your Traders Club request is pending.</p>
+      </div>
+      <div style="text-align: center; padding: 24px 8px 8px;">
+        <button type="button" class="btn-submit-club" id="tradersClubPendingClose">OK</button>
+      </div>
+    `;
+    document.getElementById("tradersClubPendingClose")?.addEventListener("click", closeModal);
+    if (typeof window.updatePageLanguage === "function") {
+      window.updatePageLanguage();
+    }
+  }
+
+  function showTradersClubFeedbackRegistrationSuccess() {
+    const body = document.getElementById("tradersClubModalBody");
+    if (!body) return;
+    body.innerHTML = `
+      <div style="text-align: center; padding: 32px 16px 24px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 72px; height: 72px; margin-bottom: 16px;">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="16 8 10 14 8 12"></polyline>
+        </svg>
+        <h3 class="modal-title" data-i18n="tradersClub.registrationSuccessTitle" style="margin-bottom: 10px;">You're registered</h3>
+        <p data-i18n="tradersClub.registrationSuccessBody" style="color: var(--text-secondary); line-height: 1.65; margin-bottom: 20px;">Thank you.</p>
+        <button type="button" class="btn-submit-club" id="tradersClubRegSuccessClose">Close</button>
+      </div>
+    `;
+    document.getElementById("tradersClubRegSuccessClose")?.addEventListener("click", closeModal);
+    if (typeof window.updatePageLanguage === "function") {
+      window.updatePageLanguage();
+    }
+  }
+
+  async function submitExistingAccount(email) {
+    setFormError("");
+    let res;
+    try {
+      res = await tradersClubQualificationRequest({
+        existing: true,
+        group: TRADERS_CLUB_GROUP,
+        email: email.trim(),
+      });
+    } catch (err) {
+      setFormError(
+        err?.message ||
+          "Qualification request could not be sent. Check configuration.",
+      );
+      return;
+    }
+
+    const raw = await res.text();
+    const data = raw ? parseJsonSafe(raw) : null;
+
+    if (!res.ok) {
+      const msg =
+        data?.message ||
+        data?.error ||
+        (typeof data?.errors === "string" ? data.errors : null) ||
+        `Request failed (${res.status})`;
+      setFormError(msg);
+      return;
+    }
+
+    const action = normalizeAction(data);
+    if (action === "REDIRECT") {
+      window.location.href = TRADERS_CLUB_WALLET_URL;
+      return;
+    }
+    if (action === "PENDING") {
+      showTradersClubFeedbackPending();
+      return;
+    }
+    setFormError(
+      "Unexpected response from the server. Please try again later.",
+    );
+  }
+
+  async function submitNewAccount(fields) {
+    setFormError("");
+    const fullPhone =
+      (typeof selectedCountryCode !== "undefined" ? selectedCountryCode : "+44") +
+      String(fields.phone).replace(/\s+/g, "");
+
+    const payload = {
+      firstName: fields.firstname,
+      lastName: fields.lastname,
+      email: fields.email.trim(),
+      phone: fullPhone,
+      password: fields.password,
+      country:
+        typeof selectedCountryIso !== "undefined" ? selectedCountryIso : "CY",
+      language: typeof currentLanguage !== "undefined" ? currentLanguage : "en",
+      brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+      businessUnitId: "34f7b5d6-fc0f-44fc-9323-8b0fcd3b26ed",
+      adGroup: TRADERS_CLUB_GROUP,
+      tags: [
+        {
+          id: "fb251ea1-1956-428a-b5a3-015cfb017e37",
+        },
+      ],
+      accounts: [
+        {
+          groupName: "118000\\Default.USD",
+          leverage: 100,
+          isDemoAccount: false,
+        },
+      ],
+      userDevice:
+        typeof getUserDeviceInfo === "function" ? getUserDeviceInfo() : {},
+    };
+
+    const res = await fetch(TRADERS_CLUB_LEADS_URL, {
+      method: "POST",
+      headers: getLeadsHeaders(),
+      body: JSON.stringify(payload),
+    });
+
+    const raw = await res.text();
+    const data = raw ? parseJsonSafe(raw) : null;
+
+    if (!res.ok) {
+      const msg =
+        data?.message || data?.error || `Registration failed (${res.status})`;
+      setFormError(msg);
+      return;
+    }
+
+    showTradersClubFeedbackRegistrationSuccess();
+  }
+
+  function updateModeUI(mode) {
+    const panelEx = document.getElementById("tradersClubPanelExisting");
+    const panelNew = document.getElementById("tradersClubPanelNew");
+    const submitBtn = document.getElementById("tradersClubSubmit");
+    if (panelEx) panelEx.hidden = mode !== "existing";
+    if (panelNew) panelNew.hidden = mode !== "new";
+    if (submitBtn) {
+      if (mode === "existing") {
+        submitBtn.textContent = "Continue";
+        submitBtn.setAttribute("data-i18n", "tradersClub.continueEligible");
+      } else {
+        submitBtn.textContent = "Get My Free Card";
+        submitBtn.setAttribute("data-i18n", "tradersClub.getMyFreeCard");
+      }
+      if (typeof window.updatePageLanguage === "function") {
+        window.updatePageLanguage();
+      }
+    }
+  }
+
+  function bindTradersClubModal() {
+    const closeBtn = document.getElementById("closeTradersClubModal");
+    const form = document.getElementById("tradersClubForm");
+    const submitBtn = document.getElementById("tradersClubSubmit");
+    const modeRadios = form?.querySelectorAll('input[name="tradersClubMode"]');
+
+    closeBtn?.addEventListener("click", closeModal);
+
+    if (modal && !modal.dataset.tradersClubOverlayBound) {
+      modal.dataset.tradersClubOverlayBound = "1";
+      overlay?.addEventListener("click", closeModal);
+    }
+
+    modeRadios?.forEach((r) => {
+      r.addEventListener("change", () => {
+        const m = form.querySelector('input[name="tradersClubMode"]:checked')
+          ?.value;
+        if (m === "existing" || m === "new") updateModeUI(m);
+        setFormError("");
+      });
+    });
+
+    const initial =
+      form?.querySelector('input[name="tradersClubMode"]:checked')?.value;
+    updateModeUI(initial === "new" ? "new" : "existing");
+
+    form?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      setFormError("");
+      const mode = form.querySelector('input[name="tradersClubMode"]:checked')
+        ?.value;
+
+      if (mode === "existing") {
+        const email = document.getElementById("clubEmailExisting")?.value?.trim();
+        if (!email) {
+          setFormError("Please enter your email.");
+          return;
+        }
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Please wait…";
+        }
+        try {
+          await submitExistingAccount(email);
+        } catch (err) {
+          console.error(err);
+          setFormError(
+            err?.message ||
+              "Network error. Check your connection and try again.",
+          );
+        } finally {
+          if (submitBtn) {
+            submitBtn.disabled = false;
+          }
+          const m = form.querySelector('input[name="tradersClubMode"]:checked')
+            ?.value;
+          updateModeUI(m === "new" ? "new" : "existing");
+        }
+        return;
+      }
+
+      const firstname = document.getElementById("clubFirstname")?.value?.trim();
+      const lastname = document.getElementById("clubLastname")?.value?.trim();
+      const email = document.getElementById("clubEmailNew")?.value?.trim();
+      const phone = document.getElementById("clubPhone")?.value?.trim();
+      const password = document.getElementById("clubPassword")?.value;
+
+      if (!firstname || !lastname || !email || !phone || !password) {
+        setFormError("Please fill in all fields.");
+        return;
+      }
+      if (password.length < 8) {
+        setFormError("Password must be at least 8 characters.");
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Registering…";
+      }
+      try {
+        await submitNewAccount({
+          firstname,
+          lastname,
+          email,
+          phone,
+          password,
+        });
+      } catch (err) {
+        console.error(err);
+        setFormError(
+          err?.message ||
+            "Network error. Check your connection and try again.",
+        );
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+        }
+        updateModeUI("new");
+      }
+    });
+  }
+
+  openBtn?.addEventListener("click", openModal);
+
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal?.classList.contains("active")) {
       closeModal();
     }
   });
 
-  // Form submission
-  form?.addEventListener("submit", async (e) => {
+  bindTradersClubModal();
+})();
+
+// ================== EDUCATION HUB NEWSLETTER (footer) ==================
+(function () {
+  const form = document.getElementById("educationNewsletterForm");
+  const statusEl = document.getElementById("newsletterFormStatus");
+  const submitBtn = document.getElementById("educationNewsletterSubmit");
+  if (!form || !submitBtn) return;
+
+  function setStatus(msg, type) {
+    if (!statusEl) return;
+    statusEl.textContent = msg || "";
+    statusEl.classList.remove("is-error", "is-success");
+    if (type === "error") statusEl.classList.add("is-error");
+    if (type === "success") statusEl.classList.add("is-success");
+  }
+
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
+    const emailInput = document.getElementById("newsletter-email");
+    const nameInput = document.getElementById("newsletter-name");
+    const consent = document.getElementById("newsletter-consent");
+    const hp = form.querySelector('input[name="website"]');
 
-    const formData = new FormData(form);
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const phone = formData.get("phone");
-
-    if (submitBtn) {
-      submitBtn.disabled = true;
-      submitBtn.textContent = "Sending...";
+    if (hp && hp.value) {
+      setStatus("", null);
+      return;
     }
+
+    const email = emailInput?.value?.trim() || "";
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email || !re.test(email)) {
+      setStatus("Please enter a valid email address.", "error");
+      return;
+    }
+    if (!consent?.checked) {
+      setStatus("Please accept the consent to subscribe.", "error");
+      return;
+    }
+
+    submitBtn.disabled = true;
+    const prevLabel = submitBtn.textContent;
+    submitBtn.textContent = "Subscribing…";
+    setStatus("", null);
 
     try {
-      // Send to Telegram
-      const message =
-        `🎴 *New Traders Club Application*\n\n` +
-        `👤 *Name:* ${name}\n` +
-        `📧 *Email:* ${email}\n` +
-        `📱 *Phone:* ${phone}\n` +
-        `🎁 *Request:* Free Virtual Card\n` +
-        `⏰ *Time:* ${new Date().toLocaleString()}`;
-
-      await fetch(
-        `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: message,
-            parse_mode: "Markdown",
-          }),
-        },
-      );
-
-      // Show success
-      showSuccessMessage();
-
-      // Close modal after delay
-      setTimeout(() => {
-        closeModal();
-        form.reset();
-        // Reset modal content
-        setTimeout(() => {
-          resetModalContent();
-        }, 300);
-      }, 2500);
-    } catch (error) {
-      console.error("Error:", error);
-      alert("Something went wrong. Please try again.");
-    } finally {
-      if (submitBtn) {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = `Get My Free Card <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>`;
+      const res = await fetch(form.getAttribute("action") || "./api/education-newsletter.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          email,
+          name: (nameInput?.value || "").trim(),
+          consent: true,
+          website: "",
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.ok) {
+        setStatus(data.message || "Something went wrong. Please try again.", "error");
+        return;
       }
+      setStatus(data.message || "Thanks — you are subscribed.", "success");
+      form.reset();
+    } catch {
+      setStatus("Network error. Please try again.", "error");
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = prevLabel;
     }
   });
-
-  // function showSuccessMessage() {
-  //   const modalContent = modal?.querySelector(".traders-club-modal-content");
-  //   if (modalContent) {
-  //     modalContent.innerHTML = `
-  //               <div style="text-align: center; padding: 40px 20px;">
-  //                   <svg viewBox="0 0 24 24" fill="none" stroke="#00B67A" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
-  //                       <circle cx="12" cy="12" r="10"></circle>
-  //                       <polyline points="16 8 10 14 8 12"></polyline>
-  //                   </svg>
-  //                   <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Received!</h3>
-  //                   <p style="color: var(--text-secondary);">We'll send your free virtual card details shortly.</p>
-  //               </div>
-  //           `;
-  //   }
-  // }
-
-    function showSuccessMessage() {
-    const modalContent = modal?.querySelector(".traders-club-modal-content");
-    if (modalContent) {
-      modalContent.innerHTML = `
-                <div style="text-align: center; padding: 40px 20px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="16 8 10 14 8 12"></polyline>
-                    </svg>
-                    <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Submitted!</h3>
-                    <p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>
-                </div>
-            `;
-    }
-  }
-
-  function resetModalContent() {
-    const modalContent = modal?.querySelector(".traders-club-modal-content");
-    if (modalContent) {
-      modalContent.innerHTML = `
-                <button class="modal-close" id="closeTradersClubModal">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                </button>
-                <div class="modal-header">
-                    <h3 class="modal-title">Join Traders Club</h3>
-                    <p class="modal-subtitle">Get your free virtual card today</p>
-                </div>
-                <form class="traders-club-form" id="tradersClubForm">
-                    <div class="form-group">
-                        <label for="clubName">Name</label>
-                        <input type="text" id="clubName" name="name" placeholder="Enter your name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="clubEmail">Email</label>
-                        <input type="email" id="clubEmail" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="clubPhone">Phone</label>
-                        <input type="tel" id="clubPhone" name="phone" placeholder="Enter your phone" required>
-                    </div>
-                    <button type="submit" class="btn-submit-club">
-                        Get My Free Card
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                            <polyline points="12 5 19 12 12 19"></polyline>
-                        </svg>
-                    </button>
-                </form>
-            `;
-      // Rebind close button
-      const newCloseBtn = modalContent.querySelector("#closeTradersClubModal");
-      newCloseBtn?.addEventListener("click", closeModal);
-    }
-  }
 })();

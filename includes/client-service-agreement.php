@@ -10,8 +10,8 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="doc-page-hero-title">
-        <span data-i18n="clientServiceAgreementPage.h1">CLIENT SERVICE AGREEMENT</span>
+      <div class="doc-page-hero-title" style='color: var(--brand-color-start)'>
+        <span data-i18n="privacyPolicyPage.heroTitle">CLIENT SERVICE AGREEMENT</span>
       </div>
       <h1 class="doc-sub">
         <span data-i18n="clientServiceAgreementPage.h2">INTRODUCTION</span>

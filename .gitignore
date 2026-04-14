@@ -49,3 +49,9 @@ Thumbs.db
 
 cache_*.json
 *.zip
+
+# Traders Club API secrets (copy from includes/config/traders-club.local.php.example)
+includes/config/traders-club.local.php
+
+# Education Hub newsletter lead file (created by api/education-newsletter.php)
+data/newsletter-leads.jsonl

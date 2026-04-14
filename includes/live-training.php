@@ -12,7 +12,9 @@
 .training-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0 40px;
+  column-gap: 40px;
+  row-gap: 48px;
+  align-items: start;
 }
 
 .training-left {
@@ -24,7 +26,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: -40px;
 }
 
 .training-image {
@@ -46,20 +47,13 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 24px;
-  color: var(--text-primary);
-}
-
-.gradient-text {
-  background: var(--brand-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--brand-color-start);
 }
 
 .hero-description {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 16px;
 }
 
@@ -91,9 +85,9 @@
   margin-top: 4px;
 }
 
-/* Upcoming Sessions Section */
+/* Upcoming Sessions — full width below hero row so both cards align */
 .upcoming-section {
-  margin-top: 165px;
+  grid-column: 1 / -1;
 }
 
 .upcoming-section .section-title {
@@ -104,8 +98,14 @@
   margin-bottom: 24px;
 }
 
-/* Right column webinar card directly touches image */
-.training-right .webinar-card {
+.webinar-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+  align-items: stretch;
+}
+
+.webinar-cards-grid .webinar-card {
   width: 100%;
 }
 
@@ -216,7 +216,7 @@
   padding: 10px 20px;
   background: var(--brand-gradient);
   border: none;
-  border-radius: 8px;
+  border-radius: var(--btn-pill-radius, 9999px);
   color: white;
   font-weight: 600;
   font-size: 0.8rem;
@@ -232,7 +232,8 @@
 @media (max-width: 900px) {
   .training-layout {
     grid-template-columns: 1fr;
-    gap: 30px;
+    row-gap: 30px;
+    column-gap: 0;
   }
 
   .training-left {
@@ -245,8 +246,9 @@
     margin-top: 0;
   }
 
-  .upcoming-section {
-    margin-top: 40px;
+  .webinar-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .training-image {
@@ -276,6 +278,10 @@
     padding: 18px;
   }
 }
+
+body.light-theme .training-page .hero-description {
+  color: var(--text-secondary);
+}
     </style>
 
     <!-- Main Content -->
@@ -283,14 +289,15 @@
       <section class="training-main">
         <div class="container">
           <div class="training-layout">
-            <!-- Left Column - Text, Stats & First Event -->
+            <!-- Left Column - Text & Stats -->
             <div class="training-left">
               <h1 class="hero-title"><span data-i18n="liveTrainingPage.heroTitle">Learn Trading</span> <span
-                  class="gradient-text" data-i18n="liveTrainingPage.heroTitleHighlight">Live</span></h1>
+                  class="" data-i18n="liveTrainingPage.heroTitleHighlight">Live</span></h1>
               <p class="hero-description" data-i18n="liveTrainingPage.heroDescription">
                 Join our expert-led live trading sessions and webinars. Get real-time market analysis, learn proven
                 strategies, and interact directly with professional traders.
               </p>
+              <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
 
               <div class="stats-bar">
                 <div class="stat-item">
@@ -310,13 +317,24 @@
                   <div class="stat-label" data-i18n="liveTrainingPage.hoursTraining">Hours of Training</div>
                 </div>
               </div>
+            </div>
 
-              <!-- Upcoming Sessions Header & First Event -->
-              <div class="upcoming-section">
-                <h2 class="section-title" data-i18n="liveTrainingPage.upcomingSessions">Upcoming Sessions</h2>
-                <p class="section-description" data-i18n="liveTrainingPage.upcomingSessionsDesc">Reserve your spot in
-                  our next live trading sessions. Limited seats available.</p>
+            <!-- Right Column - Hero Image -->
+            <div class="training-right">
+              <div class="training-image">
+                <img
+                  src="assets/images/lovely-lady-with-curly-hair-email-with-her-friend-using-silver-laptop-being-isolated-grey-wall.png"
+                  alt="Live Training">
+              </div>
+            </div>
 
+            <!-- Upcoming Sessions: shared heading + two cards on one row (tops align) -->
+            <div class="upcoming-section">
+              <h2 class="section-title" data-i18n="liveTrainingPage.upcomingSessions">Upcoming Sessions</h2>
+              <p class="section-description" data-i18n="liveTrainingPage.upcomingSessionsDesc">Reserve your spot in
+                our next live trading sessions. Limited seats available.</p>
+
+              <div class="webinar-cards-grid">
                 <div class="webinar-card">
                   <p class="countdown-text"><strong id="countdown-days">83</strong> <span
                       data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
@@ -338,37 +356,28 @@
                     training. Join our exclusive webinars to learn more on a weekly basis.</p>
                   <button class="btn-register" data-i18n="liveTrainingPage.registerNow">Register Now</button>
                 </div>
-              </div>
-            </div>
 
-            <!-- Right Column - Image & Second Event -->
-            <div class="training-right" style="margin-top:10px">
-              <div class="training-image">
-                <img
-                  src="assets/images/lovely-lady-with-curly-hair-email-with-her-friend-using-silver-laptop-being-isolated-grey-wall.png"
-                  alt="Live Training">
-              </div>
-
-              <div class="webinar-card">
-                <p class="countdown-text"><strong id="countdown-days-2">0</strong> <span
-                    data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
-                <div class="webinar-date">
-                  <div class="webinar-day">
-                    <span class="webinar-day-num">20</span>
-                    <span class="webinar-day-name" data-i18n="liveTrainingPage.event2.monthShort">Feb</span>
+                <div class="webinar-card">
+                  <p class="countdown-text"><strong id="countdown-days-2">0</strong> <span
+                      data-i18n="liveTrainingPage.daysLeft">days left until the event</span></p>
+                  <div class="webinar-date">
+                    <div class="webinar-day">
+                      <span class="webinar-day-num">20</span>
+                      <span class="webinar-day-name" data-i18n="liveTrainingPage.event2.monthShort">Feb</span>
+                    </div>
+                    <div class="webinar-datetime">
+                      <div class="webinar-month" data-i18n="liveTrainingPage.event2.fullDate">Friday, 20th of February
+                        2026</div>
+                      <div class="webinar-time" data-i18n="liveTrainingPage.event2.time">14:00 GMT+1</div>
+                    </div>
                   </div>
-                  <div class="webinar-datetime">
-                    <div class="webinar-month" data-i18n="liveTrainingPage.event2.fullDate">Friday, 20th of February
-                      2026</div>
-                    <div class="webinar-time" data-i18n="liveTrainingPage.event2.time">14:00 GMT+1</div>
-                  </div>
+                  <h3 class="webinar-title" data-i18n="liveTrainingPage.event2.title">Forex Fundamentals - Mastering
+                    Currency Trading</h3>
+                  <p class="webinar-description" data-i18n="liveTrainingPage.event2.description">Discover the essential
+                    strategies for successful forex trading. Our expert analysts will guide you through market analysis,
+                    risk management, and profitable trading techniques.</p>
+                  <button class="btn-register" data-i18n="liveTrainingPage.registerNow">Register Now</button>
                 </div>
-                <h3 class="webinar-title" data-i18n="liveTrainingPage.event2.title">Forex Fundamentals - Mastering
-                  Currency Trading</h3>
-                <p class="webinar-description" data-i18n="liveTrainingPage.event2.description">Discover the essential
-                  strategies for successful forex trading. Our expert analysts will guide you through market analysis,
-                  risk management, and profitable trading techniques.</p>
-                <button class="btn-register" data-i18n="liveTrainingPage.registerNow">Register Now</button>
               </div>
             </div>
           </div>

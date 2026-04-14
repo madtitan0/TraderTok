@@ -1,12 +1,13 @@
     <style>
 /* Account Types Page - Clean Cards Design */
 .account-types-page {
-  padding-top: 100px;
+  padding-top: 150px;
   min-height: 60vh;
 }
 
 .account-types-hero {
   padding: 0;
+  text-align: center;
 }
 
 .account-types-hero .container {
@@ -16,8 +17,15 @@
   align-items: center;
 }
 
+/* Full-width centered hero when image column is absent */
+.account-types-hero .container > .account-types-text:only-child {
+  grid-column: 1 / -1;
+  max-width: 720px;
+  justify-self: center;
+}
+
 .account-types-text {
-  text-align: left;
+  text-align: center;
 }
 
 .account-types-image {
@@ -37,19 +45,19 @@
 }
 
 .account-types-title {
-  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: var(--text-primary);
-  text-align: left;
+  color: var(--brand-color-end);
+  text-align: center;
   letter-spacing: -0.02em;
 }
 
 .account-types-title .gradient-text {
   background: linear-gradient(90deg,
-      #E63946 0%,
-      #FF6B35 25%,
+      #d02c2d 0%,
+      #d02c2d 25%,
       #ffffff 50%,
       #ffffff 100%);
   background-size: 250% 100%;
@@ -80,9 +88,10 @@
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text-secondary);
-  text-align: left;
+  text-align: center;
   max-width: 520px;
-  margin: 0;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /* Cards Grid */
@@ -357,14 +366,14 @@
         <div class="container">
           <div class="account-types-text">
             <h1 class="account-types-title"><span data-i18n="accountTypesPage.heroTitle">Choose Your</span> <span
-                class="gradient-text" data-i18n="accountTypesPage.heroTitleHighlight">Account Type</span></h1>
+                class="" data-i18n="accountTypesPage.heroTitleHighlight">Account Type</span></h1>
             <p class="account-types-subtitle" data-i18n="accountTypesPage.heroSubtitle">No matter your trading goals,
               TraderTok offers an account tailored to suit them perfectly. Explore and compare our five account options
               to find the one that best aligns with your needs.</p>
           </div>
-          <div class="account-types-image">
+          <!-- <div class="account-types-image">
             <img src="assets/images/portrait-young-woman-standing-against-blue-background.png" alt="TraderTok Trader">
-          </div>
+          </div> -->
         </div>
       </section>
 

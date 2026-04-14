@@ -6,7 +6,7 @@
                 <div class="offers-hero-content">
                     <h1 class="offers-title">
                         <span data-i18n="offersPage.heroTitle">Exclusive</span>
-                        <span class="gradient-text" data-i18n="offersPage.heroTitleHighlight">Offers & Promotions</span>
+                        <span class="" data-i18n="offersPage.heroTitleHighlight">Offers & Promotions</span>
                     </h1>
                     <p class="offers-subtitle" data-i18n="offersPage.heroSubtitle">Discover region-specific promotions and exclusive trading opportunities tailored for traders in your area.</p>
                 </div>

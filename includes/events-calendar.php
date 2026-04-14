@@ -16,33 +16,38 @@
 }
 
 .markets-header h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
   font-weight: 800;
   margin-bottom: 10px;
-  color: var(--text-primary);
+  color: var(--brand-color-start);
+}
+
+.markets-header h1 .gradient-text {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 
 .markets-header p {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   max-width: 600px;
   margin: 0 auto;
 }
 
 /* Light Theme Styles */
-body.light-theme .markets-header .gradient-text {
-  background: linear-gradient(90deg,
-      #E63946 0%,
-      #FF6B35 25%,
-      #1a1a1a 50%,
-      #1a1a1a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+body.light-theme .markets-header h1 .gradient-text {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  color: var(--text-primary) !important;
+  -webkit-text-fill-color: var(--text-primary) !important;
 }
 
 body.light-theme .markets-header p {
-  color: #555;
+  color: var(--text-secondary);
 }
 
 .calendar-container {
@@ -87,7 +92,7 @@ body.light-theme .markets-header p {
 <section class="events-calendar-page">
   <!-- Page Header -->
   <div class="markets-header">
-    <h1><span data-i18n="eventsCalendarPage.heroTitle">Markets</span> <span class="gradient-text"
+    <h1><span data-i18n="eventsCalendarPage.heroTitle">Markets</span> <span class=""
         data-i18n="eventsCalendarPage.heroTitleHighlight">Overview</span></h1>
     <p data-i18n="eventsCalendarPage.heroSubtitle">Real-time market data, economic events, and cryptocurrency prices all in one place</p>
   </div>
@@ -174,7 +179,7 @@ body.light-theme .markets-header p {
 
 .section-header:hover .section-icon svg {
   transform: scale(1.1);
-  stroke: #E63946;
+  stroke: #d02c2d;
 }
 
 #live-market .section-icon svg {
@@ -396,7 +401,7 @@ body.light-theme .markets-header p {
 
 .crypto-change.negative {
   background: rgba(239, 68, 68, 0.1);
-  color: #ef4444;
+  color: #d02c2d;
 }
 
 .crypto-market-cap,
@@ -484,8 +489,8 @@ body.light-theme .markets-header p {
 
 body.light-theme .markets-header .gradient-text {
   background: linear-gradient(90deg,
-      #E63946 0%,
-      #FF6B35 25%,
+      #d02c2d 0%,
+      #d02c2d 25%,
       #1a1a1a 50%,
       #1a1a1a 100%);
   -webkit-background-clip: text;
@@ -771,7 +776,7 @@ function createSparkline(data, isPositive) {
     return `${x},${y}`;
   }).join(' ');
 
-  const color = isPositive ? '#22c55e' : '#ef4444';
+  const color = isPositive ? '#22c55e' : '#d02c2d';
 
   return `
                 <svg class="crypto-sparkline" viewBox="0 0 ${width} ${height}">
@@ -804,7 +809,7 @@ async function fetchCryptoData() {
                     <tr>
                         <td colspan="8">
                             <div class="table-loading">
-                                <span style="color: #ef4444;">Failed to load data. Please refresh the page.</span>
+                                <span style="color: #d02c2d;">Failed to load data. Please refresh the page.</span>
                             </div>
                         </td>
                     </tr>

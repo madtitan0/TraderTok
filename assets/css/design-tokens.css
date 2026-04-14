@@ -2,9 +2,10 @@
   --font-family-base: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-family-heading: var(--font-family-base);
 
-  --brand-gradient: linear-gradient(135deg, #e63946 0%, #ff6b35 100%);
-  --brand-color-start: #e63946;
-  --brand-color-end: #ff6b35;
+  --brand-gradient: linear-gradient(135deg, #d02c2d 0%, #d02c2d 100%);
+  --brand-color-start: #d02c2d;
+  --brand-color-end: #d02c2d;
+  --primary-color: var(--brand-color-start);
   --brand-shadow: rgba(230, 57, 70, 0.4);
 
   --bg-primary: #000000;

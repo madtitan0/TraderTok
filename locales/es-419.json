@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "TraderTok - Plataforma de Trading Profesional | Opera con Confianza",
-    "description": "Haz crecer tus ahorros con confianza en TraderTok. Accede a potentes plataformas de trading de escritorio y móvil, análisis de mercado en tiempo real, soporte 24/7 y conocimientos de expertos."
+    "description": "Haz crecer tus ahorros con confianza en TraderTok. Accede a potentes plataformas de trading de escritorio y móvil, análisis de mercado en tiempo real, soporte 24/5 y conocimientos de expertos."
   },
   "nav": {
     "meetTheTeam": "Equipo",
@@ -14,13 +14,17 @@
     "regulations": "Regulaciones",
     "generalRiskDisclosure": "Divulgación general de riesgos",
     "clientServiceAgreement": "Acuerdo de servicio al cliente",
-    "riskDisclaimer": "Descargo de Responsabilidad de Riesgo",
+    "riskDisclaimer": "Divulgación de Riesgos",
     "termsConditions": "Términos y Condiciones",
     "cookiePolicy": "Política de Cookie",
     "offers": "Ofertas",
     "educationHub": "Centro Educativo",
     "trading": "Trading",
-    "aboutUs": "Nosotros"
+    "aboutUs": "Nosotros",
+    "learn": "Aprender",
+    "company": "Empresa",
+    "partnersOffers": "Socios y ofertas",
+    "promotionsOffers": "Promociones / Ofertas"
   },
   "dropdown": {
     "tradingEssentials": "Fundamentos del Trading",
@@ -29,7 +33,7 @@
     "videoEducationDesc": "Mira tutoriales y consejos de expertos",
     "eventsCalendar": "Calendario de Eventos",
     "eventsCalendarDesc": "Sigue los eventos importantes del mercado",
-    "research": "Investigación",
+    "research": "Investigación de mercados",
     "researchDesc": "Análisis de mercado profundo y perspectivas",
     "liveTraining": "Entrenamiento en Vivo",
     "liveTrainingDesc": "Únete a sesiones en vivo con expertos",
@@ -40,7 +44,18 @@
     "tradingPlatform": "Plataforma de Trading",
     "tradingPlatformDesc": "Explora nuestras plataformas",
     "tradingCentral": "Trading Central",
-    "tradingCentralDesc": "Análisis avanzado y perspectivas"
+    "tradingCentralDesc": "Análisis avanzado y perspectivas",
+    "markets": "Mercados",
+    "marketsDesc": "Instrumentos populares y contexto de mercado",
+    "accountTypesDesc": "Comparar cuentas y características",
+    "educationHubDesc": "Guías, herramientas y rutas de aprendizaje",
+    "aboutUsDesc": "Nuestra historia y misión",
+    "meetTeamDesc": "El equipo detrás de TraderTok",
+    "contactUsDesc": "Soporte y consultas",
+    "ibProgramDesc": "Programa de socios y referidos",
+    "traderTokClubDesc": "Beneficios y recompensas exclusivas",
+    "riskDisclosure": "Divulgación de riesgos",
+    "riskDisclosureDesc": "Información importante sobre riesgos"
   },
   "whatsapp": {
     "tooltip": "Chatea con nosotros",
@@ -123,7 +138,7 @@
       "lead": "Los mercados financieros se mueven más rápido que nunca. TraderTok fue creado para brindar a los traders la claridad, infraestructura y confianza necesarias para navegar en ellos.",
       "stat1Title": "Multi-Activo",
       "stat1Label": "Acceso a Mercados",
-      "stat2Title": "24/7",
+      "stat2Title": "24/5",
       "stat2Label": "Soporte al Cliente",
       "stat3Title": "Global",
       "stat3Label": "Mercados Cubiertos"
@@ -868,7 +883,7 @@
     "freeTrainings": "Entrenamientos<br>Gratis",
     "freeTrainingsDesc": "Entrenamiento de forex dirigido por expertos desde nivel principiante hasta intermedio, completamente gratis con soporte en vivo.",
     "assetManagement": "Gestión de<br>Activos",
-    "assetManagementDesc": "Orientación experta 24/7 para identificar y gestionar los activos correctos para máxima rentabilidad.",
+    "assetManagementDesc": "Orientación experta 24/5 para identificar y gestionar los activos correctos para máxima rentabilidad.",
     "demoAccount": "Cuenta<br>Demo",
     "demoAccountDesc": "Practica sin riesgos con $10,000 de dinero virtual en datos de mercado en tiempo real antes de operar en vivo."
   },
@@ -1022,7 +1037,6 @@
     "downloadOurApp": "Descarga nuestra app desde las tiendas",
     "aboutUs": "Sobre nosotros",
     "aboutTraderTok": "Sobre TraderTok",
-    "reviews": "Reseñas",
     "careers": "Carreras",
     "ourOffices": "Nuestras oficinas",
     "accessibility": "Accesibilidad",
@@ -1184,7 +1198,11 @@
     "windows": "Windows",
     "mac": "Mac",
     "signIn": "Iniciar Sesión",
-    "download": "Descargar"
+    "download": "Descargar",
+    "downloadForIos": "Descargar para iOS",
+    "downloadForAndroid": "Descargar para Android",
+    "downloadForWindows": "Descargar para Windows",
+    "downloadForMac": "Descargar para Mac"
   },
   "contactUsPage": {
     "pageTitle": "Contáctanos - TraderTok | Ponte en Contacto",
@@ -1222,6 +1240,7 @@
     "docOrderExecutionDesc": "La Compañía está comprometida a proporcionar condiciones de trading óptimas.",
     "docRiskDisclosure": "Divulgación de Riesgos",
     "docRiskDisclosureDesc": "Este documento te informa sobre los riesgos inherentes asociados con el trading.",
+    "riskDisclosureHeroTitle": "DIVULGACIÓN DE RIESGOS",
     "docGeneralRiskDisclosure": "Divulgación General de Riesgos",
     "docGeneralRiskDisclosureDesc": "Describe los riesgos generales relacionados con la negociación de instrumentos financieros e informa a los clientes sobre posibles pérdidas y la volatilidad del mercado.",
     "docClientServiceAgreement": "Acuerdo de Servicios al Cliente",

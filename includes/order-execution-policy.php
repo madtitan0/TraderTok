@@ -9,12 +9,12 @@
   <div class="page-hero-overlay"></div>
 
   <div class="container">
-    <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
+    <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="page-hero-badge">
         <span data-i18n="orderExecutionPolicyPage.h1">ORDER EXECUTION POLICY</span>
       </div>
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h2">Definitions</span>
+      <h1 class="doc-sub doc-heading-accent">
+        <span data-i18n="privacyPolicyPage.heroTitle">Definitions</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
 
@@ -69,8 +69,8 @@
       </ul>
       <p class="doc-page-hero-subtitle"></p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h3">1. OBJECTIVE</span>
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">1. OBJECTIVE</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The purpose of this policy is to establish efficient processes for order execution to ensure that
@@ -81,8 +81,8 @@
         clients and other local jurisdictional rules.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h4">2. SCOPE SECTION
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">2. SCOPE SECTION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -91,8 +91,8 @@
         access and to all jurisdictions where the Company is legally permitted to operate.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h5">3. GENERAL EXECUTION POLICY
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">3. GENERAL EXECUTION POLICY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -118,8 +118,8 @@
         Policy.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h6">4. CLIENT COMMUNICATION
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">4. CLIENT COMMUNICATION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -129,8 +129,8 @@
         to review it regularly.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h7">5.BEST EXECUTION CRITERIA
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">5.BEST EXECUTION CRITERIA
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -157,8 +157,8 @@
         trades, this does not guarantee that every trade will be executed at the lowest possible price.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h8">6. EXECUTION FACTORS
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">6. EXECUTION FACTORS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">When managing client orders without specific instructions on the method of
@@ -172,10 +172,10 @@
         <li>Execution capability.</li>
         <li>Any other relevant considerations for executing the order.</li>
       </ul>
-      <p class="doc-page-hero-title"></p>
+      <p class="doc-sub"></p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h9">7. EXECUTION VENUES
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">7. EXECUTION VENUES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -201,8 +201,8 @@
         likelihood of execution contributes 10%.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h10">8. SLIPPAGE
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">8. SLIPPAGE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -225,8 +225,8 @@
         practices. By trading with the Company, clients acknowledge and accept the risk of slippage.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h11">9. SPECIFIC INSTRUCTIONS
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">9. SPECIFIC INSTRUCTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -260,8 +260,8 @@
         not all.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h12">10. TYPES OF ORDERS</span>
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">10. TYPES OF ORDERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Due to the risks and volatility in financial markets, clients might benefit from using different order
@@ -318,8 +318,8 @@
         guidance if needed.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h13">11. PRICING
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">11. PRICING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -333,8 +333,8 @@
         pricing.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h14">12. ORDER SIZE
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">12. ORDER SIZE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -345,8 +345,8 @@
         ensure fairness and adherence to best execution standards.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h15">13. ORDER SPEED
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">13. ORDER SPEED
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -359,8 +359,8 @@
         connectivity issues may impact order execution.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h16">14. ORDER EXECUTION PROBABILITY
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">14. ORDER EXECUTION PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -371,8 +371,8 @@
         different price than initially intended.
       </p>
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h17">15. ORDER SETTLEMENT PROBABILITY
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">15. ORDER SETTLEMENT PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -384,8 +384,8 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h18">16. MARKET IMPACT
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">16. MARKET IMPACT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -397,8 +397,8 @@
       </p>
 
 
-      <h1 class="doc-page-hero-title">
-        <span data-i18n="orderExecutionPolicyPage.h19">17. CONCLUSION
+      <h1 class="doc-sub">
+        <span data-i18n="privacyPolicyPage.heroTitle">17. CONCLUSION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">

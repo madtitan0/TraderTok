@@ -130,6 +130,8 @@ $faq_items = [
     ['q' => 'What is MACD used for?', 'a' => 'MACD is commonly used to analyze trend and momentum and is often described as a momentum oscillator primarily used to trade trends.'],
     ['q' => 'Is this technical analysis course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand charts, support and resistance, trend direction, moving averages, RSI, and MACD in a simple way.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -142,10 +144,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly course explains how traders read charts using candlesticks, support and resistance, trend direction, moving averages, RSI, and MACD. If you are new to chart analysis, this course will help you build a simple and practical technical analysis foundation before moving into advanced strategy work.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -171,9 +170,12 @@ $faq_items = [
                             <a href="#course-example">Simple Chart-Reading Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -220,14 +222,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Technical analysis for beginners can be simplified into five main ideas: use charts to understand price behavior, identify support and resistance zones, read trend before acting on signals, use moving averages, RSI, and MACD as tools rather than shortcuts, and build a repeatable chart-reading routine.</p>
                         <p>This kind of structured approach can help beginners reduce impulsive entries and improve chart awareness.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple chart-reading example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -248,14 +248,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Technical analysis can improve chart reading, but it does not remove uncertainty. Indicators and patterns should not be treated as guarantees. A signal can fail, trend can reverse, and volatility can change quickly.</p>
                         <p>Technical analysis is a market-reading tool, not a guarantee of future price direction. Trading leveraged products involves significant risk, and technical setups should always be used alongside sound risk management.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <article class="education-article-panel">
@@ -286,8 +284,8 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="courses-faq-list">
                             <?php foreach ($faq_items as $faq): ?>
@@ -298,16 +296,17 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="courses-final-cta">
                         <div class="courses-final-cta-panel">
-                            <div class="education-article-meta">Final CTA</div>
                             <h2>Start Reading Charts with More Structure</h2>
                             <p>Learn how to read price charts, identify trends, and use beginner-friendly indicators before moving into advanced strategies inside TraderTok Academy.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
                                 <a href="<?php echo routeUrl('trading-essentials'); ?>" class="education-article-link courses-secondary-cta">Explore Technical Articles</a>
-                                <a href="./account-types" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>
                         </div>
                     </section>

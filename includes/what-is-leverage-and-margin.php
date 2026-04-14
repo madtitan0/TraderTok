@@ -214,7 +214,7 @@
 }
 
 .leverage-margin-card--alert {
-  background: linear-gradient(180deg, rgba(255, 107, 53, 0.1) 0%, var(--card-bg) 100%);
+  background: linear-gradient(180deg, rgba(230, 57, 70, 0.1) 0%, var(--card-bg) 100%);
 }
 
 .leverage-margin-card h2,
@@ -271,7 +271,7 @@
   height: 44px;
   margin-bottom: 16px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff6b35 0%, #ff3b30 100%);
+  background: linear-gradient(135deg, #d02c2d 0%, #ff3b30 100%);
   color: #ffffff;
   font-size: 1rem;
   font-weight: 700;

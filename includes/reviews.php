@@ -112,7 +112,7 @@
 }
 
 .reviews-eyebrow {
-  color: #ff5a36;
+  color: #d02c2d;
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -160,7 +160,7 @@
   margin-top: 20px;
   padding: 14px 20px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #ff5a36 0%, #e63946 100%);
+  background: linear-gradient(135deg, #d02c2d 0%, #d02c2d 100%);
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;

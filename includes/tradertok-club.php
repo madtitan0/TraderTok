@@ -179,7 +179,7 @@
 }
 
 .club-eyebrow {
-  color: #ff5a36;
+  color: #d02c2d;
   font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -245,7 +245,7 @@
 }
 
 .club-tier-card--diamond {
-  background: linear-gradient(180deg, rgba(255, 90, 54, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+  background: linear-gradient(180deg, rgba(230, 57, 70, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
 }
 
 .club-tier-card h3 {
@@ -319,7 +319,7 @@ body.light-theme .club-merch-note {
 }
 
 body.light-theme .club-tier-card--diamond {
-  background: linear-gradient(180deg, rgba(255, 90, 54, 0.14) 0%, rgba(248, 244, 239, 0.92) 100%);
+  background: linear-gradient(180deg, rgba(230, 57, 70, 0.14) 0%, rgba(248, 244, 239, 0.92) 100%);
 }
 
 body.light-theme .club-tier-flow span {

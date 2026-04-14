@@ -48,7 +48,7 @@
     background: #000000;
   }
 }
-</style>    
+</style>
     <!-- Hero Section -->
 <section class="hero gold-silver-banner" aria-label="TraderTok banner">
   <img src="assets/images/banner.jpeg" alt="Banner" class="banner-img">
@@ -72,7 +72,7 @@
             <img src="assets/images/Nvidia_logo.svg.png" alt="NVIDIA">
           </div>
           <div class="earnings-logo earnings-logo-apple">
-            <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+            <img src="assets/images/Apple_logo_black.png" alt="Apple">
           </div>
           <div class="earnings-logo earnings-logo-amazon">
             <img src="assets/images/pngimg.com - amazon_PNG27.png" alt="Amazon">
@@ -121,7 +121,7 @@
           </div>
           <div class="earnings-company" data-company="apple">
             <div class="company-icon">
-              <img src="assets/images/Apple_logo_black.svg" alt="Apple">
+              <img src="assets/images/Apple_logo_black.png" alt="Apple">
             </div>
             <span class="company-name">Apple</span>
             <span class="company-ticker">AAPL</span>
@@ -194,7 +194,7 @@
               in trading, and that's why we've engineered an environment where speed meets stability, and innovation
               meets opportunity.</p>
 
-            <a href="about" class="btn-about" data-i18n="hero.learnMore"
+            <a href="about" class="btn-primary" data-i18n="hero.learnMore"
               style="text-decoration: none;">Learn More</a>
           </div>
 
@@ -208,7 +208,7 @@
               <div class="stat-number stat-247">
                 <span class="stat-24" data-target="24">0</span>
                 <span class="stat-slash">/</span>
-                <span class="stat-7" data-target="7">0</span>
+                <span class="stat-7" data-target="5">0</span>
               </div>
               <div class="stat-label" data-i18n="about.support">Support</div>
             </div>
@@ -251,37 +251,83 @@
     <!-- Traders Club Modal -->
     <div class="traders-club-modal" id="tradersClubModal">
       <div class="traders-club-modal-overlay"></div>
-      <div class="traders-club-modal-content">
+      <div class="traders-club-modal-content" id="tradersClubModalContent">
         <button class="modal-close" id="closeTradersClubModal">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div class="modal-header">
-          <h3 class="modal-title" data-i18n="tradersClub.modalTitle">Join Traders Club</h3>
-          <p class="modal-subtitle" data-i18n="tradersClub.modalSubtitle">Get your free virtual card today</p>
+        <div id="tradersClubModalBody">
+          <div class="modal-header">
+            <h3 class="modal-title" data-i18n="tradersClub.modalTitle">Join Traders Club</h3>
+            <p class="modal-subtitle" data-i18n="tradersClub.modalSubtitle">Get your free virtual card today</p>
+          </div>
+          <form class="traders-club-form" id="tradersClubForm" novalidate>
+            <div class="traders-club-mode" role="group" aria-labelledby="tradersClubModeLabel">
+              <span id="tradersClubModeLabel" class="traders-club-mode-label" data-i18n="tradersClub.choosePath">How would you like to continue?</span>
+              <div class="traders-club-mode-toggle">
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="tradersClubMode" value="existing" checked>
+                  <span data-i18n="tradersClub.haveAccount">I have an account</span>
+                </label>
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="tradersClubMode" value="new">
+                  <span data-i18n="tradersClub.createAccount">Create an account</span>
+                </label>
+              </div>
+            </div>
+
+            <div id="tradersClubPanelExisting" class="traders-club-panel">
+              <div class="form-group">
+                <label for="clubEmailExisting" data-i18n="tradersClub.email">Email</label>
+                <input type="email" id="clubEmailExisting" name="email_existing"
+                  data-i18n-placeholder="tradersClub.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <p class="traders-club-hint" data-i18n="tradersClub.existingHint">We’ll check your Traders Club eligibility using your account email.</p>
+            </div>
+
+            <div id="tradersClubPanelNew" class="traders-club-panel" hidden>
+              <div class="traders-club-form-row">
+                <div class="form-group">
+                  <label for="clubFirstname" data-i18n="auth.firstName">First name</label>
+                  <input type="text" id="clubFirstname" name="firstname"
+                    data-i18n-placeholder="auth.firstNamePlaceholder" placeholder="John" autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="clubLastname" data-i18n="auth.lastName">Last name</label>
+                  <input type="text" id="clubLastname" name="lastname"
+                    data-i18n-placeholder="auth.lastNamePlaceholder" placeholder="Doe" autocomplete="family-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="clubEmailNew" data-i18n="tradersClub.email">Email</label>
+                <input type="email" id="clubEmailNew" name="email_new"
+                  data-i18n-placeholder="tradersClub.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="clubPhone" data-i18n="tradersClub.phone">Phone</label>
+                <input type="tel" id="clubPhone" name="phone"
+                  data-i18n-placeholder="tradersClub.phonePlaceholder" placeholder="Enter your phone"
+                  autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="clubPassword" data-i18n="auth.password">Password</label>
+                <input type="password" id="clubPassword" name="password"
+                  data-i18n-placeholder="auth.passwordPlaceholder" placeholder="Create a password" minlength="8"
+                  autocomplete="new-password">
+              </div>
+            </div>
+
+            <p class="traders-club-form-error" id="tradersClubFormError" role="alert" hidden></p>
+
+            <button type="submit" class="btn-submit-club" id="tradersClubSubmit" data-i18n="tradersClub.continueEligible">
+              Continue
+            </button>
+          </form>
         </div>
-        <form class="traders-club-form" id="tradersClubForm">
-          <div class="form-group">
-            <label for="clubName" data-i18n="tradersClub.name">Name</label>
-            <input type="text" id="clubName" name="name" data-i18n-placeholder="tradersClub.namePlaceholder"
-              placeholder="Enter your name" required>
-          </div>
-          <div class="form-group">
-            <label for="clubEmail" data-i18n="tradersClub.email">Email</label>
-            <input type="email" id="clubEmail" name="email" data-i18n-placeholder="tradersClub.emailPlaceholder"
-              placeholder="Enter your email" required>
-          </div>
-          <div class="form-group">
-            <label for="clubPhone" data-i18n="tradersClub.phone">Phone</label>
-            <input type="tel" id="clubPhone" name="phone" data-i18n-placeholder="tradersClub.phonePlaceholder"
-              placeholder="Enter your phone" required>
-          </div>
-          <button type="submit" class="btn-submit-club" data-i18n="tradersClub.getMyFreeCard">
-            Get My Free Card
-          </button>
-        </form>
       </div>
     </div>
 
@@ -327,7 +373,7 @@
       <div class="container">
         <!-- Header -->
         <div class="platforms-header">
-          <div class="platforms-eyebrow" data-i18n="platforms.eyebrow">Our Trading Platforms</div>
+          <!-- <div class="platforms-eyebrow" data-i18n="platforms.eyebrow">Our Trading Platforms</div> -->
           <h2 class="platforms-title" data-i18n="platforms.title">Come Trade With Us</h2>
           <p class="platforms-subtitle" data-i18n="platforms.subtitle">
             Choose how you prefer to trade: powerful desktop application for deep analysis
@@ -591,49 +637,87 @@
       </div>
     </section>
 
-    <!-- Deposit Modal -->
+    <!-- Deposit Modal (same API flow as Traders Club; group = DepositAccount) -->
     <div class="deposit-modal" id="depositModal">
       <div class="deposit-modal-overlay"></div>
-      <div class="deposit-modal-content">
+      <div class="deposit-modal-content" id="depositModalContent">
         <button class="modal-close" id="closeDepositModal">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
         </button>
-        <div class="modal-header">
-          <h3 class="modal-title" data-i18n="deposit.modalTitle">Open Deposit Account</h3>
-          <p class="modal-subtitle" data-i18n="deposit.modalSubtitle">Fill in your details and our manager will contact
-            you</p>
+        <div id="depositModalBody">
+          <div class="modal-header">
+            <h3 class="modal-title" data-i18n="deposit.modalTitle">Open Deposit Account</h3>
+            <p class="modal-subtitle" data-i18n="deposit.modalSubtitle">Fill in your details and our manager will contact
+              you</p>
+          </div>
+          <form class="deposit-form" id="depositForm" novalidate>
+            <div class="traders-club-mode" role="group" aria-labelledby="depositModeLabel">
+              <span id="depositModeLabel" class="traders-club-mode-label" data-i18n="deposit.choosePath">How would you like to continue?</span>
+              <div class="traders-club-mode-toggle">
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="depositMode" value="existing" checked>
+                  <span data-i18n="deposit.haveAccount">I have an account</span>
+                </label>
+                <label class="traders-club-mode-option">
+                  <input type="radio" name="depositMode" value="new">
+                  <span data-i18n="deposit.createAccount">Create an account</span>
+                </label>
+              </div>
+            </div>
+
+            <div id="depositPanelExisting" class="traders-club-panel">
+              <div class="form-group">
+                <label for="depositEmailExisting" data-i18n="deposit.email">Email</label>
+                <input type="email" id="depositEmailExisting" name="email_existing"
+                  data-i18n-placeholder="deposit.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <p class="traders-club-hint" data-i18n="deposit.existingHint">We’ll check your eligibility using your account email.</p>
+            </div>
+
+            <div id="depositPanelNew" class="traders-club-panel" hidden>
+              <div class="traders-club-form-row">
+                <div class="form-group">
+                  <label for="depositFirstname" data-i18n="auth.firstName">First name</label>
+                  <input type="text" id="depositFirstname" name="firstname"
+                    data-i18n-placeholder="auth.firstNamePlaceholder" placeholder="John" autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="depositLastname" data-i18n="auth.lastName">Last name</label>
+                  <input type="text" id="depositLastname" name="lastname"
+                    data-i18n-placeholder="auth.lastNamePlaceholder" placeholder="Doe" autocomplete="family-name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="depositEmailNew" data-i18n="deposit.email">Email</label>
+                <input type="email" id="depositEmailNew" name="email_new"
+                  data-i18n-placeholder="deposit.emailPlaceholder" placeholder="Enter your email"
+                  autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="depositPhone" data-i18n="deposit.phone">Phone</label>
+                <input type="tel" id="depositPhone" name="phone"
+                  data-i18n-placeholder="deposit.phonePlaceholder" placeholder="+1 (555) 000-0000"
+                  autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="depositPassword" data-i18n="auth.password">Password</label>
+                <input type="password" id="depositPassword" name="password"
+                  data-i18n-placeholder="auth.passwordPlaceholder" placeholder="Enter your password" minlength="8"
+                  autocomplete="new-password">
+              </div>
+            </div>
+
+            <p class="traders-club-form-error" id="depositFormError" role="alert" hidden></p>
+
+            <button type="submit" class="btn-submit-deposit" id="depositSubmit" data-i18n="deposit.continueEligible">Continue</button>
+          </form>
+          <p class="modal-disclaimer" data-i18n="deposit.modalDisclaimer">By submitting, you agree to our Terms of Service
+            and Privacy Policy</p>
         </div>
-        <form class="deposit-form" id="depositForm">
-          <div class="form-group">
-            <label for="depositName" data-i18n="deposit.name">Name</label>
-            <input type="text" id="depositName" name="name" placeholder="Enter your name"
-              data-i18n-placeholder="deposit.namePlaceholder" required>
-          </div>
-          <div class="form-group">
-            <label for="depositEmail" data-i18n="deposit.email">Email</label>
-            <input type="email" id="depositEmail" name="email" placeholder="Enter your email"
-              data-i18n-placeholder="deposit.emailPlaceholder" required>
-          </div>
-          <div class="form-group">
-            <label for="depositPhone" data-i18n="deposit.phone">Phone</label>
-            <input type="tel" id="depositPhone" name="phone" placeholder="+1 (555) 000-0000"
-              data-i18n-placeholder="deposit.phonePlaceholder" required>
-          </div>
-          <button type="submit" class="btn-submit-deposit">
-            <span class="btn-text" data-i18n="deposit.submitApplication">Submit Application</span>
-            <span class="btn-loading">
-              <svg class="spinner" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none"
-                  stroke-dasharray="31.4 31.4" stroke-linecap="round" />
-              </svg>
-            </span>
-          </button>
-        </form>
-        <p class="modal-disclaimer" data-i18n="deposit.modalDisclaimer">By submitting, you agree to our Terms of Service
-          and Privacy Policy</p>
       </div>
     </div>
 
@@ -814,6 +898,104 @@
           </div>
         </div>
 
+    <?php
+    $home_client_testimonials = [
+        [
+            'name' => 'Bunny',
+            'text' => 'Everything runs smoothly and the platform is very easy to use. A big thank you to David Faris, his professionalism and support are truly top-tier. He goes above and beyond to help.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Frank B',
+            'text' => 'My experience has been excellent. Dominic Weber has been incredibly helpful and accommodating throughout, making the entire process simple and stress-free.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Mark Telford',
+            'text' => 'Amazing experience overall. The platform is easy to navigate and very reliable. David Faris has been outstanding with his support and guidance.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Dody Chandra Petrus',
+            'text' => 'This is my first time trading and the experience has been great so far. Dominic Weber has been very supportive and always available to assist whenever needed.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Kenneth Umaid',
+            'text' => 'Great service and smooth experience. Everything works exactly as expected. Special thanks to David Faris for his consistent support and professionalism.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Indira Sammy',
+            'text' => 'Very satisfied with the overall experience. The platform is user-friendly and efficient. Dominic Weber has been extremely helpful and responsive throughout.',
+            'stars' => 5,
+        ],
+        [
+            'name' => 'Chris',
+            'text' => 'The support from Mr. Simon Bjork, along with the team, Lucas, Roy, and Brooke, has been exceptional from the very beginning. They guided me through the initial stages of trading, including financial transfers and ongoing training sessions, always responding quickly and clearly to any questions. Their encouragement during market fluctuations has been especially reassuring, and I have full confidence in their advice and integrity. This experience has built a strong sense of trust, and I look forward to continuing this journey with them.',
+            'stars' => 5,
+        ],
+    ];
+    $home_testimonial_colors = ['#d02c2d', '#2196F3', '#7B68EE', '#d02c2d', '#00B67A', '#9C27B0', '#00897B'];
+    ?>
+
+        <!-- Client testimonials (directly under Trustpilot header) -->
+        <section class="client-testimonials-section client-testimonials-section--under-trustpilot" aria-label="Client testimonials">
+          <div class="client-testimonials-header">
+            <h2 class="client-testimonials-title">Client testimonials</h2>
+            <p class="client-testimonials-subtitle">What traders say about their experience with us</p>
+          </div>
+
+          <div class="client-testimonials-slider">
+            <div class="client-testimonials-row">
+              <button type="button" class="client-testimonials-btn client-testimonials-btn--side" id="clientTestimonialsPrev" aria-label="Previous testimonial">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <div class="client-testimonials-viewport">
+            <div class="client-testimonials-track" id="clientTestimonialsTrack">
+            <?php foreach ($home_client_testimonials as $ti => $item) :
+                $bg = $home_testimonial_colors[$ti % count($home_testimonial_colors)];
+                $stars = isset($item['stars']) ? (int) $item['stars'] : 5;
+                if ($stars < 0) {
+                    $stars = 0;
+                }
+                if ($stars > 5) {
+                    $stars = 5;
+                }
+                $authorName = isset($item['name']) ? trim((string) $item['name']) : '';
+                ?>
+            <div class="client-testimonials-card<?php echo $ti === 0 ? ' active' : ''; ?>">
+              <?php if ($authorName !== '') : ?>
+              <div class="client-testimonials-author" style="--accent: <?php echo htmlspecialchars($bg, ENT_QUOTES, 'UTF-8'); ?>;">
+                <p class="client-testimonials-author-name"><?php echo htmlspecialchars($authorName, ENT_QUOTES, 'UTF-8'); ?></p>
+              </div>
+              <?php endif; ?>
+              <p class="client-testimonials-quote"><?php echo htmlspecialchars($item['text'], ENT_QUOTES, 'UTF-8'); ?></p>
+              <div class="client-testimonials-stars" aria-label="<?php echo $stars; ?> out of 5 stars">
+                <?php
+                for ($s = 1; $s <= 5; $s++) {
+                    $full = $s <= $stars;
+                    echo '<span class="client-testimonials-star' . ($full ? ' is-full' : ' is-empty') . '" aria-hidden="true">' . ($full ? '★' : '☆') . '</span>';
+                }
+                ?>
+              </div>
+            </div>
+            <?php endforeach; ?>
+            </div>
+              </div>
+              <button type="button" class="client-testimonials-btn client-testimonials-btn--side" id="clientTestimonialsNext" aria-label="Next testimonial">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+            <div class="client-testimonials-dots-row">
+              <div class="client-testimonials-dots" id="clientTestimonialsDots"></div>
+            </div>
+          </div>
+        </section>
 
         <a href="https://www.trustpilot.com/review/tradertok.com" target="_blank" class="trustpilot-link">
           <span data-i18n="trustpilot.moreReviews">More reviews on Trustpilot</span>
@@ -821,6 +1003,92 @@
             <polyline points="9 18 15 12 9 6"></polyline>
           </svg>
         </a>
+      </div>
+    </section>
+
+    <!-- Payment methods overview (copy + icon grid — below trust/testimonial area) -->
+
+    <section class="home-payment-overview" aria-labelledby="home-payment-overview-title">
+      <div class="container">
+        <div class="home-payment-overview__layout">
+          <h2 id="home-payment-overview-title" class="home-payment-overview__title">Fast, Secure &amp; Flexible Payments</h2>
+
+          <p class="home-payment-overview__lead">
+            TraderTok supports a wide range of secure and globally trusted payment methods through our licensed payment partners, ensuring fast, flexible, and reliable transactions for traders worldwide.
+          </p>
+
+          <div class="home-payment-overview__visual" aria-label="Payment methods and security">
+            <div class="home-payment-overview__icon-grid">
+              <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
+                <svg class="home-payment-overview__brand-svg" viewBox="0 0 750 471" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Visa">
+                  <path d="M278.2 334.3l30-186.2h48.1l-30.1 186.2h-48zm188.8-181.7c-9.5-3.6-24.5-7.5-43.2-7.5-47.6 0-81.2 24.1-81.5 58.5-.3 25.5 23.9 39.7 42.2 48.2 18.8 8.7 25.1 14.2 25 22-.1 11.9-15 17.3-28.9 17.3-19.3 0-29.6-2.7-45.5-9.4l-6.2-2.8-6.8 40c11.3 5 32.2 9.3 53.9 9.5 50.7 0 83.6-23.8 84-60.5.2-20.2-12.6-35.5-40.4-48.2-16.8-8.2-27.1-13.7-27-22 0-7.4 8.7-15.3 27.5-15.3 15.7-.2 27.1 3.2 36 6.8l4.3 2 6.6-38.6zm124.4-4.5h-37.3c-11.5 0-20.2 3.2-25.3 14.8l-71.6 163.2h50.6s8.3-21.9 10.1-26.7c5.5 0 54.8.1 61.9.1 1.4 6.2 6 26.6 6 26.6h44.7l-39.1-177.9zm-59.4 115c4-10.3 19.4-50 19.4-50-.3.5 4-10.4 6.4-17.1l3.3 15.4s9.3 43.1 11.3 52.1h-40.4v-.4zm-281.8-115l-47.3 127.1-5-24.8c-8.7-28.4-36-59.2-66.5-74.6l43.2 158.2 51-0.1 75.9-185.9-51.3.1z" fill="#1A1F71"/>
+                  <path d="M146.9 148.1h-77.7l-.6 3.6c60.4 14.7 100.4 50.3 117 93l-16.9-81.5c-2.9-11.2-11.4-14.6-21.8-15.1z" fill="#F9A533"/>
+                </svg>
+              </div>
+              <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
+                <img src="./assets/images/Mastercard-logo.svg.png" alt="Mastercard" class="home-payment-overview__brand-img home-payment-overview__brand-img--mastercard" width="120" height="75" loading="lazy">
+              </div>
+              <div class="home-payment-overview__icon-tile">
+                <span class="home-payment-overview__icon-label">Cards</span>
+                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <rect x="6" y="12" width="36" height="24" rx="3"/>
+                  <line x1="6" y1="20" x2="42" y2="20"/>
+                  <rect x="28" y="28" width="10" height="4" rx="1" fill="currentColor" stroke="none"/>
+                </svg>
+              </div>
+              <div class="home-payment-overview__icon-tile">
+                <span class="home-payment-overview__icon-label">Bank transfer</span>
+                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M8 20h32l-6-8H14l-6 8z"/>
+                  <path d="M10 20v14M18 20v14M24 16v18M30 20v14M38 20v14"/>
+                  <line x1="6" y1="34" x2="42" y2="34"/>
+                </svg>
+              </div>
+              <div class="home-payment-overview__icon-tile">
+                <span class="home-payment-overview__icon-label">Mobile payment</span>
+                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <rect x="14" y="6" width="20" height="36" rx="3"/>
+                  <line x1="20" y1="38" x2="28" y2="38"/>
+                  <circle cx="24" cy="12" r="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="home-payment-overview__icon-tile">
+                <span class="home-payment-overview__icon-label">Security</span>
+                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                  <path d="M24 8l14 6v10c0 9-6 17-14 20-8-3-14-11-14-20V14l14-6z"/>
+                  <path d="M18 24l4 4 8-9" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="home-payment-overview__trust-tags">
+              <span class="home-payment-overview__tag">Secure Transactions</span>
+              <span class="home-payment-overview__tag">Fast Processing</span>
+              <span class="home-payment-overview__tag">Global Coverage</span>
+              <span class="home-payment-overview__tag">Multiple Payment Options</span>
+            </div>
+          </div>
+
+          <ul class="home-payment-overview__bullets">
+            <li>Multiple funding options available based on your region</li>
+            <li>Fast processing for deposits and withdrawals</li>
+            <li>Secure transactions through trusted payment providers</li>
+            <li>Designed for global accessibility and convenience</li>
+          </ul>
+
+          <div class="home-payment-overview__usp">
+            <h3 class="home-payment-overview__usp-title">Global Payment Access</h3>
+            <p class="home-payment-overview__usp-text">
+              Unlike traditional platforms limited to a few payment methods, TraderTok provides flexible funding options through multiple global payment partners — giving users access to the most efficient and convenient methods available in their region.
+            </p>
+          </div>
+
+          <div class="home-payment-overview__providers">
+            <h3 class="home-payment-overview__providers-title">Powered by Trusted Payment Partners</h3>
+            <p class="home-payment-overview__providers-text">
+              TraderTok works with a network of licensed payment service providers, including PayRetailers, PayOp, and other global PSP partners, enabling access to widely used payment methods such as Visa and Mastercard, along with bank transfers and region-specific solutions.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 

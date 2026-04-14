@@ -102,6 +102,8 @@ $faq_items = [
     ['q' => 'What emotions affect trading the most?', 'a' => 'Common emotions include fear, greed, hope, frustration, boredom, and overconfidence. These can distort trade timing, position size, and decision quality.'],
     ['q' => 'Is this course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand emotional mistakes, improve discipline, and build a stronger routine in a simple and practical way.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -114,10 +116,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly course explores the emotional side of trading, including fear, greed, impatience, overtrading, frustration, and the habits that support better discipline. If you are new to trading, this course will help you understand why emotions affect decisions and how to build a stronger routine around your trading process.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -143,9 +142,12 @@ $faq_items = [
                             <a href="#course-example">Simple Psychology Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -192,14 +194,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Trading psychology basics can be simplified into five core ideas: emotions influence trading decisions more than many beginners expect, fear, greed, frustration, and boredom can all damage execution, overtrading often comes from impatience or loss-recovery behavior, discipline improves consistency by keeping traders aligned with rules, and routines and journals make emotional mistakes easier to spot and reduce over time.</p>
                         <p>Even a good strategy can break down if the trader repeatedly overrides it emotionally.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple psychology example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -220,14 +220,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Trading psychology does not replace risk management, and it does not eliminate losses. What it does is reduce the chance that one loss turns into a chain of poor decisions.</p>
                         <p>Emotional control is an important part of trading discipline, but it does not remove market risk. Trading leveraged products involves significant risk, and psychological mistakes can increase exposure if not managed through clear rules and routines.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <div>
@@ -258,12 +256,12 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="faq-list">
                             <?php foreach ($faq_items as $index => $item): ?>
-                                <article class="faq-item<?php echo $index === 0 ? ' open' : ''; ?>">
+                                <article class="faq-item<?php echo $index === 0 ? ' active' : ''; ?>">
                                     <button class="faq-q" type="button">
                                         <span><?php echo htmlspecialchars($item['q']); ?></span>
                                         <span class="faq-icon"></span>
@@ -275,10 +273,10 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="education-course-final-cta">
                         <div class="education-course-final-cta-content">
-                            <span class="education-subpage-eyebrow">Final CTA</span>
                             <h2>Trade with more discipline, not more emotion</h2>
                             <p>
                                 Learn how to identify emotional mistakes, reduce overtrading, and build a stronger trading routine before moving into more advanced strategy content inside TraderTok Academy.
@@ -287,7 +285,8 @@ $faq_items = [
                         <div class="education-course-final-cta-actions">
                             <a href="#" class="btn-primary">Start Next Course</a>
                             <a href="#" class="education-article-link courses-secondary-cta">Explore Psychology Articles</a>
-                            <a href="#" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                         </div>
                     </section>
                 </main>

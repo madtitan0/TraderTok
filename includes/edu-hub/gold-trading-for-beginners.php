@@ -96,6 +96,8 @@ $faq_items = [
     ['q' => 'Why is risk management important in gold trading?', 'a' => 'Risk management matters because gold can move quickly around inflation data, rate expectations, geopolitical developments, and broader sentiment shifts.'],
     ['q' => 'Is this course suitable for beginners?', 'a' => 'Yes. This course is designed to give beginners a simple foundation in gold trading, price drivers, and safer market habits.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -108,10 +110,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly course explains the basics of gold trading, the main factors that affect gold prices, and how new traders can approach the gold market with more structure. If you are new to trading gold, this course gives you a practical foundation before moving into advanced analysis and execution.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -137,9 +136,12 @@ $faq_items = [
                             <a href="#course-example">Simple Gold-Market Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -186,13 +188,11 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Gold trading for beginners can be simplified into five core ideas: gold is both a commodity market and a macro financial market, traders watch gold because it often reacts to broad macro forces, gold prices are commonly shaped by risk, uncertainty, opportunity cost, growth conditions, and momentum, beginners should approach gold with structure rather than assumptions, and risk management matters because gold can move quickly around major events.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple gold-market example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -212,14 +212,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Gold trading can be volatile, especially around major economic releases and changing policy expectations. Easier access does not remove market risk.</p>
                         <p>Gold trading involves market risk and may not be suitable for all traders. Price swings can increase during macro events and policy shifts. If leveraged products are used, losses can increase quickly.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <div>
@@ -250,12 +248,12 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="faq-list">
                             <?php foreach ($faq_items as $index => $item): ?>
-                                <article class="faq-item<?php echo $index === 0 ? ' open' : ''; ?>">
+                                <article class="faq-item<?php echo $index === 0 ? ' active' : ''; ?>">
                                     <button class="faq-q" type="button">
                                         <span><?php echo htmlspecialchars($item['q']); ?></span>
                                         <span class="faq-icon"></span>
@@ -267,10 +265,10 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="education-course-final-cta">
                         <div class="education-course-final-cta-content">
-                            <span class="education-subpage-eyebrow">Final CTA</span>
                             <h2>Understand gold before you trade it</h2>
                             <p>
                                 Learn what moves gold, how macro conditions influence price, and how beginners can approach the gold market with stronger structure and risk control.
@@ -279,7 +277,8 @@ $faq_items = [
                         <div class="education-course-final-cta-actions">
                             <a href="#" class="btn-primary">Start Next Course</a>
                             <a href="#" class="education-article-link courses-secondary-cta">Explore Gold Articles</a>
-                            <a href="#" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                         </div>
                     </section>
                 </main>

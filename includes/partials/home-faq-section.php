@@ -16,6 +16,23 @@ if (!function_exists('home_faq_format_paragraph')) {
         return $esc;
     }
 }
+
+if (!function_exists('home_faq_format_bullet')) {
+    function home_faq_format_bullet($text)
+    {
+        if (strpos($text, '<a ') !== false) {
+            return $text;
+        }
+        $esc = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
+        $licenseLabel = 'License No: GB24203892';
+        $needle = htmlspecialchars($licenseLabel, ENT_QUOTES, 'UTF-8');
+        if (strpos($esc, $needle) !== false) {
+            $link = '<a href="https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr" target="_blank" rel="noopener noreferrer" class="license-link">License No: GB24203892</a>';
+            $esc = str_replace($needle, $link, $esc);
+        }
+        return $esc;
+    }
+}
 ?>
 
 <section class="home-faq-section" id="home-faq" aria-labelledby="home-faq-heading">
@@ -34,8 +51,8 @@ if (!function_exists('home_faq_format_paragraph')) {
                 </div>
                 <div class="home-faq-list" role="list">
                     <?php foreach ($section['items'] as $itemIndex => $item): ?>
-                        <div class="home-faq-item<?php echo ($secIndex === 0 && $itemIndex === 0) ? ' active' : ''; ?>" role="listitem">
-                            <button type="button" class="home-faq-header" aria-expanded="<?php echo ($secIndex === 0 && $itemIndex === 0) ? 'true' : 'false'; ?>">
+                        <div class="home-faq-item" role="listitem">
+                            <button type="button" class="home-faq-header" aria-expanded="false">
                                 <span class="home-faq-question-text" data-i18n="homeFaq.sections.<?php echo (int) $secIndex; ?>.items.<?php echo (int) $itemIndex; ?>.question"><?php echo htmlspecialchars($item['question']); ?></span>
                                 <span class="home-faq-toggle" aria-hidden="true"></span>
                             </button>
@@ -52,14 +69,15 @@ if (!function_exists('home_faq_format_paragraph')) {
                                         echo '<ul class="home-faq-ul">';
                                         foreach ($item['bullets'] as $bi => $b) {
                                             $bk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.bullets.' . (int) $bi;
-                                            echo '<li data-i18n="' . htmlspecialchars($bk, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($b) . '</li>';
+                                            echo '<li data-i18n-html="' . htmlspecialchars($bk, ENT_QUOTES, 'UTF-8') . '">' . home_faq_format_bullet($b) . '</li>';
                                         }
                                         echo '</ul>';
                                     }
                                     if (!empty($item['paragraphs_after'])) {
                                         foreach ($item['paragraphs_after'] as $pi => $p) {
                                             $pk = 'homeFaq.sections.' . (int) $secIndex . '.items.' . (int) $itemIndex . '.paragraphs_after.' . (int) $pi;
-                                            echo '<p data-i18n-html="' . htmlspecialchars($pk, ENT_QUOTES, 'UTF-8') . '">' . home_faq_format_paragraph($p) . '</p>';
+                                            $paraBody = (strpos($p, '<a ') !== false) ? $p : home_faq_format_paragraph($p);
+                                            echo '<p data-i18n-html="' . htmlspecialchars($pk, ENT_QUOTES, 'UTF-8') . '">' . $paraBody . '</p>';
                                         }
                                     }
                                     if (!empty($item['bullets_after'])) {
@@ -143,7 +161,7 @@ if (!function_exists('home_faq_format_paragraph')) {
     font-weight: 800;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #ff6b35;
+    color: #d02c2d;
     margin: 0 0 8px;
 }
 
@@ -171,7 +189,7 @@ if (!function_exists('home_faq_format_paragraph')) {
 }
 
 .home-faq-item.active {
-    border-color: rgba(255, 107, 53, 0.35);
+    border-color: rgba(230, 57, 70, 0.35);
     box-shadow: 0 16px 44px var(--shadow-color);
 }
 
@@ -193,7 +211,7 @@ if (!function_exists('home_faq_format_paragraph')) {
 }
 
 .home-faq-header:hover {
-    background: rgba(255, 107, 53, 0.04);
+    background: rgba(230, 57, 70, 0.04);
 }
 
 .home-faq-toggle {
@@ -202,7 +220,7 @@ if (!function_exists('home_faq_format_paragraph')) {
     height: 22px;
     flex-shrink: 0;
     border-radius: 50%;
-    border: 2px solid rgba(255, 107, 53, 0.5);
+    border: 2px solid rgba(230, 57, 70, 0.5);
 }
 
 .home-faq-toggle::before,
@@ -213,7 +231,7 @@ if (!function_exists('home_faq_format_paragraph')) {
     left: 50%;
     width: 10px;
     height: 2px;
-    background: #ff6b35;
+    background: #d02c2d;
     border-radius: 2px;
     transform: translate(-50%, -50%);
     transition: transform 0.2s ease, opacity 0.2s ease;
@@ -281,7 +299,7 @@ if (!function_exists('home_faq_format_paragraph')) {
 .home-faq-tier-card h4 {
     font-size: 1.05rem;
     font-weight: 800;
-    color: #ff6b35;
+    color: #d02c2d;
     margin: 0 0 10px;
     letter-spacing: 0.02em;
 }

@@ -120,6 +120,8 @@ $faq_items = [
     ['q' => 'Why do central banks matter to traders?', 'a' => 'Central banks matter because they influence interest rates and financial conditions, which affect currencies, commodities, equities, and broader market sentiment.'],
     ['q' => 'Is this course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand inflation, rates, macro data, and economic-calendar events in a simple way.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -132,10 +134,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly course explains how traders use macroeconomic data and major policy events to understand market direction. You will learn how inflation, interest rates, jobs data, and central bank decisions can influence forex, gold, indices, and broader market sentiment.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -161,9 +160,12 @@ $faq_items = [
                             <a href="#course-example">Simple Macro Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -210,14 +212,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>Fundamental analysis basics can be simplified into five main ideas: study the economic and policy reasons behind market moves, understand inflation and interest rates, follow major releases like CPI and jobs data, watch what central banks say and do, and use the economic calendar to prepare for volatility.</p>
                         <p>These ideas matter because policy and macro expectations can influence currencies, gold, indices, and broader risk sentiment.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple macro example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -238,14 +238,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>Fundamental analysis helps explain why markets move, but it does not make news reactions perfectly predictable. Markets often react not only to the data itself, but to how the result compares with expectations and what it means for policy going forward.</p>
                         <p>Economic data and central bank events can increase market volatility significantly. Fundamental analysis is a framework for understanding market drivers, not a guarantee of price direction. Trading leveraged products involves significant risk.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <div>
@@ -276,12 +274,12 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="faq-list">
                             <?php foreach ($faq_items as $index => $item): ?>
-                                <article class="faq-item<?php echo $index === 0 ? ' open' : ''; ?>">
+                                <article class="faq-item<?php echo $index === 0 ? ' active' : ''; ?>">
                                     <button class="faq-q" type="button">
                                         <span><?php echo htmlspecialchars($item['q']); ?></span>
                                         <span class="faq-icon"></span>
@@ -293,10 +291,10 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="education-course-final-cta">
                         <div class="education-course-final-cta-content">
-                            <span class="education-subpage-eyebrow">Final CTA</span>
                             <h2>Understand the drivers behind market moves</h2>
                             <p>
                                 Learn how inflation, interest rates, jobs data, and central bank decisions shape market expectations before moving into deeper strategy content inside TraderTok Academy.
@@ -305,7 +303,8 @@ $faq_items = [
                         <div class="education-course-final-cta-actions">
                             <a href="#" class="btn-primary">Start Next Course</a>
                             <a href="#" class="education-article-link courses-secondary-cta">Explore Macro Articles</a>
-                            <a href="#" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                            <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                         </div>
                     </section>
                 </main>

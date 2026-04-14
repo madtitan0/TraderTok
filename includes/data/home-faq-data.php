@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Home page FAQ content (also previously shown on Help Center).
+ * Home page FAQ content.
  *
  * i18n: English copy is mirrored in locales/en.json under "homeFaq" for client-side translation.
  * After changing structure or wording here, refresh en.json: export this file to JSON, then run
@@ -35,6 +35,28 @@ return [
                 ],
                 'paragraphs_after' => [
                     'Availability of instruments may vary depending on jurisdiction and regulatory requirements.',
+                ],
+            ],
+        ],
+    ],
+    [
+        'label' => 'Regulation',
+        'intro' => 'Licensing and company details.',
+        'items' => [
+            [
+                'question' => 'Is TraderTok regulated?',
+                'paragraphs' => [
+                    'Yes. TraderTok operates under:',
+                ],
+                'bullets' => [
+                    'Amber Rock Trade Ltd',
+                    'Address: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius',
+                    'Company No: 222594',
+                    'License No: GB24203892',
+                    'Regulator: Financial Services Commission (FSC), Mauritius',
+                ],
+                'paragraphs_after' => [
+                    'Clients are encouraged to verify details via the <a href="https://opr.fscmauritius.org/ords/opr/r/fsc-opr/fsc-online-public-register-opr" target="_blank" rel="noopener noreferrer" class="license-link">FSC public register</a>.',
                 ],
             ],
         ],
@@ -280,28 +302,6 @@ return [
                 'paragraphs_after' => [
                     'Past performance is not indicative of future results.',
                     'Content shared within the platform does not constitute investment advice.',
-                ],
-            ],
-        ],
-    ],
-    [
-        'label' => 'Regulation',
-        'intro' => 'Licensing and company details.',
-        'items' => [
-            [
-                'question' => 'Is TraderTok regulated?',
-                'paragraphs' => [
-                    'Yes. TraderTok operates under:',
-                ],
-                'bullets' => [
-                    'Amber Rock Trade Ltd',
-                    'Address: Level 5, Alexander House, 35 Cybercity, Ebene, Mauritius',
-                    'Company No: 222594',
-                    'License No: GB24203892',
-                    'Regulator: Financial Services Commission (FSC), Mauritius',
-                ],
-                'paragraphs_after' => [
-                    'Clients are encouraged to verify details via the FSC register.',
                 ],
             ],
         ],

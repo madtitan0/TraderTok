@@ -9,13 +9,16 @@ $display_limit = 20;
         <video class="page-hero-video" autoplay loop muted playsinline>
             <source src="assets/images/education.mp4" type="video/mp4">
         </video>
-        <div class="page-hero-overlay1"></div>
-        <div class="education-subpage-hero-inner container">
-            <div class="education-subpage-eyebrow">Available Articles</div>
-            <h1 class="education-subpage-title">Trading Essentials</h1>
-            <p class="education-subpage-subtitle">
-                A curated set of educational articles that users can browse as part of the Trading Essentials learning path.
-            </p>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">
+                <span data-i18n="tradingEssentials.titlePart1">Educational</span> <span> <span data-i18n="tradingEssentials.titlePart2">Resources</span></span>
+            </h1>
+             <p class="sec-subtitle">
+                <span data-i18n="tradingEssentials.subtitle1">Master the fundamentals of the forex market with our curated collection of essential trading guides.</span> <br/> 
+                <span data-i18n="tradingEssentials.subtitle2">Explore our library of 20+ articles. Start from the beginning or dive into a specific topic.</span>
+             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 

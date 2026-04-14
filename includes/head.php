@@ -1,5 +1,22 @@
 <?php
-require_once 'includes/subdomain-config.php';
+require_once __DIR__ . '/config/subdomain-config.php';
+
+/** Used by assets/js/script.js for “existing user” qualification (direct POST, no PHP proxy). */
+$tradersClubCfg = require __DIR__ . '/config/traders-club.php';
+$tcQualUrl = (string) ($tradersClubCfg['qualification_url'] ?? '');
+$tcQualToken = isset($tradersClubCfg['qualification_token']) && is_string($tradersClubCfg['qualification_token'])
+    ? $tradersClubCfg['qualification_token'] : '';
+$tcQualBearer = isset($tradersClubCfg['qualification_bearer_token']) && is_string($tradersClubCfg['qualification_bearer_token'])
+    ? $tradersClubCfg['qualification_bearer_token'] : '';
+$tcQualPostUrl = '';
+if ($tcQualUrl !== '') {
+    if ($tcQualToken !== '') {
+        $tcSep = strpos($tcQualUrl, '?') !== false ? '&' : '?';
+        $tcQualPostUrl = $tcQualUrl . $tcSep . 'token=' . rawurlencode($tcQualToken);
+    } else {
+        $tcQualPostUrl = $tcQualUrl;
+    }
+}
 
 function assetStylesheetTag($path)
 {
@@ -15,6 +32,24 @@ function routeUrl($pageName, array $params = [])
     $query = array_merge(['page' => $pageName], $params);
     return './?' . http_build_query($query);
 }
+
+/** Current request origin (scheme + host) for absolute OG/Twitter image URLs. */
+function tt_site_origin(): string
+{
+    $https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+        || (isset($_SERVER['SERVER_PORT']) && (string) $_SERVER['SERVER_PORT'] === '443')
+        || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strtolower((string) $_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https')
+        || (isset($_SERVER['HTTP_X_FORWARDED_SSL']) && (string) $_SERVER['HTTP_X_FORWARDED_SSL'] === 'on');
+    $host = isset($_SERVER['HTTP_HOST']) ? (string) $_SERVER['HTTP_HOST'] : 'localhost';
+
+    return ($https ? 'https' : 'http') . '://' . $host;
+}
+
+$ttOrigin = tt_site_origin();
+$ttRequestUri = isset($_SERVER['REQUEST_URI']) ? (string) $_SERVER['REQUEST_URI'] : '/';
+$ttOgUrl = $ttOrigin . $ttRequestUri;
+$ttOgImageUrl = $ttOrigin . '/og-image.jpg';
+$ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +57,16 @@ function routeUrl($pageName, array $params = [])
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>window.subdomainData = <?php echo $subdomainJS; ?>;</script>
     <script>
-    window.subdomainData = <?php echo $subdomainJS; ?>;
+    window.TRADERS_CLUB_QUALIFICATION = <?php echo json_encode(
+        [
+            'postUrl' => $tcQualPostUrl,
+            'configured' => ($tcQualPostUrl !== '' && ($tcQualToken !== '' || $tcQualBearer !== '')),
+            'bearer' => $tcQualBearer,
+        ],
+        JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
+    ); ?>;
     </script>
     <?php if (!empty($tradertok_extra_geo_main_hosts) && is_array($tradertok_extra_geo_main_hosts)) : ?>
     <script>
@@ -31,7 +74,7 @@ function routeUrl($pageName, array $params = [])
     </script>
     <?php endif; ?>
 
-    <!-- Canonical subdomain map + region redirect (load order matters) -->
+    <!-- Subdomain map must load before region-redirect.js -->
     <script
       src="assets/js/tradertok-subdomain-config.js?v=<?php echo filemtime('assets/js/tradertok-subdomain-config.js'); ?>">
     </script>
@@ -41,30 +84,27 @@ function routeUrl($pageName, array $params = [])
     <?php include 'gtm-head-code.php'; ?>
     <!-- End Google Tag Manager -->
 
-    <!-- Primary Meta Tags -->
-    <title><?php echo $get->title; ?></title>
-    <meta name="title" content="<?php echo $get->title; ?>">
-    <meta name="description" content="<?php echo $get->desc; ?>">
-    <meta name="keywords" content="<?php echo $get->keyw; ?>">
-    <meta name="author" content=" <?php echo $get->brand_name; ?>">
-    <meta name="theme-color" content="#E63946">
+    <title><?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?></title>
+    <meta name="title" content="<?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="description" content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="keywords" content="<?php echo htmlspecialchars((string) $get->keyw, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="author" content="<?php echo htmlspecialchars((string) $get->brand_name, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="theme-color" content="#d02c2d">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tradertok.com/">
-    <meta property="og:title" content="TraderTok - Professional Trading Platform">
-    <meta property="og:description"
-      content="Grow your savings with confidence. Access powerful trading platforms, real-time analysis, and 24/7 expert support.">
-    <meta property="og:image" content="https://tradertok.com/og-image.jpg">
-    <meta property="og:site_name" content="TraderTok">
+    <meta property="og:url" content="<?php echo htmlspecialchars($ttOgUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:title" content="<?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($ttOgImageUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:site_name" content="<?php echo htmlspecialchars((string) $get->brand_name, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://tradertok.com/">
-    <meta name="twitter:title" content="TraderTok - Professional Trading Platform">
-    <meta name="twitter:description"
-      content="Grow your savings with confidence. Access powerful trading platforms and expert market insights.">
-    <meta name="twitter:image" content="https://tradertok.com/twitter-image.jpg">
+    <meta name="twitter:url" content="<?php echo htmlspecialchars($ttOgUrl, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($ttTwitterImageUrl, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHD8CS6T8H"></script>
@@ -85,14 +125,16 @@ function routeUrl($pageName, array $params = [])
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet">
 
-    <link rel="icon" href="<?php echo $get->assets_url . '/' . $get->favicon; ?>" />
-    <?php echo (isset($theme) && is_object($theme)) ? $theme->css_files : ''; ?>
+    <link rel="icon" href="<?php echo htmlspecialchars((string) $get->assets_url . '/' . (string) $get->favicon, ENT_QUOTES, 'UTF-8'); ?>" />
+    <?php echo (isset($theme) && is_object($theme) && isset($theme->css_files)) ? $theme->css_files : ''; ?>
+
     <?php
     $sharedStylesheets = [
         'assets/css/design-tokens.css',
         'assets/css/education-hub.css',
         'assets/css/education-article.css',
         'assets/css/about-styles.css',
+        'assets/css/education-about-alignment.css',
         'assets/css/styles.css',
         'assets/css/team-styles.css',
         'assets/css/instruments-styles.css',
@@ -107,10 +149,12 @@ function routeUrl($pageName, array $params = [])
     }
     ?>
 
+    <?php include __DIR__ . '/partials/site-heading-accent-swap.php'; ?>
+
     <?php echo $get->head_code; ?>
   </head>
 
-  <body>
+  <body class="<?php echo !$page ? 'page-home' : 'page-inner'; ?>">
     <!-- Google Tag Manager (noscript) -->
     <?php include 'gtm-body-code.php'; ?>
     <!-- End Google Tag Manager (noscript) -->
@@ -134,232 +178,8 @@ function routeUrl($pageName, array $params = [])
 
           <!-- Navigation -->
           <nav class="nav" id="main-navigation" aria-label="Main navigation">
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="./about" class="nav-link" data-i18n="nav.aboutUs">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="./meet-the-team" class="nav-link" data-i18n="nav.meetTheTeam">Meet the Team</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.trading">Trading</span> <span class="arrow">▼</span></a>
-                <div class="dropdown-menu" role="menu">
-                  <div class="dropdown-cards">
-                    <a href="./trading-platform" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                          <line x1="8" y1="21" x2="16" y2="21"></line>
-                          <line x1="12" y1="17" x2="12" y2="21"></line>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.tradingPlatform">Trading Platform</h3>
-                        <p data-i18n="dropdown.tradingPlatformDesc">Explore our platforms</p>
-                      </div>
-                    </a>
-                    <a href="./trading-central" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.tradingCentral">Trading Central</h3>
-                        <p data-i18n="dropdown.tradingCentralDesc">Advanced analytics & insights</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a href="./account-types" class="nav-link" data-i18n="nav.accountTypes">Account Types</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="./education-hub" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.educationHub">Education Hub</span> <span class="arrow">▼</span></a>
-                <div class="dropdown-menu" role="menu">
-                  <div class="dropdown-cards">
-                    <a href="<?php echo routeUrl('courses'); ?>" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-                          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.courses">Courses</h3>
-                        <p>Learn trading fundamentals</p>
-                      </div>
-                    </a>
-                    <a href="<?php echo routeUrl('trading-essentials'); ?>" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.articles">Articles</h3>
-                        <p>Expert trading guides</p>
-                      </div>
-                    </a>
-                    <a href="./edu-market-news" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
-                          <path d="M17 6h6v6"></path>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.marketNews">Market News</h3>
-                        <p>Latest insights & analysis</p>
-                      </div>
-                    </a>
-                    <a href="./edu-ebooks" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.ebooks">eBooks</h3>
-                        <p>Downloadable guides</p>
-                      </div>
-                    </a>
-                    <a href="./edu-webinars" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                          <line x1="8" y1="21" x2="16" y2="21"></line>
-                          <line x1="12" y1="17" x2="12" y2="21"></line>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.webinars">Webinars</h3>
-                        <p>Learn from experts live</p>
-                      </div>
-                    </a>
-                    <a href="./edu-glossary" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <circle cx="11" cy="11" r="8"></circle>
-                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="educationHub.menu.glossary">Glossary</h3>
-                        <p>Master trading terms</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.marketsOverview">Markets Overview</span> <span class="arrow">▼</span></a>
-                <div class="dropdown-menu" role="menu">
-                  <div class="dropdown-cards">
-                    <a href="./events-calendar" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                          <line x1="16" y1="2" x2="16" y2="6"></line>
-                          <line x1="8" y1="2" x2="8" y2="6"></line>
-                          <line x1="3" y1="10" x2="21" y2="10"></line>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.eventsCalendar">Events Calendar</h3>
-                        <p data-i18n="dropdown.eventsCalendarDesc">Track important market events</p>
-                      </div>
-                    </a>
-                    <a href="./research" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <line x1="12" y1="20" x2="12" y2="10"></line>
-                          <line x1="18" y1="20" x2="18" y2="4"></line>
-                          <line x1="6" y1="20" x2="6" y2="16"></line>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.research">Research</h3>
-                        <p data-i18n="dropdown.researchDesc">In-depth market analysis and insights</p>
-                      </div>
-                    </a>
-                    <a href="./live-training" class="menu-card">
-                      <span class="menu-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <circle cx="12" cy="12" r="10"></circle>
-                          <circle cx="12" cy="12" r="3"></circle>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.liveTraining">Live Training</h3>
-                        <p data-i18n="dropdown.liveTrainingDesc">Join live sessions with experts</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.legal">Legal</span> <span class="arrow">▼</span></a>
-                <div class="dropdown-menu" role="menu">
-                  <div class="dropdown-cards">
-                    <a href="./legal-documents" class="menu-card">
-                      <span class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                          <g fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path
-                              d="M3 10c0-3.771 0-5.657 1.172-6.828S7.229 2 11 2h2c3.771 0 5.657 0 6.828 1.172S21 6.229 21 10v4c0 3.771 0 5.657-1.172 6.828S16.771 22 13 22h-2c-3.771 0-5.657 0-6.828-1.172S3 17.771 3 14z" />
-                            <path stroke-linecap="round" d="M8 10h8m-8 4h5" />
-                          </g>
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.legalDocuments">Legal Documents</h3>
-                        <p data-i18n="dropdown.legalDocumentsDesc">Explore our legal documents</p>
-                      </div>
-                    </a>
-                    <a href="./regulations" class="menu-card">
-                      <span class="menu-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32">
-                          <path fill="currentColor"
-                            d="M28 22v-3c0-2.2-1.8-4-4-4s-4 1.8-4 4v3c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-5c0-1.1-.9-2-2-2m-6-3c0-1.1.9-2 2-2s2 .9 2 2v3h-4zm-2 10v-5h8v5zM8 16h6v2H8zm0-6h12v2H8z" />
-                          <path fill="currentColor"
-                            d="M26 4c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v13c0 4.1 2.2 7.8 5.8 9.7l5.2 2.8v-2.3l-4.2-2.3C5.8 23.4 4 20.3 4 17V4h20v8h2z" />
-                        </svg>
-                      </span>
-                      <div class="menu-text">
-                        <h3 data-i18n="dropdown.regulations">Regulations</h3>
-                        <p data-i18n="dropdown.regulationsDesc">Explore our regulations</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              <li class="nav-item dropdown">
-                <a href="./offers-promotions" class="nav-link" aria-haspopup="true" aria-expanded="false"><span
-                    data-i18n="nav.offers">Offers</span> <span class="arrow">▼</span></a>
-                <div class="dropdown-menu offers-dropdown" role="menu"></div>
-              </li>
-              <li class="nav-item">
-                <a href="./contact-us" class="nav-link" data-i18n="nav.contactUs">Contact Us</a>
-              </li>
-            </ul>
+            <?php include __DIR__ . '/partials/main-nav-list.php'; ?>
+
             <div class="mobile-menu-extra">
               <!-- Language Selector for Mobile Menu -->
               <div class="mobile-language-section">
@@ -395,6 +215,54 @@ function routeUrl($pageName, array $params = [])
                       </svg>
                     </span>
                     <span class="mobile-language-name" data-i18n="language.spanish">Español</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="th" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>
+                    <span class="mobile-language-name" data-i18n="language.thai">ไทย</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="vn" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇻🇳</span>
+                    <span class="mobile-language-name" data-i18n="language.vietnamese">Tiếng Việt</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="my" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇲🇾</span>
+                    <span class="mobile-language-name" data-i18n="language.malay">Bahasa Melayu</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="id" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇮🇩</span>
+                    <span class="mobile-language-name" data-i18n="language.indonesian">Bahasa Indonesia</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="ph" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇵🇭</span>
+                    <span class="mobile-language-name" data-i18n="language.tagalog">Tagalog</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="pk" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇵🇰</span>
+                    <span class="mobile-language-name" data-i18n="language.urdu">اردو</span>
                     <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
@@ -503,6 +371,30 @@ function routeUrl($pageName, array $params = [])
                     </svg>
                   </span>
                   <span class="language-name" data-i18n="language.spanish">Español</span>
+                </div>
+                <div class="language-item" data-lang="th" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>
+                  <span class="language-name" data-i18n="language.thai">ไทย</span>
+                </div>
+                <div class="language-item" data-lang="vn" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇻🇳</span>
+                  <span class="language-name" data-i18n="language.vietnamese">Tiếng Việt</span>
+                </div>
+                <div class="language-item" data-lang="my" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇲🇾</span>
+                  <span class="language-name" data-i18n="language.malay">Bahasa Melayu</span>
+                </div>
+                <div class="language-item" data-lang="id" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇮🇩</span>
+                  <span class="language-name" data-i18n="language.indonesian">Bahasa Indonesia</span>
+                </div>
+                <div class="language-item" data-lang="ph" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇵🇭</span>
+                  <span class="language-name" data-i18n="language.tagalog">Tagalog</span>
+                </div>
+                <div class="language-item" data-lang="pk" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇵🇰</span>
+                  <span class="language-name" data-i18n="language.urdu">اردو</span>
                 </div>
                 <div class="language-item" data-lang="th" style="display: none;">
                   <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>

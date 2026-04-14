@@ -155,7 +155,7 @@
   height: 44px;
   margin-bottom: 16px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff6b35 0%, #ff3b30 100%);
+  background: linear-gradient(135deg, #d02c2d 0%, #ff3b30 100%);
   color: #ffffff;
   font-size: 1rem;
   font-weight: 700;

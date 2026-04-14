@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Copy to traders-club.local.php and add your token (do not commit that file).
+ * Default upstream is https://6dfed096-backend.dataconect.com/.../qualification — override qualification_url if needed.
+ * head.php exposes postUrl + token to the browser for direct qualification POST (no PHP proxy).
+ * Upstream must allow CORS from your site origin for browser requests to succeed.
+ */
+return [
+    'qualification_token' => 'PASTE_QUERY_TOKEN_UUID_HERE',
+    // 'qualification_url' => 'https://other-host.dataconect.com/api/v1/webhook/user-ad-group/qualification',
+    // Optional: only if your environment uses Bearer instead of or in addition to ?token=
+    // 'qualification_bearer_token' => '',
+    // 'qualification_extra_headers' => [
+    //     'X-Api-Key: your-key-here',
+    // ],
+];

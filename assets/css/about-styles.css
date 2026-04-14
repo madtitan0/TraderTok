@@ -12,7 +12,7 @@
 .about-values,
 .about-global,
 .about-cta {
-    --about-heading-color: #ff6b35;
+    --about-heading-color: #d02c2d;
     --about-subheading-color: #ffffff;
     --about-body-color: var(--text-secondary);
 }
@@ -23,7 +23,8 @@
 }
 
 .section-title {
-    font-size: clamp(1.85rem, 4vw, 2.6rem);
+    /* Match home primary section headings (e.g. platforms-title, card-title): max 3.5rem */
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: 700;
     color: var(--about-heading-color);
     margin-bottom: 14px;
@@ -96,7 +97,7 @@
     height: 600px;
     top: -200px;
     left: -200px;
-    background: radial-gradient(circle, #e63946, transparent 70%);
+    background: radial-gradient(circle, #d02c2d, transparent 70%);
 }
 
 .about-hero-orb.orb-2 {
@@ -104,7 +105,7 @@
     height: 500px;
     bottom: -100px;
     right: -100px;
-    background: radial-gradient(circle, #ff6b35, transparent 70%);
+    background: radial-gradient(circle, #d02c2d, transparent 70%);
 }
 
 .about-hero-grid {
@@ -130,7 +131,7 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-size: clamp(1.85rem, 4vw, 2.6rem);
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -389,7 +390,7 @@
 }
 
 .leadership-eyebrow {
-    font-size: clamp(1.85rem, 4vw, 2.6rem);
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -437,7 +438,7 @@
     left: -20px;
     width: 60px;
     height: 60px;
-    background: radial-gradient(circle, #e63946, transparent 70%);
+    background: radial-gradient(circle, #d02c2d, transparent 70%);
     opacity: 0.15;
     filter: blur(10px);
 }
@@ -529,7 +530,7 @@
 
 .about-vision-badge {
     display: inline-block;
-    font-size: clamp(1.85rem, 4vw, 2.6rem);
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -642,7 +643,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e63946;
+    color: #d02c2d;
     margin-bottom: 20px;
     position: relative;
     z-index: 1;
@@ -713,7 +714,7 @@
     height: 300px;
     top: -100px;
     right: -100px;
-    background: radial-gradient(circle, rgba(255,107,53,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(230, 57, 70,0.08) 0%, transparent 70%);
     border-radius: 50%;
     pointer-events: none;
 }
@@ -802,7 +803,7 @@
 .instrument-chip:hover {
     background: rgba(230, 57, 70, 0.08);
     border-color: rgba(230, 57, 70, 0.3);
-    color: #e63946;
+    color: #d02c2d;
 }
 
 .instrument-chip svg { color: inherit; }
@@ -841,7 +842,7 @@
     height: 70%;
     animation-duration: 12s;
     animation-direction: reverse;
-    border-color: rgba(255, 107, 53, 0.2);
+    border-color: rgba(230, 57, 70, 0.2);
 }
 
 .ring-3 {
@@ -960,7 +961,7 @@
     color: #fff;
     border: none;
     padding: 15px 36px;
-    border-radius: 10px;
+    border-radius: var(--btn-pill-radius, 9999px);
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -976,7 +977,7 @@
 
 .cta-btn-secondary {
     padding: 15px 36px;
-    border-radius: 10px;
+    border-radius: var(--btn-pill-radius, 9999px);
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-primary);

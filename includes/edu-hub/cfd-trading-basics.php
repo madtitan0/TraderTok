@@ -112,6 +112,8 @@ $faq_items = [
     ['q' => 'Why are CFDs considered risky?', 'a' => 'CFDs are considered risky because they are complex and leveraged. Small market moves can lead to disproportionately large losses, and costs such as spreads and financing can also affect performance.'],
     ['q' => 'Is this CFD trading basics course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand long and short positions, leverage, margin, and the main risks before moving to advanced topics.'],
 ];
+require_once __DIR__ . '/../config/course-faq-helpers.php';
+$course_faq_visible = course_faq_is_complete($faq_items);
 ?>
 
 <section class="education-subpage education-course-page">
@@ -124,10 +126,7 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 This beginner-friendly CFD trading course explains what Contracts for Difference are, how they work, how traders take long and short positions, and why leverage, margin, and risk management matter. If you are new to CFD trading, this course gives you the foundation you need before moving into more advanced trading concepts.
             </p>
-            <div class="education-course-hero-actions">
-                <a href="#course-lessons" class="btn-primary">Start Course</a>
-                <a href="<?php echo routeUrl('courses'); ?>" class="education-article-link courses-secondary-cta">View All Courses</a>
-            </div>
+            <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
                 <?php foreach ($course_info as $label => $value): ?>
                     <div class="education-course-info-item">
@@ -153,9 +152,12 @@ $faq_items = [
                             <a href="#course-example">Simple CFD Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
+                            <?php if ($course_faq_visible): ?>
                             <a href="#course-faq">Frequently Asked Questions</a>
+                            <?php endif; ?>
                         </div>
                     </div>
+                    <?php include __DIR__ . '/../partials/course-video-education-promo.php'; ?>
                 </aside>
 
                 <main class="education-article-main">
@@ -202,14 +204,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-block" id="course-summary">
-                        <div class="education-article-block-label">Beginner Summary Block</div>
                         <h2>Course summary</h2>
                         <p>CFD trading basics come down to four core ideas: a CFD is a product used to speculate on price movements without owning the underlying asset, traders can take both long and short positions, leverage and margin allow larger market exposure with a smaller upfront deposit, and CFDs are complex and high-risk products, especially for beginners.</p>
                         <p>These concepts form the foundation for later topics such as risk management, order execution, and platform usage.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <div class="education-article-block-label">Practical Example Section</div>
                         <h2>Simple CFD example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
@@ -231,14 +231,12 @@ $faq_items = [
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
-                        <div class="education-article-block-label">Risk Awareness Section</div>
                         <h2>Important note for beginners</h2>
                         <p>CFDs are not beginner-safe simply because they are popular or easy to access online. Regulators and providers consistently describe them as complex leveraged instruments that can lead to rapid losses. ESMA’s 2018 restrictions on retail CFDs included leverage limits, margin close-out rules, and negative balance protection measures, reflecting the level of concern around retail harm.</p>
                         <p>CFD trading involves significant risk and may not be suitable for all traders. Because CFDs are leveraged products, losses can exceed expectations if risk is not managed carefully. Educational content should not be treated as investment advice.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
-                        <div class="education-article-block-label">Related Learning Section</div>
                         <h2>Continue learning next</h2>
                         <div class="education-course-related-grid">
                             <article class="education-article-panel">
@@ -269,8 +267,8 @@ $faq_items = [
                         </div>
                     </section>
 
+                    <?php if ($course_faq_visible): ?>
                     <section class="education-article-block" id="course-faq">
-                        <div class="education-article-block-label">SEO-Friendly FAQ Section</div>
                         <h2>Frequently Asked Questions</h2>
                         <div class="courses-faq-list">
                             <?php foreach ($faq_items as $faq): ?>
@@ -281,16 +279,17 @@ $faq_items = [
                             <?php endforeach; ?>
                         </div>
                     </section>
+                    <?php endif; ?>
 
                     <section class="courses-final-cta">
                         <div class="courses-final-cta-panel">
-                            <div class="education-article-meta">Final CTA</div>
                             <h2>Build Your CFD Foundation Before You Trade</h2>
                             <p>Learn how CFDs work first, then continue with leverage, risk management, technical analysis, and platform learning inside TraderTok Academy.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
                                 <a href="./education-article?id=what-is-forex-trading" class="education-article-link courses-secondary-cta">Explore Related Articles</a>
-                                <a href="./account-types" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>
                         </div>
                     </section>

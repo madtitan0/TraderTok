@@ -10,8 +10,8 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="doc-page-hero-title">
-        <span data-i18n="riskDisclosurePage.h1">RISK DISCLOSURE</span>
+      <div class="doc-page-hero-title doc-heading-accent" style='color: var(--brand-color-start)'>
+        <span data-i18n="legalPage.riskDisclosureHeroTitle">RISK DISCLOSURE</span>
       </div>
       <h1 class="doc-sub">
         <span data-i18n="riskDisclosurePage.h2">Definitions</span>

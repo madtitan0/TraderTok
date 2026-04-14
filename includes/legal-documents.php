@@ -25,11 +25,11 @@
 }
 
 .hero-title {
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: clamp(2rem, 4vw, 3.1rem);
   font-weight: 800;
   line-height: 1.1;
   margin: 0;
-  color: var(--text-primary);
+  color: var(--brand-color-start);
 }
 
 .gradient-text {
@@ -47,16 +47,24 @@
 .hero-description {
   font-size: 0.95rem;
   line-height: 1.8;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.95);
   margin: 0;
+}
+
+body.light-theme .legal-page .hero-description {
+  color: var(--text-secondary);
 }
 
 .hero-note {
   font-size: 0.85rem;
   line-height: 1.7;
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.9);
   font-style: italic;
   margin: 0;
+}
+
+body.light-theme .legal-page .hero-note {
+  color: var(--text-tertiary);
 }
 
 .documents-grid {
@@ -175,7 +183,7 @@
 .document-download {
   width: 38px;
   height: 38px;
-  border-radius: 10px;
+  border-radius: var(--btn-pill-radius, 9999px);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -227,88 +235,72 @@
   display: block;
 }
 
-.document-description p {
-  font-size: 0.92rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
+/* Preview / fallback copy only (not inside structured panel) */
+.document-description > p {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.95);
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
   margin: 0 0 12px;
-  display: block;
 }
 
-.document-description p:last-child {
+body.light-theme .document-description > p {
+  color: var(--text-secondary);
+}
+
+.document-description > p:last-child {
   margin-bottom: 0;
 }
 
-.document-description .doc-sub {
-  margin: 18px 0 8px;
-  font-size: 0.92rem;
-  font-weight: 700;
-  line-height: 1.5;
-  color: var(--text-primary);
+/*
+ * Accordion panel: same typography as .page-hero-content.legal-document-content in styles.css
+ * (brand main title, white section heads, white body). Scoped here for padding / edge cases only.
+ */
+.document-description .legal-documents-panel.page-hero-content.legal-document-content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: left;
+  align-items: flex-start;
+  padding: clamp(20px, 3vw, 40px);
 }
 
-.document-description .doc-sub:first-child {
+.document-description .legal-documents-panel > h1.doc-sub:first-child {
   margin-top: 0;
 }
 
-.document-description .doc-page-hero-title {
-  margin: 18px 0 8px;
-  font-size: 0.92rem;
-  font-weight: 700;
-  line-height: 1.5;
+.document-description .legal-documents-panel h1.doc-sub span,
+.document-description .legal-documents-panel h1.doc-page-hero-title span {
+  /* color: inherit; */
+  /* background: none; */
+  /* -webkit-text-fill-color: currentColor; */
+}
+
+.document-description .legal-documents-panel .doc-page-hero-subtitle b,
+.document-description .legal-documents-panel .doc-page-hero-subtitle strong {
   color: var(--text-primary);
+  font-weight: 600;
 }
 
-.document-description .doc-page-hero-title:first-child {
-  margin-top: 0;
+body:not(.light-theme) .document-description .legal-documents-panel .doc-page-hero-subtitle b,
+body:not(.light-theme) .document-description .legal-documents-panel .doc-page-hero-subtitle strong {
+  color: #ffffff;
 }
 
-.document-description .page-hero-badge {
-  display: none;
-}
-
-.document-description .doc-sub span {
-  color: inherit;
-  background: none;
-  -webkit-text-fill-color: currentColor;
-}
-
-.document-description .doc-page-hero-title span {
-  color: inherit;
-  background: none;
-  -webkit-text-fill-color: currentColor;
-}
-
-.document-description .doc-page-hero-subtitle,
-.document-description .doc-page-hero-list li,
-.document-description .doc-page-hero-small {
-  font-size: 0.92rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
-}
-
-.document-description .doc-page-hero-subtitle {
-  margin: 0 0 12px;
+.document-description .legal-documents-panel p:not([class]) {
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  line-height: 1.75;
+  color: #ffffff;
+  margin: 0 0 1rem;
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
 }
 
-.document-description .doc-page-hero-list {
-  margin: 0 0 12px 20px;
-  padding: 0;
-}
-
-.document-description .doc-page-hero-list li {
-  margin-bottom: 8px;
-}
-
-.document-description .doc-page-hero-small {
-  display: block;
-  margin-top: 10px;
+body.light-theme .document-description .legal-documents-panel p:not([class]) {
+  color: var(--text-secondary);
 }
 
 .video-section {
@@ -364,13 +356,20 @@
 .notice-title svg {
   width: 16px;
   height: 16px;
-  stroke: #E63946;
+  stroke: var(--brand-color-start);
   flex-shrink: 0;
 }
 
 .notice-text {
   font-size: 0.9rem;
   line-height: 1.8;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+body.light-theme .notice-text {
   color: var(--text-secondary);
   text-align: center;
   max-width: 920px;
@@ -428,7 +427,7 @@
   .document-download {
     width: 34px;
     height: 34px;
-    border-radius: 9px;
+    border-radius: var(--btn-pill-radius, 9999px);
   }
 
   .document-description,
@@ -585,7 +584,7 @@
             <div class="hero-content">
               <h1 class="hero-title">
                 <span data-i18n="legalPage.heroTitle">Important Legal Information &</span>
-                <span class="gradient-text" data-i18n="legalPage.heroTitleHighlight">Policies</span>
+                <span class="" data-i18n="legalPage.heroTitleHighlight">Policies</span>
               </h1>
               <p class="hero-description" data-i18n="legalPage.heroDescription1">
                 At TraderTok, we are committed to maintaining the highest standards of regulatory
@@ -637,7 +636,9 @@
                 </div>
                 <div class="document-description">
                   <?php if (!empty($document['content_html'])): ?>
+                  <div class="page-hero-content legal-document-content legal-documents-panel">
                   <?php echo $document['content_html']; ?>
+                  </div>
                   <?php elseif (!empty($document['preview'])): ?>
                   <?php foreach ($document['preview'] as $paragraph): ?>
                   <p><?php echo htmlspecialchars($paragraph); ?></p>

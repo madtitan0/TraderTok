@@ -21,7 +21,8 @@
 }
 
 .contact-title {
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  /* Match home / about primary section headings (max 3.5rem) */
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 16px;
@@ -129,7 +130,7 @@
   padding: 16px 32px;
   background: var(--brand-gradient);
   border: none;
-  border-radius: 10px;
+  border-radius: 9999px;
   color: white;
   font-size: 1rem;
   font-weight: 600;
@@ -183,7 +184,7 @@
             <!-- Left Side - Form -->
             <div class="contact-content">
               <h1 class="contact-title"><span data-i18n="contactUsPage.heroTitle">Contact</span> <span
-                  class="gradient-text" data-i18n="contactUsPage.heroTitleHighlight">Us</span></h1>
+                  class="" data-i18n="contactUsPage.heroTitleHighlight">Us</span></h1>
               <p class="contact-description" data-i18n="contactUsPage.heroDescription">
                 We remain open to any inquiries or questions you might have. Please submit a query in the fields below,
                 and our support team will promptly respond to it.

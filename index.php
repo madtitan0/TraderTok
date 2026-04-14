@@ -1,13 +1,42 @@
 <?php
 ob_start();
+echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
+require __DIR__ . '/ensure-api-cache-shape.php';
+require __DIR__ . '/api.php';
 
-require 'api.php';
+// Academy: page-specific SEO (API $get defaults are site-wide).
+if (!empty($page)) {
+    if ($page === 'edu-market-news') {
+        $get->title = 'Market News & Insights | Forex, Gold, Indices & Macro Analysis | TraderTok';
+        $get->desc = 'Stay updated with TraderTok market news, weekly outlooks, forex analysis, gold insights, and major economic events shaping the markets.';
+        $get->keyw = 'market news and analysis, forex market news, gold market outlook, weekly market outlook, trading market analysis';
+    } elseif ($page === 'open-demo-account') {
+        $get->title = 'Open Demo Account | Practice Trading | TraderTok';
+        $get->desc = 'Register your interest in a free demo trading account. Practice with virtual funds on live market data.';
+        $get->keyw = 'demo account, practice trading, forex demo, CFD demo';
+    } elseif ($page === 'open-live-account') {
+        $get->title = 'Open Live Trading Account | TraderTok';
+        $get->desc = 'Start your live trading account application. Our team will follow up with next steps and documentation.';
+        $get->keyw = 'live account, forex account, trading account registration';
+    } elseif ($page === 'lead-thank-you') {
+        $get->title = 'Thank You | TraderTok';
+        $get->desc = 'Your request has been received.';
+        $get->keyw = 'thank you, confirmation';
+    } else {
+        $courseSeo = require __DIR__ . '/includes/config/course-seo.php';
+        if (isset($courseSeo[$page])) {
+            $get->title = $courseSeo[$page]['title'];
+            $get->desc = $courseSeo[$page]['description'];
+            $get->keyw = $courseSeo[$page]['keywords'];
+        }
+    }
+}
+
 require 'includes/head.php';
 
-// Debug comment after full PHP execution
 echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
 
-$routeConfig = require __DIR__ . '/config/page-routes.php';
+$routeConfig = require __DIR__ . '/includes/config/page-routes.php';
 $staticRoutes = $routeConfig['static'];
 
 if (!$page) {
