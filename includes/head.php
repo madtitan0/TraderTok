@@ -600,6 +600,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Algeria</span>
                   <span class="country-code">+213</span>
                 </div>
+                <div class="country-item" data-code="+1" data-flag="🇦🇸" data-country="American Samoa">
+                  <span class="country-flag">🇦🇸</span>
+                  <span class="country-name">American Samoa</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+376" data-flag="🇦🇩" data-country="Andorra">
                   <span class="country-flag">🇦🇩</span>
                   <span class="country-name">Andorra</span>
@@ -610,6 +615,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Angola</span>
                   <span class="country-code">+244</span>
                 </div>
+                <div class="country-item" data-code="+1" data-flag="🇦🇮" data-country="Anguilla">
+                  <span class="country-flag">🇦🇮</span>
+                  <span class="country-name">Anguilla</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇦🇬" data-country="Antigua and Barbuda">
+                  <span class="country-flag">🇦🇬</span>
+                  <span class="country-name">Antigua and Barbuda</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+54" data-flag="🇦🇷" data-country="Argentina">
                   <span class="country-flag">🇦🇷</span>
                   <span class="country-name">Argentina</span>
@@ -619,6 +634,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇦🇲</span>
                   <span class="country-name">Armenia</span>
                   <span class="country-code">+374</span>
+                </div>
+                <div class="country-item" data-code="+297" data-flag="🇦🇼" data-country="Aruba">
+                  <span class="country-flag">🇦🇼</span>
+                  <span class="country-name">Aruba</span>
+                  <span class="country-code">+297</span>
                 </div>
                 <div class="country-item" data-code="+61" data-flag="🇦🇺" data-country="Australia">
                   <span class="country-flag">🇦🇺</span>
@@ -635,6 +655,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Azerbaijan</span>
                   <span class="country-code">+994</span>
                 </div>
+                <div class="country-item" data-code="+1" data-flag="🇧🇸" data-country="Bahamas">
+                  <span class="country-flag">🇧🇸</span>
+                  <span class="country-name">Bahamas</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+973" data-flag="🇧🇭" data-country="Bahrain">
                   <span class="country-flag">🇧🇭</span>
                   <span class="country-name">Bahrain</span>
@@ -644,6 +669,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇧🇩</span>
                   <span class="country-name">Bangladesh</span>
                   <span class="country-code">+880</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇧🇧" data-country="Barbados">
+                  <span class="country-flag">🇧🇧</span>
+                  <span class="country-name">Barbados</span>
+                  <span class="country-code">+1</span>
                 </div>
                 <div class="country-item" data-code="+375" data-flag="🇧🇾" data-country="Belarus">
                   <span class="country-flag">🇧🇾</span>
@@ -655,6 +685,26 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Belgium</span>
                   <span class="country-code">+32</span>
                 </div>
+                <div class="country-item" data-code="+501" data-flag="🇧🇿" data-country="Belize">
+                  <span class="country-flag">🇧🇿</span>
+                  <span class="country-name">Belize</span>
+                  <span class="country-code">+501</span>
+                </div>
+                <div class="country-item" data-code="+229" data-flag="🇧🇯" data-country="Benin">
+                  <span class="country-flag">🇧🇯</span>
+                  <span class="country-name">Benin</span>
+                  <span class="country-code">+229</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇧🇲" data-country="Bermuda">
+                  <span class="country-flag">🇧🇲</span>
+                  <span class="country-name">Bermuda</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+975" data-flag="🇧🇹" data-country="Bhutan">
+                  <span class="country-flag">🇧🇹</span>
+                  <span class="country-name">Bhutan</span>
+                  <span class="country-code">+975</span>
+                </div>
                 <div class="country-item" data-code="+591" data-flag="🇧🇴" data-country="Bolivia">
                   <span class="country-flag">🇧🇴</span>
                   <span class="country-name">Bolivia</span>
@@ -665,25 +715,90 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Bosnia and Herzegovina</span>
                   <span class="country-code">+387</span>
                 </div>
+                <div class="country-item" data-code="+267" data-flag="🇧🇼" data-country="Botswana">
+                  <span class="country-flag">🇧🇼</span>
+                  <span class="country-name">Botswana</span>
+                  <span class="country-code">+267</span>
+                </div>
+                <div class="country-item" data-code="+47" data-flag="🇧🇻" data-country="Bouvet Island">
+                  <span class="country-flag">🇧🇻</span>
+                  <span class="country-name">Bouvet Island</span>
+                  <span class="country-code">+47</span>
+                </div>
                 <div class="country-item" data-code="+55" data-flag="🇧🇷" data-country="Brazil">
                   <span class="country-flag">🇧🇷</span>
                   <span class="country-name">Brazil</span>
                   <span class="country-code">+55</span>
+                </div>
+                <div class="country-item" data-code="+246" data-flag="🇮🇴" data-country="British Indian Ocean Territory">
+                  <span class="country-flag">🇮🇴</span>
+                  <span class="country-name">British Indian Ocean Territory</span>
+                  <span class="country-code">+246</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇻🇬" data-country="British Virgin Islands">
+                  <span class="country-flag">🇻🇬</span>
+                  <span class="country-name">British Virgin Islands</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+673" data-flag="🇧🇳" data-country="Brunei">
+                  <span class="country-flag">🇧🇳</span>
+                  <span class="country-name">Brunei</span>
+                  <span class="country-code">+673</span>
                 </div>
                 <div class="country-item" data-code="+359" data-flag="🇧🇬" data-country="Bulgaria">
                   <span class="country-flag">🇧🇬</span>
                   <span class="country-name">Bulgaria</span>
                   <span class="country-code">+359</span>
                 </div>
+                <div class="country-item" data-code="+226" data-flag="🇧🇫" data-country="Burkina Faso">
+                  <span class="country-flag">🇧🇫</span>
+                  <span class="country-name">Burkina Faso</span>
+                  <span class="country-code">+226</span>
+                </div>
+                <div class="country-item" data-code="+257" data-flag="🇧🇮" data-country="Burundi">
+                  <span class="country-flag">🇧🇮</span>
+                  <span class="country-name">Burundi</span>
+                  <span class="country-code">+257</span>
+                </div>
                 <div class="country-item" data-code="+855" data-flag="🇰🇭" data-country="Cambodia">
                   <span class="country-flag">🇰🇭</span>
                   <span class="country-name">Cambodia</span>
                   <span class="country-code">+855</span>
                 </div>
+                <div class="country-item" data-code="+237" data-flag="🇨🇲" data-country="Cameroon">
+                  <span class="country-flag">🇨🇲</span>
+                  <span class="country-name">Cameroon</span>
+                  <span class="country-code">+237</span>
+                </div>
                 <div class="country-item" data-code="+1" data-flag="🇨🇦" data-country="Canada">
                   <span class="country-flag">🇨🇦</span>
                   <span class="country-name">Canada</span>
                   <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+238" data-flag="🇨🇻" data-country="Cape Verde">
+                  <span class="country-flag">🇨🇻</span>
+                  <span class="country-name">Cape Verde</span>
+                  <span class="country-code">+238</span>
+                </div>
+                <div class="country-item" data-code="+599" data-flag="🇧🇶" data-country="Caribbean Netherlands">
+                  <span class="country-flag">🇧🇶</span>
+                  <span class="country-name">Caribbean Netherlands</span>
+                  <span class="country-code">+599</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇰🇾" data-country="Cayman Islands">
+                  <span class="country-flag">🇰🇾</span>
+                  <span class="country-name">Cayman Islands</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+236" data-flag="🇨🇫" data-country="Central African Republic">
+                  <span class="country-flag">🇨🇫</span>
+                  <span class="country-name">Central African Republic</span>
+                  <span class="country-code">+236</span>
+                </div>
+                <div class="country-item" data-code="+235" data-flag="🇹🇩" data-country="Chad">
+                  <span class="country-flag">🇹🇩</span>
+                  <span class="country-name">Chad</span>
+                  <span class="country-code">+235</span>
                 </div>
                 <div class="country-item" data-code="+56" data-flag="🇨🇱" data-country="Chile">
                   <span class="country-flag">🇨🇱</span>
@@ -695,10 +810,30 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">China</span>
                   <span class="country-code">+86</span>
                 </div>
+                <div class="country-item" data-code="+61" data-flag="🇨🇽" data-country="Christmas Island">
+                  <span class="country-flag">🇨🇽</span>
+                  <span class="country-name">Christmas Island</span>
+                  <span class="country-code">+61</span>
+                </div>
+                <div class="country-item" data-code="+61" data-flag="🇨🇨" data-country="Cocos (Keeling) Islands">
+                  <span class="country-flag">🇨🇨</span>
+                  <span class="country-name">Cocos (Keeling) Islands</span>
+                  <span class="country-code">+61</span>
+                </div>
                 <div class="country-item" data-code="+57" data-flag="🇨🇴" data-country="Colombia">
                   <span class="country-flag">🇨🇴</span>
                   <span class="country-name">Colombia</span>
                   <span class="country-code">+57</span>
+                </div>
+                <div class="country-item" data-code="+269" data-flag="🇰🇲" data-country="Comoros">
+                  <span class="country-flag">🇰🇲</span>
+                  <span class="country-name">Comoros</span>
+                  <span class="country-code">+269</span>
+                </div>
+                <div class="country-item" data-code="+682" data-flag="🇨🇰" data-country="Cook Islands">
+                  <span class="country-flag">🇨🇰</span>
+                  <span class="country-name">Cook Islands</span>
+                  <span class="country-code">+682</span>
                 </div>
                 <div class="country-item" data-code="+506" data-flag="🇨🇷" data-country="Costa Rica">
                   <span class="country-flag">🇨🇷</span>
@@ -709,6 +844,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇭🇷</span>
                   <span class="country-name">Croatia</span>
                   <span class="country-code">+385</span>
+                </div>
+                <div class="country-item" data-code="+53" data-flag="🇨🇺" data-country="Cuba">
+                  <span class="country-flag">🇨🇺</span>
+                  <span class="country-name">Cuba</span>
+                  <span class="country-code">+53</span>
+                </div>
+                <div class="country-item" data-code="+599" data-flag="🇨🇼" data-country="Curaçao">
+                  <span class="country-flag">🇨🇼</span>
+                  <span class="country-name">Curaçao</span>
+                  <span class="country-code">+599</span>
                 </div>
                 <div class="country-item" data-code="+357" data-flag="🇨🇾" data-country="Cyprus">
                   <span class="country-flag">🇨🇾</span>
@@ -725,6 +870,26 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Denmark</span>
                   <span class="country-code">+45</span>
                 </div>
+                <div class="country-item" data-code="+253" data-flag="🇩🇯" data-country="Djibouti">
+                  <span class="country-flag">🇩🇯</span>
+                  <span class="country-name">Djibouti</span>
+                  <span class="country-code">+253</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇩🇲" data-country="Dominica">
+                  <span class="country-flag">🇩🇲</span>
+                  <span class="country-name">Dominica</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇩🇴" data-country="Dominican Republic">
+                  <span class="country-flag">🇩🇴</span>
+                  <span class="country-name">Dominican Republic</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+243" data-flag="🇨🇩" data-country="DR Congo">
+                  <span class="country-flag">🇨🇩</span>
+                  <span class="country-name">DR Congo</span>
+                  <span class="country-code">+243</span>
+                </div>
                 <div class="country-item" data-code="+593" data-flag="🇪🇨" data-country="Ecuador">
                   <span class="country-flag">🇪🇨</span>
                   <span class="country-name">Ecuador</span>
@@ -735,15 +900,50 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Egypt</span>
                   <span class="country-code">+20</span>
                 </div>
+                <div class="country-item" data-code="+503" data-flag="🇸🇻" data-country="El Salvador">
+                  <span class="country-flag">🇸🇻</span>
+                  <span class="country-name">El Salvador</span>
+                  <span class="country-code">+503</span>
+                </div>
+                <div class="country-item" data-code="+240" data-flag="🇬🇶" data-country="Equatorial Guinea">
+                  <span class="country-flag">🇬🇶</span>
+                  <span class="country-name">Equatorial Guinea</span>
+                  <span class="country-code">+240</span>
+                </div>
+                <div class="country-item" data-code="+291" data-flag="🇪🇷" data-country="Eritrea">
+                  <span class="country-flag">🇪🇷</span>
+                  <span class="country-name">Eritrea</span>
+                  <span class="country-code">+291</span>
+                </div>
                 <div class="country-item" data-code="+372" data-flag="🇪🇪" data-country="Estonia">
                   <span class="country-flag">🇪🇪</span>
                   <span class="country-name">Estonia</span>
                   <span class="country-code">+372</span>
                 </div>
+                <div class="country-item" data-code="+268" data-flag="🇸🇿" data-country="Eswatini">
+                  <span class="country-flag">🇸🇿</span>
+                  <span class="country-name">Eswatini</span>
+                  <span class="country-code">+268</span>
+                </div>
                 <div class="country-item" data-code="+251" data-flag="🇪🇹" data-country="Ethiopia">
                   <span class="country-flag">🇪🇹</span>
                   <span class="country-name">Ethiopia</span>
                   <span class="country-code">+251</span>
+                </div>
+                <div class="country-item" data-code="+500" data-flag="🇫🇰" data-country="Falkland Islands">
+                  <span class="country-flag">🇫🇰</span>
+                  <span class="country-name">Falkland Islands</span>
+                  <span class="country-code">+500</span>
+                </div>
+                <div class="country-item" data-code="+298" data-flag="🇫🇴" data-country="Faroe Islands">
+                  <span class="country-flag">🇫🇴</span>
+                  <span class="country-name">Faroe Islands</span>
+                  <span class="country-code">+298</span>
+                </div>
+                <div class="country-item" data-code="+679" data-flag="🇫🇯" data-country="Fiji">
+                  <span class="country-flag">🇫🇯</span>
+                  <span class="country-name">Fiji</span>
+                  <span class="country-code">+679</span>
                 </div>
                 <div class="country-item" data-code="+358" data-flag="🇫🇮" data-country="Finland">
                   <span class="country-flag">🇫🇮</span>
@@ -755,6 +955,31 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">France</span>
                   <span class="country-code">+33</span>
                 </div>
+                <div class="country-item" data-code="+594" data-flag="🇬🇫" data-country="French Guiana">
+                  <span class="country-flag">🇬🇫</span>
+                  <span class="country-name">French Guiana</span>
+                  <span class="country-code">+594</span>
+                </div>
+                <div class="country-item" data-code="+689" data-flag="🇵🇫" data-country="French Polynesia">
+                  <span class="country-flag">🇵🇫</span>
+                  <span class="country-name">French Polynesia</span>
+                  <span class="country-code">+689</span>
+                </div>
+                <div class="country-item" data-code="+262" data-flag="🇹🇫" data-country="French Southern and Antarctic Lands">
+                  <span class="country-flag">🇹🇫</span>
+                  <span class="country-name">French Southern and Antarctic Lands</span>
+                  <span class="country-code">+262</span>
+                </div>
+                <div class="country-item" data-code="+241" data-flag="🇬🇦" data-country="Gabon">
+                  <span class="country-flag">🇬🇦</span>
+                  <span class="country-name">Gabon</span>
+                  <span class="country-code">+241</span>
+                </div>
+                <div class="country-item" data-code="+220" data-flag="🇬🇲" data-country="Gambia">
+                  <span class="country-flag">🇬🇲</span>
+                  <span class="country-name">Gambia</span>
+                  <span class="country-code">+220</span>
+                </div>
                 <div class="country-item" data-code="+995" data-flag="🇬🇪" data-country="Georgia">
                   <span class="country-flag">🇬🇪</span>
                   <span class="country-name">Georgia</span>
@@ -765,10 +990,75 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Germany</span>
                   <span class="country-code">+49</span>
                 </div>
+                <div class="country-item" data-code="+233" data-flag="🇬🇭" data-country="Ghana">
+                  <span class="country-flag">🇬🇭</span>
+                  <span class="country-name">Ghana</span>
+                  <span class="country-code">+233</span>
+                </div>
+                <div class="country-item" data-code="+350" data-flag="🇬🇮" data-country="Gibraltar">
+                  <span class="country-flag">🇬🇮</span>
+                  <span class="country-name">Gibraltar</span>
+                  <span class="country-code">+350</span>
+                </div>
                 <div class="country-item" data-code="+30" data-flag="🇬🇷" data-country="Greece">
                   <span class="country-flag">🇬🇷</span>
                   <span class="country-name">Greece</span>
                   <span class="country-code">+30</span>
+                </div>
+                <div class="country-item" data-code="+299" data-flag="🇬🇱" data-country="Greenland">
+                  <span class="country-flag">🇬🇱</span>
+                  <span class="country-name">Greenland</span>
+                  <span class="country-code">+299</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇬🇩" data-country="Grenada">
+                  <span class="country-flag">🇬🇩</span>
+                  <span class="country-name">Grenada</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+590" data-flag="🇬🇵" data-country="Guadeloupe">
+                  <span class="country-flag">🇬🇵</span>
+                  <span class="country-name">Guadeloupe</span>
+                  <span class="country-code">+590</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇬🇺" data-country="Guam">
+                  <span class="country-flag">🇬🇺</span>
+                  <span class="country-name">Guam</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+502" data-flag="🇬🇹" data-country="Guatemala">
+                  <span class="country-flag">🇬🇹</span>
+                  <span class="country-name">Guatemala</span>
+                  <span class="country-code">+502</span>
+                </div>
+                <div class="country-item" data-code="+44" data-flag="🇬🇬" data-country="Guernsey">
+                  <span class="country-flag">🇬🇬</span>
+                  <span class="country-name">Guernsey</span>
+                  <span class="country-code">+44</span>
+                </div>
+                <div class="country-item" data-code="+224" data-flag="🇬🇳" data-country="Guinea">
+                  <span class="country-flag">🇬🇳</span>
+                  <span class="country-name">Guinea</span>
+                  <span class="country-code">+224</span>
+                </div>
+                <div class="country-item" data-code="+245" data-flag="🇬🇼" data-country="Guinea-Bissau">
+                  <span class="country-flag">🇬🇼</span>
+                  <span class="country-name">Guinea-Bissau</span>
+                  <span class="country-code">+245</span>
+                </div>
+                <div class="country-item" data-code="+592" data-flag="🇬🇾" data-country="Guyana">
+                  <span class="country-flag">🇬🇾</span>
+                  <span class="country-name">Guyana</span>
+                  <span class="country-code">+592</span>
+                </div>
+                <div class="country-item" data-code="+509" data-flag="🇭🇹" data-country="Haiti">
+                  <span class="country-flag">🇭🇹</span>
+                  <span class="country-name">Haiti</span>
+                  <span class="country-code">+509</span>
+                </div>
+                <div class="country-item" data-code="+504" data-flag="🇭🇳" data-country="Honduras">
+                  <span class="country-flag">🇭🇳</span>
+                  <span class="country-name">Honduras</span>
+                  <span class="country-code">+504</span>
                 </div>
                 <div class="country-item" data-code="+852" data-flag="🇭🇰" data-country="Hong Kong">
                   <span class="country-flag">🇭🇰</span>
@@ -810,6 +1100,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Ireland</span>
                   <span class="country-code">+353</span>
                 </div>
+                <div class="country-item" data-code="+44" data-flag="🇮🇲" data-country="Isle of Man">
+                  <span class="country-flag">🇮🇲</span>
+                  <span class="country-name">Isle of Man</span>
+                  <span class="country-code">+44</span>
+                </div>
                 <div class="country-item" data-code="+972" data-flag="🇮🇱" data-country="Israel">
                   <span class="country-flag">🇮🇱</span>
                   <span class="country-name">Israel</span>
@@ -820,25 +1115,50 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Italy</span>
                   <span class="country-code">+39</span>
                 </div>
+                <div class="country-item" data-code="+225" data-flag="🇨🇮" data-country="Ivory Coast">
+                  <span class="country-flag">🇨🇮</span>
+                  <span class="country-name">Ivory Coast</span>
+                  <span class="country-code">+225</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇯🇲" data-country="Jamaica">
+                  <span class="country-flag">🇯🇲</span>
+                  <span class="country-name">Jamaica</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+81" data-flag="🇯🇵" data-country="Japan">
                   <span class="country-flag">🇯🇵</span>
                   <span class="country-name">Japan</span>
                   <span class="country-code">+81</span>
+                </div>
+                <div class="country-item" data-code="+44" data-flag="🇯🇪" data-country="Jersey">
+                  <span class="country-flag">🇯🇪</span>
+                  <span class="country-name">Jersey</span>
+                  <span class="country-code">+44</span>
                 </div>
                 <div class="country-item" data-code="+962" data-flag="🇯🇴" data-country="Jordan">
                   <span class="country-flag">🇯🇴</span>
                   <span class="country-name">Jordan</span>
                   <span class="country-code">+962</span>
                 </div>
-                <div class="country-item" data-code="+7" data-flag="🇰🇿" data-country="Kazakhstan">
+                <div class="country-item" data-code="+76" data-flag="🇰🇿" data-country="Kazakhstan">
                   <span class="country-flag">🇰🇿</span>
                   <span class="country-name">Kazakhstan</span>
-                  <span class="country-code">+7</span>
+                  <span class="country-code">+76</span>
                 </div>
                 <div class="country-item" data-code="+254" data-flag="🇰🇪" data-country="Kenya">
                   <span class="country-flag">🇰🇪</span>
                   <span class="country-name">Kenya</span>
                   <span class="country-code">+254</span>
+                </div>
+                <div class="country-item" data-code="+686" data-flag="🇰🇮" data-country="Kiribati">
+                  <span class="country-flag">🇰🇮</span>
+                  <span class="country-name">Kiribati</span>
+                  <span class="country-code">+686</span>
+                </div>
+                <div class="country-item" data-code="+383" data-flag="🇽🇰" data-country="Kosovo">
+                  <span class="country-flag">🇽🇰</span>
+                  <span class="country-name">Kosovo</span>
+                  <span class="country-code">+383</span>
                 </div>
                 <div class="country-item" data-code="+965" data-flag="🇰🇼" data-country="Kuwait">
                   <span class="country-flag">🇰🇼</span>
@@ -850,6 +1170,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Kyrgyzstan</span>
                   <span class="country-code">+996</span>
                 </div>
+                <div class="country-item" data-code="+856" data-flag="🇱🇦" data-country="Laos">
+                  <span class="country-flag">🇱🇦</span>
+                  <span class="country-name">Laos</span>
+                  <span class="country-code">+856</span>
+                </div>
                 <div class="country-item" data-code="+371" data-flag="🇱🇻" data-country="Latvia">
                   <span class="country-flag">🇱🇻</span>
                   <span class="country-name">Latvia</span>
@@ -860,10 +1185,25 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Lebanon</span>
                   <span class="country-code">+961</span>
                 </div>
+                <div class="country-item" data-code="+266" data-flag="🇱🇸" data-country="Lesotho">
+                  <span class="country-flag">🇱🇸</span>
+                  <span class="country-name">Lesotho</span>
+                  <span class="country-code">+266</span>
+                </div>
+                <div class="country-item" data-code="+231" data-flag="🇱🇷" data-country="Liberia">
+                  <span class="country-flag">🇱🇷</span>
+                  <span class="country-name">Liberia</span>
+                  <span class="country-code">+231</span>
+                </div>
                 <div class="country-item" data-code="+218" data-flag="🇱🇾" data-country="Libya">
                   <span class="country-flag">🇱🇾</span>
                   <span class="country-name">Libya</span>
                   <span class="country-code">+218</span>
+                </div>
+                <div class="country-item" data-code="+423" data-flag="🇱🇮" data-country="Liechtenstein">
+                  <span class="country-flag">🇱🇮</span>
+                  <span class="country-name">Liechtenstein</span>
+                  <span class="country-code">+423</span>
                 </div>
                 <div class="country-item" data-code="+370" data-flag="🇱🇹" data-country="Lithuania">
                   <span class="country-flag">🇱🇹</span>
@@ -875,6 +1215,21 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Luxembourg</span>
                   <span class="country-code">+352</span>
                 </div>
+                <div class="country-item" data-code="+853" data-flag="🇲🇴" data-country="Macau">
+                  <span class="country-flag">🇲🇴</span>
+                  <span class="country-name">Macau</span>
+                  <span class="country-code">+853</span>
+                </div>
+                <div class="country-item" data-code="+261" data-flag="🇲🇬" data-country="Madagascar">
+                  <span class="country-flag">🇲🇬</span>
+                  <span class="country-name">Madagascar</span>
+                  <span class="country-code">+261</span>
+                </div>
+                <div class="country-item" data-code="+265" data-flag="🇲🇼" data-country="Malawi">
+                  <span class="country-flag">🇲🇼</span>
+                  <span class="country-name">Malawi</span>
+                  <span class="country-code">+265</span>
+                </div>
                 <div class="country-item" data-code="+60" data-flag="🇲🇾" data-country="Malaysia">
                   <span class="country-flag">🇲🇾</span>
                   <span class="country-name">Malaysia</span>
@@ -885,15 +1240,50 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Maldives</span>
                   <span class="country-code">+960</span>
                 </div>
+                <div class="country-item" data-code="+223" data-flag="🇲🇱" data-country="Mali">
+                  <span class="country-flag">🇲🇱</span>
+                  <span class="country-name">Mali</span>
+                  <span class="country-code">+223</span>
+                </div>
                 <div class="country-item" data-code="+356" data-flag="🇲🇹" data-country="Malta">
                   <span class="country-flag">🇲🇹</span>
                   <span class="country-name">Malta</span>
                   <span class="country-code">+356</span>
                 </div>
+                <div class="country-item" data-code="+692" data-flag="🇲🇭" data-country="Marshall Islands">
+                  <span class="country-flag">🇲🇭</span>
+                  <span class="country-name">Marshall Islands</span>
+                  <span class="country-code">+692</span>
+                </div>
+                <div class="country-item" data-code="+596" data-flag="🇲🇶" data-country="Martinique">
+                  <span class="country-flag">🇲🇶</span>
+                  <span class="country-name">Martinique</span>
+                  <span class="country-code">+596</span>
+                </div>
+                <div class="country-item" data-code="+222" data-flag="🇲🇷" data-country="Mauritania">
+                  <span class="country-flag">🇲🇷</span>
+                  <span class="country-name">Mauritania</span>
+                  <span class="country-code">+222</span>
+                </div>
+                <div class="country-item" data-code="+230" data-flag="🇲🇺" data-country="Mauritius">
+                  <span class="country-flag">🇲🇺</span>
+                  <span class="country-name">Mauritius</span>
+                  <span class="country-code">+230</span>
+                </div>
+                <div class="country-item" data-code="+262" data-flag="🇾🇹" data-country="Mayotte">
+                  <span class="country-flag">🇾🇹</span>
+                  <span class="country-name">Mayotte</span>
+                  <span class="country-code">+262</span>
+                </div>
                 <div class="country-item" data-code="+52" data-flag="🇲🇽" data-country="Mexico">
                   <span class="country-flag">🇲🇽</span>
                   <span class="country-name">Mexico</span>
                   <span class="country-code">+52</span>
+                </div>
+                <div class="country-item" data-code="+691" data-flag="🇫🇲" data-country="Micronesia">
+                  <span class="country-flag">🇫🇲</span>
+                  <span class="country-name">Micronesia</span>
+                  <span class="country-code">+691</span>
                 </div>
                 <div class="country-item" data-code="+373" data-flag="🇲🇩" data-country="Moldova">
                   <span class="country-flag">🇲🇩</span>
@@ -915,15 +1305,35 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Montenegro</span>
                   <span class="country-code">+382</span>
                 </div>
+                <div class="country-item" data-code="+1" data-flag="🇲🇸" data-country="Montserrat">
+                  <span class="country-flag">🇲🇸</span>
+                  <span class="country-name">Montserrat</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+212" data-flag="🇲🇦" data-country="Morocco">
                   <span class="country-flag">🇲🇦</span>
                   <span class="country-name">Morocco</span>
                   <span class="country-code">+212</span>
                 </div>
+                <div class="country-item" data-code="+258" data-flag="🇲🇿" data-country="Mozambique">
+                  <span class="country-flag">🇲🇿</span>
+                  <span class="country-name">Mozambique</span>
+                  <span class="country-code">+258</span>
+                </div>
                 <div class="country-item" data-code="+95" data-flag="🇲🇲" data-country="Myanmar">
                   <span class="country-flag">🇲🇲</span>
                   <span class="country-name">Myanmar</span>
                   <span class="country-code">+95</span>
+                </div>
+                <div class="country-item" data-code="+264" data-flag="🇳🇦" data-country="Namibia">
+                  <span class="country-flag">🇳🇦</span>
+                  <span class="country-name">Namibia</span>
+                  <span class="country-code">+264</span>
+                </div>
+                <div class="country-item" data-code="+674" data-flag="🇳🇷" data-country="Nauru">
+                  <span class="country-flag">🇳🇷</span>
+                  <span class="country-name">Nauru</span>
+                  <span class="country-code">+674</span>
                 </div>
                 <div class="country-item" data-code="+977" data-flag="🇳🇵" data-country="Nepal">
                   <span class="country-flag">🇳🇵</span>
@@ -935,15 +1345,40 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Netherlands</span>
                   <span class="country-code">+31</span>
                 </div>
+                <div class="country-item" data-code="+687" data-flag="🇳🇨" data-country="New Caledonia">
+                  <span class="country-flag">🇳🇨</span>
+                  <span class="country-name">New Caledonia</span>
+                  <span class="country-code">+687</span>
+                </div>
                 <div class="country-item" data-code="+64" data-flag="🇳🇿" data-country="New Zealand">
                   <span class="country-flag">🇳🇿</span>
                   <span class="country-name">New Zealand</span>
                   <span class="country-code">+64</span>
                 </div>
+                <div class="country-item" data-code="+505" data-flag="🇳🇮" data-country="Nicaragua">
+                  <span class="country-flag">🇳🇮</span>
+                  <span class="country-name">Nicaragua</span>
+                  <span class="country-code">+505</span>
+                </div>
+                <div class="country-item" data-code="+227" data-flag="🇳🇪" data-country="Niger">
+                  <span class="country-flag">🇳🇪</span>
+                  <span class="country-name">Niger</span>
+                  <span class="country-code">+227</span>
+                </div>
                 <div class="country-item" data-code="+234" data-flag="🇳🇬" data-country="Nigeria">
                   <span class="country-flag">🇳🇬</span>
                   <span class="country-name">Nigeria</span>
                   <span class="country-code">+234</span>
+                </div>
+                <div class="country-item" data-code="+683" data-flag="🇳🇺" data-country="Niue">
+                  <span class="country-flag">🇳🇺</span>
+                  <span class="country-name">Niue</span>
+                  <span class="country-code">+683</span>
+                </div>
+                <div class="country-item" data-code="+672" data-flag="🇳🇫" data-country="Norfolk Island">
+                  <span class="country-flag">🇳🇫</span>
+                  <span class="country-name">Norfolk Island</span>
+                  <span class="country-code">+672</span>
                 </div>
                 <div class="country-item" data-code="+850" data-flag="🇰🇵" data-country="North Korea">
                   <span class="country-flag">🇰🇵</span>
@@ -954,6 +1389,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇲🇰</span>
                   <span class="country-name">North Macedonia</span>
                   <span class="country-code">+389</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇲🇵" data-country="Northern Mariana Islands">
+                  <span class="country-flag">🇲🇵</span>
+                  <span class="country-name">Northern Mariana Islands</span>
+                  <span class="country-code">+1</span>
                 </div>
                 <div class="country-item" data-code="+47" data-flag="🇳🇴" data-country="Norway">
                   <span class="country-flag">🇳🇴</span>
@@ -970,6 +1410,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Pakistan</span>
                   <span class="country-code">+92</span>
                 </div>
+                <div class="country-item" data-code="+680" data-flag="🇵🇼" data-country="Palau">
+                  <span class="country-flag">🇵🇼</span>
+                  <span class="country-name">Palau</span>
+                  <span class="country-code">+680</span>
+                </div>
                 <div class="country-item" data-code="+970" data-flag="🇵🇸" data-country="Palestine">
                   <span class="country-flag">🇵🇸</span>
                   <span class="country-name">Palestine</span>
@@ -979,6 +1424,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇵🇦</span>
                   <span class="country-name">Panama</span>
                   <span class="country-code">+507</span>
+                </div>
+                <div class="country-item" data-code="+675" data-flag="🇵🇬" data-country="Papua New Guinea">
+                  <span class="country-flag">🇵🇬</span>
+                  <span class="country-name">Papua New Guinea</span>
+                  <span class="country-code">+675</span>
                 </div>
                 <div class="country-item" data-code="+595" data-flag="🇵🇾" data-country="Paraguay">
                   <span class="country-flag">🇵🇾</span>
@@ -995,6 +1445,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Philippines</span>
                   <span class="country-code">+63</span>
                 </div>
+                <div class="country-item" data-code="+64" data-flag="🇵🇳" data-country="Pitcairn Islands">
+                  <span class="country-flag">🇵🇳</span>
+                  <span class="country-name">Pitcairn Islands</span>
+                  <span class="country-code">+64</span>
+                </div>
                 <div class="country-item" data-code="+48" data-flag="🇵🇱" data-country="Poland">
                   <span class="country-flag">🇵🇱</span>
                   <span class="country-name">Poland</span>
@@ -1005,20 +1460,85 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Portugal</span>
                   <span class="country-code">+351</span>
                 </div>
+                <div class="country-item" data-code="+1" data-flag="🇵🇷" data-country="Puerto Rico">
+                  <span class="country-flag">🇵🇷</span>
+                  <span class="country-name">Puerto Rico</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+974" data-flag="🇶🇦" data-country="Qatar">
                   <span class="country-flag">🇶🇦</span>
                   <span class="country-name">Qatar</span>
                   <span class="country-code">+974</span>
+                </div>
+                <div class="country-item" data-code="+242" data-flag="🇨🇬" data-country="Republic of the Congo">
+                  <span class="country-flag">🇨🇬</span>
+                  <span class="country-name">Republic of the Congo</span>
+                  <span class="country-code">+242</span>
                 </div>
                 <div class="country-item" data-code="+40" data-flag="🇷🇴" data-country="Romania">
                   <span class="country-flag">🇷🇴</span>
                   <span class="country-name">Romania</span>
                   <span class="country-code">+40</span>
                 </div>
-                <div class="country-item" data-code="+7" data-flag="🇷🇺" data-country="Russia">
+                <div class="country-item" data-code="+73" data-flag="🇷🇺" data-country="Russia">
                   <span class="country-flag">🇷🇺</span>
                   <span class="country-name">Russia</span>
-                  <span class="country-code">+7</span>
+                  <span class="country-code">+73</span>
+                </div>
+                <div class="country-item" data-code="+250" data-flag="🇷🇼" data-country="Rwanda">
+                  <span class="country-flag">🇷🇼</span>
+                  <span class="country-name">Rwanda</span>
+                  <span class="country-code">+250</span>
+                </div>
+                <div class="country-item" data-code="+262" data-flag="🇷🇪" data-country="Réunion">
+                  <span class="country-flag">🇷🇪</span>
+                  <span class="country-name">Réunion</span>
+                  <span class="country-code">+262</span>
+                </div>
+                <div class="country-item" data-code="+590" data-flag="🇧🇱" data-country="Saint Barthélemy">
+                  <span class="country-flag">🇧🇱</span>
+                  <span class="country-name">Saint Barthélemy</span>
+                  <span class="country-code">+590</span>
+                </div>
+                <div class="country-item" data-code="+290" data-flag="🇸🇭" data-country="Saint Helena, Ascension and Tristan da Cunha">
+                  <span class="country-flag">🇸🇭</span>
+                  <span class="country-name">Saint Helena, Ascension and Tristan da Cunha</span>
+                  <span class="country-code">+290</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇰🇳" data-country="Saint Kitts and Nevis">
+                  <span class="country-flag">🇰🇳</span>
+                  <span class="country-name">Saint Kitts and Nevis</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇱🇨" data-country="Saint Lucia">
+                  <span class="country-flag">🇱🇨</span>
+                  <span class="country-name">Saint Lucia</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+590" data-flag="🇲🇫" data-country="Saint Martin">
+                  <span class="country-flag">🇲🇫</span>
+                  <span class="country-name">Saint Martin</span>
+                  <span class="country-code">+590</span>
+                </div>
+                <div class="country-item" data-code="+508" data-flag="🇵🇲" data-country="Saint Pierre and Miquelon">
+                  <span class="country-flag">🇵🇲</span>
+                  <span class="country-name">Saint Pierre and Miquelon</span>
+                  <span class="country-code">+508</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇻🇨" data-country="Saint Vincent and the Grenadines">
+                  <span class="country-flag">🇻🇨</span>
+                  <span class="country-name">Saint Vincent and the Grenadines</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+685" data-flag="🇼🇸" data-country="Samoa">
+                  <span class="country-flag">🇼🇸</span>
+                  <span class="country-name">Samoa</span>
+                  <span class="country-code">+685</span>
+                </div>
+                <div class="country-item" data-code="+378" data-flag="🇸🇲" data-country="San Marino">
+                  <span class="country-flag">🇸🇲</span>
+                  <span class="country-name">San Marino</span>
+                  <span class="country-code">+378</span>
                 </div>
                 <div class="country-item" data-code="+966" data-flag="🇸🇦" data-country="Saudi Arabia">
                   <span class="country-flag">🇸🇦</span>
@@ -1035,10 +1555,25 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Serbia</span>
                   <span class="country-code">+381</span>
                 </div>
+                <div class="country-item" data-code="+248" data-flag="🇸🇨" data-country="Seychelles">
+                  <span class="country-flag">🇸🇨</span>
+                  <span class="country-name">Seychelles</span>
+                  <span class="country-code">+248</span>
+                </div>
+                <div class="country-item" data-code="+232" data-flag="🇸🇱" data-country="Sierra Leone">
+                  <span class="country-flag">🇸🇱</span>
+                  <span class="country-name">Sierra Leone</span>
+                  <span class="country-code">+232</span>
+                </div>
                 <div class="country-item" data-code="+65" data-flag="🇸🇬" data-country="Singapore">
                   <span class="country-flag">🇸🇬</span>
                   <span class="country-name">Singapore</span>
                   <span class="country-code">+65</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇸🇽" data-country="Sint Maarten">
+                  <span class="country-flag">🇸🇽</span>
+                  <span class="country-name">Sint Maarten</span>
+                  <span class="country-code">+1</span>
                 </div>
                 <div class="country-item" data-code="+421" data-flag="🇸🇰" data-country="Slovakia">
                   <span class="country-flag">🇸🇰</span>
@@ -1050,15 +1585,35 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Slovenia</span>
                   <span class="country-code">+386</span>
                 </div>
+                <div class="country-item" data-code="+677" data-flag="🇸🇧" data-country="Solomon Islands">
+                  <span class="country-flag">🇸🇧</span>
+                  <span class="country-name">Solomon Islands</span>
+                  <span class="country-code">+677</span>
+                </div>
+                <div class="country-item" data-code="+252" data-flag="🇸🇴" data-country="Somalia">
+                  <span class="country-flag">🇸🇴</span>
+                  <span class="country-name">Somalia</span>
+                  <span class="country-code">+252</span>
+                </div>
                 <div class="country-item" data-code="+27" data-flag="🇿🇦" data-country="South Africa">
                   <span class="country-flag">🇿🇦</span>
                   <span class="country-name">South Africa</span>
                   <span class="country-code">+27</span>
                 </div>
+                <div class="country-item" data-code="+500" data-flag="🇬🇸" data-country="South Georgia">
+                  <span class="country-flag">🇬🇸</span>
+                  <span class="country-name">South Georgia</span>
+                  <span class="country-code">+500</span>
+                </div>
                 <div class="country-item" data-code="+82" data-flag="🇰🇷" data-country="South Korea">
                   <span class="country-flag">🇰🇷</span>
                   <span class="country-name">South Korea</span>
                   <span class="country-code">+82</span>
+                </div>
+                <div class="country-item" data-code="+211" data-flag="🇸🇸" data-country="South Sudan">
+                  <span class="country-flag">🇸🇸</span>
+                  <span class="country-name">South Sudan</span>
+                  <span class="country-code">+211</span>
                 </div>
                 <div class="country-item" data-code="+34" data-flag="🇪🇸" data-country="Spain">
                   <span class="country-flag">🇪🇸</span>
@@ -1075,6 +1630,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Sudan</span>
                   <span class="country-code">+249</span>
                 </div>
+                <div class="country-item" data-code="+597" data-flag="🇸🇷" data-country="Suriname">
+                  <span class="country-flag">🇸🇷</span>
+                  <span class="country-name">Suriname</span>
+                  <span class="country-code">+597</span>
+                </div>
+                <div class="country-item" data-code="+4779" data-flag="🇸🇯" data-country="Svalbard and Jan Mayen">
+                  <span class="country-flag">🇸🇯</span>
+                  <span class="country-name">Svalbard and Jan Mayen</span>
+                  <span class="country-code">+4779</span>
+                </div>
                 <div class="country-item" data-code="+46" data-flag="🇸🇪" data-country="Sweden">
                   <span class="country-flag">🇸🇪</span>
                   <span class="country-name">Sweden</span>
@@ -1089,6 +1654,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇸🇾</span>
                   <span class="country-name">Syria</span>
                   <span class="country-code">+963</span>
+                </div>
+                <div class="country-item" data-code="+239" data-flag="🇸🇹" data-country="São Tomé and Príncipe">
+                  <span class="country-flag">🇸🇹</span>
+                  <span class="country-name">São Tomé and Príncipe</span>
+                  <span class="country-code">+239</span>
                 </div>
                 <div class="country-item" data-code="+886" data-flag="🇹🇼" data-country="Taiwan">
                   <span class="country-flag">🇹🇼</span>
@@ -1110,10 +1680,30 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Thailand</span>
                   <span class="country-code">+66</span>
                 </div>
+                <div class="country-item" data-code="+670" data-flag="🇹🇱" data-country="Timor-Leste">
+                  <span class="country-flag">🇹🇱</span>
+                  <span class="country-name">Timor-Leste</span>
+                  <span class="country-code">+670</span>
+                </div>
                 <div class="country-item" data-code="+228" data-flag="🇹🇬" data-country="Togo">
                   <span class="country-flag">🇹🇬</span>
                   <span class="country-name">Togo</span>
                   <span class="country-code">+228</span>
+                </div>
+                <div class="country-item" data-code="+690" data-flag="🇹🇰" data-country="Tokelau">
+                  <span class="country-flag">🇹🇰</span>
+                  <span class="country-name">Tokelau</span>
+                  <span class="country-code">+690</span>
+                </div>
+                <div class="country-item" data-code="+676" data-flag="🇹🇴" data-country="Tonga">
+                  <span class="country-flag">🇹🇴</span>
+                  <span class="country-name">Tonga</span>
+                  <span class="country-code">+676</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇹🇹" data-country="Trinidad and Tobago">
+                  <span class="country-flag">🇹🇹</span>
+                  <span class="country-name">Trinidad and Tobago</span>
+                  <span class="country-code">+1</span>
                 </div>
                 <div class="country-item" data-code="+216" data-flag="🇹🇳" data-country="Tunisia">
                   <span class="country-flag">🇹🇳</span>
@@ -1129,6 +1719,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇹🇲</span>
                   <span class="country-name">Turkmenistan</span>
                   <span class="country-code">+993</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇹🇨" data-country="Turks and Caicos Islands">
+                  <span class="country-flag">🇹🇨</span>
+                  <span class="country-name">Turks and Caicos Islands</span>
+                  <span class="country-code">+1</span>
+                </div>
+                <div class="country-item" data-code="+688" data-flag="🇹🇻" data-country="Tuvalu">
+                  <span class="country-flag">🇹🇻</span>
+                  <span class="country-name">Tuvalu</span>
+                  <span class="country-code">+688</span>
                 </div>
                 <div class="country-item" data-code="+256" data-flag="🇺🇬" data-country="Uganda">
                   <span class="country-flag">🇺🇬</span>
@@ -1155,6 +1755,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">United States</span>
                   <span class="country-code">+1</span>
                 </div>
+                <div class="country-item" data-code="+268" data-flag="🇺🇲" data-country="United States Minor Outlying Islands">
+                  <span class="country-flag">🇺🇲</span>
+                  <span class="country-name">United States Minor Outlying Islands</span>
+                  <span class="country-code">+268</span>
+                </div>
+                <div class="country-item" data-code="+1" data-flag="🇻🇮" data-country="United States Virgin Islands">
+                  <span class="country-flag">🇻🇮</span>
+                  <span class="country-name">United States Virgin Islands</span>
+                  <span class="country-code">+1</span>
+                </div>
                 <div class="country-item" data-code="+598" data-flag="🇺🇾" data-country="Uruguay">
                   <span class="country-flag">🇺🇾</span>
                   <span class="country-name">Uruguay</span>
@@ -1165,6 +1775,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Uzbekistan</span>
                   <span class="country-code">+998</span>
                 </div>
+                <div class="country-item" data-code="+678" data-flag="🇻🇺" data-country="Vanuatu">
+                  <span class="country-flag">🇻🇺</span>
+                  <span class="country-name">Vanuatu</span>
+                  <span class="country-code">+678</span>
+                </div>
+                <div class="country-item" data-code="+3906698" data-flag="🇻🇦" data-country="Vatican City">
+                  <span class="country-flag">🇻🇦</span>
+                  <span class="country-name">Vatican City</span>
+                  <span class="country-code">+3906698</span>
+                </div>
                 <div class="country-item" data-code="+58" data-flag="🇻🇪" data-country="Venezuela">
                   <span class="country-flag">🇻🇪</span>
                   <span class="country-name">Venezuela</span>
@@ -1174,6 +1794,16 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇻🇳</span>
                   <span class="country-name">Vietnam</span>
                   <span class="country-code">+84</span>
+                </div>
+                <div class="country-item" data-code="+681" data-flag="🇼🇫" data-country="Wallis and Futuna">
+                  <span class="country-flag">🇼🇫</span>
+                  <span class="country-name">Wallis and Futuna</span>
+                  <span class="country-code">+681</span>
+                </div>
+                <div class="country-item" data-code="+2125288" data-flag="🇪🇭" data-country="Western Sahara">
+                  <span class="country-flag">🇪🇭</span>
+                  <span class="country-name">Western Sahara</span>
+                  <span class="country-code">+2125288</span>
                 </div>
                 <div class="country-item" data-code="+967" data-flag="🇾🇪" data-country="Yemen">
                   <span class="country-flag">🇾🇪</span>
@@ -1189,6 +1819,11 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-flag">🇿🇼</span>
                   <span class="country-name">Zimbabwe</span>
                   <span class="country-code">+263</span>
+                </div>
+                <div class="country-item" data-code="+358" data-flag="🇦🇽" data-country="Åland Islands">
+                  <span class="country-flag">🇦🇽</span>
+                  <span class="country-name">Åland Islands</span>
+                  <span class="country-code">+358</span>
                 </div>
               </div>
             </div>
