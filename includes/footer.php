@@ -181,9 +181,11 @@
 
     <?php include __DIR__ . '/partials/education-lead-gate-modal.php'; ?>
     <?php include __DIR__ . '/partials/demo-account-modal.php'; ?>
-    <?php include __DIR__ . '/partials/live-account-modal.php'; ?>
 
     <script src="assets/js/i18n.js?v=<?php echo filemtime('assets/js/i18n.js'); ?>" defer></script>
+    <?php if (!empty($page) && $page === 'edu-resources'): ?>
+    <script src="assets/js/edu-resources-calculators.js?v=<?php echo filemtime('assets/js/edu-resources-calculators.js'); ?>" defer></script>
+    <?php endif; ?>
     <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
     <script src="assets/js/team-script.js?v=<?php echo filemtime('assets/js/team-script.js'); ?>" defer></script>
     <script src="assets/js/instruments-script.js?v=<?php echo filemtime('assets/js/instruments-script.js'); ?>" defer></script>
@@ -210,7 +212,7 @@
 window.__lc = window.__lc || {};
 window.__lc.license = 19449757;
 window.__lc.integration_name = "manual_onboarding";
-window.__lc.product_name = "livechat";;
+window.__lc.product_name = "livechat";
 (function(n, t, c) {
   function i(n) {
     return e._h ? e._h.apply(null, n) : e._q.push(n)
@@ -243,6 +245,24 @@ window.__lc.product_name = "livechat";;
   };
   !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e
 }(window, document, [].slice))
+
+    // Keep widget minimized on load; hide proactive greeting (Text/LiveChat Customer Widget API).
+    LiveChatWidget.on('ready', function () {
+      try {
+        LiveChatWidget.call('minimize');
+        LiveChatWidget.call('hide_greeting');
+      } catch (e) {}
+    });
+    (function () {
+      var hidFirstGreeting = false;
+      LiveChatWidget.on('greeting_displayed', function () {
+        if (hidFirstGreeting) return;
+        hidFirstGreeting = true;
+        try {
+          LiveChatWidget.call('hide_greeting');
+        } catch (e) {}
+      });
+    })();
     </script>
     <noscript><a href="https://www.livechat.com/chat-with/19449757/" rel="nofollow">Chat with us</a>, powered by <a
         href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>

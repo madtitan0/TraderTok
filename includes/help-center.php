@@ -11,9 +11,12 @@
       </div>
       <h1 class="doc-page-hero-title">TRADERTOK HELP CENTER</h1>
       <p class="doc-page-hero-subtitle">
-        This page includes a trading glossary and direct support contacts.
-        For frequently asked questions, use the
-        <a class="license-link" href="./#home-faq">FAQ on the home page</a>.
+        Find quick answers about TraderTok, account opening, platform access, deposits,
+        withdrawals, trading fees, regulation, and support.
+      </p>
+      <p class="doc-page-hero-subtitle">
+        This page is designed to make key information easier to find, easier to understand,
+        and easier to act on when you need support.
       </p>
     </div>
   </div>
@@ -21,18 +24,18 @@
 
 <section class="help-center-page">
   <div class="container">
-    <div class="help-center-overview">
+    <div class="help-center-overview help-center-overview--single">
       <article class="help-center-overview-card help-center-overview-card--primary">
-        <div class="help-center-eyebrow">Help topics</div>
-        <h2>Frequently asked questions</h2>
+        <div class="help-center-eyebrow">Help Center</div>
+        <h2>Support resources &amp; glossary</h2>
         <p>
-          FAQ content is shown on the <a class="license-link" href="./#home-faq">home page</a> so it stays in one place.
-          Use the glossary below for trading definitions, or contact support if you need direct assistance.
+          Frequently asked questions now live on the <a class="license-link" href="./#home-faq">home page</a> so they are easy
+          to find for every visitor. Use this page for direct contact details and the trading glossary below.
         </p>
       </article>
 
       <article class="help-center-overview-card">
-        <div class="help-center-eyebrow">Need direct help?</div>
+        <div class="help-center-eyebrow">Need Direct Help?</div>
         <h2>Contact the support team</h2>
         <div class="help-center-contact-grid">
           <div class="help-center-contact-item">
@@ -220,6 +223,10 @@
   margin-bottom: 28px;
 }
 
+.help-center-overview--single {
+  grid-template-columns: 1.2fr 0.8fr;
+}
+
 .help-center-overview-card,
 .help-center-section-card,
 .help-center-important-note {
@@ -258,9 +265,7 @@
 
 .help-center-overview-card p,
 .help-center-section-header p,
-.help-center-important-note p,
-.help-center-glossary-highlight p,
-.help-center-glossary-card p {
+.help-center-important-note p {
   color: var(--text-secondary);
   font-size: 1rem;
   line-height: 1.8;
@@ -424,3 +429,4 @@
   }
 }
 </style>
+

@@ -118,10 +118,6 @@
       return;
     }
 
-    if (typeof console !== 'undefined' && console.log) {
-      console.log('[open-demo-account] lead (simulated)');
-    }
-
     window.location.href = thankYou;
   });
 })();

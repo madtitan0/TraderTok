@@ -8,19 +8,30 @@ if (!in_array($kind, $allowed, true)) {
 $copy = [
     'ebook' => [
         'title' => 'Thank you',
-        'body' => 'Your eBook request has been received. If email delivery is connected, you will receive your download link shortly.',
+        'body' => [
+            'Your request has been received.',
+            'We\'ve sent your download link to your email. Please check your inbox (and spam folder if you don\'t see it).',
+        ],
     ],
     'webinar' => [
         'title' => 'Thank you',
         'body' => 'Your webinar interest has been recorded. We will use your details to share upcoming sessions and updates.',
     ],
     'demo' => [
-        'title' => 'Demo request received',
-        'body' => 'Thank you. We have received your demo account request. A member of the team will follow up with next steps to access your practice environment.',
+        'title' => 'Thank you — check your email',
+        'body' => [
+            'We’ve received your demo account registration.',
+            'We’ve sent you an email to confirm your registration. Please open it and complete email validation (check spam or promotions folders if you don’t see it).',
+            'After your email is validated, sign in to your client portal to continue with KYC verification and funding when you’re ready.',
+        ],
     ],
     'live' => [
-        'title' => 'Live account request received',
-        'body' => 'Thank you. We have received your live account request. Someone will contact you about eligibility, documentation, and onboarding.',
+        'title' => 'Thank you — check your email',
+        'body' => [
+            'We’ve received your live account registration.',
+            'We’ve sent you an email to confirm your registration. Please open it and complete email validation (check spam or promotions folders if you don’t see it).',
+            'After your email is validated, sign in to your client portal to continue with KYC verification and deposit.',
+        ],
     ],
     'default' => [
         'title' => 'Thank you',
@@ -31,6 +42,9 @@ $copy = [
 $topic = isset($_GET['topic']) ? htmlspecialchars((string) $_GET['topic'], ENT_QUOTES, 'UTF-8') : '';
 $headline = $copy[$kind]['title'] ?? $copy['default']['title'];
 $body = $copy[$kind]['body'] ?? $copy['default']['body'];
+if (!is_array($body)) {
+    $body = [$body];
+}
 ?>
 
 <section class="education-subpage education-subpage--thank-you">
@@ -39,14 +53,21 @@ $body = $copy[$kind]['body'] ?? $copy['default']['body'];
         <div class="education-subpage-hero-inner container">
             <div class="education-subpage-eyebrow">Confirmation</div>
             <h1 class="education-subpage-title"><?php echo htmlspecialchars($headline); ?></h1>
-            <p class="education-subpage-subtitle"><?php echo htmlspecialchars($body); ?></p>
+            <?php foreach ($body as $paragraph) : ?>
+                <p class="education-subpage-subtitle"><?php echo htmlspecialchars($paragraph); ?></p>
+            <?php endforeach; ?>
             <?php if ($topic !== '' && $kind === 'ebook'): ?>
                 <p class="education-subpage-subtitle education-thank-you-topic">Selected guide: <strong><?php echo $topic; ?></strong></p>
             <?php endif; ?>
-            <?php include __DIR__ . '/education-subpage-hero-ctas.php'; ?>
+            <?php if ($kind === 'demo' || $kind === 'live'): ?>
+                <?php include __DIR__ . '/education-subpage-hero-ctas-thank-you-lead.php'; ?>
+            <?php else: ?>
+                <?php include __DIR__ . '/education-subpage-hero-ctas.php'; ?>
+            <?php endif; ?>
         </div>
     </section>
 
+    <?php if ($kind !== 'demo' && $kind !== 'live'): ?>
     <section class="education-subpage-content">
         <div class="container">
             <div class="education-thank-you-actions">
@@ -55,4 +76,5 @@ $body = $copy[$kind]['body'] ?? $copy['default']['body'];
             </div>
         </div>
     </section>
+    <?php endif; ?>
 </section>

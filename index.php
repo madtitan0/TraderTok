@@ -22,6 +22,10 @@ if (!empty($page)) {
         $get->title = 'Thank You | TraderTok';
         $get->desc = 'Your request has been received.';
         $get->keyw = 'thank you, confirmation';
+    } elseif ($page === 'edu-resources') {
+        $get->title = 'Trading Tools & Resources | Pip, Position Size & Risk-Reward Calculators | TraderTok Academy';
+        $get->desc = 'Use interactive pip, position size, and risk-reward calculators plus guides, checklists, and Academy links to support your trading education.';
+        $get->keyw = 'trading calculators, pip calculator, position size calculator, risk reward calculator, trading resources, TraderTok Academy';
     } else {
         $courseSeo = require __DIR__ . '/includes/config/course-seo.php';
         if (isset($courseSeo[$page])) {

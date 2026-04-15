@@ -60,6 +60,7 @@ $mobile_highlights = [
             <p class="education-subpage-subtitle">
                 Learn how to use TraderTok trading platforms with beginner-friendly tutorials on charts, order types, stop-loss, take-profit, and mobile trading.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -161,6 +162,8 @@ $mobile_highlights = [
                     <p>The purpose of this section is educational. It supports users who want a better understanding of how trading tools, charts, and platform features work across desktop and mobile environments.</p>
                 </div>
             </section>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>

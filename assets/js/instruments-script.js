@@ -141,7 +141,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (isLoggedIn) {
                 // Redirect to trading platform
-                console.log(`Opening trading platform for ${symbol}`);
                 // window.location.href = `/trade?symbol=${encodeURIComponent(symbol)}`;
             } else {
                 // Open auth sidebar to sign in
@@ -308,8 +307,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (btn) {
             btn.addEventListener('click', function(e) {
                 e.stopPropagation();
-                const category = card.dataset.category;
-                console.log(`Explore ${category} clicked`);
 
                 // Here you can add navigation or filtering logic
                 // For example: window.location.href = `#${category}`;
@@ -336,9 +333,4 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.transform = 'translateY(30px)';
         observeCategoryCards.observe(card);
     });
-
-    // Initialize
-    console.log('Instruments page initialized');
-    console.log(`Total instruments: ${instrumentCards.length}`);
-    console.log(`Total categories: ${categoryCards.length}`);
 });

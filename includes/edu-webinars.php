@@ -58,6 +58,7 @@ $related_reading = [
             <p class="education-subpage-subtitle">
                 Join TraderTok webinars on forex, CFDs, trading strategy, risk management, technical analysis, and weekly market outlooks.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -170,7 +171,7 @@ $related_reading = [
                 <?php endforeach; ?>
             </div>
 
-            <div class="education-subpage-header">
+            <div class="education-subpage-header" style="padding-top: 20px;">
                 <h2 class="education-subpage-section-title">Related Reading</h2>
                 <p class="education-subpage-section-subtitle">Continue learning through related Academy pages connected to webinar topics.</p>
             </div>
@@ -187,6 +188,8 @@ $related_reading = [
                     </article>
                 <?php endforeach; ?>
             </div>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>
@@ -196,16 +199,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('webinarsForm');
     if (!form) return;
 
+    const thankYou = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'webinar'])); ?>;
+
     form.addEventListener('submit', function (event) {
         event.preventDefault();
-        const card = form.closest('.webinars-registration-card');
-        if (!card) return;
-
-        card.innerHTML = `
-            <div class="education-article-meta">Registration Received</div>
-            <h3>Your interest has been recorded</h3>
-            <p class="webinars-success-message">We will use your details to send webinar updates and upcoming session information.</p>
-        `;
+        window.location.href = thankYou;
     });
 });
 </script>

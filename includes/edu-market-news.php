@@ -1,5 +1,5 @@
 <?php
-$market_sections = [
+$topics = [
     'Daily Market Brief',
     'Weekly Outlook',
     'Forex Analysis',
@@ -13,25 +13,25 @@ $latest_updates = [
     [
         'label' => 'Forex Analysis',
         'title' => 'USD Strength Holds as Rate Expectations Stay in Focus',
-        'summary' => 'A look at how rate expectations, inflation trends, and risk sentiment continue to shape major forex pairs.',
+        'summary' => 'How rate expectations, inflation trends, and risk sentiment continue to shape major forex pairs.',
         'time' => 'Updated today',
     ],
     [
         'label' => 'Gold & Commodities',
         'title' => 'Gold Outlook: Safe-Haven Demand and Yield Pressure',
-        'summary' => 'An educational breakdown of the factors that often influence gold pricing, including yields, risk-off sentiment, and macro uncertainty.',
+        'summary' => 'Factors that often influence gold pricing: yields, risk sentiment, and macro uncertainty.',
         'time' => 'Updated today',
     ],
     [
         'label' => 'Indices Watch',
         'title' => 'Equity Indices React to Earnings and Macro Signals',
-        'summary' => 'A broader view of how earnings releases and economic expectations can affect index sentiment across global markets.',
+        'summary' => 'How earnings and economic expectations can affect index sentiment across global markets.',
         'time' => 'Updated this week',
     ],
     [
         'label' => 'Central Bank Watch',
         'title' => 'Why Central Bank Language Still Moves the Market',
-        'summary' => 'A simple educational commentary on how central bank guidance influences currencies, commodities, and broader risk appetite.',
+        'summary' => 'How guidance influences currencies, commodities, and broader risk appetite.',
         'time' => 'Updated this week',
     ],
 ];
@@ -50,29 +50,10 @@ $archive_items = [
     ['date' => 'February 2026', 'title' => 'Trading Market Analysis: Indices, Commodities, and Central Bank Themes'],
 ];
 
-$market_drivers = [
-    [
-        'title' => 'Interest Rate Expectations',
-        'description' => 'Changes in rate expectations can influence currencies, index sentiment, and commodity pricing across multiple regions.',
-    ],
-    [
-        'title' => 'Inflation and Growth Data',
-        'description' => 'Economic releases often shift market expectations around central bank policy, consumer demand, and risk appetite.',
-    ],
-    [
-        'title' => 'Risk Sentiment',
-        'description' => 'Market tone can change quickly when traders move between risk-on and risk-off behaviour during uncertainty.',
-    ],
-    [
-        'title' => 'Commodity and Energy Moves',
-        'description' => 'Oil and gold often provide clues about inflation pressure, geopolitical concerns, and defensive positioning.',
-    ],
-];
-
 $outlook_points = [
-    'Watch how central bank commentary changes expectations rather than focusing only on the headline decision.',
-    'Compare forex reactions with gold and index moves to understand whether the market is seeking risk or safety.',
-    'Use major economic events as context for volatility, not as standalone trading signals.',
+    'Watch how central bank commentary shifts expectations—not only the headline decision.',
+    'Compare forex with gold and indices to see whether markets favour risk or safety.',
+    'Treat economic releases as context for volatility, not standalone signals.',
 ];
 ?>
 
@@ -80,89 +61,81 @@ $outlook_points = [
     <section class="education-subpage-hero education-subpage-hero--market-news">
         <div class="page-hero-overlay1"></div>
         <div class="education-subpage-hero-inner container">
-            <div class="education-subpage-eyebrow">Market Commentary</div>
+            <div class="education-subpage-eyebrow">Market commentary</div>
             <h1 class="education-subpage-title">Market News &amp; Insights</h1>
             <p class="education-subpage-subtitle">
-                Stay updated with TraderTok market news, weekly outlooks, forex analysis, gold insights, and major economic events shaping the markets.
+                Market news and analysis in one place: forex, gold, indices, and macro themes—framed for learning, not recommendations.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
     <section class="education-subpage-content">
         <div class="container">
-            <div class="education-user-strip">
+            <section class="education-user-strip education-user-strip--single">
                 <div class="education-user-strip-card">
-                    <div class="education-article-meta">Educational Framing</div>
-                    <h3>Market commentary designed to support learning, not investment decisions</h3>
-                    <p>This section is presented as market commentary and educational analysis. It is intended to help users understand how global events, macro themes, and financial instruments interact across the market environment.</p>
+                    <div class="education-article-meta">Educational analysis only</div>
+                    <h3>Commentary for context, not investment advice</h3>
+                    <p>
+                        This page is <strong>market commentary and educational analysis</strong>. It helps you see how events and themes connect across forex, commodities, and indices.
+                        It does not constitute personal recommendations or a solicitation to trade. Trading involves risk; always make your own decisions.
+                    </p>
                 </div>
-                <div class="education-user-strip-card">
-                    <div class="education-article-meta">What You’ll Find</div>
-                    <h3>Structured coverage of key themes that affect forex, gold, indices, and macro sentiment</h3>
-                    <p>Users can follow daily briefs, weekly outlooks, analyst commentary, and important economic events in one place without losing the consistent educational tone used across the Academy.</p>
-                </div>
+            </section>
+
+            <div class="education-subpage-header" style="padding-top: 20px;">
+                <h2 class="education-subpage-section-title">Daily market brief</h2>
+                <p class="education-subpage-section-subtitle">A short snapshot of tone and themes—use it alongside the sections below.</p>
+            </div>
+
+            <div class="market-daily-brief">
+                <p>
+                    Major pairs remain sensitive to rate expectations and scheduled data this week. Gold and indices are moving with the same macro backdrop—yields, growth worries, and headline risk.
+                    Use the <strong>latest updates</strong> and <strong>weekly outlook</strong> for more detail; treat all of it as educational context.
+                </p>
             </div>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">What Usually Moves the Market</h2>
-                <p class="education-subpage-section-subtitle">A quick reference section to help users understand the main drivers behind the commentary they see on this page.</p>
+                <h2 class="education-subpage-section-title">What we cover</h2>
+                <p class="education-subpage-section-subtitle">Topics this hub ties together in one narrative.</p>
             </div>
 
-            <div class="market-drivers-grid">
-                <?php foreach ($market_drivers as $driver): ?>
-                    <article class="market-driver-card">
-                        <div class="education-article-meta">Key Driver</div>
-                        <h3><?php echo htmlspecialchars($driver['title']); ?></h3>
-                        <p><?php echo htmlspecialchars($driver['description']); ?></p>
-                    </article>
+            <ul class="market-topics-list" aria-label="Coverage topics">
+                <?php foreach ($topics as $topic): ?>
+                    <li><?php echo htmlspecialchars($topic); ?></li>
                 <?php endforeach; ?>
-            </div>
+            </ul>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Coverage Areas</h2>
-                <p class="education-subpage-section-subtitle">The page is organized around the core market topics users often follow most closely.</p>
-            </div>
-
-            <div class="market-news-section-grid">
-                <?php foreach ($market_sections as $section): ?>
-                    <article class="market-news-section-card">
-                        <div class="education-article-meta">Sub-section</div>
-                        <h3><?php echo htmlspecialchars($section); ?></h3>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-
-            <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Featured Insight</h2>
-                <p class="education-subpage-section-subtitle">A lead educational analysis piece that gives users broader context before they move into shorter updates.</p>
+                <h2 class="education-subpage-section-title">Featured insight</h2>
+                <p class="education-subpage-section-subtitle">Broader context before shorter updates.</p>
             </div>
 
             <section class="market-featured-insight">
                 <div class="market-featured-insight-copy">
-                    <div class="education-article-meta">Weekly Outlook</div>
-                    <h3>How Rates, Inflation, and Risk Sentiment Are Shaping This Week’s Market Tone</h3>
-                    <p>This featured insight brings together the bigger themes behind the current market backdrop, including central bank expectations, macro data, and how traders often interpret shifting sentiment across currencies, gold, and indices.</p>
-                    <div class="education-mini-note">Educational note: this commentary is intended to explain market dynamics and does not constitute investment advice.</div>
+                    <div class="education-article-meta">Weekly outlook</div>
+                    <h3>How rates, inflation, and risk sentiment are shaping the tone of the week</h3>
+                    <p>Central bank expectations, macro data, and how traders read risk-on versus risk-off behaviour across currencies, gold, and indices.</p>
                 </div>
                 <div class="market-featured-insight-panel">
                     <div class="market-highlight-row">
-                        <span>Focus 1</span>
-                        <strong>Weekly Market Outlook</strong>
+                        <span>Focus</span>
+                        <strong>Weekly market outlook</strong>
                     </div>
                     <div class="market-highlight-row">
-                        <span>Focus 2</span>
-                        <strong>Central Bank Watch</strong>
+                        <span>Focus</span>
+                        <strong>Central bank watch</strong>
                     </div>
                     <div class="market-highlight-row">
-                        <span>Focus 3</span>
-                        <strong>Major Economic Events</strong>
+                        <span>Focus</span>
+                        <strong>Major economic events</strong>
                     </div>
                 </div>
             </section>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Latest Market Updates</h2>
-                <p class="education-subpage-section-subtitle">Shorter educational commentary pieces covering forex market news, gold outlooks, index moves, and macro developments.</p>
+                <h2 class="education-subpage-section-title">Latest market updates</h2>
+                <p class="education-subpage-section-subtitle">Short commentary pieces—forex market news, gold outlooks, and index context.</p>
             </div>
 
             <div class="education-article-grid market-news-updates-grid">
@@ -179,8 +152,8 @@ $outlook_points = [
             </div>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Upcoming Economic Events</h2>
-                <p class="education-subpage-section-subtitle">A simple event view to help users understand which releases and policy updates may matter across the market week.</p>
+                <h2 class="education-subpage-section-title">Upcoming economic events</h2>
+                <p class="education-subpage-section-subtitle">Illustrative schedule—releases that often add volatility.</p>
             </div>
 
             <div class="market-events-panel">
@@ -189,22 +162,21 @@ $outlook_points = [
                         <div class="market-event-time"><?php echo htmlspecialchars($event['time']); ?></div>
                         <div class="market-event-main">
                             <h3><?php echo htmlspecialchars($event['event']); ?></h3>
-                            <p><?php echo htmlspecialchars($event['region']); ?> • <?php echo htmlspecialchars($event['impact']); ?></p>
+                            <p><?php echo htmlspecialchars($event['region']); ?> · <?php echo htmlspecialchars($event['impact']); ?></p>
                         </div>
                     </div>
                 <?php endforeach; ?>
             </div>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Weekly Outlook</h2>
-                <p class="education-subpage-section-subtitle">A broader look at the themes likely to influence market behaviour over the coming week.</p>
+                <h2 class="education-subpage-section-title">Weekly outlook</h2>
+                <p class="education-subpage-section-subtitle">Themes to watch across the week.</p>
             </div>
 
             <section class="market-weekly-outlook">
                 <div class="market-weekly-outlook-card">
-                    <div class="education-article-meta">Weekly Market Outlook</div>
-                    <h3>Key Themes to Watch Across Forex, Gold, Indices, and Macro Releases</h3>
-                    <p>The weekly outlook brings together the main educational talking points that users can monitor throughout the week, from macro data and risk sentiment to central bank commentary and commodity reactions.</p>
+                    <div class="education-article-meta">Outlook</div>
+                    <h3>Forex, gold, indices, and macro releases</h3>
                     <ul class="market-outlook-list">
                         <?php foreach ($outlook_points as $point): ?>
                             <li><?php echo htmlspecialchars($point); ?></li>
@@ -214,8 +186,8 @@ $outlook_points = [
             </section>
 
             <div class="education-subpage-header">
-                <h2 class="education-subpage-section-title">Analyst Commentary Archive</h2>
-                <p class="education-subpage-section-subtitle">An archive of educational analysis pieces users can browse for broader market context.</p>
+                <h2 class="education-subpage-section-title">Analyst commentary archive</h2>
+                <p class="education-subpage-section-subtitle">Earlier outlook-style titles for context.</p>
             </div>
 
             <div class="market-archive-list">
@@ -229,11 +201,16 @@ $outlook_points = [
 
             <section class="education-user-strip education-user-strip--single">
                 <div class="education-user-strip-card market-disclaimer-card">
-                    <div class="education-article-meta">Important Editorial Note</div>
-                    <h3>This page is market commentary for educational purposes only</h3>
-                    <p>All content in this section is provided as educational market commentary and general analysis. It does not constitute investment advice, personal recommendations, or a solicitation to trade any financial instrument. Trading and investing involve risk, and users should evaluate market information carefully within their own circumstances.</p>
+                    <div class="education-article-meta">Important note</div>
+                    <h3>Educational market commentary only</h3>
+                    <p>
+                        Content here is general analysis for learning. It is not investment advice, a personal recommendation, or an offer to trade.
+                        TraderTok is regulated in Mauritius; always read official risk disclosures and terms before trading.
+                    </p>
                 </div>
             </section>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>

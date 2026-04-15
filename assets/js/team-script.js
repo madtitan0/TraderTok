@@ -7,7 +7,6 @@
     function init() {
         bindTeamTabEvents();
         bindDepartmentTabEvents();
-        console.log('Team page initialized (sticky stacking mode)');
     }
 
     function switchTeam(wrapper, team) {

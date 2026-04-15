@@ -1,5 +1,6 @@
 /**
- * Existing-user qualification: direct POST to DataConect webhook URL (with ?token=) from head.php.
+ * Existing-user qualification: POST JSON to same-origin api/traders-club-qualification.php
+ * (server forwards to DataConect; configure token in includes/config/traders-club.php).
  */
 function tradersClubQualificationRequest(body) {
   const c =
@@ -7,7 +8,7 @@ function tradersClubQualificationRequest(body) {
   if (!c || !c.configured || !c.postUrl) {
     return Promise.reject(
       new Error(
-        "Qualification is not configured. Set qualification_token or qualification_bearer_token in includes/config/traders-club.local.php (or TRADERS_CLUB_QUALIFICATION_TOKEN / TRADERS_CLUB_QUALIFICATION_BEARER).",
+        "Qualification is not configured. Set qualification_token in includes/config/traders-club.php.",
       ),
     );
   }
@@ -15,14 +16,11 @@ function tradersClubQualificationRequest(body) {
     "Content-Type": "application/json",
     Accept: "application/json",
   };
-  if (c.bearer) {
-    headers.Authorization = "Bearer " + c.bearer;
-  }
   return fetch(c.postUrl, {
     method: "POST",
     headers,
     body: JSON.stringify(body),
-    mode: "cors",
+    credentials: "same-origin",
   });
 }
 
@@ -1127,15 +1125,6 @@ if (contactForm) {
     submitBtn.disabled = true;
     submitBtn.textContent = "Sending...";
 
-    // Get form data
-    const formData = {
-      name: document.getElementById("name").value.trim(),
-      surname: document.getElementById("surname").value.trim(),
-      phone: document.getElementById("phone").value.trim(),
-      email: document.getElementById("email").value.trim(),
-      message: document.getElementById("message").value.trim(),
-    };
-
     try {
       // Simulate API call (replace with actual endpoint)
       await new Promise((resolve) => setTimeout(resolve, 1500));
@@ -1151,21 +1140,6 @@ if (contactForm) {
                     <p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>
                 </div>
             `;
-    // } catch (error) {
-
-    //   // Show success message
-    //   formStatus.className = "form-status success";
-    //   formStatus.textContent = "Thank you! We will contact you soon.";
-
-    //   // Reset form
-    //   contactForm.reset();
-    //   clearAllErrors();
-
-    //   // Hide success message after 5 seconds
-    //   setTimeout(() => {
-    //     formStatus.className = "form-status";
-    //     formStatus.textContent = "";
-    //   }, 5000);
     } catch (error) {
       // Show error message
       formStatus.className = "form-status error";
@@ -1239,6 +1213,13 @@ if (signUpBtn) {
   });
 }
 
+document.querySelectorAll('a[href="#signin"]').forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    openAuthSidebar("signin");
+  });
+});
+
 if (authCloseBtn) {
   authCloseBtn.addEventListener("click", closeAuthSidebar);
 }
@@ -1271,14 +1252,6 @@ if (signinForm) {
 
     const email = document.getElementById("signin-email").value;
     const password = document.getElementById("signin-password").value;
-
-    //         console.log('Sign In:', { email, password });
-
-    // // Simulate API call
-    // await new Promise(resolve => setTimeout(resolve, 1000));
-
-    // alert('Sign In functionality - Connect your backend here!');
-    // closeAuthSidebar();
 
     // Redirect to the client portal with credentials
     const redirectUrl = `https://client.tradertok.com/#/auth/autologin?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
@@ -2017,8 +1990,7 @@ if (signupForm) {
       );
 
       if (response.ok) {
-        const data = await response.json();
-        console.log("Signup Success:", data);
+        await response.json();
 
         // Show success message instead of redirecting
         // alert('Registration successful! Please check your email.');

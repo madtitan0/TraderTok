@@ -183,9 +183,10 @@ $faq_items = [
             <p class="education-subpage-subtitle">
                 Explore structured trading courses designed to help you understand forex, CFDs, leverage, charts, risk management, and trading psychology. Whether you are just starting or building your knowledge, TraderTok Academy helps you learn in a clear and practical way.
             </p>
-            <div class="courses-hero-actions">
-                <a href="#all-courses" class="btn-primary">Browse Courses</a>
-                <a href="#beginner-start" class="education-article-link courses-secondary-cta">Start with Beginner Course</a>
+            <div class="education-subpage-hero-ctas courses-hero-ctas--three" role="group" aria-label="Get started">
+                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-subpage-hero-cta education-subpage-hero-cta--primary">Open demo account</a>
+                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-subpage-hero-cta education-subpage-hero-cta--solid">Open live account</a>
+                <a href="#learning-path" class="education-subpage-hero-cta education-subpage-hero-cta--ghost" data-edu-gate-ignore="1">Start with beginner course</a>
             </div>
         </div>
     </section>
@@ -233,7 +234,7 @@ $faq_items = [
                 </div>
             </section> -->
 
-            <div class="education-subpage-header">
+           <div class="education-subpage-header" id="learning-path">
                 <h2 class="education-subpage-section-title">Choose Your Learning Path</h2>
                 <p class="education-subpage-section-subtitle">Instead of starting randomly, users can follow a path that matches where they are right now.</p>
             </div>
@@ -251,7 +252,7 @@ $faq_items = [
                         </ul>
                         <div class="courses-path-footer">
                             <span><?php echo htmlspecialchars($path['duration']); ?></span>
-                            <a href="#all-courses" class="education-article-link"><?php echo htmlspecialchars($path['cta']); ?></a>
+                             <a href="#all-courses" class="education-article-link" data-edu-gate-ignore="1"><?php echo htmlspecialchars($path['cta']); ?></a>
                         </div>
                     </article>
                 <?php endforeach; ?>
@@ -332,7 +333,7 @@ $faq_items = [
                             <li><?php echo htmlspecialchars($course_name); ?></li>
                         <?php endforeach; ?>
                     </ol>
-                    <a href="#all-courses" class="btn-primary">Start Beginner Learning Path</a>
+                    <a href="#all-courses" class="btn-primary" data-edu-gate-ignore="1">Start Beginner Learning Path</a>
                 </div>
             </section>
 
@@ -363,7 +364,8 @@ $faq_items = [
                     <div class="courses-final-cta-actions">
                         <a href="./education-article?id=what-is-forex-trading" class="btn-primary">Browse All Articles</a>
                         <a href="./edu-webinars" class="education-article-link courses-secondary-cta">Join a Webinar</a>
-                        <a href="./account-types" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                        <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
+                        <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                     </div>
                 </div>
             </section>

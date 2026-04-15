@@ -1,22 +1,14 @@
 <?php
 require_once __DIR__ . '/config/subdomain-config.php';
 
-/** Used by assets/js/script.js for “existing user” qualification (direct POST, no PHP proxy). */
+/** Used by assets/js/script.js for “existing user” qualification (POST to same-origin api/traders-club-qualification.php). */
 $tradersClubCfg = require __DIR__ . '/config/traders-club.php';
 $tcQualUrl = (string) ($tradersClubCfg['qualification_url'] ?? '');
 $tcQualToken = isset($tradersClubCfg['qualification_token']) && is_string($tradersClubCfg['qualification_token'])
-    ? $tradersClubCfg['qualification_token'] : '';
-$tcQualBearer = isset($tradersClubCfg['qualification_bearer_token']) && is_string($tradersClubCfg['qualification_bearer_token'])
-    ? $tradersClubCfg['qualification_bearer_token'] : '';
-$tcQualPostUrl = '';
-if ($tcQualUrl !== '') {
-    if ($tcQualToken !== '') {
-        $tcSep = strpos($tcQualUrl, '?') !== false ? '&' : '?';
-        $tcQualPostUrl = $tcQualUrl . $tcSep . 'token=' . rawurlencode($tcQualToken);
-    } else {
-        $tcQualPostUrl = $tcQualUrl;
-    }
-}
+    ? trim($tradersClubCfg['qualification_token'])
+    : '';
+$tcQualConfigured = ($tcQualUrl !== '' && $tcQualToken !== '');
+$tcQualPostUrl = $tcQualConfigured ? './api/traders-club-qualification.php' : '';
 
 function assetStylesheetTag($path)
 {
@@ -62,8 +54,7 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     window.TRADERS_CLUB_QUALIFICATION = <?php echo json_encode(
         [
             'postUrl' => $tcQualPostUrl,
-            'configured' => ($tcQualPostUrl !== '' && ($tcQualToken !== '' || $tcQualBearer !== '')),
-            'bearer' => $tcQualBearer,
+            'configured' => $tcQualConfigured,
         ],
         JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
     ); ?>;

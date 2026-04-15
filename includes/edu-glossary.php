@@ -96,6 +96,7 @@ foreach (range('A', 'Z') as $letter) {
             <p class="education-subpage-subtitle">
                 Understand essential forex and CFD trading terms with clear definitions for leverage, margin, pip, spread, stop-loss, slippage, and more.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -217,6 +218,8 @@ foreach (range('A', 'Z') as $letter) {
                     </article>
                 <?php endforeach; ?>
             </div>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>

@@ -10,7 +10,6 @@
     const CONFIG = {
         defaultLang: 'en',
         supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
-        supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
         localStorageKey: 'preferredLanguage',
         /** sessionStorage: last locale applied from IP geolocation (region-redirect.js) */
         geoLocaleStorageKey: 'tradertok_geo_locale',
@@ -93,7 +92,6 @@
                 }
             } catch (e) {
                 // Continue to next path
-                console.log(`Failed to load translations from ${path}, trying next path...`);
             }
         }
 
@@ -101,7 +99,6 @@
         
         // Fallback to English if we haven't tried it yet and we are not already trying to load English
         if (lang !== CONFIG.defaultLang && !translationsCache[CONFIG.defaultLang]) {
-             console.log('Falling back to default language');
              return loadTranslations(CONFIG.defaultLang);
         }
 

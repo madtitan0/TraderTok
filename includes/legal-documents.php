@@ -371,9 +371,6 @@ body.light-theme .document-description .legal-documents-panel p:not([class]) {
 
 body.light-theme .notice-text {
   color: var(--text-secondary);
-  text-align: center;
-  max-width: 920px;
-  margin: 0 auto;
 }
 
 .notice-text a {

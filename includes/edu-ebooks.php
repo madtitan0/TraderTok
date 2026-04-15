@@ -7,6 +7,7 @@
             <p class="education-subpage-subtitle">
                 Download free TraderTok trading eBooks covering forex, CFDs, technical analysis, trading psychology, and risk management.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -15,7 +16,14 @@
             <div class="education-subpage-header">
                 <h2 class="education-subpage-section-title">Available eBooks</h2>
                 <p class="education-subpage-section-subtitle">A focused library of downloadable guides built to support users who want structured educational content they can read and revisit at their own pace.</p>
-            </div> <div class="education-user-strip"> <div class="education-user-strip-card"> <div class="education-article-meta">Who These Are For</div> <h3>Built for users who want to learn in a more structured way</h3> <p>These guides are useful if you prefer to read at your own pace, save material for later, and focus on one topic at a time without rushing through short-form content.</p> </div>
+            </div>
+
+            <div class="education-user-strip">
+                <div class="education-user-strip-card">
+                    <div class="education-article-meta">Who These Are For</div>
+                    <h3>Built for users who want to learn in a more structured way</h3>
+                    <p>These guides are useful if you prefer to read at your own pace, save material for later, and focus on one topic at a time without rushing through short-form content.</p>
+                </div>
                 <div class="education-user-strip-card">
                     <div class="education-article-meta">What You’ll Get</div>
                     <h3>Clear overviews, practical context, and beginner-friendly explanations</h3>
@@ -131,6 +139,8 @@
                     <p>The eBooks are offered as educational resources. Users can choose the topic most relevant to them, complete the short form, and access the guide for continued learning beyond the page.</p>
                 </div>
             </section>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 
@@ -183,6 +193,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('ebookLeadForm');
     const closeBtn = document.getElementById('closeEbookModal');
     const triggers = document.querySelectorAll('.ebook-download-btn');
+    const thankYouBase = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'ebook'])); ?>;
+    const bookTopics = {
+        forex: 'Beginner’s Guide to Forex Trading',
+        cfd: 'CFD Trading Essentials',
+        risk: 'Risk Management Playbook',
+        technical: 'Technical Analysis Starter Guide',
+        psychology: 'Trading Psychology Handbook'
+    };
 
     triggers.forEach(function(trigger) {
         trigger.addEventListener('click', function() {
@@ -203,18 +221,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     form.addEventListener('submit', function(e) {
         e.preventDefault();
-        const content = modal.querySelector('.deposit-modal-content');
-        content.innerHTML = `
-            <div style="text-align: center; padding: 40px 20px;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="width: 80px; height: 80px; margin-bottom: 20px;">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="16 8 10 14 8 12"></polyline>
-                </svg>
-                <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Success</h3>
-                <p style="color: var(--text-secondary);">Your download link has been sent to your email.</p>
-                <button class="btn-primary" style="margin-top: 20px;" onclick="location.reload()">Done</button>
-            </div>
-        `;
+        const bookId = (document.getElementById('targetBookId') || {}).value || '';
+        const topic = bookTopics[bookId] || bookId;
+        const sep = thankYouBase.indexOf('?') >= 0 ? '&' : '?';
+        window.location.href = thankYouBase + sep + 'topic=' + encodeURIComponent(topic);
     });
 });
 </script>

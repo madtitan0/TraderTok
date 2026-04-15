@@ -52,12 +52,9 @@
     showError('');
   }
 
-  function simulateSubmit(payload) {
+  function simulateSubmit() {
     return new Promise(function (resolve) {
       window.setTimeout(function () {
-        if (typeof console !== 'undefined' && console.log) {
-          console.log('[demo-account] lead (simulated):', payload);
-        }
         resolve({ ok: true, simulated: true });
       }, 450);
     });
@@ -128,21 +125,12 @@
         return;
       }
 
-      var payload = {
-        name: name,
-        email: email,
-        phone: phone,
-        country: country,
-        consent: true,
-        source: 'demo_account_modal',
-      };
-
       if (submitBtn) {
         submitBtn.disabled = true;
         submitBtn.textContent = 'Sending…';
       }
 
-      simulateSubmit(payload).then(
+      simulateSubmit().then(
         function () {
           if (submitBtn) {
             submitBtn.disabled = false;

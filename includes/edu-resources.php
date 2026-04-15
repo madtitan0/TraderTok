@@ -74,6 +74,7 @@ $practical_uses = [
             <p class="education-subpage-subtitle">
                 Access TraderTok trading tools and resources including calculators, economic calendar guides, trading checklists, and practical learning support.
             </p>
+            <?php include __DIR__ . '/partials/education-subpage-hero-ctas.php'; ?>
         </div>
     </section>
 
@@ -171,6 +172,8 @@ $practical_uses = [
                     <p>The purpose of this section is educational. It gives users practical resources that can help them understand trading concepts, structure their process, and learn in a more organized way.</p>
                 </div>
             </section>
+
+            <?php include __DIR__ . '/partials/education-hub-account-ctas.php'; ?>
         </div>
     </section>
 </section>
