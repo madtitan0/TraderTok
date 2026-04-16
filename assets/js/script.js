@@ -1,27 +1,25 @@
 /**
  * Existing-user qualification: POST JSON to same-origin api/traders-club-qualification.php
- * (server forwards to DataConect; configure token in includes/config/traders-club.php).
+ * (server forwards to DataConect; backend config lives in api/traders-club-qualification.php).
  */
 function tradersClubQualificationRequest(body) {
-  const c =
-    typeof window !== "undefined" ? window.TRADERS_CLUB_QUALIFICATION : null;
-  if (!c || !c.configured || !c.postUrl) {
-    return Promise.reject(
-      new Error(
-        "Qualification is not configured. Set qualification_token in includes/config/traders-club.php.",
-      ),
-    );
-  }
   const headers = {
     "Content-Type": "application/json",
     Accept: "application/json",
   };
-  return fetch(c.postUrl, {
+  return fetch("./api/traders-club-qualification.php", {
     method: "POST",
     headers,
     body: JSON.stringify(body),
     credentials: "same-origin",
   });
+}
+
+function logQualificationDebug(flowName, payload, response, raw, data) {
+  // console.log(`[${flowName}] qualification request`, payload);
+  // console.log(`[${flowName}] qualification response status`, response.status);
+  // console.log(`[${flowName}] qualification response raw`, raw);
+  // console.log(`[${flowName}] qualification response parsed`, data);
 }
 
 // ================== THEME TOGGLE ==================
@@ -2356,14 +2354,16 @@ if (signupForm) {
 
   async function submitExistingAccount(email) {
     setFormError("");
+    const payload = {
+      existing: true,
+      group: DEPOSIT_GROUP,
+      email: email.trim(),
+    };
     let res;
     try {
-      res = await tradersClubQualificationRequest({
-        existing: true,
-        group: DEPOSIT_GROUP,
-        email: email.trim(),
-      });
+      res = await tradersClubQualificationRequest(payload);
     } catch (err) {
+      // console.error("[Deposit qualification] request failed", err);
       setFormError(
         err?.message ||
           "Qualification request could not be sent. Check configuration.",
@@ -2373,6 +2373,7 @@ if (signupForm) {
 
     const raw = await res.text();
     const data = raw ? parseJsonSafe(raw) : null;
+    logQualificationDebug("Deposit qualification", payload, res, raw, data);
 
     if (!res.ok) {
       const msg =
@@ -2926,14 +2927,16 @@ if (signupForm) {
 
   async function submitExistingAccount(email) {
     setFormError("");
+    const payload = {
+      existing: true,
+      group: TRADERS_CLUB_GROUP,
+      email: email.trim(),
+    };
     let res;
     try {
-      res = await tradersClubQualificationRequest({
-        existing: true,
-        group: TRADERS_CLUB_GROUP,
-        email: email.trim(),
-      });
+      res = await tradersClubQualificationRequest(payload);
     } catch (err) {
+      // console.error("[Traders Club qualification] request failed", err);
       setFormError(
         err?.message ||
           "Qualification request could not be sent. Check configuration.",
@@ -2943,6 +2946,7 @@ if (signupForm) {
 
     const raw = await res.text();
     const data = raw ? parseJsonSafe(raw) : null;
+    logQualificationDebug("Traders Club qualification", payload, res, raw, data);
 
     if (!res.ok) {
       const msg =

@@ -187,8 +187,12 @@
     <script src="assets/js/edu-resources-calculators.js?v=<?php echo filemtime('assets/js/edu-resources-calculators.js'); ?>" defer></script>
     <?php endif; ?>
     <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
+    <?php if (!empty($page) && $page === 'meet-the-team'): ?>
     <script src="assets/js/team-script.js?v=<?php echo filemtime('assets/js/team-script.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'top-instruments'): ?>
     <script src="assets/js/instruments-script.js?v=<?php echo filemtime('assets/js/instruments-script.js'); ?>" defer></script>
+    <?php endif; ?>
     <script src="assets/js/offers-nav.js?v=<?php echo filemtime('assets/js/offers-nav.js'); ?>" defer></script>
     <script src="assets/js/offers-promotions.js?v=<?php echo filemtime('assets/js/offers-promotions.js'); ?>" defer></script>
     <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>

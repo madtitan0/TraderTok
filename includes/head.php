@@ -1,14 +1,31 @@
 <?php
 require_once __DIR__ . '/config/subdomain-config.php';
 
-/** Used by assets/js/script.js for “existing user” qualification (POST to same-origin api/traders-club-qualification.php). */
-$tradersClubCfg = require __DIR__ . '/config/traders-club.php';
-$tcQualUrl = (string) ($tradersClubCfg['qualification_url'] ?? '');
-$tcQualToken = isset($tradersClubCfg['qualification_token']) && is_string($tradersClubCfg['qualification_token'])
-    ? trim($tradersClubCfg['qualification_token'])
-    : '';
-$tcQualConfigured = ($tcQualUrl !== '' && $tcQualToken !== '');
-$tcQualPostUrl = $tcQualConfigured ? './api/traders-club-qualification.php' : '';
+function filterThemeCssFiles($html): string
+{
+    if (!is_string($html) || $html === '') {
+        return '';
+    }
+
+    $blockedHosts = [
+        'cdn.trade-secure.info',
+    ];
+
+    return preg_replace_callback(
+        '/<link\b[^>]*href=(["\'])([^"\']+)\1[^>]*>/i',
+        static function (array $matches) use ($blockedHosts): string {
+            $href = $matches[2] ?? '';
+            foreach ($blockedHosts as $host) {
+                if (stripos($href, $host) !== false) {
+                    return '';
+                }
+            }
+
+            return $matches[0];
+        },
+        $html
+    ) ?? $html;
+}
 
 function assetStylesheetTag($path)
 {
@@ -50,15 +67,6 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>window.subdomainData = <?php echo $subdomainJS; ?>;</script>
-    <script>
-    window.TRADERS_CLUB_QUALIFICATION = <?php echo json_encode(
-        [
-            'postUrl' => $tcQualPostUrl,
-            'configured' => $tcQualConfigured,
-        ],
-        JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
-    ); ?>;
-    </script>
     <?php if (!empty($tradertok_extra_geo_main_hosts) && is_array($tradertok_extra_geo_main_hosts)) : ?>
     <script>
     window.TRADERTOK_MAIN_DOMAINS = <?php echo json_encode(array_values($tradertok_extra_geo_main_hosts)); ?>;
@@ -117,7 +125,7 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
       rel="stylesheet">
 
     <link rel="icon" href="<?php echo htmlspecialchars((string) $get->assets_url . '/' . (string) $get->favicon, ENT_QUOTES, 'UTF-8'); ?>" />
-    <?php echo (isset($theme) && is_object($theme) && isset($theme->css_files)) ? $theme->css_files : ''; ?>
+    <?php echo (isset($theme) && is_object($theme) && isset($theme->css_files)) ? filterThemeCssFiles($theme->css_files) : ''; ?>
 
     <?php
     $sharedStylesheets = [
