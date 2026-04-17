@@ -149,6 +149,7 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     ?>
 
     <?php include __DIR__ . '/partials/site-heading-accent-swap.php'; ?>
+       <?php include __DIR__ . '/partials/global-button-pills.php'; ?>
 
     <?php echo $get->head_code; ?>
   </head>

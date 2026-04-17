@@ -48,6 +48,228 @@
     background: #000000;
   }
 }
+
+/* Home payment — revamp (wallets + layout overrides) */
+.home-payment-overview.home-pay-revamp .home-payment-overview__visual {
+  border-radius: 20px;
+  padding: 0;
+  background: transparent;
+}
+
+.home-payment-overview.home-pay-revamp .home-payment-overview__icon-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.home-pay-methods-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .home-pay-methods-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.home-pay-wallets {
+  border-radius: 16px;
+  padding: 16px 14px 18px;
+  background: linear-gradient(165deg, rgba(208, 44, 45, 0.09) 0%, rgba(0, 0, 0, 0.35) 45%, rgba(0, 182, 122, 0.06) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+.home-pay-wallets__label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+body.light-theme .home-pay-wallets__label {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.home-pay-wallets__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 520px) {
+  .home-pay-wallets__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.home-payment-overview__wallet-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 92px;
+  padding: 12px 8px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-payment-overview__wallet-chip:hover {
+  border-color: rgba(0, 182, 122, 0.45);
+  box-shadow: 0 6px 20px rgba(0, 182, 122, 0.12);
+  transform: translateY(-2px);
+}
+
+.home-payment-overview__wallet-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.home-payment-overview__wallet-apple-mark {
+  width: 20px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.home-payment-overview__wallet-apple-pay-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.home-payment-overview__wallet-brand--apple {
+  color: #f5f5f7;
+}
+
+.home-payment-overview__wallet-g-mark {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.home-payment-overview__wallet-gpay-text {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.home-payment-overview__wallet-gpay-muted {
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: -0.02em;
+}
+
+.home-payment-overview__wallet-chip--mm {
+  padding: 10px 8px;
+  min-height: 88px;
+}
+
+.home-payment-overview__wallet-mm-img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  max-height: 56px;
+  object-fit: contain;
+  display: block;
+}
+
+.home-payment-overview__brand-svg--visa {
+  max-width: 168px;
+  max-height: 52px;
+}
+
+.home-payment-overview__wallet-chip-name {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
+  text-align: center;
+  line-height: 1.25;
+}
+
+.home-payment-overview__wallet-chip-region {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  opacity: 0.9;
+}
+
+.home-payment-overview__gcash-wordmark {
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.home-payment-overview__gcash-g {
+  color: #005ead;
+}
+
+.home-payment-overview__gcash-c {
+  color: #f7941d;
+}
+
+.home-payment-overview__gcash-ash {
+  color: #005ead;
+}
+
+body.light-theme .home-payment-overview__wallet-chip {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .home-pay-wallets {
+  background: linear-gradient(165deg, rgba(208, 44, 45, 0.06) 0%, #fff 40%, rgba(0, 182, 122, 0.05) 100%);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .home-payment-overview__wallet-chip:hover {
+  border-color: rgba(0, 182, 122, 0.35);
+}
+
+body.light-theme .home-payment-overview__wallet-brand--apple {
+  color: #111;
+}
+
+body.light-theme .home-payment-overview__wallet-gpay-muted {
+  color: #5f6368;
+}
+
+.home-pay-revamp .home-payment-overview__bullets {
+  margin-top: 8px;
+}
+
+.home-pay-revamp .home-payment-overview__usp,
+.home-pay-revamp .home-payment-overview__providers {
+  display: none;
+}
+
+.home-pay-footnote {
+  margin: 14px 0 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  text-align: center;
+  opacity: 0.85;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
     <!-- Hero Section -->
 <section class="hero gold-silver-banner" aria-label="TraderTok banner">
@@ -899,71 +1121,89 @@
 
     <!-- Payment methods overview (copy + icon grid — below trust/testimonial area) -->
 
-    <section class="home-payment-overview" aria-labelledby="home-payment-overview-title">
+       <section class="home-payment-overview home-pay-revamp" aria-labelledby="home-payment-overview-title">
       <div class="container">
         <div class="home-payment-overview__layout">
           <h2 id="home-payment-overview-title" class="home-payment-overview__title">Fast, Secure &amp; Flexible Payments</h2>
 
           <p class="home-payment-overview__lead">
-            TraderTok supports a wide range of secure and globally trusted payment methods through our licensed payment partners, ensuring fast, flexible, and reliable transactions for traders worldwide.
+            Fund your account through licensed payment partners: cards, bank transfer, and regional options including <strong>Apple Pay</strong>, <strong>Google Pay</strong>, <strong>mobile money (Africa)</strong>, and <strong>GCash (Asia)</strong> where available.
           </p>
 
-          <div class="home-payment-overview__visual" aria-label="Payment methods and security">
+          <div class="home-payment-overview__visual" aria-label="Payment methods">
             <div class="home-payment-overview__icon-grid">
-              <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
-                <svg class="home-payment-overview__brand-svg" viewBox="0 0 750 471" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Visa">
-                  <path d="M278.2 334.3l30-186.2h48.1l-30.1 186.2h-48zm188.8-181.7c-9.5-3.6-24.5-7.5-43.2-7.5-47.6 0-81.2 24.1-81.5 58.5-.3 25.5 23.9 39.7 42.2 48.2 18.8 8.7 25.1 14.2 25 22-.1 11.9-15 17.3-28.9 17.3-19.3 0-29.6-2.7-45.5-9.4l-6.2-2.8-6.8 40c11.3 5 32.2 9.3 53.9 9.5 50.7 0 83.6-23.8 84-60.5.2-20.2-12.6-35.5-40.4-48.2-16.8-8.2-27.1-13.7-27-22 0-7.4 8.7-15.3 27.5-15.3 15.7-.2 27.1 3.2 36 6.8l4.3 2 6.6-38.6zm124.4-4.5h-37.3c-11.5 0-20.2 3.2-25.3 14.8l-71.6 163.2h50.6s8.3-21.9 10.1-26.7c5.5 0 54.8.1 61.9.1 1.4 6.2 6 26.6 6 26.6h44.7l-39.1-177.9zm-59.4 115c4-10.3 19.4-50 19.4-50-.3.5 4-10.4 6.4-17.1l3.3 15.4s9.3 43.1 11.3 52.1h-40.4v-.4zm-281.8-115l-47.3 127.1-5-24.8c-8.7-28.4-36-59.2-66.5-74.6l43.2 158.2 51-0.1 75.9-185.9-51.3.1z" fill="#1A1F71"/>
-                  <path d="M146.9 148.1h-77.7l-.6 3.6c60.4 14.7 100.4 50.3 117 93l-16.9-81.5c-2.9-11.2-11.4-14.6-21.8-15.1z" fill="#F9A533"/>
-                </svg>
+              <div class="home-pay-methods-row">
+                <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
+                  <svg class="home-payment-overview__brand-svg home-payment-overview__brand-svg--visa" viewBox="0 0 750 471" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Visa">
+                    <path d="M278.2 334.3l30-186.2h48.1l-30.1 186.2h-48zm188.8-181.7c-9.5-3.6-24.5-7.5-43.2-7.5-47.6 0-81.2 24.1-81.5 58.5-.3 25.5 23.9 39.7 42.2 48.2 18.8 8.7 25.1 14.2 25 22-.1 11.9-15 17.3-28.9 17.3-19.3 0-29.6-2.7-45.5-9.4l-6.2-2.8-6.8 40c11.3 5 32.2 9.3 53.9 9.5 50.7 0 83.6-23.8 84-60.5.2-20.2-12.6-35.5-40.4-48.2-16.8-8.2-27.1-13.7-27-22 0-7.4 8.7-15.3 27.5-15.3 15.7-.2 27.1 3.2 36 6.8l4.3 2 6.6-38.6zm124.4-4.5h-37.3c-11.5 0-20.2 3.2-25.3 14.8l-71.6 163.2h50.6s8.3-21.9 10.1-26.7c5.5 0 54.8.1 61.9.1 1.4 6.2 6 26.6 6 26.6h44.7l-39.1-177.9zm-59.4 115c4-10.3 19.4-50 19.4-50-.3.5 4-10.4 6.4-17.1l3.3 15.4s9.3 43.1 11.3 52.1h-40.4v-.4zm-281.8-115l-47.3 127.1-5-24.8c-8.7-28.4-36-59.2-66.5-74.6l43.2 158.2 51-0.1 75.9-185.9-51.3.1z" fill="#1A1F71"/>
+                    <path d="M146.9 148.1h-77.7l-.6 3.6c60.4 14.7 100.4 50.3 117 93l-16.9-81.5c-2.9-11.2-11.4-14.6-21.8-15.1z" fill="#F9A533"/>
+                  </svg>
+                </div>
+                <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
+                  <img src="./assets/images/Mastercard-logo.svg.png" alt="Mastercard" class="home-payment-overview__brand-img home-payment-overview__brand-img--mastercard" width="120" height="75" loading="lazy">
+                </div>
+                <div class="home-payment-overview__icon-tile">
+                  <span class="home-payment-overview__icon-label">Cards</span>
+                  <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <rect x="6" y="12" width="36" height="24" rx="3"/>
+                    <line x1="6" y1="20" x2="42" y2="20"/>
+                    <rect x="28" y="28" width="10" height="4" rx="1" fill="currentColor" stroke="none"/>
+                  </svg>
+                </div>
+                <div class="home-payment-overview__icon-tile">
+                  <span class="home-payment-overview__icon-label">Bank transfer</span>
+                  <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M8 20h32l-6-8H14l-6 8z"/>
+                    <path d="M10 20v14M18 20v14M24 16v18M30 20v14M38 20v14"/>
+                    <line x1="6" y1="34" x2="42" y2="34"/>
+                  </svg>
+                </div>
               </div>
-              <div class="home-payment-overview__icon-tile home-payment-overview__icon-tile--brand">
-                <img src="./assets/images/Mastercard-logo.svg.png" alt="Mastercard" class="home-payment-overview__brand-img home-payment-overview__brand-img--mastercard" width="120" height="75" loading="lazy">
-              </div>
-              <div class="home-payment-overview__icon-tile">
-                <span class="home-payment-overview__icon-label">Cards</span>
-                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <rect x="6" y="12" width="36" height="24" rx="3"/>
-                  <line x1="6" y1="20" x2="42" y2="20"/>
-                  <rect x="28" y="28" width="10" height="4" rx="1" fill="currentColor" stroke="none"/>
-                </svg>
-              </div>
-              <div class="home-payment-overview__icon-tile">
-                <span class="home-payment-overview__icon-label">Bank transfer</span>
-                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <path d="M8 20h32l-6-8H14l-6 8z"/>
-                  <path d="M10 20v14M18 20v14M24 16v18M30 20v14M38 20v14"/>
-                  <line x1="6" y1="34" x2="42" y2="34"/>
-                </svg>
-              </div>
-              <div class="home-payment-overview__icon-tile">
-                <span class="home-payment-overview__icon-label">Mobile payment</span>
-                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <rect x="14" y="6" width="20" height="36" rx="3"/>
-                  <line x1="20" y1="38" x2="28" y2="38"/>
-                  <circle cx="24" cy="12" r="2" fill="currentColor"/>
-                </svg>
-              </div>
-              <div class="home-payment-overview__icon-tile">
-                <span class="home-payment-overview__icon-label">Security</span>
-                <svg class="home-payment-overview__svg-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-                  <path d="M24 8l14 6v10c0 9-6 17-14 20-8-3-14-11-14-20V14l14-6z"/>
-                  <path d="M18 24l4 4 8-9" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+
+              <div class="home-pay-wallets">
+                <span class="home-pay-wallets__label">Digital wallets &amp; regional methods</span>
+                <div class="home-pay-wallets__grid" role="list">
+                  <div class="home-payment-overview__wallet-chip" role="listitem" aria-label="Apple Pay">
+                    <div class="home-payment-overview__wallet-brand home-payment-overview__wallet-brand--apple" aria-hidden="true">
+                      <svg class="home-payment-overview__wallet-apple-mark" viewBox="0 0 24 28" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                      </svg>
+                      <span class="home-payment-overview__wallet-apple-pay-text">Pay</span>
+                    </div>
+                  </div>
+                  <div class="home-payment-overview__wallet-chip" role="listitem" aria-label="Google Pay">
+                    <div class="home-payment-overview__wallet-brand home-payment-overview__wallet-brand--gpay" aria-hidden="true">
+                      <svg class="home-payment-overview__wallet-g-mark" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                      </svg>
+                      <span class="home-payment-overview__wallet-gpay-text"><span class="home-payment-overview__wallet-gpay-muted">Pay</span></span>
+                    </div>
+                  </div>
+                  <div class="home-payment-overview__wallet-chip home-payment-overview__wallet-chip--mm" role="listitem" aria-label="Mobile money">
+                    <img src="./assets/images/mm.jpg" alt="Mobile money" class="home-payment-overview__wallet-mm-img" width="120" height="56" loading="lazy">
+                  </div>
+                  <div class="home-payment-overview__wallet-chip" role="listitem" aria-label="GCash, Asia">
+                    <span class="home-payment-overview__gcash-wordmark" aria-hidden="true"><span class="home-payment-overview__gcash-g">G</span><span class="home-payment-overview__gcash-c">C</span><span class="home-payment-overview__gcash-ash">ash</span></span>
+                    <span class="home-payment-overview__wallet-chip-region" aria-hidden="true">Asia</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="home-payment-overview__trust-tags">
-              <span class="home-payment-overview__tag">Secure Transactions</span>
-              <span class="home-payment-overview__tag">Fast Processing</span>
-              <span class="home-payment-overview__tag">Global Coverage</span>
-              <span class="home-payment-overview__tag">Multiple Payment Options</span>
+              <span class="home-payment-overview__tag">Secure</span>
+              <span class="home-payment-overview__tag">Fast processing</span>
+              <span class="home-payment-overview__tag">Global</span>
             </div>
+            <p class="home-pay-footnote">PSPs include PayRetailers, PayOp, and others. Available methods depend on your region.</p>
           </div>
 
           <ul class="home-payment-overview__bullets">
-            <li>Multiple funding options available based on your region</li>
-            <li>Fast processing for deposits and withdrawals</li>
-            <li>Secure transactions through trusted payment providers</li>
-            <li>Designed for global accessibility and convenience</li>
+            <li>Regional funding options</li>
+            <li>Quick deposits and withdrawals</li>
+            <li>Processing through regulated partners</li>
           </ul>
 
           <div class="home-payment-overview__usp">
