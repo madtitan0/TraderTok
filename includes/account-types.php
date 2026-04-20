@@ -609,7 +609,7 @@ body.light-theme .acct-compare-table tbody tr.acct-row--ecn {
 /* Revamp: density, focus, polish */
 .account-types-page .acct-section .container,
 .account-types-hero .container {
-  max-width: 1080px;
+  max-width: 900px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -880,9 +880,9 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
                 <tr>
                   <th scope="col">Account type</th>
                   <th scope="col">Target trader</th>
-                  <th scope="col">Min deposit</th>
+                  <!-- <th scope="col">Min deposit</th> -->
                   <th scope="col"><abbr title="Difference between bid and ask price; lower can mean lower cost before commission.">Spread</abbr></th>
-                  <th scope="col"><abbr title="Per-lot trading fee where applicable; $0 means commission-free on that account.">Commission</abbr></th>
+                  <!-- <th scope="col"><abbr title="Per-lot trading fee where applicable; $0 means commission-free on that account.">Commission</abbr></th> -->
                   <th scope="col"><abbr title="Maximum leverage offered; higher leverage increases both potential reward and risk.">Leverage</abbr></th>
                   <th scope="col">Key features</th>
                 </tr>
@@ -891,18 +891,18 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
                 <tr>
                   <th scope="row" class="acct-type-cell">Cent (Starter)</th>
                   <td data-label="Target trader">Beginners</td>
-                  <td data-label="Min deposit">$10</td>
+                  <!-- <td data-label="Min deposit">$10</td> -->
                   <td data-label="Spread">From 1.8 pips</td>
-                  <td data-label="Commission">$0</td>
+                  <!-- <td data-label="Commission">$0</td> -->
                   <td data-label="Leverage">Up to 1:1000</td>
                   <td data-label="Key features">Trade in cents, low risk, swap-free option</td>
                 </tr>
                 <tr>
                   <th scope="row" class="acct-type-cell">STP (Standard)</th>
                   <td data-label="Target trader">Intermediate</td>
-                  <td data-label="Min deposit">$100</td>
+                  <!-- <td data-label="Min deposit">$100</td> -->
                   <td data-label="Spread">From 1.8 pips</td>
-                  <td data-label="Commission">$0</td>
+                  <!-- <td data-label="Commission">$0</td> -->
                   <td data-label="Leverage">Up to 1:1000</td>
                   <td data-label="Key features">Fast execution, no commission</td>
                 </tr>
@@ -912,9 +912,9 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
                     <span class="acct-ecn-badge">Premium</span>
                   </th>
                   <td data-label="Target trader">Advanced / High volume</td>
-                  <td data-label="Min deposit">$500</td>
+                  <!-- <td data-label="Min deposit">$500</td> -->
                   <td data-label="Spread">From 0.1 pips</td>
-                  <td data-label="Commission">$8–$10 per lot</td>
+                  <!-- <td data-label="Commission">$8–$10 per lot</td> -->
                   <td data-label="Leverage">Up to 1:1000</td>
                   <td data-label="Key features">Raw spreads, ideal for scalping &amp; bots</td>
                 </tr>
