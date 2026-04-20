@@ -204,6 +204,16 @@
             }
         });
 
+        // Table cell labels (e.g. mobile stacked comparison tables): data-i18n-data-label → sets data-label
+        document.querySelectorAll('[data-i18n-data-label]').forEach(element => {
+            const key = (element.getAttribute('data-i18n-data-label') || '').trim();
+            if (!key) return;
+            const translation = t(key);
+            if (translation !== key) {
+                element.setAttribute('data-label', translation);
+            }
+        });
+
         // Update HTML lang attribute
         document.documentElement.lang = currentLang === 'es-419' ? 'es' : currentLang;
 

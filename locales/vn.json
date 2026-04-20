@@ -1269,65 +1269,218 @@
     "riskDisclosureHeroTitle": "CÔNG BỐ RỦI RO"
   },
   "accountTypesPage": {
-    "pageTitle": "Loại Tài Khoản - TraderTok | Chọn Tài Khoản Giao Dịch",
-    "pageDescription": "Khám phá các loại tài khoản TraderTok được thiết kế phù hợp với kinh nghiệm và mục tiêu giao dịch của bạn.",
-    "heroTitle": "Chọn Loại",
-    "heroTitleHighlight": "Tài Khoản",
-    "heroSubtitle": "Dù mục tiêu giao dịch của bạn là gì, TraderTok cung cấp tài khoản phù hợp. Khám phá và so sánh năm loại tài khoản của chúng tôi để tìm loại phù hợp nhất với nhu cầu của bạn.",
-    "getStarted": "Bắt đầu",
-    "mostPopular": "Phổ Biến Nhất",
-    "standard": {
-      "name": "Tiêu Chuẩn",
-      "feature1": "Truy cập cơ bản vào nền tảng giao dịch",
-      "feature2": "Hỗ trợ khách hàng tiêu chuẩn",
-      "feature3": "Công cụ phân tích thị trường tiêu chuẩn",
-      "feature4": "Truy cập tài nguyên học tập",
-      "feature5": "Cập nhật thị trường định kỳ",
-      "feature6": "Quản lý Tài khoản"
+    "meta": {
+      "pageTitle": "Loại tài khoản | TraderTok | Chọn tài khoản giao dịch",
+      "pageDescription": "So sánh tài khoản Cent, STP và ECN: spread, đòn bẩy và tính năng. Chọn tài khoản phù hợp kinh nghiệm và mục tiêu của bạn."
     },
-    "advanced": {
-      "name": "Nâng Cao",
-      "feature1": "Tất cả lợi ích của tài khoản Tiêu Chuẩn",
-      "feature2": "Chi phí giao dịch thấp hơn",
-      "feature3": "Công cụ biểu đồ nâng cao",
-      "feature4": "Hỗ trợ khách hàng ưu tiên",
-      "feature5": "Thông tin thị trường và báo cáo nghiên cứu hàng ngày",
-      "feature6": "Quản lý Tài khoản",
-      "note": "Tiềm năng tăng doanh thu: Giảm chi phí giao dịch, giúp bạn giữ được phần lợi nhuận cao hơn"
+    "hero": {
+      "line1": "Chọn đúng tài khoản cho",
+      "line2": "hành trình giao dịch của bạn",
+      "subtitle": "Dù bạn mới bắt đầu hay đã giao dịch chuyên nghiệp, các loại tài khoản của chúng tôi được thiết kế để phù hợp kinh nghiệm và mục tiêu của bạn."
     },
-    "professional": {
-      "name": "Chuyên Nghiệp",
-      "feature1": "Tất cả lợi ích của tài khoản Nâng Cao",
-      "feature2": "Giảm 50% phí Swap",
-      "feature3": "Báo cáo nghiên cứu độc quyền",
-      "feature4": "Chi phí giao dịch thấp hơn nữa",
-      "feature5": "Trợ lý cá nhân chuyên dụng",
-      "feature6": "Điều kiện giao dịch tùy chỉnh",
-      "feature7": "Sử dụng công cụ AI (giới hạn)",
-      "feature8": "Đào tạo chuyên sâu bởi nhà phân tích cấp cao",
-      "note": "Tiềm năng tăng doanh thu: Chi phí giao dịch thấp nhất nhánh, cùng với trợ lý cá nhân và công cụ AI hỗ trợ giao dịch"
+    "compare": {
+      "heading": "Tổng quan loại tài khoản",
+      "introHtml": "So sánh nhanh, sau đó mở rộng <strong>Chi tiết tài khoản</strong> bên dưới để xem đầy đủ thông tin.",
+      "regionAriaLabel": "Bảng so sánh tài khoản",
+      "tableCaption": "Bảng so sánh tài khoản",
+      "colAccountType": "Loại tài khoản",
+      "colTargetTrader": "Đối tượng trader",
+      "colSpread": "Spread",
+      "spreadAbbrTitle": "Chênh lệch giữa giá mua và giá bán; spread thấp hơn có thể giúp giảm chi phí trước hoa hồng.",
+      "colLeverage": "Đòn bẩy",
+      "leverageAbbrTitle": "Đòn bẩy tối đa được cung cấp; đòn bẩy cao hơn làm tăng cả lợi nhuận và rủi ro tiềm ẩn.",
+      "colKeyFeatures": "Điểm nổi bật",
+      "labelTargetTrader": "Đối tượng trader",
+      "labelSpread": "Spread",
+      "labelLeverage": "Đòn bẩy",
+      "labelKeyFeatures": "Điểm nổi bật",
+      "centName": "Cent (Khởi đầu)",
+      "centTarget": "Người mới",
+      "centSpread": "Từ 1,8 pip",
+      "centLeverage": "Tối đa 1:1000",
+      "centFeatures": "Giao dịch theo xu, rủi ro thấp, có tùy chọn miễn swap",
+      "stpName": "STP (Tiêu chuẩn)",
+      "stpTarget": "Trung cấp",
+      "stpSpread": "Từ 1,8 pip",
+      "stpLeverage": "Tối đa 1:1000",
+      "stpFeatures": "Khớp lệnh nhanh, không hoa hồng",
+      "ecnName": "ECN (Chuyên nghiệp)",
+      "ecnBadge": "Cao cấp",
+      "ecnTarget": "Nâng cao / Khối lượng lớn",
+      "ecnSpread": "Từ 0,1 pip",
+      "ecnLeverage": "Tối đa 1:1000",
+      "ecnFeatures": "Spread thô, lý tưởng cho scalping và bot"
     },
-    "exclusive": {
-      "name": "Đặc Quyền",
-      "feature1": "Tất cả lợi ích của tài khoản Chuyên Nghiệp",
-      "feature2": "Miễn phí swap!",
-      "feature3": "Chi phí giao dịch thấp nhất có thể",
-      "feature4": "Truy cập ưu tiên các tính năng và công cụ mới",
-      "feature5": "Tài nguyên học tập độc quyền",
-      "feature6": "Sự kiện VIP và cơ hội kết nối",
-      "feature7": "Truy cập thường xuyên với các nhà phân tích cấp cao",
-      "feature8": "Hỗ trợ khách hàng cấp cao với thời gian phản hồi nhanh hơn",
-      "note": "Tận dụng chi phí giao dịch thấp nhất, miễn phí swap, tính năng độc quyền và hỗ trợ cá nhân hóa, tối ưu hiệu suất giao dịch cho lợi nhuận tiềm năng cao hơn"
+    "detailsSection": {
+      "heading": "Chi tiết tài khoản",
+      "intro": "Tính năng và chi phí theo từng loại tài khoản.",
+      "purpose": "Mục đích",
+      "keyFeatures": "Điểm nổi bật",
+      "whyIdeal": "Vì sao phù hợp"
     },
-    "black": {
-      "name": "ĐEN",
-      "feature1": "Tất cả lợi ích tài khoản Đặc Quyền",
-      "feature2": "Nhà phân tích cấp cao cá nhân",
-      "feature3": "Tiền thưởng chào mừng 300.000",
-      "feature4": "Truy cập bộ thông tin giáo dục riêng",
-      "feature5": "Ưu đãi cá nhân hóa và có thể thương lượng",
-      "feature6": "Nhà phân tích giám sát"
+    "centDetails": {
+      "summary": "Tài khoản Cent (Khởi đầu)",
+      "purpose1": "Dành cho người mới tham gia forex",
+      "purpose2": "Nạp tối thiểu thấp để dễ bắt đầu",
+      "key1": "Giao dịch theo xu (giảm mức chịu rủi ro)",
+      "key2": "Spread từ 1,8 pip",
+      "key3": "Đòn bẩy tối đa 1:1000",
+      "key4": "Có tùy chọn Hồi giáo (miễn swap)",
+      "why1": "Phù hợp thị trường người mới như Pakistan",
+      "why2": "Giúp tiếp nhận trader mới dễ dàng",
+      "why3": "Hỗ trợ tăng trưởng IB nhờ rào cản thấp"
+    },
+    "stpDetails": {
+      "summary": "Tài khoản STP (Tiêu chuẩn)",
+      "purpose1": "Dành cho trader thường xuyên cần khớp lệnh tốt hơn",
+      "key1": "Nạp tối thiểu: 100 USD",
+      "key2": "Spread từ 1,8 pip",
+      "key3": "Xử lý STP (straight-through)",
+      "key4": "Khớp lệnh nhanh",
+      "key5": "Đòn bẩy tối đa 1:1000",
+      "why1": "Điều kiện giao dịch cân bằng",
+      "why2": "Mô hình giá đơn giản",
+      "why3": "Phù hợp đa số trader bán lẻ"
+    },
+    "ecnDetails": {
+      "summary": "Tài khoản ECN (Chuyên nghiệp)",
+      "purpose1": "Dành cho trader có kinh nghiệm và khối lượng lớn",
+      "key1": "Nạp tối thiểu: 500 USD",
+      "key2": "Spread thô từ 0,1 pip",
+      "key3": "Đòn bẩy tối đa 1:1000",
+      "key4": "Forex, kim loại, chỉ số, hàng hóa, tiền mã hóa",
+      "key5": "Lý tưởng cho scalping và giao dịch tự động",
+      "why1": "Spread chặt cho trader nghiêm túc",
+      "why2": "Chất lượng khớp lệnh tốt hơn",
+      "why3": "Cạnh tranh với các broker ECN hàng đầu"
+    },
+    "notes": {
+      "heading": "Lưu ý quan trọng",
+      "supportHtml": "<strong>Mọi loại tài khoản đều hỗ trợ:</strong> Forex, kim loại, chỉ số, hàng hóa và tiền mã hóa.",
+      "islamicHtml": "<strong>Tài khoản Hồi giáo có cho:</strong> tài khoản Cent và STP."
+    },
+    "elite": {
+      "title": "Tài khoản mystery / cao cấp",
+      "paragraph1": "Chúng tôi còn nhiều lựa chọn vượt ra ngoài các loại tài khoản tiêu chuẩn liệt kê ở đây — gồm tài khoản cao cấp và ưu tiên, dành cho trader và nhà đầu tư chuyên nghiệp — chỉ mở theo yêu cầu.",
+      "contactHtml": "Để được hỗ trợ và chi tiết, vui lòng <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">liên hệ chúng tôi</a> trực tiếp."
+    },
+    "cta": {
+      "heading": "Mở tài khoản",
+      "openLive": "Mở tài khoản thật",
+      "tryDemo": "Dùng thử demo",
+      "speakExpert": "Nói với chuyên gia"
     }
+  },
+  "openDemoAccountPage": {
+    "meta": {
+      "pageTitle": "Mở tài khoản demo | Luyện giao dịch | TraderTok",
+      "pageDescription": "Đăng ký quan tâm mở tài khoản demo miễn phí. Luyện tập bằng tiền ảo trên dữ liệu thị trường thực."
+    },
+    "heroTitle": "Mở tài khoản demo miễn phí",
+    "heroLead": "Luyện tập với tiền ảo trên dữ liệu thị trường trực tiếp. Gửi thông tin bên dưới; đội ngũ sẽ liên hệ các bước tiếp theo. Demo không cần thanh toán.",
+    "whyTitle": "Vì sao nên bắt đầu bằng demo?",
+    "whyBody": "Tài khoản demo giúp bạn khám phá nền tảng, biểu đồ và loại lệnh trong môi trường không rủi ro khi tìm hiểu biến động thị trường.",
+    "bullet1": "Số dư ảo để luyện tập",
+    "bullet2": "Giá thị trường trực tiếp, ngữ cảnh thực tế",
+    "bullet3": "Không cần nạp để bắt đầu",
+    "liveCrosslink": "Mở tài khoản thật",
+    "formNote": "Biểu mẫu chưa kết nối CRM thật. Gửi đi được mô phỏng cho đến khi bạn kết nối API đăng ký.",
+    "cardMeta": "Thông tin của bạn",
+    "cardTitle": "Yêu cầu tài khoản demo",
+    "labelFullName": "Họ và tên",
+    "placeholderFullName": "Họ và tên đầy đủ",
+    "labelEmail": "Email",
+    "placeholderEmail": "ban@vidu.com",
+    "labelPhone": "Điện thoại",
+    "placeholderPhone": "Kèm mã quốc gia",
+    "labelCountry": "Quốc gia / khu vực",
+    "selectPlaceholder": "Chọn…",
+    "countries": {
+      "GB": "Vương quốc Anh",
+      "US": "Hoa Kỳ",
+      "DE": "Đức",
+      "FR": "Pháp",
+      "AU": "Úc",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "Các Tiểu vương quốc Ả Rập Thống nhất",
+      "ZA": "Nam Phi",
+      "NG": "Nigeria",
+      "IN": "Ấn Độ",
+      "MY": "Malaysia",
+      "OTHER": "Khác"
+    },
+    "consentHtml": "Tôi đồng ý được liên hệ về yêu cầu demo và đã đọc <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách quyền riêng tư</a>.",
+    "submitButton": "Gửi yêu cầu demo",
+    "errors": {
+      "nameRequired": "Vui lòng nhập họ và tên.",
+      "emailInvalid": "Vui lòng nhập email hợp lệ.",
+      "phoneRequired": "Vui lòng nhập số điện thoại.",
+      "countryRequired": "Vui lòng chọn quốc gia hoặc khu vực.",
+      "consentRequired": "Vui lòng xác nhận đồng ý để tiếp tục."
+    }
+  },
+  "openLiveAccountPage": {
+    "meta": {
+      "pageTitle": "Mở tài khoản thật | TraderTok",
+      "pageDescription": "Đăng ký quan tâm mở tài khoản giao dịch thật. Đội ngũ sẽ liên hệ để xác minh và các bước tiếp theo."
+    },
+    "heroTitle": "Mở tài khoản giao dịch thật",
+    "heroLead": "Cho chúng tôi biết cách liên hệ với bạn. Thành viên đội ngũ sẽ liên hệ kiểm tra điều kiện, hồ sơ và các bước tiếp theo. Giao dịch có rủi ro; đây không phải tư vấn tài chính.",
+    "beforeTitle": "Trước khi bắt đầu",
+    "beforeBody": "Tài khoản thật liên quan đến vốn thật và kiểm tra quy định. Hoàn thành biểu mẫu này đăng ký quan tâm để đội ngũ hướng dẫn xác minh và truy cập nền tảng.",
+    "bullet1": "Có thể áp dụng kiểm tra danh tính và cư trú",
+    "bullet2": "Tiết lộ rủi ro và chấp nhận điều khoản trong quy trình onboarding",
+    "bullet3": "Theo dõi chuyên biệt từ đội ngũ của chúng tôi",
+    "demoCrosslink": "Mở tài khoản demo",
+    "formNote": "Biểu mẫu chưa kết nối hệ thống onboarding thật. Gửi đi được mô phỏng cho đến khi bạn kết nối CRM hoặc API đăng ký.",
+    "cardMeta": "Thông tin của bạn",
+    "cardTitle": "Đăng ký quan tâm mở tài khoản thật",
+    "labelFullName": "Họ và tên",
+    "placeholderFullName": "Họ và tên đầy đủ",
+    "labelEmail": "Email",
+    "placeholderEmail": "ban@vidu.com",
+    "labelPhone": "Điện thoại",
+    "placeholderPhone": "Kèm mã quốc gia",
+    "labelCountry": "Quốc gia / khu vực",
+    "selectPlaceholder": "Chọn…",
+    "countries": {
+      "GB": "Vương quốc Anh",
+      "US": "Hoa Kỳ",
+      "DE": "Đức",
+      "FR": "Pháp",
+      "AU": "Úc",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "Các Tiểu vương quốc Ả Rập Thống nhất",
+      "ZA": "Nam Phi",
+      "NG": "Nigeria",
+      "IN": "Ấn Độ",
+      "MY": "Malaysia",
+      "OTHER": "Khác"
+    },
+    "consentHtml": "Tôi hiểu giao dịch có rủi ro và đồng ý được liên hệ về mở tài khoản thật. Tôi đã đọc <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách quyền riêng tư</a>.",
+    "submitButton": "Gửi yêu cầu tài khoản thật",
+    "errors": {
+      "nameRequired": "Vui lòng nhập họ và tên.",
+      "emailInvalid": "Vui lòng nhập email hợp lệ.",
+      "phoneRequired": "Vui lòng nhập số điện thoại.",
+      "countryRequired": "Vui lòng chọn quốc gia hoặc khu vực.",
+      "consentRequired": "Vui lòng xác nhận đồng ý để tiếp tục."
+    }
+  },
+  "demoAccountModal": {
+    "closeAriaLabel": "Đóng",
+    "formNote": "Biểu mẫu chưa kết nối máy chủ. Gửi đi được mô phỏng để thử; hãy kết nối CRM hoặc API đăng ký khi sẵn sàng.",
+    "submitButton": "Tạo tài khoản demo",
+    "sending": "Đang gửi…",
+    "errors": {
+      "consentPrivacy": "Vui lòng chấp nhận điều khoản quyền riêng tư để tiếp tục.",
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "successTitle": "Cảm ơn bạn",
+    "successSubtitle": "Chúng tôi đã nhận yêu cầu demo. Bạn sẽ được liên hệ sớm với hướng dẫn truy cập tài khoản luyện tập.",
+    "closeButton": "Đóng"
   },
   "researchPage": {
     "pageTitle": "Nghiên Cứu - TraderTok | Phân Tích & Thông Tin Thị Trường",
@@ -1352,7 +1505,164 @@
     "practicalInsights": "Thông Tin Thực Tiễn",
     "expertAnalysis": "Phân Tích Chuyên Gia",
     "weeklyUpdatesFeature": "Cập Nhật Hàng Tuần",
-    "clearStructure": "Cấu Trúc Rõ Ràng"
+    "clearStructure": "Cấu Trúc Rõ Ràng",
+    "whyEducationImageAlt": "Tại sao giáo dục quan trọng",
+    "videoCards": {
+      "1": {
+        "category": "Chiến lược giao dịch",
+        "title": "Các loại CFD",
+        "date": "15 thg 12, 2024"
+      },
+      "2": {
+        "category": "Chiến lược giao dịch",
+        "title": "Các loại thị trường",
+        "date": "8 thg 12, 2024"
+      },
+      "3": {
+        "category": "Phân tích thị trường",
+        "title": "Triển vọng thị trường tuần: Forex & hàng hóa",
+        "date": "8 thg 12, 2024"
+      },
+      "4": {
+        "category": "Phân tích kỹ thuật",
+        "title": "Xây dựng danh mục giao dịch đa dạng",
+        "date": "5 thg 12, 2024"
+      }
+    },
+    "reportCards": {
+      "1": {
+        "title": "Triển vọng thị trường Q4 2024",
+        "meta": "2,4 MB • Cập nhật thg 12/2024"
+      },
+      "2": {
+        "title": "Hướng dẫn chiến lược Forex",
+        "meta": "3,1 MB • Cập nhật thg 11/2024"
+      },
+      "3": {
+        "title": "Phân tích thị trường tiền mã hóa",
+        "meta": "1,8 MB • Cập nhật thg 12/2024"
+      },
+      "4": {
+        "title": "Sổ tay quản trị rủi ro",
+        "meta": "2,7 MB • Cập nhật thg 10/2024"
+      },
+      "5": {
+        "title": "Giải thích chỉ báo kỹ thuật",
+        "meta": "4,2 MB • Cập nhật thg 11/2024"
+      },
+      "6": {
+        "title": "Hướng dẫn giao dịch hàng hóa",
+        "meta": "2,9 MB • Cập nhật thg 9/2024"
+      }
+    }
+  },
+  "educationHubPage": {
+    "meta": {
+      "pageTitle": "Trung tâm Giáo dục - TraderTok | Học thị trường & giao dịch",
+      "pageDescription": "Khám phá khóa học, bài viết, thông tin thị trường, hội thảo trực tuyến, thuật ngữ, hướng dẫn và công cụ tại Trung tâm Giáo dục TraderTok."
+    },
+    "heroEyebrow": "Trung tâm Giáo dục TraderTok",
+    "heroTitle": "Tìm hiểu về thị trường tài chính qua một trung tâm kiến thức có cấu trúc và dễ tiếp cận.",
+    "heroSubtitle": "Trung tâm Giáo dục TraderTok tập hợp nội dung giáo dục giúp người dùng hiểu khái niệm thị trường, nền tảng giao dịch, nhận thức rủi ro và hệ sinh thái giao dịch rộng hơn tại một nơi.",
+    "ctaExplore": "Khám phá các mục",
+    "ctaDemo": "Mở tài khoản demo",
+    "ctaLive": "Mở tài khoản thật",
+    "microTrust": "Chỉ nội dung giáo dục. Kiến thức thị trường rõ ràng, lộ trình học thực tiễn và truy cập tài nguyên dễ dàng hơn.",
+    "overviewTitle": "Tổng quan",
+    "overviewSubtitle": "Một trang trung tâm cho tài nguyên học tập, thông tin chi tiết, hướng dẫn, hội thảo trực tuyến, thuật ngữ, hướng dẫn sử dụng và công cụ.",
+    "overviewBody1": "Thị trường tài chính có thể phức tạp, đặc biệt với trader mới. Trang này giúp học dễ hơn bằng cách sắp xếp tài nguyên giáo dục TraderTok thành các phần rõ ràng để người dùng khám phá theo sở thích và trình độ.",
+    "overviewBody2": "Dù bạn cần giáo dục cơ bản, thông tin thị trường sâu hơn, trợ giúp nền tảng hay định nghĩa thuật ngữ, trung tâm là điểm bắt đầu.",
+    "whatYouFindTitle": "Bạn sẽ tìm thấy gì",
+    "whatYouFindSubtitle": "Trung tâm được tổ chức để người dùng đi từ kiến thức nền tảng đến nội dung sâu hơn theo tốc độ của riêng mình.",
+    "learn1Title": "Giáo dục cho người mới",
+    "learn1Desc": "Bắt đầu với lộ trình đơn giản hơn giải thích thị trường, khái niệm giao dịch và thuật ngữ chính rõ ràng hơn.",
+    "learn2Title": "Thông tin thị trường",
+    "learn2Desc": "Hiểu tin tức, sự kiện toàn cầu và diễn biến thị trường có thể ảnh hưởng thế nào đến thị trường tài chính.",
+    "learn3Title": "Hướng dẫn tải xuống",
+    "learn3Desc": "Truy cập nội dung giáo dục dài hơn để đọc, lưu và xem lại khi cần.",
+    "learn4Title": "Hội thảo trực tuyến",
+    "learn4Desc": "Khám phá nội dung webinar giáo dục giúp học tập tương tác và thực tiễn hơn.",
+    "learn5Title": "Thuật ngữ và hướng dẫn",
+    "learn5Desc": "Dùng thuật ngữ và hướng dẫn nền tảng để hiểu ngôn ngữ và quy trình làm việc tốt hơn.",
+    "learn6Title": "Công cụ và tài nguyên",
+    "learn6Desc": "Tìm tài liệu hỗ trợ và tài nguyên hữu ích để hoàn thiện hành trình học tập.",
+    "whoForTitle": "Giáo dục này dành cho bạn?",
+    "whoForSubtitle": "Cách đơn giản để xem trung tâm có phù hợp với nhu cầu của bạn không.",
+    "whoForYesTitle": "Phù hợp nếu bạn:",
+    "whoForYes1": "Muốn hiểu thị trường tài chính theo cách có cấu trúc hơn.",
+    "whoForYes2": "Thích nội dung giáo dục dễ duyệt theo chủ đề.",
+    "whoForYes3": "Muốn một nơi cho bài viết, hướng dẫn, webinar, hướng dẫn sử dụng và thuật ngữ.",
+    "whoForNoTitle": "Không phù hợp nếu bạn:",
+    "whoForNo1": "Đang tìm lời hứa, đường tắt hoặc kết quả đảm bảo.",
+    "whoForNo2": "Chỉ muốn nội dung quảng cáo thay vì tài liệu giáo dục.",
+    "whoForNo3": "Không quan tâm học cách thị trường và khái niệm giao dịch hoạt động.",
+    "sectionsTitle": "Các phần giáo dục",
+    "sectionsSubtitle": "Chọn một mục bên dưới để tiếp tục học phần phù hợp với nhu cầu của bạn.",
+    "cards": {
+      "courses": {
+        "meta": "Lộ trình học",
+        "title": "Khóa học",
+        "desc": "Nội dung giáo dục có cấu trúc để xây dựng kiến thức giao dịch từng bước."
+      },
+      "articles": {
+        "meta": "Cơ sở kiến thức",
+        "title": "Bài viết",
+        "desc": "Bài viết giáo dục dễ đọc về khái niệm thị trường, chiến lược và nền tảng giao dịch."
+      },
+      "marketNews": {
+        "meta": "Kiến thức thị trường",
+        "title": "Tin tức & thông tin thị trường",
+        "desc": "Hiểu sự kiện hiện tại và diễn biến thị trường định hình thị trường tài chính."
+      },
+      "ebooks": {
+        "meta": "Tải xuống",
+        "title": "eBook",
+        "desc": "Hướng dẫn giáo dục dài để đọc và xem lại theo tốc độ của bạn."
+      },
+      "webinars": {
+        "meta": "Trực tiếp & theo yêu cầu",
+        "title": "Webinar",
+        "desc": "Nội dung webinar tập trung vào hiểu thị trường và học trader."
+      },
+      "glossary": {
+        "meta": "Thuật ngữ",
+        "title": "Thuật ngữ giao dịch",
+        "desc": "Định nghĩa các thuật ngữ thiết yếu và ngôn ngữ thị trường trong ngành."
+      },
+      "tutorials": {
+        "meta": "Trợ giúp nền tảng",
+        "title": "Hướng dẫn nền tảng",
+        "desc": "Hướng dẫn thực hành giúp hiểu tính năng và quy trình nền tảng."
+      },
+      "tools": {
+        "meta": "Tiện ích",
+        "title": "Công cụ & tài nguyên",
+        "desc": "Tài liệu hỗ trợ, công cụ và tài nguyên giáo dục hữu ích cho học liên tục."
+      }
+    },
+    "howItWorksTitle": "Cách hoạt động",
+    "howItWorksSubtitle": "Luồng học đơn giản giúp điều hướng trung tâm dễ hơn.",
+    "step1Title": "Chọn một mục",
+    "step1Desc": "Bắt đầu với phần phù hợp với điều bạn muốn học: khóa học, bài viết, webinar hoặc thuật ngữ.",
+    "step2Title": "Học theo tốc độ của bạn",
+    "step2Desc": "Đọc, xem và khám phá theo trình độ, sở thích và chủ đề phù hợp nhất.",
+    "step3Title": "Quay lại khi cần",
+    "step3Desc": "Dùng trung tâm làm điểm tham chiếu khi muốn ôn khái niệm hoặc khám phá tài nguyên mới.",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faqSubtitle": "Một vài câu trả lời ngắn giúp hiểu Trung tâm Giáo dục dùng để làm gì.",
+    "faq1Q": "TraderTok Education Hub là gì?",
+    "faq1A": "Đây là trang trung tâm để truy cập nội dung giáo dục như khóa học, bài viết, thông tin thị trường, webinar, thuật ngữ, hướng dẫn và tài nguyên hỗ trợ.",
+    "faq2Q": "Trang này dành cho ai?",
+    "faq2A": "Dành cho người muốn tìm hiểu thị trường tài chính rõ ràng và có tổ chức hơn, dù mới hay muốn mở rộng kiến thức.",
+    "faq3Q": "Tôi có thể truy cập gì từ trang này?",
+    "faq3A": "Bạn có thể chuyển tới khóa học, bài viết, tin tức và thông tin thị trường, eBook, webinar, thuật ngữ giao dịch, hướng dẫn nền tảng và công cụ cùng tài nguyên.",
+    "faq4Q": "Trang này để học hay quảng cáo?",
+    "faq4A": "Trang này nhằm là trung tâm giáo dục, giúp khám phá kiến thức thị trường và tài liệu học liên quan dễ dàng hơn.",
+    "ctaBandAria": "Mở tài khoản giao dịch",
+    "ctaBandTitle": "Sẵn sàng luyện tập hoặc giao dịch thật?",
+    "ctaBandSubtitle": "Hoàn thành các biểu mẫu đăng ký ngắn ở các trang tiếp theo. Gửi biểu mẫu được mô phỏng cho đến khi bạn kết nối CRM hoặc API onboarding.",
+    "ctaBandDemo": "Mở tài khoản demo",
+    "ctaBandLive": "Mở tài khoản thật"
   },
   "eventsCalendarPage": {
     "pageTitle": "Lịch Sự Kiện - TraderTok | Các Sự Kiện Thị Trường Quan Trọng",

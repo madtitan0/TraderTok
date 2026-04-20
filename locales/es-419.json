@@ -1960,65 +1960,218 @@
     "importantNotice": "Al continuar usando nuestros servicios, confirmas que has leído, entendido y aceptado los términos descritos en estas políticas."
   },
   "accountTypesPage": {
-    "pageTitle": "Tipos de Cuenta - TraderTok | Elige Tu Cuenta de Trading",
-    "pageDescription": "Explora los tipos de cuenta de TraderTok diseñados para tu experiencia y objetivos de trading.",
-    "heroTitle": "Elige Tu",
-    "heroTitleHighlight": "Tipo de Cuenta",
-    "heroSubtitle": "Sin importar tus objetivos de trading, TraderTok ofrece una cuenta diseñada para satisfacerlos perfectamente. Explora y compara nuestras cinco opciones de cuenta para encontrar la que mejor se alinee con tus necesidades.",
-    "getStarted": "Comenzar",
-    "mostPopular": "Más Popular",
-    "standard": {
-      "name": "Estándar",
-      "feature1": "Acceso básico a la plataforma de trading",
-      "feature2": "Soporte al cliente estándar",
-      "feature3": "Herramientas de análisis de mercado estándar",
-      "feature4": "Acceso a recursos educativos",
-      "feature5": "Actualizaciones regulares del mercado",
-      "feature6": "Gestor de Cuenta"
+    "meta": {
+      "pageTitle": "Tipos de cuenta | TraderTok | Elige tu cuenta de trading",
+      "pageDescription": "Compara cuentas Cent, STP y ECN: spreads, apalancamiento y características. Encuentra la cuenta que se adapte a tu experiencia y objetivos."
     },
-    "advanced": {
-      "name": "Avanzada",
-      "feature1": "Todos los beneficios de la Cuenta Estándar",
-      "feature2": "Costos de transacción más bajos",
-      "feature3": "Herramientas de gráficos avanzadas",
-      "feature4": "Soporte al cliente prioritario",
-      "feature5": "Informes de investigación e insights diarios del mercado",
-      "feature6": "Gestor de Cuenta",
-      "note": "Potencial de Mayores Ingresos: Disfruta de costos de transacción reducidos, permitiéndote retener un mayor porcentaje de tus ganancias"
+    "hero": {
+      "line1": "Elige la cuenta adecuada para tu",
+      "line2": "camino en el trading",
+      "subtitle": "Ya sea que estés comenzando o operes a nivel profesional, nuestros tipos de cuenta están diseñados para alinearse con tu experiencia y tus objetivos."
     },
-    "professional": {
-      "name": "Profesional",
-      "feature1": "Todos los beneficios de la Cuenta Avanzada",
-      "feature2": "50% de Reducción en Swap",
-      "feature3": "Informes de investigación exclusivos",
-      "feature4": "Costos de transacción aún más bajos",
-      "feature5": "Asistente personal dedicado",
-      "feature6": "Condiciones de trading personalizables",
-      "feature7": "Uso de herramientas de IA (limitado)",
-      "feature8": "Educación extensiva por un analista senior",
-      "note": "Potencial de Mayores Ingresos: Algunos de los costos de transacción más bajos de la industria, y el uso de un asistente personal y una herramienta de IA para navegarte a través de los mercados financieros"
+    "compare": {
+      "heading": "Resumen de tipos de cuenta",
+      "introHtml": "Compara de un vistazo y luego amplía <strong>Detalles de la cuenta</strong> abajo para información completa.",
+      "regionAriaLabel": "Tabla de comparación de cuentas",
+      "tableCaption": "Tabla de comparación de cuentas",
+      "colAccountType": "Tipo de cuenta",
+      "colTargetTrader": "Trader objetivo",
+      "colSpread": "Spread",
+      "spreadAbbrTitle": "Diferencia entre precio de compra y venta; un spread menor puede implicar menor costo antes de comisiones.",
+      "colLeverage": "Apalancamiento",
+      "leverageAbbrTitle": "Apalancamiento máximo ofrecido; un apalancamiento mayor aumenta tanto la recompensa potencial como el riesgo.",
+      "colKeyFeatures": "Características clave",
+      "labelTargetTrader": "Trader objetivo",
+      "labelSpread": "Spread",
+      "labelLeverage": "Apalancamiento",
+      "labelKeyFeatures": "Características clave",
+      "centName": "Cent (Inicial)",
+      "centTarget": "Principiantes",
+      "centSpread": "Desde 1,8 pips",
+      "centLeverage": "Hasta 1:1000",
+      "centFeatures": "Opera en centavos, bajo riesgo, opción sin swap",
+      "stpName": "STP (Estándar)",
+      "stpTarget": "Intermedio",
+      "stpSpread": "Desde 1,8 pips",
+      "stpLeverage": "Hasta 1:1000",
+      "stpFeatures": "Ejecución rápida, sin comisión",
+      "ecnName": "ECN (Profesional)",
+      "ecnBadge": "Premium",
+      "ecnTarget": "Avanzado / Alto volumen",
+      "ecnSpread": "Desde 0,1 pips",
+      "ecnLeverage": "Hasta 1:1000",
+      "ecnFeatures": "Spreads crudos, ideal para scalping y bots"
     },
-    "exclusive": {
-      "name": "Exclusiva",
-      "feature1": "Todos los beneficios de la Cuenta Profesional",
-      "feature2": "¡Cero comisiones de swap!",
-      "feature3": "Los costos de transacción más bajos posibles",
-      "feature4": "Acceso prioritario a nuevas funciones y herramientas",
-      "feature5": "Recursos educativos exclusivos",
-      "feature6": "Eventos VIP y oportunidades de networking",
-      "feature7": "Acceso personal regular a analistas senior",
-      "feature8": "El más alto nivel de soporte al cliente con tiempos de respuesta más rápidos",
-      "note": "Benefíciate de los costos de transacción más bajos, cero comisiones de swap, funciones exclusivas y soporte personalizado, optimizando tu rendimiento de trading para mayores retornos potenciales"
+    "detailsSection": {
+      "heading": "Detalles de la cuenta",
+      "intro": "Características y costos por tipo de cuenta.",
+      "purpose": "Propósito",
+      "keyFeatures": "Características clave",
+      "whyIdeal": "Por qué es ideal"
     },
-    "black": {
-      "name": "BLACK",
-      "feature1": "Todos los Beneficios de la Cuenta Exclusiva",
-      "feature2": "Analista senior personal dedicado",
-      "feature3": "Bono de bienvenida de 300.000",
-      "feature4": "Acceso a colección privada de información educativa",
-      "feature5": "Ofertas personalizadas y negociables",
-      "feature6": "Analista supervisor"
+    "centDetails": {
+      "summary": "Cuenta Cent (Inicial)",
+      "purpose1": "Diseñada para quienes entran al trading de forex",
+      "purpose2": "Depósito bajo para reducir la barrera de entrada",
+      "key1": "Opera en centavos (menor exposición al riesgo)",
+      "key2": "Spread desde 1,8 pips",
+      "key3": "Apalancamiento hasta 1:1000",
+      "key4": "Opción islámica (sin swap) disponible",
+      "why1": "Ideal para mercados de principiantes como Pakistán",
+      "why2": "Facilita la incorporación de nuevos traders",
+      "why3": "Impulsa el crecimiento de IB con una entrada sencilla"
+    },
+    "stpDetails": {
+      "summary": "Cuenta STP (Estándar)",
+      "purpose1": "Para traders habituales que buscan mejor ejecución",
+      "key1": "Depósito mínimo: US$100",
+      "key2": "Spread desde 1,8 pips",
+      "key3": "Procesamiento straight-through (STP)",
+      "key4": "Ejecución rápida",
+      "key5": "Apalancamiento hasta 1:1000",
+      "why1": "Condiciones de trading equilibradas",
+      "why2": "Modelo de precios simple",
+      "why3": "Adecuada para la mayoría de traders minoristas"
+    },
+    "ecnDetails": {
+      "summary": "Cuenta ECN (Profesional)",
+      "purpose1": "Diseñada para traders experimentados y de alto volumen",
+      "key1": "Depósito mínimo: US$500",
+      "key2": "Spreads crudos desde 0,1 pips",
+      "key3": "Apalancamiento hasta 1:1000",
+      "key4": "Forex, metales, índices, materias primas y cripto",
+      "key5": "Ideal para scalping y trading automatizado",
+      "why1": "Spreads ajustados para traders exigentes",
+      "why2": "Mejor calidad de ejecución",
+      "why3": "Competitiva frente a los principales brókers ECN"
+    },
+    "notes": {
+      "heading": "Notas importantes",
+      "supportHtml": "<strong>Todos los tipos de cuenta incluyen:</strong> Forex, metales, índices, materias primas y cripto.",
+      "islamicHtml": "<strong>Cuentas islámicas disponibles en:</strong> cuentas Cent y STP."
+    },
+    "elite": {
+      "title": "Cuentas mystery / élite",
+      "paragraph1": "Nuestra oferta va más allá de los tipos de cuenta estándar aquí listados. Mantenemos cuentas premium y élite, orientadas a traders e inversores profesionales — solo bajo solicitud.",
+      "contactHtml": "Para acceso y detalles, <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">contáctanos</a> directamente."
+    },
+    "cta": {
+      "heading": "Abre tu cuenta",
+      "openLive": "Abrir cuenta real",
+      "tryDemo": "Probar demo",
+      "speakExpert": "Hablar con un experto"
     }
+  },
+  "openDemoAccountPage": {
+    "meta": {
+      "pageTitle": "Abrir cuenta demo | Practica trading | TraderTok",
+      "pageDescription": "Registra tu interés en una cuenta demo gratuita. Practica con fondos virtuales sobre datos de mercado en vivo."
+    },
+    "heroTitle": "Abre una cuenta demo gratuita",
+    "heroLead": "Practica con fondos virtuales sobre datos de mercado en vivo. Envía tus datos; nuestro equipo te contactará con los siguientes pasos. No se requiere pago para una demo.",
+    "whyTitle": "¿Por qué empezar con una demo?",
+    "whyBody": "Una cuenta demo te permite explorar la plataforma, gráficos y tipos de orden sin riesgo mientras aprendes cómo se mueven los mercados.",
+    "bullet1": "Saldo virtual para practicar",
+    "bullet2": "Precios de mercado en vivo para contexto realista",
+    "bullet3": "Sin depósito para comenzar",
+    "liveCrosslink": "Abrir cuenta real",
+    "formNote": "Este formulario aún no está conectado a un CRM en vivo. Los envíos son simulados hasta que conectes tu API de registro.",
+    "cardMeta": "Tus datos",
+    "cardTitle": "Solicitar cuenta demo",
+    "labelFullName": "Nombre completo",
+    "placeholderFullName": "Tu nombre completo",
+    "labelEmail": "Correo electrónico",
+    "placeholderEmail": "tu@ejemplo.com",
+    "labelPhone": "Teléfono",
+    "placeholderPhone": "Incluye código de país",
+    "labelCountry": "País / región",
+    "selectPlaceholder": "Seleccionar…",
+    "countries": {
+      "GB": "Reino Unido",
+      "US": "Estados Unidos",
+      "DE": "Alemania",
+      "FR": "Francia",
+      "AU": "Australia",
+      "CA": "Canadá",
+      "SG": "Singapur",
+      "AE": "Emiratos Árabes Unidos",
+      "ZA": "Sudáfrica",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malasia",
+      "OTHER": "Otro"
+    },
+    "consentHtml": "Acepto ser contactado sobre mi solicitud de demo y he leído la <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Política de privacidad</a>.",
+    "submitButton": "Enviar solicitud demo",
+    "errors": {
+      "nameRequired": "Ingresa tu nombre completo.",
+      "emailInvalid": "Ingresa un correo electrónico válido.",
+      "phoneRequired": "Ingresa un número de teléfono.",
+      "countryRequired": "Selecciona tu país o región.",
+      "consentRequired": "Confirma el consentimiento para continuar."
+    }
+  },
+  "openLiveAccountPage": {
+    "meta": {
+      "pageTitle": "Abrir cuenta real | TraderTok",
+      "pageDescription": "Registra tu interés en una cuenta de trading real. Nuestro equipo dará seguimiento con verificación y próximos pasos."
+    },
+    "heroTitle": "Abre una cuenta de trading real",
+    "heroLead": "Indícanos cómo contactarte. Un miembro del equipo dará seguimiento con verificaciones de elegibilidad, documentación y próximos pasos. El trading implica riesgo; esto no es asesoramiento financiero.",
+    "beforeTitle": "Antes de empezar",
+    "beforeBody": "Las cuentas reales implican capital real y controles regulatorios. Completar este formulario registra tu interés para que nuestro equipo te guíe en la verificación y el acceso a la plataforma.",
+    "bullet1": "Pueden aplicarse verificaciones de identidad y residencia",
+    "bullet2": "Divulgación de riesgos y aceptación de términos como parte del onboarding",
+    "bullet3": "Seguimiento dedicado por parte de nuestro equipo",
+    "demoCrosslink": "Abrir una cuenta demo",
+    "formNote": "Este formulario aún no está conectado a un sistema de onboarding en vivo. Los envíos son simulados hasta que conectes tu CRM o API de registro.",
+    "cardMeta": "Tus datos",
+    "cardTitle": "Registrar interés en una cuenta real",
+    "labelFullName": "Nombre completo",
+    "placeholderFullName": "Tu nombre completo",
+    "labelEmail": "Correo electrónico",
+    "placeholderEmail": "tu@ejemplo.com",
+    "labelPhone": "Teléfono",
+    "placeholderPhone": "Incluye código de país",
+    "labelCountry": "País / región",
+    "selectPlaceholder": "Seleccionar…",
+    "countries": {
+      "GB": "Reino Unido",
+      "US": "Estados Unidos",
+      "DE": "Alemania",
+      "FR": "Francia",
+      "AU": "Australia",
+      "CA": "Canadá",
+      "SG": "Singapur",
+      "AE": "Emiratos Árabes Unidos",
+      "ZA": "Sudáfrica",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malasia",
+      "OTHER": "Otro"
+    },
+    "consentHtml": "Entiendo que el trading conlleva riesgos y acepto ser contactado sobre la apertura de una cuenta real. He leído la <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Política de privacidad</a>.",
+    "submitButton": "Enviar solicitud de cuenta real",
+    "errors": {
+      "nameRequired": "Ingresa tu nombre completo.",
+      "emailInvalid": "Ingresa un correo electrónico válido.",
+      "phoneRequired": "Ingresa un número de teléfono.",
+      "countryRequired": "Selecciona tu país o región.",
+      "consentRequired": "Confirma el consentimiento para continuar."
+    }
+  },
+  "demoAccountModal": {
+    "closeAriaLabel": "Cerrar",
+    "formNote": "Este formulario aún no está conectado a un servidor. Los envíos son simulados para pruebas; conecta tu CRM o API de registro cuando estés listo.",
+    "submitButton": "Crear cuenta demo",
+    "sending": "Enviando…",
+    "errors": {
+      "consentPrivacy": "Acepta los términos de privacidad para continuar.",
+      "generic": "Algo salió mal. Inténtalo de nuevo."
+    },
+    "successTitle": "Gracias",
+    "successSubtitle": "Hemos recibido tu solicitud de demo. Te contactaremos pronto con instrucciones para acceder a tu cuenta de práctica.",
+    "closeButton": "Cerrar"
   },
   "researchPage": {
     "pageTitle": "Investigación - TraderTok | Análisis de Mercado e Insights",
@@ -2043,7 +2196,164 @@
     "practicalInsights": "Perspectivas Prácticas",
     "expertAnalysis": "Análisis Experto",
     "weeklyUpdatesFeature": "Actualizaciones Semanales",
-    "clearStructure": "Estructura Clara"
+    "clearStructure": "Estructura Clara",
+    "whyEducationImageAlt": "Por qué la educación importa",
+    "videoCards": {
+      "1": {
+        "category": "Estrategia de trading",
+        "title": "Tipos de CFD",
+        "date": "15 dic 2024"
+      },
+      "2": {
+        "category": "Estrategia de trading",
+        "title": "Tipos de mercado",
+        "date": "8 dic 2024"
+      },
+      "3": {
+        "category": "Análisis de mercado",
+        "title": "Perspectiva semanal: Forex y materias primas",
+        "date": "8 dic 2024"
+      },
+      "4": {
+        "category": "Análisis técnico",
+        "title": "Construir un portafolio de trading diversificado",
+        "date": "5 dic 2024"
+      }
+    },
+    "reportCards": {
+      "1": {
+        "title": "Perspectiva de mercado Q4 2024",
+        "meta": "2,4 MB • Actualizado dic 2024"
+      },
+      "2": {
+        "title": "Guía de estrategias de Forex",
+        "meta": "3,1 MB • Actualizado nov 2024"
+      },
+      "3": {
+        "title": "Análisis del mercado de criptomonedas",
+        "meta": "1,8 MB • Actualizado dic 2024"
+      },
+      "4": {
+        "title": "Manual de gestión de riesgos",
+        "meta": "2,7 MB • Actualizado oct 2024"
+      },
+      "5": {
+        "title": "Indicadores técnicos explicados",
+        "meta": "4,2 MB • Actualizado nov 2024"
+      },
+      "6": {
+        "title": "Guía de trading de materias primas",
+        "meta": "2,9 MB • Actualizado sep 2024"
+      }
+    }
+  },
+  "educationHubPage": {
+    "meta": {
+      "pageTitle": "Centro de Educación - TraderTok | Aprenda mercados y trading",
+      "pageDescription": "Explore cursos, artículos, perspectivas de mercado, webinars, glosario, tutoriales y herramientas en el Centro de Educación TraderTok."
+    },
+    "heroEyebrow": "Centro de Educación TraderTok",
+    "heroTitle": "Aprenda sobre los mercados financieros a través de un centro de conocimiento estructurado y accesible.",
+    "heroSubtitle": "El Centro de Educación TraderTok reúne contenido educativo diseñado para ayudar a los usuarios a comprender conceptos de mercado, fundamentos de trading, conciencia de riesgos y el ecosistema de trading en un solo lugar.",
+    "ctaExplore": "Explorar secciones",
+    "ctaDemo": "Abrir cuenta demo",
+    "ctaLive": "Abrir cuenta real",
+    "microTrust": "Solo contenido educativo. Conocimiento de mercado claro, rutas de aprendizaje prácticas y acceso más fácil a recursos.",
+    "overviewTitle": "Descripción general",
+    "overviewSubtitle": "Una página central para recursos de aprendizaje, perspectivas, guías, webinars, términos del glosario, tutoriales y herramientas.",
+    "overviewBody1": "Los mercados financieros pueden parecer complejos, especialmente para traders nuevos. Esta página está pensada para facilitar el aprendizaje organizando los recursos educativos de TraderTok en secciones claras que los usuarios pueden explorar según sus intereses y nivel de experiencia.",
+    "overviewBody2": "Si alguien busca educación para principiantes, perspectivas de mercado más profundas, ayuda con la plataforma o definiciones del glosario, el centro debe ser el punto de partida.",
+    "whatYouFindTitle": "Qué encontrará",
+    "whatYouFindSubtitle": "El centro está organizado para ayudar a los usuarios a pasar del aprendizaje básico a contenido educativo más profundo a su propio ritmo.",
+    "learn1Title": "Educación para principiantes",
+    "learn1Desc": "Comience con rutas de aprendizaje más sencillas que explican mercados, conceptos de trading y terminología clave con mayor claridad.",
+    "learn2Title": "Perspectivas de mercado",
+    "learn2Desc": "Comprenda cómo las noticias, los eventos globales y los desarrollos del mercado pueden influir en los mercados financieros.",
+    "learn3Title": "Guías descargables",
+    "learn3Desc": "Acceda a contenido educativo extenso que se puede leer, guardar y revisar cuando lo necesite.",
+    "learn4Title": "Webinars",
+    "learn4Desc": "Explore contenido de webinars educativos pensado para hacer el aprendizaje más interactivo y práctico.",
+    "learn5Title": "Glosario y tutoriales",
+    "learn5Desc": "Use términos del glosario y tutoriales de plataforma para entender mejor el lenguaje y los flujos de trabajo.",
+    "learn6Title": "Herramientas y recursos",
+    "learn6Desc": "Encuentre materiales de apoyo y recursos útiles que completan el recorrido de aprendizaje.",
+    "whoForTitle": "¿Es esta educación para usted?",
+    "whoForSubtitle": "Una forma sencilla de ver si este centro coincide con lo que busca.",
+    "whoForYesTitle": "Es para usted si:",
+    "whoForYes1": "Quiere entender los mercados financieros de forma más estructurada.",
+    "whoForYes2": "Prefiere contenido educativo más fácil de explorar por tema.",
+    "whoForYes3": "Quiere un solo lugar para artículos, guías, webinars, tutoriales y términos del glosario.",
+    "whoForNoTitle": "NO es para usted si:",
+    "whoForNo1": "Busca promesas, atajos o resultados garantizados.",
+    "whoForNo2": "Solo quiere contenido promocional en lugar de material educativo.",
+    "whoForNo3": "No le interesa aprender cómo funcionan los mercados y los conceptos de trading.",
+    "sectionsTitle": "Secciones de educación",
+    "sectionsSubtitle": "Elija una sección a continuación para seguir aprendiendo en la parte del centro que coincida con lo que necesita.",
+    "cards": {
+      "courses": {
+        "meta": "Ruta de aprendizaje",
+        "title": "Cursos",
+        "desc": "Contenido educativo estructurado para construir conocimiento de trading paso a paso."
+      },
+      "articles": {
+        "meta": "Base de conocimiento",
+        "title": "Artículos",
+        "desc": "Artículos educativos legibles sobre conceptos de mercado, estrategias y fundamentos de trading."
+      },
+      "marketNews": {
+        "meta": "Conocimiento de mercado",
+        "title": "Noticias y perspectivas de mercado",
+        "desc": "Comprenda cómo los eventos actuales y los desarrollos del mercado moldean los mercados financieros."
+      },
+      "ebooks": {
+        "meta": "Descargas",
+        "title": "eBooks",
+        "desc": "Guías educativas extensas que los usuarios pueden leer y revisar a su propio ritmo."
+      },
+      "webinars": {
+        "meta": "En vivo y bajo demanda",
+        "title": "Webinars",
+        "desc": "Contenido de webinars educativos centrado en la comprensión del mercado y el aprendizaje del trader."
+      },
+      "glossary": {
+        "meta": "Terminología",
+        "title": "Glosario de trading",
+        "desc": "Definiciones de términos esenciales y lenguaje de mercado utilizado en la industria."
+      },
+      "tutorials": {
+        "meta": "Ayuda de plataforma",
+        "title": "Tutoriales de plataforma",
+        "desc": "Guías prácticas que ayudan a entender funciones y flujos de la plataforma."
+      },
+      "tools": {
+        "meta": "Utilidades",
+        "title": "Herramientas y recursos",
+        "desc": "Materiales de apoyo, herramientas y recursos educativos útiles para el aprendizaje continuo."
+      }
+    },
+    "howItWorksTitle": "Cómo funciona",
+    "howItWorksSubtitle": "Un flujo de aprendizaje sencillo que ayuda a navegar el centro con más facilidad.",
+    "step1Title": "Elija una sección",
+    "step1Desc": "Comience con el área que coincida con lo que desea aprender: cursos, artículos, webinars o términos del glosario.",
+    "step2Title": "Aprenda a su ritmo",
+    "step2Desc": "Lea, vea y explore contenido según su nivel, sus intereses y los temas más relevantes para usted.",
+    "step3Title": "Vuelva cuando lo necesite",
+    "step3Desc": "Use el centro como referencia continua cuando quiera repasar conceptos o explorar nuevos recursos.",
+    "faqTitle": "Preguntas frecuentes",
+    "faqSubtitle": "Respuestas breves para entender para qué sirve el Centro de Educación.",
+    "faq1Q": "¿Qué es el Centro de Educación TraderTok?",
+    "faq1A": "Es una página central donde los usuarios pueden acceder a contenido educativo como cursos, artículos, perspectivas de mercado, webinars, términos del glosario, tutoriales y recursos de apoyo.",
+    "faq2Q": "¿Para quién está diseñada esta página?",
+    "faq2A": "Está diseñada para quienes desean aprender más sobre mercados financieros de forma más clara y organizada, ya sean nuevos o busquen ampliar sus conocimientos.",
+    "faq3Q": "¿Qué puedo acceder desde esta página?",
+    "faq3A": "Puede pasar a cursos, artículos, noticias y perspectivas de mercado, eBooks, webinars, el glosario de trading, tutoriales de plataforma y herramientas y recursos.",
+    "faq4Q": "¿Esta página es para aprender o para promoción?",
+    "faq4A": "Esta página está pensada como un centro educativo que ayuda a explorar conocimiento de mercado y materiales de aprendizaje relacionados con mayor facilidad.",
+    "ctaBandAria": "Abrir una cuenta de trading",
+    "ctaBandTitle": "¿Listo para practicar o operar en real?",
+    "ctaBandSubtitle": "Complete los formularios de registro breves en las páginas siguientes. Los envíos son simulados hasta que conecte su CRM o API de incorporación.",
+    "ctaBandDemo": "Abrir cuenta demo",
+    "ctaBandLive": "Abrir cuenta real"
   },
   "eventsCalendarPage": {
     "pageTitle": "Calendario de Eventos - TraderTok | Eventos de Mercado Importantes",

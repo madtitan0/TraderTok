@@ -657,15 +657,15 @@ body.light-theme .research-page .education-text p {
                <span class="video-duration">24:15</span>
              </div>
              <div class="video-info">
-               <div class="video-category">Trading Strategy</div>
-               <h3 class="video-title">CFDs Types</h3>
+               <div class="video-category" data-i18n="researchPage.videoCards.1.category">Trading Strategy</div>
+               <h3 class="video-title" data-i18n="researchPage.videoCards.1.title">CFDs Types</h3>
                <div class="video-meta">
                  <span>
                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                      <circle cx="12" cy="12" r="10" />
                      <polyline points="12 6 12 12 16 14" />
                    </svg>
-                   Dec 15, 2024
+                   <span data-i18n="researchPage.videoCards.1.date">Dec 15, 2024</span>
                  </span>
                  <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -695,15 +695,15 @@ body.light-theme .research-page .education-text p {
                <span class="video-duration">24:15</span>
              </div>
              <div class="video-info">
-               <div class="video-category">Trading Strategy</div>
-               <h3 class="video-title">Market Types</h3>
+               <div class="video-category" data-i18n="researchPage.videoCards.2.category">Trading Strategy</div>
+               <h3 class="video-title" data-i18n="researchPage.videoCards.2.title">Market Types</h3>
                <div class="video-meta">
                  <span>
                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                      <circle cx="12" cy="12" r="10" />
                      <polyline points="12 6 12 12 16 14" />
                    </svg>
-                   Dec 8, 2024
+                   <span data-i18n="researchPage.videoCards.2.date">Dec 8, 2024</span>
                  </span>
                  <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -734,15 +734,15 @@ body.light-theme .research-page .education-text p {
                <span class="video-duration">24:15</span>
              </div>
              <div class="video-info">
-               <div class="video-category">Market Analysis</div>
-               <h3 class="video-title">Weekly Market Outlook: Forex & Commodities</h3>
+               <div class="video-category" data-i18n="researchPage.videoCards.3.category">Market Analysis</div>
+               <h3 class="video-title" data-i18n="researchPage.videoCards.3.title">Weekly Market Outlook: Forex & Commodities</h3>
                <div class="video-meta">
                  <span>
                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                      <circle cx="12" cy="12" r="10" />
                      <polyline points="12 6 12 12 16 14" />
                    </svg>
-                   Dec 8, 2024
+                   <span data-i18n="researchPage.videoCards.3.date">Dec 8, 2024</span>
                  </span>
                  <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -770,15 +770,15 @@ body.light-theme .research-page .education-text p {
                <span class="video-duration">15:20</span>
              </div>
              <div class="video-info">
-               <div class="video-category">Technical Analysis</div>
-               <h3 class="video-title">Building a Diversified Trading Portfolio</h3>
+               <div class="video-category" data-i18n="researchPage.videoCards.4.category">Technical Analysis</div>
+               <h3 class="video-title" data-i18n="researchPage.videoCards.4.title">Building a Diversified Trading Portfolio</h3>
                <div class="video-meta">
                  <span>
                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
                      <circle cx="12" cy="12" r="10" />
                      <polyline points="12 6 12 12 16 14" />
                    </svg>
-                   Dec 5, 2024
+                   <span data-i18n="researchPage.videoCards.4.date">Dec 5, 2024</span>
                  </span>
                  <!-- <span>
                                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
@@ -817,8 +817,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Q4 2024 Market Outlook</h4>
-               <p class="report-meta">2.4 MB • Updated Dec 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.1.title">Q4 2024 Market Outlook</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.1.meta">2.4 MB • Updated Dec 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -837,8 +837,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Forex Trading Strategies Guide</h4>
-               <p class="report-meta">3.1 MB • Updated Nov 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.2.title">Forex Trading Strategies Guide</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.2.meta">3.1 MB • Updated Nov 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -857,8 +857,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Cryptocurrency Market Analysis</h4>
-               <p class="report-meta">1.8 MB • Updated Dec 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.3.title">Cryptocurrency Market Analysis</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.3.meta">1.8 MB • Updated Dec 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -877,8 +877,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Risk Management Handbook</h4>
-               <p class="report-meta">2.7 MB • Updated Oct 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.4.title">Risk Management Handbook</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.4.meta">2.7 MB • Updated Oct 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -897,8 +897,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Technical Indicators Explained</h4>
-               <p class="report-meta">4.2 MB • Updated Nov 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.5.title">Technical Indicators Explained</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.5.meta">4.2 MB • Updated Nov 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -917,8 +917,8 @@ body.light-theme .research-page .education-text p {
                </svg>
              </div>
              <div class="report-info">
-               <h4 class="report-title">Commodities Trading Guide</h4>
-               <p class="report-meta">2.9 MB • Updated Sep 2024</p>
+               <h4 class="report-title" data-i18n="researchPage.reportCards.6.title">Commodities Trading Guide</h4>
+               <p class="report-meta" data-i18n="researchPage.reportCards.6.meta">2.9 MB • Updated Sep 2024</p>
              </div>
              <div class="report-download">
                <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
@@ -983,7 +983,7 @@ body.light-theme .research-page .education-text p {
 
            <div class="education-visual">
              <div class="education-image-container">
-               <img src="assets/images/10030610.png" alt="Why Education Matters" class="education-image">
+               <img src="assets/images/10030610.png" alt="Why education matters" class="education-image" data-i18n-alt="researchPage.whyEducationImageAlt">
              </div>
            </div>
          </div>

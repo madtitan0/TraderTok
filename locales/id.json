@@ -1269,65 +1269,218 @@
     "riskDisclosureHeroTitle": "RISK DISCLOSURE"
   },
   "accountTypesPage": {
-    "pageTitle": "Tipe Akun - TraderTok | Pilih Akun Trading Anda",
-    "pageDescription": "Jelajahi tipe akun TraderTok yang dirancang untuk menyesuaikan pengalaman dan tujuan trading Anda.",
-    "heroTitle": "Pilih",
-    "heroTitleHighlight": "Tipe Akun",
-    "heroSubtitle": "Tidak peduli tujuan trading Anda, TraderTok menawarkan akun yang dirancang untuk memenuhi kebutuhan tersebut. Jelajahi dan bandingkan lima opsi akun kami untuk menemukan yang paling sesuai dengan kebutuhan Anda.",
-    "getStarted": "Mulai Sekarang",
-    "mostPopular": "Paling Populer",
-    "standard": {
-      "name": "Standar",
-      "feature1": "Akses dasar ke platform trading",
-      "feature2": "Dukungan pelanggan standar",
-      "feature3": "Alat analisis pasar standar",
-      "feature4": "Akses ke sumber daya edukasi",
-      "feature5": "Pembaruan pasar rutin",
-      "feature6": "Manajer Akun"
+    "meta": {
+      "pageTitle": "Tipe akun | TraderTok | Pilih akun trading Anda",
+      "pageDescription": "Bandingkan akun Cent, STP, dan ECN: spread, leverage, dan fitur. Pilih akun yang sesuai dengan pengalaman dan tujuan Anda."
     },
-    "advanced": {
-      "name": "Lanjutan",
-      "feature1": "Semua manfaat Akun Standar",
-      "feature2": "Biaya transaksi lebih rendah",
-      "feature3": "Alat charting lanjutan",
-      "feature4": "Prioritas dukungan pelanggan",
-      "feature5": "Wawasan pasar dan laporan riset harian",
-      "feature6": "Manajer Akun",
-      "note": "Potensi Pendapatan Lebih Tinggi: Nikmati biaya transaksi yang lebih rendah, sehingga Anda mempertahankan persentase keuntungan yang lebih tinggi"
+    "hero": {
+      "line1": "Pilih akun yang tepat untuk",
+      "line2": "perjalanan trading Anda",
+      "subtitle": "Baik Anda baru mulai atau sudah trading profesional, tipe akun kami dirancang agar sesuai dengan pengalaman dan tujuan Anda."
     },
-    "professional": {
-      "name": "Profesional",
-      "feature1": "Semua manfaat Akun Lanjutan",
-      "feature2": "Pengurangan Swap 50%",
-      "feature3": "Laporan riset eksklusif",
-      "feature4": "Biaya transaksi lebih rendah lagi",
-      "feature5": "Asisten pribadi khusus",
-      "feature6": "Kondisi trading yang dapat disesuaikan",
-      "feature7": "Penggunaan alat AI (terbatas)",
-      "feature8": "Edukasi mendalam oleh analis senior",
-      "note": "Potensi Pendapatan Lebih Tinggi: Biaya transaksi sangat rendah, dengan bantuan asisten pribadi dan alat AI untuk membantu navigasi pasar keuangan"
+    "compare": {
+      "heading": "Ringkasan tipe akun",
+      "introHtml": "Bandingkan sekilas, lalu buka <strong>Detail akun</strong> di bawah untuk informasi lengkap.",
+      "regionAriaLabel": "Tabel perbandingan akun",
+      "tableCaption": "Tabel perbandingan akun",
+      "colAccountType": "Tipe akun",
+      "colTargetTrader": "Sasaran trader",
+      "colSpread": "Spread",
+      "spreadAbbrTitle": "Selisih antara harga bid dan ask; spread lebih rendah dapat berarti biaya lebih rendah sebelum komisi.",
+      "colLeverage": "Leverage",
+      "leverageAbbrTitle": "Leverage maksimum yang ditawarkan; leverage lebih tinggi menambah potensi imbalan dan risiko.",
+      "colKeyFeatures": "Fitur utama",
+      "labelTargetTrader": "Sasaran trader",
+      "labelSpread": "Spread",
+      "labelLeverage": "Leverage",
+      "labelKeyFeatures": "Fitur utama",
+      "centName": "Cent (Pemula)",
+      "centTarget": "Pemula",
+      "centSpread": "Mulai 1,8 pip",
+      "centLeverage": "Hingga 1:1000",
+      "centFeatures": "Trading sen, risiko lebih rendah, opsi bebas swap",
+      "stpName": "STP (Standar)",
+      "stpTarget": "Menengah",
+      "stpSpread": "Mulai 1,8 pip",
+      "stpLeverage": "Hingga 1:1000",
+      "stpFeatures": "Eksekusi cepat, tanpa komisi",
+      "ecnName": "ECN (Profesional)",
+      "ecnBadge": "Premium",
+      "ecnTarget": "Lanjutan / Volume tinggi",
+      "ecnSpread": "Mulai 0,1 pip",
+      "ecnLeverage": "Hingga 1:1000",
+      "ecnFeatures": "Spread mentah, cocok untuk scalping dan bot"
     },
-    "exclusive": {
-      "name": "Eksklusif",
-      "feature1": "Semua manfaat Akun Profesional",
-      "feature2": "Tanpa biaya swap!",
-      "feature3": "Biaya transaksi paling rendah",
-      "feature4": "Prioritas akses ke fitur dan alat baru",
-      "feature5": "Sumber daya edukasi eksklusif",
-      "feature6": "Acara VIP dan peluang jaringan",
-      "feature7": "Akses personal rutin ke analis senior",
-      "feature8": "Dukungan pelanggan tingkat tertinggi dengan respons cepat",
-      "note": "Manfaatkan biaya transaksi paling rendah, tanpa swap, fitur eksklusif, dan dukungan personal, mengoptimalkan performa trading untuk potensi pengembalian lebih tinggi"
+    "detailsSection": {
+      "heading": "Detail akun",
+      "intro": "Fitur dan biaya per tipe akun.",
+      "purpose": "Tujuan",
+      "keyFeatures": "Fitur utama",
+      "whyIdeal": "Mengapa cocok"
     },
-    "black": {
-      "name": "BLACK",
-      "feature1": "Semua manfaat Akun Eksklusif",
-      "feature2": "Analis senior pribadi khusus",
-      "feature3": "Bonus selamat datang 300.000",
-      "feature4": "Akses ke koleksi informasi edukasi pribadi",
-      "feature5": "Penawaran yang dipersonalisasi dan dapat dinegosiasikan",
-      "feature6": "Analis pengawas"
+    "centDetails": {
+      "summary": "Akun Cent (Pemula)",
+      "purpose1": "Untuk pemula yang memasuki forex",
+      "purpose2": "Deposit rendah mengurangi hambatan awal",
+      "key1": "Trading sen (eksposur risiko lebih rendah)",
+      "key2": "Spread mulai 1,8 pip",
+      "key3": "Leverage hingga 1:1000",
+      "key4": "Opsi Islami (bebas swap) tersedia",
+      "why1": "Cocok untuk pasar pemula seperti Pakistan",
+      "why2": "Memudahkan onboarding trader baru",
+      "why3": "Mendukung pertumbuhan IB lewat entri mudah"
+    },
+    "stpDetails": {
+      "summary": "Akun STP (Standar)",
+      "purpose1": "Untuk trader reguler yang menginginkan eksekusi lebih baik",
+      "key1": "Deposit minimum: US$100",
+      "key2": "Spread mulai 1,8 pip",
+      "key3": "Pemrosesan straight-through (STP)",
+      "key4": "Eksekusi cepat",
+      "key5": "Leverage hingga 1:1000",
+      "why1": "Kondisi trading seimbang",
+      "why2": "Model harga sederhana",
+      "why3": "Cocok untuk sebagian besar trader ritel"
+    },
+    "ecnDetails": {
+      "summary": "Akun ECN (Profesional)",
+      "purpose1": "Untuk trader berpengalaman dan volume tinggi",
+      "key1": "Deposit minimum: US$500",
+      "key2": "Spread mentah mulai 0,1 pip",
+      "key3": "Leverage hingga 1:1000",
+      "key4": "Forex, logam, indeks, komoditas, kripto",
+      "key5": "Cocok untuk scalping dan trading otomatis",
+      "why1": "Spread ketat untuk trader serius",
+      "why2": "Kualitas eksekusi lebih baik",
+      "why3": "Kompetitif dengan broker ECN terkemuka"
+    },
+    "notes": {
+      "heading": "Catatan penting",
+      "supportHtml": "<strong>Semua tipe akun mendukung:</strong> Forex, logam, indeks, komoditas, dan kripto.",
+      "islamicHtml": "<strong>Akun Islam tersedia untuk:</strong> akun Cent dan STP."
+    },
+    "elite": {
+      "title": "Akun mystery / elit",
+      "paragraph1": "Tawaran kami melampaui tipe akun standar yang tercantum di sini. Kami menyediakan akun premium dan elit bagi trader dan investor profesional — hanya berdasarkan permintaan.",
+      "contactHtml": "Untuk akses dan detail, silakan <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">hubungi kami</a> langsung."
+    },
+    "cta": {
+      "heading": "Buka akun Anda",
+      "openLive": "Buka akun live",
+      "tryDemo": "Coba demo",
+      "speakExpert": "Bicara dengan ahli"
     }
+  },
+  "openDemoAccountPage": {
+    "meta": {
+      "pageTitle": "Buka akun demo | Latihan trading | TraderTok",
+      "pageDescription": "Daftarkan minat Anda untuk akun demo gratis. Berlatih dengan dana virtual pada data pasar live."
+    },
+    "heroTitle": "Buka akun demo gratis",
+    "heroLead": "Berlatih dengan dana virtual pada data pasar live. Kirim detail Anda; tim kami akan menindaklanjuti langkah berikutnya. Tidak perlu pembayaran untuk demo.",
+    "whyTitle": "Mengapa mulai dengan demo?",
+    "whyBody": "Akun demo memungkinkan Anda menjelajahi platform, chart, dan jenis order tanpa risiko sambil mempelajari pergerakan pasar.",
+    "bullet1": "Saldo virtual untuk berlatih",
+    "bullet2": "Harga pasar live untuk konteks yang realistis",
+    "bullet3": "Tanpa deposit untuk memulai",
+    "liveCrosslink": "Buka akun live",
+    "formNote": "Formulir ini belum terhubung ke CRM live. Pengiriman disimulasikan sampai Anda menghubungkan API pendaftaran.",
+    "cardMeta": "Detail Anda",
+    "cardTitle": "Minta akun demo",
+    "labelFullName": "Nama lengkap",
+    "placeholderFullName": "Nama lengkap Anda",
+    "labelEmail": "Alamat email",
+    "placeholderEmail": "anda@contoh.com",
+    "labelPhone": "Telepon",
+    "placeholderPhone": "Sertakan kode negara",
+    "labelCountry": "Negara / wilayah",
+    "selectPlaceholder": "Pilih…",
+    "countries": {
+      "GB": "Britania Raya",
+      "US": "Amerika Serikat",
+      "DE": "Jerman",
+      "FR": "Prancis",
+      "AU": "Australia",
+      "CA": "Kanada",
+      "SG": "Singapura",
+      "AE": "Uni Emirat Arab",
+      "ZA": "Afrika Selatan",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Lainnya"
+    },
+    "consentHtml": "Saya setuju dihubungi terkait permintaan demo saya dan telah membaca <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Kebijakan Privasi</a>.",
+    "submitButton": "Kirim permintaan demo",
+    "errors": {
+      "nameRequired": "Masukkan nama lengkap Anda.",
+      "emailInvalid": "Masukkan alamat email yang valid.",
+      "phoneRequired": "Masukkan nomor telepon.",
+      "countryRequired": "Pilih negara atau wilayah Anda.",
+      "consentRequired": "Konfirmasikan persetujuan untuk melanjutkan."
+    }
+  },
+  "openLiveAccountPage": {
+    "meta": {
+      "pageTitle": "Buka Akun Live | TraderTok",
+      "pageDescription": "Daftarkan minat Anda untuk akun trading live. Tim kami akan menindaklanjuti verifikasi dan langkah berikutnya."
+    },
+    "heroTitle": "Buka akun trading live",
+    "heroLead": "Beritahu kami cara menghubungi Anda. Anggota tim akan menindaklanjuti pemeriksaan kelayakan, dokumentasi, dan langkah berikutnya. Trading melibatkan risiko; ini bukan nasihat keuangan.",
+    "beforeTitle": "Sebelum Anda mulai",
+    "beforeBody": "Akun live melibatkan modal nyata dan pemeriksaan regulasi. Mengisi formulir ini mendaftarkan minat Anda agar tim kami dapat membimbing verifikasi dan akses platform.",
+    "bullet1": "Pemeriksaan identitas dan tempat tinggal dapat berlaku",
+    "bullet2": "Pengungkapan risiko dan penerimaan syarat sebagai bagian onboarding",
+    "bullet3": "Tindak lanjut khusus dari tim kami",
+    "demoCrosslink": "Buka akun demo",
+    "formNote": "Formulir ini belum terhubung ke sistem onboarding live. Pengiriman disimulasikan hingga Anda menghubungkan CRM atau API pendaftaran.",
+    "cardMeta": "Detail Anda",
+    "cardTitle": "Daftarkan minat untuk akun live",
+    "labelFullName": "Nama lengkap",
+    "placeholderFullName": "Nama lengkap Anda",
+    "labelEmail": "Alamat email",
+    "placeholderEmail": "anda@contoh.com",
+    "labelPhone": "Telepon",
+    "placeholderPhone": "Sertakan kode negara",
+    "labelCountry": "Negara / wilayah",
+    "selectPlaceholder": "Pilih…",
+    "countries": {
+      "GB": "Inggris Raya",
+      "US": "Amerika Serikat",
+      "DE": "Jerman",
+      "FR": "Prancis",
+      "AU": "Australia",
+      "CA": "Kanada",
+      "SG": "Singapura",
+      "AE": "Uni Emirat Arab",
+      "ZA": "Afrika Selatan",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Lainnya"
+    },
+    "consentHtml": "Saya memahami bahwa trading membawa risiko dan saya setuju untuk dihubungi terkait pembukaan akun live. Saya telah membaca <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Kebijakan Privasi</a>.",
+    "submitButton": "Kirim permintaan akun live",
+    "errors": {
+      "nameRequired": "Masukkan nama lengkap Anda.",
+      "emailInvalid": "Masukkan alamat email yang valid.",
+      "phoneRequired": "Masukkan nomor telepon.",
+      "countryRequired": "Pilih negara atau wilayah Anda.",
+      "consentRequired": "Konfirmasikan persetujuan untuk melanjutkan."
+    }
+  },
+  "demoAccountModal": {
+    "closeAriaLabel": "Tutup",
+    "formNote": "Formulir ini belum terhubung ke server. Pengiriman disimulasikan untuk pengujian; hubungkan CRM atau API pendaftaran saat siap.",
+    "submitButton": "Buat akun demo",
+    "sending": "Mengirim…",
+    "errors": {
+      "consentPrivacy": "Terima syarat privasi untuk melanjutkan.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "successTitle": "Terima kasih",
+    "successSubtitle": "Kami telah menerima permintaan demo Anda. Anda akan dihubungi segera dengan instruksi untuk mengakses akun latihan.",
+    "closeButton": "Tutup"
   },
   "researchPage": {
     "pageTitle": "Riset - TraderTok | Analisis & Wawasan Pasar",
@@ -1352,7 +1505,164 @@
     "practicalInsights": "Wawasan Praktis",
     "expertAnalysis": "Analisis Ahli",
     "weeklyUpdatesFeature": "Pembaruan Mingguan",
-    "clearStructure": "Struktur Jelas"
+    "clearStructure": "Struktur Jelas",
+    "whyEducationImageAlt": "Mengapa pendidikan penting",
+    "videoCards": {
+      "1": {
+        "category": "Strategi trading",
+        "title": "Jenis CFD",
+        "date": "15 Des 2024"
+      },
+      "2": {
+        "category": "Strategi trading",
+        "title": "Jenis pasar",
+        "date": "8 Des 2024"
+      },
+      "3": {
+        "category": "Analisis pasar",
+        "title": "Outlook pasar mingguan: Forex & komoditas",
+        "date": "8 Des 2024"
+      },
+      "4": {
+        "category": "Analisis teknikal",
+        "title": "Membangun portofolio trading yang terdiversifikasi",
+        "date": "5 Des 2024"
+      }
+    },
+    "reportCards": {
+      "1": {
+        "title": "Outlook pasar Q4 2024",
+        "meta": "2,4 MB • Diperbarui Des 2024"
+      },
+      "2": {
+        "title": "Panduan strategi Forex",
+        "meta": "3,1 MB • Diperbarui Nov 2024"
+      },
+      "3": {
+        "title": "Analisis pasar kripto",
+        "meta": "1,8 MB • Diperbarui Des 2024"
+      },
+      "4": {
+        "title": "Buku saku manajemen risiko",
+        "meta": "2,7 MB • Diperbarui Okt 2024"
+      },
+      "5": {
+        "title": "Indikator teknikal dijelaskan",
+        "meta": "4,2 MB • Diperbarui Nov 2024"
+      },
+      "6": {
+        "title": "Panduan trading komoditas",
+        "meta": "2,9 MB • Diperbarui Sep 2024"
+      }
+    }
+  },
+  "educationHubPage": {
+    "meta": {
+      "pageTitle": "Pusat Edukasi - TraderTok | Pelajari pasar & trading",
+      "pageDescription": "Jelajahi kursus, artikel, wawasan pasar, webinar, glosarium, tutorial, dan alat di Pusat Edukasi TraderTok."
+    },
+    "heroEyebrow": "Pusat Edukasi TraderTok",
+    "heroTitle": "Pelajari pasar keuangan melalui pusat pengetahuan yang terstruktur dan mudah diakses.",
+    "heroSubtitle": "Pusat Edukasi TraderTok menyatukan konten edukatif untuk membantu pengguna memahami konsep pasar, dasar trading, kesadaran risiko, dan ekosistem trading secara menyeluruh di satu tempat.",
+    "ctaExplore": "Jelajahi bagian",
+    "ctaDemo": "Buka akun demo",
+    "ctaLive": "Buka akun live",
+    "microTrust": "Hanya konten edukatif. Pengetahuan pasar yang jelas, jalur pembelajaran praktis, dan akses sumber daya yang lebih mudah.",
+    "overviewTitle": "Ringkasan",
+    "overviewSubtitle": "Halaman pusat untuk sumber belajar, wawasan, panduan, webinar, istilah glosarium, tutorial, dan alat.",
+    "overviewBody1": "Pasar keuangan bisa terasa kompleks, terutama bagi trader baru. Halaman ini dirancang agar belajar lebih mudah dengan mengorganisir sumber edukasi TraderTok ke dalam bagian yang jelas agar dapat dijelajahi sesuai minat dan tingkat pengalaman.",
+    "overviewBody2": "Baik Anda membutuhkan edukasi pemula, wawasan pasar yang lebih dalam, bantuan platform, atau definisi glosarium, pusat ini menjadi titik awal.",
+    "whatYouFindTitle": "Apa yang akan Anda temukan",
+    "whatYouFindSubtitle": "Pusat ini disusun agar pengguna dapat bergerak dari pembelajaran dasar ke konten yang lebih mendalam sesuai kecepatan mereka sendiri.",
+    "learn1Title": "Edukasi pemula",
+    "learn1Desc": "Mulai dengan jalur pembelajaran yang lebih sederhana yang menjelaskan pasar, konsep trading, dan terminologi utama dengan lebih jelas.",
+    "learn2Title": "Wawasan pasar",
+    "learn2Desc": "Pahami bagaimana berita, peristiwa global, dan perkembangan pasar dapat memengaruhi pasar keuangan.",
+    "learn3Title": "Panduan unduhan",
+    "learn3Desc": "Akses konten edukatif lebih panjang yang dapat dibaca, disimpan, dan dibuka kembali saat dibutuhkan.",
+    "learn4Title": "Webinar",
+    "learn4Desc": "Jelajahi konten webinar edukatif yang dirancang agar pembelajaran lebih interaktif dan praktis.",
+    "learn5Title": "Glosarium dan tutorial",
+    "learn5Desc": "Gunakan istilah glosarium dan tutorial platform untuk memahami bahasa dan alur kerja platform lebih baik.",
+    "learn6Title": "Alat dan sumber daya",
+    "learn6Desc": "Temukan materi pendukung dan sumber daya yang melengkapi perjalanan belajar.",
+    "whoForTitle": "Apakah edukasi ini untuk Anda?",
+    "whoForSubtitle": "Cara sederhana untuk melihat apakah pusat ini sesuai dengan yang Anda cari.",
+    "whoForYesTitle": "Cocok untuk Anda jika:",
+    "whoForYes1": "Anda ingin memahami pasar keuangan dengan cara yang lebih terstruktur.",
+    "whoForYes2": "Anda lebih suka konten edukatif yang lebih mudah dijelajahi per topik.",
+    "whoForYes3": "Anda ingin satu tempat untuk artikel, panduan, webinar, tutorial, dan istilah glosarium.",
+    "whoForNoTitle": "Tidak cocok untuk Anda jika:",
+    "whoForNo1": "Anda mencari janji, jalan pintas, atau hasil yang dijamin.",
+    "whoForNo2": "Anda hanya ingin konten promosi, bukan materi edukatif.",
+    "whoForNo3": "Anda tidak tertarik mempelajari cara kerja pasar dan konsep trading.",
+    "sectionsTitle": "Bagian edukasi",
+    "sectionsSubtitle": "Pilih bagian di bawah untuk melanjutkan belajar pada bagian pusat yang sesuai kebutuhan Anda.",
+    "cards": {
+      "courses": {
+        "meta": "Jalur belajar",
+        "title": "Kursus",
+        "desc": "Konten edukatif terstruktur untuk membangun pengetahuan trading langkah demi langkah."
+      },
+      "articles": {
+        "meta": "Basis pengetahuan",
+        "title": "Artikel",
+        "desc": "Artikel edukatif yang mudah dibaca tentang konsep pasar, strategi, dan dasar trading."
+      },
+      "marketNews": {
+        "meta": "Pengetahuan pasar",
+        "title": "Berita & wawasan pasar",
+        "desc": "Pahami bagaimana peristiwa terkini dan perkembangan pasar membentuk pasar keuangan."
+      },
+      "ebooks": {
+        "meta": "Unduhan",
+        "title": "eBook",
+        "desc": "Panduan edukatif panjang yang dapat dibaca dan dibuka kembali sesuai kecepatan Anda."
+      },
+      "webinars": {
+        "meta": "Langsung & sesuai permintaan",
+        "title": "Webinar",
+        "desc": "Konten webinar edukatif yang fokus pada pemahaman pasar dan pembelajaran trader."
+      },
+      "glossary": {
+        "meta": "Terminologi",
+        "title": "Glosarium trading",
+        "desc": "Definisi istilah penting dan bahasa pasar yang digunakan di industri."
+      },
+      "tutorials": {
+        "meta": "Bantuan platform",
+        "title": "Tutorial platform",
+        "desc": "Panduan praktis yang membantu memahami fitur dan alur kerja platform."
+      },
+      "tools": {
+        "meta": "Utilitas",
+        "title": "Alat & sumber daya",
+        "desc": "Materi pendukung, alat, dan sumber daya edukatif yang berguna untuk pembelajaran berkelanjutan."
+      }
+    },
+    "howItWorksTitle": "Cara kerjanya",
+    "howItWorksSubtitle": "Alur pembelajaran sederhana yang membantu menavigasi pusat dengan lebih mudah.",
+    "step1Title": "Pilih bagian",
+    "step1Desc": "Mulai dari area yang sesuai dengan yang ingin Anda pelajari, baik kursus, artikel, webinar, atau istilah glosarium.",
+    "step2Title": "Belajar sesuai kecepatan Anda",
+    "step2Desc": "Baca, tonton, dan jelajahi konten berdasarkan level, minat, dan topik yang paling relevan.",
+    "step3Title": "Kembali saat dibutuhkan",
+    "step3Desc": "Gunakan pusat sebagai referensi berkelanjutan kapan pun Anda ingin mengulang konsep atau menjelajahi sumber baru.",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faqSubtitle": "Beberapa jawaban singkat untuk memahami tujuan Pusat Edukasi.",
+    "faq1Q": "Apa itu TraderTok Education Hub?",
+    "faq1A": "Ini adalah halaman pusat tempat pengguna dapat mengakses konten edukatif seperti kursus, artikel, wawasan pasar, webinar, istilah glosarium, tutorial, dan sumber pendukung.",
+    "faq2Q": "Untuk siapa halaman ini dirancang?",
+    "faq2A": "Dirancang bagi mereka yang ingin mempelajari pasar keuangan dengan cara yang lebih jelas dan terorganisir, baik pemula maupun yang ingin memperluas pengetahuan.",
+    "faq3Q": "Apa yang bisa saya akses dari halaman ini?",
+    "faq3A": "Anda dapat masuk ke kursus, artikel, berita dan wawasan pasar, eBook, webinar, glosarium trading, tutorial platform, serta alat dan sumber daya.",
+    "faq4Q": "Apakah halaman ini untuk belajar atau promosi?",
+    "faq4A": "Halaman ini dimaksudkan sebagai pusat edukatif yang membantu mengeksplorasi pengetahuan pasar dan materi pembelajaran terkait dengan lebih mudah.",
+    "ctaBandAria": "Buka akun trading",
+    "ctaBandTitle": "Siap berlatih atau trading live?",
+    "ctaBandSubtitle": "Lengkapi formulir pendaftaran singkat di halaman berikutnya. Pengiriman disimulasikan hingga Anda menghubungkan CRM atau API onboarding.",
+    "ctaBandDemo": "Buka Akun Demo",
+    "ctaBandLive": "Buka Akun Live"
   },
   "eventsCalendarPage": {
     "pageTitle": "Kalender Acara - TraderTok | Acara Pasar Penting",

@@ -1269,65 +1269,218 @@
     "riskDisclosureHeroTitle": "RISK DISCLOSURE"
   },
   "accountTypesPage": {
-    "pageTitle": "Mga Uri ng Account - TraderTok | Piliin ang Iyong Trading Account",
-    "pageDescription": "Tuklasin ang mga uri ng account sa TraderTok na idinisenyo upang umayon sa iyong karanasan at layunin sa trading.",
-    "heroTitle": "Piliin ang Iyong",
-    "heroTitleHighlight": "Uri ng Account",
-    "heroSubtitle": "Anuman ang iyong layunin sa trading, nag-aalok ang TraderTok ng account na akma sa iyong pangangailangan. Tuklasin at ihambing ang aming limang opsyon sa account upang mahanap ang pinakamainam para sa iyo.",
-    "getStarted": "Magsimula",
-    "mostPopular": "Pinakapopular",
-    "standard": {
-      "name": "Standard",
-      "feature1": "Pangunahing access sa trading platform",
-      "feature2": "Karaniwang customer support",
-      "feature3": "Karaniwang tools sa pagsusuri ng merkado",
-      "feature4": "Access sa mga materyales pang-edukasyon",
-      "feature5": "Regular na updates sa merkado",
-      "feature6": "Account Manager"
+    "meta": {
+      "pageTitle": "Mga uri ng account | TraderTok | Piliin ang iyong trading account",
+      "pageDescription": "Ihambing ang Cent, STP, at ECN: spread, leverage, at features. Hanapin ang account na angkop sa iyong karanasan at layunin."
     },
-    "advanced": {
-      "name": "Advanced",
-      "feature1": "Lahat ng benepisyo ng Standard Account",
-      "feature2": "Mas mababang gastos sa transaksyon",
-      "feature3": "Advanced charting tools",
-      "feature4": "Priority customer support",
-      "feature5": "Araw-araw na market insights at research reports",
-      "feature6": "Account Manager",
-      "note": "Potensyal para sa Mas Mataas na Kita: Mas mababang gastos sa transaksyon, na nagbibigay-daan sa iyo na mapanatili ang mas malaking bahagi ng iyong kita"
+    "hero": {
+      "line1": "Piliin ang tamang account para sa iyong",
+      "line2": "journey sa trading",
+      "subtitle": "Mapa nagsisimula ka man o propesyonal ka nang mag-trade, idinisenyo ang aming mga uri ng account para tumugma sa iyong karanasan at layunin."
     },
-    "professional": {
-      "name": "Professional",
-      "feature1": "Lahat ng benepisyo ng Advanced Account",
-      "feature2": "50% bawas sa Swap",
-      "feature3": "Eksklusibong research reports",
-      "feature4": "Mas mababang gastos sa transaksyon",
-      "feature5": "Dedikadong personal assistant",
-      "feature6": "Maaaring i-customize na kundisyon sa trading",
-      "feature7": "Paggamit ng AI tools (limitado)",
-      "feature8": "Malawak na edukasyon mula sa senior analyst",
-      "note": "Potensyal para sa Mas Mataas na Kita: Isa sa pinakamababang gastos sa transaksyon sa branch, kasama ang paggamit ng personal assistant at AI tool upang gabayan ka sa financial markets"
+    "compare": {
+      "heading": "Buod ng mga uri ng account",
+      "introHtml": "Ihambing sa isang tingin, pagkatapos ay buuin ang <strong>Mga detalye ng account</strong> sa ibaba para sa buong impormasyon.",
+      "regionAriaLabel": "Talahanayan ng paghahambing ng account",
+      "tableCaption": "Talahanayan ng paghahambing ng account",
+      "colAccountType": "Uri ng account",
+      "colTargetTrader": "Target na trader",
+      "colSpread": "Spread",
+      "spreadAbbrTitle": "Pagkakaiba ng bid at ask; mas mababang spread ay maaaring mas mababang gastos bago ang komisyon.",
+      "colLeverage": "Leverage",
+      "leverageAbbrTitle": "Sukdulang leverage na inaalok; mas mataas na leverage ay nagdaragdag ng potensyal na kita at panganib.",
+      "colKeyFeatures": "Pangunahing tampok",
+      "labelTargetTrader": "Target na trader",
+      "labelSpread": "Spread",
+      "labelLeverage": "Leverage",
+      "labelKeyFeatures": "Pangunahing tampok",
+      "centName": "Cent (Starter)",
+      "centTarget": "Mga nagsisimula",
+      "centSpread": "Mula 1.8 pips",
+      "centLeverage": "Hanggang 1:1000",
+      "centFeatures": "Mag-trade sa sentimo, mababang panganib, opsyong walang swap",
+      "stpName": "STP (Standard)",
+      "stpTarget": "Intermediate",
+      "stpSpread": "Mula 1.8 pips",
+      "stpLeverage": "Hanggang 1:1000",
+      "stpFeatures": "Mabilis na execution, walang komisyon",
+      "ecnName": "ECN (Professional)",
+      "ecnBadge": "Premium",
+      "ecnTarget": "Advanced / Mataas ang volume",
+      "ecnSpread": "Mula 0.1 pips",
+      "ecnLeverage": "Hanggang 1:1000",
+      "ecnFeatures": "Raw spreads, mainam sa scalping at bots"
     },
-    "exclusive": {
-      "name": "Exclusive",
-      "feature1": "Lahat ng benepisyo ng Professional Account",
-      "feature2": "Zero swap fees!",
-      "feature3": "Pinakamababang posibleng gastos sa transaksyon",
-      "feature4": "Priority access sa bagong features at tools",
-      "feature5": "Eksklusibong materyales pang-edukasyon",
-      "feature6": "VIP events at networking opportunities",
-      "feature7": "Regular na personal na access sa senior analysts",
-      "feature8": "Pinakamataas na level ng customer support na may mas mabilis na tugon",
-      "note": "Makakuha ng pinakamababang gastos sa transaksyon, zero swap fees, eksklusibong features, at personalized na suporta, upang i-optimize ang iyong trading performance para sa mas mataas na potensyal na kita"
+    "detailsSection": {
+      "heading": "Mga detalye ng account",
+      "intro": "Mga tampok at gastos bawat uri ng account.",
+      "purpose": "Layunin",
+      "keyFeatures": "Pangunahing tampok",
+      "whyIdeal": "Bakit mainam"
     },
-    "black": {
-      "name": "BLACK",
-      "feature1": "Lahat ng benepisyo ng Exclusive Account",
-      "feature2": "Personal na dedikadong senior analyst",
-      "feature3": "300,000 welcome bonus",
-      "feature4": "Access sa pribadong koleksyon ng educational info",
-      "feature5": "Personalized at napag-uusapang alok",
-      "feature6": "Oversight analyst"
+    "centDetails": {
+      "summary": "Cent Account (Starter)",
+      "purpose1": "Para sa mga nagsisimula sa forex trading",
+      "purpose2": "Mababang deposito para mabawasan ang hadlang",
+      "key1": "Mag-trade sa sentimo (mas mababang exposure)",
+      "key2": "Spread mula 1.8 pips",
+      "key3": "Leverage hanggang 1:1000",
+      "key4": "May opsyong Islamic (walang swap)",
+      "why1": "Mainam para sa mga bagong merkado tulad ng Pakistan",
+      "why2": "Madaling mag-onboard ng bagong traders",
+      "why3": "Suporta sa paglago ng IB sa pamamagitan ng madaling pasok"
+    },
+    "stpDetails": {
+      "summary": "STP Account (Standard)",
+      "purpose1": "Para sa regular na traders na humihingi ng mas mahusay na execution",
+      "key1": "Minimum na deposito: $100",
+      "key2": "Spread mula 1.8 pips",
+      "key3": "Straight-through processing (STP)",
+      "key4": "Mabilis na execution",
+      "key5": "Leverage hanggang 1:1000",
+      "why1": "Balanseng kondisyon sa trading",
+      "why2": "Simple nitong presyo",
+      "why3": "Angkop sa karamihan ng retail traders"
+    },
+    "ecnDetails": {
+      "summary": "ECN Account (Professional)",
+      "purpose1": "Para sa may karanasan at mataas ang volume na traders",
+      "key1": "Minimum na deposito: $500",
+      "key2": "Raw spreads mula 0.1 pips",
+      "key3": "Leverage hanggang 1:1000",
+      "key4": "Forex, Metals, Indices, Commodities, Crypto",
+      "key5": "Mainam sa scalping at automated trading",
+      "why1": "Masikip na spreads para sa seryosong traders",
+      "why2": "Mas mahusay na kalidad ng execution",
+      "why3": "Kompetitibo kumpara sa nangungunang ECN brokers"
+    },
+    "notes": {
+      "heading": "Mahahalagang paalala",
+      "supportHtml": "<strong>Lahat ng uri ng account ay sumusuporta sa:</strong> Forex, Metals, Indices, Commodities, at Crypto.",
+      "islamicHtml": "<strong>May Islamic accounts para sa:</strong> Cent at STP accounts."
+    },
+    "elite": {
+      "title": "Mystery / elite accounts",
+      "paragraph1": "Higit pa sa standard na nakalista rito: mayroon kaming premium at elite accounts para sa propesyonal — available lamang kapag hiniling.",
+      "contactHtml": "Para sa access at detalye, mangyaring <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">makipag-ugnayan sa amin</a> nang direkta."
+    },
+    "cta": {
+      "heading": "Buksan ang iyong account",
+      "openLive": "Buksan ang Live Account",
+      "tryDemo": "Subukan ang Demo",
+      "speakExpert": "Makipag-usap sa eksperto"
     }
+  },
+  "openDemoAccountPage": {
+    "meta": {
+      "pageTitle": "Magbukas ng demo account | Mag-practice ng trading | TraderTok",
+      "pageDescription": "Mag-register ng interes para sa libreng demo account. Mag-practice gamit ang virtual funds sa live market data."
+    },
+    "heroTitle": "Magbukas ng libreng demo account",
+    "heroLead": "Mag-practice gamit ang virtual funds sa live market data. Isumite ang iyong detalye; susundan ng team ang susunod na hakbang. Walang bayad para sa demo.",
+    "whyTitle": "Bakit magsimula sa demo?",
+    "whyBody": "Sa demo account, makikilala mo ang platform, chart, at order types nang walang panganib habang natututo sa galaw ng merkado.",
+    "bullet1": "Virtual balance para sa practice",
+    "bullet2": "Live market pricing para makatotohanan ang konteksto",
+    "bullet3": "Walang deposit para magsimula",
+    "liveCrosslink": "Magbukas ng live account",
+    "formNote": "Hindi pa nakakonekta ang form na ito sa live CRM. Simulated ang submissions hanggang ma-wire ang registration API.",
+    "cardMeta": "Iyong detalye",
+    "cardTitle": "Humiling ng demo account",
+    "labelFullName": "Buong pangalan",
+    "placeholderFullName": "Iyong buong pangalan",
+    "labelEmail": "Email address",
+    "placeholderEmail": "ikaw@halimbawa.com",
+    "labelPhone": "Telepono",
+    "placeholderPhone": "Isama ang country code",
+    "labelCountry": "Bansa / rehiyon",
+    "selectPlaceholder": "Pumili…",
+    "countries": {
+      "GB": "United Kingdom",
+      "US": "Estados Unidos",
+      "DE": "Alemanya",
+      "FR": "Pransya",
+      "AU": "Australia",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "United Arab Emirates",
+      "ZA": "South Africa",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Iba pa"
+    },
+    "consentHtml": "Sumasang-ayon akong kontakin para sa aking demo request at nabasa ko na ang <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitButton": "Isumite ang demo request",
+    "errors": {
+      "nameRequired": "Ilagay ang iyong buong pangalan.",
+      "emailInvalid": "Maglagay ng wastong email address.",
+      "phoneRequired": "Maglagay ng numero ng telepono.",
+      "countryRequired": "Pumili ng bansa o rehiyon.",
+      "consentRequired": "Pakikumpirma ang pagsang-ayon upang magpatuloy."
+    }
+  },
+  "openLiveAccountPage": {
+    "meta": {
+      "pageTitle": "Magbukas ng Live Account | TraderTok",
+      "pageDescription": "Irehistro ang interes mo sa live trading account. Susundan ng team ang beripikasyon at susunod na hakbang."
+    },
+    "heroTitle": "Magbukas ng live trading account",
+    "heroLead": "Sabihin sa amin kung paano ka makontak. May susunod na miyembro ng team para sa eligibility checks, dokumentasyon, at susunod na hakbang. May panganib ang trading; hindi ito payong pinansyal.",
+    "beforeTitle": "Bago magsimula",
+    "beforeBody": "Ang live accounts ay may tunay na kapital at regulatory checks. Ang pagkumpleto ng form na ito ay nagre-rehistro ng interes mo upang gabayan ka ng team sa beripikasyon at access sa platform.",
+    "bullet1": "Maaaring may identity at residency checks",
+    "bullet2": "Risk disclosure at pagtanggap ng terms bilang bahagi ng onboarding",
+    "bullet3": "Dedicated follow-up mula sa aming team",
+    "demoCrosslink": "Magbukas ng demo account",
+    "formNote": "Ang form na ito ay hindi pa nakakonekta sa live onboarding system. Simulated ang submissions hanggang maikonekta ang CRM o registration API.",
+    "cardMeta": "Iyong mga detalye",
+    "cardTitle": "Irehistro ang interes sa live account",
+    "labelFullName": "Buong pangalan",
+    "placeholderFullName": "Iyong buong pangalan",
+    "labelEmail": "Email address",
+    "placeholderEmail": "ikaw@halimbawa.com",
+    "labelPhone": "Telepono",
+    "placeholderPhone": "Isama ang country code",
+    "labelCountry": "Bansa / rehiyon",
+    "selectPlaceholder": "Pumili…",
+    "countries": {
+      "GB": "United Kingdom",
+      "US": "United States",
+      "DE": "Germany",
+      "FR": "France",
+      "AU": "Australia",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "United Arab Emirates",
+      "ZA": "South Africa",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Iba pa"
+    },
+    "consentHtml": "Nauunawaan kong may panganib ang trading at sumasang-ayon akong kontakin tungkol sa pagbubukas ng live account. Nabasa ko ang <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitButton": "Isumite ang live account request",
+    "errors": {
+      "nameRequired": "Ilagay ang iyong buong pangalan.",
+      "emailInvalid": "Maglagay ng wastong email address.",
+      "phoneRequired": "Maglagay ng numero ng telepono.",
+      "countryRequired": "Pumili ng bansa o rehiyon.",
+      "consentRequired": "Pakikumpirma ang pagsang-ayon upang magpatuloy."
+    }
+  },
+  "demoAccountModal": {
+    "closeAriaLabel": "Isara",
+    "formNote": "Hindi pa nakakonekta ang form na ito sa server. Simulated ang mga submission para sa pagsubok; ikonekta ang CRM o registration API kapag handa na.",
+    "submitButton": "Gumawa ng demo account",
+    "sending": "Nagpapadala…",
+    "errors": {
+      "consentPrivacy": "Tanggapin ang mga tuntunin sa privacy upang magpatuloy.",
+      "generic": "May nagkamali. Pakisubukan muli."
+    },
+    "successTitle": "Salamat",
+    "successSubtitle": "Natanggap na namin ang iyong demo request. Makikipag-ugnayan kami nang may mga tagubilin para sa practice account.",
+    "closeButton": "Isara"
   },
   "researchPage": {
     "pageTitle": "Pananaliksik - TraderTok | Pagsusuri at Insights sa Merkado",
@@ -1352,7 +1505,164 @@
     "practicalInsights": "Praktikal na Insights",
     "expertAnalysis": "Ekspertong Pagsusuri",
     "weeklyUpdatesFeature": "Lingguhang Updates",
-    "clearStructure": "Malinaw na Estruktura"
+    "clearStructure": "Malinaw na Estruktura",
+    "whyEducationImageAlt": "Bakit mahalaga ang edukasyon",
+    "videoCards": {
+      "1": {
+        "category": "Diskarte sa trading",
+        "title": "Mga uri ng CFD",
+        "date": "Dis 15, 2024"
+      },
+      "2": {
+        "category": "Diskarte sa trading",
+        "title": "Mga uri ng merkado",
+        "date": "Dis 8, 2024"
+      },
+      "3": {
+        "category": "Pagsusuri ng merkado",
+        "title": "Lingguhang outlook sa merkado: Forex at commodities",
+        "date": "Dis 8, 2024"
+      },
+      "4": {
+        "category": "Teknikal na pagsusuri",
+        "title": "Pagbuo ng diversified trading portfolio",
+        "date": "Dis 5, 2024"
+      }
+    },
+    "reportCards": {
+      "1": {
+        "title": "Q4 2024 market outlook",
+        "meta": "2.4 MB • Na-update Dis 2024"
+      },
+      "2": {
+        "title": "Gabay sa Forex trading strategies",
+        "meta": "3.1 MB • Na-update Nob 2024"
+      },
+      "3": {
+        "title": "Pagsusuri sa cryptocurrency market",
+        "meta": "1.8 MB • Na-update Dis 2024"
+      },
+      "4": {
+        "title": "Handbook sa risk management",
+        "meta": "2.7 MB • Na-update Okt 2024"
+      },
+      "5": {
+        "title": "Mga technical indicator na ipinaliwanag",
+        "meta": "4.2 MB • Na-update Nob 2024"
+      },
+      "6": {
+        "title": "Gabay sa commodities trading",
+        "meta": "2.9 MB • Na-update Set 2024"
+      }
+    }
+  },
+  "educationHubPage": {
+    "meta": {
+      "pageTitle": "Education Hub - TraderTok | Matuto sa merkado at trading",
+      "pageDescription": "Tuklasin ang mga kurso, artikulo, market insights, webinar, glossary, tutorial, at tools sa TraderTok Education Hub."
+    },
+    "heroEyebrow": "TraderTok Education Hub",
+    "heroTitle": "Matuto tungkol sa financial markets sa pamamagitan ng naka-istruktura at accessible na knowledge hub.",
+    "heroSubtitle": "Pinagsasama ng TraderTok Education Hub ang educational content na idinisenyo upang matulungan ang mga user na maunawaan ang market concepts, trading foundations, risk awareness, at mas malawak na trading ecosystem sa isang lugar.",
+    "ctaExplore": "Tuklasin ang mga seksyon",
+    "ctaDemo": "Magbukas ng demo account",
+    "ctaLive": "Magbukas ng live account",
+    "microTrust": "Educational content lamang. Malinaw na market knowledge, praktikal na learning paths, at mas madaling access sa resources.",
+    "overviewTitle": "Overview",
+    "overviewSubtitle": "Isang sentral na pahina para sa learning resources, insights, guides, webinars, glossary terms, tutorials, at tools.",
+    "overviewBody1": "Maaaring mukhang kumplikado ang financial markets, lalo na sa bagong traders. Ang pahinang ito ay idinisenyo upang gawing mas madali ang pag-aaral sa pamamagitan ng pag-aayos ng TraderTok educational resources sa malinaw na seksyon na maaaring tuklasin batay sa interes at experience level.",
+    "overviewBody2": "Kahit nais ng beginner education, mas malalim na market insight, tulong sa platform, o glossary definitions, ang hub ang dapat maging starting point.",
+    "whatYouFindTitle": "Ano ang makikita mo",
+    "whatYouFindSubtitle": "Naka-organize ang hub upang matulungan ang mga user na lumipat mula foundational learning patungo sa mas malalim na educational content sa sariling bilis.",
+    "learn1Title": "Edukasyon para sa nagsisimula",
+    "learn1Desc": "Magsimula sa mas simpleng learning paths na nagpapaliwanag ng markets, trading concepts, at key terminology nang mas malinaw.",
+    "learn2Title": "Market insights",
+    "learn2Desc": "Unawain kung paano maaaring maimpluwensyahan ng balita, pandaigdigang kaganapan, at mas malawak na market developments ang financial markets.",
+    "learn3Title": "Mga guide na maid-download",
+    "learn3Desc": "I-access ang mas mahahabang educational content na maaaring basahin, i-save, at balikan kapag kailangan.",
+    "learn4Title": "Mga webinar",
+    "learn4Desc": "Tuklasin ang educational webinar content na idinisenyo upang gawing mas interactive at praktikal ang pag-aaral.",
+    "learn5Title": "Glossary at tutorials",
+    "learn5Desc": "Gamitin ang glossary terms at platform tutorials upang mas maunawaan ang wika at platform workflows.",
+    "learn6Title": "Mga tool at resources",
+    "learn6Desc": "Maghanap ng supporting materials at kapaki-pakinabang na resources upang mas kumpleto ang learning journey.",
+    "whoForTitle": "Para ba sa iyo ang edukasyong ito?",
+    "whoForSubtitle": "Isang simpleng paraan upang makita kung tumutugma ang hub sa hinahanap mo.",
+    "whoForYesTitle": "Para sa iyo ito kung:",
+    "whoForYes1": "Nais mong maunawaan ang financial markets nang mas naka-istruktura.",
+    "whoForYes2": "Mas gusto mo ang educational content na mas madaling i-browse ayon sa topic.",
+    "whoForYes3": "Nais mo ng isang lugar para sa articles, guides, webinars, tutorials, at glossary terms.",
+    "whoForNoTitle": "HINDI ito para sa iyo kung:",
+    "whoForNo1": "Hinahanap mo ang mga pangako, shortcut, o garantisadong resulta.",
+    "whoForNo2": "Gusto mo lang ng promotional content sa halip na educational material.",
+    "whoForNo3": "Hindi ka interesadong matuto kung paano gumagana ang markets at trading concepts.",
+    "sectionsTitle": "Mga seksyon ng edukasyon",
+    "sectionsSubtitle": "Pumili ng seksyon sa ibaba upang magpatuloy sa bahagi ng hub na tumutugma sa kailangan mo.",
+    "cards": {
+      "courses": {
+        "meta": "Learning path",
+        "title": "Mga kurso",
+        "desc": "Naka-istrukturang educational content para unti-unting bumuo ng trading knowledge."
+      },
+      "articles": {
+        "meta": "Knowledge base",
+        "title": "Mga artikulo",
+        "desc": "Mga educational article na madaling basahin tungkol sa market concepts, strategies, at trading foundations."
+      },
+      "marketNews": {
+        "meta": "Market knowledge",
+        "title": "Balita at insights sa merkado",
+        "desc": "Unawain kung paano hinuhubog ng kasalukuyang kaganapan at market developments ang financial markets."
+      },
+      "ebooks": {
+        "meta": "Mga download",
+        "title": "eBooks",
+        "desc": "Mahahabang educational guides na maaaring basahin at balikan sa sariling bilis."
+      },
+      "webinars": {
+        "meta": "Live at on-demand",
+        "title": "Mga webinar",
+        "desc": "Educational webinar content na nakatuon sa market understanding at trader learning."
+      },
+      "glossary": {
+        "meta": "Terminolohiya",
+        "title": "Trading glossary",
+        "desc": "Mga kahulugan ng mahahalagang trading terms at market language sa industriya."
+      },
+      "tutorials": {
+        "meta": "Tulong sa platform",
+        "title": "Platform tutorials",
+        "desc": "Praktikal na walkthroughs na tumutulong maunawaan ang platform features at workflows."
+      },
+      "tools": {
+        "meta": "Utilities",
+        "title": "Mga tool at resources",
+        "desc": "Supporting materials, tools, at kapaki-pakinabang na educational resources para sa patuloy na pag-aaral."
+      }
+    },
+    "howItWorksTitle": "Paano ito gumagana",
+    "howItWorksSubtitle": "Isang simpleng learning flow na tumutulong mag-navigate sa hub nang mas madali.",
+    "step1Title": "Pumili ng seksyon",
+    "step1Desc": "Magsimula sa lugar na tumutugma sa gusto mong matutunan—mga kurso, artikulo, webinar, o glossary terms.",
+    "step2Title": "Matuto sa sariling bilis",
+    "step2Desc": "Magbasa, manood, at tuklasin batay sa level, interes, at pinaka-relevant na paksa.",
+    "step3Title": "Bumalik kapag kailangan",
+    "step3Desc": "Gamitin ang hub bilang ongoing reference point kapag nais mong balikan ang mga konsepto o tuklasin ang bagong resources.",
+    "faqTitle": "Mga madalas itanong",
+    "faqSubtitle": "Ilang maikling sagot upang maunawaan kung para saan ang Education Hub.",
+    "faq1Q": "Ano ang TraderTok Education Hub?",
+    "faq1A": "Ito ay isang sentral na pahina kung saan maa-access ang educational content tulad ng mga kurso, artikulo, market insights, webinar, glossary terms, tutorials, at supporting resources.",
+    "faq2Q": "Para kanino idinisenyo ang pahinang ito?",
+    "faq2A": "Idinisenyo ito para sa mga gustong matuto pa tungkol sa financial markets nang mas malinaw at organisado, baguhan man o naghahanap na palawakin ang kaalaman.",
+    "faq3Q": "Ano ang maa-access ko mula sa pahinang ito?",
+    "faq3A": "Maaari kang magpatuloy sa mga kurso, artikulo, balita at insights sa merkado, eBooks, webinar, trading glossary, platform tutorials, at mga tool at resources.",
+    "faq4Q": "Para ba ito sa pag-aaral o promosyon?",
+    "faq4A": "Ang layunin ng pahinang ito ay maging educational hub na tumutulong tuklasin ang market knowledge at kaugnay na learning materials nang mas madali.",
+    "ctaBandAria": "Magbukas ng trading account",
+    "ctaBandTitle": "Handa nang mag-practice o mag-trade live?",
+    "ctaBandSubtitle": "Kumpletuhin ang maikling registration forms sa susunod na mga pahina. Simulated ang mga submission hanggang maikonekta ang CRM o onboarding API.",
+    "ctaBandDemo": "Magbukas ng Demo Account",
+    "ctaBandLive": "Magbukas ng Live Account"
   },
   "eventsCalendarPage": {
     "pageTitle": "Kalendaryo ng Mga Kaganapan - TraderTok | Mahahalagang Kaganapan sa Merkado",

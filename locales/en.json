@@ -2020,65 +2020,218 @@
     "importantNotice": "By continuing to use our services, you confirm that you have read, understood, and agreed to the terms outlined in these policies."
   },
   "accountTypesPage": {
-    "pageTitle": "Account Types - TraderTok | Choose Your Trading Account",
-    "pageDescription": "Explore TraderTok account types designed to match your trading experience and goals.",
-    "heroTitle": "Choose Your",
-    "heroTitleHighlight": "Account Type",
-    "heroSubtitle": "No matter your trading goals, TraderTok offers an account tailored to suit them perfectly. Explore and compare our five account options to find the one that best aligns with your needs.",
-    "getStarted": "Get Started",
-    "mostPopular": "Most Popular",
-    "standard": {
-      "name": "Standard",
-      "feature1": "Basic access to the trading platform",
-      "feature2": "Standard customer support",
-      "feature3": "Standard market analysis tools",
-      "feature4": "Access to educational resources",
-      "feature5": "Regular market updates",
-      "feature6": "Account Manager"
+    "meta": {
+      "pageTitle": "Account Types | TraderTok | Choose Your Trading Account",
+      "pageDescription": "Compare Cent, STP, and ECN accounts—spreads, leverage, and features. Find the account that matches your experience and goals."
     },
-    "advanced": {
-      "name": "Advanced",
-      "feature1": "All Standard Account benefits",
-      "feature2": "Lower transaction costs",
-      "feature3": "Advanced charting tools",
-      "feature4": "Priority customer support",
-      "feature5": "Daily market insights and research reports",
-      "feature6": "Account Manager",
-      "note": "Potential for Increased Revenue: Enjoy reduced transaction costs, allowing you to retain a higher percentage of your profits"
+    "hero": {
+      "line1": "Choose the Right Account for Your",
+      "line2": "Trading Journey",
+      "subtitle": "Whether you're just starting or trading at a professional level, our account types are designed to match your experience and goals."
     },
-    "professional": {
-      "name": "Professional",
-      "feature1": "All Advanced Account benefits",
-      "feature2": "50% Swap Reduction",
-      "feature3": "Exclusive research reports",
-      "feature4": "Even lower transaction costs",
-      "feature5": "Dedicated personal assistant",
-      "feature6": "Customizable trading conditions",
-      "feature7": "Use of AI tools (limited)",
-      "feature8": "Extensive education by a senior analyst",
-      "note": "Potential for Increased Revenue: Some of the lowest transaction costs in the branch, and the use of a personal assistant and an AI tool to navigate you through financial markets"
+    "compare": {
+      "heading": "Account types overview",
+      "introHtml": "Compare at a glance, then expand <strong>Account details</strong> below for full information.",
+      "regionAriaLabel": "Account comparison table",
+      "tableCaption": "Account Comparison Table",
+      "colAccountType": "Account type",
+      "colTargetTrader": "Target trader",
+      "colSpread": "Spread",
+      "spreadAbbrTitle": "Difference between bid and ask price; lower can mean lower cost before commission.",
+      "colLeverage": "Leverage",
+      "leverageAbbrTitle": "Maximum leverage offered; higher leverage increases both potential reward and risk.",
+      "colKeyFeatures": "Key features",
+      "labelTargetTrader": "Target trader",
+      "labelSpread": "Spread",
+      "labelLeverage": "Leverage",
+      "labelKeyFeatures": "Key features",
+      "centName": "Cent (Starter)",
+      "centTarget": "Beginners",
+      "centSpread": "From 1.8 pips",
+      "centLeverage": "Up to 1:1000",
+      "centFeatures": "Trade in cents, low risk, swap-free option",
+      "stpName": "STP (Standard)",
+      "stpTarget": "Intermediate",
+      "stpSpread": "From 1.8 pips",
+      "stpLeverage": "Up to 1:1000",
+      "stpFeatures": "Fast execution, no commission",
+      "ecnName": "ECN (Professional)",
+      "ecnBadge": "Premium",
+      "ecnTarget": "Advanced / High volume",
+      "ecnSpread": "From 0.1 pips",
+      "ecnLeverage": "Up to 1:1000",
+      "ecnFeatures": "Raw spreads, ideal for scalping & bots"
     },
-    "exclusive": {
-      "name": "Exclusive",
-      "feature1": "All Professional Account benefits",
-      "feature2": "Zero swap fees!",
-      "feature3": "Lowest possible transaction costs",
-      "feature4": "Priority access to new features and tools",
-      "feature5": "Exclusive educational resources",
-      "feature6": "VIP events and networking opportunities",
-      "feature7": "Regular personal access to senior analysts",
-      "feature8": "Highest level of customer support with faster response times",
-      "note": "Benefit from the lowest transaction costs, zero swap fees, exclusive features, and personalized support, optimizing your trading performance for higher potential returns"
+    "detailsSection": {
+      "heading": "Account details",
+      "intro": "Features and costs per account type.",
+      "purpose": "Purpose",
+      "keyFeatures": "Key features",
+      "whyIdeal": "Why it's ideal"
     },
-    "black": {
-      "name": "BLACK",
-      "feature1": "All Exclusive Account Benefits",
-      "feature2": "Personal dedicated senior analyst",
-      "feature3": "300.000 welcome bonus",
-      "feature4": "Access to private collection of educational info",
-      "feature5": "Personalized and negotiable offers",
-      "feature6": "Oversight analyst"
+    "centDetails": {
+      "summary": "Cent Account (Starter)",
+      "purpose1": "Designed for beginners entering forex trading",
+      "purpose2": "Low deposit to reduce entry barrier",
+      "key1": "Trade in cents (lower risk exposure)",
+      "key2": "Spread from 1.8 pips",
+      "key3": "Leverage up to 1:1000",
+      "key4": "Islamic (swap-free) option available",
+      "why1": "Perfect for beginner markets like Pakistan",
+      "why2": "Helps onboard new traders easily",
+      "why3": "Supports IB growth through easy entry"
+    },
+    "stpDetails": {
+      "summary": "STP Account (Standard)",
+      "purpose1": "For regular traders looking for better execution",
+      "key1": "Minimum deposit: $100",
+      "key2": "Spread from 1.8 pips",
+      "key3": "Straight-through processing (STP)",
+      "key4": "Fast execution",
+      "key5": "Leverage up to 1:1000",
+      "why1": "Balanced trading conditions",
+      "why2": "Simple pricing model",
+      "why3": "Suitable for most retail traders"
+    },
+    "ecnDetails": {
+      "summary": "ECN Account (Professional)",
+      "purpose1": "Designed for experienced and high-volume traders",
+      "key1": "Minimum deposit: $500",
+      "key2": "Raw spreads from 0.1 pips",
+      "key3": "Leverage up to 1:1000",
+      "key4": "Supports Forex, Metals, Indices, Commodities, Crypto",
+      "key5": "Ideal for scalping and automated trading",
+      "why1": "Tight spreads for serious traders",
+      "why2": "Better execution quality",
+      "why3": "Competitive with top ECN brokers"
+    },
+    "notes": {
+      "heading": "Important notes",
+      "supportHtml": "<strong>All account types support:</strong> Forex, Metals, Indices, Commodities, and Crypto.",
+      "islamicHtml": "<strong>Islamic accounts are available for:</strong> Cent and STP accounts."
+    },
+    "elite": {
+      "title": "Mystery / elite accounts",
+      "paragraph1": "Our offering goes beyond the standard account types listed here. We maintain a range of premium and elite accounts, tailored for professional traders and investors — available by request only.",
+      "contactHtml": "For access and details, please <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">contact us</a> directly."
+    },
+    "cta": {
+      "heading": "Open your account",
+      "openLive": "Open Live Account",
+      "tryDemo": "Try Demo",
+      "speakExpert": "Speak to an Expert"
     }
+  },
+  "openDemoAccountPage": {
+    "meta": {
+      "pageTitle": "Open Demo Account | Practice Trading | TraderTok",
+      "pageDescription": "Register your interest in a free demo trading account. Practice with virtual funds on live market data."
+    },
+    "heroTitle": "Open a free demo account",
+    "heroLead": "Practice with virtual funds on live market data. Submit your details below; our team will follow up with next steps. No payment required for a demo.",
+    "whyTitle": "Why start with a demo?",
+    "whyBody": "A demo account lets you explore the platform, charts, and order types in a risk-free environment while you learn how markets move.",
+    "bullet1": "Virtual balance for practice",
+    "bullet2": "Live market pricing for realistic context",
+    "bullet3": "No deposit required to get started",
+    "liveCrosslink": "Open a live account",
+    "formNote": "This form is not yet connected to a live CRM. Submissions are simulated until you wire your registration API.",
+    "cardMeta": "Your details",
+    "cardTitle": "Request a demo account",
+    "labelFullName": "Full name",
+    "placeholderFullName": "Your full name",
+    "labelEmail": "Email address",
+    "placeholderEmail": "you@example.com",
+    "labelPhone": "Phone",
+    "placeholderPhone": "Include country code",
+    "labelCountry": "Country / region",
+    "selectPlaceholder": "Select…",
+    "countries": {
+      "GB": "United Kingdom",
+      "US": "United States",
+      "DE": "Germany",
+      "FR": "France",
+      "AU": "Australia",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "United Arab Emirates",
+      "ZA": "South Africa",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Other"
+    },
+    "consentHtml": "I agree to be contacted about my demo request and I have read the <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitButton": "Submit demo request",
+    "errors": {
+      "nameRequired": "Please enter your full name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneRequired": "Please enter a phone number.",
+      "countryRequired": "Please select your country or region.",
+      "consentRequired": "Please confirm consent to continue."
+    }
+  },
+  "openLiveAccountPage": {
+    "meta": {
+      "pageTitle": "Open Live Account | TraderTok",
+      "pageDescription": "Register your interest in a live trading account. Our team will follow up with verification and next steps."
+    },
+    "heroTitle": "Open a live trading account",
+    "heroLead": "Tell us how to reach you. A member of the team will follow up with eligibility checks, documentation, and next steps. Trading involves risk; this is not financial advice.",
+    "beforeTitle": "Before you start",
+    "beforeBody": "Live accounts involve real capital and regulatory checks. Completing this form registers your interest so our team can guide you through verification and platform access.",
+    "bullet1": "Identity and residency checks may apply",
+    "bullet2": "Risk disclosure and terms acceptance as part of onboarding",
+    "bullet3": "Dedicated follow-up from our team",
+    "demoCrosslink": "Open a demo account",
+    "formNote": "This form is not yet connected to a live onboarding system. Submissions are simulated until you connect your CRM or registration API.",
+    "cardMeta": "Your details",
+    "cardTitle": "Register interest in a live account",
+    "labelFullName": "Full name",
+    "placeholderFullName": "Your full name",
+    "labelEmail": "Email address",
+    "placeholderEmail": "you@example.com",
+    "labelPhone": "Phone",
+    "placeholderPhone": "Include country code",
+    "labelCountry": "Country / region",
+    "selectPlaceholder": "Select…",
+    "countries": {
+      "GB": "United Kingdom",
+      "US": "United States",
+      "DE": "Germany",
+      "FR": "France",
+      "AU": "Australia",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "United Arab Emirates",
+      "ZA": "South Africa",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Other"
+    },
+    "consentHtml": "I understand that trading carries risk and I agree to be contacted about opening a live account. I have read the <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitButton": "Submit live account request",
+    "errors": {
+      "nameRequired": "Please enter your full name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneRequired": "Please enter a phone number.",
+      "countryRequired": "Please select your country or region.",
+      "consentRequired": "Please confirm consent to continue."
+    }
+  },
+  "demoAccountModal": {
+    "closeAriaLabel": "Close",
+    "formNote": "This form is not yet connected to a server. Submissions are simulated for testing; wire your CRM or registration API when ready.",
+    "submitButton": "Create demo account",
+    "sending": "Sending…",
+    "errors": {
+      "consentPrivacy": "Please accept the privacy terms to continue.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "successTitle": "Thank you",
+    "successSubtitle": "We have received your demo request. You will be contacted shortly with instructions to access your practice account.",
+    "closeButton": "Close"
   },
   "researchPage": {
     "pageTitle": "Research - TraderTok | Market Analysis & Insights",
@@ -2103,7 +2256,164 @@
     "practicalInsights": "Practical Insights",
     "expertAnalysis": "Expert Analysis",
     "weeklyUpdatesFeature": "Weekly Updates",
-    "clearStructure": "Clear Structure"
+    "clearStructure": "Clear Structure",
+    "whyEducationImageAlt": "Why education matters",
+    "videoCards": {
+      "1": {
+        "category": "Trading Strategy",
+        "title": "CFDs Types",
+        "date": "Dec 15, 2024"
+      },
+      "2": {
+        "category": "Trading Strategy",
+        "title": "Market Types",
+        "date": "Dec 8, 2024"
+      },
+      "3": {
+        "category": "Market Analysis",
+        "title": "Weekly Market Outlook: Forex & Commodities",
+        "date": "Dec 8, 2024"
+      },
+      "4": {
+        "category": "Technical Analysis",
+        "title": "Building a Diversified Trading Portfolio",
+        "date": "Dec 5, 2024"
+      }
+    },
+    "reportCards": {
+      "1": {
+        "title": "Q4 2024 Market Outlook",
+        "meta": "2.4 MB • Updated Dec 2024"
+      },
+      "2": {
+        "title": "Forex Trading Strategies Guide",
+        "meta": "3.1 MB • Updated Nov 2024"
+      },
+      "3": {
+        "title": "Cryptocurrency Market Analysis",
+        "meta": "1.8 MB • Updated Dec 2024"
+      },
+      "4": {
+        "title": "Risk Management Handbook",
+        "meta": "2.7 MB • Updated Oct 2024"
+      },
+      "5": {
+        "title": "Technical Indicators Explained",
+        "meta": "4.2 MB • Updated Nov 2024"
+      },
+      "6": {
+        "title": "Commodities Trading Guide",
+        "meta": "2.9 MB • Updated Sep 2024"
+      }
+    }
+  },
+  "educationHubPage": {
+    "meta": {
+      "pageTitle": "Education Hub - TraderTok | Learn Markets & Trading",
+      "pageDescription": "Explore courses, articles, market insights, webinars, glossary, tutorials, and tools in the TraderTok Education Hub."
+    },
+    "heroEyebrow": "TraderTok Education Hub",
+    "heroTitle": "Learn about financial markets through a structured and accessible knowledge hub.",
+    "heroSubtitle": "TraderTok Education Hub brings together educational content designed to help users understand market concepts, trading foundations, risk awareness, and the broader trading ecosystem in one place.",
+    "ctaExplore": "Explore Sections",
+    "ctaDemo": "Open demo account",
+    "ctaLive": "Open live account",
+    "microTrust": "Educational content only. Clear market knowledge, practical learning paths, and easier access to resources.",
+    "overviewTitle": "Overview",
+    "overviewSubtitle": "A central page for learning resources, insights, guides, webinars, glossary terms, tutorials, and tools.",
+    "overviewBody1": "Financial markets can feel complex, especially for new traders. This page is designed to make learning easier by organizing TraderTok educational resources into clear sections that users can explore based on their interests and experience level.",
+    "overviewBody2": "Whether someone wants beginner education, deeper market insight, platform help, or glossary definitions, the hub should serve as the starting point.",
+    "whatYouFindTitle": "What You'll Find",
+    "whatYouFindSubtitle": "The hub is organized to help users move from foundational learning into deeper educational content at their own pace.",
+    "learn1Title": "Beginner Education",
+    "learn1Desc": "Start with simpler learning paths that explain markets, trading concepts, and key terminology more clearly.",
+    "learn2Title": "Market Insights",
+    "learn2Desc": "Understand how news, global events, and broader market developments can influence financial markets.",
+    "learn3Title": "Downloadable Guides",
+    "learn3Desc": "Access longer-form educational content that can be read, saved, and revisited when needed.",
+    "learn4Title": "Webinars",
+    "learn4Desc": "Explore educational webinar content designed to make learning more interactive and practical.",
+    "learn5Title": "Glossary and Tutorials",
+    "learn5Desc": "Use glossary terms and platform tutorials to understand both language and platform workflows better.",
+    "learn6Title": "Tools and Resources",
+    "learn6Desc": "Find supporting materials and helpful resources that make the learning journey more complete.",
+    "whoForTitle": "Is This Education for You?",
+    "whoForSubtitle": "A simple way to see whether this hub matches what you are looking for.",
+    "whoForYesTitle": "This is for you if:",
+    "whoForYes1": "You want to understand financial markets in a more structured way.",
+    "whoForYes2": "You prefer educational content that is easier to browse by topic.",
+    "whoForYes3": "You want one place to access articles, guides, webinars, tutorials, and glossary terms.",
+    "whoForNoTitle": "This is NOT for you if:",
+    "whoForNo1": "You are looking for promises, shortcuts, or guaranteed outcomes.",
+    "whoForNo2": "You only want promotional content instead of educational material.",
+    "whoForNo3": "You are not interested in learning how markets and trading concepts work.",
+    "sectionsTitle": "Education Sections",
+    "sectionsSubtitle": "Choose a section below to continue learning through the part of the hub that matches what you need.",
+    "cards": {
+      "courses": {
+        "meta": "Learning Path",
+        "title": "Courses",
+        "desc": "Structured educational content for building trading knowledge step by step."
+      },
+      "articles": {
+        "meta": "Knowledge Base",
+        "title": "Articles",
+        "desc": "Readable educational articles covering market concepts, strategies, and trading foundations."
+      },
+      "marketNews": {
+        "meta": "Market Knowledge",
+        "title": "Market News & Insights",
+        "desc": "Understand how current events and market developments shape financial markets."
+      },
+      "ebooks": {
+        "meta": "Downloads",
+        "title": "eBooks",
+        "desc": "Long-form educational guides that users can read and revisit at their own pace."
+      },
+      "webinars": {
+        "meta": "Live & On-Demand",
+        "title": "Webinars",
+        "desc": "Educational webinar content focused on market understanding and trader learning."
+      },
+      "glossary": {
+        "meta": "Terminology",
+        "title": "Trading Glossary",
+        "desc": "Definitions for essential trading terms and market language used across the industry."
+      },
+      "tutorials": {
+        "meta": "Platform Help",
+        "title": "Platform Tutorials",
+        "desc": "Practical walkthroughs that help users understand platform features and workflows."
+      },
+      "tools": {
+        "meta": "Utilities",
+        "title": "Tools & Resources",
+        "desc": "Supporting materials, tools, and useful educational resources for ongoing learning."
+      }
+    },
+    "howItWorksTitle": "How It Works",
+    "howItWorksSubtitle": "A simple learning flow that helps users navigate the hub more easily.",
+    "step1Title": "Choose a Section",
+    "step1Desc": "Start with the area that matches what you want to learn, whether that is courses, articles, webinars, or glossary terms.",
+    "step2Title": "Learn at Your Own Pace",
+    "step2Desc": "Read, watch, and explore content based on your level, your interests, and the topics most relevant to you.",
+    "step3Title": "Return When Needed",
+    "step3Desc": "Use the hub as an ongoing reference point whenever you want to revisit concepts or explore new resources.",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "A few quick answers to help users understand what the Education Hub is for.",
+    "faq1Q": "What is TraderTok Education Hub?",
+    "faq1A": "It is a central page where users can access educational content such as courses, articles, market insights, webinars, glossary terms, tutorials, and supporting resources.",
+    "faq2Q": "Who is this page designed for?",
+    "faq2A": "It is designed for users who want to learn more about financial markets in a clearer and more organized way, whether they are new to the space or looking to expand their knowledge.",
+    "faq3Q": "What can I access from this page?",
+    "faq3A": "You can use this page to move into courses, articles, market news and insights, eBooks, webinars, the trading glossary, platform tutorials, and tools and resources.",
+    "faq4Q": "Is this page meant for learning or promotion?",
+    "faq4A": "This page is intended to function as an educational hub, helping users explore market knowledge and related learning materials more easily.",
+    "ctaBandAria": "Open a trading account",
+    "ctaBandTitle": "Ready to practice or trade live?",
+    "ctaBandSubtitle": "Complete the short registration forms on the next pages. Submissions are simulated until you connect your CRM or onboarding API.",
+    "ctaBandDemo": "Open Demo Account",
+    "ctaBandLive": "Open Live Account"
   },
   "eventsCalendarPage": {
     "pageTitle": "Events Calendar - TraderTok | Important Market Events",
