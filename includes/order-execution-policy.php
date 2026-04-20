@@ -10,11 +10,12 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
-        <span data-i18n="orderExecutionPolicyPage.h1">ORDER EXECUTION POLICY</span>
+      <div class="doc-page-hero-title">
+        <span data-i18n="orderExecutionPolicyPage.heroTitle" style='color: var(--brand-color-start)'>ORDER EXECUTION POLICY</span>
       </div>
-      <h1 class="doc-sub doc-heading-accent">
-        <span data-i18n="privacyPolicyPage.heroTitle">Definitions</span>
+      <div data-i18n-html="orderExecutionPolicyPage.block01">
+<h1 class="doc-sub doc-heading-accent">
+        <span>Definitions</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
 
@@ -68,9 +69,11 @@
         <li><strong>Dealing Room:</strong> The Company’s internal order execution function.</li>
       </ul>
       <p class="doc-page-hero-subtitle"></p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. OBJECTIVE</span>
+      <div data-i18n-html="orderExecutionPolicyPage.block02">
+<h1 class="doc-sub">
+        <span>1. OBJECTIVE</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The purpose of this policy is to establish efficient processes for order execution to ensure that
@@ -80,9 +83,11 @@
         decisions while remaining compliant with applicable regulations, including MiFID II for EU
         clients and other local jurisdictional rules.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. SCOPE SECTION
+      <div data-i18n-html="orderExecutionPolicyPage.block03">
+<h1 class="doc-sub">
+        <span>2. SCOPE SECTION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -90,9 +95,11 @@
         Company, to trading conducted via the Company’s platform, including web, mobile, and API
         access and to all jurisdictions where the Company is legally permitted to operate.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. GENERAL EXECUTION POLICY
+      <div data-i18n-html="orderExecutionPolicyPage.block04">
+<h1 class="doc-sub">
+        <span>3. GENERAL EXECUTION POLICY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -102,7 +109,7 @@
         for client orders through its trading platform.
       </p>
       <p class="doc-page-hero-subtitle">
-        n order to meet the obligation of executing orders on terms most favorable to clients and achieving
+        In order to meet the obligation of executing orders on terms most favorable to clients and achieving
         optimal results based on clients' capabilities, needs, and trading strategies, the Company has
         developed and continues to uphold an <strong>Order Execution Policy</strong>.
       </p>
@@ -117,9 +124,11 @@
         communication receive appropriate training to understand and comply with this Order Execution
         Policy.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">4. CLIENT COMMUNICATION
+      <div data-i18n-html="orderExecutionPolicyPage.block05">
+<h1 class="doc-sub">
+        <span>4. CLIENT COMMUNICATION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -128,9 +137,11 @@
         accessible to clients through the Company’s website or trading platform. Clients are encouraged
         to review it regularly.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">5.BEST EXECUTION CRITERIA
+      <div data-i18n-html="orderExecutionPolicyPage.block06">
+<h1 class="doc-sub">
+        <span>5.BEST EXECUTION CRITERIA
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -156,9 +167,11 @@
         understand that, while Amber Rock Trade Ltd is committed to providing best execution on all
         trades, this does not guarantee that every trade will be executed at the lowest possible price.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. EXECUTION FACTORS
+      <div data-i18n-html="orderExecutionPolicyPage.block07">
+<h1 class="doc-sub">
+        <span>6. EXECUTION FACTORS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">When managing client orders without specific instructions on the method of
@@ -173,9 +186,11 @@
         <li>Any other relevant considerations for executing the order.</li>
       </ul>
       <p class="doc-sub"></p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">7. EXECUTION VENUES
+      <div data-i18n-html="orderExecutionPolicyPage.block08">
+<h1 class="doc-sub">
+        <span>7. EXECUTION VENUES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -200,9 +215,11 @@
         overall assessment of best execution, speed contributes 20%, costs contribute 20%, and the
         likelihood of execution contributes 10%.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">8. SLIPPAGE
+      <div data-i18n-html="orderExecutionPolicyPage.block09">
+<h1 class="doc-sub">
+        <span>8. SLIPPAGE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -224,9 +241,11 @@
         slippage as part of its execution quality controls and to ensure fair and consistent execution
         practices. By trading with the Company, clients acknowledge and accept the risk of slippage.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">9. SPECIFIC INSTRUCTIONS
+      <div data-i18n-html="orderExecutionPolicyPage.block10">
+<h1 class="doc-sub">
+        <span>9. SPECIFIC INSTRUCTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -259,9 +278,11 @@
         *It’s important to note that the following order types may apply to some financial instruments, but
         not all.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">10. TYPES OF ORDERS</span>
+      <div data-i18n-html="orderExecutionPolicyPage.block11">
+<h1 class="doc-sub">
+        <span>10. TYPES OF ORDERS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Due to the risks and volatility in financial markets, clients might benefit from using different order
@@ -317,9 +338,11 @@
         each order type before trading and to consult available Company resources or support services for
         guidance if needed.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">11. PRICING
+      <div data-i18n-html="orderExecutionPolicyPage.block12">
+<h1 class="doc-sub">
+        <span>11. PRICING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -332,9 +355,11 @@
         Company reviews its independent price providers annually to ensure accurate and competitive
         pricing.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">12. ORDER SIZE
+      <div data-i18n-html="orderExecutionPolicyPage.block13">
+<h1 class="doc-sub">
+        <span>12. ORDER SIZE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -344,9 +369,11 @@
         insufficient. The Company has internal procedures in place to manage large or unusual orders to
         ensure fairness and adherence to best execution standards.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">13. ORDER SPEED
+      <div data-i18n-html="orderExecutionPolicyPage.block14">
+<h1 class="doc-sub">
+        <span>13. ORDER SPEED
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -358,9 +385,11 @@
         responsibility to ensure reliable access to the trading platform and accept the risk that technical or
         connectivity issues may impact order execution.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">14. ORDER EXECUTION PROBABILITY
+      <div data-i18n-html="orderExecutionPolicyPage.block15">
+<h1 class="doc-sub">
+        <span>14. ORDER EXECUTION PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -370,9 +399,11 @@
         Clients acknowledge that such factors may result in delays and that execution may occur at a
         different price than initially intended.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">15. ORDER SETTLEMENT PROBABILITY
+      <div data-i18n-html="orderExecutionPolicyPage.block16">
+<h1 class="doc-sub">
+        <span>15. ORDER SETTLEMENT PROBABILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -382,10 +413,11 @@
         counterparty and market risks, and clients acknowledge that these factors may impact the timing
         and finality of transactions.
       </p>
+      </div>
 
-
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">16. MARKET IMPACT
+      <div data-i18n-html="orderExecutionPolicyPage.block17">
+<h1 class="doc-sub">
+        <span>16. MARKET IMPACT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -395,10 +427,11 @@
         measures to minimize adverse effects on clients and monitors market impact to ensure that
         execution remains fair, consistent, and aligned with best execution obligations.
       </p>
+      </div>
 
-
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">17. CONCLUSION
+      <div data-i18n-html="orderExecutionPolicyPage.block18">
+<h1 class="doc-sub">
+        <span>17. CONCLUSION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -413,6 +446,8 @@
         clients. The Company regularly reviews the policy to ensure clients are informed of any material
         changes in a timely manner.
       </p>
+      </div>
+
     </div>
   </div>
 </section>

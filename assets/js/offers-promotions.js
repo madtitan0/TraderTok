@@ -5,6 +5,9 @@
 (function () {
     'use strict';
 
+    var OFFERS_GEO_SESSION_KEY = 'tradertok_offers_geo';
+    var offerRegionResolutionPending = false;
+
     // -------------------------------------------------------------------------
     // Region Data
     // -------------------------------------------------------------------------
@@ -476,9 +479,64 @@
         ]
     };
 
-    // -------------------------------------------------------------------------
-    // LATAM Country Code Mapping
-    // -------------------------------------------------------------------------
+    function escapeHtml(str) {
+        var s = str == null ? '' : String(str);
+        return s
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+    }
+
+    function localizedPromotion(regionId, index, fallback) {
+        var entry = null;
+        if (window.i18n && typeof window.i18n.getMessage === 'function') {
+            entry = window.i18n.getMessage(['offersPage', 'promotions', regionId, index]);
+        }
+        if (!entry || typeof entry !== 'object') {
+            return {
+                badge: fallback.badge,
+                title: fallback.title,
+                description: fallback.description,
+                details: (fallback.details || []).slice(),
+                cta: fallback.cta,
+                ctaLink: fallback.ctaLink
+            };
+        }
+        var fd = fallback.details || [];
+        var ed = entry.details;
+        var details = [];
+        for (var di = 0; di < fd.length; di++) {
+            details.push(ed && ed[di] != null ? ed[di] : fd[di]);
+        }
+        return {
+            badge: entry.badge != null ? entry.badge : fallback.badge,
+            title: entry.title != null ? entry.title : fallback.title,
+            description: entry.description != null ? entry.description : fallback.description,
+            details: details,
+            cta: entry.cta != null ? entry.cta : fallback.cta,
+            ctaLink: entry.ctaLink != null ? entry.ctaLink : fallback.ctaLink
+        };
+    }
+
+    function getPromotionsForRegion(regionId) {
+        var base = PROMOTIONS[regionId] || [];
+        var out = [];
+        for (var i = 0; i < base.length; i++) {
+            out.push(localizedPromotion(regionId, i, base[i]));
+        }
+        return out;
+    }
+
+    function regionDisplayName(regionId) {
+        var key = 'offersPage.regions.' + regionId;
+        if (window.i18n && window.i18n.t) {
+            var v = window.i18n.t(key);
+            if (v !== key) return v;
+        }
+        var r = getRegionById(regionId);
+        return r ? r.name : regionId;
+    }
 
     const LATAM_CODES = [
         'MX', 'BR', 'AR', 'CO', 'CL', 'PE', 'EC', 'VE',
@@ -511,15 +569,29 @@
             var region = REGIONS[i];
             var promos = PROMOTIONS[region.id] || [];
             var offerCount = promos.length;
-            var offerText = offerCount === 1 ? '1 offer' : offerCount + ' offers';
+            var offerText;
+            if (window.i18n && window.i18n.t) {
+                if (offerCount === 1) {
+                    offerText = window.i18n.t('offersPage.offersOne');
+                    if (offerText === 'offersPage.offersOne') offerText = '1 offer';
+                } else {
+                    offerText = window.i18n.t('offersPage.offersMany', { count: offerCount });
+                    if (offerText === 'offersPage.offersMany') {
+                        offerText = offerCount + ' offers';
+                    }
+                }
+            } else {
+                offerText = offerCount === 1 ? '1 offer' : offerCount + ' offers';
+            }
             var flag = FLAGS[region.id] || '';
+            var rname = escapeHtml(regionDisplayName(region.id));
 
             html +=
                 '<button class="sidebar-country-item" data-region="' + region.id + '" ' +
                 'role="option" aria-selected="false" type="button">' +
                     '<div class="sidebar-country-flag">' + flag + '</div>' +
-                    '<span class="sidebar-country-name">' + region.name + '</span>' +
-                    '<span class="sidebar-country-count">' + offerText + '</span>' +
+                    '<span class="sidebar-country-name">' + rname + '</span>' +
+                    '<span class="sidebar-country-count">' + escapeHtml(offerText) + '</span>' +
                 '</button>';
         }
 
@@ -538,11 +610,12 @@
         for (var i = 0; i < REGIONS.length; i++) {
             var region = REGIONS[i];
             var flag = FLAGS[region.id] || '';
+            var rname = escapeHtml(regionDisplayName(region.id));
 
             html +=
                 '<button class="strip-country-item" data-region="' + region.id + '" type="button">' +
                     '<div class="strip-country-flag">' + flag + '</div>' +
-                    '<span class="strip-country-name">' + region.name + '</span>' +
+                    '<span class="strip-country-name">' + rname + '</span>' +
                 '</button>';
         }
 
@@ -564,20 +637,25 @@
         if (!regionId) {
             grid.innerHTML = '';
             if (empty) {
+                var emptyMsg = 'Select a country to view exclusive offers for your region.';
+                if (window.i18n && window.i18n.t) {
+                    var em = window.i18n.t('offersPage.emptyState');
+                    if (em !== 'offersPage.emptyState') emptyMsg = em;
+                }
                 empty.innerHTML =
                     '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-tertiary); margin-bottom: 16px;">' +
                         '<circle cx="12" cy="12" r="10"></circle>' +
                         '<path d="M8 12l2 2 4-4"></path>' +
                     '</svg>' +
-                    '<p>Select a country to view exclusive offers for your region.</p>';
+                    '<p>' + escapeHtml(emptyMsg) + '</p>';
                 empty.style.display = '';
             }
             if (cta) cta.style.display = 'none';
             return;
         }
 
+        var regionPromos = getPromotionsForRegion(regionId);
         var promos = [];
-        var regionPromos = PROMOTIONS[regionId] || [];
         for (var i = 0; i < regionPromos.length; i++) {
             promos.push({ promo: regionPromos[i], regionId: regionId });
         }
@@ -585,13 +663,18 @@
         if (promos.length === 0) {
             grid.innerHTML = '';
             if (empty) {
+                var noOffersText = 'No offers available for this region yet. Check back soon!';
+                if (window.i18n && window.i18n.t) {
+                    var nt = window.i18n.t('offersPage.noOffers');
+                    if (nt !== 'offersPage.noOffers') noOffersText = nt;
+                }
                 empty.innerHTML =
                     '<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-tertiary); margin-bottom: 16px;">' +
                         '<circle cx="12" cy="12" r="10"></circle>' +
                         '<line x1="12" y1="8" x2="12" y2="12"></line>' +
                         '<line x1="12" y1="16" x2="12.01" y2="16"></line>' +
                     '</svg>' +
-                    '<p data-i18n="offersPage.noOffers">No offers available for this region yet. Check back soon!</p>';
+                    '<p>' + escapeHtml(noOffersText) + '</p>';
                 empty.style.display = '';
             }
             return;
@@ -609,7 +692,7 @@
             var detailsHtml = '';
             if (promo.details && promo.details.length) {
                 for (var d = 0; d < promo.details.length; d++) {
-                    detailsHtml += '<span class="promo-detail-tag">' + promo.details[d] + '</span>';
+                    detailsHtml += '<span class="promo-detail-tag">' + escapeHtml(promo.details[d]) + '</span>';
                 }
             }
 
@@ -617,12 +700,12 @@
                 '<div class="promo-card" style="animation-delay: ' + delay + 'ms;">' +
                     '<div class="promo-card-badge">' +
                         STAR_ICON +
-                        '<span>' + promo.badge + '</span>' +
+                        '<span>' + escapeHtml(promo.badge) + '</span>' +
                     '</div>' +
-                    '<h3 class="promo-card-title">' + promo.title + '</h3>' +
-                    '<p class="promo-card-description">' + promo.description + '</p>' +
+                    '<h3 class="promo-card-title">' + escapeHtml(promo.title) + '</h3>' +
+                    '<p class="promo-card-description">' + escapeHtml(promo.description) + '</p>' +
                     '<div class="promo-card-details">' + detailsHtml + '</div>' +
-                    '<a href="' + promo.ctaLink + '" class="promo-card-cta">' + promo.cta + '</a>' +
+                    '<a href="' + String(promo.ctaLink).replace(/"/g, '&quot;') + '" class="promo-card-cta">' + escapeHtml(promo.cta) + '</a>' +
                 '</div>';
         }
 
@@ -681,7 +764,14 @@
             var region = getRegionById(regionId);
             if (header) header.style.display = '';
             if (headerTitle && region) {
-                headerTitle.textContent = region.name + ' Offers';
+                var hdr = null;
+                if (window.i18n && window.i18n.t) {
+                    hdr = window.i18n.t('offersPage.regionOffersTitle', {
+                        name: regionDisplayName(regionId)
+                    });
+                    if (hdr === 'offersPage.regionOffersTitle') hdr = null;
+                }
+                headerTitle.textContent = hdr != null ? hdr : region.name + ' Offers';
             }
         } else {
             if (header) header.style.display = 'none';
@@ -744,7 +834,7 @@
         var sidebarList = document.getElementById('sidebarCountryList');
         if (sidebarList) {
             sidebarList.addEventListener('click', function (e) {
-                if (getOffersLockCountry()) return;
+                if (isOffersInteractionBlocked()) return;
 
                 var item = e.target.closest('.sidebar-country-item');
                 if (!item) return;
@@ -762,7 +852,7 @@
         var strip = document.getElementById('countryStrip');
         if (strip) {
             strip.addEventListener('click', function (e) {
-                if (getOffersLockCountry()) return;
+                if (isOffersInteractionBlocked()) return;
 
                 var item = e.target.closest('.strip-country-item');
                 if (!item) return;
@@ -780,8 +870,9 @@
         var dropdown = document.getElementById('regionDropdown');
         if (dropdown) {
             dropdown.addEventListener('change', function () {
-                if (getOffersLockCountry()) {
-                    dropdown.value = window.subdomainData.country;
+                var lc = getOffersLockCountry();
+                if (lc) {
+                    dropdown.value = lc;
                     return;
                 }
 
@@ -798,14 +889,25 @@
         var clearBtn = document.getElementById('clearRegion');
         if (clearBtn) {
             clearBtn.addEventListener('click', function () {
-                if (getOffersLockCountry()) return;
+                if (isOffersInteractionBlocked()) return;
                 clearSelection();
             });
         }
 
-        // React to hash changes (e.g. clicking nav dropdown while already on page)
         window.addEventListener('hashchange', function () {
-            if (getOffersLockCountry()) return;
+            if (offerRegionResolutionPending) return;
+            var lock = getOffersLockCountry();
+            if (lock) {
+                var want = getRegionFromURL();
+                if (want && want !== lock) {
+                    history.replaceState(
+                        null,
+                        '',
+                        window.location.pathname + window.location.search + '#' + lock
+                    );
+                }
+                return;
+            }
             var region = getRegionFromURL();
             if (region && region !== selectedRegion) {
                 selectRegion(region);
@@ -860,31 +962,22 @@
         try {
             if (selectedRegion) return;
 
-            var cached = null;
-            try {
-                cached = sessionStorage.getItem('tradertok_offers_geo');
-            } catch (e) {}
-            if (cached) {
-                var cachedRegion = getRegionById(cached);
-                if (cachedRegion && !selectedRegion) {
-                    selectRegion(cached);
-                }
-                return;
-            }
-
-            var countryCode = await fetchVisitorCountryCode();
+            var countryCode =
+                typeof window.TraderTokFetchVisitorIsoCountryCode === 'function'
+                    ? await window.TraderTokFetchVisitorIsoCountryCode()
+                    : await fetchVisitorCountryCode();
             if (!countryCode) return;
 
             var detectedRegion = mapCountryToRegion(countryCode);
             if (!detectedRegion) return;
 
             try {
-                sessionStorage.setItem('tradertok_offers_geo', detectedRegion);
+                sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, detectedRegion);
             } catch (e3) {}
 
-            if (!selectedRegion) {
-                selectRegion(detectedRegion);
-            }
+            selectRegion(detectedRegion);
+            updateOffersLockUI(true);
+            normalizeOffersHashToLock();
         } catch (e) {
             // Fail silently on any error
         }
@@ -902,18 +995,16 @@
     }
 
     function mapCountryToRegion(countryCode) {
-        var code = countryCode.toUpperCase();
-
-        // Direct region matches
+        if (typeof window.TraderTokIsoToOfferPromoRegionSlug === 'function') {
+            return window.TraderTokIsoToOfferPromoRegionSlug(countryCode);
+        }
+        var code = String(countryCode).toUpperCase();
         for (var i = 0; i < REGIONS.length; i++) {
             if (REGIONS[i].code === code) return REGIONS[i].id;
         }
-
-        // LATAM country codes
         if (LATAM_CODES.indexOf(code) !== -1) {
             return 'latam';
         }
-
         return null;
     }
 
@@ -955,7 +1046,34 @@
         if (window.subdomainData && window.subdomainData.country) {
             return window.subdomainData.country;
         }
+        try {
+            var g = sessionStorage.getItem(OFFERS_GEO_SESSION_KEY);
+            if (g && getRegionById(g)) return g;
+        } catch (e) {}
         return null;
+    }
+
+    function isOffersInteractionBlocked() {
+        return !!getOffersLockCountry() || offerRegionResolutionPending;
+    }
+
+    function normalizeOffersHashToLock() {
+        var lock = getOffersLockCountry();
+        if (!lock) return;
+        var want = getRegionFromURL();
+        if (want && want !== lock) {
+            history.replaceState(
+                null,
+                '',
+                window.location.pathname + window.location.search + '#' + lock
+            );
+        } else if (!window.location.hash || window.location.hash === '#') {
+            history.replaceState(
+                null,
+                '',
+                window.location.pathname + window.location.search + '#' + lock
+            );
+        }
     }
 
     function updateOffersLockUI(locked) {
@@ -975,47 +1093,89 @@
         initEventListeners();
 
         if (window.subdomainData && window.subdomainData.country) {
+            try {
+                sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, window.subdomainData.country);
+            } catch (e0) {}
             selectRegion(window.subdomainData.country);
             updateOffersLockUI(true);
+            normalizeOffersHashToLock();
             return;
         }
 
-        var urlRegion = getRegionFromURL();
-        if (urlRegion) {
-            selectRegion(urlRegion);
-            updateOffersLockUI(false);
-            return;
-        }
+        try {
+            var cached = sessionStorage.getItem(OFFERS_GEO_SESSION_KEY);
+            if (cached && getRegionById(cached)) {
+                selectRegion(cached);
+                updateOffersLockUI(true);
+                normalizeOffersHashToLock();
+                return;
+            }
+        } catch (e1) {}
 
         var subdomainRegion = getRegionFromSubdomain();
         if (subdomainRegion) {
+            try {
+                sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, subdomainRegion);
+            } catch (e2) {}
             selectRegion(subdomainRegion);
-            updateOffersLockUI(!!getOffersLockCountry());
+            updateOffersLockUI(true);
+            normalizeOffersHashToLock();
             return;
         }
 
+        offerRegionResolutionPending = true;
         renderPromotions(null);
-        updateOffersLockUI(false);
-        attemptGeoDetection();
+        updateOffersLockUI(true);
+        void attemptGeoDetection().finally(function () {
+            offerRegionResolutionPending = false;
+            if (!getOffersLockCountry()) {
+                updateOffersLockUI(false);
+            }
+        });
+    }
+
+    function scheduleOffersInit() {
+        function go() {
+            init();
+        }
+        if (window.i18n && typeof window.i18n.whenReady === 'function') {
+            window.i18n.whenReady().then(go, go);
+        } else {
+            go();
+        }
     }
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', scheduleOffersInit);
     } else {
-        init();
+        scheduleOffersInit();
     }
 
-    window.addEventListener('languageChanged', function () {
+    function refreshOffersI18n() {
         renderSidebar();
         renderStrip();
         if (selectedRegion) {
+            var headerTitle = document.getElementById('promotionsRegionTitle');
+            if (headerTitle && selectedRegion) {
+                var region = getRegionById(selectedRegion);
+                if (region) {
+                    var hdr = null;
+                    if (window.i18n && window.i18n.t) {
+                        hdr = window.i18n.t('offersPage.regionOffersTitle', {
+                            name: regionDisplayName(selectedRegion)
+                        });
+                        if (hdr === 'offersPage.regionOffersTitle') hdr = null;
+                    }
+                    headerTitle.textContent = hdr != null ? hdr : region.name + ' Offers';
+                }
+            }
             renderPromotions(selectedRegion);
         } else {
             renderPromotions(null);
         }
-        if (window.i18n && typeof window.i18n.applyTranslations === 'function') {
-            window.i18n.applyTranslations();
-        }
-    });
+    }
+
+    window.addEventListener('languageChanged', refreshOffersI18n);
+    window.addEventListener('tradertok:i18n-applied', refreshOffersI18n);
 
 })();

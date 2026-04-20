@@ -7,14 +7,14 @@
   <div class="container">
     <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="page-hero-badge">
-        <span>Partner Program</span>
+        <span data-i18n="ibProgramPage.hero.badge">Partner Program</span>
       </div>
-      <h1 class="doc-page-hero-title">TRADERTOK PARTNER PROGRAM</h1>
-      <p class="doc-page-hero-subtitle">
+      <h1 class="doc-page-hero-title" data-i18n="ibProgramPage.hero.title">TRADERTOK PARTNER PROGRAM</h1>
+      <p class="doc-page-hero-subtitle" data-i18n="ibProgramPage.hero.p1">
         The TraderTok Partner Program is structured to support long-term, performance-driven partnerships
         across global markets through flexible commercial models, operational support, and scalable growth systems.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n="ibProgramPage.hero.p2">
         This page presents the updated global program structure in a static format so the positioning,
         partner value, and operating model are clearly defined before deeper functionality is added.
       </p>
@@ -25,13 +25,13 @@
 <section class="ib-program-page">
   <div class="container">
     <article class="ib-program-card ib-program-card--feature">
-      <h2 class='doc-page-hero-title'>Overview</h2>
-      <p>
+      <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.overview.title">Overview</h2>
+      <p data-i18n="ibProgramPage.overview.p1">
         The TraderTok Partner Program is designed to build long-term, performance-driven partnerships
         across global markets. It focuses on sustainable partner growth, scalable client acquisition,
         consistent revenue generation, and strong operational and marketing support.
       </p>
-      <p>
+      <p data-i18n="ibProgramPage.overview.p2">
         The structure is intentionally flexible and can be tailored based on partner profile, region,
         and business model.
       </p>
@@ -39,16 +39,16 @@
 
     <div class="ib-program-grid">
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Program Positioning</h2>
-        <p>
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.positioning.title">Program Positioning</h2>
+        <p data-i18n="ibProgramPage.positioning.body">
           TraderTok Partner Program is positioned as a structured partnership model focused on stability,
           growth, and long-term value, supported by performance incentives, advanced tools, and regional strategies.
         </p>
       </article>
 
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Partner Benefits</h2>
-        <ul class="ib-program-list">
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.benefits.title">Partner Benefits</h2>
+        <ul class="ib-program-list" data-i18n-html="ibProgramPage.benefits.listHtml">
           <li>Competitive earning opportunities aligned with performance</li>
           <li>Flexible partnership models based on business needs</li>
           <li>Ongoing support for acquisition and retention</li>
@@ -59,11 +59,11 @@
     </div>
 
     <article class="ib-program-card ib-program-card--section">
-      <h2 class='doc-page-hero-title'>Earning Structure</h2>
+      <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.earning.title">Earning Structure</h2>
       <div class="ib-program-grid ib-program-grid--three">
         <article class="ib-program-panel">
-          <h3>Revenue Opportunities</h3>
-          <ul class="ib-program-list">
+          <h3 data-i18n="ibProgramPage.earning.revenueTitle">Revenue Opportunities</h3>
+          <ul class="ib-program-list" data-i18n-html="ibProgramPage.earning.revenueListHtml">
             <li>Revenue share based on client trading activity, up to around $15 to $20 per lot depending on structure and instrument</li>
             <li>Performance-based incentives linked to client acquisition and engagement</li>
             <li>CPA-based rewards in selected regions</li>
@@ -72,8 +72,8 @@
         </article>
 
         <article class="ib-program-panel">
-          <h3>Customized Commercial Logic</h3>
-          <ul class="ib-program-list">
+          <h3 data-i18n="ibProgramPage.earning.commercialTitle">Customized Commercial Logic</h3>
+          <ul class="ib-program-list" data-i18n-html="ibProgramPage.earning.commercialListHtml">
             <li>Partner experience and network</li>
             <li>Client volume and activity</li>
             <li>Geographic market</li>
@@ -82,8 +82,8 @@
         </article>
 
         <article class="ib-program-panel">
-          <h3>Tiered Growth Structure</h3>
-          <ul class="ib-program-list">
+          <h3 data-i18n="ibProgramPage.earning.tieredTitle">Tiered Growth Structure</h3>
+          <ul class="ib-program-list" data-i18n-html="ibProgramPage.earning.tieredListHtml">
             <li>Higher trading volume</li>
             <li>Consistent client activity</li>
             <li>Long-term performance</li>
@@ -92,7 +92,7 @@
         </article>
       </div>
     </article>
-<!-- 
+<!--
     <div class="ib-program-grid">
       <article class="ib-program-card">
         <h2>Partnership Models</h2>
@@ -152,27 +152,27 @@
 
     <div class="ib-program-grid">
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Conversion &amp; AI Support</h2>
-        <ul class="ib-program-list">
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.conversion.title">Conversion &amp; AI Support</h2>
+        <ul class="ib-program-list" data-i18n-html="ibProgramPage.conversion.listHtml">
           <li>AI-powered WhatsApp chatbot for lead qualification</li>
           <li>Automated response systems</li>
           <li>Funnel tracking from lead to deposit to activation</li>
         </ul>
-        <p>
+        <p data-i18n="ibProgramPage.conversion.p1">
           These tools are designed to improve response speed, increase conversion rates, and support
           scalable partner operations.
         </p>
       </article>
 
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Partner System &amp; Portal</h2>
-        <ul class="ib-program-list">
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.portal.title">Partner System &amp; Portal</h2>
+        <ul class="ib-program-list" data-i18n-html="ibProgramPage.portal.listHtml">
           <li>Real-time referral tracking and attribution</li>
           <li>Transparent commission reporting and payout visibility</li>
           <li>Self-service performance dashboards</li>
           <li>Campaign tracking and optimization tools</li>
         </ul>
-        <p>
+        <p data-i18n="ibProgramPage.portal.p1">
           This reduces operational dependency, improves transparency and trust, and enables partners to scale more efficiently.
         </p>
       </article>
@@ -180,8 +180,8 @@
 
     <div class="ib-program-grid">
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Who Should Partner With Us</h2>
-        <ul class="ib-program-list">
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.who.title">Who Should Partner With Us</h2>
+        <ul class="ib-program-list" data-i18n-html="ibProgramPage.who.listHtml">
           <li>Master IB and Retail IB</li>
           <li>Fund managers</li>
           <li>EA or auto-trade developers</li>
@@ -192,8 +192,8 @@
       </article>
 
       <article class="ib-program-card">
-        <h2 class='doc-page-hero-title'>Payments &amp; Operations</h2>
-        <ul class="ib-program-list">
+        <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.payments.title">Payments &amp; Operations</h2>
+        <ul class="ib-program-list" data-i18n-html="ibProgramPage.payments.listHtml">
           <li>Flexible payout structures based on partner agreements</li>
           <li>Daily or periodic payout options</li>
           <li>Operational processes optimized for speed and reliability</li>
@@ -202,8 +202,8 @@
     </div>
 
     <article class="ib-program-card ib-program-card--feature">
-      <h2 class='doc-page-hero-title'>Compliance &amp; Partnership Principle</h2>
-      <ul class="ib-program-list">
+      <h2 class='doc-page-hero-title' data-i18n="ibProgramPage.compliance.title">Compliance &amp; Partnership Principle</h2>
+      <ul class="ib-program-list" data-i18n-html="ibProgramPage.compliance.listHtml">
         <li>No misleading claims or guarantees</li>
         <li>Clear and transparent communication</li>
         <li>Controlled and compliant promotional structures</li>

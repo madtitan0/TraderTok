@@ -10,11 +10,12 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="doc-page-hero-title" style='color: var(--brand-color-start)'>
-        <span data-i18n="privacyPolicyPage.heroTitle">CLIENT SERVICE AGREEMENT</span>
+      <div class="doc-page-hero-title">
+        <span data-i18n="clientServiceAgreementPage.heroTitle" style='color: var(--brand-color-start)'>CLIENT SERVICE AGREEMENT</span>
       </div>
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h2">INTRODUCTION</span>
+      <div data-i18n-html="clientServiceAgreementPage.block01">
+<h1 class="doc-sub">
+        <span>INTRODUCTION</span>
       </h1>
       <p class="doc-page-hero-subtitle">This Client Services Agreement (the <strong>“Agreement”</strong>) governs the
         relationship
@@ -31,9 +32,11 @@
         you have
         read, understood, and accepted this Agreement in its entirety. This Agreement is legally
         binding and forms the basis of your relationship with us.</p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h3">WHEREAS:
+      <div data-i18n-html="clientServiceAgreementPage.block02">
+<h1 class="doc-sub">
+        <span>WHEREAS:
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -67,9 +70,11 @@
         herein, the
         Parties hereby covenant and agree as follows:
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h4">1. COMMUNICATION WITH US
+      <div data-i18n-html="clientServiceAgreementPage.block03">
+<h1 class="doc-sub">
+        <span>1. COMMUNICATION WITH US
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -106,9 +111,11 @@
         legal proceedings, or regulatory inquiries. By entering into this Agreement, you expressly
         consent to the monitoring, recording, and processing of such communications.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h5">2. MEMBERSHIP ELIGIBILITY
+      <div data-i18n-html="clientServiceAgreementPage.block04">
+<h1 class="doc-sub">
+        <span>2. MEMBERSHIP ELIGIBILITY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -132,7 +139,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h6">3. DEFINITIONS – INTEPRETATION
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block05">
+<span>3. DEFINITIONS – INTEPRETATION
         </span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
@@ -229,7 +239,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h7">4. PROVISION OF SERVICES
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block06">
+<span>4. PROVISION OF SERVICES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -290,7 +303,10 @@
 
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h8">5. ACCOUNT OPENING INFORMATION AND REQUIREMENTS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block07">
+<span>5. ACCOUNT OPENING INFORMATION AND REQUIREMENTS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -333,7 +349,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h9">6. GUARANTEES ON BEHALF OF THE CLIENT
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block08">
+<span>6. GUARANTEES ON BEHALF OF THE CLIENT
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">You represent, warrant, and guarantee that all funds provided to the Company for
@@ -372,7 +391,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h10">7. ELECTRONIC TRADING
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block09">
+<span>7. ELECTRONIC TRADING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -486,7 +508,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h11">8. FINANCIAL INFORMATION
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block10">
+<span>8. FINANCIAL INFORMATION
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -529,7 +554,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h12">9. ORDERS – INSTRUCTIONS AND BASIS OF DEALINGS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block11">
+<span>9. ORDERS – INSTRUCTIONS AND BASIS OF DEALINGS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -621,7 +649,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h13">10.CONFIRMATIONS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block12">
+<span>10.CONFIRMATIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -660,7 +691,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h14">11.PRICING
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block13">
+<span>11.PRICING
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -705,7 +739,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h15">12.REFUSAL TO EXECUTE ORDERS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block14">
+<span>12.REFUSAL TO EXECUTE ORDERS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -757,7 +794,10 @@
         these rules, policies, or applicable law.</p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h16">13.CANCELLATION OF TRANSACTIONS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block15">
+<span>13.CANCELLATION OF TRANSACTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -782,7 +822,10 @@
         cancel. </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h17">14.SETTLEMENT OF TRANSACTIONS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block16">
+<span>14.SETTLEMENT OF TRANSACTIONS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -804,7 +847,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h18">15.BONUS AND PROMOTIONS POLICY
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block17">
+<span>15.BONUS AND PROMOTIONS POLICY
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -890,7 +936,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h19">16.CLIENTS FUNDS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block18">
+<span>16.CLIENTS FUNDS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1017,7 +1066,10 @@
         not form part of the assets of the Company in the event of the Client’s insolvency.</p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h20">MINIMUM WITHDRAWAL AMOUNTS
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block19">
+<span>MINIMUM WITHDRAWAL AMOUNTS
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1027,7 +1079,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h21">WITHDRAWAL CHARGES
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block20">
+<span>WITHDRAWAL CHARGES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1045,7 +1100,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h22">17.DORMANT ACCOUNT PROCEDURE
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block21">
+<span>17.DORMANT ACCOUNT PROCEDURE
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1060,7 +1118,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h23">18.COSTS AND CHARGES
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block22">
+<span>18.COSTS AND CHARGES
         </span>
       </h1>
 
@@ -1110,7 +1171,10 @@
       </p>
 
       <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h24">19.COMPANY LIABILITY AND INDEMNITY
+      </div>
+
+      <div data-i18n-html="clientServiceAgreementPage.block23">
+<span>19.COMPANY LIABILITY AND INDEMNITY
         </span>
       </h1>
 
@@ -1145,9 +1209,11 @@
         this Agreement, except in cases of fraud, and that the Company shall not be liable for any
         unexpressed representations, whether negligent or otherwise.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h25">20.DURATION OF THE AGREEMENT AND AMENDMENT THEREOF
+      <div data-i18n-html="clientServiceAgreementPage.block24">
+<h1 class="doc-sub">
+        <span>20.DURATION OF THE AGREEMENT AND AMENDMENT THEREOF
         </span>
       </h1>
 
@@ -1170,9 +1236,11 @@
         Platform, email, or other communication channels. Continued use of the Trading Platform
         following such amendments constitutes acceptance of the updated Agreement.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h26">21.IMPROPER OR ABUSIVE TRADING AND/ OR UNAUTHORISED
+      <div data-i18n-html="clientServiceAgreementPage.block25">
+<h1 class="doc-sub">
+        <span>21.IMPROPER OR ABUSIVE TRADING AND/ OR UNAUTHORISED
           ACTIVITIES
         </span>
       </h1>
@@ -1248,9 +1316,11 @@
         Company has no obligation to advise Yous on actions related to changes in market
         conditions or otherwise, and You agree that you are fully responsible for managing their
         trades and maintaining communication with the Company as necessary.</p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h27">22.CFD TRADING TERMS
+      <div data-i18n-html="clientServiceAgreementPage.block26">
+<h1 class="doc-sub">
+        <span>22.CFD TRADING TERMS
         </span>
       </h1>
 
@@ -1444,9 +1514,11 @@
         and benefits, the Company hold the right to amend these terms and conditions when it feels
         necessary.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h28">23.TERMINATION
+      <div data-i18n-html="clientServiceAgreementPage.block27">
+<h1 class="doc-sub">
+        <span>23.TERMINATION
         </span>
       </h1>
 
@@ -1495,10 +1567,11 @@
         reverse all
         previous Transactions which place the Company’s interests and/or all or any its clients’
         interests at risk before terminating the Agreement.</p>
+      </div>
 
-
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h29">24.EVENTS OF DEFAULT AND RIGHTS ON DEFAULT
+      <div data-i18n-html="clientServiceAgreementPage.block28">
+<h1 class="doc-sub">
+        <span>24.EVENTS OF DEFAULT AND RIGHTS ON DEFAULT
         </span>
       </h1>
 
@@ -1548,9 +1621,11 @@
         </li>
       </ul>
       <p class="doc-page-hero-subtitle"></p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h30">25.ACKNOWLEDGEMENT OF RISKS
+      <div data-i18n-html="clientServiceAgreementPage.block29">
+<h1 class="doc-sub">
+        <span>25.ACKNOWLEDGEMENT OF RISKS
         </span>
       </h1>
 
@@ -1590,9 +1665,11 @@
         individual
         binding Agreement made between you, as the Client and the Company, and is not
         transferable, negotiable or assignable to or with any third party.</p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h31">26.CONFIDENTIAL INFORMATION
+      <div data-i18n-html="clientServiceAgreementPage.block30">
+<h1 class="doc-sub">
+        <span>26.CONFIDENTIAL INFORMATION
         </span>
       </h1>
 
@@ -1614,9 +1691,11 @@
         terms of the “PRIVACY POLICY” that the Company has adopted, publicly available at
         the Company’s website.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h32">27.NOTICES
+      <div data-i18n-html="clientServiceAgreementPage.block31">
+<h1 class="doc-sub">
+        <span>27.NOTICES
         </span>
       </h1>
 
@@ -1631,9 +1710,11 @@
       <p class="doc-page-hero-subtitle">
         The Company reserves the right to specify any other means of communication with you.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h33">28.CONFILICT OF INTEREST
+      <div data-i18n-html="clientServiceAgreementPage.block32">
+<h1 class="doc-sub">
+        <span>28.CONFILICT OF INTEREST
         </span>
       </h1>
 
@@ -1649,9 +1730,11 @@
         Policy”, which was provided to you during the registration process and is uploaded on the
         Company’s official website.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h34">29.GENERAL PROVISIONS
+      <div data-i18n-html="clientServiceAgreementPage.block33">
+<h1 class="doc-sub">
+        <span>29.GENERAL PROVISIONS
         </span>
       </h1>
 
@@ -1699,9 +1782,11 @@
         acts of God, natural disasters, war, terrorism, labor disputes, pandemics, governmental
         actions, or changes in laws or regulations (“Force Majeure Event”).
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h35">30.APPLICABLE LAW, JURISDICTION
+      <div data-i18n-html="clientServiceAgreementPage.block34">
+<h1 class="doc-sub">
+        <span>30.APPLICABLE LAW, JURISDICTION
         </span>
       </h1>
 
@@ -1712,10 +1797,11 @@
         in connection with this Agreement or its subject matter or formation (including noncontractual disputes or
         claims).
       </p>
+      </div>
 
-
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h36">31.DISPUTE RESOLUTION PROVISION
+      <div data-i18n-html="clientServiceAgreementPage.block35">
+<h1 class="doc-sub">
+        <span>31.DISPUTE RESOLUTION PROVISION
         </span>
       </h1>
 
@@ -1751,10 +1837,11 @@
         on the parties to the arbitration and may be made an order of Court at the instance of any
         party to the arbitration.
       </p>
+      </div>
 
-
-      <h1 class="doc-sub">
-        <span data-i18n="clientServiceAgreementPage.h37">32.MISCELLANEOUS
+      <div data-i18n-html="clientServiceAgreementPage.block36">
+<h1 class="doc-sub">
+        <span>32.MISCELLANEOUS
         </span>
       </h1>
 
@@ -1805,6 +1892,8 @@
         shall have become aware in the course of its duties hereunder and each party shall use all
         reasonable endeavours to prevent any such disclosure as aforesaid.
       </p>
+      </div>
+
     </div>
   </div>
 </section>

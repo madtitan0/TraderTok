@@ -1,0 +1,24 @@
+{
+  "name": "whitelabel-tradertok.com-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/mblcrmteam/whitelabel-tradertok.com-mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://bitbucket.org/mblcrmteam/whitelabel-tradertok.com-mobile/issues"
+  },
+  "homepage": "https://bitbucket.org/mblcrmteam/whitelabel-tradertok.com-mobile#readme",
+  "dependencies": {
+    "google-translate-api-x": "file:./google-translate-api-x-10.7.2.tgz"
+  }
+}

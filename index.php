@@ -26,6 +26,38 @@ if (!empty($page)) {
         $get->title = 'Trading Tools & Resources | Pip, Position Size & Risk-Reward Calculators | TraderTok Academy';
         $get->desc = 'Use interactive pip, position size, and risk-reward calculators plus guides, checklists, and Academy links to support your trading education.';
         $get->keyw = 'trading calculators, pip calculator, position size calculator, risk reward calculator, trading resources, TraderTok Academy';
+    } elseif ($page === 'top-instruments') {
+        $get->title = 'Top Instruments & Asset Information | TraderTok';
+        $get->desc = 'Educational overview of selected cryptocurrency and equity instruments on TraderTok: characteristics, market context, and risk considerations.';
+        $get->keyw = 'Bitcoin, Ethereum, stocks, asset information, risk disclosure, TraderTok';
+    } elseif ($page === 'ib-program') {
+        $get->title = 'Partner Program (IB) | TraderTok';
+        $get->desc = 'TraderTok Partner Program: structured partnerships, earning models, AI and portal support, and compliance principles for introducing brokers and partners.';
+        $get->keyw = 'partner program, introducing broker, IB, affiliate, TraderTok';
+    } elseif ($page === 'tradertok-club') {
+        $get->title = 'TraderTok Club | TraderTok';
+        $get->desc = 'TraderTok Club loyalty programme: tiered benefits from Silver to Diamond, premium tools, dedicated support, and member-only opportunities for qualifying clients.';
+        $get->keyw = 'TraderTok Club, loyalty programme, membership tiers, trading benefits, TraderTok';
+    } elseif (in_array($page, [
+        'offers',
+        'offers-promotions',
+        'vn',
+        'th',
+        'ph',
+        'id',
+        'pk',
+        'latam',
+        'na',
+        'ke',
+        'gh',
+        'ng',
+        'za',
+        'tt',
+        'gy',
+    ], true)) {
+        $get->title = 'Offers & Promotions | TraderTok';
+        $get->desc = 'Discover region-specific promotions and exclusive trading opportunities tailored for traders in your area.';
+        $get->keyw = 'trading offers, promotions, bonuses, TraderTok';
     } else {
         $courseSeo = require __DIR__ . '/includes/config/course-seo.php';
         if (isset($courseSeo[$page])) {

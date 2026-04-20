@@ -1,0 +1,77 @@
+"use strict";
+const fs = require("fs");
+const path = require("path");
+
+const flat = {
+  "hero.badge": "TraderTok Club",
+  "hero.title": "WELCOME TO TRADERTOK CLUB",
+  "hero.p1":
+    "TraderTok Club is an exclusive loyalty programme designed to reward and elevate the trading experience of qualifying clients through premium tools, support access, and member-only opportunities.",
+  "hero.p2":
+    "Membership is activated automatically based on account balance, with increasing benefits unlocked as clients move through higher tiers.",
+
+  "overview.eyebrow": "Programme Overview",
+  "overview.h2": "A loyalty structure built to reward growth and engagement",
+  "overview.p1":
+    "The TraderTok Club is available to clients maintaining a minimum balance of $5,000. As account balances grow, members progress through five levels of benefits: Silver, Gold, Platinum, Platinum+, and Diamond.",
+
+  "path.eyebrow": "Membership Path",
+  "path.h2": "Five levels of progression",
+  "tiers.silver": "Silver",
+  "tiers.gold": "Gold",
+  "tiers.platinum": "Platinum",
+  "tiers.platinumPlus": "Platinum+",
+  "tiers.diamond": "Diamond",
+
+  "clubTiers.eyebrow": "Club Tiers",
+  "clubTiers.h2": "Benefits expand as your membership level grows",
+
+  "tierSilver.title": "Silver Tier",
+  "tierSilver.listHtml":
+    "<li>Access to exclusive in-depth market webinars</li><li>Selected partner tools and applications</li><li>Dedicated account manager support</li>",
+
+  "tierGold.title": "Gold Tier",
+  "tierGold.label": "Includes all Silver benefits, plus:",
+  "tierGold.listHtml":
+    "<li>Interest on account balance</li><li>Weekly expert market insights</li><li>WhatsApp access to your account manager during business hours</li>",
+
+  "tierPlatinum.title": "Platinum Tier",
+  "tierPlatinum.label": "Includes all Gold benefits, plus:",
+  "tierPlatinum.listHtml":
+    "<li>Zero withdrawal fees</li><li>Complimentary access to premium digital publications</li><li>Advanced partner platforms for enhanced trading</li>",
+
+  "tierPlatinumPlus.title": "Platinum+ Tier",
+  "tierPlatinumPlus.label": "Includes all Platinum benefits, plus:",
+  "tierPlatinumPlus.listHtml":
+    "<li>Invitations to exclusive events including sports, lifestyle, and networking experiences</li><li>Access to TraderTok Money Black Programme</li><li>TraderTok Loyalty Visa Card</li><li>Premium financial publication subscriptions</li>",
+
+  "tierDiamond.title": "Diamond Tier",
+  "tierDiamond.label": "Our most exclusive level, including all previous benefits plus:",
+  "tierDiamond.listHtml":
+    "<li>Complimentary access to top-tier global publications</li><li>Zero exchange fees</li><li>Priority access to exclusive opportunities and experiences</li>",
+
+  "merch.eyebrow": "Exclusive Merchandise",
+  "merch.h2": "Additional branded member benefits",
+  "merch.p1":
+    "TraderTok Club members may also be eligible for exclusive branded merchandise. Eligibility and availability are based on membership tier.",
+
+  "nextSteps.eyebrow": "Next Steps",
+  "nextSteps.h2": "What happens after membership activation",
+  "nextSteps.listHtml":
+    "<li>Your dedicated account manager will contact you</li><li>You will be guided through the available benefits</li><li>You can explore how to maximize your membership level</li><li>You will be introduced to relevant exclusive opportunities</li>",
+
+  "closing.eyebrow": "A Premium Client Experience",
+  "closing.h2": "Designed to reward loyalty as your journey grows",
+  "closing.p1":
+    "TraderTok Club is intended to give active clients more value, better support access, and enhanced benefits as they continue their journey with the platform. We encourage members to make full use of the tools, services, and opportunities available at their tier.",
+  "closing.signoffHtml": "Warm regards,<br>The TraderTok Team",
+
+  "meta.pageTitle": "TraderTok Club | TraderTok",
+  "meta.pageDescription":
+    "TraderTok Club loyalty programme: tiered benefits from Silver to Diamond, premium tools, dedicated support, and member-only opportunities for qualifying clients.",
+};
+
+const out = path.join(__dirname, "tradertok-club-flat", "en.json");
+fs.mkdirSync(path.dirname(out), { recursive: true });
+fs.writeFileSync(out, JSON.stringify(flat, null, 2) + "\n", "utf8");
+console.log("wrote", out);

@@ -10,20 +10,24 @@
 
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
-      <div class="page-hero-badge">
-        <span data-i18n="amlPolicyPage.h1">ANTI-MONEY LAUNDERING AND KNOW YOUR CLIENT POLICY</span>
+      <div class="doc-page-hero-title">
+        <span data-i18n="amlPolicyPage.heroTitle" style='color: var(--brand-color-start)'>ANTI-MONEY LAUNDERING AND KNOW YOUR CLIENT POLICY</span>
       </div>
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">Purpose</span>
+      <div data-i18n-html="amlPolicyPage.block01">
+<h1 class="doc-sub">
+        <span>Purpose</span>
       </h1>
-      <p class="doc-page-hero-subtitle" data-i18n="privacyPolicyPage.heroSubtitle">
+      <p class="doc-page-hero-subtitle">
         The purpose of this policy is to provide guidance on the Anti-Money Laundering
         and Know Your Client Policy which is followed by Amber Rock Trade Ltd
         hereinafter called ‘’the Company’’ to achieve full compliance with the relevant
         Anti-Money Laundering legislation.
       </p>
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">Legal Framework</span>
+      </div>
+
+      <div data-i18n-html="amlPolicyPage.block02">
+<h1 class="doc-sub">
+        <span>Legal Framework</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         Investment Firms are required to comply with the provisions of the Anti-Money
@@ -67,9 +71,11 @@
         </li>
       </ul>
       <p class="doc-sub"></p>
+      </div>
 
-      <h1 class="doc-sub doc-heading-accent">
-        <span data-i18n="privacyPolicyPage.heroTitle">DEFINITIONS</span>
+      <div data-i18n-html="amlPolicyPage.block03">
+<h1 class="doc-sub doc-heading-accent">
+        <span>DEFINITIONS</span>
       </h1>
 
       <ul class="doc-page-hero-list" style="list-style-type: none; margin-left: 0px">
@@ -83,9 +89,11 @@
         </li>
       </ul>
       <p class="doc-sub"></p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">Policy</span>
+      <div data-i18n-html="amlPolicyPage.block04">
+<h1 class="doc-sub">
+        <span>Policy</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The provisions of the Act have been adopted by the Company, which introduces
@@ -97,9 +105,11 @@
         illegal or unethical activity will be protected from retaliation, and the Company
         prohibits any adverse action against whistleblowers.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">1. CLIENT IDENTIFICATION AND DUE DILIGENCE PROCEDURES
+      <div data-i18n-html="amlPolicyPage.block05">
+<h1 class="doc-sub">
+        <span>1. CLIENT IDENTIFICATION AND DUE DILIGENCE PROCEDURES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -316,9 +326,11 @@
         do not apply to family members who should be treated as ordinary customers, unless
         other risks are apparent, from the point that the PEP leaves office.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">POLITICALLY EXPOSED PERSONS</span>
+      <div data-i18n-html="amlPolicyPage.block06">
+<h1 class="doc-sub">
+        <span>POLITICALLY EXPOSED PERSONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The meaning <i>“politically exposed persons”</i> includes the following natural persons
@@ -452,8 +464,7 @@
         applicable laws and regulations during audits or regulatory inspections.
       </p>
 
-      <p class="doc-page-hero-subtitle" style="font-style: italic;">
-      </p>g. Record keeping procedures
+      <p class="doc-page-hero-subtitle" style="font-style: italic;">g. Record keeping procedures</p>
       <p class="doc-page-hero-subtitle">The Company should keep the following documents and information for use in any
         investigation into, or analysis, of possible money laundering or terrorist financing
         by national authorities:
@@ -492,9 +503,11 @@
       <p class="doc-page-hero-subtitle">Supporting evidence shall also include risk assessments, management approvals,
         and any other internal documentation required to justify client onboarding,
         transaction execution, and monitoring procedures.</p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2. CLIENT ACCOUNT OPENING PROCEDURES</span>
+      <div data-i18n-html="amlPolicyPage.block07">
+<h1 class="doc-sub">
+        <span>2. CLIENT ACCOUNT OPENING PROCEDURES</span>
       </h1>
 
       <p class="doc-page-hero-subtitle">
@@ -521,9 +534,11 @@
         such activity to management and regulatory authorities, and maintaining accurate
         records of KYC, transactions, and compliance actions, as well as provide training to
         staff to promote awareness and a culture of compliance across the organization.</p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2.1 Client Risk Classification</span>
+      <div data-i18n-html="amlPolicyPage.block08">
+<h1 class="doc-sub">
+        <span>2.1 Client Risk Classification</span>
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:disc">
         <li><strong>Low risk customers:</strong> Individuals and entities whose identities and source of wealth can be
@@ -567,9 +582,11 @@
         management framework. All escalations and actions taken must be documented for
         audit and regulatory purposes.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">2.2 Client’s acceptance policy</span>
+      <div data-i18n-html="amlPolicyPage.block09">
+<h1 class="doc-sub">
+        <span>2.2 Client’s acceptance policy</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The customers’ acceptance policy has been prepared after detailed assessment of the
@@ -1235,9 +1252,11 @@
         The review process shall include verification of client information, assessment of
         changes in risk profile, and updating of records as necessary.
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">3. ADDITIONAL MEASURES
+      <div data-i18n-html="amlPolicyPage.block10">
+<h1 class="doc-sub">
+        <span>3. ADDITIONAL MEASURES
         </span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1275,9 +1294,11 @@
       </ul>
       <p class="doc-page-hero-subtitle">
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">4 High Risk and Non-Cooperative Jurisdictions and FATF
+      <div data-i18n-html="amlPolicyPage.block11">
+<h1 class="doc-sub">
+        <span>4 High Risk and Non-Cooperative Jurisdictions and FATF
           Recommendations</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1402,9 +1423,11 @@
       </ul>
       <p class="doc-page-hero-subtitle">
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">5. ANTI-MONEY LAUNDERING COMPLIANCE OFFICER’S
+      <div data-i18n-html="amlPolicyPage.block12">
+<h1 class="doc-sub">
+        <span>5. ANTI-MONEY LAUNDERING COMPLIANCE OFFICER’S
           OBLIGATIONS</span>
       </h1>
       <p class="doc-page-hero-subtitle">
@@ -1445,9 +1468,11 @@
       </ul>
       <p class="doc-page-hero-subtitle">
       </p>
+      </div>
 
-      <h1 class="doc-sub">
-        <span data-i18n="privacyPolicyPage.heroTitle">6. REVIEW OF POLICY</span>
+      <div data-i18n-html="amlPolicyPage.block13">
+<h1 class="doc-sub">
+        <span>6. REVIEW OF POLICY</span>
       </h1>
       <p class="doc-page-hero-subtitle">
         The Company's Anti-Money Laundering (AML) and Know Your Customer (KYC)
@@ -1456,6 +1481,8 @@
         amended policy must be submitted to the Board of
         Directors for feedback and approval.
       </p>
+      </div>
+
     </div>
   </div>
 </section>
