@@ -1,0 +1,576 @@
+{
+  "vietnam": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ใหม่",
+      "description": "เพิ่มเงินทุนเริ่มต้นของคุณเป็นสองเท่าด้วยข้อเสนอต้อนรับสุดพิเศษของเราสำหรับเทรดเดอร์ชาวเวียดนามเปิดบัญชีจริงและรับโบนัส 100% ในการฝากเงินครั้งแรกของคุณ",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "โปรแกรมเงินคืน",
+      "title": "เงินคืนรายสัปดาห์ 5% ของปริมาณการซื้อขาย",
+      "description": "รับรายได้คืนเป็นเปอร์เซ็นต์ของปริมาณการซื้อขายรายสัปดาห์ของคุณโดยอัตโนมัติยิ่งคุณเทรดมากเท่าไหร่คุณก็ยิ่งมีรายได้กลับเข้าบัญชีของคุณมากขึ้นเท่านั้น",
+      "details": [
+        "เงินคืนรายสัปดาห์ 5%",
+        "No cap on earnings",
+        "เติมเงินทุกวันจันทร์",
+        "ตราสารทั้งหมดที่มีสิทธิ์"
+      ],
+      "cta": "Join Program",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Refer a Friend",
+      "title": "รับ $ 50 สำหรับทุกการแนะนำที่ประสบความสำเร็จ",
+      "description": "Invite your friends to trade with TraderTok and receive $50 for each friend who opens and funds a live account. Your friend also gets a bonus.",
+      "details": [
+        "$ 50 ต่อการแนะนำ",
+        "No referral limit",
+        "Friend gets $25 bonus",
+        "Withdrawable profits"
+      ],
+      "cta": "Start Referring",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "thailand": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 75% สำหรับเทรดเดอร์ชาวไทย",
+      "description": "Start trading with extra margin. Thai traders receive a generous 75% bonus on their first deposit to amplify their trading potential.",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $3,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Reduced Spreads",
+      "title": "Spreads from 0.1 Pips on Major Pairs",
+      "description": "เพลิดเพลินไปกับสเปรดที่แน่นเป็นพิเศษในทุกคู่สกุลเงินหลักเทรด EUR/USD, GBP/USD และ USD/JPY ด้วยสเปรดที่ต่ำที่สุดในอุตสาหกรรม",
+      "details": [
+        "From 0.1 pips on majors",
+        "No commission on standard",
+        "พร้อมใช้งานในทุกแพลตฟอร์ม",
+        "Gold & oil included"
+      ],
+      "cta": "Open Account",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Free Signals",
+      "title": "แพ็กเกจสัญญาณการซื้อขายฟรีรายวัน",
+      "description": "Receive professional daily trading signals directly to your device. Our expert analysts deliver actionable trade ideas across forex, commodities, and indices.",
+      "details": [
+        "5 + สัญญาณทุกวัน",
+        "ระดับการเข้าระดับ TP และ SL",
+        "Telegram & email delivery",
+        "ความแม่นยำทางประวัติศาสตร์กว่า 70%"
+      ],
+      "cta": "Get Signals",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "malaysia": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ชาวนิวมาเลเซีย",
+      "description": "เพิ่มเงินทุนการเทรดของคุณเป็นสองเท่าด้วยข้อเสนอต้อนรับสุดพิเศษของเราสำหรับเทรดเดอร์ชาวมาเลเซียฝากเงินเข้าบัญชีของคุณและเริ่มต้นเทรดด้วยมาร์จิ้นเพิ่มเติม 100%",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Islamic Account",
+      "title": "Zero Swap Islamic Trading Account",
+      "description": "Trade in accordance with your principles. Our Sharia-compliant accounts feature zero overnight swap fees on all positions held past market close.",
+      "details": [
+        "Zero swap fees",
+        "No hidden costs",
+        "Full instrument access",
+        "Instant activation"
+      ],
+      "cta": "Open Islamic Account",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "การเทรด ECN",
+      "title": "Spreads from 0.0 Pips on ECN Account",
+      "description": "สัมผัสประสบการณ์การเทรดระดับมืออาชีพด้วยการเข้าถึงตลาดโดยตรงเพลิดเพลินไปกับสเปรดดิบที่ต่ำเป็นพิเศษจาก 0.0 pip ในคู่สกุลเงินหลักด้วยการดำเนินการที่รวดเร็ว",
+      "details": [
+        "From 0.0 pips",
+        "สภาพคล่องเชิงลึก",
+        "การดำเนินการที่รวดเร็ว",
+        "Institutional pricing"
+      ],
+      "cta": "Try ECN Account",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "philippines": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ชาวฟิลิปปินส์",
+      "description": "Kickstart your trading journey with double the capital. Filipino traders receive a 100% match on their first deposit to maximize trading opportunities.",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Trading Competition",
+      "title": "การแข่งขันซื้อขายรายเดือน $ 10,000",
+      "description": "แข่งขันกับเพื่อนเทรดเดอร์เพื่อชิงส่วนแบ่งเงินรางวัลกองกลาง $ 10,000 ต่อเดือนนักแสดงชั้นนำในบัญชีทดลองหรือบัญชีจริงจะได้รับรางวัลเงินสด",
+      "details": [
+        "เงินรางวัลกองกลาง $ 10,000",
+        "Top 10 win prizes",
+        "มีสิทธิ์ทดลองและไลฟ์สด",
+        "Monthly reset"
+      ],
+      "cta": "เข้าร่วมการแข่งขัน",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "ข้อมูลด้านการศึกษาฟรี",
+      "title": "แพ็คเกจการศึกษาการเทรดที่สมบูรณ์",
+      "description": "เข้าใช้ห้องสมุดเพื่อการศึกษาที่ครอบคลุมของเราโดยไม่มีค่าใช้จ่ายรวมถึงหลักสูตรวิดีโอการสัมมนาผ่านเว็บหนังสืออิเล็กทรอนิกส์และเซสชั่นการให้คำปรึกษาสดสำหรับทุกระดับทักษะ",
+      "details": [
+        "บทเรียนวิดีโอกว่า 50 บทเรียน",
+        "Weekly live webinars",
+        "ห้องสมุดหนังสืออิเล็กทรอนิกส์",
+        "Personal mentor access"
+      ],
+      "cta": "Start Learning",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "indonesia": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 50% สำหรับเทรดเดอร์อินโดนีเซีย",
+      "description": "เพิ่มเงินฝากครั้งแรกของคุณด้วยโบนัส 50% เทรดเดอร์ชาวอินโดนีเซียสามารถเริ่มต้นด้วยเงินทุนการเทรดเพิ่มเติมเพื่อสำรวจตลาดทั่วโลก",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $2,500",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Islamic Account",
+      "title": "Swap-Free Islamic Trading Account",
+      "description": "Trade in accordance with Sharia principles. Our Islamic account features zero overnight swap charges on all positions held past market close.",
+      "details": [
+        "Zero swap charges",
+        "No hidden fees",
+        "ตราสารทั้งหมดที่มีอยู่",
+        "Sharia-compliant"
+      ],
+      "cta": "Open Islamic Account",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "เงินคืน",
+      "title": "รับเงินคืน 3% ในทุกการเทรด",
+      "description": "Receive 3% cashback on every trade you execute, regardless of the outcome. Funds are credited directly to your trading account weekly.",
+      "details": [
+        "3% ต่อการซื้อขาย",
+        "Win or lose",
+        "Weekly credit",
+        "No minimum volume"
+      ],
+      "cta": "เปิดใช้งานเงินคืน",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "pakistan": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ชาวปากีสถาน",
+      "description": "เพิ่มพลังการเทรดของคุณเป็นสองเท่าด้วยการจับคู่เงินฝากพิเศษ 100% สำหรับลูกค้าชาวปากีสถานฝากเงินเข้าบัญชีของคุณและเทรดด้วยเงินทุนสองเท่า",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Islamic Account",
+      "title": "Zero Swap Islamic Account",
+      "description": "Trade confidently with our fully Sharia-compliant trading account. Hold positions overnight without any swap or rollover fees applied.",
+      "details": [
+        "Zero swap fees",
+        "Sharia-compliant",
+        "Full instrument access",
+        "การสนับสนุนโดยเฉพาะ"
+      ],
+      "cta": "Open Islamic Account",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Reduced Commission",
+      "title": "Up to 50% Reduced Trading Commission",
+      "description": "เพลิดเพลินไปกับอัตราค่าคอมมิชชั่นที่ต่ำกว่าอย่างมีนัยสำคัญในการซื้อขายทั้งหมดของคุณเทรดเดอร์ปริมาณมากได้รับประโยชน์จากส่วนลดที่ลึกยิ่งขึ้นในบัญชี ECN ของเรา",
+      "details": [
+        "Up to 50% reduction",
+        "บัญชี ECN มีสิทธิ์",
+        "Volume-based tiers",
+        "Instant activation"
+      ],
+      "cta": "Reduce Costs",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "latam": [
+    {
+      "badge": "Bono de Bienvenida",
+      "title": "100% Bonus de Deposito para Nuevos Traders",
+      "description": "Duplica tu capital inicial con nuestra oferta exclusiva de bienvenida para traders latinoamericanos Abre una cuenta y recibe un 100% de bono en tu primer deposito.",
+      "details": [
+        "ฝากเงินขั้นต่ำ $ 100",
+        "Bono สูงสุด $ 5,000",
+        "Valido por 30 dias",
+        "T&C aplican"
+      ],
+      "cta": "Reclamar Oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Referral Program",
+      "title": "รับ $ 75 ต่อการแนะนำหนึ่งครั้งทั่วละตินอเมริกา",
+      "description": "Invite traders from any Latin American country and earn $75 for each successful referral. Build your network and earn unlimited rewards.",
+      "details": [
+        "$ 75 ต่อการแนะนำ",
+        "Unlimited referrals",
+        "Multi-country support",
+        "การรับเงินที่รวดเร็ว"
+      ],
+      "cta": "Start Referring",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Trading Competition",
+      "title": "$ 15,000 LATAM Trading Championship",
+      "description": "แข่งขันในระดับภูมิภาคด้วยเงินรางวัลกองกลาง $ 15,000 เทรดเดอร์จากทุกประเทศในละตินอเมริกามีสิทธิ์เข้าร่วม",
+      "details": [
+        "เงินรางวัลกองกลาง $ 15,000",
+        "Regional leaderboard",
+        "Monthly rounds",
+        "บัญชีทดลองและบัญชีจริง"
+      ],
+      "cta": "เข้าสู่การแข่งขันชิงแชมป์",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "namibia": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 75% สำหรับเทรดเดอร์นามิเบีย",
+      "description": "Start your trading journey with a 75% bonus on your first deposit. Namibian traders can access global markets with enhanced capital.",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $3,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Local Payment Bonus",
+      "title": "โบนัสพิเศษ 10% สำหรับวิธีชำระเงินท้องถิ่น",
+      "description": "Receive an additional 10% bonus when you deposit using local Namibian payment methods. Stack this on top of your welcome bonus for maximum value.",
+      "details": [
+        "โบนัสพิเศษ 10%",
+        "Local bank transfers",
+        "Mobile money accepted",
+        "Instant credit"
+      ],
+      "cta": "ฝากเงินตอนนี้",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "การเข้าถึงการศึกษา",
+      "title": "การศึกษาการซื้อขายระดับพรีเมียมฟรี",
+      "description": "เข้าถึงชุดการศึกษาระดับพรีเมียมที่สมบูรณ์แบบของเราโดยไม่มีค่าใช้จ่ายรวมถึงหลักสูตรเริ่มต้นจนถึงขั้นสูงเครื่องมือวิเคราะห์ตลาดและเซสชั่นการให้คำปรึกษารายสัปดาห์",
+      "details": [
+        "Full course library",
+        "Weekly mentoring",
+        "Market analysis tools",
+        "ใบรับรองการสำเร็จการศึกษา"
+      ],
+      "cta": "Start Learning",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "kenya": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ชาวเคนยา",
+      "description": "เพิ่มเงินทุนของคุณเป็นสองเท่าด้วยการจับคู่ 100% ในการฝากเงินครั้งแรกของคุณเทรดเดอร์ชาวเคนยาสามารถใช้ประโยชน์จากข้อเสนอนี้เพื่อเทรดฟอเร็กซ์โลหะและอื่นๆ",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "M-Pesa Bonus",
+      "title": "โบนัสพิเศษ 15% สำหรับการฝากเงิน M-Pesa",
+      "description": "Fund your account using M-Pesa and receive an extra 15% bonus on every deposit. Fast, convenient, and rewarding for Kenyan traders.",
+      "details": [
+        "รับเพิ่ม 15% สำหรับ M-Pesa",
+        "Instant processing",
+        "No deposit fees",
+        "Stackable with welcome bonus"
+      ],
+      "cta": "ฝากเงินผ่าน M-Pesa",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Live Training",
+      "title": "Free Weekly Live Trading Sessions",
+      "description": "Join our expert analysts for free live trading sessions every week. Watch real-time analysis, learn strategies, and ask questions during market hours.",
+      "details": [
+        "Weekly live sessions",
+        "Real-time analysis",
+        "Interactive Q&A",
+        "Recording access"
+      ],
+      "cta": "Join Sessions",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "ghana": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 50% สำหรับเทรดเดอร์ชาวกานา",
+      "description": "Get a 50% boost on your first deposit. Ghanaian traders can begin their trading journey with additional capital across all account types.",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $2,500",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "โปรแกรมเงินคืน",
+      "title": "เงินคืนรายสัปดาห์ 4% สำหรับทุกการเทรด",
+      "description": "รับเงินคืน 4% จากปริมาณการซื้อขายรายสัปดาห์ของคุณเงินจะเข้าบัญชีของคุณโดยอัตโนมัติทุกเช้าวันจันทร์",
+      "details": [
+        "เงินคืนรายสัปดาห์ 4%",
+        "เครดิตอัตโนมัติ",
+        "No cap on earnings",
+        "ตราสารทั้งหมด"
+      ],
+      "cta": "เปิดใช้งานเงินคืน",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Trading Education",
+      "title": "หลักสูตรการเทรดที่ครอบคลุมฟรี",
+      "description": "Master the markets with our free trading education program designed for Ghanaian traders. Covers fundamentals, technical analysis, and risk management.",
+      "details": [
+        "บทเรียนวิดีโอกว่า 40 บทเรียน",
+        "Practice exercises",
+        "คู่มือที่ดาวน์โหลดได้",
+        "การเข้าถึงชุมชน"
+      ],
+      "cta": "ลงทะเบียนฟรี",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "nigeria": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ชาวไนจีเรีย",
+      "description": "Start strong with a 100% deposit match. Nigerian traders can fund their accounts and trade with double the capital from day one.",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Naira Deposit Bonus",
+      "title": "โบนัสพิเศษ 15% เมื่อฝากเงินกับ Naira",
+      "description": "ฝากเงินในไนราไนจีเรียและรับโบนัสพิเศษ 15% นอกเหนือจากเงินฝากของคุณรองรับการโอนเงินผ่านธนาคารในประเทศและวิธีการชำระเงินยอดนิยมของไนจีเรีย",
+      "details": [
+        "รับเพิ่ม 15% เมื่อฝากเงิน NGN",
+        "Local bank transfers",
+        "Opay & Palmpay accepted",
+        "Instant processing"
+      ],
+      "cta": "ฝากเงินที่ไนร่า",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Free Signals",
+      "title": "Premium Trading Signals at No Cost",
+      "description": "Receive daily professional trading signals delivered via Telegram and email. Covering forex, gold, and indices with clear entry and exit levels.",
+      "details": [
+        "5 + สัญญาณรายวัน",
+        "ฟอเร็กซ์ทองคำและดัชนี",
+        "Telegram delivery",
+        "Performance tracking"
+      ],
+      "cta": "Get Free Signals",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "south-africa": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 75% สำหรับเทรดเดอร์ชาวแอฟริกาใต้",
+      "description": "เพิ่มเงินทุนเริ่มต้นของคุณด้วยโบนัสเงินฝาก 75% เทรดเดอร์ชาวแอฟริกาใต้เพลิดเพลินไปกับสภาพการแข่งขันและพลังการเทรดที่เพิ่มขึ้น",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $3,750",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "ZAR Account",
+      "title": "ZAR-Denominated Account Benefits",
+      "description": "Trade directly in South African Rand with no currency conversion fees. Enjoy local deposits and withdrawals with zero additional charges.",
+      "details": [
+        "ZAR base currency",
+        "No conversion fees",
+        "รองรับการฝากเงินแบบ EFT",
+        "การถอนเงิน ZAR ที่รวดเร็ว"
+      ],
+      "cta": "Open ZAR Account",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Trading Competition",
+      "title": "$ 20,000 South Africa Trading Cup",
+      "description": "แข่งขันเพื่อชิงส่วนแบ่งเงินรางวัลกองกลาง $ 20,000 ใน South Africa Trading Cup รายไตรมาสของเราเปิดให้เทรดเดอร์ที่ใช้ SA ทั้งหมดในบัญชีจริง",
+      "details": [
+        "เงินรางวัลกองกลาง $ 20,000",
+        "Quarterly competition",
+        "Live accounts only",
+        "Top 20 win prizes"
+      ],
+      "cta": "เข้าร่วมการแข่งขัน",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "trinidad-tobago": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 100% สำหรับเทรดเดอร์ T&T",
+      "description": "เพิ่มเงินฝากครั้งแรกของคุณเป็นสองเท่าด้วยข้อเสนอต้อนรับสุดพิเศษของเราสำหรับเทรดเดอร์ชาวตรินิแดดและโตเบโกเข้าถึงตลาดทั่วโลกด้วยเงินทุนการเทรดที่เพิ่มขึ้น",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "แคริบเบียนเทรดเดอร์",
+      "title": "โปรแกรมสมาชิกเทรดเดอร์แคริบเบียน",
+      "description": "Join our exclusive Caribbean Trader program and earn loyalty points on every trade. Redeem points for cash bonuses, reduced spreads, and premium services.",
+      "details": [
+        "รับคะแนนต่อล็อต",
+        "Redeem for cash",
+        "Tiered VIP levels",
+        "สิทธิพิเศษสุดพิเศษ"
+      ],
+      "cta": "Join Program",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Reduced Spreads",
+      "title": "Tight Spreads from 0.2 Pips",
+      "description": "Trade with some of the tightest spreads available in the Caribbean region. Major forex pairs, gold, and indices at ultra-competitive pricing.",
+      "details": [
+        "From 0.2 pips",
+        "Majors & gold",
+        "No requotes",
+        "การดำเนินการที่รวดเร็ว"
+      ],
+      "cta": "Start Trading",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "guyana": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "โบนัสเงินฝาก 75% สำหรับเทรดเดอร์ชาวกียา",
+      "description": "Start with a 75% bonus on your first deposit. Guyanese traders can access world-class trading conditions with boosted starting capital.",
+      "details": [
+        "Min. deposit $50",
+        "Max. bonus $3,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "เสนอข้อเรียกร้อง",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "GYD Deposit Bonus",
+      "title": "พิเศษ 10% สำหรับเงินฝากสกุลเงินดอลลาร์กัวเนีย",
+      "description": "Fund your account in GYD and receive an additional 10% bonus. Supports local bank transfers with quick processing times.",
+      "details": [
+        "รับเพิ่ม 10% สำหรับ GYD",
+        "Local bank support",
+        "Quick processing",
+        "No hidden fees"
+      ],
+      "cta": "ฝากเงินใน GYD",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Personal Manager",
+      "title": "ผู้จัดการบัญชีส่วนบุคคลโดยเฉพาะ",
+      "description": "Receive one-on-one support from a dedicated account manager. Get personalized trading guidance, market insights, and priority assistance.",
+      "details": [
+        "การสนับสนุนแบบตัวต่อตัว",
+        "Trading guidance",
+        "Priority withdrawals",
+        "สายตรง"
+      ],
+      "cta": "Get Your Manager",
+      "ctaLink": "./contact-us"
+    }
+  ]
+}

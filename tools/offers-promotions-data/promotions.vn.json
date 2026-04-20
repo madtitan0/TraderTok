@@ -1,0 +1,576 @@
+{
+  "vietnam": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 100% cho các nhà giao dịch mới",
+      "description": "Nhân đôi số vốn khởi đầu của bạn với ưu đãi chào mừng độc quyền của chúng tôi dành cho các nhà giao dịch Việt Nam. Mở tài khoản trực tiếp và nhận 100% tiền thưởng cho lần nạp tiền đầu tiên của bạn.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Chương trình hoàn tiền",
+      "title": "Hoàn tiền 5% hàng tuần trên khối lượng giao dịch",
+      "description": "Tự động kiếm lại phần trăm khối lượng giao dịch hàng tuần của bạn. Bạn càng giao dịch nhiều, bạn càng kiếm được nhiều tiền vào tài khoản của mình.",
+      "details": [
+        "Hoàn tiền 5% mỗi tuần",
+        "Không giới hạn thu nhập",
+        "Ghi có vào thứ Hai hàng tuần",
+        "Tất cả các công cụ đủ điều kiện"
+      ],
+      "cta": "Tham gia chương trình",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Giới thiệu bạn bè",
+      "title": "Kiếm được $ 50 cho mỗi lượt giới thiệu thành công",
+      "description": "Mời bạn bè của bạn giao dịch với TraderTok và nhận 50 $ cho mỗi người bạn mở và nạp tiền vào tài khoản trực tiếp. Bạn của bạn cũng nhận được tiền thưởng.",
+      "details": [
+        "$ 50 mỗi lượt giới thiệu",
+        "Không có giới hạn giới thiệu",
+        "Bạn bè được thưởng $ 25",
+        "Lợi nhuận có thể rút"
+      ],
+      "cta": "Bắt đầu giới thiệu",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "thailand": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 75% cho các nhà giao dịch Thái Lan",
+      "description": "Bắt đầu giao dịch với ký quỹ bổ sung. Các nhà giao dịch Thái Lan nhận được 75% tiền thưởng hào phóng cho khoản tiền gửi đầu tiên của họ để khuếch đại tiềm năng giao dịch của họ.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 3.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Chênh lệch giảm",
+      "title": "Chênh lệch từ 0,1 pip cho các cặp chính",
+      "description": "Tận hưởng mức chênh lệch cực thấp trên tất cả các cặp tiền tệ chính. Giao dịch EUR/USD, GBP/USD và USD/JPY với một số mức chênh lệch thấp nhất trong ngành.",
+      "details": [
+        "Từ 0,1 pip cho các cặp tiền tệ chính",
+        "Không có hoa hồng theo tiêu chuẩn",
+        "Có sẵn trên tất cả các nền tảng",
+        "Đã bao gồm vàng & dầu"
+      ],
+      "cta": "Mở tài khoản",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tín hiệu miễn phí",
+      "title": "Gói tín hiệu giao dịch miễn phí hàng ngày",
+      "description": "Nhận tín hiệu giao dịch chuyên nghiệp hàng ngày trực tiếp vào thiết bị của bạn. Các chuyên gia phân tích của chúng tôi cung cấp các ý tưởng giao dịch khả thi trên ngoại hối, hàng hóa và chỉ số.",
+      "details": [
+        "Hơn 5 tín hiệu mỗi ngày",
+        "Cấp độ đầu vào, TP & SL",
+        "Gửi điện tín & email",
+        "70%+ độ chính xác lịch sử"
+      ],
+      "cta": "Nhận Tín hiệu từ",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "malaysia": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 100% cho các nhà giao dịch Malaysia mới",
+      "description": "Nhân đôi số vốn giao dịch của bạn với ưu đãi chào mừng độc quyền của chúng tôi dành cho các nhà giao dịch Malaysia. Nạp tiền vào tài khoản của bạn và bắt đầu giao dịch với mức ký quỹ bổ sung 100%.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tài khoản Islamic",
+      "title": "Tài khoản giao dịch Hồi giáo Zero Swap",
+      "description": "Giao dịch theo nguyên tắc của bạn. Các tài khoản tuân thủ luật Sharia của chúng tôi không tính phí qua đêm cho tất cả các vị thế đã đóng trong quá khứ trên thị trường.",
+      "details": [
+        "Không mất phí qua đêm",
+        "Chi phí ẩn",
+        "Toàn quyền sử dụng thiết bị",
+        "Kích hoạt tức thì"
+      ],
+      "cta": "Tài khoản Islamic",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Giao dịch ECN",
+      "title": "Chênh lệch từ 0,0 pip trên tài khoản ECN",
+      "description": "Trải nghiệm giao dịch cấp chuyên nghiệp với khả năng tiếp cận thị trường trực tiếp. Tận hưởng mức chênh lệch thô cực thấp từ 0,0 pip trên các cặp chính với tốc độ khớp lệnh nhanh.",
+      "details": [
+        "Từ 0,0 pip",
+        "Thanh khoản tốt",
+        "Khớp lệnh nhanh",
+        "Định giá theo thể chế"
+      ],
+      "cta": "Dùng thử tài khoản ECN",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "philippines": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 100% cho Nhà giao dịch Philippines",
+      "description": "Bắt đầu hành trình giao dịch của bạn với số vốn gấp đôi. Các nhà giao dịch Philippines nhận được kết quả khớp 100% trong lần nạp tiền đầu tiên để tối đa hóa cơ hội giao dịch.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuộc thi giao dịch",
+      "title": "Cuộc thi giao dịch hàng tháng trị giá 10.000 $",
+      "description": "Cạnh tranh với các nhà giao dịch khác để giành một phần trong tổng giải thưởng 10.000 $ hàng tháng. Những người biểu diễn hàng đầu trên tài khoản demo hoặc tài khoản trực tiếp giành được giải thưởng tiền mặt.",
+      "details": [
+        "Tổng giải thưởng 10.000 $",
+        "Top 10 giải thưởng",
+        "Đủ điều kiện dùng thử & trực tiếp",
+        "Đặt lại hàng tháng"
+      ],
+      "cta": "Tham gia cuộc thi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Giáo dục miễn phí",
+      "title": "Gói đào tạo giao dịch hoàn chỉnh",
+      "description": "Truy cập thư viện giáo dục toàn diện của chúng tôi miễn phí. Bao gồm các khóa học video, hội thảo trên web, sách điện tử và các buổi cố vấn trực tiếp cho tất cả các cấp độ kỹ năng.",
+      "details": [
+        "Hơn 50 bài học qua video",
+        "Hội thảo trực tuyến hàng tuần",
+        "Thư viện sách điện tử",
+        "Quyền truy cập cố vấn cá nhân"
+      ],
+      "cta": "Bắt đầu học",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "indonesia": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 50% cho Nhà giao dịch Indonesia",
+      "description": "Tăng khoản tiền nạp đầu tiên của bạn với 50% tiền thưởng. Các nhà giao dịch Indonesia có thể bắt đầu với số vốn giao dịch bổ sung để khám phá thị trường toàn cầu.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 2.500",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tài khoản Islamic",
+      "title": "Tài khoản giao dịch Hồi giáo miễn phí qua đêm",
+      "description": "Giao dịch theo nguyên tắc Sharia. Tài khoản Hồi giáo của chúng tôi không tính phí qua đêm cho tất cả các vị thế đóng trong quá khứ trên thị trường.",
+      "details": [
+        "Không tính phí qua đêm",
+        "Không có phí ẩn",
+        "Tất cả các công cụ có sẵn",
+        "Tuân thủ luật Sharia"
+      ],
+      "cta": "Tài khoản Islamic",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Hoàn tiền",
+      "title": "Hoàn tiền 3% trên mỗi giao dịch",
+      "description": "Nhận 3% tiền hoàn lại cho mỗi giao dịch bạn thực hiện, bất kể kết quả ra sao. Tiền được ghi có trực tiếp vào tài khoản giao dịch của bạn hàng tuần.",
+      "details": [
+        "3% mỗi giao dịch",
+        "Thắng hay bại.",
+        "Tín dụng hàng tuần",
+        "Không có khối lượng tối thiểu"
+      ],
+      "cta": "Kích hoạt tính năng hoàn tiền",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "pakistan": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 100% cho Nhà giao dịch Pakistan",
+      "description": "Nhân đôi sức mạnh giao dịch của bạn với khoản tiền gửi 100% phù hợp độc quyền của chúng tôi dành cho khách hàng Pakistan. Nạp tiền vào tài khoản của bạn và giao dịch với số vốn gấp đôi.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tài khoản Islamic",
+      "title": "Tài khoản Hồi giáo Zero Swap",
+      "description": "Tự tin giao dịch với tài khoản giao dịch hoàn toàn tuân thủ luật Sharia của chúng tôi. Giữ các vị thế qua đêm mà không áp dụng phí qua đêm hoặc phí qua đêm.",
+      "details": [
+        "Không mất phí qua đêm",
+        "Tuân thủ luật Sharia",
+        "Toàn quyền sử dụng thiết bị",
+        "Hỗ Trợ Tận Tình"
+      ],
+      "cta": "Tài khoản Islamic",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Hoa hồng giảm",
+      "title": "Hoa hồng giao dịch giảm tới 50%",
+      "description": "Tận hưởng tỷ lệ hoa hồng thấp hơn đáng kể trên tất cả các giao dịch của bạn. Các nhà giao dịch khối lượng lớn được hưởng lợi từ các khoản chiết khấu thậm chí còn cao hơn trên tài khoản ECN của chúng tôi.",
+      "details": [
+        "Giảm tới 50%",
+        "Tài khoản ECN đủ điều kiện",
+        "Cấp độ dựa trên khối lượng",
+        "Kích hoạt tức thì"
+      ],
+      "cta": "giảm chi phí",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "latam": [
+    {
+      "badge": "Bono de Bienvenida",
+      "title": "100% Bonus de Deposito para Nhà giao dịch Nuevos",
+      "description": "Duplica tu capital inicial con nuestra oferta exclusiva de bienvenida para traders latinoamericanos. Abre una cuenta y recibe un 100% de bono en tu primer deposito.",
+      "details": [
+        "Nạp tiền tối thiểu $ 100",
+        "Bono max. $ 5.000",
+        "Valido por 30 dias",
+        "T&C aplican"
+      ],
+      "cta": "Reclamar Oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Chương trình Giới thiệu",
+      "title": "Kiếm 75 $ cho mỗi lượt giới thiệu trên khắp châu Mỹ Latinh",
+      "description": "Mời các nhà giao dịch từ bất kỳ quốc gia Mỹ Latinh nào và kiếm được 75 $ cho mỗi lượt giới thiệu thành công. Xây dựng mạng lưới của bạn và kiếm phần thưởng không giới hạn.",
+      "details": [
+        "75 $ mỗi lượt giới thiệu",
+        "Giới thiệu không giới hạn",
+        "Hỗ trợ đa quốc gia",
+        "Trả thưởng nhanh chóng"
+      ],
+      "cta": "Bắt đầu giới thiệu",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuộc thi giao dịch",
+      "title": "Giải vô địch giao dịch LATAM $ 15.000",
+      "description": "Cạnh tranh trong giải vô địch giao dịch toàn khu vực với tổng giải thưởng 15.000 $. Nhà giao dịch từ tất cả các quốc gia Mỹ Latinh đủ điều kiện tham gia.",
+      "details": [
+        "Tổng giải thưởng 15.000 $",
+        "Bảng xếp hạng khu vực",
+        "Vòng hàng tháng",
+        "Tài khoản demo & tài khoản thực"
+      ],
+      "cta": "Tham gia Giải vô địch",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "namibia": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 75% cho các nhà giao dịch Namibia",
+      "description": "Bắt đầu hành trình giao dịch của bạn với 75% tiền thưởng cho lần nạp tiền đầu tiên của bạn. Các nhà giao dịch Namibia có thể tiếp cận thị trường toàn cầu với nguồn vốn tăng cường.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 3.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Thưởng thanh toán tại địa phương",
+      "title": "Thêm 10% tiền thưởng trên phương thức thanh toán địa phương",
+      "description": "Nhận thêm 10% tiền thưởng khi bạn nạp tiền bằng phương thức thanh toán Namibia địa phương. Xếp điều này lên trên tiền thưởng chào mừng của bạn để có giá trị tối đa.",
+      "details": [
+        "Thưởng thêm 10%",
+        "Chuyển khoản ngân hàng địa phương",
+        "Đã chấp nhận tiền di động",
+        "Tín dụng tức thì"
+      ],
+      "cta": "Nạp tiền Ngay",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tiếp cận giáo dục",
+      "title": "Tài liệu hướng dẫn giao dịch cao cấp miễn phí",
+      "description": "Truy cập bộ giáo dục cao cấp hoàn chỉnh của chúng tôi miễn phí. Bao gồm các khóa học nâng cao cho người mới bắt đầu, các công cụ phân tích thị trường và các buổi cố vấn hàng tuần.",
+      "details": [
+        "Thư viện toàn bộ khóa học",
+        "Cố vấn hàng tuần",
+        "Công cụ phân tích thị trường",
+        "Giấy chứng nhận hoàn thành"
+      ],
+      "cta": "Bắt đầu học",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "kenya": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 100% cho Nhà giao dịch Kenya",
+      "description": "Nhân đôi số vốn của bạn với khoản tiền nạp đầu tiên khớp 100%. Các nhà giao dịch Kenya có thể tận dụng ưu đãi này để giao dịch ngoại hối, kim loại và hơn thế nữa.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Thưởng M-Pesa",
+      "title": "Thưởng thêm 15% khi nạp tiền qua M-Pesa",
+      "description": "Nạp tiền vào tài khoản của bạn bằng M-Pesa và nhận thêm 15% tiền thưởng cho mỗi lần nạp tiền. Nhanh chóng, thuận tiện và bổ ích cho các nhà giao dịch Kenya.",
+      "details": [
+        "Thêm 15% trên M-Pesa",
+        "Xử lý tức thì",
+        "Không có phí nạp tiền",
+        "Có thể xếp chồng lên nhau với tiền thưởng chào mừng"
+      ],
+      "cta": "Nạp tiền qua M-Pesa",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "KHÓA ĐÀO TẠO TRỰC TIẾP",
+      "title": "Phiên giao dịch trực tiếp hàng tuần miễn phí",
+      "description": "Tham gia cùng các chuyên gia phân tích của chúng tôi để có các phiên giao dịch trực tiếp miễn phí mỗi tuần. Xem phân tích theo thời gian thực, tìm hiểu các chiến lược và đặt câu hỏi trong giờ giao dịch.",
+      "details": [
+        "Các buổi phát trực tiếp hàng tuần",
+        "Phân tích thời gian thực",
+        "Hỏi đáp tương tác",
+        "Truy cập ghi âm"
+      ],
+      "cta": "Tham gia phiên",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "ghana": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 50% cho Nhà giao dịch Ghana",
+      "description": "Nhận thêm 50% cho khoản tiền nạp đầu tiên của bạn. Các nhà giao dịch Ghana có thể bắt đầu hành trình giao dịch của mình với số vốn bổ sung trên tất cả các loại tài khoản.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 2.500",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Chương trình hoàn tiền",
+      "title": "Hoàn tiền 4% hàng tuần cho tất cả các giao dịch",
+      "description": "Kiếm 4% tiền hoàn lại trên khối lượng giao dịch hàng tuần của bạn. Tiền sẽ tự động được ghi có vào tài khoản của bạn vào mỗi sáng thứ Hai.",
+      "details": [
+        "Hoàn tiền 4% mỗi tuần",
+        "Tín dụng tự động",
+        "Không giới hạn thu nhập",
+        "Tất cả các công cụ"
+      ],
+      "cta": "Kích hoạt tính năng hoàn tiền",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Trading-Education",
+      "title": "Khóa học giao dịch toàn diện miễn phí",
+      "description": "Nắm vững thị trường với chương trình đào tạo giao dịch miễn phí của chúng tôi được thiết kế cho các nhà giao dịch Ghana. Bao gồm các nguyên tắc cơ bản, phân tích kỹ thuật và quản lý rủi ro.",
+      "details": [
+        "Hơn 40 bài học qua video",
+        "Practice Exercises",
+        "Hướng dẫn có thể tải xuống",
+        "Tiếp cận cộng đồng"
+      ],
+      "cta": "Đăng ký miễn phí",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "nigeria": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 100% cho Nhà giao dịch Nigeria",
+      "description": "Bắt đầu mạnh mẽ với khoản tiền nạp 100%. Các nhà giao dịch Nigeria có thể nạp tiền vào tài khoản của họ và giao dịch với số vốn gấp đôi ngay từ ngày đầu tiên.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tiền thưởng nạp tiền Naira",
+      "title": "Thêm 15% tiền thưởng cho tiền gửi Naira",
+      "description": "Nạp tiền vào Naira Nigeria và nhận thêm 15% tiền thưởng ngoài khoản tiền nạp của bạn. Hỗ trợ chuyển khoản ngân hàng địa phương và các phương thức thanh toán phổ biến của Nigeria.",
+      "details": [
+        "Thêm 15% trên tiền gửi NGN",
+        "Chuyển khoản ngân hàng địa phương",
+        "Opay & Palmpay được chấp nhận",
+        "Xử lý tức thì"
+      ],
+      "cta": "Tiền gửi tại Naira",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tín hiệu miễn phí",
+      "title": "Tín hiệu giao dịch cao cấp miễn phí",
+      "description": "Nhận tín hiệu giao dịch chuyên nghiệp hàng ngày được gửi qua Telegram và email. Bao gồm ngoại hối, vàng và các chỉ số với mức vào và thoát rõ ràng.",
+      "details": [
+        "Hơn 5 tín hiệu hàng ngày",
+        "Ngoại hối, vàng & chỉ số",
+        "Giao hàng qua điện tín",
+        "Theo dõi hiệu suất"
+      ],
+      "cta": "Nhận tín hiệu miễn phí",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "south-africa": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 75% cho các nhà giao dịch Nam Phi",
+      "description": "Khuếch đại số vốn khởi điểm của bạn với tiền thưởng nạp tiền 75%. Các nhà giao dịch Nam Phi được hưởng các điều kiện cạnh tranh và tăng cường sức mạnh giao dịch.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 3.750",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Tài khoản ZAR",
+      "title": "Lợi ích tài khoản được chỉ định bởi ZAR",
+      "description": "Giao dịch trực tiếp bằng đồng Rand của Nam Phi mà không mất phí chuyển đổi tiền tệ. Nạp và rút tiền tại địa phương mà không mất thêm phí.",
+      "details": [
+        "Đơn vị tiền cơ bản",
+        "Không có phí chuyển đổi",
+        "Hỗ trợ nạp EFT",
+        "Rút tiền ZAR nhanh chóng"
+      ],
+      "cta": "Mở tài khoản ZAR",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuộc thi giao dịch",
+      "title": "Cúp giao dịch Nam Phi 20.000 $",
+      "description": "Cạnh tranh để giành phần thưởng 20.000 $ trong Cúp giao dịch Nam Phi hàng quý của chúng tôi. Dành cho tất cả các nhà giao dịch dựa trên SA trên tài khoản trực tiếp.",
+      "details": [
+        "Tổng giải thưởng 20.000 $",
+        "Cuộc thi hàng quý",
+        "Chỉ tài khoản Live",
+        "20 giải thưởng hàng đầu"
+      ],
+      "cta": "Tham gia cuộc thi",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "trinidad-tobago": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng Nạp tiền 100% cho Nhà giao dịch T&T",
+      "description": "Nhân đôi số tiền nạp đầu tiên của bạn với ưu đãi chào mừng độc quyền của chúng tôi dành cho các nhà giao dịch Trinidad & Tobago. Tiếp cận thị trường toàn cầu với nguồn vốn giao dịch tăng cường.",
+      "details": [
+        "Tiền nạp tối thiểu $ 100",
+        "Tiền thưởng tối đa $ 5.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Nhà giao dịch Caribe",
+      "title": "Chương trình khách hàng thân thiết của nhà giao dịch Caribbean",
+      "description": "Tham gia chương trình Nhà giao dịch Caribê độc quyền của chúng tôi và kiếm điểm khách hàng thân thiết trên mỗi giao dịch. Đổi điểm lấy tiền thưởng bằng tiền mặt, giảm chênh lệch và các dịch vụ cao cấp.",
+      "details": [
+        "Tích lũy điểm cho mỗi lot",
+        "Đổi lấy tiền mặt",
+        "Cấp độ VIP theo hạng",
+        "Ưu đãi đặc biệt độc quyền"
+      ],
+      "cta": "Tham gia chương trình",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Chênh lệch giảm",
+      "title": "Chênh lệch thấp từ 0,2 pip",
+      "description": "Giao dịch với một số mức chênh lệch thấp nhất hiện có ở khu vực Caribê. Các cặp ngoại hối, vàng và chỉ số chính với mức giá cực kỳ cạnh tranh.",
+      "details": [
+        "Từ 0,2 pip",
+        "Chuyên ngành & vàng",
+        "Không có requotes",
+        "Khớp lệnh nhanh"
+      ],
+      "cta": "Bắt đầu giao dịch",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "guyana": [
+    {
+      "badge": "Tiền thưởng chào mừng",
+      "title": "Tiền thưởng nạp tiền 75% cho các nhà giao dịch Guyana",
+      "description": "Bắt đầu với 75% tiền thưởng cho lần nạp tiền đầu tiên của bạn. Các nhà giao dịch Guyana có thể tiếp cận các điều kiện giao dịch đẳng cấp thế giới với nguồn vốn khởi đầu được tăng cường.",
+      "details": [
+        "Tiền nạp tối thiểu $ 50",
+        "Tiền thưởng tối đa $ 3.000",
+        "Có giá trị trong 30 ngày",
+        "Áp dụng điều khoản và điều kiện"
+      ],
+      "cta": "Nhận Ưu đãi",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Thưởng tiền gửi",
+      "title": "Thêm 10% trên Tiền gửi Đô la Guyana",
+      "description": "Nạp tiền vào tài khoản của bạn trong GYD và nhận thêm 10% tiền thưởng. Hỗ trợ chuyển khoản ngân hàng địa phương với thời gian xử lý nhanh chóng.",
+      "details": [
+        "Thêm 10% trên GYD",
+        "Hỗ trợ ngân hàng địa phương",
+        "Xử lý nhanh",
+        "Không có phí ẩn"
+      ],
+      "cta": "Nạp tiền vào GYD",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Quản lý cá nhân",
+      "title": "Trình quản lý tài khoản cá nhân chuyên dụng",
+      "description": "Nhận hỗ trợ trực tiếp từ một người quản lý tài khoản chuyên dụng. Nhận hướng dẫn giao dịch được cá nhân hóa, thông tin chi tiết về thị trường và hỗ trợ ưu tiên.",
+      "details": [
+        "Hỗ trợ 1: 1",
+        "Hướng dẫn giao dịch",
+        "Rút tiền ưu tiên",
+        "Điện thoại Trực tiếp:"
+      ],
+      "cta": "Tìm người quản lý của bạn",
+      "ctaLink": "./contact-us"
+    }
+  ]
+}

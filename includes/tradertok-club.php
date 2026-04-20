@@ -7,14 +7,14 @@
   <div class="container">
     <div class="page-hero-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="page-hero-badge">
-        <span>TraderTok Club</span>
+        <span data-i18n="tradertokClubPage.hero.badge">TraderTok Club</span>
       </div>
-      <h1 class="doc-page-hero-title">WELCOME TO TRADERTOK CLUB</h1>
-      <p class="doc-page-hero-subtitle">
+      <h1 class="doc-page-hero-title" data-i18n="tradertokClubPage.hero.title">WELCOME TO TRADERTOK CLUB</h1>
+      <p class="doc-page-hero-subtitle" data-i18n="tradertokClubPage.hero.p1">
         TraderTok Club is an exclusive loyalty programme designed to reward and elevate the trading experience
         of qualifying clients through premium tools, support access, and member-only opportunities.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n="tradertokClubPage.hero.p2">
         Membership is activated automatically based on account balance, with increasing benefits unlocked as
         clients move through higher tiers.
       </p>
@@ -26,9 +26,9 @@
   <div class="container">
     <div class="club-overview-grid">
       <article class="club-card club-card--primary">
-        <div class="doc-page-hero-title">Programme Overview</div>
-        <h2>A loyalty structure built to reward growth and engagement</h2>
-        <p>
+        <div class="doc-page-hero-title" data-i18n="tradertokClubPage.overview.eyebrow">Programme Overview</div>
+        <h2 data-i18n="tradertokClubPage.overview.h2">A loyalty structure built to reward growth and engagement</h2>
+        <p data-i18n="tradertokClubPage.overview.p1">
           The TraderTok Club is available to clients maintaining a minimum balance of $5,000. As account
           balances grow, members progress through five levels of benefits: Silver, Gold, Platinum,
           Platinum+, and Diamond.
@@ -36,25 +36,25 @@
       </article>
 
       <article class="club-card">
-        <div class="doc-page-hero-title">Membership Path</div>
-        <h2>Five levels of progression</h2>
+        <div class="doc-page-hero-title" data-i18n="tradertokClubPage.path.eyebrow">Membership Path</div>
+        <h2 data-i18n="tradertokClubPage.path.h2">Five levels of progression</h2>
         <div class="club-tier-flow">
-          <span>Silver</span>
-          <span>Gold</span>
-          <span>Platinum</span>
-          <span>Platinum+</span>
-          <span>Diamond</span>
+          <span data-i18n="tradertokClubPage.tiers.silver">Silver</span>
+          <span data-i18n="tradertokClubPage.tiers.gold">Gold</span>
+          <span data-i18n="tradertokClubPage.tiers.platinum">Platinum</span>
+          <span data-i18n="tradertokClubPage.tiers.platinumPlus">Platinum+</span>
+          <span data-i18n="tradertokClubPage.tiers.diamond">Diamond</span>
         </div>
       </article>
     </div>
 
     <article class="club-section-card">
-      <div class="doc-page-hero-title">Club Tiers</div>
-      <h2>Benefits expand as your membership level grows</h2>
+      <div class="doc-page-hero-title" data-i18n="tradertokClubPage.clubTiers.eyebrow">Club Tiers</div>
+      <h2 data-i18n="tradertokClubPage.clubTiers.h2">Benefits expand as your membership level grows</h2>
       <div class="club-tier-grid">
         <article class="club-tier-card">
-          <h3>Silver Tier</h3>
-          <ul class="club-list">
+          <h3 data-i18n="tradertokClubPage.tierSilver.title">Silver Tier</h3>
+          <ul class="club-list" data-i18n-html="tradertokClubPage.tierSilver.listHtml">
             <li>Access to exclusive in-depth market webinars</li>
             <li>Selected partner tools and applications</li>
             <li>Dedicated account manager support</li>
@@ -62,9 +62,9 @@
         </article>
 
         <article class="club-tier-card">
-          <h3>Gold Tier</h3>
-          <p class="club-tier-label">Includes all Silver benefits, plus:</p>
-          <ul class="club-list">
+          <h3 data-i18n="tradertokClubPage.tierGold.title">Gold Tier</h3>
+          <p class="club-tier-label" data-i18n="tradertokClubPage.tierGold.label">Includes all Silver benefits, plus:</p>
+          <ul class="club-list" data-i18n-html="tradertokClubPage.tierGold.listHtml">
             <li>Interest on account balance</li>
             <li>Weekly expert market insights</li>
             <li>WhatsApp access to your account manager during business hours</li>
@@ -72,9 +72,9 @@
         </article>
 
         <article class="club-tier-card">
-          <h3>Platinum Tier</h3>
-          <p class="club-tier-label">Includes all Gold benefits, plus:</p>
-          <ul class="club-list">
+          <h3 data-i18n="tradertokClubPage.tierPlatinum.title">Platinum Tier</h3>
+          <p class="club-tier-label" data-i18n="tradertokClubPage.tierPlatinum.label">Includes all Gold benefits, plus:</p>
+          <ul class="club-list" data-i18n-html="tradertokClubPage.tierPlatinum.listHtml">
             <li>Zero withdrawal fees</li>
             <li>Complimentary access to premium digital publications</li>
             <li>Advanced partner platforms for enhanced trading</li>
@@ -82,9 +82,9 @@
         </article>
 
         <article class="club-tier-card">
-          <h3>Platinum+ Tier</h3>
-          <p class="club-tier-label">Includes all Platinum benefits, plus:</p>
-          <ul class="club-list">
+          <h3 data-i18n="tradertokClubPage.tierPlatinumPlus.title">Platinum+ Tier</h3>
+          <p class="club-tier-label" data-i18n="tradertokClubPage.tierPlatinumPlus.label">Includes all Platinum benefits, plus:</p>
+          <ul class="club-list" data-i18n-html="tradertokClubPage.tierPlatinumPlus.listHtml">
             <li>Invitations to exclusive events including sports, lifestyle, and networking experiences</li>
             <li>Access to TraderTok Money Black Programme</li>
             <li>TraderTok Loyalty Visa Card</li>
@@ -93,9 +93,9 @@
         </article>
 
         <article class="club-tier-card club-tier-card--diamond">
-          <h3>Diamond Tier</h3>
-          <p class="club-tier-label">Our most exclusive level, including all previous benefits plus:</p>
-          <ul class="club-list">
+          <h3 data-i18n="tradertokClubPage.tierDiamond.title">Diamond Tier</h3>
+          <p class="club-tier-label" data-i18n="tradertokClubPage.tierDiamond.label">Our most exclusive level, including all previous benefits plus:</p>
+          <ul class="club-list" data-i18n-html="tradertokClubPage.tierDiamond.listHtml">
             <li>Complimentary access to top-tier global publications</li>
             <li>Zero exchange fees</li>
             <li>Priority access to exclusive opportunities and experiences</li>
@@ -106,9 +106,9 @@
 
     <div class="club-detail-grid">
       <article class="club-card">
-        <div class="doc-page-hero-title">Exclusive Merchandise</div>
-        <h2>Additional branded member benefits</h2>
-        <p>
+        <div class="doc-page-hero-title" data-i18n="tradertokClubPage.merch.eyebrow">Exclusive Merchandise</div>
+        <h2 data-i18n="tradertokClubPage.merch.h2">Additional branded member benefits</h2>
+        <p data-i18n="tradertokClubPage.merch.p1">
           TraderTok Club members may also be eligible for exclusive branded merchandise. Eligibility and
           availability are based on membership tier.
         </p>
@@ -119,9 +119,9 @@
       </article>
 
       <article class="club-card">
-        <div class="doc-page-hero-title">Next Steps</div>
-        <h2>What happens after membership activation</h2>
-        <ul class="club-list">
+        <div class="doc-page-hero-title" data-i18n="tradertokClubPage.nextSteps.eyebrow">Next Steps</div>
+        <h2 data-i18n="tradertokClubPage.nextSteps.h2">What happens after membership activation</h2>
+        <ul class="club-list" data-i18n-html="tradertokClubPage.nextSteps.listHtml">
           <li>Your dedicated account manager will contact you</li>
           <li>You will be guided through the available benefits</li>
           <li>You can explore how to maximize your membership level</li>
@@ -131,14 +131,14 @@
     </div>
 
     <article class="club-closing-card">
-      <div class="doc-page-hero-title">A Premium Client Experience</div>
-      <h2>Designed to reward loyalty as your journey grows</h2>
-      <p>
+      <div class="doc-page-hero-title" data-i18n="tradertokClubPage.closing.eyebrow">A Premium Client Experience</div>
+      <h2 data-i18n="tradertokClubPage.closing.h2">Designed to reward loyalty as your journey grows</h2>
+      <p data-i18n="tradertokClubPage.closing.p1">
         TraderTok Club is intended to give active clients more value, better support access, and enhanced
         benefits as they continue their journey with the platform. We encourage members to make full use of
         the tools, services, and opportunities available at their tier.
       </p>
-      <p class="club-signoff">
+      <p class="club-signoff" data-i18n-html="tradertokClubPage.closing.signoffHtml">
         Warm regards,<br>
         The TraderTok Team<br>
         <!-- <a class="license-link" href="https://tradertok.com/" target="_blank" rel="noopener noreferrer">https://tradertok.com/</a> -->

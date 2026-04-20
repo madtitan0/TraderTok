@@ -177,7 +177,7 @@
         </div>
 
         <div style="text-align: center; margin-bottom: 100px;">
-            <img src="assets/images/trading-central.png" alt="Trading Central Dashboard" style="max-width: 100%; height: auto; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+            <img src="assets/images/trading-central.png" alt="Trading Central dashboard" data-i18n-alt="tradingCentral.altDashboard" style="max-width: 100%; height: auto; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
         </div>
 
         <!-- Stats -->

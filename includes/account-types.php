@@ -859,10 +859,10 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
         <div class="container">
           <div class="account-types-text">
             <h1 class="account-types-title">
-              <span class="">Choose the Right Account for Your</span>
-              <span class="">Trading Journey</span>
+              <span class="" data-i18n="accountTypesPage.hero.line1">Choose the Right Account for Your</span>
+              <span class="" data-i18n="accountTypesPage.hero.line2">Trading Journey</span>
             </h1>
-            <p class="account-types-subtitle">
+            <p class="account-types-subtitle" data-i18n="accountTypesPage.hero.subtitle">
               Whether you&rsquo;re just starting or trading at a professional level, our account types are designed to match your experience and goals.
             </p>
           </div>
@@ -871,52 +871,52 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
 
       <section class="acct-section acct-section--tight" aria-labelledby="acct-compare-heading">
         <div class="container">
-          <h2 id="acct-compare-heading">Account types overview</h2>
-          <p class="acct-section-intro">Compare at a glance, then expand <strong>Account details</strong> below for full information.</p>
-          <div class="acct-table-scroll" role="region" aria-label="Account comparison table" tabindex="0">
+          <h2 id="acct-compare-heading" data-i18n="accountTypesPage.compare.heading">Account types overview</h2>
+          <p class="acct-section-intro" data-i18n-html="accountTypesPage.compare.introHtml">Compare at a glance, then expand <strong>Account details</strong> below for full information.</p>
+          <div class="acct-table-scroll" role="region" data-i18n-aria="accountTypesPage.compare.regionAriaLabel" tabindex="0">
             <table class="acct-compare-table">
-              <caption>Account Comparison Table</caption>
+              <caption data-i18n="accountTypesPage.compare.tableCaption">Account Comparison Table</caption>
               <thead>
                 <tr>
-                  <th scope="col">Account type</th>
-                  <th scope="col">Target trader</th>
+                  <th scope="col" data-i18n="accountTypesPage.compare.colAccountType">Account type</th>
+                  <th scope="col" data-i18n="accountTypesPage.compare.colTargetTrader">Target trader</th>
                   <!-- <th scope="col">Min deposit</th> -->
-                  <th scope="col"><abbr title="Difference between bid and ask price; lower can mean lower cost before commission.">Spread</abbr></th>
+                  <th scope="col"><abbr data-i18n-title="accountTypesPage.compare.spreadAbbrTitle" data-i18n="accountTypesPage.compare.colSpread">Spread</abbr></th>
                   <!-- <th scope="col"><abbr title="Per-lot trading fee where applicable; $0 means commission-free on that account.">Commission</abbr></th> -->
-                  <th scope="col"><abbr title="Maximum leverage offered; higher leverage increases both potential reward and risk.">Leverage</abbr></th>
-                  <th scope="col">Key features</th>
+                  <th scope="col"><abbr data-i18n-title="accountTypesPage.compare.leverageAbbrTitle" data-i18n="accountTypesPage.compare.colLeverage">Leverage</abbr></th>
+                  <th scope="col" data-i18n="accountTypesPage.compare.colKeyFeatures">Key features</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row" class="acct-type-cell">Cent (Starter)</th>
-                  <td data-label="Target trader">Beginners</td>
+                  <th scope="row" class="acct-type-cell" data-i18n="accountTypesPage.compare.centName">Cent (Starter)</th>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelTargetTrader" data-label="Target trader" data-i18n="accountTypesPage.compare.centTarget">Beginners</td>
                   <!-- <td data-label="Min deposit">$10</td> -->
-                  <td data-label="Spread">From 1.8 pips</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelSpread" data-label="Spread" data-i18n="accountTypesPage.compare.centSpread">From 1.8 pips</td>
                   <!-- <td data-label="Commission">$0</td> -->
-                  <td data-label="Leverage">Up to 1:1000</td>
-                  <td data-label="Key features">Trade in cents, low risk, swap-free option</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelLeverage" data-label="Leverage" data-i18n="accountTypesPage.compare.centLeverage">Up to 1:1000</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelKeyFeatures" data-label="Key features" data-i18n="accountTypesPage.compare.centFeatures">Trade in cents, low risk, swap-free option</td>
                 </tr>
                 <tr>
-                  <th scope="row" class="acct-type-cell">STP (Standard)</th>
-                  <td data-label="Target trader">Intermediate</td>
+                  <th scope="row" class="acct-type-cell" data-i18n="accountTypesPage.compare.stpName">STP (Standard)</th>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelTargetTrader" data-label="Target trader" data-i18n="accountTypesPage.compare.stpTarget">Intermediate</td>
                   <!-- <td data-label="Min deposit">$100</td> -->
-                  <td data-label="Spread">From 1.8 pips</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelSpread" data-label="Spread" data-i18n="accountTypesPage.compare.stpSpread">From 1.8 pips</td>
                   <!-- <td data-label="Commission">$0</td> -->
-                  <td data-label="Leverage">Up to 1:1000</td>
-                  <td data-label="Key features">Fast execution, no commission</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelLeverage" data-label="Leverage" data-i18n="accountTypesPage.compare.stpLeverage">Up to 1:1000</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelKeyFeatures" data-label="Key features" data-i18n="accountTypesPage.compare.stpFeatures">Fast execution, no commission</td>
                 </tr>
                 <tr class="acct-row--ecn">
                   <th scope="row" class="acct-type-cell">
-                    ECN (Professional)
-                    <span class="acct-ecn-badge">Premium</span>
+                    <span data-i18n="accountTypesPage.compare.ecnName">ECN (Professional)</span>
+                    <span class="acct-ecn-badge" data-i18n="accountTypesPage.compare.ecnBadge">Premium</span>
                   </th>
-                  <td data-label="Target trader">Advanced / High volume</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelTargetTrader" data-label="Target trader" data-i18n="accountTypesPage.compare.ecnTarget">Advanced / High volume</td>
                   <!-- <td data-label="Min deposit">$500</td> -->
-                  <td data-label="Spread">From 0.1 pips</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelSpread" data-label="Spread" data-i18n="accountTypesPage.compare.ecnSpread">From 0.1 pips</td>
                   <!-- <td data-label="Commission">$8–$10 per lot</td> -->
-                  <td data-label="Leverage">Up to 1:1000</td>
-                  <td data-label="Key features">Raw spreads, ideal for scalping &amp; bots</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelLeverage" data-label="Leverage" data-i18n="accountTypesPage.compare.ecnLeverage">Up to 1:1000</td>
+                  <td data-i18n-data-label="accountTypesPage.compare.labelKeyFeatures" data-label="Key features" data-i18n="accountTypesPage.compare.ecnFeatures">Raw spreads, ideal for scalping &amp; bots</td>
                 </tr>
               </tbody>
             </table>
@@ -926,80 +926,80 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
 
       <section class="acct-section" aria-labelledby="acct-details-heading">
         <div class="container">
-          <h2 id="acct-details-heading">Account details</h2>
-          <p class="acct-section-intro">Features and costs per account type.</p>
+          <h2 id="acct-details-heading" data-i18n="accountTypesPage.detailsSection.heading">Account details</h2>
+          <p class="acct-section-intro" data-i18n="accountTypesPage.detailsSection.intro">Features and costs per account type.</p>
           <div class="acct-details-wrap">
             <details class="acct-details">
-              <summary>Cent Account (Starter)</summary>
+              <summary data-i18n="accountTypesPage.centDetails.summary">Cent Account (Starter)</summary>
               <div class="acct-details__body">
-                <h3>Purpose</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.purpose">Purpose</h3>
                 <ul>
-                  <li>Designed for beginners entering forex trading</li>
-                  <li>Low deposit to reduce entry barrier</li>
+                  <li data-i18n="accountTypesPage.centDetails.purpose1">Designed for beginners entering forex trading</li>
+                  <li data-i18n="accountTypesPage.centDetails.purpose2">Low deposit to reduce entry barrier</li>
                 </ul>
-                <h3>Key features</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.keyFeatures">Key features</h3>
                 <ul>
-                  <li>Trade in cents (lower risk exposure)</li>
-                  <li>Spread from 1.8 pips</li>
+                  <li data-i18n="accountTypesPage.centDetails.key1">Trade in cents (lower risk exposure)</li>
+                  <li data-i18n="accountTypesPage.centDetails.key2">Spread from 1.8 pips</li>
                   <!-- <li>No commission</li> -->
-                  <li>Leverage up to 1:1000</li>
-                  <li>Islamic (swap-free) option available</li>
+                  <li data-i18n="accountTypesPage.centDetails.key3">Leverage up to 1:1000</li>
+                  <li data-i18n="accountTypesPage.centDetails.key4">Islamic (swap-free) option available</li>
                 </ul>
-                <h3>Why it&rsquo;s ideal</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.whyIdeal">Why it's ideal</h3>
                 <ul>
-                  <li>Perfect for beginner markets like Pakistan</li>
-                  <li>Helps onboard new traders easily</li>
-                  <li>Supports IB growth through easy entry</li>
+                  <li data-i18n="accountTypesPage.centDetails.why1">Perfect for beginner markets like Pakistan</li>
+                  <li data-i18n="accountTypesPage.centDetails.why2">Helps onboard new traders easily</li>
+                  <li data-i18n="accountTypesPage.centDetails.why3">Supports IB growth through easy entry</li>
                 </ul>
               </div>
             </details>
 
             <details class="acct-details">
-              <summary>STP Account (Standard)</summary>
+              <summary data-i18n="accountTypesPage.stpDetails.summary">STP Account (Standard)</summary>
               <div class="acct-details__body">
-                <h3>Purpose</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.purpose">Purpose</h3>
                 <ul>
-                  <li>For regular traders looking for better execution</li>
+                  <li data-i18n="accountTypesPage.stpDetails.purpose1">For regular traders looking for better execution</li>
                 </ul>
-                <h3>Key features</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.keyFeatures">Key features</h3>
                 <ul>
-                  <li>Minimum deposit: $100</li>
-                  <li>Spread from 1.8 pips</li>
+                  <li data-i18n="accountTypesPage.stpDetails.key1">Minimum deposit: $100</li>
+                  <li data-i18n="accountTypesPage.stpDetails.key2">Spread from 1.8 pips</li>
                   <!-- <li>No commission</li> -->
-                  <li>Straight-through processing (STP)</li>
-                  <li>Fast execution</li>
-                  <li>Leverage up to 1:1000</li>
+                  <li data-i18n="accountTypesPage.stpDetails.key3">Straight-through processing (STP)</li>
+                  <li data-i18n="accountTypesPage.stpDetails.key4">Fast execution</li>
+                  <li data-i18n="accountTypesPage.stpDetails.key5">Leverage up to 1:1000</li>
                 </ul>
-                <h3>Why it’s ideal</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.whyIdeal">Why it's ideal</h3>
                 <ul>
-                  <li>Balanced trading conditions</li>
-                  <li>Simple pricing model</li>
-                  <li>Suitable for most retail traders</li>
+                  <li data-i18n="accountTypesPage.stpDetails.why1">Balanced trading conditions</li>
+                  <li data-i18n="accountTypesPage.stpDetails.why2">Simple pricing model</li>
+                  <li data-i18n="accountTypesPage.stpDetails.why3">Suitable for most retail traders</li>
                 </ul>
               </div>
             </details>
 
             <details class="acct-details acct-details--ecn">
-              <summary>ECN Account (Professional)</summary>
+              <summary data-i18n="accountTypesPage.ecnDetails.summary">ECN Account (Professional)</summary>
               <div class="acct-details__body">
-                <h3>Purpose</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.purpose">Purpose</h3>
                 <ul>
-                  <li>Designed for experienced and high-volume traders</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.purpose1">Designed for experienced and high-volume traders</li>
                 </ul>
-                <h3>Key features</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.keyFeatures">Key features</h3>
                 <ul>
-                  <li>Minimum deposit: $500</li>
-                  <li>Raw spreads from 0.1 pips</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.key1">Minimum deposit: $500</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.key2">Raw spreads from 0.1 pips</li>
                   <!-- <li>Commission: $8–$10 per lot</li> -->
-                  <li>Leverage up to 1:1000</li>
-                  <li>Supports Forex, Metals, Indices, Commodities, Crypto</li>
-                  <li>Ideal for scalping and automated trading</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.key3">Leverage up to 1:1000</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.key4">Supports Forex, Metals, Indices, Commodities, Crypto</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.key5">Ideal for scalping and automated trading</li>
                 </ul>
-                <h3>Why it&rsquo;s ideal</h3>
+                <h3 data-i18n="accountTypesPage.detailsSection.whyIdeal">Why it's ideal</h3>
                 <ul>
-                  <li>Tight spreads for serious traders</li>
-                  <li>Better execution quality</li>
-                  <li>Competitive with top ECN brokers</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.why1">Tight spreads for serious traders</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.why2">Better execution quality</li>
+                  <li data-i18n="accountTypesPage.ecnDetails.why3">Competitive with top ECN brokers</li>
                 </ul>
               </div>
             </details>
@@ -1009,11 +1009,11 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
 
       <section class="acct-section" aria-labelledby="acct-notes-heading">
         <div class="container">
-          <h2 id="acct-notes-heading">Important notes</h2>
+          <h2 id="acct-notes-heading" data-i18n="accountTypesPage.notes.heading">Important notes</h2>
           <div class="acct-notes-card">
             <ul>
-              <li><strong>All account types support:</strong> Forex, Metals, Indices, Commodities, and Crypto.</li>
-              <li><strong>Islamic accounts are available for:</strong> Cent and STP accounts.</li>
+              <li data-i18n-html="accountTypesPage.notes.supportHtml"><strong>All account types support:</strong> Forex, Metals, Indices, Commodities, and Crypto.</li>
+              <li data-i18n-html="accountTypesPage.notes.islamicHtml"><strong>Islamic accounts are available for:</strong> Cent and STP accounts.</li>
             </ul>
           </div>
         </div>
@@ -1269,9 +1269,9 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
       <section class="acct-section" aria-labelledby="acct-elite-heading">
         <div class="container">
           <div class="acct-elite-card">
-            <h2 id="acct-elite-heading">Mystery / elite accounts</h2>
-            <p>Our offering goes beyond the standard account types listed here. We maintain a range of premium and elite accounts, tailored for professional traders and investors &mdash; available by request only.</p>
-            <p>For access and details, please <a href="./?page=contact-us" style="color: #00b67a; font-weight: 600;">contact us</a> directly.</p>
+            <h2 id="acct-elite-heading" data-i18n="accountTypesPage.elite.title">Mystery / elite accounts</h2>
+            <p data-i18n="accountTypesPage.elite.paragraph1">Our offering goes beyond the standard account types listed here. We maintain a range of premium and elite accounts, tailored for professional traders and investors &mdash; available by request only.</p>
+            <p data-i18n-html="accountTypesPage.elite.contactHtml">For access and details, please <a href="./?page=contact-us" style="color: #00b67a; font-weight: 600;">contact us</a> directly.</p>
           </div>
         </div>
       </section>
@@ -1279,11 +1279,11 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
       <section class="acct-cta" aria-labelledby="acct-cta-heading">
         <div class="container">
           <div class="acct-cta-inner">
-            <h2 id="acct-cta-heading">Open your account</h2>
+            <h2 id="acct-cta-heading" data-i18n="accountTypesPage.cta.heading">Open your account</h2>
             <div class="acct-cta-buttons">
-              <a href="./?page=open-live-account" class="acct-cta-btn acct-cta-btn--primary">Open Live Account</a>
-              <a href="./?page=open-demo-account" class="acct-cta-btn acct-cta-btn--secondary">Try Demo</a>
-              <a href="./?page=contact-us" class="acct-cta-btn acct-cta-btn--outline">Speak to an Expert</a>
+              <a href="./?page=open-live-account" class="acct-cta-btn acct-cta-btn--primary" data-i18n="accountTypesPage.cta.openLive">Open Live Account</a>
+              <a href="./?page=open-demo-account" class="acct-cta-btn acct-cta-btn--secondary" data-i18n="accountTypesPage.cta.tryDemo">Try Demo</a>
+              <a href="./?page=contact-us" class="acct-cta-btn acct-cta-btn--outline" data-i18n="accountTypesPage.cta.speakExpert">Speak to an Expert</a>
             </div>
           </div>
         </div>

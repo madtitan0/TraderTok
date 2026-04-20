@@ -1285,8 +1285,12 @@ function isRegionalLanguageLocked() {
   return !!(window.subdomainData && window.subdomainData.lang);
 }
 
-// Function to update language
-function updateLanguage(lang, flagHTML) {
+/**
+ * @param {string} lang
+ * @param {string} flagHTML
+ * @param {{ fromUser?: boolean; skipPersist?: boolean; skipI18n?: boolean }} [opts]
+ */
+function updateLanguage(lang, flagHTML, opts) {
   if (isRegionalLanguageLocked() && lang !== window.subdomainData.lang) {
     return;
   }
@@ -1318,18 +1322,45 @@ function updateLanguage(lang, flagHTML) {
     }
   });
 
-  if (!isRegionalLanguageLocked()) {
+  const skipPersist = !!(opts && opts.skipPersist);
+  const skipI18n = !!(opts && opts.skipI18n);
+  const fromUser = !!(opts && opts.fromUser);
+
+  if (!isRegionalLanguageLocked() && !skipPersist) {
     localStorage.setItem("preferredLanguage", lang);
   }
 
   if (
+    !skipI18n &&
     !isRegionalLanguageLocked() &&
     typeof window.i18n !== "undefined" &&
     window.i18n.setLanguage
   ) {
-    window.i18n.setLanguage(lang, { fromUser: true });
+    window.i18n.setLanguage(lang, fromUser ? { fromUser: true } : {});
   }
 }
+
+function syncLanguageSelectorUiToLang(lang) {
+  let item = document.querySelector(`.language-item[data-lang="${lang}"]`);
+  if (!item) {
+    item = document.querySelector(`.mobile-language-item[data-lang="${lang}"]`);
+  }
+  if (!item) {
+    item =
+      document.querySelector('.language-item[data-lang="en"]') ||
+      document.querySelector('.mobile-language-item[data-lang="en"]');
+  }
+  if (!item) return;
+  const flagHTML = item.querySelector(".language-flag").innerHTML;
+  updateLanguage(lang, flagHTML, { skipPersist: true, skipI18n: true });
+}
+
+window.addEventListener("languageChanged", (ev) => {
+  if (isRegionalLanguageLocked()) return;
+  const lang = ev.detail && ev.detail.lang;
+  if (!lang) return;
+  syncLanguageSelectorUiToLang(lang);
+});
 
 // Toggle language dropdown (desktop)
 if (languageBtn) {
@@ -1350,7 +1381,7 @@ languageItems.forEach((item) => {
     const lang = item.dataset.lang;
     const flagHTML = item.querySelector(".language-flag").innerHTML;
 
-    updateLanguage(lang, flagHTML);
+    updateLanguage(lang, flagHTML, { fromUser: true });
 
     // Close dropdown
     if (languageDropdown) {
@@ -1378,7 +1409,7 @@ mobileLanguageItems.forEach((item) => {
     const lang = item.dataset.lang;
     const flagHTML = item.querySelector(".language-flag").innerHTML;
 
-    updateLanguage(lang, flagHTML);
+    updateLanguage(lang, flagHTML, { fromUser: true });
 
     // Close mobile menu logic removed to keep menu open for navigation
   });
@@ -1423,55 +1454,70 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Load saved language preference on page load
-window.addEventListener("DOMContentLoaded", () => {
-  const savedLanguage =
-    (window.subdomainData && window.subdomainData.lang) ||
-    localStorage.getItem("preferredLanguage") ||
-    "en";
+// Align header language UI with i18n (after init) without forcing English or clobbering geo
+function initLanguageSelectorFromPage() {
+  const run = () => {
+    const locked = isRegionalLanguageLocked();
+    const saved = localStorage.getItem("preferredLanguage");
+    const langToShow = locked
+      ? window.subdomainData.lang
+      : saved || (window.i18n && window.i18n.getLanguage()) || "en";
 
-  // Find the item in desktop or mobile
-  let savedItem = document.querySelector(
-    `.language-item[data-lang="${savedLanguage}"]`,
-  );
-  if (!savedItem) {
-    savedItem = document.querySelector(
-      `.mobile-language-item[data-lang="${savedLanguage}"]`,
+    let savedItem = document.querySelector(
+      `.language-item[data-lang="${langToShow}"]`,
     );
-  }
+    if (!savedItem) {
+      savedItem = document.querySelector(
+        `.mobile-language-item[data-lang="${langToShow}"]`,
+      );
+    }
 
-  if (savedItem) {
-    const flagHTML = savedItem.querySelector(".language-flag").innerHTML;
-    updateLanguage(savedLanguage, flagHTML);
+    if (savedItem) {
+      const flagHTML = savedItem.querySelector(".language-flag").innerHTML;
+      updateLanguage(langToShow, flagHTML, {
+        skipPersist: !saved && !locked,
+        skipI18n: true,
+      });
+    } else {
+      const englishItem =
+        document.querySelector('.language-item[data-lang="en"]') ||
+        document.querySelector('.mobile-language-item[data-lang="en"]');
+      if (englishItem) {
+        const flagHTML = englishItem.querySelector(".language-flag").innerHTML;
+        updateLanguage("en", flagHTML, {
+          skipPersist: !saved && !locked,
+          skipI18n: true,
+        });
+      }
+    }
+
+    if (isRegionalLanguageLocked()) {
+      document.body.classList.add("region-language-locked");
+      if (languageBtn) {
+        languageBtn.setAttribute("disabled", "disabled");
+        languageBtn.setAttribute("aria-disabled", "true");
+      }
+      languageItems.forEach((i) => {
+        i.style.pointerEvents = "none";
+        i.style.cursor = "default";
+        i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
+      });
+      mobileLanguageItems.forEach((i) => {
+        i.style.pointerEvents = "none";
+        i.style.cursor = "default";
+        i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
+      });
+    }
+  };
+
+  if (window.i18n && typeof window.i18n.whenReady === "function") {
+    window.i18n.whenReady().then(run);
   } else {
-    // Default to English
-    const englishItem =
-      document.querySelector('.language-item[data-lang="en"]') ||
-      document.querySelector('.mobile-language-item[data-lang="en"]');
-    if (englishItem) {
-      const flagHTML = englishItem.querySelector(".language-flag").innerHTML;
-      updateLanguage("en", flagHTML);
-    }
+    run();
   }
+}
 
-  if (isRegionalLanguageLocked()) {
-    document.body.classList.add("region-language-locked");
-    if (languageBtn) {
-      languageBtn.setAttribute("disabled", "disabled");
-      languageBtn.setAttribute("aria-disabled", "true");
-    }
-    languageItems.forEach((i) => {
-      i.style.pointerEvents = "none";
-      i.style.cursor = "default";
-      i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
-    });
-    mobileLanguageItems.forEach((i) => {
-      i.style.pointerEvents = "none";
-      i.style.cursor = "default";
-      i.style.opacity = i.classList.contains("active") ? "1" : "0.45";
-    });
-  }
-});
+window.addEventListener("DOMContentLoaded", initLanguageSelectorFromPage);
 
 // ================== PHONE COUNTRY SELECTOR ==================
 

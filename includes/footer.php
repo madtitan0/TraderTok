@@ -193,6 +193,33 @@
     <?php if (!empty($page) && $page === 'top-instruments'): ?>
     <script src="assets/js/instruments-script.js?v=<?php echo filemtime('assets/js/instruments-script.js'); ?>" defer></script>
     <?php endif; ?>
+    <?php if (!empty($page) && $page === 'ib-program'): ?>
+    <script src="assets/js/ib-program-meta.js?v=<?php echo filemtime('assets/js/ib-program-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'tradertok-club'): ?>
+    <script src="assets/js/tradertok-club-meta.js?v=<?php echo filemtime('assets/js/tradertok-club-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'account-types'): ?>
+    <script src="assets/js/account-types-meta.js?v=<?php echo filemtime('assets/js/account-types-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'education-hub'): ?>
+    <script src="assets/js/education-hub-meta.js?v=<?php echo filemtime('assets/js/education-hub-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'research'): ?>
+    <script src="assets/js/research-meta.js?v=<?php echo filemtime('assets/js/research-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'open-demo-account'): ?>
+    <script src="assets/js/open-demo-account-meta.js?v=<?php echo filemtime('assets/js/open-demo-account-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'open-live-account'): ?>
+    <script src="assets/js/open-live-account-meta.js?v=<?php echo filemtime('assets/js/open-live-account-meta.js'); ?>" defer></script>
+    <?php endif; ?>
+    <?php
+    $offersLikePages = ['offers', 'offers-promotions', 'vn', 'th', 'ph', 'id', 'pk', 'latam', 'na', 'ke', 'gh', 'ng', 'za', 'tt', 'gy'];
+    if (!empty($page) && in_array($page, $offersLikePages, true)):
+    ?>
+    <script src="assets/js/offers-meta.js?v=<?php echo filemtime('assets/js/offers-meta.js'); ?>" defer></script>
+    <?php endif; ?>
     <script src="assets/js/offers-nav.js?v=<?php echo filemtime('assets/js/offers-nav.js'); ?>" defer></script>
     <script src="assets/js/offers-promotions.js?v=<?php echo filemtime('assets/js/offers-promotions.js'); ?>" defer></script>
     <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>

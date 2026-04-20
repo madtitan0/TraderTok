@@ -18,21 +18,20 @@
       </h1>
       <ul class="doc-page-hero-list" style="list-style-type:none; margin-left: 0px;">
 
-        <li><strong>Margin:</strong> Funds required to open and maintain a position, acting as collateral against
+        <li data-i18n-html="riskDisclosurePage.defLi1"><strong>Margin:</strong> Funds required to open and maintain a position, acting as collateral against
           potential
           losses.</li>
 
-        <li><strong>Leverage:</strong> The use of borrowed funds to increase position size, which can amplify both gains
+        <li data-i18n-html="riskDisclosurePage.defLi2"><strong>Leverage:</strong> The use of borrowed funds to increase position size, which can amplify both gains
           and
           losses.</li>
 
-        <li><strong>CFD (Contract for Difference):</strong> A derivative allowing clients to speculate on price
+        <li data-i18n-html="riskDisclosurePage.defLi3"><strong>CFD (Contract for Difference):</strong> A derivative allowing clients to speculate on price
           movements of
           an asset without owning it.</li>
       </ul>
-      <p class="doc-page-hero-subtitle"></p>
-      <p class="doc-page-hero-subtitle">We are obligated by regulation to keep you informed of potential risks.</p>
-      <p class="doc-page-hero-subtitle">By entering into over-the-counter ("OTC") contracts for differences ("CFDs") and
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.introP1">We are obligated by regulation to keep you informed of potential risks.</p>
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.introP2">By entering into over-the-counter ("OTC") contracts for differences ("CFDs") and
         foreign
         exchange contracts ("FX Contracts") with <strong>Amber Rock Trade Ltd</strong> (the "Company"), the
         undersigned ("Customer," "you," "your") acknowledges, understands, and agrees to the following:
@@ -41,7 +40,7 @@
       <h1 class="doc-sub">
         <span data-i18n="riskDisclosurePage.h3">1. GENERAL RISK DISCLOSURE ON TRADING</span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s1p1">
         Trading financial instruments, including CFDs and FX contracts, involves a high level of risk, it
         is not suitable for all investors and may result in losses that exceed your initial investment. Past
         performance is not indicative of future results, and clients should be aware that extreme market
@@ -50,16 +49,16 @@
         trading activity. Trading is for client that:
       </p>
       <ul class="doc-page-hero-list" style="list-style-type:disc">
-        <li>Understand and are willing to accept the economic, legal, and other risks involved.</li>
-        <li>Are experienced and knowledgeable in trading derivatives and underlying asset types.</li>
-        <li>Are financially capable of sustaining losses exceeding their margin or deposits, as investors may lose the
+        <li data-i18n-html="riskDisclosurePage.s1li1">Understand and are willing to accept the economic, legal, and other risks involved.</li>
+        <li data-i18n-html="riskDisclosurePage.s1li2">Are experienced and knowledgeable in trading derivatives and underlying asset types.</li>
+        <li data-i18n-html="riskDisclosurePage.s1li3">Are financially capable of sustaining losses exceeding their margin or deposits, as investors may lose the
           entire value of the contract, not just the margin or deposit.</li>
       </ul>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s1p2">
         CFDs and FX Contracts are not suitable for retirement funds. Trading in CFDs and FX Contracts
         represents one of the riskiest forms of investment and can result in substantial losses
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s1p3">
         The Company is not responsible for losses resulting from market volatility, liquidity constraints,
         or other external factors beyond its control. The Company does not provide investment advice,
         and clients are solely responsible for their own trading decisions. This disclosure is prepared in
@@ -81,16 +80,16 @@
           OF CFDS)
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s2p1">
         Holding a long CFD position means you are purchasing CFDs with the expectation that the market
         price of the underlying asset will rise between the time of purchase and sale.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s2p2">
         As the holder of a long position, you will generally realize a profit if the market price of the
         underlying asset rises while your CFD long position is open. Conversely, you will generally incur
         a loss if the market price of the underlying asset declines while the CFD long position is open.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s2p3">
         Your potential loss could exceed the initial margin deposited. Additionally, a lack of sufficient
         liquidity to meet margin requirements could result in the closure of your position, which may result
         in a loss.
@@ -101,16 +100,16 @@
           CFDS)
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s3p1">
         Holding a short CFD position means you are selling CFDs with the expectation that the market
         price of the underlying asset will fall between the time of purchase and sale.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s3p2">
         As the holder of a short position, you will generally realize a profit if the market price of the
         underlying asset falls while your CFD short position is open. On the other hand, you will generally
         incur a loss if the market price of the underlying asset rises while your CFD short position is open.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s3p3">
         Your potential loss could exceed the initial margin deposited. Furthermore, if you do not have
         sufficient liquidity to meet margin requirements, your position may be closed, which could result
         in a loss. Rapid or extreme market movements, gaps in the market, or slippage may result in
@@ -125,24 +124,24 @@
         <span data-i18n="riskDisclosurePage.h6">4. HIGH LEVERAGE AND LOW MARGINS CAN LEAD TO RAPID LOSSES
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s4p1">
         Both CFDs and FX Contracts involve a high degree of leverage or "gearing," which makes trading
         these instruments riskier than investing directly in the underlying asset. The margining system
         typically requires a small deposit relative to the size of the trade, meaning that even a small price movement
         in the underlying asset can have a disproportionately large effect on your trade. This
         can be both beneficial and detrimental.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s4p2">
         A small price movement in your favor may result in a significant return on your deposit; however,
         a small price movement against you could result in substantial losses. For example, a leverage of
         1:30 means that a $1,000 deposit can control $30,000 worth of trades.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s4p3">
         Clients are required to maintain sufficient margin in their account to support open positions. If
         margin levels fall below required thresholds, margin calls may be issued, and positions may be
         partially or fully liquidated automatically without prior notice.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s4p4">
         Your losses may exceed your initial deposit in highly leveraged positions. The greater the leverage,
         the higher the potential risk, and rapid market movements can result in immediate losses. Clients
         acknowledge and accept the risks associated with leveraged trading and understand that leverage
@@ -153,16 +152,16 @@
         <span data-i18n="riskDisclosurePage.h7">5. MARGIN REQUIREMENTS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s5p1">
         Clients are required to maintain the minimum margin requirements for their open positions at all
         times and are responsible for monitoring their account balance. It is the Customer’s responsibility
         to monitor their account balance.
       </p>
-      <p class="doc-page-hero-subtitle">If the margin in your account falls below the required level, you may receive a
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s5p2">If the margin in your account falls below the required level, you may receive a
         margin call, which
         will be communicated via email, platform notification, or other means specified by the Company,
         requiring you to deposit additional funds. </p>
-      <p class="doc-page-hero-subtitle">Failure to meet margin calls may result in immediate partial or full liquidation
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s5p3">Failure to meet margin calls may result in immediate partial or full liquidation
         of your positions
         without prior notice. In the event of liquidation, positions may be prioritized according to the
         Company’s internal procedures. Clients remain liable for any deficit if losses exceed their account
@@ -175,7 +174,7 @@
         <span data-i18n="riskDisclosurePage.h8">6. CASH SETTLEMENT
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s6p1">
         The Customer acknowledges that CFDs and FX Contracts are cash-settled, with the difference
         between the buying and selling price determining the outcome of the investment. No physical
         delivery of the underlying asset occurs. Settlement is final, and the Customer assumes all market
@@ -190,12 +189,12 @@
         <span data-i18n="riskDisclosurePage.h9">7. OTC TRANSACTIONS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">CFD and FX Contract transactions with the Company are conducted over-the-counter
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s7p1">CFD and FX Contract transactions with the Company are conducted over-the-counter
         (OTC),
         meaning they are not executed on a recognized or designated investment exchange. All positions
         entered into with the Company must be closed with the Company and cannot be closed with any
         other entity.</p>
-      <p class="doc-page-hero-subtitle">OTC transactions may carry greater risk than on-exchange trades, as there is no
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s7p2">OTC transactions may carry greater risk than on-exchange trades, as there is no
         exchange market
         in which to close an open position. This may make it difficult to liquidate an existing position,
         evaluate the value of an OTC transaction, or assess your exposure to risk. OTC pricing may differ
@@ -203,7 +202,7 @@
         continuous liquidity. These factors may make it difficult to liquidate an existing position, evaluate
         the value of an OTC transaction, or assess your exposure to risk.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s7p3">
         The Company may not always quote bid and ask prices in accordance with best execution policies.
         There is no central clearing and no third-party guarantee regarding the Company's payment
         obligations. You must rely on the Company for the performance of all contracts in your account,
@@ -215,7 +214,7 @@
         <span data-i18n="riskDisclosurePage.h10">8. CFDS AND FX CONTRACTS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s8p1">
         Trading CFDs and FX Contracts carries significant risks. The leverage involved means that even
         a small market movement can result in a much larger movement in the value of your liability. You
         should be aware of the implications of this, particularly in relation to margin requirements. Even
@@ -228,13 +227,13 @@
           DIFFER FROM OTHER SOURCES
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s9p1">
         The Company will provide prices for trading, valuing Customer positions, and determining margin
         requirements in accordance with its Trading Policies and Procedures. The performance of your
         CFD or FX Contract will depend on the prices set by the Company and fluctuations in the
         underlying asset.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s9p2">
         These prices may differ from those available from third-party sources, and the Customer accepts
         such differences. Market disruptions, technical issues, or delays may affect pricing, which can
         impact trade execution, valuation, and margin requirements. The Company determines valuation methodologies in
@@ -246,7 +245,7 @@
         <span data-i18n="riskDisclosurePage.h12">10. EXTENT OF LOSSES
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s10p1">
         When you hold a short position and the price increases, your losses may not become apparent until
         you close the position. In certain scenarios, losses can exceed your initial margin deposits. Short
         positions can generate unlimited losses if prices move against your position. You should perform
@@ -258,7 +257,7 @@
         <span data-i18n="riskDisclosurePage.h13">11. RIGHTS TO UNDERLYING ASSETS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s11p1">
         You have no rights or obligations concerning the underlying assets of your CFDs or FX Contracts.
         CFDs may be based on a variety of underlying assets, such as stocks, indices, currencies, and
         commodities. Holding a CFD or FX Contract does not grant you ownership of the underlying asset,
@@ -272,7 +271,7 @@
         <span data-i18n="riskDisclosurePage.h14">12. CURRENCY RISK
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s12p1">
         Investing in FX Contracts and CFDs involving an underlying asset in a currency different from
         your base currency carries currency risk. If the CFD or FX Contract is settled in a currency other
         than your base currency, fluctuations in exchange rates may impact the value of your return when
@@ -288,7 +287,7 @@
         <span data-i18n="riskDisclosurePage.h15">13. ONE-CLICK TRADING AND IMMEDIATE EXECUTION
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s13p1">
         The Company's online trading system facilitates immediate execution of Customer orders once the
         notional amount is entered, and "Buy/Sell" is clicked. Once an order is submitted, it cannot be
         canceled or modified, which increases the risk of unintended trades or losses. This feature may
@@ -304,7 +303,7 @@
         <span data-i18n="riskDisclosurePage.h16">14. THE COMPANY IS NOT AN ADVISER OR FIDUCIARY
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s14p1">
         Any market recommendations provided by the Company are general and not personal investment
         advice. The Company has not considered your individual financial situation, investment
         objectives, or personal circumstances, and it does not offer or solicit the purchase or sale of any
@@ -315,7 +314,7 @@
         responsible for any investment decisions made by the Customer. Following the Company’s
         recommendations or information is done entirely at the Customer’s own risk.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s14p2">
         Clients who are unsure about their investment decisions should seek independent financial advice
         before entering into any trades. The Company assumes no liability for any claims, losses, damages,
         or costs incurred as a result of relying on its recommendations or acting on any information it
@@ -326,16 +325,16 @@
         <span data-i18n="riskDisclosurePage.h17">15. RECOMMENDATIONS ARE NOT GUARANTEED
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s15p1">
         The market recommendations provided by the Company are based on the judgment of its personnel
         and should be considered as general guidance only.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s15p2">
         The judgment of Company personnel may be subjective, and the Company does not guarantee the
         accuracy, completeness, or success of any trade executed based on these recommendations. Past
         performance or prior recommendations are not indicative of future results.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s15p3">
         The Customer acknowledges that any transaction entered into is made independently and based on
         their own judgment. Market recommendations are generic and may not be suitable for all investors
         or reflect the positions, intentions, or interests of the Company or its affiliates. While the Company
@@ -348,7 +347,7 @@
         <span data-i18n="riskDisclosurePage.h18">16. NO GUARANTEES OF PROFIT
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s16p1">
         Trading CFDs and FX Contracts involves a high risk of loss, including the possibility of losing
         your entire investment. There are no guarantees of profits or protection from losses when trading
         these instruments. The Customer acknowledges that no such guarantees have been provided by the
@@ -362,7 +361,7 @@
         <span data-i18n="riskDisclosurePage.h19">17. CUSTOMER MAY NOT BE ABLE TO CLOSE OPEN POSITIONS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s17p1">
         In certain market conditions, such as periods of high volatility, low liquidity, or other extreme or
         unforeseen events (including force majeure), the Company may be unable to close a position at
         the Customer’s desired price. The Customer acknowledges and accepts that such situations involve
@@ -377,7 +376,7 @@
         <span data-i18n="riskDisclosurePage.h20">18. INTERNET TRADING
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s18p1">
         The Company is not liable for any claims, losses, damages, or expenses arising from technical
         failures, connectivity issues, cyber events, or other disruptions affecting the Company’s systems,
         the Customer’s systems, or any third-party platforms, networks, or exchanges outside the
@@ -385,7 +384,7 @@
         unintended transactions, and the Customer accepts full responsibility for any resulting losses or
         costs.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s18p2">
         Clients are responsible for ensuring that they have reliable computer systems, internet connections,
         and backup plans to manage their trading activities. The Company does not guarantee
         uninterrupted or error-free access to its trading platforms or third-party networks, and any reliance
@@ -396,7 +395,7 @@
         <span data-i18n="riskDisclosurePage.h21">19. QUOTING ERRORS
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s19p1">
         A quoting error refers to any incorrect, inaccurate, or unintended price provided by the Company
         in response to a Customer request, including, but not limited to, errors caused by system
         malfunctions, human input mistakes, or delays in data feeds.
@@ -420,18 +419,18 @@
         <span data-i18n="riskDisclosurePage.h22">20. UPDATES
         </span>
       </h1>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s20p1">
         The Company reserves the right to modify this Risk Disclosure Statement and its policies at any
         time, at its discretion, whenever it deems necessary or appropriate, including in response to
         regulatory or legal changes. Updated versions of this Risk Disclosure Statement and policies
         supersede all previous versions.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s20p2">
         Clients are responsible for reviewing the most current Risk Disclosure Statement and associated
         policies regularly. Continued use of the Company’s trading platform or services after any updates
         constitutes acceptance of the modified Risk Disclosure Statement and policies.
       </p>
-      <p class="doc-page-hero-subtitle">
+      <p class="doc-page-hero-subtitle" data-i18n-html="riskDisclosurePage.s20p3">
         If changes are made, the Company will notify Clients using the contact information on file and
         will also upload the most current version to the Company’s website. The Company will review
         and update this policy at least annually to reflect current practices, regulatory requirements, and

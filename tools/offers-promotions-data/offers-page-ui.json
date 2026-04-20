@@ -1,0 +1,226 @@
+{
+  "en": {
+    "meta": {
+      "pageTitle": "Offers & Promotions | TraderTok",
+      "pageDescription": "Discover region-specific promotions and exclusive trading opportunities tailored for traders in your area."
+    },
+    "offersOne": "1 offer",
+    "offersMany": "{{count}} offers",
+    "regionOffersTitle": "{{name}} Offers",
+    "emptyState": "Select a country to view exclusive offers for your region.",
+    "sidebarAria": "Country selection",
+    "listboxAria": "Countries",
+    "regions": {
+      "vietnam": "Vietnam",
+      "thailand": "Thailand",
+      "malaysia": "Malaysia",
+      "philippines": "Philippines",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "latam": "Latin America",
+      "namibia": "Namibia",
+      "kenya": "Kenya",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "South Africa",
+      "trinidad-tobago": "Trinidad & Tobago",
+      "guyana": "Guyana"
+    }
+  },
+  "vn": {
+    "meta": {
+      "pageTitle": "Ưu đãi & khuyến mại | TraderTok",
+      "pageDescription": "Khám phá khuyến mại theo khu vực và cơ hội giao dịch độc quyền dành cho trader tại khu vực của bạn."
+    },
+    "offersOne": "1 ưu đãi",
+    "offersMany": "{{count}} ưu đãi",
+    "regionOffersTitle": "Ưu đãi {{name}}",
+    "emptyState": "Chọn quốc gia để xem ưu đãi độc quyền cho khu vực của bạn.",
+    "sidebarAria": "Chọn quốc gia",
+    "listboxAria": "Quốc gia",
+    "regions": {
+      "vietnam": "Việt Nam",
+      "thailand": "Thái Lan",
+      "malaysia": "Malaysia",
+      "philippines": "Philippines",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "latam": "Mỹ Latinh",
+      "namibia": "Namibia",
+      "kenya": "Kenya",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "Nam Phi",
+      "trinidad-tobago": "Trinidad và Tobago",
+      "guyana": "Guyana"
+    }
+  },
+  "th": {
+    "meta": {
+      "pageTitle": "ข้อเสนอและโปรโมชัน | TraderTok",
+      "pageDescription": "ค้นพบโปรโมชันเฉพาะภูมิภาคและโอกาสเทรดพิเศษสำหรับเทรดเดอร์ในพื้นที่ของคุณ"
+    },
+    "offersOne": "1 ข้อเสนอ",
+    "offersMany": "{{count}} ข้อเสนอ",
+    "regionOffersTitle": "ข้อเสนอ {{name}}",
+    "emptyState": "เลือกประเทศเพื่อดูข้อเสนอพิเศษสำหรับภูมิภาคของคุณ",
+    "sidebarAria": "เลือกประเทศ",
+    "listboxAria": "ประเทศ",
+    "regions": {
+      "vietnam": "เวียดนาม",
+      "thailand": "ไทย",
+      "malaysia": "มาเลเซีย",
+      "philippines": "ฟิลิปปินส์",
+      "indonesia": "อินโดนีเซีย",
+      "pakistan": "ปากีสถาน",
+      "latam": "ละตินอเมริกา",
+      "namibia": "นามิเบีย",
+      "kenya": "เคนยา",
+      "ghana": "กานา",
+      "nigeria": "ไนจีเรีย",
+      "south-africa": "แอฟริกาใต้",
+      "trinidad-tobago": "ตรินิแดดและโตเบโก",
+      "guyana": "กายอานา"
+    }
+  },
+  "id": {
+    "meta": {
+      "pageTitle": "Penawaran & Promosi | TraderTok",
+      "pageDescription": "Temukan promosi khusus wilayah dan peluang trading eksklusif untuk trader di wilayah Anda."
+    },
+    "offersOne": "1 penawaran",
+    "offersMany": "{{count}} penawaran",
+    "regionOffersTitle": "Penawaran {{name}}",
+    "emptyState": "Pilih negara untuk melihat penawaran eksklusif di wilayah Anda.",
+    "sidebarAria": "Pemilihan negara",
+    "listboxAria": "Negara",
+    "regions": {
+      "vietnam": "Vietnam",
+      "thailand": "Thailand",
+      "malaysia": "Malaysia",
+      "philippines": "Filipina",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "latam": "Amerika Latin",
+      "namibia": "Namibia",
+      "kenya": "Kenya",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "Afrika Selatan",
+      "trinidad-tobago": "Trinidad dan Tobago",
+      "guyana": "Guyana"
+    }
+  },
+  "my": {
+    "meta": {
+      "pageTitle": "Tawaran & Promosi | TraderTok",
+      "pageDescription": "Temui promosi khusus wilayah dan peluang dagangan eksklusif untuk pedagang di kawasan anda."
+    },
+    "offersOne": "1 tawaran",
+    "offersMany": "{{count}} tawaran",
+    "regionOffersTitle": "Tawaran {{name}}",
+    "emptyState": "Pilih negara untuk melihat tawaran eksklusif untuk wilayah anda.",
+    "sidebarAria": "Pemilihan negara",
+    "listboxAria": "Negara",
+    "regions": {
+      "vietnam": "Vietnam",
+      "thailand": "Thailand",
+      "malaysia": "Malaysia",
+      "philippines": "Filipina",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "latam": "Amerika Latin",
+      "namibia": "Namibia",
+      "kenya": "Kenya",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "Afrika Selatan",
+      "trinidad-tobago": "Trinidad dan Tobago",
+      "guyana": "Guyana"
+    }
+  },
+  "ph": {
+    "meta": {
+      "pageTitle": "Mga Offer at Promosyon | TraderTok",
+      "pageDescription": "Tuklasin ang mga promosyon ayon sa rehiyon at eksklusibong trading opportunities para sa mga trader sa iyong lugar."
+    },
+    "offersOne": "1 offer",
+    "offersMany": "{{count}} na offer",
+    "regionOffersTitle": "{{name}} Offers",
+    "emptyState": "Pumili ng bansa para makita ang eksklusibong offers sa iyong rehiyon.",
+    "sidebarAria": "Pagpili ng bansa",
+    "listboxAria": "Mga bansa",
+    "regions": {
+      "vietnam": "Vietnam",
+      "thailand": "Thailand",
+      "malaysia": "Malaysia",
+      "philippines": "Pilipinas",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistan",
+      "latam": "Latin America",
+      "namibia": "Namibia",
+      "kenya": "Kenya",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "South Africa",
+      "trinidad-tobago": "Trinidad at Tobago",
+      "guyana": "Guyana"
+    }
+  },
+  "pk": {
+    "meta": {
+      "pageTitle": "آفرز و پروموشنز | TraderTok",
+      "pageDescription": "علاقے کے مطابق پروموشنز اور خصوصی ٹریڈنگ مواقع دریافت کریں۔"
+    },
+    "offersOne": "1 آفر",
+    "offersMany": "{{count}} آفرز",
+    "regionOffersTitle": "{{name}} کی آفرز",
+    "emptyState": "اپنے علاقے کے لیے خصوصی آفرز دیکھنے کے لیے ملک منتخب کریں۔",
+    "sidebarAria": "ملک کا انتخاب",
+    "listboxAria": "ممالک",
+    "regions": {
+      "vietnam": "ویتنام",
+      "thailand": "تھائی لینڈ",
+      "malaysia": "ملائیشیا",
+      "philippines": "فلپائن",
+      "indonesia": "انڈونیشیا",
+      "pakistan": "پاکستان",
+      "latam": "لاطینی امریکہ",
+      "namibia": "نامیبیا",
+      "kenya": "کینیا",
+      "ghana": "گھانا",
+      "nigeria": "نائجیریا",
+      "south-africa": "جنوبی افریقہ",
+      "trinidad-tobago": "ٹرینیڈاڈ و ٹوباگو",
+      "guyana": "گیانا"
+    }
+  },
+  "es-419": {
+    "meta": {
+      "pageTitle": "Ofertas y promociones | TraderTok",
+      "pageDescription": "Descubre promociones por región y oportunidades de trading exclusivas para traders de tu zona."
+    },
+    "offersOne": "1 oferta",
+    "offersMany": "{{count}} ofertas",
+    "regionOffersTitle": "Ofertas {{name}}",
+    "emptyState": "Selecciona un país para ver ofertas exclusivas para tu región.",
+    "sidebarAria": "Selección de país",
+    "listboxAria": "Países",
+    "regions": {
+      "vietnam": "Vietnam",
+      "thailand": "Tailandia",
+      "malaysia": "Malasia",
+      "philippines": "Filipinas",
+      "indonesia": "Indonesia",
+      "pakistan": "Pakistán",
+      "latam": "América Latina",
+      "namibia": "Namibia",
+      "kenya": "Kenia",
+      "ghana": "Ghana",
+      "nigeria": "Nigeria",
+      "south-africa": "Sudáfrica",
+      "trinidad-tobago": "Trinidad y Tobago",
+      "guyana": "Guyana"
+    }
+  }
+}

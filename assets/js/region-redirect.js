@@ -2,7 +2,7 @@
  * TraderTok Region Detection & Redirect Module
  * -----------------------------------------------
  * Runs early on every page. Handles:
- *  1. URL hash override  (#vietnam, #ng, etc.)
+ *  1. URL hash override (#vietnam, #ng, etc.)
  *  2. Subdomain detection (client-side fallback for window.subdomainData)
  *  3. IP geolocation redirect (first-time visit to main domain only)
  *  4. Global window.regionData for other scripts to consume
@@ -12,6 +12,18 @@
 
 (function () {
     'use strict';
+
+    if (typeof window.TraderTokShouldRedirectInactiveSubdomainToGlobal === 'function' &&
+        /\.tradertok\.com$/i.test(window.location.hostname) &&
+        window.TraderTokShouldRedirectInactiveSubdomainToGlobal(window.location.hostname)) {
+        window.location.replace(
+            'https://tradertok.com' +
+                window.location.pathname +
+                window.location.search +
+                window.location.hash
+        );
+        return;
+    }
 
     var MAIN_DOMAINS = ['tradertok.com', 'www.tradertok.com'];
 
@@ -222,8 +234,12 @@
             var cached = null;
             try { cached = sessionStorage.getItem(GEO_CACHE_KEY); } catch (e) {}
             if (cached) {
-                performRedirect(cached);
-                return;
+                if (typeof window.TraderTokIsActiveRegionalSubdomainKey === 'function' &&
+                    window.TraderTokIsActiveRegionalSubdomainKey(cached)) {
+                    performRedirect(cached);
+                    return;
+                }
+                try { sessionStorage.removeItem(GEO_CACHE_KEY); } catch (e) {}
             }
             try { sessionStorage.setItem(GEO_CACHE_KEY, sub); } catch (e) {}
             performRedirect(sub);
@@ -258,6 +274,13 @@
                 return;
             }
             if (window.i18n.isLanguageLocked && window.i18n.isLanguageLocked()) return;
+            try {
+                var pref = localStorage.getItem('preferredLanguage');
+                var supported = window.i18n.supportedLangs;
+                if (pref && supported && supported.indexOf(pref) !== -1) {
+                    return;
+                }
+            } catch (e) {}
             window.i18n.setLanguage(locale);
         }
         applyWhenI18nReady();
@@ -275,6 +298,14 @@
                 subdomain: null,
                 source: 'hash'
             };
+
+            try {
+                var prefHash = localStorage.getItem('preferredLanguage');
+                var supHash = window.i18n && window.i18n.supportedLangs;
+                if (prefHash && supHash && supHash.indexOf(prefHash) !== -1) {
+                    return;
+                }
+            } catch (e) {}
 
             try {
                 sessionStorage.setItem(GEO_LOCALE_STORAGE_KEY, hl);

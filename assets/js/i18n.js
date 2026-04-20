@@ -22,6 +22,11 @@
     // Current language
     let currentLang = CONFIG.defaultLang;
 
+    let resolveInitialI18nReady;
+    const initialI18nReady = new Promise(function (resolve) {
+        resolveInitialI18nReady = resolve;
+    });
+
     /**
      * Get nested value from object using dot notation
      * @param {Object} obj - The object to search
@@ -32,6 +37,31 @@
         return path.split('.').reduce((current, key) => {
             return current && current[key] !== undefined ? current[key] : undefined;
         }, obj);
+    }
+
+    /**
+     * Walk loaded locale JSON by path segments (supports arrays, e.g. ['offersPage','promotions','vietnam',0,'badge']).
+     * Falls back to English cache when the current language has no value.
+     * @param {Array<string|number>} pathParts
+     * @returns {unknown}
+     */
+    function getMessage(pathParts) {
+        if (!pathParts || !pathParts.length) return undefined;
+        function walk(root) {
+            let cur = root;
+            for (let i = 0; i < pathParts.length; i++) {
+                if (cur == null) return undefined;
+                cur = cur[pathParts[i]];
+            }
+            return cur;
+        }
+        const tr = translationsCache[currentLang];
+        let v = tr ? walk(tr) : undefined;
+        if (v === undefined && currentLang !== CONFIG.defaultLang) {
+            const fb = translationsCache[CONFIG.defaultLang];
+            v = fb ? walk(fb) : undefined;
+        }
+        return v;
     }
 
     /**
@@ -54,7 +84,11 @@
             }
         }
 
-        if (value === undefined) return key;
+        if (value === undefined || value === null) return key;
+
+        if (typeof value !== 'string') {
+            value = String(value);
+        }
 
         // Simple interpolation: replace {{param}} with value
         if (params && typeof value === 'string') {
@@ -109,27 +143,31 @@
      * Apply translations to all elements with data-i18n attributes
      */
     function applyTranslationsToDOM() {
-        // Text content: data-i18n
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            const translation = t(key);
-            if (translation !== key) {
-                element.textContent = translation;
-            }
-        });
-
-        // HTML content: data-i18n-html
+        // HTML first: setting innerHTML replaces descendants; applying [data-i18n] before this
+        // would lose nested i18n nodes inside [data-i18n-html] containers.
         document.querySelectorAll('[data-i18n-html]').forEach(element => {
-            const key = element.getAttribute('data-i18n-html');
+            const key = (element.getAttribute('data-i18n-html') || '').trim();
+            if (!key) return;
             const translation = t(key);
             if (translation !== key) {
                 element.innerHTML = translation;
             }
         });
 
+        // Text content: data-i18n
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = (element.getAttribute('data-i18n') || '').trim();
+            if (!key) return;
+            const translation = t(key);
+            if (translation !== key) {
+                element.textContent = translation;
+            }
+        });
+
         // Placeholders: data-i18n-placeholder
         document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
-            const key = element.getAttribute('data-i18n-placeholder');
+            const key = (element.getAttribute('data-i18n-placeholder') || '').trim();
+            if (!key) return;
             const translation = t(key);
             if (translation !== key) {
                 element.placeholder = translation;
@@ -138,24 +176,50 @@
 
         // Aria labels: data-i18n-aria
         document.querySelectorAll('[data-i18n-aria]').forEach(element => {
-            const key = element.getAttribute('data-i18n-aria');
+            const key = (element.getAttribute('data-i18n-aria') || '').trim();
+            if (!key) return;
             const translation = t(key);
             if (translation !== key) {
                 element.setAttribute('aria-label', translation);
             }
         });
 
+        // Image alt text: data-i18n-alt
+        document.querySelectorAll('[data-i18n-alt]').forEach(element => {
+            const key = (element.getAttribute('data-i18n-alt') || '').trim();
+            if (!key) return;
+            const translation = t(key);
+            if (translation !== key) {
+                element.setAttribute('alt', translation);
+            }
+        });
+
         // Title attributes: data-i18n-title
         document.querySelectorAll('[data-i18n-title]').forEach(element => {
-            const key = element.getAttribute('data-i18n-title');
+            const key = (element.getAttribute('data-i18n-title') || '').trim();
+            if (!key) return;
             const translation = t(key);
             if (translation !== key) {
                 element.title = translation;
             }
         });
 
+        // Table cell labels (e.g. mobile stacked comparison tables): data-i18n-data-label → sets data-label
+        document.querySelectorAll('[data-i18n-data-label]').forEach(element => {
+            const key = (element.getAttribute('data-i18n-data-label') || '').trim();
+            if (!key) return;
+            const translation = t(key);
+            if (translation !== key) {
+                element.setAttribute('data-label', translation);
+            }
+        });
+
         // Update HTML lang attribute
         document.documentElement.lang = currentLang === 'es-419' ? 'es' : currentLang;
+
+        try {
+            window.dispatchEvent(new CustomEvent('tradertok:i18n-applied'));
+        } catch (e) {}
     }
 
     /**
@@ -212,6 +276,7 @@
      * @returns {Promise<void>}
      */
     async function init() {
+        try {
         const savedLang = localStorage.getItem(CONFIG.localStorageKey);
         let geoLocale = null;
         try {
@@ -221,14 +286,15 @@
         // 1) PHP regional subdomain: fixed locale (highest priority)
         if (window.subdomainData && window.subdomainData.lang) {
             currentLang = window.subdomainData.lang;
+        } else if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
+            // 2) Stored preference (manual choice or prior session) before region/geo heuristics
+            currentLang = savedLang;
         } else if (window.regionData && window.regionData.lang) {
-            // 2) Hash / client subdomain / async geo-ip (set before or after this script)
+            // 3) Hash / client subdomain (set before or after this script)
             currentLang = window.regionData.lang;
         } else if (geoLocale && CONFIG.supportedLangs.includes(geoLocale)) {
-            // 3) Last IP-based locale (persists across pages until user changes language)
+            // 4) Last IP-based locale (persists across pages until user changes language)
             currentLang = geoLocale;
-        } else if (savedLang && CONFIG.supportedLangs.includes(savedLang)) {
-            currentLang = savedLang;
         // Auto-detect from subdomain if no explicit choice yet
         } else if (window.subdomainData && window.subdomainData.lang) {
             currentLang = window.subdomainData.lang;
@@ -269,18 +335,29 @@
 
         // Apply translations
         applyTranslationsToDOM();
+        } finally {
+            if (typeof resolveInitialI18nReady === 'function') {
+                resolveInitialI18nReady();
+                resolveInitialI18nReady = null;
+            }
+        }
     }
 
     // Expose to global scope
     window.i18n = {
         t,
+        getMessage,
         setLanguage,
         getLanguage,
         init,
         loadTranslations,
         applyTranslations: applyTranslationsToDOM,
         supportedLangs: CONFIG.supportedLangs,
-        isLanguageLocked
+        isLanguageLocked,
+        /** Resolves after first successful init() (locale JSON cached for current + fallback lang). */
+        whenReady: function () {
+            return initialI18nReady;
+        }
     };
 
     // Auto-initialize when DOM is ready

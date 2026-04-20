@@ -1,0 +1,576 @@
+{
+  "vietnam": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para nuevos traders",
+      "description": "Duplica tu capital inicial con nuestra exclusiva oferta de bienvenida para traders vietnamitas. Abra una cuenta real y reciba un bono del 100% en su primer depósito.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Programa de reembolso",
+      "title": "5% de reembolso semanal sobre el volumen de operaciones",
+      "description": "Obtenga automáticamente un porcentaje de su volumen de operaciones semanal. Cuanto más operes, más volverás a ganar en tu cuenta.",
+      "details": [
+        "Reembolso semanal",
+        "Sin límite de ingresos",
+        "Acreditado todos los lunes",
+        "Todos los instrumentos elegibles"
+      ],
+      "cta": "Unirse al programa",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Recomendar a un amigo",
+      "title": "Gana $ 50 por cada recomendación exitosa",
+      "description": "Invita a tus amigos a operar con TraderTok y recibe $ 50 por cada amigo que abra y deposite fondos en una cuenta real. Tu amigo también recibe un bono.",
+      "details": [
+        "$ 50 por referido",
+        "Límite de referencias",
+        "Un amigo recibe un bono de $ 25",
+        "Utilidades retirables"
+      ],
+      "cta": "¿A QUÉ ESPERAS PARA RECOMENDARNOS?",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "thailand": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 75% para traders tailandeses",
+      "description": "Comience a operar con margen adicional. Los traders tailandeses reciben un generoso bono del 75% en su primer depósito para ampliar su potencial de trading.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bonificación máx. 3000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "con spreads reducidos.",
+      "title": "Spreads desde 0,1 pips en pares principales",
+      "description": "Disfruta de spreads ultra ajustados en los principales pares de divisas. Opera en EUR/USD, GBP/USD y USD/JPY con algunos de los spreads más bajos del sector.",
+      "details": [
+        "Desde 0,1 pips en especialidades",
+        "Sin comisión en estándar",
+        "Disponible en todas las plataformas ",
+        "Oro y petróleo incluidos"
+      ],
+      "cta": "Abrir Cuenta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Señales gratuitas",
+      "title": "Paquete de señales de trading gratuitas diarias",
+      "description": "Reciba señales profesionales de trading diarias directamente en su dispositivo. Nuestros analistas expertos ofrecen ideas de trading procesables en forex, materias primas e índices.",
+      "details": [
+        "Más de 5 señales diarias",
+        "Niveles de entrada, TP y SL",
+        "Entrega de telegramas y correos electrónicos",
+        "Exactitud histórica "
+      ],
+      "cta": "Obtener señales",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "malaysia": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para nuevos traders malayos",
+      "description": "Duplica tu capital de trading con nuestra exclusiva oferta de bienvenida para traders malayos. Deposite fondos en su cuenta y comience a operar con un margen adicional del 100%.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuenta Islámica",
+      "title": "Cuenta de trading islámica Zero Swap",
+      "description": "Opere de acuerdo con sus principios. Nuestras cuentas que cumplen con la Sharia ofrecen cero comisiones de swap durante la noche en todas las posiciones mantenidas después del cierre del mercado.",
+      "details": [
+        "Cero comisiones por swap",
+        "Sin costes ocultos",
+        "Acceso a dispositivos",
+        "Activación inmediata"
+      ],
+      "cta": "CUENTA ISLÁMICA",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "ECN Trading",
+      "title": "Spreads desde 0,0 pips en la cuenta ECN",
+      "description": "Experimente el trading de nivel profesional con acceso directo al mercado. Disfruta de spreads crudos ultrabajos a partir de 0,0 pips en los pares principales con una ejecución rápida.",
+      "details": [
+        "Desde 0.0 puntos",
+        "Liquidez profunda",
+        "Ejecución rápida",
+        "Precios institucionales"
+      ],
+      "cta": "Prueba la cuenta ECN",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "philippines": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para traders filipinos",
+      "description": "Comience su viaje de trading con el doble de capital. Los traders filipinos reciben un 100% de coincidencia en su primer depósito para maximizar las oportunidades de trading.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Concurso de Trading Real",
+      "title": "Competición de trading mensual de 10.000 $",
+      "description": "Compite contra otros traders por una parte del premio acumulado mensual de $ 10.000. Los mejores jugadores en cuentas demo o reales ganan premios en efectivo.",
+      "details": [
+        "Bote de 10 000 $",
+        "Los 10 mejores ganan premios",
+        "Demostración y apto para vivir",
+        "día del mes para restablecimiento"
+      ],
+      "cta": "Participar en nuestro concurso ",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Educación Gratuita",
+      "title": "Paquete completo de formación en trading",
+      "description": "Accede a nuestra completa biblioteca educativa sin coste alguno. Incluye cursos de video, seminarios web, libros electrónicos y sesiones de tutoría en vivo para todos los niveles de habilidad.",
+      "details": [
+        "Clases en video",
+        "Seminarios web semanales.",
+        "Biblioteca de libros electrónicos",
+        "Acceso de mentor personal"
+      ],
+      "cta": "Empiece a aprender ",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "indonesia": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 50% para traders indonesios",
+      "description": "Aumenta tu primer depósito con una bonificación del 50%. Los traders indonesios pueden comenzar con capital comercial adicional para explorar los mercados globales.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bono máx. 2500 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuenta Islámica",
+      "title": "Cuenta de trading islámica sin swaps",
+      "description": "Opere de acuerdo con los principios de la Sharia. Nuestra cuenta islámica ofrece cero cargos de swap durante la noche en todas las posiciones mantenidas después del cierre del mercado.",
+      "details": [
+        "Cero cargos por swap",
+        "No tenía comisiones ocultas",
+        "Instrumentos disponibles",
+        "Cumple con la sharia"
+      ],
+      "cta": "CUENTA ISLÁMICA",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Reembolso",
+      "title": "3% de reembolso en cada operación",
+      "description": "Reciba un reembolso del 3% en cada operación que ejecute, independientemente del resultado. Los fondos se acreditan directamente en su cuenta de trading semanalmente.",
+      "details": [
+        "3% por operación",
+        "Ganar o perder",
+        "Crédito fiscal semanal",
+        "Sin volumen mínimo."
+      ],
+      "cta": "Activar Cashback",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "pakistan": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para traders pakistaníes",
+      "description": "Duplica tu poder de trading con nuestra exclusiva combinación de depósitos del 100% para clientes pakistaníes. Deposite fondos en su cuenta y opere con el doble de capital.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuenta Islámica",
+      "title": "Cuenta islámica Zero Swap",
+      "description": "Opera con confianza con nuestra cuenta de trading totalmente compatible con la sharia. Mantenga posiciones durante la noche sin aplicar tarifas de swap o rollover.",
+      "details": [
+        "Cero comisiones por swap",
+        "Cumple con la sharia",
+        "Acceso a dispositivos",
+        "Apoyo dedicado"
+      ],
+      "cta": "CUENTA ISLÁMICA",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Comisión reducida",
+      "title": "Hasta un 50% de comisión de trading reducida",
+      "description": "Disfrute de tasas de comisión significativamente más bajas en todas sus operaciones. Los traders de gran volumen se benefician de descuentos aún mayores en nuestras cuentas ECN.",
+      "details": [
+        "Reducción de hasta el 50%",
+        "Cuentas ECN aptas",
+        "Niveles basados en el volumen",
+        "Activación inmediata"
+      ],
+      "cta": "Reducir los costes",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "latam": [
+    {
+      "badge": "Bono de Bienvenida",
+      "title": "Bono del 100% de Depósito para Nuevos Traders",
+      "description": "Duplica tu capital inicial con nuestra oferta exclusiva de bienvenida para traders latinoamericanos. Abre una cuenta y recibe un 100% de bono en tu primer deposito.",
+      "details": [
+        "Depósito mín. $ 100",
+        "Bono máx. $ 5.000",
+        "Valido por 30 dias",
+        "Términos y condiciones aplican"
+      ],
+      "cta": "Reclamar Oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Programa de Referencia",
+      "title": "Gana $ 75 por recomendación en toda América Latina",
+      "description": "Invita a traders de cualquier país latinoamericano y gana $ 75 por cada recomendación exitosa. Construye tu red y gana recompensas ilimitadas.",
+      "details": [
+        "$ 75 por referido",
+        "Invitaciones ilimitadas",
+        "Apoyo multinacional",
+        "Pagos Rápidos"
+      ],
+      "cta": "¿A QUÉ ESPERAS PARA RECOMENDARNOS?",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Concurso de Trading Real",
+      "title": "Campeonato de trading LATAM de 15.000 $",
+      "description": "Compite en el campeonato de trading de toda la región con un premio acumulado de $ 15.000. Los traders de todos los países latinoamericanos son elegibles para participar.",
+      "details": [
+        "Bote de 15.000 $",
+        "Tabla de clasificación regional",
+        "Rondas mensuales",
+        "Cuentas demo Y reales"
+      ],
+      "cta": "Entrar en el campeonato",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "namibia": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 75% para traders namibios",
+      "description": "Comience su viaje de trading con un bono del 75% en su primer depósito. Los traders namibios pueden acceder a los mercados globales con capital mejorado.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bonificación máx. 3000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Bono de pago local",
+      "title": "Bono adicional del 10% en métodos de pago locales",
+      "description": "Recibe un bono adicional del 10% cuando deposites usando los métodos de pago locales de Namibia. Apila esto encima de tu bono de bienvenida para obtener el máximo valor.",
+      "details": [
+        "Bonificación adicional del 10%",
+        "Transferencias bancarias locales rápidas",
+        "Dinero móvil aceptado",
+        "Crédito instantáneo"
+      ],
+      "cta": "Depositar ahora",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Acceso a la educación",
+      "title": "Formación gratuita en trading premium",
+      "description": "Acceda a nuestra completa suite de educación premium sin cargo. Incluye cursos de principiantes a avanzados, herramientas de análisis de mercado y sesiones semanales de tutoría.",
+      "details": [
+        "Biblioteca completa de cursos",
+        "Mentoría semanal",
+        "Herramientas de análisis de mercado",
+        "Certificado al finalizar"
+      ],
+      "cta": "Empiece a aprender ",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "kenya": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para traders kenianos",
+      "description": "Duplica tu capital con una igualación del 100% en tu primer depósito. Los traders kenianos pueden aprovechar esta oferta para operar en forex, metales y más.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Bonificación de M-Pesa",
+      "title": "Bono adicional del 15% en depósitos de M-Pesa",
+      "description": "Deposite fondos en su cuenta utilizando M-Pesa y reciba un bono adicional del 15% en cada depósito. Rápido, cómodo y gratificante para los traders kenianos.",
+      "details": [
+        "15% extra en M-Pesa",
+        "Procesamiento instantáneo",
+        "Sin gastos de depósito",
+        "Apilable con bono de bienvenida"
+      ],
+      "cta": "Depósito a través de M-Pesa",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Formación en directo",
+      "title": "Sesiones semanales gratuitas de trading en directo",
+      "description": "Únase a nuestros analistas expertos para sesiones de trading en vivo gratuitas cada semana. Mira análisis en tiempo real, aprende estrategias y haz preguntas durante las horas de mercado.",
+      "details": [
+        "Sesiones semanales EN directo",
+        "Análisis en tiempo real",
+        "Preguntas y respuestas interactivas",
+        "Grabación de acceso"
+      ],
+      "cta": "Unirse a las sesiones",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "ghana": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 50% para traders ghaneses",
+      "description": "Obtén un aumento del 50% en tu primer depósito. Los traders ghaneses pueden comenzar su viaje de trading con capital adicional en todos los tipos de cuenta.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bono máx. 2500 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Programa de reembolso",
+      "title": "4% de reembolso semanal en todas las operaciones",
+      "description": "Gane un 4% de reembolso en su volumen de operaciones semanal. Los fondos se acreditan automáticamente en tu cuenta todos los lunes por la mañana.",
+      "details": [
+        "Reembolso semanal",
+        "crédito automático",
+        "Sin límite de ingresos",
+        "de todos los instrumentos"
+      ],
+      "cta": "Activar Cashback",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Educación para Trading",
+      "title": "Curso de trading integral gratuito",
+      "description": "Domina los mercados con nuestro programa gratuito de formación en trading diseñado para traders ghaneses. Cubre los fundamentos, el análisis técnico y la gestión de riesgos.",
+      "details": [
+        "Clases en video",
+        "Los ejercicios de práctica.",
+        "Guías descargables",
+        "- Acceso Comunitario"
+      ],
+      "cta": "Inscríbete gratis",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "nigeria": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para traders nigerianos",
+      "description": "Comienza fuerte con una igualación de depósito del 100%. Los traders nigerianos pueden financiar sus cuentas y operar con el doble de capital desde el primer día.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Bono de depósito de Naira",
+      "title": "Bono adicional del 15% en depósitos de Naira",
+      "description": "Deposite en Nigerian Naira y reciba un bono adicional del 15% además de su depósito. Admite transferencias bancarias locales y métodos de pago populares de Nigeria.",
+      "details": [
+        "15% extra en depósitos NGN",
+        "Transferencias bancarias locales rápidas",
+        "Opay & Palmpay aceptados",
+        "Procesamiento instantáneo"
+      ],
+      "cta": "Depósito en Naira",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Señales gratuitas",
+      "title": "Señales de trading premium sin coste alguno",
+      "description": "Reciba diariamente señales de trading profesionales enviadas a través de Telegram y correo electrónico. Cubriendo forex, oro e índices con niveles claros de entrada y salida.",
+      "details": [
+        "Señales diarias",
+        "Forex, oro e índices",
+        "Entrega de telegramas",
+        "Seguimiento del rendimiento"
+      ],
+      "cta": "Obtenga señales gratuitas",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "south-africa": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 75% para traders sudafricanos",
+      "description": "Amplía tu capital inicial con un bono de depósito del 75%. Los traders sudafricanos disfrutan de condiciones competitivas y un mayor poder de trading.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 3.750 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Cuenta zar",
+      "title": "Beneficios de la cuenta con denominación zar",
+      "description": "Opera directamente en rands sudafricanos sin comisiones por conversión de divisas. Disfruta de depósitos y retiros locales sin cargos adicionales.",
+      "details": [
+        "Divisa de base",
+        "Sin conversión",
+        "Depósitos EFT admitidos",
+        "Retiros rápidos de zar"
+      ],
+      "cta": "Abrir cuenta zar",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Concurso de Trading Real",
+      "title": "Copa de trading de Sudáfrica de 20.000 $",
+      "description": "Compite por tu parte de un bote de 20.000 $ en nuestra Trading Cup trimestral de Sudáfrica. Abierto a todos los traders basados en SA en cuentas reales.",
+      "details": [
+        "Bote de 20.000 $",
+        "Concurso trimestral",
+        "Solo cuentas reales",
+        "Los 20 mejores premios"
+      ],
+      "cta": "Participar en nuestro concurso ",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "trinidad-tobago": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 100% para traders de T&T",
+      "description": "Duplica tu primer depósito con nuestra oferta de bienvenida exclusiva para traders de Trinidad y Tobago. Acceda a los mercados globales con capital de trading mejorado.",
+      "details": [
+        "Depósito mínimo de 100 $",
+        "Bono máx. 5000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Caribbean Trader",
+      "title": "Programa de lealtad de Caribbean Trader",
+      "description": "Únase a nuestro exclusivo programa Caribbean Trader y gane puntos de fidelidad en cada operación. Canjea puntos por bonos en efectivo, spreads reducidos y servicios premium.",
+      "details": [
+        "Gana puntos por lote",
+        "Canjear por dinero en efectivo",
+        "Niveles VIP escalonados",
+        "Tus ventajas exclusivas "
+      ],
+      "cta": "Unirse al programa",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "con spreads reducidos.",
+      "title": "Spreads ajustados desde 0,2 pips",
+      "description": "Opera con algunos de los spreads más ajustados disponibles en la región del Caribe. Principales pares de divisas, oro e índices a precios ultra competitivos.",
+      "details": [
+        "Desde 0,2 pips",
+        "Mayores Y oro",
+        "Sin recotizaciones",
+        "Ejecución rápida"
+      ],
+      "cta": "comience a operar",
+      "ctaLink": "./contact-us"
+    }
+  ],
+  "guyana": [
+    {
+      "badge": "Bono de bienvenida",
+      "title": "Bono de depósito del 75% para traders guyaneses",
+      "description": "Comienza con un bono del 75% en tu primer depósito. Los traders guyaneses pueden acceder a condiciones de trading de clase mundial con un capital inicial impulsado.",
+      "details": [
+        "Depósito mín. 50 $",
+        "Bonificación máx. 3000 $",
+        "Válido por 30 días",
+        "Aplican términos y condiciones"
+      ],
+      "cta": "Aprovechar oferta",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Depositar BONIFICACIÓN",
+      "title": "10% extra en depósitos en dólares guyaneses",
+      "description": "Deposite fondos en su cuenta en GYD y reciba un bono adicional del 10%. Admite transferencias bancarias locales con tiempos de procesamiento rápidos.",
+      "details": [
+        "10% extra en GYD",
+        "Apoyo bancario local",
+        "Procesamiento rápido?",
+        "No tenía comisiones ocultas"
+      ],
+      "cta": "Depósito en GYD",
+      "ctaLink": "./contact-us"
+    },
+    {
+      "badge": "Mánager",
+      "title": "Gestor de cuentas especializado",
+      "description": "Recibe asistencia personalizada de un gestor de cuentas especializado. Obtenga orientación de trading personalizada, información sobre el mercado y asistencia prioritaria.",
+      "details": [
+        "Apoyo individualizado",
+        "Guía de trading",
+        "Retiros prioritarios",
+        "Teléfono directo"
+      ],
+      "cta": "Su gerente",
+      "ctaLink": "./contact-us"
+    }
+  ]
+}

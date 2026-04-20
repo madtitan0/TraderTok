@@ -11,10 +11,11 @@
   <div class="container">
     <div class="page-hero-content legal-document-content" style="justify-content: start; align-items: flex-start; text-align: left;">
       <div class="doc-page-hero-title" >
-        <span data-i18n="privacyPolicyPage.heroTitle" style='color: var(--brand-color-start)'>GENERAL RISK DISCLOSURE</span>
+        <span data-i18n="generalRiskDisclosurePage.heroTitle" style='color: var(--brand-color-start)'>GENERAL RISK DISCLOSURE</span>
       </div>
-      <h1 class="doc-sub">
-        <span data-i18n="generalRiskDisclosurePage.h2">This Risk Disclosure Notice is part of the Client Agreements as
+      <div data-i18n-html="generalRiskDisclosurePage.block01">
+<h1 class="doc-sub">
+        <span>This Risk Disclosure Notice is part of the Client Agreements as
           defined in our Terms & Conditions</span>
       </h1>
       <p class="doc-page-hero-subtitle">This notice provides you with information about the risks associated with
@@ -55,7 +56,7 @@
         placement and execution time, and, therefore, we cannot guarantee that the
         price requested will be the same as the price at which the order is executed,
         therefore, the price you receive can be in your favour or against you.</p>
-      <p class="doc-page-hero-subtitle">Investment products offered by Amber Rock Trade include stocks, ExchangeTraded
+      <p class="doc-page-hero-subtitle">Investment products offered by Amber Rock Trade include stocks, Exchange-Traded
         Funds (ETFs) and cryptocurrencies. In addition, Amber Rock Trade
         offers contracts for Differences (CFDs) that offer exposure to currencies,
         commodities and indices.</p>
@@ -72,7 +73,10 @@
         Trade, that you have adequate financial resources to bear such risks and that
         you monitor your positions carefully. Trading involves risk to your capital. You
         should not invest money that you cannot afford to lose.</p>
-      <p class="doc-page-hero-subtitle">CFD stands for “Contract For Difference,” meaning you are not buying the
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block02">
+<p class="doc-page-hero-subtitle">CFD stands for “Contract For Difference,” meaning you are not buying the
         underlying asset, but, rather, purchasing a contract to settle the Difference in
         the initial and ending price of the asset. When trading CFDs, you generally
         trade on margin, which means you only have to deposit a small percentage of
@@ -97,7 +101,10 @@
         the underlying market is closed, meaning the price on the underlying market
         may open at a significantly Different level, and at a less advantageous price
         for you.</p>
-      <p class="doc-page-hero-subtitle">At all times during which you have open positions, you must ensure that your
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block03">
+<p class="doc-page-hero-subtitle">At all times during which you have open positions, you must ensure that your
         account meets our margin requirements, which may change from time to
         time. Therefore, if our price moves against you, or if our margin requirements
         have changed, you may need to provide us with significant additional funds to
@@ -126,7 +133,10 @@
       <p class="doc-page-hero-subtitle">ACCORDINGLY, CRYPTOCURRENCIES SHOULD BE SEEN AS AN EXTREMELY
         HIGH-RISK ASSET AND YOU SHOULD NEVER INVEST FUNDS THAT YOU
         CANNOT AFFORD TO LOSE.</p>
-      <p class="doc-page-hero-subtitle">Given the foregoing, Cryptocurrencies are not appropriate for all investors.
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block04">
+<p class="doc-page-hero-subtitle">Given the foregoing, Cryptocurrencies are not appropriate for all investors.
         You should not deal in these products unless you have the necessary
         knowledge and expertise, understand these products’ characteristics and
         your exposure to risk. You should also be satisfied that the product is suitable
@@ -146,7 +156,7 @@
         resulting deficit in your account</p>
       <p class="doc-page-hero-subtitle">Under certain market conditions, you may find it Difficult or impossible to
         liquidate a position. This can occur, for example, when the market reaches a
-        daily price fluctuation limit (“limit move”), if there is insuBicient liquidity
+        daily price fluctuation limit (“limit move”), if there is insufficient liquidity
         in the market.</p>
       <p class="doc-page-hero-subtitle">Certain crypto assets may carry additional or specific risks.</p>
       <p class="doc-page-hero-subtitle">Newly issued cryptocurrencies might carry additional risks you need to
@@ -154,7 +164,10 @@
         it. This means prices could be volatile, going up and down quickly, and
         liquidity may be limited, all depending on supply and demand. We cannot
         control these external factors.</p>
-      <p class="doc-page-hero-subtitle">Since blockchain is an independent public peer-to peer network and is not
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block05">
+<p class="doc-page-hero-subtitle">Since blockchain is an independent public peer-to-peer network and is not
         controlled in any way or manner by Amber Rock Trade, Amber Rock Trade
         shall not be responsible for any failure and/or mistake and/or error and/or
         breach which shall occur in blockchain or in any other networks in which the
@@ -180,7 +193,10 @@
         adjust your account in respect of a Fork,
         depending on the circumstances of each event attributable to any specific
         Cryptocurrency which you hold.</p>
-      <p class="doc-page-hero-subtitle">We may elect to execute any order and/or hold any fiat money and
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block06">
+<p class="doc-page-hero-subtitle">We may elect to execute any order and/or hold any fiat money and
         cryptocurrencies via a Third Party. Such Third Parties are not banks that hold
         their fiat money/virtual currency as a deposit. If any such Third Party loses any
         money, fails or goes out of business, there is no specific legal protection that
@@ -213,7 +229,7 @@
         investment will not detrimentally affect their lives in any way. Clients fully
         acknowledge the fact that each and every investment presents a relatively
         high risk of loss and that in the event of loss the clients and only the client
-        bears full responsibility. Individuals who do not have suBicient risk capital to
+        bears full responsibility. Individuals who do not have sufficient risk capital to
         invest in such ventures must not use the site and services of the company.
         The Company’s activities are not insured by private Client Money Insurance
         policy, nor by any government’s program protecting Clients’ funds, including
@@ -229,7 +245,10 @@
         see the trade and/or investment in the market and/or the trading platform. In
         any event, the customers' deposits won't be a debt obligation. And no
         customers will ever be creditors of the company.</p>
-      <p class="doc-page-hero-subtitle">A daily financing charge may apply to each Stock and/or Crypto and/or CFDs
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block07">
+<p class="doc-page-hero-subtitle">A daily financing charge may apply to each Stock and/or Crypto and/or CFDs
         and/or financial instruments open position at the closing of The Company's
         trading day. In case such charge is applicable - it will be deducted directly from the Client's account balance.
         The method of calculation of the financing
@@ -253,7 +272,10 @@
         change quickly due to market conditions (changes in interest rates, volatility,
         liquidity, etc.) and due to various risk-related matters that are at the
         Company's sole discretion.</p>
-      <p class="doc-page-hero-subtitle">You acknowledge that there are risks associated with utilising an Internetbased
+      </div>
+
+      <div data-i18n-html="generalRiskDisclosurePage.block08">
+<p class="doc-page-hero-subtitle">You acknowledge that there are risks associated with utilising an Internet-based
         trading system including, but not limited to, the failure of hardware,
         software, and Internet connections, the risk of malicious software
         introduction, the risk that third parties may obtain unauthorized access to
@@ -328,7 +350,7 @@
         strictly non-transferable. Under no circumstances must any of the
         intellectual property presented be transferred or duplicated without written
         consent from the company. In addition, material presented by the website
-        must not be removed, edited or changed in any way.The company will not be
+        must not be removed, edited or changed in any way. The company will not be
         held liable for any costs, expenses, or losses whatsoever incurred, or suffered
         by the company customers. In any other instances, the company accepts no
         responsibility for direct or indirect loss or damage incurred as a result of using
@@ -366,6 +388,8 @@
         prohibit or restrict legal entities or natural persons from using the services of
         foreign financial services providers. You confirm that you access this website
         on your own initiative and without any solicitation from The Company.</p>
+      </div>
+
     </div>
   </div>
 </section>

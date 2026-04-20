@@ -22,20 +22,20 @@
                     <div class="region-dropdown-container">
                         <select id="regionDropdown" class="region-dropdown">
                             <option value="" disabled selected data-i18n="offersPage.selectRegionPlaceholder">— Select a Region —</option>
-                            <option value="vietnam">Vietnam</option>
-                            <option value="thailand">Thailand</option>
-                            <option value="malaysia">Malaysia</option>
-                            <option value="philippines">Philippines</option>
-                            <option value="indonesia">Indonesia</option>
-                            <option value="pakistan">Pakistan</option>
-                            <option value="latam">Latin America</option>
-                            <option value="namibia">Namibia</option>
-                            <option value="kenya">Kenya</option>
-                            <option value="ghana">Ghana</option>
-                            <option value="nigeria">Nigeria</option>
-                            <option value="south-africa">South Africa</option>
-                            <option value="trinidad-tobago">Trinidad & Tobago</option>
-                            <option value="guyana">Guyana</option>
+                            <option value="vietnam" data-i18n="offersPage.regions.vietnam">Vietnam</option>
+                            <option value="thailand" data-i18n="offersPage.regions.thailand">Thailand</option>
+                            <option value="malaysia" data-i18n="offersPage.regions.malaysia">Malaysia</option>
+                            <option value="philippines" data-i18n="offersPage.regions.philippines">Philippines</option>
+                            <option value="indonesia" data-i18n="offersPage.regions.indonesia">Indonesia</option>
+                            <option value="pakistan" data-i18n="offersPage.regions.pakistan">Pakistan</option>
+                            <option value="latam" data-i18n="offersPage.regions.latam">Latin America</option>
+                            <option value="namibia" data-i18n="offersPage.regions.namibia">Namibia</option>
+                            <option value="kenya" data-i18n="offersPage.regions.kenya">Kenya</option>
+                            <option value="ghana" data-i18n="offersPage.regions.ghana">Ghana</option>
+                            <option value="nigeria" data-i18n="offersPage.regions.nigeria">Nigeria</option>
+                            <option value="south-africa" data-i18n="offersPage.regions.south-africa">South Africa</option>
+                            <option value="trinidad-tobago" data-i18n="offersPage.regions.trinidad-tobago">Trinidad & Tobago</option>
+                            <option value="guyana" data-i18n="offersPage.regions.guyana">Guyana</option>
                         </select>
                     </div>
                 </div>
@@ -45,11 +45,11 @@
 
                 <div class="offers-split-layout">
                     <!-- Left Sidebar -->
-                    <aside class="offers-sidebar" id="offersSidebar" aria-label="Country selection">
+                    <aside class="offers-sidebar" id="offersSidebar" data-i18n-aria="offersPage.sidebarAria" aria-label="Country selection">
                         <div class="offers-sidebar-header">
                             <h2 class="offers-sidebar-title" data-i18n="offersPage.selectRegion">Select Region</h2>
                         </div>
-                        <nav class="offers-sidebar-list" id="sidebarCountryList" role="listbox" aria-label="Countries">
+                        <nav class="offers-sidebar-list" id="sidebarCountryList" role="listbox" data-i18n-aria="offersPage.listboxAria" aria-label="Countries">
                             <!-- Dynamically populated by JS -->
                         </nav>
                     </aside>
@@ -73,7 +73,7 @@
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M8 12l2 2 4-4"></path>
                             </svg>
-                            <p>Select a country to view exclusive offers for your region.</p>
+                            <p data-i18n="offersPage.emptyState">Select a country to view exclusive offers for your region.</p>
                         </div>
 
                         <!-- Integrated CTA (hidden until region selected) -->

@@ -2,6 +2,9 @@
 /**
  * Subdomain Configuration for TraderTok
  * Detects the subdomain and maps it to a country and language.
+ *
+ * Only SEA subdomains (vn, th, my, ph, id) serve regional mode; others in $subdomainMap
+ * redirect to https://tradertok.com. Keep full map for future reactivation.
  */
 
 $host = $_SERVER['HTTP_HOST'];
@@ -49,10 +52,22 @@ $subdomainMap = [
     'gy'    => ['country' => 'guyana',         'lang' => 'en'],
 ];
 
+/** Must match TRADERTOK_SEA_ACTIVE_SUBDOMAIN_KEYS in assets/js/tradertok-subdomain-config.js */
+$tradertok_sea_active_subdomains = ['vn', 'th', 'my', 'ph', 'id'];
+
 $detectedSubdomainData = null;
-if (isset($subdomainMap[$subdomain])) {
+if (isset($subdomainMap[$subdomain]) && in_array($subdomain, $tradertok_sea_active_subdomains, true)) {
     $detectedSubdomainData = $subdomainMap[$subdomain];
     $detectedSubdomainData['subdomain'] = $subdomain;
+}
+
+if (preg_match('/(^|\.)tradertok\.com$/i', $host)) {
+    if ($subdomain !== '' && isset($subdomainMap[$subdomain])
+        && !in_array($subdomain, $tradertok_sea_active_subdomains, true)) {
+        $uri = $_SERVER['REQUEST_URI'] ?? '/';
+        header('Location: https://tradertok.com' . $uri, true, 302);
+        exit;
+    }
 }
 
 // Global variable for use in head.php to inject into JS

@@ -24,7 +24,20 @@
         guyana: '<svg viewBox="0 0 30 20" xmlns="http://www.w3.org/2000/svg"><rect fill="#009E49" width="30" height="20"/><polygon fill="#FFF" points="0,0 30,10 0,20"/><polygon fill="#FCD116" points="0,1 26,10 0,19"/><polygon fill="#000" points="0,2 14,10 0,18"/><polygon fill="#CE1126" points="0,3 12,10 0,17"/></svg>'
     };
 
-    // Region groups with offer summaries
+    var OFFERS_GEO_SESSION_KEY = 'tradertok_offers_geo';
+
+    function getLockedOfferRegion() {
+        if (window.subdomainData && window.subdomainData.country) {
+            return window.subdomainData.country;
+        }
+        try {
+            var g = sessionStorage.getItem(OFFERS_GEO_SESSION_KEY);
+            if (g) return g;
+        } catch (e) {}
+        return null;
+    }
+
+    // Region groups — other rows disabled when offers are locked to visitor region (subdomain or geo)
     var REGION_GROUPS = [
         {
             title: 'Asia Pacific',
@@ -57,21 +70,7 @@
         }
     ];
 
-    function init() {
-        var dropdowns = document.querySelectorAll('.offers-dropdown');
-        if (!dropdowns.length) return;
-
-        // Detect base path from the parent nav link's href
-        dropdowns.forEach(function(dropdown) {
-            var navItem = dropdown.closest('.nav-item');
-            var parentLink = navItem ? navItem.querySelector('a.nav-link') : null;
-            var basePath = parentLink ? parentLink.getAttribute('href') : './offers-promotions';
-
-            var lockedCountry =
-                window.subdomainData && window.subdomainData.country
-                    ? window.subdomainData.country
-                    : null;
-
+    function buildDropdownHtml(basePath, lockedCountry) {
             var html = '<div class="offers-dropdown-grid">';
             REGION_GROUPS.forEach(function(group) {
                 html += '<div class="offers-dropdown-col">';
@@ -127,8 +126,52 @@
                 '" class="offers-dropdown-all">View All Offers →</a>' +
                 '</div>';
 
-            dropdown.innerHTML = html;
+        return html;
+    }
+
+    function renderOffersDropdowns() {
+        var dropdowns = document.querySelectorAll('.offers-dropdown');
+        if (!dropdowns.length) return;
+
+        var lockedCountry = getLockedOfferRegion();
+
+        dropdowns.forEach(function(dropdown) {
+            var navItem = dropdown.closest('.nav-item');
+            var parentLink = navItem ? navItem.querySelector('a.nav-link') : null;
+            var basePath = parentLink ? parentLink.getAttribute('href') : './offers-promotions';
+            dropdown.innerHTML = buildDropdownHtml(basePath, lockedCountry);
         });
+    }
+
+    function isOffersPromotionsPage() {
+        var p = window.location.pathname || '';
+        return /offers-promotions/i.test(p);
+    }
+
+    async function tryDetectOfferRegionForNav() {
+        if (getLockedOfferRegion()) return;
+        if (isOffersPromotionsPage()) return;
+        if (
+            typeof window.TraderTokFetchVisitorIsoCountryCode !== 'function' ||
+            typeof window.TraderTokIsoToOfferPromoRegionSlug !== 'function'
+        ) {
+            return;
+        }
+        try {
+            var iso = await window.TraderTokFetchVisitorIsoCountryCode();
+            if (!iso) return;
+            var region = window.TraderTokIsoToOfferPromoRegionSlug(iso);
+            if (!region) return;
+            try {
+                sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, region);
+            } catch (e2) {}
+            renderOffersDropdowns();
+        } catch (e) {}
+    }
+
+    function init() {
+        renderOffersDropdowns();
+        void tryDetectOfferRegionForNav();
     }
 
     if (document.readyState === 'loading') {

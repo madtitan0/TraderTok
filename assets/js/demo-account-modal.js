@@ -13,6 +13,18 @@
   var errorEl = document.getElementById('demoAccountError');
   var introEl = document.getElementById('demoAccountModalIntro');
 
+  function tr(key) {
+    if (window.i18n && typeof window.i18n.t === 'function') {
+      var out = window.i18n.t(key);
+      if (out && out !== key) return out;
+    }
+    return key;
+  }
+
+  function submitLabel() {
+    return tr('demoAccountModal.submitButton');
+  }
+
   function showError(msg) {
     if (!errorEl) {
       return;
@@ -36,6 +48,10 @@
       successEl.hidden = true;
       introEl.hidden = false;
       form.reset();
+    }
+    var submitBtn = form ? form.querySelector('.demo-account-submit') : null;
+    if (submitBtn) {
+      submitBtn.textContent = submitLabel();
     }
     var first = document.getElementById('demoAccountName');
     if (first) {
@@ -105,36 +121,36 @@
       phone = phone ? phone.trim() : '';
 
       if (!name) {
-        showError('Please enter your full name.');
+        showError(tr('openDemoAccountPage.errors.nameRequired'));
         return;
       }
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        showError('Please enter a valid email address.');
+        showError(tr('openDemoAccountPage.errors.emailInvalid'));
         return;
       }
       if (!phone) {
-        showError('Please enter a phone number.');
+        showError(tr('openDemoAccountPage.errors.phoneRequired'));
         return;
       }
       if (!country) {
-        showError('Please select your country or region.');
+        showError(tr('openDemoAccountPage.errors.countryRequired'));
         return;
       }
       if (!consent || !consent.checked) {
-        showError('Please accept the privacy terms to continue.');
+        showError(tr('demoAccountModal.errors.consentPrivacy'));
         return;
       }
 
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.textContent = 'Sending…';
+        submitBtn.textContent = tr('demoAccountModal.sending');
       }
 
       simulateSubmit().then(
         function () {
           if (submitBtn) {
             submitBtn.disabled = false;
-            submitBtn.textContent = 'Create demo account';
+            submitBtn.textContent = submitLabel();
           }
           if (form && successEl && introEl) {
             form.hidden = true;
@@ -145,13 +161,20 @@
         function () {
           if (submitBtn) {
             submitBtn.disabled = false;
-            submitBtn.textContent = 'Create demo account';
+            submitBtn.textContent = submitLabel();
           }
-          showError('Something went wrong. Please try again.');
+          showError(tr('demoAccountModal.errors.generic'));
         }
       );
     });
   }
+
+  window.addEventListener('tradertok:i18n-applied', function () {
+    var submitBtn = form ? form.querySelector('.demo-account-submit') : null;
+    if (submitBtn && !submitBtn.disabled) {
+      submitBtn.textContent = submitLabel();
+    }
+  });
 
   window.DemoAccountModal = {
     open: openModal,
