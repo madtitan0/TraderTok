@@ -1469,6 +1469,79 @@
       "consentRequired": "Vui lòng xác nhận đồng ý để tiếp tục."
     }
   },
+  "claimOfferPage": {
+    "meta": {
+      "pageTitle": "Nhận ưu đãi | TraderTok",
+      "pageDescription": "Gửi thông tin của bạn để nhận khuyến mãi. Đội ngũ sẽ xác minh điều kiện và liên hệ các bước tiếp theo."
+    },
+    "heroTitle": "Nhận thưởng giao dịch của bạn",
+    "heroLead": "Nhập thông tin để nhận thưởng giao dịch. Sau khi gửi, đội ngũ sẽ xác minh điều kiện của bạn và hướng dẫn quy trình onboarding đơn giản để bạn kích hoạt ưu đãi nhanh chóng. Giao dịch có rủi ro; đây không phải tư vấn tài chính.",
+    "stepsTitle": "Điều gì xảy ra tiếp theo",
+    "stepsLead": "Sau khi bạn gửi biểu mẫu, chúng tôi sử dụng thông tin để kiểm tra ưu đãi có áp dụng cho khu vực và hồ sơ của bạn. Đây là quy trình thông thường.",
+    "step1": "Chúng tôi xem xét đơn của bạn và có thể yêu cầu xác minh bổ sung nếu cần.",
+    "step2": "Một thành viên đội ngũ liên hệ qua email hoặc điện thoại với các bước rõ ràng cho tài khoản của bạn.",
+    "step3": "Sau khi được duyệt, bạn hoàn tất onboarding và kích hoạt khuyến mãi theo điều khoản ưu đãi.",
+    "benefitsTitle": "Vì sao nhận ưu đãi qua TraderTok",
+    "benefit1": "Khuyến mãi được cấu trúc cho khu vực đủ điều kiện—biểu mẫu giúp chúng tôi khớp bạn với ưu đãi phù hợp.",
+    "benefit2": "Bạn được hỗ trợ trực tiếp từ đội ngũ trong xác minh và thiết lập tài khoản.",
+    "benefit3": "Thông tin rủi ro và điều khoản được chia sẻ rõ ràng để bạn tự tin quyết định.",
+    "introNote": "Đơn được xem trong giờ làm việc. Giao dịch có rủi ro; mọi ưu đãi phụ thuộc điều kiện, tình trạng và điều khoản.",
+    "demoCrosslink": "Mở tài khoản demo",
+    "cardMeta": "Thông tin của bạn",
+    "cardTitle": "Nhận ưu đãi của bạn",
+    "labelName": "Tên",
+    "placeholderName": "Họ và tên đầy đủ",
+    "labelEmail": "Email",
+    "placeholderEmail": "ban@vidu.com",
+    "labelCountry": "Quốc gia",
+    "labelExperience": "Kinh nghiệm",
+    "experiencePlaceholder": "Chọn kinh nghiệm của bạn",
+    "experience": {
+      "beginner": "Mới bắt đầu",
+      "intermediate": "Trung cấp",
+      "advanced": "Nâng cao",
+      "professional": "Chuyên nghiệp"
+    },
+    "labelPhone": "Số điện thoại",
+    "placeholderPhone": "Kèm mã quốc gia",
+    "labelHeardAbout": "Bạn biết đến chúng tôi như thế nào?",
+    "heardAboutPlaceholder": "Chọn một lựa chọn",
+    "heardAbout": {
+      "search": "Công cụ tìm kiếm",
+      "social": "Mạng xã hội",
+      "friend": "Bạn bè hoặc đồng nghiệp",
+      "advertisement": "Quảng cáo",
+      "email": "Email",
+      "other": "Khác"
+    },
+    "selectPlaceholder": "Chọn…",
+    "countries": {
+      "GB": "Vương quốc Anh",
+      "US": "Hoa Kỳ",
+      "DE": "Đức",
+      "FR": "Pháp",
+      "AU": "Úc",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "Các Tiểu vương quốc Ả Rập Thống nhất",
+      "ZA": "Nam Phi",
+      "NG": "Nigeria",
+      "IN": "Ấn Độ",
+      "MY": "Malaysia",
+      "OTHER": "Khác"
+    },
+    "consentHtml": "Tôi hiểu giao dịch có rủi ro và đồng ý được liên hệ về ưu đãi này. Tôi đã đọc <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách quyền riêng tư</a>.",
+    "submitButton": "Gửi",
+    "errors": {
+      "nameRequired": "Vui lòng nhập tên của bạn.",
+      "emailInvalid": "Vui lòng nhập email hợp lệ.",
+      "countryRequired": "Vui lòng chọn quốc gia của bạn.",
+      "experienceRequired": "Vui lòng chọn mức kinh nghiệm của bạn.",
+      "phoneRequired": "Vui lòng nhập số điện thoại.",
+      "heardAboutRequired": "Vui lòng cho biết bạn biết đến chúng tôi như thế nào.",
+      "consentRequired": "Vui lòng xác nhận đồng ý để tiếp tục."
+    }
+  },
   "demoAccountModal": {
     "closeAriaLabel": "Đóng",
     "formNote": "Biểu mẫu chưa kết nối máy chủ. Gửi đi được mô phỏng để thử; hãy kết nối CRM hoặc API đăng ký khi sẵn sàng.",
@@ -2202,7 +2275,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Chương trình hoàn tiền",
@@ -2215,7 +2288,7 @@
             "Tất cả các công cụ đủ điều kiện"
           ],
           "cta": "Tham gia chương trình",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Giới thiệu bạn bè",
@@ -2228,7 +2301,7 @@
             "Lợi nhuận có thể rút"
           ],
           "cta": "Bắt đầu giới thiệu",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "thailand": [
@@ -2243,7 +2316,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Chênh lệch giảm",
@@ -2256,7 +2329,7 @@
             "Đã bao gồm vàng & dầu"
           ],
           "cta": "Mở tài khoản",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tín hiệu miễn phí",
@@ -2269,7 +2342,7 @@
             "70%+ độ chính xác lịch sử"
           ],
           "cta": "Nhận Tín hiệu từ",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "malaysia": [
@@ -2284,7 +2357,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tài khoản Islamic",
@@ -2297,7 +2370,7 @@
             "Kích hoạt tức thì"
           ],
           "cta": "Tài khoản Islamic",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Giao dịch ECN",
@@ -2310,7 +2383,7 @@
             "Định giá theo thể chế"
           ],
           "cta": "Dùng thử tài khoản ECN",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "philippines": [
@@ -2325,7 +2398,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cuộc thi giao dịch",
@@ -2338,7 +2411,7 @@
             "Đặt lại hàng tháng"
           ],
           "cta": "Tham gia cuộc thi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Giáo dục miễn phí",
@@ -2351,7 +2424,7 @@
             "Quyền truy cập cố vấn cá nhân"
           ],
           "cta": "Bắt đầu học",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "indonesia": [
@@ -2366,7 +2439,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tài khoản Islamic",
@@ -2379,7 +2452,7 @@
             "Tuân thủ luật Sharia"
           ],
           "cta": "Tài khoản Islamic",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Hoàn tiền",
@@ -2392,7 +2465,7 @@
             "Không có khối lượng tối thiểu"
           ],
           "cta": "Kích hoạt tính năng hoàn tiền",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "pakistan": [
@@ -2407,7 +2480,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tài khoản Islamic",
@@ -2420,7 +2493,7 @@
             "Hỗ Trợ Tận Tình"
           ],
           "cta": "Tài khoản Islamic",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Hoa hồng giảm",
@@ -2433,7 +2506,7 @@
             "Kích hoạt tức thì"
           ],
           "cta": "giảm chi phí",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "latam": [
@@ -2448,7 +2521,7 @@
             "T&C aplican"
           ],
           "cta": "Reclamar Oferta",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Chương trình Giới thiệu",
@@ -2461,7 +2534,7 @@
             "Trả thưởng nhanh chóng"
           ],
           "cta": "Bắt đầu giới thiệu",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cuộc thi giao dịch",
@@ -2474,7 +2547,7 @@
             "Tài khoản demo & tài khoản thực"
           ],
           "cta": "Tham gia Giải vô địch",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "namibia": [
@@ -2489,7 +2562,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Thưởng thanh toán tại địa phương",
@@ -2502,7 +2575,7 @@
             "Tín dụng tức thì"
           ],
           "cta": "Nạp tiền Ngay",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tiếp cận giáo dục",
@@ -2515,7 +2588,7 @@
             "Giấy chứng nhận hoàn thành"
           ],
           "cta": "Bắt đầu học",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "kenya": [
@@ -2530,7 +2603,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Thưởng M-Pesa",
@@ -2543,7 +2616,7 @@
             "Có thể xếp chồng lên nhau với tiền thưởng chào mừng"
           ],
           "cta": "Nạp tiền qua M-Pesa",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "KHÓA ĐÀO TẠO TRỰC TIẾP",
@@ -2556,7 +2629,7 @@
             "Truy cập ghi âm"
           ],
           "cta": "Tham gia phiên",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "ghana": [
@@ -2571,7 +2644,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Chương trình hoàn tiền",
@@ -2584,7 +2657,7 @@
             "Tất cả các công cụ"
           ],
           "cta": "Kích hoạt tính năng hoàn tiền",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading-Education",
@@ -2597,7 +2670,7 @@
             "Tiếp cận cộng đồng"
           ],
           "cta": "Đăng ký miễn phí",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "nigeria": [
@@ -2612,7 +2685,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tiền thưởng nạp tiền Naira",
@@ -2625,7 +2698,7 @@
             "Xử lý tức thì"
           ],
           "cta": "Tiền gửi tại Naira",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tín hiệu miễn phí",
@@ -2638,7 +2711,7 @@
             "Theo dõi hiệu suất"
           ],
           "cta": "Nhận tín hiệu miễn phí",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "south-africa": [
@@ -2653,7 +2726,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Tài khoản ZAR",
@@ -2666,7 +2739,7 @@
             "Rút tiền ZAR nhanh chóng"
           ],
           "cta": "Mở tài khoản ZAR",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cuộc thi giao dịch",
@@ -2679,7 +2752,7 @@
             "20 giải thưởng hàng đầu"
           ],
           "cta": "Tham gia cuộc thi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "trinidad-tobago": [
@@ -2694,7 +2767,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Nhà giao dịch Caribe",
@@ -2707,7 +2780,7 @@
             "Ưu đãi đặc biệt độc quyền"
           ],
           "cta": "Tham gia chương trình",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Chênh lệch giảm",
@@ -2720,7 +2793,7 @@
             "Khớp lệnh nhanh"
           ],
           "cta": "Bắt đầu giao dịch",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "guyana": [
@@ -2735,7 +2808,7 @@
             "Áp dụng điều khoản và điều kiện"
           ],
           "cta": "Nhận Ưu đãi",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Thưởng tiền gửi",
@@ -2748,7 +2821,7 @@
             "Không có phí ẩn"
           ],
           "cta": "Nạp tiền vào GYD",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Quản lý cá nhân",
@@ -2761,7 +2834,7 @@
             "Điện thoại Trực tiếp:"
           ],
           "cta": "Tìm người quản lý của bạn",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ]
     },

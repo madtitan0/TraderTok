@@ -1469,6 +1469,79 @@
       "consentRequired": "Pakikumpirma ang pagsang-ayon upang magpatuloy."
     }
   },
+  "claimOfferPage": {
+    "meta": {
+      "pageTitle": "Kunin ang alok | TraderTok",
+      "pageDescription": "Isumite ang iyong mga detalye para sa promosyon. Susuriin ng team ang eligibility at susundan ang susunod na hakbang."
+    },
+    "heroTitle": "Kunin ang iyong trading bonus",
+    "heroLead": "Ilagay ang mga detalye para kunin ang iyong trading bonus. Pagkatapos isumite, beripikahin ng team ang eligibility mo at gagabayan ka sa simple na onboarding para mabilis mong ma-activate ang alok. May panganib ang trading; hindi ito payong pinansyal.",
+    "stepsTitle": "Ano ang susunod",
+    "stepsLead": "Pagkatapos mong isumite ang form, ginagamit namin ang mga detalye para tingnan kung naaangkop ang alok sa rehiyon at profile mo. Ito ang karaniwang daloy.",
+    "step1": "Sinusuri namin ang iyong request at maaaring humiling ng karagdagang beripikasyon kung kailangan.",
+    "step2": "Miyembro ng team ang makikipag-ugnayan sa email o telepono na may malinaw na susunod na hakbang para sa account mo.",
+    "step3": "Kapag naaprubahan, kumpletohin mo ang onboarding at i-activate ang promosyon alinsunod sa mga tuntunin ng alok.",
+    "benefitsTitle": "Bakit kunin ang alok sa TraderTok",
+    "benefit1": "Ang mga promosyon ay istruktura para sa eligible na rehiyon—tumutulong ang form na itugma ka sa tamang alok.",
+    "benefit2": "Makakakuha ka ng direktang suporta mula sa team habang beripikasyon at setup ng account.",
+    "benefit3": "Maagang ibinabahagi ang risk disclosure at terms para makapagdesisyon ka nang may kumpiyansa.",
+    "introNote": "Sinusuri ang mga pagsusumite sa oras ng negosyo. May panganib ang trading; lahat ng alok ay napapailalim sa eligibility, availability at terms.",
+    "demoCrosslink": "Magbukas ng demo account",
+    "cardMeta": "Iyong mga detalye",
+    "cardTitle": "Kunin ang iyong alok",
+    "labelName": "Pangalan",
+    "placeholderName": "Iyong buong pangalan",
+    "labelEmail": "Email",
+    "placeholderEmail": "ikaw@halimbawa.com",
+    "labelCountry": "Bansa",
+    "labelExperience": "Karanasan",
+    "experiencePlaceholder": "Piliin ang antas ng karanasan mo",
+    "experience": {
+      "beginner": "Nagsisimula",
+      "intermediate": "Gitna",
+      "advanced": "Advanced",
+      "professional": "Propesyonal"
+    },
+    "labelPhone": "Numero ng telepono",
+    "placeholderPhone": "Isama ang country code",
+    "labelHeardAbout": "Paano mo nalaman ang tungkol sa amin?",
+    "heardAboutPlaceholder": "Pumili ng opsyon",
+    "heardAbout": {
+      "search": "Search engine",
+      "social": "Social media",
+      "friend": "Kaibigan o katrabaho",
+      "advertisement": "Advertisement",
+      "email": "Email",
+      "other": "Iba pa"
+    },
+    "selectPlaceholder": "Pumili…",
+    "countries": {
+      "GB": "United Kingdom",
+      "US": "United States",
+      "DE": "Germany",
+      "FR": "France",
+      "AU": "Australia",
+      "CA": "Canada",
+      "SG": "Singapore",
+      "AE": "United Arab Emirates",
+      "ZA": "South Africa",
+      "NG": "Nigeria",
+      "IN": "India",
+      "MY": "Malaysia",
+      "OTHER": "Iba pa"
+    },
+    "consentHtml": "Nauunawaan kong may panganib ang trading at sumasang-ayon akong kontakin tungkol sa alok na ito. Nabasa ko ang <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitButton": "Isumite",
+    "errors": {
+      "nameRequired": "Ilagay ang iyong pangalan.",
+      "emailInvalid": "Maglagay ng wastong email address.",
+      "countryRequired": "Pumili ng bansa mo.",
+      "experienceRequired": "Piliin ang antas ng karanasan mo.",
+      "phoneRequired": "Maglagay ng numero ng telepono.",
+      "heardAboutRequired": "Sabihin kung paano mo nalaman ang tungkol sa amin.",
+      "consentRequired": "Pakikumpirma ang pagsang-ayon upang magpatuloy."
+    }
+  },
   "demoAccountModal": {
     "closeAriaLabel": "Isara",
     "formNote": "Hindi pa nakakonekta ang form na ito sa server. Simulated ang mga submission para sa pagsubok; ikonekta ang CRM o registration API kapag handa na.",
@@ -2202,7 +2275,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback Program",
@@ -2215,7 +2288,7 @@
             "All instruments eligible"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Refer a Friend",
@@ -2228,7 +2301,7 @@
             "Withdrawable profits"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "thailand": [
@@ -2243,7 +2316,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2256,7 +2329,7 @@
             "Gold & oil included"
           ],
           "cta": "Open Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2269,7 +2342,7 @@
             "70%+ historical accuracy"
           ],
           "cta": "Get Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "malaysia": [
@@ -2284,7 +2357,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2297,7 +2370,7 @@
             "Instant activation"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ECN Trading",
@@ -2310,7 +2383,7 @@
             "Institutional pricing"
           ],
           "cta": "Try ECN Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "philippines": [
@@ -2325,7 +2398,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2338,7 +2411,7 @@
             "Monthly reset"
           ],
           "cta": "Enter Competition",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Education",
@@ -2351,7 +2424,7 @@
             "Personal mentor access"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "indonesia": [
@@ -2366,7 +2439,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2379,7 +2452,7 @@
             "Sharia-compliant"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback",
@@ -2392,7 +2465,7 @@
             "No minimum volume"
           ],
           "cta": "Activate Cashback",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "pakistan": [
@@ -2407,7 +2480,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2420,7 +2493,7 @@
             "Dedicated support"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Commission",
@@ -2433,7 +2506,7 @@
             "Instant activation"
           ],
           "cta": "Reduce Costs",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "latam": [
@@ -2448,7 +2521,7 @@
             "T&C aplican"
           ],
           "cta": "Reclamar Oferta",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Referral Program",
@@ -2461,7 +2534,7 @@
             "Fast payouts"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2474,7 +2547,7 @@
             "Demo & live accounts"
           ],
           "cta": "Enter Championship",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "namibia": [
@@ -2489,7 +2562,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Local Payment Bonus",
@@ -2502,7 +2575,7 @@
             "Instant credit"
           ],
           "cta": "Deposit Now",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Education Access",
@@ -2515,7 +2588,7 @@
             "Certificate on completion"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "kenya": [
@@ -2530,7 +2603,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "M-Pesa Bonus",
@@ -2543,7 +2616,7 @@
             "Stackable with welcome bonus"
           ],
           "cta": "Deposit via M-Pesa",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Live Training",
@@ -2556,7 +2629,7 @@
             "Recording access"
           ],
           "cta": "Join Sessions",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "ghana": [
@@ -2571,7 +2644,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback Program",
@@ -2584,7 +2657,7 @@
             "All instruments"
           ],
           "cta": "Activate Cashback",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Education",
@@ -2597,7 +2670,7 @@
             "Community access"
           ],
           "cta": "Enroll Free",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "nigeria": [
@@ -2612,7 +2685,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Naira Deposit Bonus",
@@ -2625,7 +2698,7 @@
             "Instant processing"
           ],
           "cta": "Deposit in Naira",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2638,7 +2711,7 @@
             "Performance tracking"
           ],
           "cta": "Get Free Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "south-africa": [
@@ -2653,7 +2726,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ZAR Account",
@@ -2666,7 +2739,7 @@
             "Fast ZAR withdrawals"
           ],
           "cta": "Open ZAR Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2679,7 +2752,7 @@
             "Top 20 win prizes"
           ],
           "cta": "Enter Competition",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "trinidad-tobago": [
@@ -2694,7 +2767,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Caribbean Trader",
@@ -2707,7 +2780,7 @@
             "Exclusive perks"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2720,7 +2793,7 @@
             "Fast execution"
           ],
           "cta": "Start Trading",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "guyana": [
@@ -2735,7 +2808,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "GYD Deposit Bonus",
@@ -2748,7 +2821,7 @@
             "No hidden fees"
           ],
           "cta": "Deposit in GYD",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Personal Manager",
@@ -2761,7 +2834,7 @@
             "Direct phone line"
           ],
           "cta": "Get Your Manager",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ]
     },

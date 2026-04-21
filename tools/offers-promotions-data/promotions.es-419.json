@@ -11,7 +11,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Programa de reembolso",
@@ -24,7 +24,7 @@
         "Todos los instrumentos elegibles"
       ],
       "cta": "Unirse al programa",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Recomendar a un amigo",
@@ -37,7 +37,7 @@
         "Utilidades retirables"
       ],
       "cta": "¿A QUÉ ESPERAS PARA RECOMENDARNOS?",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "thailand": [
@@ -52,7 +52,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "con spreads reducidos.",
@@ -65,7 +65,7 @@
         "Oro y petróleo incluidos"
       ],
       "cta": "Abrir Cuenta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Señales gratuitas",
@@ -78,7 +78,7 @@
         "Exactitud histórica "
       ],
       "cta": "Obtener señales",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "malaysia": [
@@ -93,7 +93,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Cuenta Islámica",
@@ -106,7 +106,7 @@
         "Activación inmediata"
       ],
       "cta": "CUENTA ISLÁMICA",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "ECN Trading",
@@ -119,7 +119,7 @@
         "Precios institucionales"
       ],
       "cta": "Prueba la cuenta ECN",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "philippines": [
@@ -134,7 +134,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Concurso de Trading Real",
@@ -147,7 +147,7 @@
         "día del mes para restablecimiento"
       ],
       "cta": "Participar en nuestro concurso ",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Educación Gratuita",
@@ -160,7 +160,7 @@
         "Acceso de mentor personal"
       ],
       "cta": "Empiece a aprender ",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "indonesia": [
@@ -175,7 +175,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Cuenta Islámica",
@@ -188,7 +188,7 @@
         "Cumple con la sharia"
       ],
       "cta": "CUENTA ISLÁMICA",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Reembolso",
@@ -201,7 +201,7 @@
         "Sin volumen mínimo."
       ],
       "cta": "Activar Cashback",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "pakistan": [
@@ -216,7 +216,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Cuenta Islámica",
@@ -229,7 +229,7 @@
         "Apoyo dedicado"
       ],
       "cta": "CUENTA ISLÁMICA",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Comisión reducida",
@@ -242,7 +242,7 @@
         "Activación inmediata"
       ],
       "cta": "Reducir los costes",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "latam": [
@@ -257,7 +257,7 @@
         "Términos y condiciones aplican"
       ],
       "cta": "Reclamar Oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Programa de Referencia",
@@ -270,7 +270,7 @@
         "Pagos Rápidos"
       ],
       "cta": "¿A QUÉ ESPERAS PARA RECOMENDARNOS?",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Concurso de Trading Real",
@@ -283,7 +283,7 @@
         "Cuentas demo Y reales"
       ],
       "cta": "Entrar en el campeonato",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "namibia": [
@@ -298,7 +298,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Bono de pago local",
@@ -311,7 +311,7 @@
         "Crédito instantáneo"
       ],
       "cta": "Depositar ahora",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Acceso a la educación",
@@ -324,7 +324,7 @@
         "Certificado al finalizar"
       ],
       "cta": "Empiece a aprender ",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "kenya": [
@@ -339,7 +339,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Bonificación de M-Pesa",
@@ -352,7 +352,7 @@
         "Apilable con bono de bienvenida"
       ],
       "cta": "Depósito a través de M-Pesa",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Formación en directo",
@@ -365,7 +365,7 @@
         "Grabación de acceso"
       ],
       "cta": "Unirse a las sesiones",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "ghana": [
@@ -380,7 +380,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Programa de reembolso",
@@ -393,7 +393,7 @@
         "de todos los instrumentos"
       ],
       "cta": "Activar Cashback",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Educación para Trading",
@@ -406,7 +406,7 @@
         "- Acceso Comunitario"
       ],
       "cta": "Inscríbete gratis",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "nigeria": [
@@ -421,7 +421,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Bono de depósito de Naira",
@@ -434,7 +434,7 @@
         "Procesamiento instantáneo"
       ],
       "cta": "Depósito en Naira",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Señales gratuitas",
@@ -447,7 +447,7 @@
         "Seguimiento del rendimiento"
       ],
       "cta": "Obtenga señales gratuitas",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "south-africa": [
@@ -462,7 +462,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Cuenta zar",
@@ -475,7 +475,7 @@
         "Retiros rápidos de zar"
       ],
       "cta": "Abrir cuenta zar",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Concurso de Trading Real",
@@ -488,7 +488,7 @@
         "Los 20 mejores premios"
       ],
       "cta": "Participar en nuestro concurso ",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "trinidad-tobago": [
@@ -503,7 +503,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Caribbean Trader",
@@ -516,7 +516,7 @@
         "Tus ventajas exclusivas "
       ],
       "cta": "Unirse al programa",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "con spreads reducidos.",
@@ -529,7 +529,7 @@
         "Ejecución rápida"
       ],
       "cta": "comience a operar",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ],
   "guyana": [
@@ -544,7 +544,7 @@
         "Aplican términos y condiciones"
       ],
       "cta": "Aprovechar oferta",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Depositar BONIFICACIÓN",
@@ -557,7 +557,7 @@
         "No tenía comisiones ocultas"
       ],
       "cta": "Depósito en GYD",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     },
     {
       "badge": "Mánager",
@@ -570,7 +570,7 @@
         "Teléfono directo"
       ],
       "cta": "Su gerente",
-      "ctaLink": "./contact-us"
+      "ctaLink": "./?page=claim-offer"
     }
   ]
 }

@@ -1469,6 +1469,79 @@
       "consentRequired": "กรุณายืนยันความยินยอมเพื่อดำเนินการต่อ"
     }
   },
+  "claimOfferPage": {
+    "meta": {
+      "pageTitle": "รับข้อเสนอ | TraderTok",
+      "pageDescription": "ส่งข้อมูลของคุณเพื่อรับโปรโมชัน ทีมงานจะตรวจสอบคุณสมบัติและติดตามขั้นตอนถัดไป"
+    },
+    "heroTitle": "รับโบนัสเทรดของคุณ",
+    "heroLead": "กรอกข้อมูลเพื่อรับโบนัสเทรด หลังส่งแล้ว ทีมงานจะตรวจสอบคุณสมบัติและแนะนำขั้นตอนการเริ่มใช้งานอย่างง่ายเพื่อให้คุณเปิดใช้ข้อเสนอได้อย่างรวดเร็ว การเทรดมีความเสี่ยง นี่ไม่ใช่คำแนะนำทางการเงิน",
+    "stepsTitle": "ขั้นตอนถัดไป",
+    "stepsLead": "หลังคุณส่งแบบฟอร์ม เราใช้ข้อมูลเพื่อตรวจสอบว่าข้อเสนอใช้กับภูมิภาคและโปรไฟล์ของคุณหรือไม่ นี่คือลำดับทั่วไป",
+    "step1": "เราตรวจสอบคำขอของคุณและอาจขอการยืนยันเพิ่มเติมหากจำเป็น",
+    "step2": "สมาชิกทีมติดต่อทางอีเมลหรือโทรศัพท์พร้อมขั้นตอนที่ชัดเจนสำหรับบัญชีของคุณ",
+    "step3": "เมื่อได้รับอนุมัติ คุณจะทำการเริ่มใช้งานให้ครบและเปิดใช้โปรโมชันตามข้อกำหนดของข้อเสนอ",
+    "benefitsTitle": "ทำไมต้องรับข้อเสนอผ่าน TraderTok",
+    "benefit1": "โปรโมชันจัดโครงสร้างสำหรับภูมิภาคที่มีสิทธิ์—แบบฟอร์มช่วยให้เราจับคู่คุณกับข้อเสนอที่เหมาะสม",
+    "benefit2": "คุณได้รับการสนับสนุนโดยตรงจากทีมระหว่างการยืนยันและการตั้งค่าบัญชี",
+    "benefit3": "การเปิดเผยความเสี่ยงและข้อกำหนดแชร์ล่วงหน้าเพื่อให้คุณตัดสินใจด้วยความมั่นใจ",
+    "introNote": "คำขอจะได้รับการพิจารณาในเวลาทำการ การเทรดมีความเสี่ยง ข้อเสนอทั้งหมดขึ้นกับคุณสมบัติ ความพร้อม และข้อกำหนด",
+    "demoCrosslink": "เปิดบัญชีเดโม",
+    "cardMeta": "รายละเอียดของคุณ",
+    "cardTitle": "รับข้อเสนอของคุณ",
+    "labelName": "ชื่อ",
+    "placeholderName": "ชื่อ–นามสกุลของคุณ",
+    "labelEmail": "อีเมล",
+    "placeholderEmail": "you@example.com",
+    "labelCountry": "ประเทศ",
+    "labelExperience": "ประสบการณ์",
+    "experiencePlaceholder": "เลือกระดับประสบการณ์ของคุณ",
+    "experience": {
+      "beginner": "เริ่มต้น",
+      "intermediate": "ระดับกลาง",
+      "advanced": "ระดับสูง",
+      "professional": "มืออาชีพ"
+    },
+    "labelPhone": "หมายเลขโทรศัพท์",
+    "placeholderPhone": "รวมรหัสประเทศ",
+    "labelHeardAbout": "คุณรู้จักเราผ่านช่องทางใด?",
+    "heardAboutPlaceholder": "เลือกตัวเลือก",
+    "heardAbout": {
+      "search": "เครื่องมือค้นหา",
+      "social": "โซเชียลมีเดีย",
+      "friend": "เพื่อนหรือเพื่อนร่วมงาน",
+      "advertisement": "โฆษณา",
+      "email": "อีเมล",
+      "other": "อื่นๆ"
+    },
+    "selectPlaceholder": "เลือก…",
+    "countries": {
+      "GB": "สหราชอาณาจักร",
+      "US": "สหรัฐอเมริกา",
+      "DE": "เยอรมนี",
+      "FR": "ฝรั่งเศส",
+      "AU": "ออสเตรเลีย",
+      "CA": "แคนาดา",
+      "SG": "สิงคโปร์",
+      "AE": "สหรัฐอาหรับเอมิเรตส์",
+      "ZA": "แอฟริกาใต้",
+      "NG": "ไนจีเรีย",
+      "IN": "อินเดีย",
+      "MY": "มาเลเซีย",
+      "OTHER": "อื่นๆ"
+    },
+    "consentHtml": "ฉันเข้าใจว่าการเทรดมีความเสี่ยงและยอมให้ติดต่อเกี่ยวกับข้อเสนอนี้ ฉันได้อ่าน<a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">นโยบายความเป็นส่วนตัว</a>แล้ว",
+    "submitButton": "ส่ง",
+    "errors": {
+      "nameRequired": "กรุณากรอกชื่อของคุณ",
+      "emailInvalid": "กรุณากรอกอีเมลที่ถูกต้อง",
+      "countryRequired": "กรุณาเลือกประเทศของคุณ",
+      "experienceRequired": "กรุณาเลือกระดับประสบการณ์ของคุณ",
+      "phoneRequired": "กรุณากรอกหมายเลขโทรศัพท์",
+      "heardAboutRequired": "กรุณาระบุว่าคุณรู้จักเราผ่านช่องทางใด",
+      "consentRequired": "กรุณายืนยันความยินยอมเพื่อดำเนินการต่อ"
+    }
+  },
   "demoAccountModal": {
     "closeAriaLabel": "ปิด",
     "formNote": "แบบฟอร์มนี้ยังไม่เชื่อมต่อเซิร์ฟเวอร์ การส่งจะจำลองเพื่อทดสอบ เชื่อม CRM หรือ API ลงทะเบียนเมื่อพร้อม",
@@ -2202,7 +2275,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "โปรแกรมเงินคืน",
@@ -2215,7 +2288,7 @@
             "ตราสารทั้งหมดที่มีสิทธิ์"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Refer a Friend",
@@ -2228,7 +2301,7 @@
             "Withdrawable profits"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "thailand": [
@@ -2243,7 +2316,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2256,7 +2329,7 @@
             "Gold & oil included"
           ],
           "cta": "Open Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2269,7 +2342,7 @@
             "ความแม่นยำทางประวัติศาสตร์กว่า 70%"
           ],
           "cta": "Get Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "malaysia": [
@@ -2284,7 +2357,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2297,7 +2370,7 @@
             "Instant activation"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "การเทรด ECN",
@@ -2310,7 +2383,7 @@
             "Institutional pricing"
           ],
           "cta": "Try ECN Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "philippines": [
@@ -2325,7 +2398,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2338,7 +2411,7 @@
             "Monthly reset"
           ],
           "cta": "เข้าร่วมการแข่งขัน",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ข้อมูลด้านการศึกษาฟรี",
@@ -2351,7 +2424,7 @@
             "Personal mentor access"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "indonesia": [
@@ -2366,7 +2439,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2379,7 +2452,7 @@
             "Sharia-compliant"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "เงินคืน",
@@ -2392,7 +2465,7 @@
             "No minimum volume"
           ],
           "cta": "เปิดใช้งานเงินคืน",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "pakistan": [
@@ -2407,7 +2480,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2420,7 +2493,7 @@
             "การสนับสนุนโดยเฉพาะ"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Commission",
@@ -2433,7 +2506,7 @@
             "Instant activation"
           ],
           "cta": "Reduce Costs",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "latam": [
@@ -2448,7 +2521,7 @@
             "T&C aplican"
           ],
           "cta": "Reclamar Oferta",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Referral Program",
@@ -2461,7 +2534,7 @@
             "การรับเงินที่รวดเร็ว"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2474,7 +2547,7 @@
             "บัญชีทดลองและบัญชีจริง"
           ],
           "cta": "เข้าสู่การแข่งขันชิงแชมป์",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "namibia": [
@@ -2489,7 +2562,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Local Payment Bonus",
@@ -2502,7 +2575,7 @@
             "Instant credit"
           ],
           "cta": "ฝากเงินตอนนี้",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "การเข้าถึงการศึกษา",
@@ -2515,7 +2588,7 @@
             "ใบรับรองการสำเร็จการศึกษา"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "kenya": [
@@ -2530,7 +2603,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "M-Pesa Bonus",
@@ -2543,7 +2616,7 @@
             "Stackable with welcome bonus"
           ],
           "cta": "ฝากเงินผ่าน M-Pesa",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Live Training",
@@ -2556,7 +2629,7 @@
             "Recording access"
           ],
           "cta": "Join Sessions",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "ghana": [
@@ -2571,7 +2644,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "โปรแกรมเงินคืน",
@@ -2584,7 +2657,7 @@
             "ตราสารทั้งหมด"
           ],
           "cta": "เปิดใช้งานเงินคืน",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Education",
@@ -2597,7 +2670,7 @@
             "การเข้าถึงชุมชน"
           ],
           "cta": "ลงทะเบียนฟรี",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "nigeria": [
@@ -2612,7 +2685,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Naira Deposit Bonus",
@@ -2625,7 +2698,7 @@
             "Instant processing"
           ],
           "cta": "ฝากเงินที่ไนร่า",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2638,7 +2711,7 @@
             "Performance tracking"
           ],
           "cta": "Get Free Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "south-africa": [
@@ -2653,7 +2726,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ZAR Account",
@@ -2666,7 +2739,7 @@
             "การถอนเงิน ZAR ที่รวดเร็ว"
           ],
           "cta": "Open ZAR Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2679,7 +2752,7 @@
             "Top 20 win prizes"
           ],
           "cta": "เข้าร่วมการแข่งขัน",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "trinidad-tobago": [
@@ -2694,7 +2767,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "แคริบเบียนเทรดเดอร์",
@@ -2707,7 +2780,7 @@
             "สิทธิพิเศษสุดพิเศษ"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2720,7 +2793,7 @@
             "การดำเนินการที่รวดเร็ว"
           ],
           "cta": "Start Trading",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "guyana": [
@@ -2735,7 +2808,7 @@
             "T&C apply"
           ],
           "cta": "เสนอข้อเรียกร้อง",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "GYD Deposit Bonus",
@@ -2748,7 +2821,7 @@
             "No hidden fees"
           ],
           "cta": "ฝากเงินใน GYD",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Personal Manager",
@@ -2761,7 +2834,7 @@
             "สายตรง"
           ],
           "cta": "Get Your Manager",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ]
     },

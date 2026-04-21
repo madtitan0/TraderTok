@@ -37,6 +37,13 @@
         return null;
     }
 
+    function isVisitorOffersUnsupported() {
+        return (
+            typeof window.TraderTokIsOffersUnsupportedVisitor === 'function' &&
+            window.TraderTokIsOffersUnsupportedVisitor()
+        );
+    }
+
     // Region groups — other rows disabled when offers are locked to visitor region (subdomain or geo)
     var REGION_GROUPS = [
         {
@@ -70,14 +77,15 @@
         }
     ];
 
-    function buildDropdownHtml(basePath, lockedCountry) {
+    function buildDropdownHtml(basePath, lockedCountry, allCountriesDisabled) {
             var html = '<div class="offers-dropdown-grid">';
             REGION_GROUPS.forEach(function(group) {
                 html += '<div class="offers-dropdown-col">';
                 html += '<h4 class="offers-dropdown-heading">' + group.title + '</h4>';
                 group.countries.forEach(function(c) {
                     var isLockedInactive =
-                        lockedCountry && c.id !== lockedCountry;
+                        !!allCountriesDisabled ||
+                        (lockedCountry && c.id !== lockedCountry);
                     var rowClass =
                         'offers-dropdown-item' +
                         (isLockedInactive ? ' offers-dropdown-item--disabled' : '');
@@ -119,12 +127,21 @@
             var footerHref = lockedCountry
                 ? basePath + '#' + lockedCountry
                 : basePath;
-            html +=
-                '<div class="offers-dropdown-footer">' +
-                '<a href="' +
-                footerHref +
-                '" class="offers-dropdown-all">View All Offers →</a>' +
-                '</div>';
+            if (allCountriesDisabled) {
+                html +=
+                    '<div class="offers-dropdown-footer">' +
+                    '<span class="offers-dropdown-all offers-dropdown-all--disabled" aria-disabled="true">' +
+                    'View All Offers →' +
+                    '</span>' +
+                    '</div>';
+            } else {
+                html +=
+                    '<div class="offers-dropdown-footer">' +
+                    '<a href="' +
+                    footerHref +
+                    '" class="offers-dropdown-all">View All Offers →</a>' +
+                    '</div>';
+            }
 
         return html;
     }
@@ -134,12 +151,13 @@
         if (!dropdowns.length) return;
 
         var lockedCountry = getLockedOfferRegion();
+        var allDisabled = isVisitorOffersUnsupported();
 
         dropdowns.forEach(function(dropdown) {
             var navItem = dropdown.closest('.nav-item');
             var parentLink = navItem ? navItem.querySelector('a.nav-link') : null;
             var basePath = parentLink ? parentLink.getAttribute('href') : './offers-promotions';
-            dropdown.innerHTML = buildDropdownHtml(basePath, lockedCountry);
+            dropdown.innerHTML = buildDropdownHtml(basePath, lockedCountry, allDisabled);
         });
     }
 
@@ -149,6 +167,7 @@
     }
 
     async function tryDetectOfferRegionForNav() {
+        if (window.subdomainData && window.subdomainData.country) return;
         if (getLockedOfferRegion()) return;
         if (isOffersPromotionsPage()) return;
         if (
@@ -161,7 +180,19 @@
             var iso = await window.TraderTokFetchVisitorIsoCountryCode();
             if (!iso) return;
             var region = window.TraderTokIsoToOfferPromoRegionSlug(iso);
-            if (!region) return;
+            if (!region) {
+                if (window.TraderTokSetOffersUnsupportedVisitorFlag) {
+                    window.TraderTokSetOffersUnsupportedVisitorFlag();
+                }
+                try {
+                    sessionStorage.removeItem(OFFERS_GEO_SESSION_KEY);
+                } catch (eRm) {}
+                renderOffersDropdowns();
+                return;
+            }
+            if (window.TraderTokClearOffersUnsupportedVisitorFlag) {
+                window.TraderTokClearOffersUnsupportedVisitorFlag();
+            }
             try {
                 sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, region);
             } catch (e2) {}
@@ -170,6 +201,9 @@
     }
 
     function init() {
+        if (window.subdomainData && window.subdomainData.country && window.TraderTokClearOffersUnsupportedVisitorFlag) {
+            window.TraderTokClearOffersUnsupportedVisitorFlag();
+        }
         renderOffersDropdowns();
         void tryDetectOfferRegionForNav();
     }
@@ -179,4 +213,8 @@
     } else {
         init();
     }
+
+    window.addEventListener('tradertok:offers-unsupported-visitor', function () {
+        renderOffersDropdowns();
+    });
 })();

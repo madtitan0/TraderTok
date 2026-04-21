@@ -75,6 +75,7 @@ return [
         'edu-resources' => 'includes/edu-resources.php',
         'open-demo-account' => 'includes/open-demo-account.php',
         'open-live-account' => 'includes/open-live-account.php',
+        'claim-offer' => 'includes/claim-offer.php',
         'lead-thank-you' => 'includes/lead-thank-you.php',
         'about' => 'includes/about.php',
         'blog' => 'includes/blog.php',

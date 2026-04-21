@@ -1469,6 +1469,79 @@
       "consentRequired": "جاری رکھنے کے لیے رضامندی کی تصدیق کریں۔"
     }
   },
+  "claimOfferPage": {
+    "meta": {
+      "pageTitle": "پیشکش حاصل کریں | TraderTok",
+      "pageDescription": "پروموشن کے لیے اپنی تفصیلات جمع کرائیں۔ ہماری ٹیم اہلیت کی تصدیق کرے گی اور اگلے مراحل پر رابطہ کرے گی۔"
+    },
+    "heroTitle": "اپنا ٹریڈنگ بونس حاصل کریں",
+    "heroLead": "بونس حاصل کرنے کے لیے تفصیلات درج کریں۔ جمع کرانے کے بعد ہماری ٹیم آپ کی اہلیت کی تصدیق کرے گی اور سادہ آن بورڈنگ میں رہنمائی کرے گی تاکہ آپ جلد پیشکش فعال کر سکیں۔ ٹریڈنگ میں خطرہ ہوتا ہے؛ یہ مالی مشورہ نہیں۔",
+    "stepsTitle": "آگے کیا ہوتا ہے",
+    "stepsLead": "فارم جمع کرانے کے بعد ہم آپ کی تفصیلات سے چیک کرتے ہیں کہ پیشکش آپ کے علاقے اور پروفائل پر لاگو ہوتی ہے یا نہیں۔ یہ عام سلسلہ ہے۔",
+    "step1": "ہم آپ کی درخواست کا جائزہ لیتے ہیں اور ضرورت ہو تو اضافی تصدیق مانگ سکتے ہیں۔",
+    "step2": "ٹیم کا کوئی رکن ای میل یا فون پر واضح اگلے مراحل کے ساتھ رابطہ کرتا ہے۔",
+    "step3": "منظوری کے بعد آپ آن بورڈنگ مکمل کرتے ہیں اور پیشکش کی شرائط کے مطابق پروموشن فعال کرتے ہیں۔",
+    "benefitsTitle": "TraderTok کے ذریعے پیشکش کیوں حاصل کریں",
+    "benefit1": "پروموشنز اہل علاقوں کے لیے ترتیب دیے گئے—فارم ہمیں آپ کو صحیح پیشکش سے ملانے میں مدد کرتا ہے۔",
+    "benefit2": "تصدیق اور اکاؤنٹ سیٹ اپ کے دوران آپ کو ٹیم سے براہ راست مدد ملتی ہے۔",
+    "benefit3": "خطرے کی وضاحت اور شرائط پہلے شیئر کی جاتی ہیں تاکہ آپ بااعتماد فیصلہ کر سکیں۔",
+    "introNote": "درخواستیں کاروباری اوقات میں دیکھی جاتی ہیں۔ ٹریڈنگ میں خطرہ ہے؛ تمام پیشکشیں اہلیت، دستیابی اور شرائط پر منحصر ہیں۔",
+    "demoCrosslink": "ڈیمو اکاؤنٹ کھولیں",
+    "cardMeta": "آپ کی تفصیلات",
+    "cardTitle": "اپنی پیشکش حاصل کریں",
+    "labelName": "نام",
+    "placeholderName": "آپ کا مکمل نام",
+    "labelEmail": "ای میل",
+    "placeholderEmail": "aap@example.com",
+    "labelCountry": "ملک",
+    "labelExperience": "تجربہ",
+    "experiencePlaceholder": "اپنا تجربہ منتخب کریں",
+    "experience": {
+      "beginner": "ابتدائی",
+      "intermediate": "درمیانہ",
+      "advanced": "اعلیٰ",
+      "professional": "پیشہ ورانہ"
+    },
+    "labelPhone": "فون نمبر",
+    "placeholderPhone": "ملک کا کوڈ شامل کریں",
+    "labelHeardAbout": "آپ نے ہمارے بارے میں کیسے سنا؟",
+    "heardAboutPlaceholder": "ایک اختیار منتخب کریں",
+    "heardAbout": {
+      "search": "سرچ انجن",
+      "social": "سوشل میڈیا",
+      "friend": "دوست یا ساتھی",
+      "advertisement": "اشتہار",
+      "email": "ای میل",
+      "other": "دیگر"
+    },
+    "selectPlaceholder": "منتخب کریں…",
+    "countries": {
+      "GB": "برطانیہ",
+      "US": "ریاستہائے متحدہ",
+      "DE": "جرمنی",
+      "FR": "فرانس",
+      "AU": "آسٹریلیا",
+      "CA": "کینیڈا",
+      "SG": "سنگاپور",
+      "AE": "متحدہ عرب امارات",
+      "ZA": "جنوبی افریقہ",
+      "NG": "نائجیریا",
+      "IN": "بھارت",
+      "MY": "ملائیشیا",
+      "OTHER": "دیگر"
+    },
+    "consentHtml": "مجھے معلوم ہے کہ ٹریڈنگ میں خطرہ ہوتا ہے اور میں اس پیشکش کے بارے میں رابطے پر رضامند ہوں۔ میں نے <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">رازداری کی پالیسی</a> پڑھ لی ہے۔",
+    "submitButton": "جمع کرائیں",
+    "errors": {
+      "nameRequired": "براہ کرم اپنا نام درج کریں۔",
+      "emailInvalid": "براہ کرم درست ای میل درج کریں۔",
+      "countryRequired": "براہ کرم اپنا ملک منتخب کریں۔",
+      "experienceRequired": "براہ کرم اپنا تجربہ منتخب کریں۔",
+      "phoneRequired": "براہ کرم فون نمبر درج کریں۔",
+      "heardAboutRequired": "براہ کرم بتائیں آپ نے ہمارے بارے میں کیسے سنا۔",
+      "consentRequired": "جاری رکھنے کے لیے رضامندی کی تصدیق کریں۔"
+    }
+  },
   "demoAccountModal": {
     "closeAriaLabel": "بند کریں",
     "formNote": "یہ فارم ابھی سرور سے منسلک نہیں۔ ٹیسٹ کے لیے جمع کرانا نمائشی ہے؛ تیار ہونے پر CRM یا رجسٹریشن API منسلک کریں۔",
@@ -2202,7 +2275,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback Program",
@@ -2215,7 +2288,7 @@
             "All instruments eligible"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Refer a Friend",
@@ -2228,7 +2301,7 @@
             "Withdrawable profits"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "thailand": [
@@ -2243,7 +2316,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2256,7 +2329,7 @@
             "Gold & oil included"
           ],
           "cta": "Open Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2269,7 +2342,7 @@
             "70%+ historical accuracy"
           ],
           "cta": "Get Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "malaysia": [
@@ -2284,7 +2357,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2297,7 +2370,7 @@
             "Instant activation"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ECN Trading",
@@ -2310,7 +2383,7 @@
             "Institutional pricing"
           ],
           "cta": "Try ECN Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "philippines": [
@@ -2325,7 +2398,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2338,7 +2411,7 @@
             "Monthly reset"
           ],
           "cta": "Enter Competition",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Education",
@@ -2351,7 +2424,7 @@
             "Personal mentor access"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "indonesia": [
@@ -2366,7 +2439,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2379,7 +2452,7 @@
             "Sharia-compliant"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback",
@@ -2392,7 +2465,7 @@
             "No minimum volume"
           ],
           "cta": "Activate Cashback",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "pakistan": [
@@ -2407,7 +2480,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Islamic Account",
@@ -2420,7 +2493,7 @@
             "Dedicated support"
           ],
           "cta": "Open Islamic Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Commission",
@@ -2433,7 +2506,7 @@
             "Instant activation"
           ],
           "cta": "Reduce Costs",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "latam": [
@@ -2448,7 +2521,7 @@
             "T&C aplican"
           ],
           "cta": "Reclamar Oferta",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Referral Program",
@@ -2461,7 +2534,7 @@
             "Fast payouts"
           ],
           "cta": "Start Referring",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2474,7 +2547,7 @@
             "Demo & live accounts"
           ],
           "cta": "Enter Championship",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "namibia": [
@@ -2489,7 +2562,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Local Payment Bonus",
@@ -2502,7 +2575,7 @@
             "Instant credit"
           ],
           "cta": "Deposit Now",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Education Access",
@@ -2515,7 +2588,7 @@
             "Certificate on completion"
           ],
           "cta": "Start Learning",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "kenya": [
@@ -2530,7 +2603,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "M-Pesa Bonus",
@@ -2543,7 +2616,7 @@
             "Stackable with welcome bonus"
           ],
           "cta": "Deposit via M-Pesa",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Live Training",
@@ -2556,7 +2629,7 @@
             "Recording access"
           ],
           "cta": "Join Sessions",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "ghana": [
@@ -2571,7 +2644,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Cashback Program",
@@ -2584,7 +2657,7 @@
             "All instruments"
           ],
           "cta": "Activate Cashback",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Education",
@@ -2597,7 +2670,7 @@
             "Community access"
           ],
           "cta": "Enroll Free",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "nigeria": [
@@ -2612,7 +2685,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Naira Deposit Bonus",
@@ -2625,7 +2698,7 @@
             "Instant processing"
           ],
           "cta": "Deposit in Naira",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Free Signals",
@@ -2638,7 +2711,7 @@
             "Performance tracking"
           ],
           "cta": "Get Free Signals",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "south-africa": [
@@ -2653,7 +2726,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "ZAR Account",
@@ -2666,7 +2739,7 @@
             "Fast ZAR withdrawals"
           ],
           "cta": "Open ZAR Account",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Trading Competition",
@@ -2679,7 +2752,7 @@
             "Top 20 win prizes"
           ],
           "cta": "Enter Competition",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "trinidad-tobago": [
@@ -2694,7 +2767,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Caribbean Trader",
@@ -2707,7 +2780,7 @@
             "Exclusive perks"
           ],
           "cta": "Join Program",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Reduced Spreads",
@@ -2720,7 +2793,7 @@
             "Fast execution"
           ],
           "cta": "Start Trading",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ],
       "guyana": [
@@ -2735,7 +2808,7 @@
             "T&C apply"
           ],
           "cta": "Claim Offer",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "GYD Deposit Bonus",
@@ -2748,7 +2821,7 @@
             "No hidden fees"
           ],
           "cta": "Deposit in GYD",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         },
         {
           "badge": "Personal Manager",
@@ -2761,7 +2834,7 @@
             "Direct phone line"
           ],
           "cta": "Get Your Manager",
-          "ctaLink": "./contact-us"
+          "ctaLink": "./?page=claim-offer"
         }
       ]
     },

@@ -16,8 +16,8 @@
             </p>
             <div class="hero-ctas education-hub-main-hero-ctas">
                 <a href="#hub-sections" class="btn-secondary1" data-i18n="educationHubPage.ctaExplore">Explore Sections</a>
-                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-primary" data-i18n="educationHubPage.ctaDemo">Open demo account</a>
-                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary education-hub-hero-live-cta" data-i18n="educationHubPage.ctaLive">Open live account</a>
+                <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-primary" data-i18n="educationHubPage.ctaDemo">Open Demo Account</a>
+                <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary education-hub-hero-live-cta" data-i18n="educationHubPage.ctaLive">Open Live account</a>
             </div>
             <p class="micro-trust" data-i18n="educationHubPage.microTrust">Educational content only. Clear market knowledge, practical learning paths, and easier access to resources.</p>
         </div>

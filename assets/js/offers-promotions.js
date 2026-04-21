@@ -112,7 +112,7 @@
                 description: 'Double your starting capital with our exclusive welcome offer for Vietnamese traders. Open a live account and receive a 100% bonus on your first deposit.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Cashback Program',
@@ -120,7 +120,7 @@
                 description: 'Earn back a percentage of your weekly trading volume automatically. The more you trade, the more you earn back into your account.',
                 details: ['5% weekly cashback', 'No cap on earnings', 'Credited every Monday', 'All instruments eligible'],
                 cta: 'Join Program',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Refer a Friend',
@@ -128,7 +128,7 @@
                 description: 'Invite your friends to trade with TraderTok and receive $50 for each friend who opens and funds a live account. Your friend also gets a bonus.',
                 details: ['$50 per referral', 'No referral limit', 'Friend gets $25 bonus', 'Withdrawable profits'],
                 cta: 'Start Referring',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -139,7 +139,7 @@
                 description: 'Start trading with extra margin. Thai traders receive a generous 75% bonus on their first deposit to amplify their trading potential.',
                 details: ['Min. deposit $50', 'Max. bonus $3,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Reduced Spreads',
@@ -147,7 +147,7 @@
                 description: 'Enjoy ultra-tight spreads on all major currency pairs. Trade EUR/USD, GBP/USD, and USD/JPY with some of the lowest spreads in the industry.',
                 details: ['From 0.1 pips on majors', 'No commission on standard', 'Available on all platforms', 'Gold & oil included'],
                 cta: 'Open Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Free Signals',
@@ -155,7 +155,7 @@
                 description: 'Receive professional daily trading signals directly to your device. Our expert analysts deliver actionable trade ideas across forex, commodities, and indices.',
                 details: ['5+ signals daily', 'Entry, TP & SL levels', 'Telegram & email delivery', '70%+ historical accuracy'],
                 cta: 'Get Signals',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -166,7 +166,7 @@
                 description: 'Double your trading capital with our exclusive welcome offer for Malaysian traders. Fund your account and start trading with 100% additional margin.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Islamic Account',
@@ -174,7 +174,7 @@
                 description: 'Trade in accordance with your principles. Our Sharia-compliant accounts feature zero overnight swap fees on all positions held past market close.',
                 details: ['Zero swap fees', 'No hidden costs', 'Full instrument access', 'Instant activation'],
                 cta: 'Open Islamic Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'ECN Trading',
@@ -182,7 +182,7 @@
                 description: 'Experience professional-grade trading with direct market access. Enjoy ultra-low raw spreads from 0.0 pips on major pairs with fast execution.',
                 details: ['From 0.0 pips', 'Deep liquidity', 'Fast execution', 'Institutional pricing'],
                 cta: 'Try ECN Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -193,7 +193,7 @@
                 description: 'Kickstart your trading journey with double the capital. Filipino traders receive a 100% match on their first deposit to maximize trading opportunities.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Trading Competition',
@@ -201,7 +201,7 @@
                 description: 'Compete against fellow traders for a share of the $10,000 monthly prize pool. Top performers on demo or live accounts win cash prizes.',
                 details: ['$10,000 prize pool', 'Top 10 win prizes', 'Demo & live eligible', 'Monthly reset'],
                 cta: 'Enter Competition',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Free Education',
@@ -209,7 +209,7 @@
                 description: 'Access our comprehensive education library at no cost. Includes video courses, webinars, e-books, and live mentoring sessions for all skill levels.',
                 details: ['50+ video lessons', 'Weekly live webinars', 'E-book library', 'Personal mentor access'],
                 cta: 'Start Learning',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -220,7 +220,7 @@
                 description: 'Boost your first deposit with a 50% bonus. Indonesian traders can start with additional trading capital to explore the global markets.',
                 details: ['Min. deposit $50', 'Max. bonus $2,500', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Islamic Account',
@@ -228,7 +228,7 @@
                 description: 'Trade in accordance with Sharia principles. Our Islamic account features zero overnight swap charges on all positions held past market close.',
                 details: ['Zero swap charges', 'No hidden fees', 'All instruments available', 'Sharia-compliant'],
                 cta: 'Open Islamic Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Cashback',
@@ -236,7 +236,7 @@
                 description: 'Receive 3% cashback on every trade you execute, regardless of the outcome. Funds are credited directly to your trading account weekly.',
                 details: ['3% per trade', 'Win or lose', 'Weekly credit', 'No minimum volume'],
                 cta: 'Activate Cashback',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -247,7 +247,7 @@
                 description: 'Double your trading power with our exclusive 100% deposit match for Pakistani clients. Fund your account and trade with twice the capital.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Islamic Account',
@@ -255,7 +255,7 @@
                 description: 'Trade confidently with our fully Sharia-compliant trading account. Hold positions overnight without any swap or rollover fees applied.',
                 details: ['Zero swap fees', 'Sharia-compliant', 'Full instrument access', 'Dedicated support'],
                 cta: 'Open Islamic Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Reduced Commission',
@@ -263,7 +263,7 @@
                 description: 'Enjoy significantly lower commission rates on all your trades. High-volume traders benefit from even deeper discounts on our ECN accounts.',
                 details: ['Up to 50% reduction', 'ECN accounts eligible', 'Volume-based tiers', 'Instant activation'],
                 cta: 'Reduce Costs',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -274,7 +274,7 @@
                 description: 'Duplica tu capital inicial con nuestra oferta exclusiva de bienvenida para traders latinoamericanos. Abre una cuenta y recibe un 100% de bono en tu primer deposito.',
                 details: ['Deposito min. $100', 'Bono max. $5,000', 'Valido por 30 dias', 'T&C aplican'],
                 cta: 'Reclamar Oferta',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Referral Program',
@@ -282,7 +282,7 @@
                 description: 'Invite traders from any Latin American country and earn $75 for each successful referral. Build your network and earn unlimited rewards.',
                 details: ['$75 per referral', 'Unlimited referrals', 'Multi-country support', 'Fast payouts'],
                 cta: 'Start Referring',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Trading Competition',
@@ -290,7 +290,7 @@
                 description: 'Compete in the region-wide trading championship with a $15,000 prize pool. Traders from all Latin American countries are eligible to participate.',
                 details: ['$15,000 prize pool', 'Regional leaderboard', 'Monthly rounds', 'Demo & live accounts'],
                 cta: 'Enter Championship',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -301,7 +301,7 @@
                 description: 'Start your trading journey with a 75% bonus on your first deposit. Namibian traders can access global markets with enhanced capital.',
                 details: ['Min. deposit $50', 'Max. bonus $3,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Local Payment Bonus',
@@ -309,7 +309,7 @@
                 description: 'Receive an additional 10% bonus when you deposit using local Namibian payment methods. Stack this on top of your welcome bonus for maximum value.',
                 details: ['Extra 10% bonus', 'Local bank transfers', 'Mobile money accepted', 'Instant credit'],
                 cta: 'Deposit Now',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Education Access',
@@ -317,7 +317,7 @@
                 description: 'Access our complete premium education suite at no charge. Includes beginner to advanced courses, market analysis tools, and weekly mentoring sessions.',
                 details: ['Full course library', 'Weekly mentoring', 'Market analysis tools', 'Certificate on completion'],
                 cta: 'Start Learning',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -328,7 +328,7 @@
                 description: 'Double your capital with a 100% match on your first deposit. Kenyan traders can take advantage of this offer to trade forex, metals, and more.',
                 details: ['Min. deposit $50', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'M-Pesa Bonus',
@@ -336,7 +336,7 @@
                 description: 'Fund your account using M-Pesa and receive an extra 15% bonus on every deposit. Fast, convenient, and rewarding for Kenyan traders.',
                 details: ['15% extra on M-Pesa', 'Instant processing', 'No deposit fees', 'Stackable with welcome bonus'],
                 cta: 'Deposit via M-Pesa',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Live Training',
@@ -344,7 +344,7 @@
                 description: 'Join our expert analysts for free live trading sessions every week. Watch real-time analysis, learn strategies, and ask questions during market hours.',
                 details: ['Weekly live sessions', 'Real-time analysis', 'Interactive Q&A', 'Recording access'],
                 cta: 'Join Sessions',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -355,7 +355,7 @@
                 description: 'Get a 50% boost on your first deposit. Ghanaian traders can begin their trading journey with additional capital across all account types.',
                 details: ['Min. deposit $50', 'Max. bonus $2,500', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Cashback Program',
@@ -363,7 +363,7 @@
                 description: 'Earn 4% cashback on your weekly trading volume. Funds are automatically credited to your account every Monday morning.',
                 details: ['4% weekly cashback', 'Automatic credit', 'No cap on earnings', 'All instruments'],
                 cta: 'Activate Cashback',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Trading Education',
@@ -371,7 +371,7 @@
                 description: 'Master the markets with our free trading education program designed for Ghanaian traders. Covers fundamentals, technical analysis, and risk management.',
                 details: ['40+ video lessons', 'Practice exercises', 'Downloadable guides', 'Community access'],
                 cta: 'Enroll Free',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -382,7 +382,7 @@
                 description: 'Start strong with a 100% deposit match. Nigerian traders can fund their accounts and trade with double the capital from day one.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Naira Deposit Bonus',
@@ -390,7 +390,7 @@
                 description: 'Deposit in Nigerian Naira and receive an extra 15% bonus on top of your deposit. Supports local bank transfers and popular Nigerian payment methods.',
                 details: ['15% extra on NGN deposits', 'Local bank transfers', 'Opay & Palmpay accepted', 'Instant processing'],
                 cta: 'Deposit in Naira',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Free Signals',
@@ -398,7 +398,7 @@
                 description: 'Receive daily professional trading signals delivered via Telegram and email. Covering forex, gold, and indices with clear entry and exit levels.',
                 details: ['5+ daily signals', 'Forex, gold & indices', 'Telegram delivery', 'Performance tracking'],
                 cta: 'Get Free Signals',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -409,7 +409,7 @@
                 description: 'Amplify your starting capital with a 75% deposit bonus. South African traders enjoy competitive conditions and enhanced trading power.',
                 details: ['Min. deposit $100', 'Max. bonus $3,750', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'ZAR Account',
@@ -417,7 +417,7 @@
                 description: 'Trade directly in South African Rand with no currency conversion fees. Enjoy local deposits and withdrawals with zero additional charges.',
                 details: ['ZAR base currency', 'No conversion fees', 'EFT deposits supported', 'Fast ZAR withdrawals'],
                 cta: 'Open ZAR Account',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Trading Competition',
@@ -425,7 +425,7 @@
                 description: 'Compete for your share of a $20,000 prize pool in our quarterly South Africa Trading Cup. Open to all SA-based traders on live accounts.',
                 details: ['$20,000 prize pool', 'Quarterly competition', 'Live accounts only', 'Top 20 win prizes'],
                 cta: 'Enter Competition',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -436,7 +436,7 @@
                 description: 'Double your first deposit with our exclusive welcome offer for Trinidad & Tobago traders. Access global markets with enhanced trading capital.',
                 details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Caribbean Trader',
@@ -444,7 +444,7 @@
                 description: 'Join our exclusive Caribbean Trader program and earn loyalty points on every trade. Redeem points for cash bonuses, reduced spreads, and premium services.',
                 details: ['Earn points per lot', 'Redeem for cash', 'Tiered VIP levels', 'Exclusive perks'],
                 cta: 'Join Program',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Reduced Spreads',
@@ -452,7 +452,7 @@
                 description: 'Trade with some of the tightest spreads available in the Caribbean region. Major forex pairs, gold, and indices at ultra-competitive pricing.',
                 details: ['From 0.2 pips', 'Majors & gold', 'No requotes', 'Fast execution'],
                 cta: 'Start Trading',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ],
 
@@ -463,7 +463,7 @@
                 description: 'Start with a 75% bonus on your first deposit. Guyanese traders can access world-class trading conditions with boosted starting capital.',
                 details: ['Min. deposit $50', 'Max. bonus $3,000', 'Valid for 30 days', 'T&C apply'],
                 cta: 'Claim Offer',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'GYD Deposit Bonus',
@@ -471,7 +471,7 @@
                 description: 'Fund your account in GYD and receive an additional 10% bonus. Supports local bank transfers with quick processing times.',
                 details: ['10% extra on GYD', 'Local bank support', 'Quick processing', 'No hidden fees'],
                 cta: 'Deposit in GYD',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             },
             {
                 badge: 'Personal Manager',
@@ -479,7 +479,7 @@
                 description: 'Receive one-on-one support from a dedicated account manager. Get personalized trading guidance, market insights, and priority assistance.',
                 details: ['1-on-1 support', 'Trading guidance', 'Priority withdrawals', 'Direct phone line'],
                 cta: 'Get Your Manager',
-                ctaLink: './contact-us'
+                ctaLink: './?page=claim-offer'
             }
         ]
     };
@@ -634,9 +634,18 @@
     function renderPromotions(regionId) {
         var grid = document.getElementById('promotionsGrid');
         var empty = document.getElementById('promotionsEmpty');
-        if (!grid) return;
-
         var cta = document.getElementById('offersContentCta');
+
+        if (window.TraderTokIsOffersUnsupportedVisitor && window.TraderTokIsOffersUnsupportedVisitor()) {
+            if (grid) grid.innerHTML = '';
+            if (empty) empty.style.display = 'none';
+            if (cta) cta.style.display = 'none';
+            var ph = document.getElementById('promotionsHeader');
+            if (ph) ph.style.display = 'none';
+            return;
+        }
+
+        if (!grid) return;
 
         // No region selected — show prompt to pick one
         if (!regionId) {
@@ -901,6 +910,16 @@
 
         window.addEventListener('hashchange', function () {
             if (offerRegionResolutionPending) return;
+            if (window.TraderTokIsOffersUnsupportedVisitor && window.TraderTokIsOffersUnsupportedVisitor()) {
+                if (window.location.hash) {
+                    history.replaceState(
+                        null,
+                        '',
+                        window.location.pathname + window.location.search
+                    );
+                }
+                return;
+            }
             var lock = getOffersLockCountry();
             if (lock) {
                 var want = getRegionFromURL();
@@ -974,14 +993,39 @@
             if (!countryCode) return;
 
             var detectedRegion = mapCountryToRegion(countryCode);
-            if (!detectedRegion) return;
+            if (!detectedRegion) {
+                if (window.TraderTokSetOffersUnsupportedVisitorFlag) {
+                    window.TraderTokSetOffersUnsupportedVisitorFlag();
+                }
+                try {
+                    sessionStorage.removeItem(OFFERS_GEO_SESSION_KEY);
+                } catch (eRm) {}
+                selectedRegion = null;
+                if (window.location.hash) {
+                    history.replaceState(
+                        null,
+                        '',
+                        window.location.pathname + window.location.search
+                    );
+                }
+                renderPromotions(null);
+                refreshOffersChromeState();
+                try {
+                    window.dispatchEvent(new CustomEvent('tradertok:offers-unsupported-visitor'));
+                } catch (eEv) {}
+                return;
+            }
+
+            if (window.TraderTokClearOffersUnsupportedVisitorFlag) {
+                window.TraderTokClearOffersUnsupportedVisitorFlag();
+            }
 
             try {
                 sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, detectedRegion);
             } catch (e3) {}
 
             selectRegion(detectedRegion);
-            updateOffersLockUI(true);
+            refreshOffersChromeState();
             normalizeOffersHashToLock();
         } catch (e) {
             // Fail silently on any error
@@ -1059,7 +1103,10 @@
     }
 
     function isOffersInteractionBlocked() {
-        return !!getOffersLockCountry() || offerRegionResolutionPending;
+        var unsupported =
+            window.TraderTokIsOffersUnsupportedVisitor &&
+            window.TraderTokIsOffersUnsupportedVisitor();
+        return !!getOffersLockCountry() || offerRegionResolutionPending || unsupported;
     }
 
     function normalizeOffersHashToLock() {
@@ -1081,15 +1128,29 @@
         }
     }
 
-    function updateOffersLockUI(locked) {
+    function refreshOffersChromeState() {
+        var lockCountry = getOffersLockCountry();
+        var unsupported =
+            window.TraderTokIsOffersUnsupportedVisitor &&
+            window.TraderTokIsOffersUnsupportedVisitor();
         var sb = document.getElementById('offersSidebar');
         var strip = document.getElementById('countryStrip');
         var dd = document.getElementById('regionDropdown');
         var clearBtn = document.getElementById('clearRegion');
-        if (sb) sb.classList.toggle('is-locked', !!locked);
-        if (strip) strip.classList.toggle('is-locked', !!locked);
-        if (dd) dd.disabled = !!locked;
-        if (clearBtn) clearBtn.style.display = locked ? 'none' : '';
+        if (sb) {
+            sb.classList.toggle('is-locked', !!lockCountry);
+            sb.classList.toggle('is-unsupported-region', !!unsupported);
+        }
+        if (strip) {
+            strip.classList.toggle('is-locked', !!lockCountry);
+            strip.classList.toggle('is-unsupported-region', !!unsupported);
+        }
+        if (dd) {
+            dd.disabled = !!lockCountry || !!unsupported || offerRegionResolutionPending;
+        }
+        if (clearBtn) {
+            clearBtn.style.display = lockCountry || unsupported ? 'none' : '';
+        }
     }
 
     function init() {
@@ -1098,11 +1159,14 @@
         initEventListeners();
 
         if (window.subdomainData && window.subdomainData.country) {
+            if (window.TraderTokClearOffersUnsupportedVisitorFlag) {
+                window.TraderTokClearOffersUnsupportedVisitorFlag();
+            }
             try {
                 sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, window.subdomainData.country);
             } catch (e0) {}
             selectRegion(window.subdomainData.country);
-            updateOffersLockUI(true);
+            refreshOffersChromeState();
             normalizeOffersHashToLock();
             return;
         }
@@ -1110,8 +1174,11 @@
         try {
             var cached = sessionStorage.getItem(OFFERS_GEO_SESSION_KEY);
             if (cached && getRegionById(cached)) {
+                if (window.TraderTokClearOffersUnsupportedVisitorFlag) {
+                    window.TraderTokClearOffersUnsupportedVisitorFlag();
+                }
                 selectRegion(cached);
-                updateOffersLockUI(true);
+                refreshOffersChromeState();
                 normalizeOffersHashToLock();
                 return;
             }
@@ -1119,23 +1186,40 @@
 
         var subdomainRegion = getRegionFromSubdomain();
         if (subdomainRegion) {
+            if (window.TraderTokClearOffersUnsupportedVisitorFlag) {
+                window.TraderTokClearOffersUnsupportedVisitorFlag();
+            }
             try {
                 sessionStorage.setItem(OFFERS_GEO_SESSION_KEY, subdomainRegion);
             } catch (e2) {}
             selectRegion(subdomainRegion);
-            updateOffersLockUI(true);
+            refreshOffersChromeState();
             normalizeOffersHashToLock();
+            return;
+        }
+
+        if (window.TraderTokIsOffersUnsupportedVisitor && window.TraderTokIsOffersUnsupportedVisitor()) {
+            if (window.location.hash) {
+                history.replaceState(
+                    null,
+                    '',
+                    window.location.pathname + window.location.search
+                );
+            }
+            renderPromotions(null);
+            refreshOffersChromeState();
+            try {
+                window.dispatchEvent(new CustomEvent('tradertok:offers-unsupported-visitor'));
+            } catch (eUs) {}
             return;
         }
 
         offerRegionResolutionPending = true;
         renderPromotions(null);
-        updateOffersLockUI(true);
+        refreshOffersChromeState();
         void attemptGeoDetection().finally(function () {
             offerRegionResolutionPending = false;
-            if (!getOffersLockCountry()) {
-                updateOffersLockUI(false);
-            }
+            refreshOffersChromeState();
         });
     }
 

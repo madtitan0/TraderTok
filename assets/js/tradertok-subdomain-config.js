@@ -199,4 +199,30 @@
 
         return null;
     };
+
+    /**
+     * Visitor is outside all configured offer/promotion regions (ISO did not map).
+     * Session flag drives empty + non-interactive offers UI site-wide.
+     */
+    global.TRADERTOK_SESSION_OFFERS_UNSUPPORTED = 'tradertok_offers_unsupported';
+
+    global.TraderTokClearOffersUnsupportedVisitorFlag = function () {
+        try {
+            sessionStorage.removeItem(global.TRADERTOK_SESSION_OFFERS_UNSUPPORTED);
+        } catch (e) {}
+    };
+
+    global.TraderTokSetOffersUnsupportedVisitorFlag = function () {
+        try {
+            sessionStorage.setItem(global.TRADERTOK_SESSION_OFFERS_UNSUPPORTED, '1');
+        } catch (e) {}
+    };
+
+    global.TraderTokIsOffersUnsupportedVisitor = function () {
+        try {
+            return sessionStorage.getItem(global.TRADERTOK_SESSION_OFFERS_UNSUPPORTED) === '1';
+        } catch (e) {
+            return false;
+        }
+    };
 })(typeof window !== 'undefined' ? window : this);

@@ -1,6 +1,6 @@
 <?php
 $kind = isset($_GET['kind']) ? preg_replace('/[^a-z]/', '', strtolower((string) $_GET['kind'])) : '';
-$allowed = ['ebook', 'webinar', 'demo', 'live'];
+$allowed = ['ebook', 'webinar', 'demo', 'live', 'claim'];
 if (!in_array($kind, $allowed, true)) {
     $kind = 'default';
 }
@@ -33,6 +33,13 @@ $copy = [
             'After your email is validated, sign in to your client portal to continue with KYC verification and deposit.',
         ],
     ],
+    'claim' => [
+        'title' => 'Thank you — we’ve received your claim',
+        'body' => [
+            'Your offer claim has been submitted successfully.',
+            'Our team will review your details and contact you shortly with next steps to activate your promotion.',
+        ],
+    ],
     'default' => [
         'title' => 'Thank you',
         'body' => 'Your request has been received.',
@@ -59,7 +66,7 @@ if (!is_array($body)) {
             <?php if ($topic !== '' && $kind === 'ebook'): ?>
                 <p class="education-subpage-subtitle education-thank-you-topic">Selected guide: <strong><?php echo $topic; ?></strong></p>
             <?php endif; ?>
-            <?php if ($kind === 'demo' || $kind === 'live'): ?>
+            <?php if ($kind === 'demo' || $kind === 'live' || $kind === 'claim'): ?>
                 <?php include __DIR__ . '/education-subpage-hero-ctas-thank-you-lead.php'; ?>
             <?php else: ?>
                 <?php include __DIR__ . '/education-subpage-hero-ctas.php'; ?>
@@ -67,7 +74,7 @@ if (!is_array($body)) {
         </div>
     </section>
 
-    <?php if ($kind !== 'demo' && $kind !== 'live'): ?>
+    <?php if ($kind !== 'demo' && $kind !== 'live' && $kind !== 'claim'): ?>
     <section class="education-subpage-content">
         <div class="container">
             <div class="education-thank-you-actions">

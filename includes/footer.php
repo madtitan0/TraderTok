@@ -214,6 +214,9 @@
     <?php if (!empty($page) && $page === 'open-live-account'): ?>
     <script src="assets/js/open-live-account-meta.js?v=<?php echo filemtime('assets/js/open-live-account-meta.js'); ?>" defer></script>
     <?php endif; ?>
+    <?php if (!empty($page) && $page === 'claim-offer'): ?>
+    <script src="assets/js/claim-offer-meta.js?v=<?php echo filemtime('assets/js/claim-offer-meta.js'); ?>" defer></script>
+    <?php endif; ?>
     <?php
     $offersLikePages = ['offers', 'offers-promotions', 'vn', 'th', 'ph', 'id', 'pk', 'latam', 'na', 'ke', 'gh', 'ng', 'za', 'tt', 'gy'];
     if (!empty($page) && in_array($page, $offersLikePages, true)):

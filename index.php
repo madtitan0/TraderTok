@@ -18,6 +18,10 @@ if (!empty($page)) {
         $get->title = 'Open Live Trading Account | TraderTok';
         $get->desc = 'Start your live trading account application. Our team will follow up with next steps and documentation.';
         $get->keyw = 'live account, forex account, trading account registration';
+    } elseif ($page === 'claim-offer') {
+        $get->title = 'Claim Offer | TraderTok';
+        $get->desc = 'Register your interest to claim a promotion. Our team will follow up with eligibility and next steps.';
+        $get->keyw = 'claim offer, trading promotion, bonus, TraderTok';
     } elseif ($page === 'lead-thank-you') {
         $get->title = 'Thank You | TraderTok';
         $get->desc = 'Your request has been received.';
