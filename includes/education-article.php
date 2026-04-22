@@ -1,4 +1,59 @@
 <?php
+/**
+ * Render optional multi-paragraph intro/body from JSON (plain text, escaped).
+ *
+ * @param array<string, mixed> $content
+ */
+function education_article_render_paragraph_field(array $content, string $field, string $paragraphsField): void
+{
+    if (!empty($content[$paragraphsField]) && is_array($content[$paragraphsField])) {
+        foreach ($content[$paragraphsField] as $para) {
+            if ($para === '' || $para === null) {
+                continue;
+            }
+            echo '<p>' . htmlspecialchars((string) $para) . '</p>';
+        }
+        return;
+    }
+    if (!empty($content[$field])) {
+        echo '<p>' . htmlspecialchars((string) $content[$field]) . '</p>';
+    }
+}
+
+/**
+ * Section body: optional "paragraphs", legacy "text", optional "bullets", optional "text_after" ( prose after bullets ).
+ *
+ * @param array<string, mixed> $section
+ */
+function education_article_render_section_body(array $section): void
+{
+    if (!empty($section['paragraphs']) && is_array($section['paragraphs'])) {
+        foreach ($section['paragraphs'] as $para) {
+            if ($para === '' || $para === null) {
+                continue;
+            }
+            echo '<p>' . htmlspecialchars((string) $para) . '</p>';
+        }
+    } elseif (!empty($section['text'])) {
+        echo '<p>' . htmlspecialchars((string) $section['text']) . '</p>';
+    }
+
+    if (!empty($section['bullets']) && is_array($section['bullets'])) {
+        echo '<ul class="education-article-bullets">';
+        foreach ($section['bullets'] as $item) {
+            if ($item === '' || $item === null) {
+                continue;
+            }
+            echo '<li>' . htmlspecialchars((string) $item) . '</li>';
+        }
+        echo '</ul>';
+    }
+
+    if (!empty($section['text_after'])) {
+        echo '<p>' . htmlspecialchars((string) $section['text_after']) . '</p>';
+    }
+}
+
 $articles_json = file_get_contents(__DIR__ . '/../assets/data/education_articles.json');
 $articles = json_decode($articles_json, true);
 $article_id = $_GET['id'] ?? '';
@@ -45,27 +100,34 @@ $related_articles = array_slice($related_articles, 0, 3);
                         <p><?php echo htmlspecialchars($article['meta_description'] ?? $article['excerpt'] ?? ''); ?></p>
                     </div>
 
-                    <?php if (!empty($article['content']['sections'])): ?>
+                    <?php if (!empty($article['content']['sections']) || (!empty($article['content']['faq']) && is_array($article['content']['faq']))): ?>
                     <div class="education-article-panel">
                         <div class="education-article-panel-label">In This Article</div>
                         <ul class="education-article-toc">
-                            <?php foreach ($article['content']['sections'] as $index => $section): ?>
+                            <?php if (!empty($article['content']['sections'])): ?>
+                                <?php foreach ($article['content']['sections'] as $index => $section): ?>
                             <li>
                                 <a href="#article-section-<?php echo $index + 1; ?>">
                                     <?php echo htmlspecialchars($section['heading'] ?? 'Section'); ?>
                                 </a>
                             </li>
-                            <?php endforeach; ?>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                            <?php if (!empty($article['content']['faq']) && is_array($article['content']['faq'])): ?>
+                            <li>
+                                <a href="#article-faq">Frequently Asked Questions</a>
+                            </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                     <?php endif; ?>
                 </aside>
 
                 <article class="education-article-main">
-                    <?php if (!empty($article['content']['introduction'])): ?>
+                    <?php if (!empty($article['content']['introduction']) || !empty($article['content']['introduction_paragraphs'])): ?>
                     <section class="education-article-block">
                         <div class="education-article-block-label">Introduction</div>
-                        <p><?php echo htmlspecialchars($article['content']['introduction']); ?></p>
+                        <?php education_article_render_paragraph_field($article['content'], 'introduction', 'introduction_paragraphs'); ?>
                     </section>
                     <?php endif; ?>
 
@@ -73,15 +135,30 @@ $related_articles = array_slice($related_articles, 0, 3);
                         <?php foreach ($article['content']['sections'] as $index => $section): ?>
                         <section class="education-article-block" id="article-section-<?php echo $index + 1; ?>">
                             <h2><?php echo htmlspecialchars($section['heading'] ?? ''); ?></h2>
-                            <p><?php echo htmlspecialchars($section['text'] ?? ''); ?></p>
+                            <?php education_article_render_section_body($section); ?>
                         </section>
                         <?php endforeach; ?>
                     <?php endif; ?>
 
-                    <?php if (!empty($article['content']['conclusion'])): ?>
+                    <?php if (!empty($article['content']['conclusion']) || !empty($article['content']['conclusion_paragraphs'])): ?>
                     <section class="education-article-block">
                         <div class="education-article-block-label">Conclusion</div>
-                        <p><?php echo htmlspecialchars($article['content']['conclusion']); ?></p>
+                        <?php education_article_render_paragraph_field($article['content'], 'conclusion', 'conclusion_paragraphs'); ?>
+                    </section>
+                    <?php endif; ?>
+
+                    <?php if (!empty($article['content']['faq']) && is_array($article['content']['faq'])): ?>
+                    <section class="education-article-block education-article-faq" id="article-faq">
+                        <div class="education-article-block-label">Frequently Asked Questions</div>
+                        <dl class="education-article-faq-list">
+                            <?php foreach ($article['content']['faq'] as $faqItem): ?>
+                                <?php if (empty($faqItem['q']) && empty($faqItem['a'])) {
+                                    continue;
+                                } ?>
+                            <dt><?php echo htmlspecialchars((string) ($faqItem['q'] ?? '')); ?></dt>
+                            <dd><?php echo htmlspecialchars((string) ($faqItem['a'] ?? '')); ?></dd>
+                            <?php endforeach; ?>
+                        </dl>
                     </section>
                     <?php endif; ?>
 

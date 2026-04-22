@@ -19,7 +19,28 @@
     <?php
     $articles_json = file_get_contents(__DIR__ . '/../assets/data/education_articles.json');
     $articles = json_decode($articles_json, true);
-    $display_limit = 20;
+    if (!is_array($articles)) {
+        $articles = [];
+    }
+    $per_page = 20;
+    $articles_page = isset($_GET['articles_page']) ? (int) $_GET['articles_page'] : 1;
+    if ($articles_page < 1) {
+        $articles_page = 1;
+    }
+    $total_articles = count($articles);
+    $total_pages = $total_articles > 0 ? (int) max(1, (int) ceil($total_articles / $per_page)) : 1;
+    if ($articles_page > $total_pages) {
+        $articles_page = $total_pages;
+    }
+    $offset = ($articles_page - 1) * $per_page;
+    $paged_articles = array_slice($articles, $offset, $per_page);
+
+    $te_list_href = static function (int $pageNum): string {
+        if ($pageNum <= 1) {
+            return routeUrl('trading-essentials');
+        }
+        return routeUrl('trading-essentials', ['articles_page' => $pageNum]);
+    };
     ?>
 
     <section class="hub-content-sec" id="articles" style="padding: 50px 0;">
@@ -28,8 +49,8 @@
             <p class="sec-subtitle">Explore our library of 20+ articles. Start from the beginning or dive into a specific topic.</p>
              -->
             <div class="article-grid">
-                <?php if ($articles): ?>
-                    <?php 
+                <?php if ($paged_articles): ?>
+                    <?php
                     // Category colour palette for card gradients
                     $categoryColors = [
                         'Forex Basics'      => ['#1a237e', '#283593'],
@@ -39,7 +60,7 @@
                         'Market Analysis'   => ['#e65100', '#ef6c00'],
                         'default'           => ['#1e3a5f', '#0d2137'],
                     ];
-                    foreach(array_slice($articles, 0, $display_limit) as $idx => $article):
+                    foreach ($paged_articles as $idx => $article):
                         $colors = $categoryColors[$article['category']] ?? $categoryColors['default'];
                     ?>
                     <article class="article-card" onclick="handleArticleAccess('<?php echo $article['id']; ?>')" style="cursor: pointer;">
@@ -58,6 +79,31 @@
                     <p style="text-align: center; color: var(--text-secondary);">Articles coming soon.</p>
                 <?php endif; ?>
             </div>
+
+            <?php if ($total_pages > 1): ?>
+            <nav class="trading-essentials-pagination" aria-label="Article pages">
+                <div class="trading-essentials-pagination__inner">
+                    <?php if ($articles_page > 1): ?>
+                        <a href="<?php echo htmlspecialchars($te_list_href($articles_page - 1), ENT_QUOTES, 'UTF-8'); ?>" class="trading-essentials-pagination__link--nav" data-i18n="tradingEssentials.paginationPrev">Previous</a>
+                    <?php else: ?>
+                        <span class="trading-essentials-pagination__muted" data-i18n="tradingEssentials.paginationPrev">Previous</span>
+                    <?php endif; ?>
+
+                    <span class="trading-essentials-pagination__status">
+                        <span data-i18n="tradingEssentials.paginationPage">Page</span>
+                        <?php echo (int) $articles_page; ?>
+                        <span data-i18n="tradingEssentials.paginationOf">of</span>
+                        <?php echo (int) $total_pages; ?>
+                    </span>
+
+                    <?php if ($articles_page < $total_pages): ?>
+                        <a href="<?php echo htmlspecialchars($te_list_href($articles_page + 1), ENT_QUOTES, 'UTF-8'); ?>" class="trading-essentials-pagination__link--nav" data-i18n="tradingEssentials.paginationNext">Next</a>
+                    <?php else: ?>
+                        <span class="trading-essentials-pagination__muted" data-i18n="tradingEssentials.paginationNext">Next</span>
+                    <?php endif; ?>
+                </div>
+            </nav>
+            <?php endif; ?>
         </div>
     </section>
 

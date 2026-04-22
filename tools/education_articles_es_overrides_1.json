@@ -1,0 +1,126 @@
+{
+  "what-is-technical-analysis-in-trading": {
+    "title": "¿Qué es el análisis técnico en el trading?",
+    "excerpt": "Aprende qué es el análisis técnico, cómo funcionan gráficos e indicadores y cómo los traders usan tendencias de precio y volumen para temporizar operaciones y gestionar riesgo en forex, acciones y más."
+  },
+  "introduction-to-candlestick-patterns": {
+    "title": "Introducción a los patrones de velas japonesas",
+    "excerpt": "Aprende cómo los patrones de velas revelan la acción del precio y el sentimiento, qué formaciones importan para principiantes y cómo combinarlos con contexto y gestión de riesgos."
+  },
+  "bullish-vs-bearish-candlestick-patterns": {
+    "title": "Patrones de velas alcistas vs. bajistas",
+    "excerpt": "Compara patrones alcistas y bajistas, dónde suelen aparecer, qué configuraciones vigilan los traders y cómo combinarlos con contexto y gestión de riesgos."
+  },
+  "what-is-rsi-indicator": {
+    "title": "¿Qué es el indicador RSI en el trading?",
+    "excerpt": "Comprende cómo el Índice de Fuerza Relativa (RSI) mide el momentum en una escala de 0 a 100, qué significan sobrecompra y sobreventa y cómo usar el RSI con tendencia y gestión de riesgos."
+  },
+  "what-is-macd-indicator": {
+    "title": "¿Qué es el indicador MACD en el trading?",
+    "excerpt": "Aprende cómo el MACD combina medias móviles, una línea de señal y un histograma para mostrar dirección de tendencia, cambios de momentum y cruces habituales en distintos mercados."
+  },
+  "sma-vs-ema-moving-averages-explained": {
+    "title": "SMA vs. EMA: medias móviles explicadas",
+    "excerpt": "Compara la media móvil simple (SMA) y la exponencial (EMA): cómo se construyen, cómo se comportan en el gráfico y cuándo los traders priorizan tendencias más suaves o señales más rápidas."
+  },
+  "what-is-fibonacci-retracement": {
+    "title": "¿Qué es el retroceso de Fibonacci en el trading?",
+    "excerpt": "Aprende cómo el retroceso de Fibonacci traza zonas de retroceso en tendencias, qué ratios vigilan más los traders y cómo combinar niveles con acción del precio y confirmaciones."
+  },
+  "what-are-bollinger-bands": {
+    "title": "¿Qué son las Bandas de Bollinger en el trading?",
+    "excerpt": "Ve cómo las Bandas de Bollinger combinan una media móvil con canales de volatilidad, qué indican compresiones y toques de banda y cómo los traders las combinan con confirmaciones."
+  },
+  "what-is-trendline-trading": {
+    "title": "¿Qué es operar con líneas de tendencia?",
+    "excerpt": "Aprende cómo las líneas de tendencia conectan máximos y mínimos relevantes, cómo se interpretan rebotes y rupturas y cómo combinarlas con confirmación y gestión de riesgos."
+  },
+  "what-is-breakout-trading": {
+    "title": "¿Qué es el trading de rupturas?",
+    "excerpt": "Aprende cómo funcionan las rupturas por encima de resistencia o por debajo de soporte, por qué importan el volumen y la confirmación y cómo gestionar falsas rupturas y el riesgo en niveles clave."
+  },
+  "what-is-head-and-shoulders-pattern": {
+    "title": "¿Qué es el patrón cabeza y hombros?",
+    "excerpt": "Ve cómo se forman el techo y el patrón invertido, qué confirma la línea del cuello, cómo se proyectan objetivos y cómo encaja el volumen en el trading de reversiones."
+  },
+  "double-top-vs-double-bottom": {
+    "title": "Doble techo vs. doble suelo en FX y CFD",
+    "excerpt": "Compara reversiones de doble techo y doble suelo, la confirmación del cuello, ejemplos en FX y cómo encajan las operaciones largas y cortas en CFD con las estructuras clásicas en M y W."
+  },
+  "triangle-patterns-in-trading": {
+    "title": "Patrones triangulares: ascendente, descendente y simétrico",
+    "excerpt": "Ve cómo se forman triángulos con líneas de tendencia convergentes, cómo se confirman rupturas y cómo se proyectan objetivos según la altura del patrón."
+  },
+  "flag-and-pennant-patterns": {
+    "title": "Patrones de bandera y penacho en el trading",
+    "excerpt": "Comprende el asta, la consolidación en canal o triángulo, configuraciones alcistas y bajistas, pistas de volumen y cómo se miden objetivos desde el asta."
+  },
+  "cup-and-handle-pattern": {
+    "title": "Patrón taza con asa en el trading",
+    "excerpt": "Ve cómo encajan la taza redondeada, el asa y la resistencia del borde, cómo se confirman rupturas y cómo se proyecta el objetivo alcista a partir de la profundidad de la taza."
+  },
+  "how-to-trade-chart-patterns": {
+    "title": "Cómo operar patrones gráficos",
+    "excerpt": "Recorre la identificación de formaciones, niveles, espera de confirmación, uso del volumen, stops y proyección de objetivos en configuraciones de continuación y reversión."
+  },
+  "what-is-day-trading": {
+    "title": "¿Qué es el day trading?",
+    "excerpt": "Ve cómo funcionan entradas y salidas intradía, en qué difiere del swing trading y la inversión, estrategias habituales, riesgos y por qué priman las reglas y el control del riesgo."
+  },
+  "what-is-swing-trading": {
+    "title": "¿Qué es el swing trading?",
+    "excerpt": "Aprende a operar oscilaciones de varios días, cómo se compara con el day trading y la inversión, estrategias comunes, riesgos overnight y hábitos que apoyan la disciplina."
+  },
+  "what-is-scalping-in-trading": {
+    "title": "¿Qué es el scalping en el trading?",
+    "excerpt": "Comprende posiciones ultracortas, liquidez y spreads, herramientas y mercados típicos, un ejemplo al estilo EUR/USD y por qué costos y disciplina marcan la diferencia."
+  },
+  "trend-following-strategy-explained": {
+    "title": "Estrategia de seguimiento de tendencia explicada",
+    "excerpt": "Define el seguimiento de tendencia, máximos y mínimos crecientes/decrecientes, ideas de retroceso y ruptura en mercados alcistas y bajistas y comparación con contra-tendencia."
+  },
+  "range-trading-strategy-explained": {
+    "title": "Estrategia de trading en rango explicada",
+    "excerpt": "Trazar soporte y resistencia laterales, operar reacciones en los bordes, confirmar con acción del precio y volumen y detectar cuándo el rango podría ceder a una ruptura."
+  },
+  "breakout-strategy-guide": {
+    "title": "Guía de estrategia de rupturas",
+    "excerpt": "Define rupturas en soporte y resistencia, contexto previo, entradas inmediatas, al cierre o al retroceso, confirmación con momentum y volumen y planificación de stops y objetivos medidos."
+  },
+  "news-trading-strategy-explained": {
+    "title": "Estrategia de trading con noticias explicada",
+    "excerpt": "Planifica alrededor de datos de alto impacto, entiende volatilidad, spreads y deslizamiento, compara enfoques pre y post-noticia y usa tamaño, paciencia e invalidación clara."
+  },
+  "what-is-metatrader-4-mt4": {
+    "title": "¿Qué es MetaTrader 4 (MT4)?",
+    "excerpt": "Recorre el espacio de trabajo de MT4: cotizaciones, gráficos, órdenes, indicadores, EAs y MQL4, prueba de estrategias y diferencias entre escritorio, web y móvil, más buenas prácticas de configuración."
+  },
+  "what-is-metatrader-5-mt5": {
+    "title": "¿Qué es MetaTrader 5 (MT5)?",
+    "excerpt": "Ve cómo MT5 combina trading multiactivo, gráficos avanzados, cuatro modos de ejecución, robots MQL5, pruebas, Señales y acceso web o móvil en un solo entorno."
+  },
+  "how-to-place-a-trade-step-by-step": {
+    "title": "Cómo colocar una operación (paso a paso)",
+    "excerpt": "Recorre la elección del instrumento, la dirección, órdenes a mercado vs. pendientes, tamaño, stops y objetivos, revisión, ejecución y seguimiento o ajuste de la posición."
+  },
+  "what-is-stop-loss-and-take-profit": {
+    "title": "¿Qué son el stop loss y el take profit?",
+    "excerpt": "Define riesgo y recompensa antes de operar: cómo funcionan SL y TP, dónde colocarlos, lógica en compras vs. ventas, relación riesgo/beneficio, deslizamiento y hábitos para evitar errores comunes."
+  },
+  "how-to-use-a-demo-trading-account": {
+    "title": "Cómo usar una cuenta demo de trading",
+    "excerpt": "Trata el capital virtual como riesgo real: prácticas en la plataforma, una estrategia, SL/TP siempre, bitácora, sesiones realistas y una lista antes de pasar a cuenta real."
+  },
+  "market-vs-limit-vs-stop-orders": {
+    "title": "Órdenes de mercado vs. límite vs. stop",
+    "excerpt": "Ve cuándo entrar ya, esperar un mejor precio o esperar un disparador de ruptura y cómo difieren las órdenes pendientes de compra/venta límite y stop de un vistazo."
+  },
+  "what-is-stock-trading": {
+    "title": "¿Qué es operar acciones?",
+    "excerpt": "Posee una fracción de una empresa pública: cómo las órdenes de compra y venta pasan por el bróker, qué mueve el precio, estilos intradía vs. swing vs. posición y ejemplos simples con foco en el riesgo."
+  },
+  "what-are-indices-in-trading": {
+    "title": "¿Qué son los índices en el trading?",
+    "excerpt": "Cómo los benchmarks agrupan acciones, cómo cambian la ponderación por capitalización, precio o igualdad y por qué los traders cruzan índices principales con amplitud y contexto global."
+  }
+}

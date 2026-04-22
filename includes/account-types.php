@@ -1269,7 +1269,7 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
       <section class="acct-section" aria-labelledby="acct-elite-heading">
         <div class="container">
           <div class="acct-elite-card">
-            <h2 id="acct-elite-heading" data-i18n="accountTypesPage.elite.title">Mystery / elite accounts</h2>
+            <h2 id="acct-elite-heading" data-i18n="accountTypesPage.elite.title">Personalized Accounts</h2>
             <p data-i18n="accountTypesPage.elite.paragraph1">Our offering goes beyond the standard account types listed here. We maintain a range of premium and elite accounts, tailored for professional traders and investors &mdash; available by request only.</p>
             <p data-i18n-html="accountTypesPage.elite.contactHtml">For access and details, please <a href="./?page=contact-us" style="color: #00b67a; font-weight: 600;">contact us</a> directly.</p>
           </div>
