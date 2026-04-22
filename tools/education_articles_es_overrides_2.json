@@ -1,0 +1,122 @@
+{
+  "what-is-commodity-trading": {
+    "title": "¿Qué es el trading de materias primas?",
+    "excerpt": "Desde crudo y granos hasta oro y ganado: cómo futuros y opciones se vinculan con insumos reales, los cuatro segmentos clásicos y por qué los drivers difieren fuerte según el mercado."
+  },
+  "what-is-cryptocurrency-trading": {
+    "title": "¿Qué es el trading de criptomonedas?",
+    "excerpt": "Mercados digitales 24/7: exchanges, apps, rampas de billetera y DEX, además de spot vs. apalancamiento, planes simples y riesgos que todo principiante debe anticipar."
+  },
+  "what-is-cfd-trading": {
+    "title": "¿Qué es el trading de CFD?",
+    "excerpt": "Opera movimientos de precio sin poseer el activo: CFD largos y cortos, margen y apalancamiento, costos típicos y por qué el control de riesgo viene integrado al producto."
+  },
+  "what-is-non-farm-payroll-nfp": {
+    "title": "¿Qué es el Non-Farm Payroll (NFP)?",
+    "excerpt": "El pulso laboral de EE. UU.: qué mide el cambio de nóminas, qué más trae el Employment Situation, el horario habitual 8:30 ET y por qué una lectura puede repricing muchos mercados."
+  },
+  "what-is-cpi-and-why-it-matters": {
+    "title": "¿Qué es el IPC y por qué importa?",
+    "excerpt": "Inflación al consumidor en un solo índice: cómo se construye el IPC, el calendario habitual 8:30 ET y por qué lecturas más calientes o más frías repricing dólar, rendimientos, acciones y oro."
+  },
+  "how-gdp-affects-markets": {
+    "title": "Cómo el PIB afecta los mercados",
+    "excerpt": "El PIB como lente de crecimiento, tasas y riesgo: cómo responden acciones, FX, bonos y materias primas y por qué economías grandes y la geopolítica filtran distinto el mismo dato."
+  },
+  "what-is-fomc-and-why-traders-watch-it": {
+    "title": "¿Qué es el FOMC y por qué lo vigilan los traders?",
+    "excerpt": "El comité de política de la Fed: quién participa, qué ocurre en cada reunión, por qué “sin cambios” aún puede mover dólar, rendimientos y acciones, y el calendario 2026."
+  },
+  "how-inflation-impacts-markets": {
+    "title": "Cómo la inflación impacta los mercados",
+    "excerpt": "Desde sorpresas del IPC hasta rendimientos y dólar: cómo la inflación repricing expectativas de política, por qué los activos se mueven en bloque y cómo energía y geopolítica sesgan el camino."
+  },
+  "what-is-recession-in-economics": {
+    "title": "¿Qué es una recesión en economía?",
+    "excerpt": "Más allá de la regla de dos trimestres: cómo los economistas evalúan profundidad, difusión y duración y los canales de política, crédito y choques que suelen desencadenar contracciones."
+  },
+  "what-is-liquidity-in-trading": {
+    "title": "¿Qué es la liquidez en el trading?",
+    "excerpt": "Spread, profundidad e impacto en precio: por qué el mismo gráfico se ejecuta limpio en sesión líquida y con fricción en mercados finos y cómo leer señales de advertencia."
+  },
+  "what-is-market-structure": {
+    "title": "¿Qué es la estructura de mercado?",
+    "excerpt": "Máximos y mínimos en secuencia: cómo leer estructura alcista, bajista y lateral y cuándo una ruptura de estructura cambia tu sesgo."
+  },
+  "what-is-smart-money-concept-smc": {
+    "title": "¿Qué es el concepto Smart Money (SMC)?",
+    "excerpt": "SMC en términos simples: liquidez, desplazamiento, desequilibrios y cómo encajan bloques de órdenes, FVG, barridos, BOS y CHoCH en una historia legible en el gráfico."
+  },
+  "what-is-order-flow-trading": {
+    "title": "¿Qué es el trading de flujo de órdenes?",
+    "excerpt": "DOM, cinta, huella y delta: cómo las órdenes agresivas interactúan con liquidez en reposo y cómo leer aceptación, rechazo y absorción en niveles clave."
+  },
+  "what-is-slippage-in-trading": {
+    "title": "¿Qué es el deslizamiento (slippage) en el trading?",
+    "excerpt": "Precio esperado vs. ejecución real: por qué el deslizamiento es ruido normal de ejecución y cómo noticias, liquidez, tipo de orden y tamaño cambian lo que obtienes."
+  },
+  "what-is-drawdown-in-trading": {
+    "title": "¿Qué es el drawdown en el trading?",
+    "excerpt": "Del máximo al valle: por qué el drawdown máximo y la matemática de recuperación importan más que el win rate y cómo el tamaño de posición hace sobrevivible una racha perdedora."
+  },
+  "what-is-risk-reward-ratio": {
+    "title": "¿Qué es la relación riesgo/recompensa?",
+    "excerpt": "Riesgo vs. beneficio planificado antes de clicar: cómo las distancias de stop y objetivo definen la ratio y por qué un número bonito aún necesita un camino realista al objetivo."
+  },
+  "how-to-calculate-position-size": {
+    "title": "Cómo calcular el tamaño de la posición",
+    "excerpt": "Riesgo de cuenta ÷ riesgo de operación: convierte la distancia del stop en número de acciones, lotes o contratos antes de clicar, no después."
+  },
+  "what-is-a-trading-journal": {
+    "title": "¿Qué es un diario de trading?",
+    "excerpt": "Más allá del P&L: registra setup, contexto, reglas y emociones para revisar qué funciona de verdad y dejar de repetir errores invisibles."
+  },
+  "how-to-backtest-a-strategy": {
+    "title": "Cómo hacer backtest a una estrategia",
+    "excerpt": "Reglas primero, datos segundo, honestidad tercero: reproducción manual vs. automatizada y por qué fuera de muestra y walk-forward superan una sola curva de equity brillante."
+  },
+  "what-is-win-rate-in-trading": {
+    "title": "¿Qué es la tasa de aciertos en el trading?",
+    "excerpt": "Victorias ÷ operaciones × 100 es solo el titular: sin ganancia media, pérdida media y tamaño de muestra, el win rate puede engañar, especialmente con apalancamiento."
+  },
+  "overtrading-explained": {
+    "title": "Sobreoperar explicado",
+    "excerpt": "Demasiadas operaciones, poco edge: cómo el aburrimiento, la venganza y el FOMO convierten el plan en ruido y las reglas aburridas que sí rompen el ciclo."
+  },
+  "fear-vs-greed-in-trading": {
+    "title": "Miedo vs. codicia en el trading",
+    "excerpt": "El apalancamiento acelera ambas emociones: el miedo encoge la ejecución y la codicia la estira. La estructura, no el estoicismo, mantiene el plan al mando."
+  },
+  "how-to-build-trading-discipline": {
+    "title": "Cómo construir disciplina en el trading",
+    "excerpt": "Planifica antes de la vela, arriesga lo suficientemente pequeño para pensar, checklist antes del clic: la disciplina es estructura que repites hasta que aburre (y eso es bueno)."
+  },
+  "why-traders-lose-money": {
+    "title": "Por qué los traders pierden dinero",
+    "excerpt": "Las entradas son fáciles; sobrevivir es difícil: riesgo excesivo, falta de plan y clics emocionales explican la mayoría de las cuentas quemadas, no un solo indicador malo."
+  },
+  "developing-a-trading-plan": {
+    "title": "Cómo desarrollar un plan de trading",
+    "excerpt": "Escríbelo con calma, síguelo cuando no lo estés: mercados, setups, riesgo, límites de pérdida, noticias, psicología y revisión en un documento repetible."
+  },
+  "forex-vs-stocks-which-is-better": {
+    "title": "Forex vs. acciones: ¿cuál es mejor?",
+    "excerpt": "Billones en volumen FX vs. acciones conocidas: profundidad y macro por un lado; propiedad sin apalancamiento y estructura de bolsa por el otro."
+  },
+  "day-trading-vs-swing-trading": {
+    "title": "Day trading vs. swing trading",
+    "excerpt": "Cierres el mismo día vs. posiciones de varios días: tiempo de pantalla, riesgo overnight y ritmo definen qué estilo encaja con tu agenda y psicología."
+  },
+  "technical-vs-fundamental-analysis": {
+    "title": "Análisis técnico vs. fundamental",
+    "excerpt": "Los gráficos responden “¿qué hace el precio?” Los fundamentos preguntan “¿cuánto vale?”. La mayoría combina timing con valor a lo largo del tiempo."
+  },
+  "crypto-vs-forex-trading": {
+    "title": "Crypto vs. forex",
+    "excerpt": "Billones en FX vs. el auge de activos digitales: uno anclado en flujos bancarios globales; el otro con titulares de custodia, plataformas y fraude."
+  },
+  "mt4-vs-mt5": {
+    "title": "MT4 vs. MT5",
+    "excerpt": "Compara MetaTrader 4 y MetaTrader 5: simplicidad centrada en forex frente a herramientas multiactivo, tipos de orden, profundidad de mercado, análisis, automatización y flujos prácticos."
+  }
+}

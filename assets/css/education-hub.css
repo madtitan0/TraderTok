@@ -492,6 +492,60 @@
   border-color: transparent;
 }
 
+/* Trading Essentials — article list pagination */
+.trading-essentials-pagination {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid var(--card-border);
+}
+
+.trading-essentials-pagination__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 28px;
+  flex-wrap: wrap;
+}
+
+.trading-essentials-pagination__status {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  min-width: 8rem;
+  text-align: center;
+}
+
+.trading-essentials-pagination__link--nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  border-radius: var(--btn-pill-radius, 9999px);
+  border: 1px solid var(--brand-color-start);
+  background: transparent;
+  color: var(--brand-color-start);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.trading-essentials-pagination__link--nav:hover {
+  background: var(--brand-gradient);
+  color: #fff;
+  border-color: transparent;
+}
+
+.trading-essentials-pagination__muted {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  opacity: 0.4;
+  user-select: none;
+}
+
 /* Light Mode Adjustments */
 body.light-theme .edu-resource-card {
   background: #ffffff;
@@ -1293,6 +1347,47 @@ body.light-theme .education-subpage--articles .education-subpage-hero {
   color: var(--edu-subpage-body);
   font-size: 1rem;
   line-height: 1.9;
+}
+
+.education-article-bullets {
+  margin: 16px 0 0;
+  padding-left: 1.25rem;
+  color: var(--edu-subpage-body);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.education-article-bullets li {
+  margin-bottom: 10px;
+}
+
+.education-article-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.education-article-faq .education-article-faq-list {
+  margin: 0;
+}
+
+.education-article-faq-list dt {
+  font-weight: 700;
+  color: var(--edu-subpage-heading);
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+
+.education-article-faq-list dt:first-child {
+  margin-top: 0;
+}
+
+.education-article-faq-list dd {
+  margin: 0 0 0 0;
+  padding: 0;
+  color: var(--edu-subpage-body);
+  font-size: 1rem;
+  line-height: 1.85;
 }
 
 .education-article-toc {

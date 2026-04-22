@@ -874,6 +874,616 @@
         "conclusion": "Las decisiones tomadas alrededor por las grandes agencias y bancos internacionales dictan las futuras posibilidades, su previsión y asertividad mantienen el ecosistema en circulación total e ininterrumpible.",
         "disclaimer": "La información proporcionada en este artículo es solo con fines educativos y no constituye asesoramiento financiero."
       }
+    },
+    "what-is-technical-analysis-in-trading": {
+      "title": "¿Qué es el análisis técnico en el trading?",
+      "excerpt": "Aprende qué es el análisis técnico, cómo funcionan gráficos e indicadores y cómo los traders usan tendencias de precio y volumen para temporizar operaciones y gestionar riesgo en forex, acciones y más.",
+      "seo_title": "What Is Technical Analysis in Trading? Complete Guide",
+      "meta_description": "Learn what technical analysis in trading is, how charts and indicators work, and how traders use price trends to make better market decisions.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "introduction-to-candlestick-patterns": {
+      "title": "Introducción a los patrones de velas japonesas",
+      "excerpt": "Aprende cómo los patrones de velas revelan la acción del precio y el sentimiento, qué formaciones importan para principiantes y cómo combinarlos con contexto y gestión de riesgos.",
+      "seo_title": "Introduction to Candlestick Patterns in Trading",
+      "meta_description": "Learn candlestick patterns in trading, how they work, key types, and how traders use them to spot trends, reversals, and market sentiment.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "bullish-vs-bearish-candlestick-patterns": {
+      "title": "Patrones de velas alcistas vs. bajistas",
+      "excerpt": "Compara patrones alcistas y bajistas, dónde suelen aparecer, qué configuraciones vigilan los traders y cómo combinarlos con contexto y gestión de riesgos.",
+      "seo_title": "Bullish vs Bearish Candlestick Patterns Explained",
+      "meta_description": "Learn bullish vs bearish candlestick patterns, key differences, examples, and how traders use them to spot reversals and market direction.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-rsi-indicator": {
+      "title": "¿Qué es el indicador RSI en el trading?",
+      "excerpt": "Comprende cómo el Índice de Fuerza Relativa (RSI) mide el momentum en una escala de 0 a 100, qué significan sobrecompra y sobreventa y cómo usar el RSI con tendencia y gestión de riesgos.",
+      "seo_title": "What Is RSI Indicator in Trading? Explained Simply",
+      "meta_description": "Learn what the RSI indicator is, how it works, how to read overbought and oversold levels, and how traders use RSI in technical analysis.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-macd-indicator": {
+      "title": "¿Qué es el indicador MACD en el trading?",
+      "excerpt": "Aprende cómo el MACD combina medias móviles, una línea de señal y un histograma para mostrar dirección de tendencia, cambios de momentum y cruces habituales en distintos mercados.",
+      "seo_title": "What Is MACD Indicator in Trading? Full Guide",
+      "meta_description": "Learn what the MACD indicator is, how it works, how to read MACD crossovers and histogram signals, and how traders use it in technical analysis.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "sma-vs-ema-moving-averages-explained": {
+      "title": "SMA vs. EMA: medias móviles explicadas",
+      "excerpt": "Compara la media móvil simple (SMA) y la exponencial (EMA): cómo se construyen, cómo se comportan en el gráfico y cuándo los traders priorizan tendencias más suaves o señales más rápidas.",
+      "seo_title": "SMA vs EMA: Moving Averages Explained Simply",
+      "meta_description": "Learn SMA vs EMA, how moving averages work, key differences, formulas, and how traders use them to identify trends and trading signals.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-fibonacci-retracement": {
+      "title": "¿Qué es el retroceso de Fibonacci en el trading?",
+      "excerpt": "Aprende cómo el retroceso de Fibonacci traza zonas de retroceso en tendencias, qué ratios vigilan más los traders y cómo combinar niveles con acción del precio y confirmaciones.",
+      "seo_title": "What Is Fibonacci Retracement in Trading? Guide",
+      "meta_description": "Learn what Fibonacci retracement is, key Fibonacci levels, and how traders use it in uptrends and downtrends to find support and resistance.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-are-bollinger-bands": {
+      "title": "¿Qué son las Bandas de Bollinger en el trading?",
+      "excerpt": "Ve cómo las Bandas de Bollinger combinan una media móvil con canales de volatilidad, qué indican compresiones y toques de banda y cómo los traders las combinan con confirmaciones.",
+      "seo_title": "What Are Bollinger Bands in Trading? Guide",
+      "meta_description": "Learn what Bollinger Bands are, how they work, how to read volatility and price bands, and how traders use them in technical analysis.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-trendline-trading": {
+      "title": "¿Qué es operar con líneas de tendencia?",
+      "excerpt": "Aprende cómo las líneas de tendencia conectan máximos y mínimos relevantes, cómo se interpretan rebotes y rupturas y cómo combinarlas con confirmación y gestión de riesgos.",
+      "seo_title": "What Is Trendline Trading? Beginner's Guide",
+      "meta_description": "Learn what trendline trading is, how to draw trendlines, and how traders use them to identify support, resistance, breakouts, and trend direction.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-breakout-trading": {
+      "title": "¿Qué es el trading de rupturas?",
+      "excerpt": "Aprende cómo funcionan las rupturas por encima de resistencia o por debajo de soporte, por qué importan el volumen y la confirmación y cómo gestionar falsas rupturas y el riesgo en niveles clave.",
+      "seo_title": "What Is Breakout Trading? Beginner's Guide",
+      "meta_description": "Learn what breakout trading is, how breakouts work, key setups, volume confirmation, and how traders use breakouts in technical analysis.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-head-and-shoulders-pattern": {
+      "title": "¿Qué es el patrón cabeza y hombros?",
+      "excerpt": "Ve cómo se forman el techo y el patrón invertido, qué confirma la línea del cuello, cómo se proyectan objetivos y cómo encaja el volumen en el trading de reversiones.",
+      "seo_title": "What Is Head and Shoulders Pattern? Full Guide",
+      "meta_description": "Learn what the head and shoulders pattern is, how it works, what the neckline means, and how traders use this reversal chart pattern with examples.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "double-top-vs-double-bottom": {
+      "title": "Doble techo vs. doble suelo en FX y CFD",
+      "excerpt": "Compara reversiones de doble techo y doble suelo, la confirmación del cuello, ejemplos en FX y cómo encajan las operaciones largas y cortas en CFD con las estructuras clásicas en M y W.",
+      "seo_title": "Double Top vs Double Bottom in FX & CFD Trading",
+      "meta_description": "Learn double top vs double bottom in FX and CFD trading, how these reversal patterns work, key confirmation signals, and trading examples.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "triangle-patterns-in-trading": {
+      "title": "Patrones triangulares: ascendente, descendente y simétrico",
+      "excerpt": "Ve cómo se forman triángulos con líneas de tendencia convergentes, cómo se confirman rupturas y cómo se proyectan objetivos según la altura del patrón.",
+      "seo_title": "Triangle Patterns in Trading: Full Beginner Guide",
+      "meta_description": "Learn ascending, descending, and symmetrical triangle patterns in trading, how they work, breakout signals, and how traders use them.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "flag-and-pennant-patterns": {
+      "title": "Patrones de bandera y penacho en el trading",
+      "excerpt": "Comprende el asta, la consolidación en canal o triángulo, configuraciones alcistas y bajistas, pistas de volumen y cómo se miden objetivos desde el asta.",
+      "seo_title": "Flag and Pennant Patterns in Trading Explained",
+      "meta_description": "Learn flag and pennant patterns in trading, how they form, breakout signals, volume behavior, and how traders use them as continuation setups.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "cup-and-handle-pattern": {
+      "title": "Patrón taza con asa en el trading",
+      "excerpt": "Ve cómo encajan la taza redondeada, el asa y la resistencia del borde, cómo se confirman rupturas y cómo se proyecta el objetivo alcista a partir de la profundidad de la taza.",
+      "seo_title": "Cup and Handle Pattern in Trading Explained",
+      "meta_description": "Learn what the cup and handle pattern is, how it works, breakout signals, target methods, and how traders use this bullish chart pattern.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-trade-chart-patterns": {
+      "title": "Cómo operar patrones gráficos",
+      "excerpt": "Recorre la identificación de formaciones, niveles, espera de confirmación, uso del volumen, stops y proyección de objetivos en configuraciones de continuación y reversión.",
+      "seo_title": "How to Trade Chart Patterns: Beginner Guide",
+      "meta_description": "Learn how to trade chart patterns using breakouts, support, resistance, volume, and confirmation to build a practical trading strategy.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-day-trading": {
+      "title": "¿Qué es el day trading?",
+      "excerpt": "Ve cómo funcionan entradas y salidas intradía, en qué difiere del swing trading y la inversión, estrategias habituales, riesgos y por qué priman las reglas y el control del riesgo.",
+      "seo_title": "What Is Day Trading? Guide for Beginners",
+      "meta_description": "Learn what day trading is, how it works, how it compares with swing trading and investing, and why risk management matters most.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-swing-trading": {
+      "title": "¿Qué es el swing trading?",
+      "excerpt": "Aprende a operar oscilaciones de varios días, cómo se compara con el day trading y la inversión, estrategias comunes, riesgos overnight y hábitos que apoyan la disciplina.",
+      "seo_title": "What Is Swing Trading? Beginner's Guide",
+      "meta_description": "Learn what swing trading is, how it works, how it compares with day trading and investing, and why risk management matters.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-scalping-in-trading": {
+      "title": "¿Qué es el scalping en el trading?",
+      "excerpt": "Comprende posiciones ultracortas, liquidez y spreads, herramientas y mercados típicos, un ejemplo al estilo EUR/USD y por qué costos y disciplina marcan la diferencia.",
+      "seo_title": "What Is Scalping in Trading? Beginner Guide",
+      "meta_description": "Learn what scalping is, how it works, key risks, and see a real-time style example of how scalpers aim to profit from tiny price moves.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "trend-following-strategy-explained": {
+      "title": "Estrategia de seguimiento de tendencia explicada",
+      "excerpt": "Define el seguimiento de tendencia, máximos y mínimos crecientes/decrecientes, ideas de retroceso y ruptura en mercados alcistas y bajistas y comparación con contra-tendencia.",
+      "seo_title": "Trend Following Strategy Explained for Beginners",
+      "meta_description": "Learn what a trend following strategy is, how traders use uptrends and downtrends, and how to trade with trend direction effectively.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "range-trading-strategy-explained": {
+      "title": "Estrategia de trading en rango explicada",
+      "excerpt": "Trazar soporte y resistencia laterales, operar reacciones en los bordes, confirmar con acción del precio y volumen y detectar cuándo el rango podría ceder a una ruptura.",
+      "seo_title": "Range Trading Strategy Explained for Beginners",
+      "meta_description": "Learn how range trading works, how to identify support and resistance zones, and how to trade a market moving sideways in a range.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "breakout-strategy-guide": {
+      "title": "Guía de estrategia de rupturas",
+      "excerpt": "Define rupturas en soporte y resistencia, contexto previo, entradas inmediatas, al cierre o al retroceso, confirmación con momentum y volumen y planificación de stops y objetivos medidos.",
+      "seo_title": "Breakout Strategy Guide for Beginner Traders",
+      "meta_description": "Learn how breakout trading works, when to enter after a breakout, how to confirm the move, and how to avoid false breakouts.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "news-trading-strategy-explained": {
+      "title": "Estrategia de trading con noticias explicada",
+      "excerpt": "Planifica alrededor de datos de alto impacto, entiende volatilidad, spreads y deslizamiento, compara enfoques pre y post-noticia y usa tamaño, paciencia e invalidación clara.",
+      "seo_title": "News Trading Strategy Explained for Beginners",
+      "meta_description": "Learn how news trading works, how to trade during news release time, and what risk management precautions matter in volatile markets.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-metatrader-4-mt4": {
+      "title": "¿Qué es MetaTrader 4 (MT4)?",
+      "excerpt": "Recorre el espacio de trabajo de MT4: cotizaciones, gráficos, órdenes, indicadores, EAs y MQL4, prueba de estrategias y diferencias entre escritorio, web y móvil, más buenas prácticas de configuración.",
+      "seo_title": "What Is MetaTrader 4 (MT4)? Complete Guide",
+      "meta_description": "Learn what MetaTrader 4 is, how MT4 works, its charts, indicators, order types, Expert Advisors, and why traders still use it.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-metatrader-5-mt5": {
+      "title": "¿Qué es MetaTrader 5 (MT5)?",
+      "excerpt": "Ve cómo MT5 combina trading multiactivo, gráficos avanzados, cuatro modos de ejecución, robots MQL5, pruebas, Señales y acceso web o móvil en un solo entorno.",
+      "seo_title": "What Is MetaTrader 5 (MT5)? Complete Guide",
+      "meta_description": "Learn what MetaTrader 5 is, how MT5 works, its charts, order types, indicators, automation tools, and why traders use it.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-place-a-trade-step-by-step": {
+      "title": "Cómo colocar una operación (paso a paso)",
+      "excerpt": "Recorre la elección del instrumento, la dirección, órdenes a mercado vs. pendientes, tamaño, stops y objetivos, revisión, ejecución y seguimiento o ajuste de la posición.",
+      "seo_title": "How to Place a Trade Step by Step for Beginners",
+      "meta_description": "Learn how to place a trade step by step, including choosing a market, selecting order type, setting stop-loss, and managing the trade.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-stop-loss-and-take-profit": {
+      "title": "¿Qué son el stop loss y el take profit?",
+      "excerpt": "Define riesgo y recompensa antes de operar: cómo funcionan SL y TP, dónde colocarlos, lógica en compras vs. ventas, relación riesgo/beneficio, deslizamiento y hábitos para evitar errores comunes.",
+      "seo_title": "What Is Stop Loss and Take Profit? Full Guide",
+      "meta_description": "Learn what Stop Loss and Take Profit mean in trading, how SL and TP work, where to place them, and how to use them in real trades.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-use-a-demo-trading-account": {
+      "title": "Cómo usar una cuenta demo de trading",
+      "excerpt": "Trata el capital virtual como riesgo real: prácticas en la plataforma, una estrategia, SL/TP siempre, bitácora, sesiones realistas y una lista antes de pasar a cuenta real.",
+      "seo_title": "How to Use a Demo Trading Account Properly",
+      "meta_description": "Learn how to use a demo trading account, what to practice, common mistakes to avoid, and how to prepare for live trading step by step.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "market-vs-limit-vs-stop-orders": {
+      "title": "Órdenes de mercado vs. límite vs. stop",
+      "excerpt": "Ve cuándo entrar ya, esperar un mejor precio o esperar un disparador de ruptura y cómo difieren las órdenes pendientes de compra/venta límite y stop de un vistazo.",
+      "seo_title": "Market vs Limit vs Stop Orders Explained",
+      "meta_description": "Learn how market, limit, and stop orders work, when to use each one, and how traders place entries more accurately in real markets.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-stock-trading": {
+      "title": "¿Qué es operar acciones?",
+      "excerpt": "Posee una fracción de una empresa pública: cómo las órdenes de compra y venta pasan por el bróker, qué mueve el precio, estilos intradía vs. swing vs. posición y ejemplos simples con foco en el riesgo.",
+      "seo_title": "What Is Stock Trading? Beginner's Guide",
+      "meta_description": "Learn what stock trading is, how it works, how traders buy and sell shares, and see simple real-time style examples for beginners.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-are-indices-in-trading": {
+      "title": "¿Qué son los índices en el trading?",
+      "excerpt": "Cómo los benchmarks agrupan acciones, cómo cambian la ponderación por capitalización, precio o igualdad y por qué los traders cruzan índices principales con amplitud y contexto global.",
+      "seo_title": "What Are Indices in Trading? Beginner Guide",
+      "meta_description": "Learn what indices are in trading, how stock indices work, what moves them, and why traders watch major global indices today.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-commodity-trading": {
+      "title": "¿Qué es el trading de materias primas?",
+      "excerpt": "Desde crudo y granos hasta oro y ganado: cómo futuros y opciones se vinculan con insumos reales, los cuatro segmentos clásicos y por qué los drivers difieren fuerte según el mercado.",
+      "seo_title": "What Is Commodity Trading? Complete Guide",
+      "meta_description": "Learn what commodity trading is, how it works, and the main commodity asset types including energy, metals, agriculture, and livestock.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-cryptocurrency-trading": {
+      "title": "¿Qué es el trading de criptomonedas?",
+      "excerpt": "Mercados digitales 24/7: exchanges, apps, rampas de billetera y DEX, además de spot vs. apalancamiento, planes simples y riesgos que todo principiante debe anticipar.",
+      "seo_title": "What Is Cryptocurrency Trading? Beginner Guide",
+      "meta_description": "Learn what cryptocurrency trading is, how it works, the main ways people buy crypto today, and the key risks beginners should understand.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-cfd-trading": {
+      "title": "¿Qué es el trading de CFD?",
+      "excerpt": "Opera movimientos de precio sin poseer el activo: CFD largos y cortos, margen y apalancamiento, costos típicos y por qué el control de riesgo viene integrado al producto.",
+      "seo_title": "What Is CFD Trading? Complete Beginner Guide",
+      "meta_description": "Learn what CFD trading is, how it works, how leverage and margin affect trades, and the key risks every beginner should understand.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-non-farm-payroll-nfp": {
+      "title": "¿Qué es el Non-Farm Payroll (NFP)?",
+      "excerpt": "El pulso laboral de EE. UU.: qué mide el cambio de nóminas, qué más trae el Employment Situation, el horario habitual 8:30 ET y por qué una lectura puede repricing muchos mercados.",
+      "seo_title": "What Is Non-Farm Payroll (NFP)? Full Guide",
+      "meta_description": "Learn what Non-Farm Payroll (NFP) is, when NFP data is released, why traders watch it, and how it can move forex, stocks, bonds, and gold.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-cpi-and-why-it-matters": {
+      "title": "¿Qué es el IPC y por qué importa?",
+      "excerpt": "Inflación al consumidor en un solo índice: cómo se construye el IPC, el calendario habitual 8:30 ET y por qué lecturas más calientes o más frías repricing dólar, rendimientos, acciones y oro.",
+      "seo_title": "What Is CPI and Why It Matters? Full Guide",
+      "meta_description": "Learn what CPI is, when CPI data is released, why it moves markets, and which assets are most affected by inflation news.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-gdp-affects-markets": {
+      "title": "Cómo el PIB afecta los mercados",
+      "excerpt": "El PIB como lente de crecimiento, tasas y riesgo: cómo responden acciones, FX, bonos y materias primas y por qué economías grandes y la geopolítica filtran distinto el mismo dato.",
+      "seo_title": "How GDP Affects Markets: Beginner Guide",
+      "meta_description": "Learn how GDP affects forex, stocks, bonds, commodities, and how country growth gaps and geopolitical tensions shape market reactions.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-fomc-and-why-traders-watch-it": {
+      "title": "¿Qué es el FOMC y por qué lo vigilan los traders?",
+      "excerpt": "El comité de política de la Fed: quién participa, qué ocurre en cada reunión, por qué “sin cambios” aún puede mover dólar, rendimientos y acciones, y el calendario 2026.",
+      "seo_title": "What Is FOMC and Why Traders Watch It?",
+      "meta_description": "Learn what the FOMC is, why traders watch it, how it affects rates and markets, and when FOMC meetings are scheduled in 2026.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-inflation-impacts-markets": {
+      "title": "Cómo la inflación impacta los mercados",
+      "excerpt": "Desde sorpresas del IPC hasta rendimientos y dólar: cómo la inflación repricing expectativas de política, por qué los activos se mueven en bloque y cómo energía y geopolítica sesgan el camino.",
+      "seo_title": "How Inflation Impacts Markets: Full Guide",
+      "meta_description": "Learn how inflation affects stocks, forex, bonds, gold, commodities, and how recent 2026 inflation trends are shaping market moves.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-recession-in-economics": {
+      "title": "¿Qué es una recesión en economía?",
+      "excerpt": "Más allá de la regla de dos trimestres: cómo los economistas evalúan profundidad, difusión y duración y los canales de política, crédito y choques que suelen desencadenar contracciones.",
+      "seo_title": "What Is Recession in Economics? Full Guide",
+      "meta_description": "Learn what a recession is in economics, how it is identified, and the major factors that can cause recessions across an economy.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-liquidity-in-trading": {
+      "title": "¿Qué es la liquidez en el trading?",
+      "excerpt": "Spread, profundidad e impacto en precio: por qué el mismo gráfico se ejecuta limpio en sesión líquida y con fricción en mercados finos y cómo leer señales de advertencia.",
+      "seo_title": "What Is Liquidity in Trading? Full Guide",
+      "meta_description": "Learn what liquidity means in trading, why it matters, how it affects spreads, slippage, execution, and why traders rely on liquid markets.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-market-structure": {
+      "title": "¿Qué es la estructura de mercado?",
+      "excerpt": "Máximos y mínimos en secuencia: cómo leer estructura alcista, bajista y lateral y cuándo una ruptura de estructura cambia tu sesgo.",
+      "seo_title": "What Is Market Structure? Full Trading Guide",
+      "meta_description": "Learn what market structure is, how to read higher highs and lower lows, and why structure matters for trend, entries, and risk management.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-smart-money-concept-smc": {
+      "title": "¿Qué es el concepto Smart Money (SMC)?",
+      "excerpt": "SMC en términos simples: liquidez, desplazamiento, desequilibrios y cómo encajan bloques de órdenes, FVG, barridos, BOS y CHoCH en una historia legible en el gráfico.",
+      "seo_title": "What Is the Smart Money Concept (SMC)? Full Guide",
+      "meta_description": "Learn what Smart Money Concept is and understand Order Blocks, Fair Value Gaps, Liquidity Sweeps, BOS, and CHoCH with examples.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-order-flow-trading": {
+      "title": "¿Qué es el trading de flujo de órdenes?",
+      "excerpt": "DOM, cinta, huella y delta: cómo las órdenes agresivas interactúan con liquidez en reposo y cómo leer aceptación, rechazo y absorción en niveles clave.",
+      "seo_title": "What Is Order Flow Trading? Full Guide",
+      "meta_description": "Learn what order flow trading is, how DOM, tape, footprint, and delta work, and see a chart-style example with practical order flow markings.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-slippage-in-trading": {
+      "title": "¿Qué es el deslizamiento (slippage) en el trading?",
+      "excerpt": "Precio esperado vs. ejecución real: por qué el deslizamiento es ruido normal de ejecución y cómo noticias, liquidez, tipo de orden y tamaño cambian lo que obtienes.",
+      "seo_title": "What Is Slippage in Trading? Full Guide",
+      "meta_description": "Learn what slippage in trading means, why it happens, how it affects entries and exits, and how traders try to reduce slippage risk.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-drawdown-in-trading": {
+      "title": "¿Qué es el drawdown en el trading?",
+      "excerpt": "Del máximo al valle: por qué el drawdown máximo y la matemática de recuperación importan más que el win rate y cómo el tamaño de posición hace sobrevivible una racha perdedora.",
+      "seo_title": "What Is Drawdown in Trading? Full Guide",
+      "meta_description": "Learn what drawdown means in trading, why it matters, how to control it with position sizing, and what drawdown level a retail trader can afford.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-risk-reward-ratio": {
+      "title": "¿Qué es la relación riesgo/recompensa?",
+      "excerpt": "Riesgo vs. beneficio planificado antes de clicar: cómo las distancias de stop y objetivo definen la ratio y por qué un número bonito aún necesita un camino realista al objetivo.",
+      "seo_title": "What Is Risk-Reward Ratio? Full Trading Guide",
+      "meta_description": "Learn what risk-reward ratio means in trading, how to calculate it, why it matters, and how traders use it with stop-loss and targets.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-calculate-position-size": {
+      "title": "Cómo calcular el tamaño de la posición",
+      "excerpt": "Riesgo de cuenta ÷ riesgo de operación: convierte la distancia del stop en número de acciones, lotes o contratos antes de clicar, no después.",
+      "seo_title": "How to Calculate Position Size in Trading",
+      "meta_description": "Learn how to calculate position size in trading using account risk, stop-loss distance, and simple formulas to control losses and trade smarter.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-a-trading-journal": {
+      "title": "¿Qué es un diario de trading?",
+      "excerpt": "Más allá del P&L: registra setup, contexto, reglas y emociones para revisar qué funciona de verdad y dejar de repetir errores invisibles.",
+      "seo_title": "What Is a Trading Journal? Complete Guide",
+      "meta_description": "Learn what a trading journal is, why it matters, how to journal trades properly, and the best websites traders use to track performance.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-backtest-a-strategy": {
+      "title": "Cómo hacer backtest a una estrategia",
+      "excerpt": "Reglas primero, datos segundo, honestidad tercero: reproducción manual vs. automatizada y por qué fuera de muestra y walk-forward superan una sola curva de equity brillante.",
+      "seo_title": "How to Backtest a Strategy the Right Way",
+      "meta_description": "Learn how to backtest a trading strategy, how long to test it, and the difference between manual and automated backtesting before going live.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "what-is-win-rate-in-trading": {
+      "title": "¿Qué es la tasa de aciertos en el trading?",
+      "excerpt": "Victorias ÷ operaciones × 100 es solo el titular: sin ganancia media, pérdida media y tamaño de muestra, el win rate puede engañar, especialmente con apalancamiento.",
+      "seo_title": "What Is Win Rate in Trading? FX & CFD Guide",
+      "meta_description": "Learn what win rate means in FX and CFD trading, how to calculate it, why it matters, and why win rate alone does not guarantee profits.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "overtrading-explained": {
+      "title": "Sobreoperar explicado",
+      "excerpt": "Demasiadas operaciones, poco edge: cómo el aburrimiento, la venganza y el FOMO convierten el plan en ruido y las reglas aburridas que sí rompen el ciclo.",
+      "seo_title": "Overtrading Explained: Causes, Signs, and Fixes",
+      "meta_description": "Learn what overtrading means, why it happens, how it damages trading performance, and the practical steps traders use to stop it.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "fear-vs-greed-in-trading": {
+      "title": "Miedo vs. codicia en el trading",
+      "excerpt": "El apalancamiento acelera ambas emociones: el miedo encoge la ejecución y la codicia la estira. La estructura, no el estoicismo, mantiene el plan al mando.",
+      "seo_title": "Fear vs Greed in Trading: FX & CFD Guide",
+      "meta_description": "Learn how fear and greed affect FX and CFD trading, the signs to watch for, and practical ways traders manage emotions and stay disciplined.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "how-to-build-trading-discipline": {
+      "title": "Cómo construir disciplina en el trading",
+      "excerpt": "Planifica antes de la vela, arriesga lo suficientemente pequeño para pensar, checklist antes del clic: la disciplina es estructura que repites hasta que aburre (y eso es bueno).",
+      "seo_title": "How to Build Trading Discipline the Right Way",
+      "meta_description": "Learn how to build trading discipline with routines, risk rules, journaling, and emotional control so you can trade more consistently.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "why-traders-lose-money": {
+      "title": "Por qué los traders pierden dinero",
+      "excerpt": "Las entradas son fáciles; sobrevivir es difícil: riesgo excesivo, falta de plan y clics emocionales explican la mayoría de las cuentas quemadas, no un solo indicador malo.",
+      "seo_title": "Why Traders Lose Money: Common Reasons Explained",
+      "meta_description": "Learn why traders lose money, the most common trading mistakes, and how poor risk management, psychology, and discipline damage performance.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "developing-a-trading-plan": {
+      "title": "Cómo desarrollar un plan de trading",
+      "excerpt": "Escríbelo con calma, síguelo cuando no lo estés: mercados, setups, riesgo, límites de pérdida, noticias, psicología y revisión en un documento repetible.",
+      "seo_title": "Developing a Trading Plan: Step-by-Step Guide",
+      "meta_description": "Learn how to develop a trading plan with clear rules for entries, exits, risk, discipline, and review so you can trade with more consistency.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "forex-vs-stocks-which-is-better": {
+      "title": "Forex vs. acciones: ¿cuál es mejor?",
+      "excerpt": "Billones en volumen FX vs. acciones conocidas: profundidad y macro por un lado; propiedad sin apalancamiento y estructura de bolsa por el otro.",
+      "seo_title": "Forex vs Stocks: Which Is Better for Traders?",
+      "meta_description": "Compare forex and stocks by volume, safety, liquidity, risk, and trading style to see which market may suit different traders best.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "day-trading-vs-swing-trading": {
+      "title": "Day trading vs. swing trading",
+      "excerpt": "Cierres el mismo día vs. posiciones de varios días: tiempo de pantalla, riesgo overnight y ritmo definen qué estilo encaja con tu agenda y psicología.",
+      "seo_title": "Day Trading vs Swing Trading: Which Is Better?",
+      "meta_description": "Compare day trading and swing trading by time, risk, lifestyle, psychology, and strategy so you can choose the style that fits you best.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "technical-vs-fundamental-analysis": {
+      "title": "Análisis técnico vs. fundamental",
+      "excerpt": "Los gráficos responden “¿qué hace el precio?” Los fundamentos preguntan “¿cuánto vale?”. La mayoría combina timing con valor a lo largo del tiempo.",
+      "seo_title": "Technical vs Fundamental Analysis Explained",
+      "meta_description": "Learn the difference between technical and fundamental analysis, the key items in each, and when traders and investors use them.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "crypto-vs-forex-trading": {
+      "title": "Crypto vs. forex",
+      "excerpt": "Billones en FX vs. el auge de activos digitales: uno anclado en flujos bancarios globales; el otro con titulares de custodia, plataformas y fraude.",
+      "seo_title": "Crypto vs Forex Trading: Which Is Better?",
+      "meta_description": "Compare crypto and forex trading by market size, liquidity, volatility, safety, regulation, and trading style to see which fits you best.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
+    },
+    "mt4-vs-mt5": {
+      "title": "MT4 vs. MT5",
+      "excerpt": "Compara MetaTrader 4 y MetaTrader 5: simplicidad centrada en forex frente a herramientas multiactivo, tipos de orden, profundidad de mercado, análisis, automatización y flujos prácticos.",
+      "seo_title": "MT4 vs. MT5: ¿cuál plataforma de trading es mejor?",
+      "meta_description": "Compara MT4 y MT5 por funciones, mercados, tipos de orden, herramientas y usabilidad, y aprende cómo los traders usan ambas plataformas en la práctica.",
+      "category": "Beginner",
+      "content": {
+        "disclaimer": "The information provided in this article is for educational purposes only and does not constitute financial advice or investment recommendations."
+      }
     }
   },
   "tradersClub": {
@@ -924,6 +1534,32 @@
     "mobilePlatform": "Plataforma Móvil",
     "mobileTitle": "TraderTok Móvil",
     "mobileDescription": "Accede a nuestra plataforma móvil en iOS y Android y opera desde cualquier lugar: abre, gestiona y cierra posiciones directamente desde tu teléfono en solo unos toques."
+  },
+  "homePayment": {
+    "title": "Pagos rápidos, seguros y flexibles",
+    "leadHtml": "Financia tu cuenta a través de socios de pago autorizados: tarjetas, transferencia bancaria y opciones regionales que incluyen <strong>Apple Pay</strong>, <strong>Google Pay</strong>, <strong>dinero móvil (África)</strong> y <strong>GCash (Asia)</strong> cuando estén disponibles.",
+    "visualAriaLabel": "Métodos de pago",
+    "iconLabelCards": "Tarjetas",
+    "iconLabelBankTransfer": "Transferencia bancaria",
+    "walletsLabel": "Billeteras digitales y métodos regionales",
+    "walletApplePayAria": "Apple Pay",
+    "walletGooglePayAria": "Google Pay",
+    "walletMobileMoneyAria": "Dinero móvil",
+    "walletGcashAria": "GCash, Asia",
+    "visaAriaLabel": "Visa",
+    "mastercardAlt": "Mastercard",
+    "gcashRegion": "Asia",
+    "tagSecure": "Seguro",
+    "tagFastProcessing": "Procesamiento rápido",
+    "tagGlobal": "Global",
+    "footnote": "Los PSP incluyen PayRetailers, PayOp y otros. Los métodos disponibles dependen de tu región.",
+    "bullet1": "Opciones de fondeo regional",
+    "bullet2": "Depósitos y retiros ágiles",
+    "bullet3": "Procesamiento a través de socios regulados",
+    "uspTitle": "Acceso global a pagos",
+    "uspText": "A diferencia de las plataformas tradicionales limitadas a pocos métodos de pago, TraderTok ofrece opciones de fondeo flexibles a través de múltiples socios de pago globales, brindando a los usuarios acceso a los métodos más eficientes y convenientes disponibles en su región.",
+    "providersTitle": "Respaldado por socios de pago de confianza",
+    "providersText": "TraderTok trabaja con una red de proveedores de servicios de pago autorizados, incluidos PayRetailers, PayOp y otros socios PSP globales, lo que permite el acceso a métodos de pago ampliamente utilizados como Visa y Mastercard, junto con transferencias bancarias y soluciones específicas por región."
   },
   "instruments": {
     "sectionTitle": "Explora Nuestros Instrumentos de Trading",
@@ -2051,7 +2687,7 @@
       "islamicHtml": "<strong>Cuentas islámicas disponibles en:</strong> cuentas Cent y STP."
     },
     "elite": {
-      "title": "Cuentas mystery / élite",
+      "title": "Cuentas personalizadas",
       "paragraph1": "Nuestra oferta va más allá de los tipos de cuenta estándar aquí listados. Mantenemos cuentas premium y élite, orientadas a traders e inversores profesionales — solo bajo solicitud.",
       "contactHtml": "Para acceso y detalles, <a href=\"./?page=contact-us\" style=\"color: #00b67a; font-weight: 600;\">contáctanos</a> directamente."
     },
@@ -2544,7 +3180,11 @@
     "titlePart1": "Recursos",
     "titlePart2": "Educativos",
     "subtitle1": "Domina los fundamentos del mercado forex con nuestra colección curada de guías de trading esenciales.",
-    "subtitle2": "Explora nuestra biblioteca de más de 20 artículos. Comienza desde el principio o adéntrate en un tema específico."
+    "subtitle2": "Explora nuestra biblioteca de más de 20 artículos. Comienza desde el principio o adéntrate en un tema específico.",
+    "paginationPrev": "Anterior",
+    "paginationNext": "Siguiente",
+    "paginationPage": "Página",
+    "paginationOf": "de"
   },
   "homeFaq": {
     "title": "Preguntas frecuentes",

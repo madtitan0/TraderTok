@@ -1,0 +1,490 @@
+[
+  {
+    "id": "what-is-technical-analysis-in-trading",
+    "title": "What Is Technical Analysis in Trading?",
+    "excerpt": "Learn what technical analysis is, how charts and indicators work, and how traders use price trends and volume to time trades and manage risk across forex, stocks, and more.",
+    "category": "Beginner",
+    "seo_title": "What Is Technical Analysis in Trading? Complete Guide",
+    "meta_description": "Learn what technical analysis in trading is, how charts and indicators work, and how traders use price trends to make better market decisions."
+  },
+  {
+    "id": "introduction-to-candlestick-patterns",
+    "title": "Introduction to Candlestick Patterns in Trading",
+    "excerpt": "Learn how candlestick patterns reveal price action and sentiment, which formations matter for beginners, and how to combine them with context and risk management.",
+    "category": "Beginner",
+    "seo_title": "Introduction to Candlestick Patterns in Trading",
+    "meta_description": "Learn candlestick patterns in trading, how they work, key types, and how traders use them to spot trends, reversals, and market sentiment."
+  },
+  {
+    "id": "bullish-vs-bearish-candlestick-patterns",
+    "title": "Bullish vs Bearish Candlestick Patterns",
+    "excerpt": "See how bullish and bearish candlestick patterns differ, where they usually appear, which setups traders watch for, and how to combine them with context and risk management.",
+    "category": "Beginner",
+    "seo_title": "Bullish vs Bearish Candlestick Patterns Explained",
+    "meta_description": "Learn bullish vs bearish candlestick patterns, key differences, examples, and how traders use them to spot reversals and market direction."
+  },
+  {
+    "id": "what-is-rsi-indicator",
+    "title": "What Is RSI Indicator in Trading?",
+    "excerpt": "Understand how the Relative Strength Index (RSI) measures momentum on a 0–100 scale, what overbought and oversold mean, and how to use RSI with trend and risk management.",
+    "category": "Beginner",
+    "seo_title": "What Is RSI Indicator in Trading? Explained Simply",
+    "meta_description": "Learn what the RSI indicator is, how it works, how to read overbought and oversold levels, and how traders use RSI in technical analysis."
+  },
+  {
+    "id": "what-is-macd-indicator",
+    "title": "What Is MACD Indicator in Trading?",
+    "excerpt": "Learn how MACD combines moving averages, a signal line, and a histogram to show trend direction, momentum shifts, and common crossover setups across markets.",
+    "category": "Beginner",
+    "seo_title": "What Is MACD Indicator in Trading? Full Guide",
+    "meta_description": "Learn what the MACD indicator is, how it works, how to read MACD crossovers and histogram signals, and how traders use it in technical analysis."
+  },
+  {
+    "id": "sma-vs-ema-moving-averages-explained",
+    "title": "SMA vs EMA: Moving Averages Explained",
+    "excerpt": "Compare simple (SMA) and exponential (EMA) moving averages: how each is built, how they behave on the chart, and when traders reach for smoother trends vs faster signals.",
+    "category": "Beginner",
+    "seo_title": "SMA vs EMA: Moving Averages Explained Simply",
+    "meta_description": "Learn SMA vs EMA, how moving averages work, key differences, formulas, and how traders use them to identify trends and trading signals."
+  },
+  {
+    "id": "what-is-fibonacci-retracement",
+    "title": "What Is Fibonacci Retracement in Trading?",
+    "excerpt": "Learn how Fibonacci retracement maps pullback zones in trends, which ratios traders watch most, and how to combine levels with price action and confirmation tools.",
+    "category": "Beginner",
+    "seo_title": "What Is Fibonacci Retracement in Trading? Guide",
+    "meta_description": "Learn what Fibonacci retracement is, key Fibonacci levels, and how traders use it in uptrends and downtrends to find support and resistance."
+  },
+  {
+    "id": "what-are-bollinger-bands",
+    "title": "What Are Bollinger Bands in Trading?",
+    "excerpt": "See how Bollinger Bands combine a moving average with volatility channels, what squeezes and band touches mean, and how traders pair them with confirmation tools.",
+    "category": "Beginner",
+    "seo_title": "What Are Bollinger Bands in Trading? Guide",
+    "meta_description": "Learn what Bollinger Bands are, how they work, how to read volatility and price bands, and how traders use them in technical analysis."
+  },
+  {
+    "id": "what-is-trendline-trading",
+    "title": "What Is Trendline Trading?",
+    "excerpt": "Learn how trendlines connect swing highs and lows, how bounces and breaks are read, and how to combine lines with confirmation and risk management.",
+    "category": "Beginner",
+    "seo_title": "What Is Trendline Trading? Beginner's Guide",
+    "meta_description": "Learn what trendline trading is, how to draw trendlines, and how traders use them to identify support, resistance, breakouts, and trend direction."
+  },
+  {
+    "id": "what-is-breakout-trading",
+    "title": "What Is Breakout Trading?",
+    "excerpt": "Learn how breakouts work above resistance or below support, why volume and confirmation matter, and how to manage fakeouts and risk around key levels.",
+    "category": "Beginner",
+    "seo_title": "What Is Breakout Trading? Beginner's Guide",
+    "meta_description": "Learn what breakout trading is, how breakouts work, key setups, volume confirmation, and how traders use breakouts in technical analysis."
+  },
+  {
+    "id": "what-is-head-and-shoulders-pattern",
+    "title": "What Is Head and Shoulders Pattern?",
+    "excerpt": "See how the head and shoulders top and inverse patterns form, what the neckline confirms, how measured moves work, and how volume fits into reversal trading.",
+    "category": "Beginner",
+    "seo_title": "What Is Head and Shoulders Pattern? Full Guide",
+    "meta_description": "Learn what the head and shoulders pattern is, how it works, what the neckline means, and how traders use this reversal chart pattern with examples."
+  },
+  {
+    "id": "double-top-vs-double-bottom",
+    "title": "Double Top vs Double Bottom in FX and CFD Trading",
+    "excerpt": "Compare double top and double bottom reversals, neckline confirmation, FX examples, and how CFD long and short setups fit classic M and W chart structures.",
+    "category": "Beginner",
+    "seo_title": "Double Top vs Double Bottom in FX & CFD Trading",
+    "meta_description": "Learn double top vs double bottom in FX and CFD trading, how these reversal patterns work, key confirmation signals, and trading examples."
+  },
+  {
+    "id": "triangle-patterns-in-trading",
+    "title": "Triangle Patterns in Trading: Ascending, Descending, Symmetrical",
+    "excerpt": "See how ascending, descending, and symmetrical triangles form from converging trendlines, how breakouts are confirmed, and how height-based targets are projected.",
+    "category": "Beginner",
+    "seo_title": "Triangle Patterns in Trading: Full Beginner Guide",
+    "meta_description": "Learn ascending, descending, and symmetrical triangle patterns in trading, how they work, breakout signals, and how traders use them."
+  },
+  {
+    "id": "flag-and-pennant-patterns",
+    "title": "Flag and Pennant Patterns in Trading",
+    "excerpt": "Understand flagpoles, channel vs triangle consolidation, bullish and bearish setups, volume clues, and how projected moves are measured from the pole.",
+    "category": "Beginner",
+    "seo_title": "Flag and Pennant Patterns in Trading Explained",
+    "meta_description": "Learn flag and pennant patterns in trading, how they form, breakout signals, volume behavior, and how traders use them as continuation setups."
+  },
+  {
+    "id": "cup-and-handle-pattern",
+    "title": "Cup and Handle Pattern in Trading",
+    "excerpt": "See how the rounded cup, handle, and lip resistance fit together, how breakouts are confirmed, and how cup depth is often projected for upside targets.",
+    "category": "Beginner",
+    "seo_title": "Cup and Handle Pattern in Trading Explained",
+    "meta_description": "Learn what the cup and handle pattern is, how it works, breakout signals, target methods, and how traders use this bullish chart pattern."
+  },
+  {
+    "id": "how-to-trade-chart-patterns",
+    "title": "How to Trade Chart Patterns",
+    "excerpt": "Walk through identifying formations, marking levels, waiting for confirmation, using volume, placing stops, and projecting targets for reversal and continuation setups.",
+    "category": "Beginner",
+    "seo_title": "How to Trade Chart Patterns: Beginner Guide",
+    "meta_description": "Learn how to trade chart patterns using breakouts, support, resistance, volume, and confirmation to build a practical trading strategy."
+  },
+  {
+    "id": "what-is-day-trading",
+    "title": "What Is Day Trading?",
+    "excerpt": "See how intraday entries and exits work, how day trading differs from swing trading and investing, common strategies, risks, and why rules and risk control come first.",
+    "category": "Beginner",
+    "seo_title": "What Is Day Trading? Guide for Beginners",
+    "meta_description": "Learn what day trading is, how it works, how it compares with swing trading and investing, and why risk management matters most."
+  },
+  {
+    "id": "what-is-swing-trading",
+    "title": "What Is Swing Trading?",
+    "excerpt": "Learn how multi-day swings are traded, how swing compares to day trading and investing, common strategies, overnight risks, and habits that support disciplined risk control.",
+    "category": "Beginner",
+    "seo_title": "What Is Swing Trading? Beginner's Guide",
+    "meta_description": "Learn what swing trading is, how it works, how it compares with day trading and investing, and why risk management matters."
+  },
+  {
+    "id": "what-is-scalping-in-trading",
+    "title": "What Is Scalping in Trading?",
+    "excerpt": "Understand ultra-short holds, liquidity and spreads, typical tools and markets, a walk-through EUR/USD style example, and why costs and discipline make or break scalping.",
+    "category": "Beginner",
+    "seo_title": "What Is Scalping in Trading? Beginner Guide",
+    "meta_description": "Learn what scalping is, how it works, key risks, and see a real-time style example of how scalpers aim to profit from tiny price moves."
+  },
+  {
+    "id": "trend-following-strategy-explained",
+    "title": "Trend Following Strategy Explained",
+    "excerpt": "Define trend following, map higher highs and lower lows, see pullback and breakout ideas in up and down markets, and compare trend vs counter-trend with practical tools and risk notes.",
+    "category": "Beginner",
+    "seo_title": "Trend Following Strategy Explained for Beginners",
+    "meta_description": "Learn what a trend following strategy is, how traders use uptrends and downtrends, and how to trade with trend direction effectively."
+  },
+  {
+    "id": "range-trading-strategy-explained",
+    "title": "Range Trading Strategy Explained",
+    "excerpt": "Map sideways support and resistance, trade reactions at the edges, confirm setups with price action and volume, and know when a range may be giving way to a breakout.",
+    "category": "Beginner",
+    "seo_title": "Range Trading Strategy Explained for Beginners",
+    "meta_description": "Learn how range trading works, how to identify support and resistance zones, and how to trade a market moving sideways in a range."
+  },
+  {
+    "id": "breakout-strategy-guide",
+    "title": "Breakout Strategy Guide",
+    "excerpt": "Define breakouts at support and resistance, read pre-break context, compare immediate, close, and retest entries, confirm with momentum and volume, and plan stops and measured targets.",
+    "category": "Beginner",
+    "seo_title": "Breakout Strategy Guide for Beginner Traders",
+    "meta_description": "Learn how breakout trading works, when to enter after a breakout, how to confirm the move, and how to avoid false breakouts."
+  },
+  {
+    "id": "news-trading-strategy-explained",
+    "title": "News Trading Strategy Explained",
+    "excerpt": "Plan around high-impact releases, understand volatility spreads and slippage, compare pre- vs post-news approaches, and use size, patience, and clear invalidation when conditions get rough.",
+    "category": "Beginner",
+    "seo_title": "News Trading Strategy Explained for Beginners",
+    "meta_description": "Learn how news trading works, how to trade during news release time, and what risk management precautions matter in volatile markets."
+  },
+  {
+    "id": "what-is-metatrader-4-mt4",
+    "title": "What Is MetaTrader 4 (MT4)?",
+    "excerpt": "Tour MT4’s workspace: quotes, charts, orders, indicators, EAs and MQL4, strategy testing, and desktop, web, and mobile differences—plus sensible setup habits.",
+    "category": "Beginner",
+    "seo_title": "What Is MetaTrader 4 (MT4)? Complete Guide",
+    "meta_description": "Learn what MetaTrader 4 is, how MT4 works, its charts, indicators, order types, Expert Advisors, and why traders still use it."
+  },
+  {
+    "id": "what-is-metatrader-5-mt5",
+    "title": "What Is MetaTrader 5 (MT5)?",
+    "excerpt": "See how MT5 combines multi-asset trading, deep charting, four execution modes, MQL5 robots, testing, Signals, and web or mobile access in one workspace.",
+    "category": "Beginner",
+    "seo_title": "What Is MetaTrader 5 (MT5)? Complete Guide",
+    "meta_description": "Learn what MetaTrader 5 is, how MT5 works, its charts, order types, indicators, automation tools, and why traders use it."
+  },
+  {
+    "id": "how-to-place-a-trade-step-by-step",
+    "title": "How to Place a Trade (Step-by-Step)",
+    "excerpt": "Walk through choosing an instrument, direction, market vs pending orders, size, stops and targets, review, execution, and how to monitor or adjust the position.",
+    "category": "Beginner",
+    "seo_title": "How to Place a Trade Step by Step for Beginners",
+    "meta_description": "Learn how to place a trade step by step, including choosing a market, selecting order type, setting stop-loss, and managing the trade."
+  },
+  {
+    "id": "what-is-stop-loss-and-take-profit",
+    "title": "What Is a Stop Loss and Take Profit?",
+    "excerpt": "Define risk and reward before you click: how stop-loss and take-profit work, where to place them, buy vs sell logic, risk-to-reward, slippage, and habits that avoid common mistakes.",
+    "category": "Beginner",
+    "seo_title": "What Is Stop Loss and Take Profit? Full Guide",
+    "meta_description": "Learn what Stop Loss and Take Profit mean in trading, how SL and TP work, where to place them, and how to use them in real trades."
+  },
+  {
+    "id": "how-to-use-a-demo-trading-account",
+    "title": "How to Use a Demo Trading Account",
+    "excerpt": "Treat virtual capital like real risk: platform drills, one strategy, SL/TP every time, journaling, realistic sessions, and a clear checklist before you size up to live.",
+    "category": "Beginner",
+    "seo_title": "How to Use a Demo Trading Account Properly",
+    "meta_description": "Learn how to use a demo trading account, what to practice, common mistakes to avoid, and how to prepare for live trading step by step."
+  },
+  {
+    "id": "market-vs-limit-vs-stop-orders",
+    "title": "How Trading Orders Work (Market vs Limit vs Stop)",
+    "excerpt": "See when to enter now, wait for a better price, or wait for a breakout trigger—and how buy/sell limit and stop pending orders differ at a glance.",
+    "category": "Beginner",
+    "seo_title": "Market vs Limit vs Stop Orders Explained",
+    "meta_description": "Learn how market, limit, and stop orders work, when to use each one, and how traders place entries more accurately in real markets."
+  },
+  {
+    "id": "what-is-stock-trading",
+    "title": "What Is Stock Trading?",
+    "excerpt": "Own a slice of a public company: how buy and sell orders move through a broker, what drives price, day vs swing vs position styles, and simple risk-first examples.",
+    "category": "Beginner",
+    "seo_title": "What Is Stock Trading? Beginner's Guide",
+    "meta_description": "Learn what stock trading is, how it works, how traders buy and sell shares, and see simple real-time style examples for beginners."
+  },
+  {
+    "id": "what-are-indices-in-trading",
+    "title": "What Are Indices in Trading?",
+    "excerpt": "How benchmarks bundle stocks, how cap, price, and equal weighting change the story, and why traders pair headline indices with breadth and global context.",
+    "category": "Beginner",
+    "seo_title": "What Are Indices in Trading? Beginner Guide",
+    "meta_description": "Learn what indices are in trading, how stock indices work, what moves them, and why traders watch major global indices today."
+  },
+  {
+    "id": "what-is-commodity-trading",
+    "title": "What Is Commodity Trading?",
+    "excerpt": "From crude and grains to gold and cattle: how futures and options tie to real inputs, the four classic segments, and why drivers differ sharply by market.",
+    "category": "Beginner",
+    "seo_title": "What Is Commodity Trading? Complete Guide",
+    "meta_description": "Learn what commodity trading is, how it works, and the main commodity asset types including energy, metals, agriculture, and livestock."
+  },
+  {
+    "id": "what-is-cryptocurrency-trading",
+    "title": "What Is Cryptocurrency Trading?",
+    "excerpt": "24/7 digital markets: exchanges, apps, wallet on-ramps, and DEXs—plus spot vs leverage, simple trade plans, and the risks every newcomer should plan for.",
+    "category": "Beginner",
+    "seo_title": "What Is Cryptocurrency Trading? Beginner Guide",
+    "meta_description": "Learn what cryptocurrency trading is, how it works, the main ways people buy crypto today, and the key risks beginners should understand."
+  },
+  {
+    "id": "what-is-cfd-trading",
+    "title": "What Is CFD Trading?",
+    "excerpt": "Trade price moves without owning the asset: long and short CFDs, margin and leverage math, typical costs, and why risk control is built into the product.",
+    "category": "Beginner",
+    "seo_title": "What Is CFD Trading? Complete Beginner Guide",
+    "meta_description": "Learn what CFD trading is, how it works, how leverage and margin affect trades, and the key risks every beginner should understand."
+  },
+  {
+    "id": "what-is-non-farm-payroll-nfp",
+    "title": "What Is Non-Farm Payroll (NFP)?",
+    "excerpt": "The U.S. jobs heartbeat: what the payroll change measures, what else is in the Employment Situation, the usual 8:30 a.m. ET release, and why one print can reprice many markets.",
+    "category": "Beginner",
+    "seo_title": "What Is Non-Farm Payroll (NFP)? Full Guide",
+    "meta_description": "Learn what Non-Farm Payroll (NFP) is, when NFP data is released, why traders watch it, and how it can move forex, stocks, bonds, and gold."
+  },
+  {
+    "id": "what-is-cpi-and-why-it-matters",
+    "title": "What Is CPI and Why It Matters?",
+    "excerpt": "Consumer inflation in one index: how CPI is built, the usual 8:30 a.m. ET release cadence, and why hotter or cooler prints reprice the dollar, yields, equities, and gold together.",
+    "category": "Beginner",
+    "seo_title": "What Is CPI and Why It Matters? Full Guide",
+    "meta_description": "Learn what CPI is, when CPI data is released, why it moves markets, and which assets are most affected by inflation news."
+  },
+  {
+    "id": "how-gdp-affects-markets",
+    "title": "How GDP Affects Markets",
+    "excerpt": "GDP as a lens on growth, rates, and risk: how stocks, FX, bonds, and commodities respond—and why large economies and geopolitics filter the same print differently.",
+    "category": "Beginner",
+    "seo_title": "How GDP Affects Markets: Beginner Guide",
+    "meta_description": "Learn how GDP affects forex, stocks, bonds, commodities, and how country growth gaps and geopolitical tensions shape market reactions."
+  },
+  {
+    "id": "what-is-fomc-and-why-traders-watch-it",
+    "title": "What Is FOMC and Why Traders Watch It?",
+    "excerpt": "The Fed’s policy committee: who sits on it, what happens each meeting, why “no change” can still move the dollar, yields, and equities—and the 2026 meeting calendar.",
+    "category": "Beginner",
+    "seo_title": "What Is FOMC and Why Traders Watch It?",
+    "meta_description": "Learn what the FOMC is, why traders watch it, how it affects rates and markets, and when FOMC meetings are scheduled in 2026."
+  },
+  {
+    "id": "how-inflation-impacts-markets",
+    "title": "How Inflation Impacts Markets",
+    "excerpt": "From CPI surprises to yields and the dollar: how inflation reprices policy expectations, why assets move together, and why energy and geopolitics skew the path.",
+    "category": "Beginner",
+    "seo_title": "How Inflation Impacts Markets: Full Guide",
+    "meta_description": "Learn how inflation affects stocks, forex, bonds, gold, commodities, and how recent 2026 inflation trends are shaping market moves."
+  },
+  {
+    "id": "what-is-recession-in-economics",
+    "title": "What Is Recession in Economics?",
+    "excerpt": "Beyond the two-quarter rule: how economists judge depth, diffusion, and duration—and the policy, credit, and shock channels that often trigger downturns.",
+    "category": "Beginner",
+    "seo_title": "What Is Recession in Economics? Full Guide",
+    "meta_description": "Learn what a recession is in economics, how it is identified, and the major factors that can cause recessions across an economy."
+  },
+  {
+    "id": "what-is-liquidity-in-trading",
+    "title": "What Is Liquidity in Trading?",
+    "excerpt": "Spread, depth, and price impact: why the same chart can fill cleanly in a liquid session and painfully in a thin one—and how to read the warning signs.",
+    "category": "Beginner",
+    "seo_title": "What Is Liquidity in Trading? Full Guide",
+    "meta_description": "Learn what liquidity means in trading, why it matters, how it affects spreads, slippage, execution, and why traders rely on liquid markets."
+  },
+  {
+    "id": "what-is-market-structure",
+    "title": "What Is Market Structure?",
+    "excerpt": "Swing highs and lows in sequence: how to read bullish, bearish, and range structure—and when a break of structure changes your bias.",
+    "category": "Beginner",
+    "seo_title": "What Is Market Structure? Full Trading Guide",
+    "meta_description": "Learn what market structure is, how to read higher highs and lower lows, and why structure matters for trend, entries, and risk management."
+  },
+  {
+    "id": "what-is-smart-money-concept-smc",
+    "title": "What Is the Smart Money Concept (SMC)?",
+    "excerpt": "SMC in plain terms: liquidity, displacement, imbalances, and how order blocks, FVGs, sweeps, BOS, and CHoCH fit into one readable story on the chart.",
+    "category": "Beginner",
+    "seo_title": "What Is the Smart Money Concept (SMC)? Full Guide",
+    "meta_description": "Learn what Smart Money Concept is and understand Order Blocks, Fair Value Gaps, Liquidity Sweeps, BOS, and CHoCH with examples."
+  },
+  {
+    "id": "what-is-order-flow-trading",
+    "title": "What Is Order Flow Trading?",
+    "excerpt": "DOM, tape, footprint, and delta: how aggressive orders interact with resting liquidity—and how to read acceptance, rejection, and absorption at key levels.",
+    "category": "Beginner",
+    "seo_title": "What Is Order Flow Trading? Full Guide",
+    "meta_description": "Learn what order flow trading is, how DOM, tape, footprint, and delta work, and see a chart-style example with practical order flow markings."
+  },
+  {
+    "id": "what-is-slippage-in-trading",
+    "title": "What Is Slippage in Trading?",
+    "excerpt": "Expected price vs actual fill: why slippage is normal execution noise—and how news, liquidity, order type, and size change what you really get.",
+    "category": "Beginner",
+    "seo_title": "What Is Slippage in Trading? Full Guide",
+    "meta_description": "Learn what slippage in trading means, why it happens, how it affects entries and exits, and how traders try to reduce slippage risk."
+  },
+  {
+    "id": "what-is-drawdown-in-trading",
+    "title": "What Is Drawdown in Trading?",
+    "excerpt": "Peak to trough: why maximum drawdown and recovery math matter more than win rate—and how sizing keeps losing streaks survivable.",
+    "category": "Beginner",
+    "seo_title": "What Is Drawdown in Trading? Full Guide",
+    "meta_description": "Learn what drawdown means in trading, why it matters, how to control it with position sizing, and what drawdown level a retail trader can afford."
+  },
+  {
+    "id": "what-is-risk-reward-ratio",
+    "title": "What Is Risk-Reward Ratio?",
+    "excerpt": "Risk vs planned reward before you click: how stop and target distances define the ratio—and why a pretty number still needs a realistic path to the target.",
+    "category": "Beginner",
+    "seo_title": "What Is Risk-Reward Ratio? Full Trading Guide",
+    "meta_description": "Learn what risk-reward ratio means in trading, how to calculate it, why it matters, and how traders use it with stop-loss and targets."
+  },
+  {
+    "id": "how-to-calculate-position-size",
+    "title": "How to Calculate Position Size",
+    "excerpt": "Account risk ÷ trade risk: turn your stop distance into share count, lot size, or contracts—before you click, not after.",
+    "category": "Beginner",
+    "seo_title": "How to Calculate Position Size in Trading",
+    "meta_description": "Learn how to calculate position size in trading using account risk, stop-loss distance, and simple formulas to control losses and trade smarter."
+  },
+  {
+    "id": "what-is-a-trading-journal",
+    "title": "What Is a Trading Journal?",
+    "excerpt": "Beyond P&L: capture setup, context, rules, and emotions so you can review what actually works—and stop repeating invisible mistakes.",
+    "category": "Beginner",
+    "seo_title": "What Is a Trading Journal? Complete Guide",
+    "meta_description": "Learn what a trading journal is, why it matters, how to journal trades properly, and the best websites traders use to track performance."
+  },
+  {
+    "id": "how-to-backtest-a-strategy",
+    "title": "How to Backtest a Strategy",
+    "excerpt": "Rules first, data second, honesty third: manual replay vs automated runs—and why out-of-sample and walk-forward beats one shiny equity curve.",
+    "category": "Beginner",
+    "seo_title": "How to Backtest a Strategy the Right Way",
+    "meta_description": "Learn how to backtest a trading strategy, how long to test it, and the difference between manual and automated backtesting before going live."
+  },
+  {
+    "id": "what-is-win-rate-in-trading",
+    "title": "What Is Win Rate in Trading?",
+    "excerpt": "Wins ÷ trades × 100 is only the headline: without average win, average loss, and sample size, win rate can mislead—especially on leverage.",
+    "category": "Beginner",
+    "seo_title": "What Is Win Rate in Trading? FX & CFD Guide",
+    "meta_description": "Learn what win rate means in FX and CFD trading, how to calculate it, why it matters, and why win rate alone does not guarantee profits."
+  },
+  {
+    "id": "overtrading-explained",
+    "title": "Overtrading Explained",
+    "excerpt": "Too many trades, too little edge: how boredom, revenge, and FOMO turn a plan into noise—and the boring rules that actually break the cycle.",
+    "category": "Beginner",
+    "seo_title": "Overtrading Explained: Causes, Signs, and Fixes",
+    "meta_description": "Learn what overtrading means, why it happens, how it damages trading performance, and the practical steps traders use to stop it."
+  },
+  {
+    "id": "fear-vs-greed-in-trading",
+    "title": "Fear vs Greed in Trading",
+    "excerpt": "Leverage speeds up both feelings: fear shrinks execution—greed stretches it. Structure, not stoicism, is what keeps the plan in charge.",
+    "category": "Beginner",
+    "seo_title": "Fear vs Greed in Trading: FX & CFD Guide",
+    "meta_description": "Learn how fear and greed affect FX and CFD trading, the signs to watch for, and practical ways traders manage emotions and stay disciplined."
+  },
+  {
+    "id": "how-to-build-trading-discipline",
+    "title": "How to Build Trading Discipline",
+    "excerpt": "Plan before the candle, risk small enough to think, checklist before click—discipline is structure you repeat until it feels boring (that is the point).",
+    "category": "Beginner",
+    "seo_title": "How to Build Trading Discipline the Right Way",
+    "meta_description": "Learn how to build trading discipline with routines, risk rules, journaling, and emotional control so you can trade more consistently."
+  },
+  {
+    "id": "why-traders-lose-money",
+    "title": "Why Traders Lose Money",
+    "excerpt": "Entries are easy; survival is hard: oversized risk, no plan, and emotion-driven clicks explain most blown balances—not a single bad indicator.",
+    "category": "Beginner",
+    "seo_title": "Why Traders Lose Money: Common Reasons Explained",
+    "meta_description": "Learn why traders lose money, the most common trading mistakes, and how poor risk management, psychology, and discipline damage performance."
+  },
+  {
+    "id": "developing-a-trading-plan",
+    "title": "Developing a Trading Plan",
+    "excerpt": "Write it when you are calm, follow it when you are not: markets, setups, risk, loss limits, news, psychology, and review—in one repeatable document.",
+    "category": "Beginner",
+    "seo_title": "Developing a Trading Plan: Step-by-Step Guide",
+    "meta_description": "Learn how to develop a trading plan with clear rules for entries, exits, risk, discipline, and review so you can trade with more consistency."
+  },
+  {
+    "id": "forex-vs-stocks-which-is-better",
+    "title": "Forex vs Stocks: Which Is Better?",
+    "excerpt": "Trillions in FX turnover vs familiar shares: size and macro depth on one side—unleveraged ownership and exchange structure on the other.",
+    "category": "Beginner",
+    "seo_title": "Forex vs Stocks: Which Is Better for Traders?",
+    "meta_description": "Compare forex and stocks by volume, safety, liquidity, risk, and trading style to see which market may suit different traders best."
+  },
+  {
+    "id": "day-trading-vs-swing-trading",
+    "title": "Day Trading vs Swing Trading",
+    "excerpt": "Same-day closes vs multi-day holds: screen time, overnight risk, and pace decide which style fits your schedule and psychology.",
+    "category": "Beginner",
+    "seo_title": "Day Trading vs Swing Trading: Which Is Better?",
+    "meta_description": "Compare day trading and swing trading by time, risk, lifestyle, psychology, and strategy so you can choose the style that fits you best."
+  },
+  {
+    "id": "technical-vs-fundamental-analysis",
+    "title": "Technical vs Fundamental Analysis",
+    "excerpt": "Charts answer “what is price doing?” Fundamentals ask “what is it worth?” Most serious participants blend timing with value over time.",
+    "category": "Beginner",
+    "seo_title": "Technical vs Fundamental Analysis Explained",
+    "meta_description": "Learn the difference between technical and fundamental analysis, the key items in each, and when traders and investors use them."
+  },
+  {
+    "id": "crypto-vs-forex-trading",
+    "title": "Crypto vs Forex Trading",
+    "excerpt": "Trillions in FX vs digital-asset hype: one is anchored in global banking flows; the other carries platform, custody, and fraud headlines.",
+    "category": "Beginner",
+    "seo_title": "Crypto vs Forex Trading: Which Is Better?",
+    "meta_description": "Compare crypto and forex trading by market size, liquidity, volatility, safety, regulation, and trading style to see which fits you best."
+  },
+  {
+    "id": "mt4-vs-mt5",
+    "title": "MT4 vs MT5",
+    "excerpt": "Compare MetaTrader 4 and MetaTrader 5: forex-focused simplicity versus multi-asset tools, order types, market depth, analysis, automation, and practical workflows for each platform.",
+    "category": "Beginner",
+    "seo_title": "MT4 vs MT5: Which Trading Platform Is Better?",
+    "meta_description": "Compare MT4 and MT5 by features, markets, order types, tools, and usability, and learn how traders use both platforms in practice."
+  }
+]

@@ -177,6 +177,20 @@
           </div>
         </div>
       </div>
+
+      <div class="footer-subbar" aria-label="Platform downloads">
+        <div class="container footer-subbar-inner">
+          <p class="footer-subbar-copy">
+            <span class="footer-subbar-copy-symbol">&copy;</span> <?php echo (int) date('Y'); ?>
+            <span data-i18n="footer.subbarCopyrightRest">TraderTok / Amber Rock Trade Ltd. All rights reserved.</span>
+          </p>
+          <nav class="footer-subbar-platforms" aria-label="Trading platforms">
+            <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n="footer.platformMt4">MetaTrader 4</a>
+            <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n="footer.platformMt5">MetaTrader 5</a>
+            <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n="footer.platformWebTrader">Web Trader</a>
+          </nav>
+        </div>
+      </div>
     </footer>
 
     <?php include __DIR__ . '/partials/education-lead-gate-modal.php'; ?>
