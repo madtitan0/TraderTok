@@ -9,7 +9,7 @@
           <div class="footer-column">
             <h3 class="footer-title" data-i18n="footer.findUs">Find Us On</h3>
             <div class="footer-social-icons">
-              <a href="https://x.com/tradertokglobal?s=21" class="footer-social-link" aria-label="X / Twitter">
+              <a href="https://x.com/traderttok" class="footer-social-link" aria-label="X / Twitter">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.727-8.836L2.25 2.25h6.893l4.263 5.638zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               </a>
               <a href="https://www.facebook.com/profile.php?id=61587873671208" class="footer-social-link" aria-label="Facebook">

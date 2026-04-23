@@ -8,11 +8,11 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Position sizing basics (Risk Management Essentials)',
-                'href' => './risk-management-essentials',
+                'href' => routeUrl('risk-management-essentials'),
             ],
             [
                 'label' => 'Leverage, margin, and exposure (Leverage & Margin Basics)',
-                'href' => './leverage-margin-risk-basics',
+                'href' => routeUrl('leverage-margin-risk-basics'),
             ],
         ],
     ],
@@ -24,7 +24,7 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'What is a pip? Lot size and pip value (Forex Fundamentals)',
-                'href' => './forex-trading-fundamentals',
+                'href' => routeUrl('forex-trading-fundamentals'),
             ],
         ],
     ],
@@ -36,7 +36,7 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Risk-reward ratio and planning (Risk Management Essentials)',
-                'href' => './risk-management-essentials',
+                'href' => routeUrl('risk-management-essentials'),
             ],
         ],
     ],
@@ -47,7 +47,7 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Forex market sessions (Forex Fundamentals)',
-                'href' => './forex-trading-fundamentals',
+                'href' => routeUrl('forex-trading-fundamentals'),
             ],
         ],
     ],
@@ -58,7 +58,7 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Market news and context (Market News)',
-                'href' => './edu-market-news',
+                'href' => routeUrl('edu-market-news'),
             ],
         ],
     ],
@@ -69,7 +69,7 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Review habits and discipline (Risk Management Essentials)',
-                'href' => './risk-management-essentials',
+                'href' => routeUrl('risk-management-essentials'),
             ],
         ],
     ],
@@ -80,11 +80,11 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Risk Management Essentials',
-                'href' => './risk-management-essentials',
+                'href' => routeUrl('risk-management-essentials'),
             ],
             [
                 'label' => 'Leverage & Margin Basics',
-                'href' => './leverage-margin-risk-basics',
+                'href' => routeUrl('leverage-margin-risk-basics'),
             ],
         ],
     ],
@@ -95,11 +95,11 @@ $resource_tools = [
         'links' => [
             [
                 'label' => 'Platform basics',
-                'href' => './platform-basics',
+                'href' => routeUrl('platform-basics'),
             ],
             [
                 'label' => 'Step-by-step tutorials',
-                'href' => './edu-tutorials',
+                'href' => routeUrl('edu-tutorials'),
             ],
         ],
     ],

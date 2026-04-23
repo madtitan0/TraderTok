@@ -4216,16 +4216,22 @@ select option {
 }
 
 .home-payment-overview__trust-tags {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
+  width: 100%;
   margin-top: 20px;
 }
 
 .home-payment-overview__tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  text-align: center;
   font-size: 11px;
   font-weight: 600;
-  padding: 7px 12px;
+  padding: 7px 10px;
   border-radius: 999px;
   border: 1px solid var(--border-color);
   color: var(--text-secondary);

@@ -363,7 +363,7 @@ $faq_items = [
                     <p>Explore structured trading education, practical resources, and platform tutorials designed to help you understand the markets more clearly.</p>
                     <div class="courses-final-cta-actions">
                         <a href="./education-article?id=what-is-forex-trading" class="btn-primary">Browse All Articles</a>
-                        <a href="./edu-webinars" class="education-article-link courses-secondary-cta">Join a Webinar</a>
+                        <a href="<?php echo htmlspecialchars(routeUrl('edu-webinars')); ?>" class="education-article-link courses-secondary-cta">Join a Webinar</a>
                         <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
                         <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                     </div>

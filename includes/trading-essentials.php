@@ -109,13 +109,10 @@
 
     <script>
     function handleArticleAccess(articleId) {
-        // Check if unlocked via Education Hub submission
-        const isUnlocked = localStorage.getItem('eduHub_form_submitted') === 'true';
-        if (isUnlocked) {
-            window.location.href = 'education-article?id=' + articleId;
-        } else {
-            // Redirect to registration section on the hub page
-            window.location.href = 'education-hub#register';
+        if (window.EduLeadGate && typeof window.EduLeadGate.openModal === 'function') {
+            window.EduLeadGate.openModal('education-article?id=' + encodeURIComponent(articleId));
+            return;
         }
+        window.location.href = 'education-article?id=' + encodeURIComponent(articleId);
     }
     </script>

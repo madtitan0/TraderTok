@@ -16,6 +16,7 @@
             </p>
             <div class="hero-ctas education-hub-main-hero-ctas">
                 <a href="#hub-sections" class="btn-secondary1" data-i18n="educationHubPage.ctaExplore">Explore Sections</a>
+                <button type="button" class="btn-secondary1 education-hub-access-content-btn" data-edu-access-content="1" data-i18n="educationHubPage.ctaAccessContent">Access content</button>
                 <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-primary" data-i18n="educationHubPage.ctaDemo">Open Demo Account</a>
                 <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary education-hub-hero-live-cta" data-i18n="educationHubPage.ctaLive">Open Live account</a>
             </div>
@@ -125,37 +126,37 @@
                     <p data-i18n="educationHubPage.cards.articles.desc">Readable educational articles covering market concepts, strategies, and trading foundations.</p>
                 </a>
 
-                <a href="./edu-market-news" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-market-news')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.marketNews.meta">Market Knowledge</div>
                     <h3 data-i18n="educationHubPage.cards.marketNews.title">Market News & Insights</h3>
                     <p data-i18n="educationHubPage.cards.marketNews.desc">Understand how current events and market developments shape financial markets.</p>
                 </a>
 
-                <a href="./edu-ebooks" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-ebooks')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.ebooks.meta">Downloads</div>
                     <h3 data-i18n="educationHubPage.cards.ebooks.title">eBooks</h3>
                     <p data-i18n="educationHubPage.cards.ebooks.desc">Long-form educational guides that users can read and revisit at their own pace.</p>
                 </a>
 
-                <a href="./edu-webinars" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-webinars')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.webinars.meta">Live & On-Demand</div>
                     <h3 data-i18n="educationHubPage.cards.webinars.title">Webinars</h3>
                     <p data-i18n="educationHubPage.cards.webinars.desc">Educational webinar content focused on market understanding and trader learning.</p>
                 </a>
 
-                <a href="./edu-glossary" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-glossary')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.glossary.meta">Terminology</div>
                     <h3 data-i18n="educationHubPage.cards.glossary.title">Trading Glossary</h3>
                     <p data-i18n="educationHubPage.cards.glossary.desc">Definitions for essential trading terms and market language used across the industry.</p>
                 </a>
 
-                <a href="./edu-tutorials" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-tutorials')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.tutorials.meta">Platform Help</div>
                     <h3 data-i18n="educationHubPage.cards.tutorials.title">Platform Tutorials</h3>
                     <p data-i18n="educationHubPage.cards.tutorials.desc">Practical walkthroughs that help users understand platform features and workflows.</p>
                 </a>
 
-                <a href="./edu-resources" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('edu-resources')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.tools.meta">Utilities</div>
                     <h3 data-i18n="educationHubPage.cards.tools.title">Tools & Resources</h3>
                     <p data-i18n="educationHubPage.cards.tools.desc">Supporting materials, tools, and useful educational resources for ongoing learning.</p>

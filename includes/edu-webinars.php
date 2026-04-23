@@ -43,9 +43,9 @@ $replays = [
 ];
 
 $related_reading = [
-    ['title' => 'Market News & Insights', 'description' => 'Follow market commentary and weekly outlook context.', 'href' => './edu-market-news'],
-    ['title' => 'Platform Tutorials', 'description' => 'Learn how charts, orders, and platform tools work.', 'href' => './edu-tutorials'],
-    ['title' => 'Trading Essentials', 'description' => 'Explore foundational educational articles and concepts.', 'href' => './trading-essentials'],
+    ['title' => 'Market News & Insights', 'description' => 'Follow market commentary and weekly outlook context.', 'href' => routeUrl('edu-market-news')],
+    ['title' => 'Platform Tutorials', 'description' => 'Learn how charts, orders, and platform tools work.', 'href' => routeUrl('edu-tutorials')],
+    ['title' => 'Trading Essentials', 'description' => 'Explore foundational educational articles and concepts.', 'href' => routeUrl('trading-essentials')],
 ];
 ?>
 
