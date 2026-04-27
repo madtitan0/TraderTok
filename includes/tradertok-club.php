@@ -144,6 +144,16 @@
         <!-- <a class="license-link" href="https://tradertok.com/" target="_blank" rel="noopener noreferrer">https://tradertok.com/</a> -->
       </p>
     </article>
+
+    <article class="club-closing-card club-cta-panel">
+      <div class="doc-page-hero-title">TraderTok Club Access</div>
+      <h2>Join TraderTok Club</h2>
+      <p>
+        Get daily trading insights, market updates, and beginner-friendly education designed to help you grow as a
+        trader.
+      </p>
+      <a href="<?php echo htmlspecialchars(routeUrl('tradertok-club-join')); ?>" class="btn-primary club-cta-button">Join TraderTok Club</a>
+    </article>
   </div>
 </section>
 
@@ -277,6 +287,19 @@
   margin-top: 18px;
 }
 
+.club-cta-panel {
+  margin-top: 24px;
+}
+
+.club-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
 body.light-theme .club-page {
   background:
     radial-gradient(circle at top right, rgba(230, 57, 70, 0.1), transparent 28%),
@@ -348,6 +371,10 @@ body.light-theme .club-merch-note span {
   .club-section-card,
   .club-closing-card {
     padding: 26px 22px;
+  }
+
+  .club-cta-button {
+    width: 100%;
   }
 }
 </style>

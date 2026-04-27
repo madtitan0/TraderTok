@@ -23,8 +23,8 @@
               class="registration-account-crosslink" data-i18n="openLiveAccountPage.demoCrosslink">Open a demo
               account</a>
           </p>
-          <p class="edu-lead-gate-note" data-i18n="openLiveAccountPage.formNote">This form is not yet connected to a
-            live onboarding system. Submissions are simulated until you connect your CRM or registration API.</p>
+          <!-- <p class="edu-lead-gate-note" data-i18n="openLiveAccountPage.formNote">This form is not yet connected to a
+            live onboarding system. Submissions are simulated until you connect your CRM or registration API.</p> -->
         </div>
         <div class="registration-account-card">
           <div class="education-article-meta" data-i18n="openLiveAccountPage.cardMeta">Your details</div>

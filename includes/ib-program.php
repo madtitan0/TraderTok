@@ -217,6 +217,14 @@
         commission engines, and live tracking can be layered in during the next implementation phase.
       </p> -->
     </article>
+
+    <article class="ib-program-card ib-program-card--feature ib-program-cta-panel">
+      <h2 class="doc-page-hero-title">Become a Trading Partner (IB)</h2>
+      <p class="ib-program-cta-lead">
+        Refer traders, grow your network, and earn commissions for every active client you bring.
+      </p>
+      <a href="<?php echo htmlspecialchars(routeUrl('ib-program-application')); ?>" class="btn-primary ib-program-cta-button">Join Our Partner Program</a>
+    </article>
   </div>
 </section>
 
@@ -308,6 +316,37 @@
   border-top: 1px solid var(--card-border);
 }
 
+.ib-program-cta-panel {
+  text-align: left;
+}
+
+.ib-program-cta-badge {
+  display: inline-flex;
+  margin-bottom: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(230, 57, 70, 0.45);
+  padding: 6px 12px;
+  color: #d02c2d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.ib-program-cta-lead {
+  margin-bottom: 22px !important;
+}
+
+.ib-program-cta-button,
+.ib-program-apply-now-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
 [data-theme="dark"] .ib-program-card--feature,
 [data-theme="dark"] .ib-program-card--section {
   background: linear-gradient(180deg, rgba(230, 57, 70, 0.14) 0%, var(--card-bg) 100%);
@@ -349,5 +388,6 @@
     font-size: 1rem;
     line-height: 1.72;
   }
+
 }
 </style>

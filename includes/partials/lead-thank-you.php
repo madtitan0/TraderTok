@@ -1,6 +1,6 @@
 <?php
 $kind = isset($_GET['kind']) ? preg_replace('/[^a-z]/', '', strtolower((string) $_GET['kind'])) : '';
-$allowed = ['ebook', 'webinar', 'demo', 'live', 'claim'];
+$allowed = ['ebook', 'webinar', 'demo', 'live', 'claim', 'ib', 'club'];
 if (!in_array($kind, $allowed, true)) {
     $kind = 'default';
 }
@@ -40,6 +40,20 @@ $copy = [
             'Our team will review your details and contact you shortly with next steps to activate your promotion.',
         ],
     ],
+    'ib' => [
+        'title' => 'Thank you — your partner application is received',
+        'body' => [
+            'Your Partner Program (IB) application has been submitted successfully.',
+            'Our Partner Team will review your profile and contact you shortly with next steps.',
+        ],
+    ],
+    'club' => [
+        'title' => 'You’re in! Welcome to TraderTok Club',
+        'body' => [
+            'Your TraderTok Club request has been submitted successfully.',
+            'Check your email/WhatsApp for next steps and resources.',
+        ],
+    ],
     'default' => [
         'title' => 'Thank you',
         'body' => 'Your request has been received.',
@@ -66,7 +80,7 @@ if (!is_array($body)) {
             <?php if ($topic !== '' && $kind === 'ebook'): ?>
                 <p class="education-subpage-subtitle education-thank-you-topic">Selected guide: <strong><?php echo $topic; ?></strong></p>
             <?php endif; ?>
-            <?php if ($kind === 'demo' || $kind === 'live' || $kind === 'claim'): ?>
+            <?php if ($kind === 'demo' || $kind === 'live' || $kind === 'claim' || $kind === 'ib' || $kind === 'club'): ?>
                 <?php include __DIR__ . '/education-subpage-hero-ctas-thank-you-lead.php'; ?>
             <?php else: ?>
                 <?php include __DIR__ . '/education-subpage-hero-ctas.php'; ?>
@@ -74,7 +88,7 @@ if (!is_array($body)) {
         </div>
     </section>
 
-    <?php if ($kind !== 'demo' && $kind !== 'live' && $kind !== 'claim'): ?>
+    <?php if ($kind !== 'demo' && $kind !== 'live' && $kind !== 'claim' && $kind !== 'ib' && $kind !== 'club'): ?>
     <section class="education-subpage-content">
         <div class="container">
             <div class="education-thank-you-actions">

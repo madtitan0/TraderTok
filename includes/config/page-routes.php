@@ -11,6 +11,7 @@ return [
         'how-copy-trading-works' => 'includes/how-copy-trading-works.php',
         'invite-a-friend' => 'includes/invite-a-friend.php',
         'ib-program' => 'includes/ib-program.php',
+        'ib-program-application' => 'includes/ib-program-application.php',
         'courses' => 'includes/courses.php',
         'trading-essentials' => 'includes/trading-essentials.php',
         'video-education' => 'includes/video-education.php',
@@ -83,6 +84,7 @@ return [
         'segregated-account' => 'includes/segregated-account.php',
         'top-instruments' => 'includes/top-instruments.php',
         'tradertok-club' => 'includes/tradertok-club.php',
+        'tradertok-club-join' => 'includes/tradertok-club-join.php',
     ],
     'dynamic' => [
         'otherPage',

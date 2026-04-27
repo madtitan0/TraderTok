@@ -47,7 +47,7 @@ $demo_modal_js_ver = @filemtime($demo_modal_js_path) ?: time();
                     <span data-i18n-html="openDemoAccountPage.consentHtml">I agree to be contacted about my demo request and I have read the <a href="./privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</span>
                 </label>
             </div>
-            <p class="edu-lead-gate-note demo-account-modal-note" data-i18n="demoAccountModal.formNote">This form is not yet connected to a server. Submissions are simulated for testing; wire your CRM or registration API when ready.</p>
+            <!-- <p class="edu-lead-gate-note demo-account-modal-note" data-i18n="demoAccountModal.formNote">This form is not yet connected to a server. Submissions are simulated for testing; wire your CRM or registration API when ready.</p> -->
             <p class="edu-lead-gate-error" id="demoAccountError" role="alert" hidden></p>
             <button type="submit" class="btn-primary demo-account-submit" data-i18n="demoAccountModal.submitButton">Create demo account</button>
         </form>

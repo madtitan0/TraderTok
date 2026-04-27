@@ -38,10 +38,18 @@ if (!empty($page)) {
         $get->title = 'Partner Program (IB) | TraderTok';
         $get->desc = 'TraderTok Partner Program: structured partnerships, earning models, AI and portal support, and compliance principles for introducing brokers and partners.';
         $get->keyw = 'partner program, introducing broker, IB, affiliate, TraderTok';
+    } elseif ($page === 'ib-program-application') {
+        $get->title = 'Apply to Partner Program (IB) | TraderTok';
+        $get->desc = 'Submit your TraderTok Partner Program (IB) application and share your profile, experience, and preferred promotion model.';
+        $get->keyw = 'IB application, partner application, introducing broker form, TraderTok';
     } elseif ($page === 'tradertok-club') {
         $get->title = 'TraderTok Club | TraderTok';
         $get->desc = 'TraderTok Club loyalty programme: tiered benefits from Silver to Diamond, premium tools, dedicated support, and member-only opportunities for qualifying clients.';
         $get->keyw = 'TraderTok Club, loyalty programme, membership tiers, trading benefits, TraderTok';
+    } elseif ($page === 'tradertok-club-join') {
+        $get->title = 'Join TraderTok Club | TraderTok';
+        $get->desc = 'Join TraderTok Club to receive trading insights, market updates, and beginner-friendly education resources.';
+        $get->keyw = 'join TraderTok Club, trading community, trading insights, TraderTok';
     } elseif (in_array($page, [
         'offers',
         'offers-promotions',

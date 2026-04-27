@@ -22,7 +22,7 @@
               class="registration-account-crosslink" data-i18n="openDemoAccountPage.liveCrosslink">Open a live
               account</a>
           </p>
-          <p class="edu-lead-gate-note" data-i18n="openDemoAccountPage.formNote">This form is not yet connected to a
+          <!-- <p class="edu-lead-gate-note" data-i18n="openDemoAccountPage.formNote">This form is not yet connected to a -->
             live CRM. Submissions are simulated until you wire your registration API.</p>
         </div>
         <div class="registration-account-card">
