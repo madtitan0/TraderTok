@@ -1,11 +1,11 @@
-<section class="education-hub" style="margin-top: 20px;">
+<section class="education-hub">
     <section class="page-hero1 education-hub-hero">
         <video class="page-hero-video" autoplay loop muted playsinline>
             <source src="assets/images/education.mp4" type="video/mp4">
         </video>
         <div class="page-hero-overlay1"></div>
         <div class="education-hub-hero-grid" aria-hidden="true"></div>
-        <div class="page-hero-content1 container" style="margin-top: 60px;">
+        <div class="page-hero-content1 container">
             <div class="hub-hero-eyebrow">
                 <span class="eyebrow-dot gradient-text"></span>
                 <span data-i18n="educationHubPage.heroEyebrow">TraderTok Education Hub</span>
@@ -16,7 +16,7 @@
             </p>
             <div class="hero-ctas education-hub-main-hero-ctas">
                 <a href="#hub-sections" class="btn-secondary1" data-i18n="educationHubPage.ctaExplore">Explore Sections</a>
-                <button type="button" class="btn-secondary1 education-hub-access-content-btn" data-edu-access-content="1" data-i18n="educationHubPage.ctaAccessContent">Access content</button>
+                <button type="button" class="btn-secondary1 education-hub-access-content-btn" id="educationHubAccessContentBtn" data-edu-access-content="1" data-i18n="educationHubPage.ctaAccessContent">Access content</button>
                 <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-primary" data-i18n="educationHubPage.ctaDemo">Open Demo Account</a>
                 <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary education-hub-hero-live-cta" data-i18n="educationHubPage.ctaLive">Open Live account</a>
             </div>
@@ -114,13 +114,13 @@
             </div>
 
             <div class="hub-category-grid hub-category-grid--compact">
-                <a href="<?php echo routeUrl('courses'); ?>" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('courses')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.courses.meta">Learning Path</div>
                     <h3 data-i18n="educationHubPage.cards.courses.title">Courses</h3>
                     <p data-i18n="educationHubPage.cards.courses.desc">Structured educational content for building trading knowledge step by step.</p>
                 </a>
 
-                <a href="<?php echo routeUrl('trading-essentials'); ?>" class="hub-category-card hub-nav-card">
+                <a href="<?php echo htmlspecialchars(routeUrl('trading-essentials')); ?>" class="hub-category-card hub-nav-card">
                     <div class="hub-category-meta" data-i18n="educationHubPage.cards.articles.meta">Knowledge Base</div>
                     <h3 data-i18n="educationHubPage.cards.articles.title">Articles</h3>
                     <p data-i18n="educationHubPage.cards.articles.desc">Readable educational articles covering market concepts, strategies, and trading foundations.</p>

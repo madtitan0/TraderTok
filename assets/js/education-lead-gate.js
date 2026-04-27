@@ -8,6 +8,11 @@
   var SESSION_KEY = 'edu_academy_session';
   /** Set only after successful sign-in; allows the 8 hub section pages only (same tab). */
   var HUB8_SESSION_KEY = 'edu_hub8_signed_in';
+  /** Stores guided-return destination while query params are cleaned up. */
+  var GUIDE_RETURN_SESSION_KEY = 'edu_guide_return_href';
+  var GUIDED_ACCESS_BTN_CLASS = 'education-hub-access-content-btn--guided';
+  var EDU_GATE_MODE_GUIDE = 'guide';
+  var EDU_GATE_MODE_FROM_HUB_CARD = 'from_hub_card';
 
   var HUB_SECTION_SLUGS = [
     'courses',
@@ -113,6 +118,23 @@
     return path.split('/')[0] || '';
   }
 
+  function isEducationHubPageLocation() {
+    var q = new URLSearchParams(window.location.search).get('page');
+    if (q === 'education-hub') {
+      return true;
+    }
+    var path = window.location.pathname.replace(/^\/+|\/+$/g, '');
+    var firstSeg = path ? path.split('/')[0] || '' : '';
+    if (firstSeg === 'education-hub') {
+      return true;
+    }
+    // Temporary localhost/subfolder support for local testing.
+    if (window.location.hostname === 'localhost') {
+      return /(^|\/)education-hub(\/|$)/.test(window.location.pathname);
+    }
+    return false;
+  }
+
   function slugFromHref(href) {
     if (!href || href === '#' || href.indexOf('javascript:') === 0) {
       return null;
@@ -150,10 +172,158 @@
     if (href.indexOf('://') !== -1) {
       return href;
     }
-    if (href.charAt(0) === '/') {
-      return '.' + href;
-    }
     return href;
+  }
+
+  function toSameOriginRelativeHref(rawHref) {
+    if (!rawHref) {
+      return null;
+    }
+    if (/^\s*javascript:/i.test(rawHref)) {
+      return null;
+    }
+    try {
+      var u = new URL(rawHref, window.location.href);
+      if (u.origin !== window.location.origin) {
+        return null;
+      }
+      return u.pathname + u.search + u.hash;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function isEducationContextSlug(slug) {
+    return slug === 'education-hub' || slug === 'education-article' || isGatedSlug(slug);
+  }
+
+  function buildGuideUrl(returnHref) {
+    var params = new URLSearchParams();
+    params.set('page', 'education-hub');
+    params.set('edu_gate', EDU_GATE_MODE_GUIDE);
+    params.set('focus', 'access-content');
+    var safeReturnHref = toSameOriginRelativeHref(returnHref);
+    if (safeReturnHref) {
+      params.set('return', safeReturnHref);
+    }
+    return './?' + params.toString();
+  }
+
+  function buildFromHubCardUrl(returnHref) {
+    var params = new URLSearchParams();
+    params.set('page', 'education-hub');
+    params.set('edu_gate', EDU_GATE_MODE_FROM_HUB_CARD);
+    var safeReturnHref = toSameOriginRelativeHref(returnHref);
+    if (safeReturnHref) {
+      params.set('return', safeReturnHref);
+    }
+    return './?' + params.toString();
+  }
+
+  function getReferrerSlug() {
+    if (!document.referrer) {
+      return '';
+    }
+    try {
+      var ref = new URL(document.referrer);
+      if (ref.origin !== window.location.origin) {
+        return '';
+      }
+      return slugFromHref(ref.href) || '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  function readGuideStateFromQuery() {
+    var qs = new URLSearchParams(window.location.search);
+    if (qs.get('edu_gate') !== EDU_GATE_MODE_GUIDE) {
+      return null;
+    }
+    return {
+      focus: qs.get('focus') || '',
+      returnHref: toSameOriginRelativeHref(qs.get('return')),
+    };
+  }
+
+  function clearGuideStateFromUrl() {
+    var qs = new URLSearchParams(window.location.search);
+    var changed = false;
+    ['edu_gate', 'focus', 'return'].forEach(function (key) {
+      if (qs.has(key)) {
+        qs.delete(key);
+        changed = true;
+      }
+    });
+    if (!changed) {
+      return;
+    }
+    var nextUrl = window.location.pathname;
+    var nextQuery = qs.toString();
+    if (nextQuery) {
+      nextUrl += '?' + nextQuery;
+    }
+    if (window.location.hash) {
+      nextUrl += window.location.hash;
+    }
+    window.history.replaceState({}, document.title, nextUrl);
+  }
+
+  function rememberGuideReturnHref(href) {
+    try {
+      if (href) {
+        sessionStorage.setItem(GUIDE_RETURN_SESSION_KEY, href);
+      } else {
+        sessionStorage.removeItem(GUIDE_RETURN_SESSION_KEY);
+      }
+    } catch (e) {}
+  }
+
+  function takeGuideReturnHref() {
+    try {
+      var href = sessionStorage.getItem(GUIDE_RETURN_SESSION_KEY);
+      sessionStorage.removeItem(GUIDE_RETURN_SESSION_KEY);
+      return toSameOriginRelativeHref(href);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function highlightAccessContentButtonTemporarily() {
+    var btn = document.getElementById('educationHubAccessContentBtn') || document.querySelector('[data-edu-access-content="1"]');
+    if (!btn) {
+      return;
+    }
+    btn.classList.remove(GUIDED_ACCESS_BTN_CLASS);
+    btn.classList.add(GUIDED_ACCESS_BTN_CLASS);
+    var hero = document.querySelector('.education-hub-hero');
+    if (hero && typeof window.scrollTo === 'function') {
+      var header = document.querySelector('.header');
+      var headerOffset = (header ? header.getBoundingClientRect().height : 88) + 12;
+      var heroTop = window.scrollY + hero.getBoundingClientRect().top - headerOffset;
+      window.scrollTo({ top: Math.max(0, heroTop), behavior: 'smooth' });
+    } else if (typeof btn.scrollIntoView === 'function') {
+      btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+    window.setTimeout(function () {
+      btn.classList.remove(GUIDED_ACCESS_BTN_CLASS);
+    }, 5000);
+  }
+
+  function queueGuidedAccessToButton(nextHref) {
+    var safeReturnHref = toSameOriginRelativeHref(nextHref);
+    rememberGuideReturnHref(safeReturnHref);
+    highlightAccessContentButtonTemporarily();
+  }
+
+  function consumeFromHubCardGate() {
+    var qs = new URLSearchParams(window.location.search);
+    if (qs.get('edu_gate') !== EDU_GATE_MODE_FROM_HUB_CARD) {
+      return false;
+    }
+    rememberGuideReturnHref(toSameOriginRelativeHref(qs.get('return')));
+    window.location.replace(buildGuideUrl(qs.get('return')));
+    return true;
   }
 
   var modalEl;
@@ -450,18 +620,81 @@
     if (!isGatedSlug(slug)) {
       return;
     }
-    if (slug === getCurrentPageSlug()) {
+    var cur = getCurrentPageSlug();
+    if (cur === 'courses') {
+      return;
+    }
+    if (slug === cur) {
+      return;
+    }
+    if (
+      isHubSectionSlug(slug) &&
+      (hasHub8GatePass() || hasSessionGatePass()) &&
+      (isHubSectionSlug(cur) || isEducationHubPageLocation())
+    ) {
       return;
     }
     if (hasHub8GatePass()) {
-      var cur = getCurrentPageSlug();
+      if (isHubSectionSlug(slug) && (isHubSectionSlug(cur) || cur === 'education-hub')) {
+        return;
+      }
+    }
+    if (isEducationHubPageLocation()) {
+      e.preventDefault();
+      e.stopPropagation();
+      queueGuidedAccessToButton(a.getAttribute('href'));
+      return;
+    }
+    if (isEducationContextSlug(cur)) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = buildGuideUrl(a.getAttribute('href'));
+      return;
+    }
+    e.preventDefault();
+    e.stopPropagation();
+    openModal(a.getAttribute('href'));
+  }
+
+  function interceptGatedTargetClick(e) {
+    var targetEl = e.target.closest('[data-edu-gate-target]');
+    if (!targetEl) {
+      return;
+    }
+    var href = targetEl.getAttribute('data-edu-gate-target');
+    var slug = slugFromHref(href);
+    if (!isGatedSlug(slug)) {
+      return;
+    }
+    var cur = getCurrentPageSlug();
+    if (cur === 'courses') {
+      return;
+    }
+    if (slug === cur) {
+      return;
+    }
+    if (
+      isHubSectionSlug(slug) &&
+      (hasHub8GatePass() || hasSessionGatePass()) &&
+      (isHubSectionSlug(cur) || isEducationHubPageLocation())
+    ) {
+      return;
+    }
+    if (hasHub8GatePass()) {
       if (isHubSectionSlug(slug) && (isHubSectionSlug(cur) || cur === 'education-hub')) {
         return;
       }
     }
     e.preventDefault();
     e.stopPropagation();
-    openModal(a.getAttribute('href'));
+    if (typeof e.stopImmediatePropagation === 'function') {
+      e.stopImmediatePropagation();
+    }
+    if (isEducationContextSlug(cur)) {
+      window.location.href = buildGuideUrl(href);
+      return;
+    }
+    openModal(href);
   }
 
   function handleAccessContentClick(e) {
@@ -476,6 +709,11 @@
       if (sec) {
         sec.scrollIntoView({ behavior: 'smooth' });
       }
+      return;
+    }
+    var guideReturnHref = takeGuideReturnHref();
+    if (guideReturnHref) {
+      openModal(guideReturnHref);
       return;
     }
     openModal('#hub-sections');
@@ -496,10 +734,19 @@
       return;
     }
     var qs = new URLSearchParams(window.location.search);
+    var gateMode = qs.get('edu_gate');
+    if (gateMode === EDU_GATE_MODE_GUIDE || gateMode === EDU_GATE_MODE_FROM_HUB_CARD) {
+      return;
+    }
     if (qs.get('edu_gate') === '1') {
       return;
     }
     var ret = window.location.pathname + window.location.search;
+    var refSlug = getReferrerSlug();
+    if (isEducationContextSlug(refSlug)) {
+      window.location.replace(buildGuideUrl(ret));
+      return;
+    }
     window.location.replace('./education-hub?edu_gate=1&return=' + encodeURIComponent(ret));
   }
 
@@ -508,9 +755,23 @@
       localStorage.removeItem('eduHub_form_submitted');
     } catch (e) {}
 
+    if (consumeFromHubCardGate()) {
+      return;
+    }
+
     runPageGuard();
 
+    var guideState = readGuideStateFromQuery();
+    if (guideState) {
+      rememberGuideReturnHref(guideState.returnHref);
+      if (guideState.focus === 'access-content') {
+        highlightAccessContentButtonTemporarily();
+      }
+      clearGuideStateFromUrl();
+    }
+
     document.addEventListener('click', interceptLinkClick, true);
+    document.addEventListener('click', interceptGatedTargetClick, true);
     document.addEventListener('click', handleAccessContentClick, false);
 
     var m = getModal();

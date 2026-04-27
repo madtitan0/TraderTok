@@ -282,7 +282,7 @@ $faq_items = [
                             <?php endforeach; ?>
                         </ul>
                         <?php if ($is_live_course): ?>
-                            <a href="<?php echo htmlspecialchars($course['href']); ?>" class="btn-primary courses-course-cta" onclick="event.stopPropagation();">Start Course</a>
+                            <a href="<?php echo htmlspecialchars($course['href']); ?>" class="btn-primary courses-course-cta" data-edu-gate-ignore="1" onclick="event.stopPropagation();">Start Course</a>
                         <?php else: ?>
                             <span class="courses-course-cta courses-course-cta--coming-soon">Coming Soon</span>
                         <?php endif; ?>

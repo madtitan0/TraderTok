@@ -118,6 +118,52 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
+.education-hub .education-hub-access-content-btn {
+  position: relative;
+  overflow: visible;
+}
+
+.education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided {
+  border-color: rgba(255, 170, 120, 0.9);
+  box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.34), 0 14px 34px rgba(230, 57, 70, 0.42);
+  transform: translateY(-1px) scale(1.015);
+  animation: eduAccessContentPulse 0.8s ease-in-out 2;
+}
+
+.education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+  border-radius: 9999px;
+  border: 2px solid rgba(255, 170, 120, 0.65);
+  animation: eduAccessContentRing 0.8s ease-out 2;
+  pointer-events: none;
+}
+
+@keyframes eduAccessContentPulse {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-1px) scale(1.03);
+  }
+}
+
+@keyframes eduAccessContentRing {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+
 .micro-trust {
   font-size: 0.875rem;
   color: rgba(255, 255, 255, 0.6);
@@ -564,6 +610,22 @@ body.light-theme .education-hub .micro-trust {
   color: rgba(31, 23, 18, 0.56);
 }
 
+body.light-theme .education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided {
+  border-color: rgba(214, 75, 58, 0.88);
+  box-shadow: 0 0 0 3px rgba(214, 75, 58, 0.18), 0 12px 30px rgba(214, 75, 58, 0.24);
+}
+
+body.light-theme .education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided::after {
+  border-color: rgba(214, 75, 58, 0.52);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided,
+  .education-hub .education-hub-access-content-btn.education-hub-access-content-btn--guided::after {
+    animation: none !important;
+  }
+}
+
 body.light-theme .faq-sec {
   background: linear-gradient(180deg, #f8f4ef 0%, #fffdf9 100%);
 }
@@ -774,6 +836,7 @@ body.light-theme .education-hub {
 
 .education-hub .page-hero-content1 {
   max-width: 980px;
+  margin-top: 96px;
 }
 
 .education-hub .page-hero-title1 {
@@ -1018,6 +1081,10 @@ body.light-theme .education-hub {
     min-height: 760px;
     height: auto;
     padding: 140px 0 80px;
+  }
+
+  .education-hub .page-hero-content1 {
+    margin-top: 24px;
   }
 
   .hub-section {

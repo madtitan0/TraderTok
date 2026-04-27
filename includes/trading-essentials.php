@@ -109,10 +109,6 @@
 
     <script>
     function handleArticleAccess(articleId) {
-        if (window.EduLeadGate && typeof window.EduLeadGate.openModal === 'function') {
-            window.EduLeadGate.openModal('education-article?id=' + encodeURIComponent(articleId));
-            return;
-        }
         window.location.href = 'education-article?id=' + encodeURIComponent(articleId);
     }
     </script>
