@@ -6473,8 +6473,15 @@
           "heading": "What It Means to Place a Trade",
           "paragraphs": [
             "When you place a trade, you are giving an instruction to enter the market. That instruction can be immediate, which is a market order, or conditional, which is a pending order. A market order executes at the current market price, while a pending order is designed to trigger later if price reaches a specified level.",
-            "In simple terms: Buy means you expect price to move higher. Sell means you expect price to move lower. Market order means enter now. Pending order means enter later if price reaches your level. That basic distinction is the foundation of placing any trade."
-          ]
+            "In simple terms:"
+          ],
+          "bullets": [
+            " Buy means you expect price to move higher.",
+            "Sell means you expect price to move lower.",
+            "Market order means enter now.",
+            " Pending order means enter later if price reaches your level."
+          ],
+          "text_after": " That basic distinction is the foundation of placing any trade."
         },
         {
           "heading": "Before You Place a Trade",
@@ -6495,109 +6502,219 @@
           "paragraphs": [
             "The first step is selecting the instrument you want to trade. That could be a currency pair, stock, index, commodity, or another supported market, depending on your broker and platform.",
             "Most trading platforms let you choose the symbol directly from a Quotes or Market Watch window, then open the order screen from there. On mobile platforms, the common workflow is to select the symbol in Quotes and then choose the command for a new order or trade.",
-            "Examples: EUR/USD, GBP/USD, gold, a major index, or a specific stock symbol. The important point is to make sure you are trading the correct instrument before doing anything else."
-          ]
+            "Examples:"
+          ],
+          "bullets": [
+            "EUR/USD",
+            "GBP/USD",
+            "Gold",
+            "NASDAQ",
+            "A specific stick symbol"
+          ],
+          "text_after": " The important point is to make sure you are trading the correct instrument before doing anything else."
         },
         {
           "heading": "Step 2: Decide Whether You Want to Buy or Sell",
           "paragraphs": [
             "Once the market is selected, the next decision is direction. You choose to buy if you believe the price is likely to rise. You choose to sell if you believe the price is likely to fall.",
             "This sounds simple, but the decision should come from your analysis, not from emotion. A trader might use support and resistance, trend direction, chart patterns, or momentum indicators to decide whether the setup is bullish or bearish.",
-            "For example, if price is breaking above resistance, a trader may prepare a buy. If price is breaking below support, a trader may prepare a sell. The order screen only reflects that choice. The reasoning should already be clear before you open it."
-          ]
+            "For example,"
+          ],
+          "bullets": [
+            "if price is breaking above resistance, a trader may prepare a buy.",
+            "If price is breaking below support, a trader may prepare a sell."
+          ],
+          "text_after": " The order screen only reflects that choice. The reasoning should already be clear before you open it."
         },
         {
           "heading": "Step 3: Choose the Order Type",
           "paragraphs": [
             "This is one of the most important steps. Trading platforms generally divide orders into market orders and pending orders. A market order enters immediately at the current price. A pending order is set for a future level and triggers only if price reaches that level.",
-            "Market Order",
+            {"bold": "Market Order"},
             "Use a market order when you want to enter immediately at the best available current price. In typical OTC conditions, buys are often filled at the ask and sells at the bid, though your broker’s interface will show the prices you are working with.",
-            "Pending Order",
-            "Use a pending order when you do not want to enter immediately, but only if price reaches a certain level later. Common pending types include Buy Limit, Buy Stop, Sell Limit, and Sell Stop. For example: Buy Limit buys below the current price; Buy Stop buys above the current price; Sell Limit sells above the current price; Sell Stop sells below the current price.",
-            "So if you want to buy only after a breakout above resistance, a Buy Stop may be relevant. If you want to buy on a pullback to support, a Buy Limit may be relevant."
-          ]
+            {"bold": "Pending Order"},
+            "Use a pending order when you do not want to enter immediately, but only if price reaches a certain level later. MT4 documentation lists four standard pending order types:"
+          ],
+          "bullets": [
+            "Buy Limit: buy below the current price",
+            "Buy Stop: buy above the current price",
+            "Sell Limit: sell above the current price",
+            "Sell Stop: sell below the current price"
+          ],
+          "text_after": "So if you want to buy only after a breakout above resistance, a Buy Stop may be relevant. If you want to buy on a pullback to support, a Buy Limit may be relevant."
         },
         {
           "heading": "Step 4: Enter the Trade Size",
           "paragraphs": [
             "After choosing order type, the next step is position size. Trading platforms usually label this as Volume or Lot Size. In MT5 order windows, for example, volume is entered in lots, and the trader can change it manually or with increment controls depending on the execution mode.",
-            "This step matters a lot because position size determines how much risk you take. A good trader does not choose size randomly. They choose size based on account size, stop-loss distance, and maximum acceptable risk per trade. For beginners, this is one of the most important habits to build: never let size be an afterthought."
-          ]
+            "This step matters a lot because position size determines how much risk you take. A good trader does not choose size randomly. They choose size based on:"
+          ],
+          "bullets": [
+            "Account size",
+            "Stop-loss distance",
+            "Maximum acceptable risk per trade"
+          ],
+          "text_after": "For beginners, this is one of the most important habits to build: never let size be an afterthought."
         },
         {
           "heading": "Step 5: Set the Entry Price if Needed",
           "paragraphs": [
             "If you are using a market order, the current market price is used automatically.",
-            "If you are using a pending order, you need to enter the exact level where you want the order to trigger. Pending-order pricing is linked to where current price sits relative to your intended level. Platforms distinguish between orders above current price versus below it when deciding which pending type applies.",
-            "Examples: If current price is 100 and you want to buy only if price breaks 102, a Buy Stop at 102 may fit. If you want to buy only if price falls back to 98, a Buy Limit at 98 may fit. This is where planning becomes visible on the order screen."
-          ]
+            "If you are using a pending order, you need to enter the exact level where you want the order to trigger. In chart-based or order windows, pending-order pricing is linked to where current price sits relative to your intended level. For example, platforms can distinguish between placing buy-stop or sell-limit orders above current price and buy-limit or sell-stop orders below current price.",
+            "Examples: "
+          ],
+          "bullets": [
+            "Current price = 100",
+            "You want to buy only if price breaks 102 → Buy Stop at 102",
+            "You want to buy only if price falls back to 98 → Buy Limit at 98"
+          ],
+          "text_after": "This is where planning becomes visible on the order screen."
         },
         {
           "heading": "Step 6: Add Stop-Loss",
           "paragraphs": [
-            "A stop-loss is one of the most important protective tools in trading. It is used to automatically close a trade if price moves against you to a level that invalidates the setup.",
-            "In practical terms, for a buy, stop-loss usually goes below support or below the invalidation point. For a sell, stop-loss usually goes above resistance or above the invalidation point. If your stop-loss is missing, your risk may be undefined. That makes the trade much more dangerous."
-          ]
+            "A stop-loss is one of the most important protective tools in trading. It is used to automatically close a trade if price moves against you to a level that invalidates the setup. Platform help documentation describes Stop Loss as an order used for minimizing losses if price moves in an unprofitable direction.",
+            "In practical terms:"
+          ],
+          "bullets": [
+            "For a buy, stop-loss usually goes below support or below the invalidation point",
+            "For a sell, stop-loss usually goes above resistance or above the invalidation point"
+          ],
+          "text_after": "If your stop-loss is missing, your risk may be undefined. That makes the trade much more dangerous."
         },
         {
           "heading": "Step 7: Add Take-Profit",
           "paragraphs": [
-            "A take-profit is used to automatically close the trade when price reaches your intended target.",
-            "In practical terms, for a buy, take-profit is usually above the entry. For a sell, take-profit is usually below the entry. A take-profit is not always mandatory, but a trader should always know the intended target area even if they plan to manage the trade manually."
-          ]
+            "A take-profit is used to automatically close the trade when price reaches your intended target. Platform documentation describes Take Profit as an order intended for locking in gains when price reaches a specified level.",
+            "In practical terms:"
+          ],
+          "bullets": [
+            "For a buy, take-profit is usually above the entry",
+            "For a sell, take-profit is usually below the entry"
+          ],
+          "text_after": "A take-profit is not always mandatory, but a trader should always know the intended target area even if they plan to manage the trade manually."
         },
         {
           "heading": "Step 8: Review Everything Before Sending the Order",
           "paragraphs": [
-            "Before you click Buy, Sell, Place, or Submit, quickly review the trade: Is the symbol correct? Is the direction correct? Is the order type correct? Is the lot size correct? Is the stop-loss in the right place? Is the take-profit in the right place?",
-            "This review step is simple, but it prevents many avoidable mistakes. On some platforms, incorrectly specified stops may produce errors such as invalid stops rather than accepting the order."
-          ]
+            "Before you click Buy, Sell, Place, or Submit, quickly review the trade:"
+          ],
+          "bullets": [
+            "Is the symbol correct?",
+            "Is the direction correct?",
+            "Is the order type correct?",
+            "Is the lot size correct?",
+            "Is the stop-loss in the right place?",
+            "Is the take-profit in the right place?"
+          ],
+          "text_after": "This review step is simple, but it prevents many avoidable mistakes. In execution-based order windows, incorrectly specified stops may even trigger platform errors such as invalid stops rather than accepting the order."
         },
         {
           "heading": "Step 9: Send the Order",
           "paragraphs": [
-            "Now the trade is placed. In most platforms, this is done by clicking Buy, Sell, Place, or a one-click trading button.",
-            "After you confirm, the platform sends the order and usually shows a successful execution result or a reason the order was not executed. If one-click trading is enabled, the platform may place the order instantly without showing the full trading dialog. That means the actual click is only the final step. Everything important should already be decided before that moment."
-          ]
+            "Now the trade is placed. ",
+            "In most platforms, this is done by clicking:"
+          ],
+          "bullets": [
+            "Buy",
+            "Sell",
+            "Place",
+            "or a one-click trading button"
+          ],
+          "text_after": "Platform documentation explains that once Buy or Sell is pressed, the order is sent and the platform shows either a successful execution result or a reason the order was not executed. If one-click trading is enabled, the platform may place the order instantly without showing the full trading dialog. This means the actual click is only the final step. Everything important should already be decided before that moment."
         },
         {
           "heading": "Step 10: Monitor the Open Trade",
           "paragraphs": [
-            "Once the trade is open, it usually appears in the Trade tab or equivalent account window. Successful execution adds the open position to the trade area and records the order in history.",
-            "At this stage, the trader should monitor whether price is moving as expected, whether stop-loss or take-profit should remain unchanged, whether the trade should be managed actively, and whether the setup is still valid. The key point is to manage calmly, not emotionally."
-          ]
+            "Once the trade is open, it usually appears in the Trade tab or equivalent account window. Platforms document that successful execution adds the open position to the Trade area and records the order and deal in History.",
+          "At this stage, the trader should monitor:"
+          ],
+          "bullets": [
+           " Whether price is moving as expected",
+            "Whether stop-loss or take-profit should remain unchanged",
+            "Whether the trade should be managed actively",
+            "Whether the setup is still valid"
+          ],
+          "text_after": "The key point is to manage calmly, not emotionally."
         },
         {
           "heading": "Step 11: Modify or Close the Trade if Needed",
           "paragraphs": [
             "Sometimes a trader needs to adjust stop-loss or take-profit after entry. Trading platforms allow modification of open positions and pending orders. On mobile, this is commonly done from the Trade tab using a Modify Position or Modify Order function.",
-            "A trade can also be closed manually if the setup fails early, the target is reached and the trader wants out, conditions change, or the trader wants to lock profit before take-profit is hit. Closing manually is just as important as entering correctly."
-          ]
+            "A trade can also be closed manually if:"
+          ],
+          "bullets": [
+            "The setup fails early",
+            "The target is reached and the trader wants out",
+            "Conditions change",
+            "The trader wants to lock profit before take-profit is hit"
+          ],
+          "text_after": "Closing manually is just as important as entering correctly."
         },
         {
           "heading": "Simple Real Example of Placing a Trade",
           "paragraphs": [
             "Imagine a stock is trading near $1,000 and has been bouncing from support near $990. You believe it may move higher again.",
-            "A simple planned trade could look like this: Instrument: Stock XYZ. Direction: Buy. Order type: Market Order. Entry: Current price around $1,000. Stop-loss: $988, below support. Take-profit: $1,020, near resistance. Position size: based on your account risk rules.",
-            "Step by step: Select Stock XYZ, open the order window, choose Buy, keep Market Order selected, enter the position size, set stop-loss at $988, set take-profit at $1,020, review the order, click Buy, then monitor the trade. That is the full trade placement workflow in its simplest practical form."
+            "A simple planned trade could look like this:"
+          ],
+          "bullets": [
+            "Instrument: Stock XYZ",
+            "Direction: Buy",
+            "Order type: Market Order",
+            "Entry: Current price around ₹1,000",
+            "Stop-loss: ₹988, below support",
+            "Take-profit: ₹1,020, near resistance",
+            "Position size: based on your account risk rules"
           ]
+        },
+        {
+          "paragraphs": [
+            "Step by step:"
+          ],
+          "bullets": [
+            "Select Stock XYZ",
+            "Open the order window",
+            "Choose Buy",
+            "Keep Market Order selected",
+            "Enter the position size",
+            "Set stop-loss at ₹988",
+            "Set take-profit at ₹1,020",
+            "Review the order",
+            "Click Buy",
+            "Monitor the trade"
+          ],
+          "text_after": "That is the full trade placement workflow in its simplest practical form."
         },
         {
           "heading": "Common Mistakes When Placing a Trade",
           "paragraphs": [
-            "A few mistakes happen again and again:"
-          ],
-          "bullets": [
-            "Choosing the wrong order type, for example wanting a delayed breakout entry but using a market order by mistake",
-            "Using the wrong position size so the setup is fine but the risk is too large",
-            "Forgetting stop-loss, which leaves the trade open-ended and much more dangerous",
-            "Placing stop-loss too close or too randomly instead of at trade invalidation",
-            "Clicking too fast when one-click mode can execute instantly without the full dialog"
+            "A few mistakes happen again and again:",
+            {"bold": "Choosing the Wrong Order Type"},
+            "A trader wants a delayed breakout entry but uses a market order by mistake.",
+            {"bold": "Using the Wrong Position Size"},
+            "The setup is fine, but the risk is too large because the volume was entered incorrectly.",
+            {"bold": "Forgetting Stop-Loss"},
+            "This leaves the trade open-ended and much more dangerous.",
+            {"bold": "Placing Stop-Loss Too Close or Too Randomly"},
+            "A stop should be based on trade invalidation, not just a random number.",
+            {"bold": "Clicking Too Fast"},
+            "One-click trading is useful, but it increases the need for pre-trade clarity. Since platforms can execute instantly when one-click mode is active, rushed decisions become more dangerous."
           ]
         },
         {
           "heading": "Is Placing a Trade Difficult for Beginners?",
-          "text": "The platform process itself is not usually the hardest part. Most beginners can learn how to open an order window and click Buy or Sell fairly quickly. The harder part is learning how to place a trade correctly: with a reason, with controlled size, with a stop-loss, with a clear target, and with patience. So the real skill is not just platform navigation. It is decision quality."
+          "paragraphs": [
+            "The platform process itself is not usually the hardest part. Most beginners can learn how to open an order window and click Buy or Sell fairly quickly.",
+            "The harder part is learning how to place a trade correctly:"
+          ],
+          "bullets": [
+            "With a reason",
+            "With controlled size",
+            "With a stop-loss",
+            "With a clear target",
+            "With patience"
+          ],
+          "text_after": "So the real skill is not just platform navigation. It is decision quality."
         },
         {
           "heading": "Best Practices Before Every Trade",
@@ -6667,53 +6784,109 @@
           "heading": "What Is Stop Loss?",
           "paragraphs": [
             "A Stop Loss is a predefined price level where your trade will be closed if the market moves against you. Its purpose is to control downside risk and prevent a small mistake from becoming a much larger loss. In most platforms, it behaves as an instruction to exit the position if price reaches that level, which helps cap loss on adverse moves.",
-            "For example: If you buy, the Stop Loss is usually placed below the entry. If you sell, the Stop Loss is usually placed above the entry. That placement logic exists because the stop should sit beyond the level where your trade idea is no longer valid."
-          ]
+            "For example:"
+          ],
+          "bullets": [
+            "If you buy, the Stop Loss is usually placed below the entry",
+            "If you sell, the Stop Loss is usually placed above the entry."
+          ],
+          "text_after": "That placement logic exists because the stop should sit beyond the level where your trade idea is no longer valid."
         },
         {
           "heading": "What Is Take Profit?",
           "paragraphs": [
             "A Take Profit is a predefined price level where your trade will be closed automatically once the market reaches your target. Its purpose is to lock in gains instead of leaving the exit open-ended.",
-            "For example: If you buy, the Take Profit is usually placed above the entry. If you sell, the Take Profit is usually placed below the entry. This makes TP the planned reward side of the trade."
-          ]
+            "For example:"
+          ],
+          "bullets": [
+            "If you buy, the Take Profit is usually placed above the entry",
+            "If you sell, the Take Profit is usually placed below the entry."
+          ],
+          "text_after": "This makes TP the planned reward side of the trade."
         },
         {
           "heading": "Why SL and TP Matter So Much in Real Trading",
           "paragraphs": [
             "Stop Loss and Take Profit matter because they remove a lot of emotional decision-making. Without them, traders often do two dangerous things: they hold losers too long and close winners too early. A planned SL and TP helps create discipline and supports consistent risk-to-reward thinking.",
-            "They also matter because they force the trader to think before entering: How much am I willing to lose? How much am I trying to make? Does this trade even make sense? That planning mindset is one of the biggest differences between casual clicking and proper trade management."
-          ]
+            "They also matter because they force the trader to think before entering: "
+          ],
+          "bullets": [
+            "How much am I willing to lose?",
+            "How much am I trying to make?",
+            "Does this trade even make sense?"
+          ],
+          "text_after": "That planning mindset is one of the biggest differences between casual clicking and proper trade management."
         },
         {
           "heading": "How Stop Loss Works in a Real Trade",
           "paragraphs": [
             "Imagine you buy a stock at 500 because you believe support at 495 will hold and price may move higher.",
-            "A practical Stop Loss decision could be: Entry = 500, Support = 495, Stop Loss = 492. Why 492? Because if price falls below support and reaches 492, the idea that support is holding is probably wrong. So the Stop Loss is not random. It is placed where the trade setup becomes invalid. If price falls to 492, the trade closes automatically and the loss is controlled."
-          ]
+            "A practical Stop Loss decision could be:"
+
+          ],
+          "bullets": [
+            "Entry = 500",
+            "Support = 495",
+            "Stop Loss = 492"
+          ],
+          "text_after" : "Why 492? Because if price falls below support and reaches 492, the idea that support is holding is probably wrong. So the Stop Loss is not random. It is placed where the trade setup becomes invalid. This kind of stop placement is consistent with using support and invalidation logic for stops. If price falls to 492, the trade closes automatically and the loss is controlled."
         },
         {
           "heading": "How Take Profit Works in a Real Trade",
           "paragraphs": [
-            "Using the same trade example: Entry = 500, Stop Loss = 492, next resistance = 520, Take Profit = 520. Here, the Take Profit is placed near a logical target area where price may face selling pressure. Just like the Stop Loss is based on invalidation, the Take Profit is often based on structure such as resistance, a projected move, or a planned risk-to-reward ratio.",
-            "If the price reaches 520, the trade closes automatically in profit."
-          ]
+            "Using the same trade example:"
+          ],
+          "bullets": [
+            "Entry = 500",
+            "Stop Loss = 492",
+            "Next resistance = 520",
+            "Take Profit = 520"
+          ],
+          "text_after": "Here, the Take Profit is placed near a logical target area where price may face selling pressure. So just like the Stop Loss is based on invalidation, the Take Profit is often based on structure such as resistance, projected move, or a planned risk-to-reward ratio. If the price reaches 520, the trade closes automatically in profit."
         },
         {
           "heading": "Real Trade Example of SL and TP",
           "paragraphs": [
+            "Let us walk through one full example.",
             "A trader sees a currency pair trading near support and decides to buy.",
-            "Trade setup: Instrument EUR/USD. Entry 1.1000. Support zone 1.0988. Resistance zone 1.1040. Stop Loss 1.0985. Take Profit 1.1040.",
-            "Why the Stop Loss is at 1.0985: The trader believes support should hold near 1.0988. If price falls below that area and reaches 1.0985, the support idea is likely failing. So the stop is placed below support, not directly on it. This follows the common practice of placing stops beyond the invalidation zone rather than exactly on the obvious level.",
-            "Why the Take Profit is at 1.1040: The trader sees the next likely resistance zone around 1.1040. That becomes the target because it is the next area where price may pause or reverse.",
-            "What happens next: If price rises to 1.1040, the trade closes in profit. If price falls to 1.0985, the trade closes in a controlled loss. That is how SL and TP work in a real trade: one protects the downside, the other secures the upside."
+            {"bold": "Trade Setup"}
+          ],
+          "bullets": [
+            "Instrument: EUR/USD",
+            "Entry: 1.1000",
+            "Support: 1.0988",
+            "Resistance zone: 1.1040",
+            "Stop Loss: 1.0985",
+            "Take Profit: 1.1040"
           ]
+        },
+        {
+          "paragraphs": [
+            {"bold": "Why the Stop Loss is at 1.0985"},
+            "The trader believes support should hold near 1.0988. If price falls below that area and reaches 1.0985, the support idea is likely failing. So the stop is placed below support, not directly on it. This follows the common practice of placing stops beyond the invalidation zone rather than exactly on the obvious level.",
+            {"bold": "Why the Take Profit is at 1.1040"},
+            "The trader sees the next likely resistance zone around 1.1040. That becomes the target because it is the next area where price may pause or reverse.",
+            {"bold": "What Happens Next"}
+          ],
+          "bullets": [
+              "If price rises to 1.1040, the trade closes in profit",
+              "If price falls to 1.0985, the trade closes in a controlled loss"
+          ],
+          "text_after": "That is exactly how SL and TP work in a real trade: one protects the downside, the other secures the upside."
         },
         {
           "heading": "Stop Loss for Buy Trades vs Sell Trades",
           "paragraphs": [
             "For buy trades, Stop Loss is usually placed below the entry because price moving down is the adverse direction. For sell trades, Stop Loss is usually placed above the entry because price moving up is the adverse direction. This is standard stop-loss logic across trading platforms and risk-management guides.",
-            "Example of a sell trade: Sell entry = 800, resistance = 808, Stop Loss = 811, Take Profit = 780. If price rises above resistance to 811, the bearish idea is likely wrong. If price falls to 780, the trade reaches its intended target."
-          ]
+            {"bold": "Example of a sell trade:"}
+          ],
+          "bullets": [
+            "Sell entry = 800",
+            "Resistance = 808",
+            "Stop Loss = 811",
+            "Take Profit = 780"
+          ],
+          "text_after": "If price rises above resistance to 811, the bearish idea is likely wrong. If price falls to 780, the trade reaches its intended target."
         },
         {
           "heading": "How Traders Usually Decide Where to Place Stop Loss",
@@ -6747,9 +6920,24 @@
           "heading": "What Is Risk-to-Reward in SL and TP?",
           "paragraphs": [
             "Risk-to-reward compares how much you are willing to lose versus how much you expect to make.",
-            "Example: Entry = 100, Stop Loss = 95, Take Profit = 110. Here, risk = 5, reward = 10, risk-to-reward ratio = 1:2.",
-            "This is important because a trader does not need to win every trade to perform well over time if the reward on winners is larger than the loss on losers. Take-profit levels are often chosen with that ratio in mind."
+            "Example: "
+          ],
+          "bullets": [
+            "Entry = 100",
+            "Stop Loss = 95",
+            "Take Profit = 110"
           ]
+        },
+        {
+          "paragraphs": [
+            "Here"
+          ],
+          "bullets": [
+             "risk = 5", 
+             "reward = 10", 
+             "risk-to-reward ratio = 1:2"
+          ],
+          "text_after": "This is important because a trader does not need to win every trade to perform well over time if the reward on winners is larger than the loss on losers. Take-profit levels are often chosen with that ratio in mind."
         },
         {
           "heading": "Can Stop Loss Guarantee the Exact Exit Price?",
@@ -6771,17 +6959,26 @@
             "A few mistakes appear repeatedly:"
           ],
           "bullets": [
-            "No Stop Loss at all, which leaves risk undefined and can turn a small bad trade into a major account problem",
-            "Stop too tight, so normal market noise stops the trade even when the idea is still valid",
-            "Stop too wide relative to the setup, so the loss may be unnecessarily large",
-            "Random Take Profit without structure, which weakens reward planning",
-            "Moving the stop emotionally to avoid taking a loss, which usually damages discipline",
-            "Ignoring risk-to-reward so the reward target is poor compared with the stop distance"
+            {"bold": "1. No Stop Loss at All"},
+            "This leaves risk undefined and can turn a small bad trade into a major account problem.",
+            {"bold": "2. Stop Too Tight"},
+            "If the SL is placed too close to normal market noise, the trade may get stopped out even when the idea is still valid. Stop placement needs to fit the setup and the instrument’s volatility.",
+            {"bold": "3. Stop too wide"},
+            "If the stop is too wide relative to the setup, the loss may be unnecessarily large.",
+            {"bold": "4. Random Take Profit"},
+            "A TP placed without structure often leads to weak reward planning.",
+            {"bold": "5. Moving the Stop Emotionally"},
+            "Changing stop-loss to avoid taking a loss usually damages discipline.",
+            {"bold": "6. Ignoring Risk-to-Reward"},
+            " A trade with a poor reward target compared with the stop distance may not be worth taking."
           ]
         },
         {
           "heading": "Are SL and TP Good for Beginners?",
-          "text": "Yes — in fact, they are essential for beginners. Stop Loss teaches risk control, and Take Profit teaches exit planning. Together, they help new traders avoid one of the biggest beginner errors: entering trades without a full plan. A beginner does not need a complicated system to benefit from SL and TP. Even a simple structured approach is far better than trading without defined exits."
+          "paragraphs": [
+            "Yes — in fact, they are essential for beginners. Stop Loss teaches risk control, and Take Profit teaches exit planning. Together, they help new traders avoid one of the biggest beginner errors: entering trades without a full plan.",
+            "A beginner does not need a complicated system to benefit from SL and TP. Even a simple structured approach is far better than trading without defined exits."
+          ]
         },
         {
           "heading": "Best Practices for Using Stop Loss and Take Profit",
@@ -6857,28 +7054,47 @@
           "heading": "Why a Demo Account Matters",
           "paragraphs": [
             "A demo account matters because most beginner mistakes do not come from theory alone. They come from execution.",
-            "For example, a new trader may understand support and resistance in theory, but still struggle with placing the correct order type, setting stop-loss and take-profit, choosing position size, handling fast market movement, or following the plan consistently.",
-            "A demo account gives the trader a place to practice these actions in a realistic environment without financial loss."
-          ]
+            "For example, a new trader may understand support and resistance in theory, but still struggle with:"
+          ],
+          "bullets": [
+            "Placing the correct order type",
+            "Setting stop-loss and take-profit",
+            "Choosing position size",
+            "Handling fast market movement",
+            "Following the plan consistently"
+          ],
+          "text_after":  "A demo account gives the trader a place to practice these actions in a realistic environment without financial loss."
         },
         {
           "heading": "What a Demo Account Is Good For",
           "paragraphs": [
             "A demo account is especially useful for four things.",
-            "1. Learning the Platform",
-            "A trader can learn how to open charts, place market and pending orders, modify stop-loss and take-profit, monitor positions, and review trade history.",
-            "2. Testing a Strategy",
-            "A trader can see whether a strategy actually makes sense when used in live market conditions instead of only on paper.",
-            "3. Building Discipline",
-            "A demo account lets traders practice following entry rules, risk rules, and exit rules consistently, which is hard to learn from theory alone.",
-            "4. Understanding Market Behavior",
-            "A trader can observe how markets move during trends, ranges, breakouts, pullbacks, and news events without taking real financial damage."
+           {"bold": "1. Learning the Platform"},
+            "A trader can learn how to "
+          ],
+          "bullets": [
+            "Open charts",
+            "Place market and pending orders",
+            "Modify stop-loss and take-profit",
+            "Monitor positions",
+            "Review trade history"
+          ]
+        },
+        {
+          "paragraphs": [
+           {"bold": "2. Testing a Strategy"},
+            "A trader can see whether a strategy actually makes sense when used in live market conditions instead of only on paper. Official platform guides specifically describe demo accounts as useful for testing trading strategies.",
+            {"bold": "3. Building Discipline"},
+            "A demo account lets traders practice following entry rules, risk rules, and exit rules consistently, which is hard to learn from theory alone. This is an inference based on the role of demo accounts as practice environments.",
+            {"bold": "4. Understanding Market Behavior"},
+            "A trader can observe how markets move during trends, ranges, breakouts, pullbacks, and news events without taking real financial damage. This is a practical use implied by the way demo accounts simulate real trading conditions."
           ]
         },
         {
           "heading": "How to Open a Demo Trading Account",
           "paragraphs": [
-            "The exact process depends on the platform or broker, but the general workflow is simple. On many providers, the usual steps are:"
+            "The exact process depends on the platform or broker, but the general workflow is simple.",
+            "On many providers, the usual steps are:"
           ],
           "bullets": [
             "Choose to open a demo account",
@@ -6892,29 +7108,71 @@
         {
           "heading": "How to Use a Demo Trading Account Properly",
           "paragraphs": [
-            "This is the most important part. A lot of people open a demo account, take random oversized trades, double the account in a week, and think they are ready for live trading. That is not proper demo use. A demo account should be used as if it were real.",
-            "Step 1: Treat the Demo Balance Like Real Money",
+            "This is the most important part.",
+             "A lot of people open a demo account, take random oversized trades, double the account in a week, and think they are ready for live trading. That is not proper demo use. A demo account should be used as if it were real.",
+             "A practical way to use it properly is this:",
+            {"bold": "Step 1: Treat the Demo Balance Like Real Money"},
             "If the demo gives you a large virtual balance, do not trade like you have infinite money. Trade as if the account size were actually yours. Unrealistic sizing can create unrealistic performance expectations.",
-            "Step 2: Use One Market or a Small Watchlist",
-            "Do not jump into every instrument available. Start with one or a few markets so you can understand how they move and how your setup behaves there.",
-            "Step 3: Practice One Clear Strategy",
-            "Use the demo account to test one method at a time, such as support and resistance trading, breakout trading, pullback trading, or moving-average trend following. The point is not to try everything at once. The point is to find out whether one method can be followed consistently.",
-            "Step 4: Always Use Stop-Loss and Take-Profit",
-            "Do not practice bad habits. Even in demo mode, every trade should have planned risk and planned reward.",
-            "Step 5: Keep a Trading Journal",
-            "Record why you entered, where your stop-loss was, where your target was, what happened, and what you learned. A demo account is far more useful when you review your decisions instead of just looking at profit and loss.",
-            "Step 6: Practice at Realistic Times",
-            "Try using the demo during the same market hours you would trade live. This helps you learn what volatility, spreads, and market rhythm feel like during those sessions."
+            {"bold": "Step 2: Use One Market or a Small Watchlist"},
+            "Do not jump into every instrument available. Start with one or a few markets so you can understand how they move and how your setup behaves there. This is a practical training recommendation based on the purpose of demo practice.",
+            {"bold": "Step 3: Practice One Clear Strategy"},
+            "Use the demo account to test one method at a time, such as "
+          ],
+          "bullets": [
+            "Support and resistance trading",
+            "Breakout trading",
+            "Pullback trading",
+            "Moving average trend following"
+          ],
+          "text_after": "The point is not to try everything at once. The point is to find out whether one method can be followed consistently. Demo-account guides explicitly mention strategy testing as a core use."
+        },
+        {
+          "paragraphs": [
+            {"bold": "Step 4: Always Use Stop-Loss and Take-Profit"},
+            "Do not practice bad habits. Even in demo mode, every trade should have planned risk and planned reward. This is an inferred best practice from the educational use of demo accounts and the importance of practicing realistic trading behavior.",
+            {"bold": "Step 5: Keep a Trading Journal"},
+            "Record"
+          ],
+          "bullets": [
+            "Why you entered",
+            "Where your stop-loss was",
+            "Where your target was",
+            "What happened",
+            "What you learned"
+          ],
+          "text_after": "A demo account is far more useful when you review your decisions instead of just looking at profit and loss. This is a practical learning recommendation."
+        },
+        {
+          "paragraphs": [
+            {"bold": "Step 6: Practice at Realistic Times"},
+            "Try using the demo during the same market hours you would trade live. This helps you learn what volatility, spreads, and market rhythm feel like during those sessions. This is a practical training step based on demo accounts simulating real market conditions."
           ]
         },
         {
           "heading": "Real Example of Using a Demo Account Properly",
           "paragraphs": [
             "Imagine you want to practice breakout trading in a forex pair.",
-            "You open a demo account with virtual funds and decide: account size for practice = $5,000 mindset, risk per trade = 1%, strategy = breakout above resistance, market = EUR/USD only (or another pair you commit to).",
-            "You mark resistance at 1.0900. Price has failed there several times. Later, price breaks above 1.0900 and closes at 1.0904. You enter a buy in the demo account, place a stop-loss below the broken zone, and set a target at the next resistance level.",
-            "After the trade closes, you review: Did you follow the setup correctly? Was the breakout clean? Was your stop too tight? Did you size the trade correctly? That is good demo use. The focus is not “I made fake money.” The focus is “Did I execute my method correctly?”"
+            "You open a demo account with virtual funds and decide:"
+          ],
+          "bullets": [
+            "Account size for practice = $5,000 mindset",
+            "Risk per trade = 1%",
+            "Strategy = breakout above resistance",
+            "Market = EUR/USD only or any currency pairs"
           ]
+        },
+        {
+          "paragraphs": [
+            "You mark resistance at 1.0900. Price has failed there several times. Later, price breaks above 1.0900 and closes at 1.0904. You enter a buy in the demo account, place a stop-loss below the broken zone, and set a target at the next resistance level.",
+            "After the trade closes, you review:"
+          ],
+          "bullets": [
+            "Did you follow the setup correctly?",
+            "Was the breakout clean?",
+            "Was your stop too tight?",
+            "Did you size the trade correctly?"
+          ],
+          "text_after": "That is good demo use. The focus is not “I made fake money.” The focus is “Did I execute my method correctly?”"
         },
         {
           "heading": "What You Should Practice on a Demo Account",
@@ -6936,24 +7194,41 @@
         {
           "heading": "Common Mistakes When Using a Demo Account",
           "paragraphs": [
-            "A few mistakes happen again and again:"
-          ],
-          "bullets": [
-            "Taking unrealistic risk because the money is not real, which gives a false sense of skill",
-            "Random clicking instead of treating the account as training",
-            "No journal or review, so the demo becomes entertainment rather than education",
-            "Switching strategies constantly so you never know what actually works",
-            "Moving to live too fast because a few winning demo trades do not prove readiness; repeated, rule-based consistency matters more"
+            "A few mistakes happen again and again:",
+            {"bold": "1. Taking Unrealistic Risk"},
+            "Because the money is not real, many traders take oversized trades they would never take live. This gives a false sense of skill.",
+            {"bold": "2. Random Clicking"},
+            "Some people use demo accounts like a game instead of a training environment.",
+            {"bold": "3. No Journal or Review"},
+            "Without reviewing trades, the demo account becomes entertainment rather than education.",
+            {"bold": "4. Switching Strategies Constantly"},
+            "Changing methods every day makes it hard to know what actually works.",
+            {"bold": "5. Moving to Live Too Fast"},
+            "A few winning demo trades do not prove readiness. What matters is repeated, rule-based consistency. This is a practical conclusion drawn from the training purpose of demo accounts."
           ]
         },
         {
           "heading": "Demo Account vs Live Account",
           "paragraphs": [
             "A demo account and a live account may look similar, but psychologically they are not the same.",
-            "Demo accounts use virtual money, remove real financial fear, and are ideal for practice and testing.",
-            "Live accounts use real money and introduce fear, greed, hesitation, and pressure. They require emotional control as well as technical skill.",
-            "Success on demo does not automatically guarantee success live. The transition matters because real emotions change decision-making. That is a practical trading reality, not a flaw in the demo account itself."
+              {"bold": "Demo Account"}
+          ],
+          "bullets": [
+            "Use virtual money",
+            "Removes real financial fear",
+            "Ideal for practice and testing."
           ]
+        },
+        {
+          "paragraphs": [
+            {"bold": "Live Account"}
+          ],
+          "bullets": [
+            "Use real money",
+            "Introduces fear, greed, hesitation, and pressure",
+            "Requires emotional control as well as technical skill"
+          ],
+          "text_after": "This means success on demo does not automatically guarantee success live. The transition matters because real emotions change decision-making. That is a practical trading reality, not a flaw in the demo account itself."
         },
         {
           "heading": "When to Move From Demo to Live",
@@ -7041,8 +7316,14 @@
           "heading": "What Is a Trading Order?",
           "paragraphs": [
             "A trading order is simply an instruction to buy or sell a financial instrument. Trading platforms generally separate orders into immediate execution orders and future conditional orders. Stop Loss and Take Profit are often treated as attached instructions used to manage open trades or pending trades.",
-            "In simple terms, when you place an order, you are telling the broker one of three things: Enter me now. Enter me only at a better price. Enter me only if price breaks to a new level. That is the basic idea behind market, limit, and stop orders."
-          ]
+            "In simple terms, when you place an order, you are telling the broker one of three things:"
+          ],
+          "bullets": [
+            "Enter me now",
+            "Enter me only at a better price",
+            "Enter me only if price breaks to a new level"
+          ],
+          "text_after": "That is the basic idea behind market, limit, and stop orders."
         },
         {
           "heading": "What Is a Market Order?",
@@ -7080,15 +7361,26 @@
           "heading": "Buy Limit Explained",
           "paragraphs": [
             "A buy limit is placed below the current market price. It is used when the trader wants to buy only if price pulls back to a lower area—below the current price—in anticipation that after falling to that level, price may rise.",
-            "Example: Current price = 500. You want to buy only if price drops to 490. You place a Buy Limit at 490. If the price falls to 490, the order may execute. If the price never reaches 490, no trade happens."
-          ]
+            "Example:"
+          ],
+          "bullets": [
+            "Current price = 500",
+            " You want to buy only if price drops to 490",
+            " You place a Buy Limit at 490"
+          ],
+          "text_after": "If the price falls to 490, the order may execute. If the price never reaches 490, no trade happens."
         },
         {
           "heading": "Sell Limit Explained",
           "paragraphs": [
             "A sell limit is placed above the current market price. It is used when the trader wants to sell only if the price rises to a higher area first—above the current price—in anticipation that after rising to that level, price may fall.",
-            "Example: Current price = 500. You want to sell only if price rises to 510. You place a Sell Limit at 510. If the price reaches 510, the order may execute. If not, the order stays unfilled."
-          ]
+            "Example:" 
+           ],
+           "bullets": [
+            "Current price = 500",
+            "You want to sell only if price rises to 510",
+            "You place a Sell Limit at 510"
+           ]
         },
         {
           "heading": "When Traders Use Limit Orders",
@@ -7174,17 +7466,27 @@
           "heading": "Real Trade Example Using All Three Order Types",
           "paragraphs": [
             "Imagine the same stock is trading at 500 and resistance sits at 505 while support sits at 490.",
-            "Market order version: The trader sees strong momentum and decides to buy immediately at around 500 because they do not want to wait.",
-            "Limit order version: The trader believes price may dip before moving higher, so they place a Buy Limit at 490 to enter only if price pulls back.",
-            "Stop order version: The trader wants breakout confirmation, so they place a Buy Stop at 506 to enter only if price breaks resistance.",
-            "Same market. Same general bullish idea. Different order types. Different entry logic. That is why understanding orders is so important."
+            {"bold": "Market order version:"},
+            "The trader sees strong momentum and decides to buy immediately at around 500 because they do not want to wait.",
+            {"bold": "Limit order version:"},
+             "The trader believes price may dip before moving higher, so they place a Buy Limit at 490 to enter only if price pulls back.",
+            {"bold": "Stop order version:"},
+            " The trader wants breakout confirmation, so they place a Buy Stop at 506 to enter only if price breaks resistance.",
+            "Same market. Same general bullish idea. Different order types. Different entry logic.",
+             "That is why understanding orders is so important."
           ]
         },
         {
           "heading": "What About Stop Loss and Take Profit?",
           "paragraphs": [
             "Trading platforms often allow Stop Loss and Take Profit to be attached to market and pending orders. Stop Loss is used to cap loss if price moves in an unfavorable direction, while Take Profit is used to close for gain when price reaches a target.",
-            "This is important because entering a trade is only one part of execution. A complete order plan often includes entry type, stop-loss, take-profit, and position size."
+            "This is important because entering a trade is only one part of execution. A complete order plan often includes:"
+          ],
+          "bullets": [
+            "Entry type",
+            "Stop-loss",
+            "Take-profit",
+            "Position size"
           ]
         },
         {
@@ -7275,49 +7577,72 @@
           ]
         },
         {
-          "heading": "Entering and Managing Stock Trades",
+          "heading": "What Is Stock Trading?",
           "paragraphs": [
             "Stock trading is the process of entering orders to buy or sell shares through a brokerage account. When you place an order, it is sent to your brokerage firm, and the brokerage determines where to route it for execution. Stocks can trade on exchanges and other execution venues, not just one single location.",
-            "In practical terms, stock trading usually involves choosing a stock, deciding whether to buy or sell, selecting an order type, choosing size, sending the order through a broker, and managing the position after entry."
+            "In practical terms, stock trading usually involves:"
+          ],
+          "bullets": [
+            "Choosing a stock",
+            "Deciding whether to buy or sell",
+            "Selecting an order type",
+            "Choosing size",
+            "Sending the order through a broker",
+            "Managing the position after entry"
           ]
         },
         {
           "heading": "How Stock Trading Works",
           "paragraphs": [
             "At the most basic level, stock trading works through orders. A trader places an instruction to buy or sell shares, and that order is processed through the brokerage and routed to the market for execution. A market order generally aims for execution right away, while other order types can add conditions such as a limit price.",
-            "Stocks are traded during the regular market session, which for U.S. exchange-traded stocks is generally 9:30 a.m. to 4:00 p.m. Eastern Time, with some after-hours activity also available depending on broker and listing."
+            "Stocks are traded during the regular market session, which for U.S. exchange-traded stocks is generally 9:30 a.m. to 4:00 p.m. Eastern Time, with some after-hours activity also available in certain cases."
           ]
         },
         {
           "heading": "Why People Trade Stocks",
           "paragraphs": [
             "People trade stocks for different reasons. Some want short-term opportunities from price movement. Others trade around earnings, chart patterns, momentum, or broader market events. Stocks can also generate gains through price appreciation and, in some cases, dividend income.",
-            "For shorter-term traders, the main goal is usually price movement. They are not always buying to hold for years. They may buy because they believe the stock will move up over the next few hours, days, or weeks, depending on their strategy."
+            "For shorter-term traders, the main goal is usually price movement. They are not always buying to hold for years. They may be buying because they believe the stock will move up over the next few hours, days, or weeks, depending on their strategy. This is an inference from how stock prices trade continuously and how trading differs from long-term investing."
           ]
         },
         {
           "heading": "Real-Time Style Example: Buying a Stock",
           "paragraphs": [
             "Imagine a stock is trading at 1,000. You have been watching it for several days, and today it breaks above a resistance area near 995 with strong momentum.",
-            "You decide: Buy price = 1,000, stop-loss = 980, target = 1,050. If the price rises from 1,000 to 1,050 and you sell there, you make a gain of 50 per share before costs. If the price falls to 980 and you exit, you take a loss of 20 per share before costs.",
-            "This is a simple example of stock trading in real time: identify a setup, buy shares, define risk, and plan an exit. The exact trade rules are strategy-dependent, but the buy-low/sell-higher logic is the basic structure of stock trading."
-          ]
+            "You decide: "
+         ],
+         "bullets": [
+            "Buy price = 1,000",
+            "Stop-loss = 980",
+            "Target = 1,050"
+         ],
+         "text_after": "If the price rises from 1,000 to 1,050 and you sell there, you make a gain of 50 per share before costs. If the price falls to 980 and you exit, you take a loss of 20 per share before costs. This is a simple example of stock trading in real time: identify a setup, buy shares, define risk, and plan an exit. The exact trade rules are strategy-dependent, but the buy-low/sell-higher logic is the basic structure of stock trading."
         },
         {
           "heading": "Real-Time Style Example: Selling a Stock You Already Own",
           "paragraphs": [
             "Imagine you bought a stock earlier at 850, and today it reaches 920 after a strong rally. You believe the move may be slowing near resistance, so you decide to sell your shares at 920.",
-            "In this case: Buy price = 850, sell price = 920, profit = 70 per share before costs.",
-            "This is still stock trading. Not every trade begins today. Sometimes the trading decision is the exit rather than the entry. The key point is that a trade happens whenever you buy or sell shares through the market."
-          ]
+            "In this case:"
+          ],
+          "bullets": [
+            "Buy price = 850",
+            "Sell price = 920",
+            "Profit = 70 per share before costs"
+          ],
+          "text_after": "This is still stock trading. Not every trade begins today. Sometimes the trading decision is the exit rather than the entry. The key point is that a trade happens whenever you buy or sell shares through the market."
         },
         {
           "heading": "Real-Time Style Example: Short-Term Intraday Trading",
           "paragraphs": [
             "Suppose a trader is watching a stock during the trading session. The stock opens at 500, moves to 510, pulls back to 505, and then begins pushing up again.",
-            "The trader buys at 506 because they believe intraday momentum is building. Their plan is: Entry = 506, stop-loss = 502, target = 514.",
-            "If the stock reaches 514 the same day and the trader exits, that is a short-term stock trade. If the trader opens and closes the same stock position within the same day, that is commonly described as day trading. In the United States, FINRA applies specific rules to pattern day trading in margin accounts, so account type and frequency matter."
-          ]
+            "The trader buys at 506 because they believe intraday momentum is building. Their plan is: "
+           ],
+           "bullets": [
+            "Buy at 506",
+            "Stop-loss at 502",
+            "Target at 514"
+           ],
+           "text_after": "If the stock reaches 514 the same day and the trader exits, that is a short-term stock trade. If the trader opens and closes the same stock position within the same day, that falls under day-trading activity. In the U.S., FINRA has specific rules for pattern day trading in margin accounts."
         },
         {
           "heading": "Where Stocks Trade",
@@ -7330,11 +7655,11 @@
           "heading": "Common Ways Traders Approach Stock Trading",
           "paragraphs": [
             "Stock traders use different timeframes and styles.",
-            "Day Trading",
+            {"bold": "Day Trading"},
             "Day traders buy and sell the same stock within the same trading day to try to profit from short-term movements. This style is high risk and fast-paced.",
-            "Swing Trading",
+            {"bold": "Swing Trading"},
             "Swing traders usually hold for several days or weeks to capture a larger short-term move. Labels vary by community, but swing trading is commonly understood by holding period rather than a single regulatory definition.",
-            "Position Trading",
+            {"bold": "Position Trading"},
             "Position traders may hold for much longer, often weeks or months, but still treat the trade as an active position rather than a passive long-term investment.",
             "The main idea is that stock trading can be very short-term or somewhat longer-term depending on the trader’s plan."
           ]
@@ -7343,18 +7668,28 @@
           "heading": "Order Types in Stock Trading",
           "paragraphs": [
             "Order types matter because they affect how your trade enters the market.",
-            "Market Order",
+            {"bold": "Market Order"},
             "A market order is the most common order type and generally aims to execute immediately at or near the current bid or ask price. It prioritizes execution over exact price.",
-            "Limit Order",
+            {"bold": "Limit Order"},
             "A limit order lets you specify the maximum price you will pay when buying or the minimum price you will accept when selling. It gives more price control, but execution is not guaranteed.",
-            "For beginners, this means: Use a market order when speed matters more than exact price. Use a limit order when price control matters more than immediate execution."
-          ]
+            "For beginners, this means:"
+           ],
+           "bullets": [
+            "Use a market order when speed matters more than exact price",
+            "Use a limit order when price control matters more than immediate execution."
+           ]
         },
         {
           "heading": "What Moves Stock Prices?",
           "paragraphs": [
-            "Stock prices move because of supply and demand. Buyers and sellers constantly interact throughout the trading day, and prices adjust based on how strongly each side is willing to transact. Broader reasons behind those buying and selling decisions can include company performance, earnings, dividends, economic data, interest rates, news, and overall market sentiment.",
-            "In real trading, that means a stock can move because, for example, a company reported strong earnings, the market expects better future growth, a major economic report changed investor sentiment, or traders are reacting to technical breakout levels."
+            "Stock prices move because of supply and demand. Buyers and sellers constantly interact throughout the trading day, and prices adjust based on how strongly each side is willing to transact. Broader reasons behind those buying and selling decisions can include company performance, earnings, dividends, economic data, interest rates, news, and overall market sentiment. The supply-and-demand mechanism is core to how stock markets work.",
+            "In real trading, that means a stock can move because:"
+          ],
+          "bullets": [
+            "A company reports strong earnings",
+            "The market expects better future growth",
+            "A major economic report changes investor sentiment",
+            "Traders are reacting to technical breakout levels"
           ]
         },
         {
@@ -7376,12 +7711,24 @@
           "heading": "Stock Trading vs Investing",
           "paragraphs": [
             "Stock trading and stock investing are related, but they are not the same. Trading is usually shorter-term and more focused on price movement. Investing is generally longer-term and more focused on building wealth over time through ownership of companies.",
-            "In simple terms: A trader often asks, “Where might the price move next?” An investor often asks, “Is this company worth owning for the long run?”"
+            "In simple terms: "
+          ],
+          "bullets": [
+            "A trader often asks, “Where might the price move next?”",
+            "An investor often asks, “Is this company worth owning for the long run?”"
           ]
         },
         {
           "heading": "Is Stock Trading Good for Beginners?",
-          "text": "Stock trading can be learned by beginners, but it should be approached carefully. A beginner usually does better by learning the basics first: how stocks work, how orders work, how to size a trade, how to place a stop-loss, and how to avoid emotional decisions. That foundation is more important than jumping straight into fast trading."
+          "text": "Stock trading can be learned by beginners, but it should be approached carefully. A beginner usually does better by learning the basics first: ",
+          "bullets": [
+            "How stocks work",
+            "How orders work",
+            "How to size a trade",
+            "How to place a stop-loss",
+            "How to avoid emotional decisions"
+          ],
+          "text_after": "That foundation is more important than jumping straight into fast trading. The need for basic investor education is consistent with the investor-protection framing of official resources."
         },
         {
           "heading": "Best Practices for Beginner Stock Trading",
@@ -7475,7 +7822,8 @@
         {
           "heading": "How Indices Are Built",
           "paragraphs": [
-            "Indices are not all built the same way. Different indices use different weighting methods, and that changes how the index behaves. The main weighting approaches include:"
+            "Indices are not all built the same way. Different indices use different weighting methods, and that changes how the index behaves.",
+            "The main weighting approaches include:"
           ],
           "bullets": [
             "Market-cap weighted",
@@ -7489,7 +7837,7 @@
           "heading": "What Is a Market-Cap Weighted Index?",
           "paragraphs": [
             "A market-cap weighted index gives larger companies more influence because their market value is greater. That means if the biggest companies in the index move sharply, they can have a much larger impact on the index than smaller components.",
-            "This is one reason traders often look beyond the headline level of a broad index and also study whether performance is being driven by only a few large stocks or by a wider set of companies."
+            "This is one reason traders often look beyond the headline level of a broad index and also study whether performance is being driven by only a few large stocks or by a wider set of companies. That broader-participation question has become especially relevant in current market analysis."
           ]
         },
         {
@@ -7526,13 +7874,13 @@
           "heading": "How Traders Use Indices",
           "paragraphs": [
             "Traders use indices in several ways.",
-            "1. To Read Overall Market Direction",
+            {"bold": "1. To Read Overall Market Direction"},
             "If a major index is rising strongly, traders may see that as a sign of bullish market conditions. If it is falling sharply, they may treat that as broad market weakness.",
-            "2. To Trade Broad Market Exposure",
+            {"bold": "2. To Trade Broad Market Exposure"},
             "Instead of choosing one stock, a trader may prefer an index product because it provides broader exposure to an entire market or segment. This is a common reason index futures and options are widely used.",
-            "3. To Compare Strength Across Regions or Sectors",
+            {"bold": "3. To Compare Strength Across Regions or Sectors"},
             "Traders often compare U.S., European, and Asian indices, or compare sector indices, to see where money is flowing and which parts of the market are leading.",
-            "4. To Understand Market Breadth",
+            {"bold": "4. To Understand Market Breadth"},
             "By comparing headline indices with equal-weighted versions or sector behavior, traders can judge whether the move is broad-based or narrow."
           ]
         },
@@ -7556,43 +7904,59 @@
           "heading": "Indices vs Individual Stocks",
           "paragraphs": [
             "This is one of the most important distinctions for beginners.",
-            "Individual stock: Reflects one company, moves on company-specific news, and can be much more sensitive to single-event risk.",
-            "Index: Reflects a basket of companies, moves on broader market and basket-level factors, and spreads company-specific risk across multiple components.",
-            "This is why trading an index often feels different from trading one stock. An index is usually less about one earnings surprise and more about the direction of a wider part of the market."
+            {"bold": "Individual stock: "}
+          ],
+          "bullets": [
+            "Reflects one company",
+           " Moves on company-specific news",
+            "Can be much more sensitive to single-event risk"
           ]
         },
         {
-          "heading": "Breadth, Sectors, and Global Context",
+          "heading": "Index: ",
           "paragraphs": [
-            "Traders often care not only about whether indices are going up or down, but also about how they are moving.",
-            "Concentration vs breadth: A headline index can appear strong even when leadership is narrow. Comparing cap-weighted performance with equal-weighted performance helps answer whether strength is broad-based.",
-            "Sector leadership: Sector index performance can reveal where money is flowing, such as technology, financials, energy, or defensive areas.",
-            "Global comparison: International indices matter because traders compare regional strength, economic outlooks, and global participation rather than looking only at one country in isolation.",
+            "Reflects a basket of companies",
+            "Moves on broader market themes",
+            "Can be more stable and less volatile than individual stocks"
+          ],
+          "text_after": "This is why trading an index often feels different from trading one stock. An index is usually less about one earnings surprise and more about the direction of a wider part of the market."
+        },
+        {
+          "heading": "Why Indices Are So Relevant in the Current Market Environment",
+          "paragraphs": [
+            "In the current market environment, traders are paying close attention not only to whether indices are going up or down, but also to how they are moving.",
+            "Three current themes matter a lot:",
+            {"bold": "1. Concentration vs Breadth"},
+            "A headline index can appear strong even when leadership is narrow. That is why traders compare cap-weighted performance with equal-weighted performance.",
+            {"bold": "2. Sector Leadership"},
+            "Sector index performance can reveal where money is flowing, such as technology, financials, energy, or defensive areas.",
+            {"bold": "3. Global Comparison"},
+            "International indices matter because traders compare regional strength, economic outlooks, and global participation rather than looking only at one country in isolation.",
             "So trend reading in index work is not only about price direction. It is also about participation, leadership, and cross-market comparison."
           ]
         },
         {
           "heading": "Advantages of Trading Indices",
           "paragraphs": [
-            "1. Broader Exposure",
+            {"bold": "1. Broader Exposure"},
             "An index gives access to a larger market segment rather than one company only.",
-            "2. Cleaner Market View",
+            {"bold": "2. Cleaner Market View"},
             "Indices help traders read overall market mood more clearly than isolated single-stock movement.",
-            "3. Useful for Macro Themes",
+            {"bold": "3. Useful for Macro Themes"},
             "Indices are well suited to trading bigger economic, sector, and risk-sentiment themes.",
-            "4. Multiple Product Access",
+            {"bold": "4. Multiple Product Access"},
             "Traders can access indices through different products such as futures and options, depending on market and broker access."
           ]
         },
         {
           "heading": "Limitations of Trading Indices",
           "paragraphs": [
-            "1. You Are Not Trading One Company Story",
+            {"bold": "1. You Are Not Trading One Company Story"},
             "An index can rise even if many individual stocks inside it are struggling, depending on weighting.",
-            "2. Weighting Can Distort the Picture",
+            {"bold": "2. Weighting Can Distort the Picture"},
             "A cap-weighted or price-weighted index does not always represent equal participation across all members.",
-            "3. Broader Exposure Can Reduce Specific Opportunity",
-            "If a trader wants a company-specific move, an index may dilute that opportunity because it spreads exposure across many components."
+            {"bold": "3. Broader Exposure Can Reduce Specific Opportunity"},
+            "If a trader wants a company-specific move, an index may dilute that opportunity because it spreads exposure across many components. This is a practical implication of basket-based construction."
           ]
         },
         {

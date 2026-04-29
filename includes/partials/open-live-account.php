@@ -68,6 +68,17 @@
                 <option value="OTHER" data-i18n="openLiveAccountPage.countries.OTHER">Other</option>
               </select>
             </div>
+            <div class="form-group">
+              <label for="openLiveHeardAbout">How did you hear about us?</label>
+              <select id="openLiveHeardAbout" name="heard_about" required>
+                <option value="">Select an option</option>
+                <option value="search">Search engine</option>
+                <option value="social">Social media</option>
+                <option value="friend">Friend or colleague</option>
+                <option value="event">Webinar or event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
             <div class="edu-lead-gate-consent">
               <label class="edu-lead-gate-check-label">
                 <input type="checkbox" name="consent" id="claimOfferConsent" value="1" required>
@@ -117,11 +128,13 @@
     var email = (form.querySelector('[name="email"]') || {}).value;
     var phone = (form.querySelector('[name="phone"]') || {}).value;
     var country = (form.querySelector('[name="country"]') || {}).value;
+    var heardAbout = (form.querySelector('[name="heard_about"]') || {}).value;
     var consent = form.querySelector('[name="consent"]');
 
     name = name ? name.trim() : '';
     email = email ? email.trim() : '';
     phone = phone ? phone.trim() : '';
+    heardAbout = heardAbout ? heardAbout.trim() : '';
 
     if (!name) {
       showError(tr('openLiveAccountPage.errors.nameRequired'));
@@ -137,6 +150,10 @@
     }
     if (!country) {
       showError(tr('openLiveAccountPage.errors.countryRequired'));
+      return;
+    }
+    if (!heardAbout) {
+      showError('Please tell us how you heard about us.');
       return;
     }
     if (!consent || !consent.checked) {

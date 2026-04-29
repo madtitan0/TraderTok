@@ -21,7 +21,13 @@
         <div class="registration-account-card">
           <div class="education-article-meta">Partner Program</div>
           <h3 class="registration-account-card-title">Become a Trading Partner (IB)</h3>
-          <form class="deposit-form registration-account-form" id="ibPartnerApplicationForm" novalidate>
+          <form
+            class="deposit-form registration-account-form"
+            id="ibPartnerApplicationForm"
+            novalidate
+            data-thank-you-url="<?php echo htmlspecialchars(routeUrl('lead-thank-you', ['kind' => 'ib'])); ?>"
+            data-leads-url="https://6dfed096-backend-clientzone.dataconect.com/api/v1/clientzone/leads"
+          >
             <div class="ib-program-stepper" aria-hidden="true">
               <span class="ib-program-step-pill is-active" data-step-pill="1">Step 1: Basic Info</span>
               <span class="ib-program-step-pill" data-step-pill="2">Step 2: Profile</span>
@@ -30,8 +36,12 @@
 
             <div class="ib-program-step is-active" data-step="1">
               <div class="form-group">
-                <label for="ibPartnerName">Full Name</label>
-                <input id="ibPartnerName" type="text" name="full_name" placeholder="Your full name" required autocomplete="name">
+                <label for="ibPartnerFirstName">First Name</label>
+                <input id="ibPartnerFirstName" type="text" name="first_name" placeholder="Your first name" required autocomplete="given-name">
+              </div>
+              <div class="form-group">
+                <label for="ibPartnerLastName">Last Name</label>
+                <input id="ibPartnerLastName" type="text" name="last_name" placeholder="Your last name" required autocomplete="family-name">
               </div>
               <div class="form-group">
                 <label for="ibPartnerEmail">Email Address</label>
@@ -58,6 +68,19 @@
                   <option value="IN">India</option>
                   <option value="MY">Malaysia</option>
                   <option value="OTHER">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="ibPartnerLanguage">Preferred Language</label>
+                <select id="ibPartnerLanguage" name="language" required>
+                  <option value="">Select language</option>
+                  <option value="en">English</option>
+                  <option value="es">Spanish</option>
+                  <option value="fr">French</option>
+                  <option value="de">German</option>
+                  <option value="ar">Arabic</option>
+                  <option value="pt">Portuguese</option>
+                  <option value="it">Italian</option>
                 </select>
               </div>
             </div>
@@ -197,150 +220,3 @@
   }
 }
 </style>
-
-<script>
-(function() {
-  var form = document.getElementById('ibPartnerApplicationForm');
-  var steps = form ? Array.prototype.slice.call(form.querySelectorAll('.ib-program-step')) : [];
-  var pills = form ? Array.prototype.slice.call(form.querySelectorAll('[data-step-pill]')) : [];
-  var err = document.getElementById('ibPartnerFormError');
-  var thankYou = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'ib'])); ?>;
-  var prevBtn = document.getElementById('ibPartnerPrevBtn');
-  var nextBtn = document.getElementById('ibPartnerNextBtn');
-  var submitBtn = document.getElementById('ibPartnerSubmitBtn');
-  var partnerRadios = form ? form.querySelectorAll('input[name="is_partner"]') : [];
-  var referrerWrap = document.getElementById('ibPartnerReferrerWrap');
-  var currentStep = 1;
-
-  if (!form || !steps.length) return;
-
-  function showError(message) {
-    if (!err) return;
-    err.textContent = message || '';
-    err.hidden = !message;
-  }
-
-  function selectedPartnerValue() {
-    var checked = form.querySelector('input[name="is_partner"]:checked');
-    return checked ? checked.value : '';
-  }
-
-  function updateReferrerVisibility() {
-    if (!referrerWrap) return;
-    var shouldShow = selectedPartnerValue() === 'yes';
-    referrerWrap.hidden = !shouldShow;
-  }
-
-  function setStep(stepNumber) {
-    currentStep = stepNumber;
-    steps.forEach(function(stepEl, idx) {
-      var isActive = idx === (stepNumber - 1);
-      stepEl.classList.toggle('is-active', isActive);
-      stepEl.hidden = !isActive;
-    });
-    pills.forEach(function(pill, idx) {
-      pill.classList.toggle('is-active', idx === (stepNumber - 1));
-    });
-
-    prevBtn.hidden = (stepNumber === 1);
-    nextBtn.hidden = (stepNumber === steps.length);
-    submitBtn.hidden = (stepNumber !== steps.length);
-    updateReferrerVisibility();
-  }
-
-  function isValidEmail(value) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-  }
-
-  function readValue(name) {
-    var field = form.querySelector('[name="' + name + '"]');
-    if (!field || typeof field.value !== 'string') return '';
-    return field.value.trim();
-  }
-
-  function validateStep(stepNumber) {
-    if (stepNumber === 1) {
-      if (!readValue('full_name')) {
-        showError('Please enter your full name.');
-        return false;
-      }
-      if (!isValidEmail(readValue('email'))) {
-        showError('Please enter a valid email address.');
-        return false;
-      }
-      if (!readValue('phone')) {
-        showError('Please enter your phone number.');
-        return false;
-      }
-      if (!readValue('country')) {
-        showError('Please select your country.');
-        return false;
-      }
-    }
-
-    if (stepNumber === 2) {
-      if (!readValue('experience_level')) {
-        showError('Please select your experience level.');
-        return false;
-      }
-      if (!readValue('heard_about')) {
-        showError('Please tell us how you heard about us.');
-        return false;
-      }
-    }
-
-    if (stepNumber === 3) {
-      if (!selectedPartnerValue()) {
-        showError('Please choose whether you are currently a partner/IB/agent.');
-        return false;
-      }
-      if (!readValue('promotion_method')) {
-        showError('Please select your preferred method of promotion.');
-        return false;
-      }
-    }
-
-    showError('');
-    return true;
-  }
-
-  Array.prototype.forEach.call(partnerRadios, function(radio) {
-    radio.addEventListener('change', updateReferrerVisibility);
-  });
-
-  prevBtn.addEventListener('click', function() {
-    showError('');
-    if (currentStep > 1) setStep(currentStep - 1);
-  });
-
-  nextBtn.addEventListener('click', function() {
-    if (!validateStep(currentStep)) return;
-    if (currentStep < steps.length) setStep(currentStep + 1);
-  });
-
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    if (!validateStep(3)) return;
-
-    var payload = {
-      full_name: readValue('full_name'),
-      email: readValue('email'),
-      phone: readValue('phone'),
-      country: readValue('country'),
-      experience_level: readValue('experience_level'),
-      heard_about: readValue('heard_about'),
-      is_partner: selectedPartnerValue(),
-      referred_by: readValue('referred_by'),
-      promotion_method: readValue('promotion_method')
-    };
-
-    if (window.console && typeof window.console.info === 'function') {
-      window.console.info('IB partner application captured (simulated)', payload);
-    }
-
-    window.location.href = thankYou;
-  });
-
-  setStep(1);
-})();
-</script>

@@ -210,6 +210,9 @@
     <?php if (!empty($page) && $page === 'ib-program'): ?>
     <script src="assets/js/ib-program-meta.js?v=<?php echo filemtime('assets/js/ib-program-meta.js'); ?>" defer></script>
     <?php endif; ?>
+    <?php if (!empty($page) && $page === 'ib-program-application'): ?>
+    <script src="assets/js/ib-program-application.js?v=<?php echo filemtime('assets/js/ib-program-application.js'); ?>" defer></script>
+    <?php endif; ?>
     <?php if (!empty($page) && $page === 'tradertok-club'): ?>
     <script src="assets/js/tradertok-club-meta.js?v=<?php echo filemtime('assets/js/tradertok-club-meta.js'); ?>" defer></script>
     <?php endif; ?>
