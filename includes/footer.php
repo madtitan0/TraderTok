@@ -211,6 +211,7 @@
     <script src="assets/js/ib-program-meta.js?v=<?php echo filemtime('assets/js/ib-program-meta.js'); ?>" defer></script>
     <?php endif; ?>
     <?php if (!empty($page) && $page === 'ib-program-application'): ?>
+    <script src="assets/js/country-iso-data.js?v=<?php echo filemtime('assets/js/country-iso-data.js'); ?>" defer></script>
     <script src="assets/js/ib-program-application.js?v=<?php echo filemtime('assets/js/ib-program-application.js'); ?>" defer></script>
     <?php endif; ?>
     <?php if (!empty($page) && $page === 'tradertok-club'): ?>

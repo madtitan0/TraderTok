@@ -1,3 +1,41 @@
+<?php
+$ib_partner_languages = [
+  'ar' => 'Arabic',
+  'bg' => 'Bulgarian',
+  'cs' => 'Czech',
+  'da' => 'Danish',
+  'de' => 'German',
+  'el' => 'Greek',
+  'en' => 'English',
+  'es' => 'Spanish (Spain)',
+  'es-419' => 'Spanish (Latin America)',
+  'fi' => 'Finnish',
+  'fr' => 'French',
+  'he' => 'Hebrew',
+  'hi' => 'Hindi',
+  'hu' => 'Hungarian',
+  'id' => 'Indonesian',
+  'it' => 'Italian',
+  'ja' => 'Japanese',
+  'ko' => 'Korean',
+  'my' => 'Malay',
+  'nl' => 'Dutch',
+  'no' => 'Norwegian',
+  'ph' => 'Philippines',
+  'pk' => 'Pakistan',
+  'pl' => 'Polish',
+  'pt' => 'Portuguese',
+  'ro' => 'Romanian',
+  'ru' => 'Russian',
+  'sv' => 'Swedish',
+  'th' => 'Thai',
+  'tr' => 'Turkish',
+  'uk' => 'Ukrainian',
+  'vn' => 'Vietnamese',
+  'zh' => 'Chinese (Simplified)',
+];
+asort($ib_partner_languages);
+?>
 <section class="education-subpage education-subpage--register ib-program-application-page">
   <section class="education-subpage-content education-subpage-content--register-page">
     <div class="container" style="padding-top: 100px;">
@@ -52,37 +90,52 @@
                 <input id="ibPartnerPhone" type="tel" name="phone" placeholder="Include country code" required autocomplete="tel">
               </div>
               <div class="form-group">
-                <label for="ibPartnerCountry">Country</label>
-                <select id="ibPartnerCountry" name="country" required>
-                  <option value="">Select...</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="US">United States</option>
-                  <option value="DE">Germany</option>
-                  <option value="FR">France</option>
-                  <option value="AU">Australia</option>
-                  <option value="CA">Canada</option>
-                  <option value="SG">Singapore</option>
-                  <option value="AE">United Arab Emirates</option>
-                  <option value="ZA">South Africa</option>
-                  <option value="NG">Nigeria</option>
-                  <option value="IN">India</option>
-                  <option value="MY">Malaysia</option>
-                  <option value="OTHER">Other</option>
-                </select>
+                <label for="ibPartnerCountrySearch">Country</label>
+                <div class="ib-search-select" id="ibPartnerCountryWrap">
+                  <input type="hidden" name="country" id="ibPartnerCountry" value="">
+                  <input
+                    type="text"
+                    id="ibPartnerCountrySearch"
+                    class="ib-search-select-input"
+                    placeholder="Search country..."
+                    autocomplete="off"
+                    autocorrect="off"
+                    spellcheck="false"
+                    aria-autocomplete="list"
+                    aria-controls="ibPartnerCountryList"
+                    aria-expanded="false"
+                    role="combobox"
+                  >
+                  <ul class="ib-search-select-list" id="ibPartnerCountryList" role="listbox" hidden></ul>
+                </div>
               </div>
               <div class="form-group">
-                <label for="ibPartnerLanguage">Preferred Language</label>
-                <select id="ibPartnerLanguage" name="language" required>
-                  <option value="">Select language</option>
-                  <option value="en">English</option>
-                  <option value="es">Spanish</option>
-                  <option value="fr">French</option>
-                  <option value="de">German</option>
-                  <option value="ar">Arabic</option>
-                  <option value="pt">Portuguese</option>
-                  <option value="it">Italian</option>
-                </select>
+                <label for="ibPartnerLanguageSearch">Preferred Language</label>
+                <div class="ib-search-select" id="ibPartnerLanguageWrap">
+                  <input type="hidden" name="language" id="ibPartnerLanguage" value="">
+                  <input
+                    type="text"
+                    id="ibPartnerLanguageSearch"
+                    class="ib-search-select-input"
+                    placeholder="Search language..."
+                    autocomplete="off"
+                    autocorrect="off"
+                    spellcheck="false"
+                    aria-autocomplete="list"
+                    aria-controls="ibPartnerLanguageList"
+                    aria-expanded="false"
+                    role="combobox"
+                  >
+                  <ul class="ib-search-select-list" id="ibPartnerLanguageList" role="listbox" hidden></ul>
+                </div>
               </div>
+              <script type="application/json" id="ibPartnerLanguagesJson"><?php
+                $ib_language_pairs = [];
+                foreach ($ib_partner_languages as $code => $label) {
+                  $ib_language_pairs[] = ['value' => (string) $code, 'label' => (string) $label];
+                }
+                echo json_encode($ib_language_pairs, JSON_UNESCAPED_UNICODE);
+              ?></script>
             </div>
 
             <div class="ib-program-step" data-step="2" hidden>
@@ -211,6 +264,53 @@
   margin-top: 8px;
   width: auto;
   min-width: 140px;
+}
+
+.ib-program-form-actions #ibPartnerSubmitBtn[hidden],
+.ib-program-form-actions #ibPartnerNextBtn[hidden],
+.ib-program-form-actions #ibPartnerPrevBtn[hidden] {
+  display: none !important;
+}
+
+.ib-search-select {
+  position: relative;
+}
+
+.ib-search-select-input {
+  width: 100%;
+}
+
+.ib-search-select-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  z-index: 40;
+  max-height: 260px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: var(--bg-secondary, #1a1a1a);
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.12));
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.ib-search-select-option {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--text-primary, #f2f2f2);
+}
+
+.ib-search-select-option:hover,
+.ib-search-select-option.is-highlighted {
+  background: rgba(230, 57, 70, 0.12);
+}
+
+.ib-search-select-option[hidden] {
+  display: none !important;
 }
 
 @media (max-width: 640px) {
