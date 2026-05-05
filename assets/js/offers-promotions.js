@@ -18,6 +18,7 @@
         { id: 'malaysia', name: 'Malaysia', code: 'MY' },
         { id: 'philippines', name: 'Philippines', code: 'PH' },
         { id: 'indonesia', name: 'Indonesia', code: 'ID' },
+        { id: 'singapore', name: 'Singapore', code: 'SG' },
         { id: 'pakistan', name: 'Pakistan', code: 'PK' },
         { id: 'latam', name: 'Latin America', code: 'LATAM' },
         { id: 'namibia', name: 'Namibia', code: 'NA' },
@@ -36,6 +37,7 @@
         malaysia: 'my',
         philippines: 'ph',
         indonesia: 'id',
+        singapore: 'en',
         pakistan: 'en',
         latam: 'es-419',
         namibia: 'en',
@@ -80,6 +82,8 @@
         philippines: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="240" fill="#0038a8"/><rect width="640" height="240" y="240" fill="#ce1126"/><polygon points="0,0 360,240 0,480" fill="#fff"/><circle cx="120" cy="240" r="48" fill="none" stroke="#fcd116" stroke-width="4"/><g fill="#fcd116"><polygon points="120,192 125,208 142,208 128,218 134,234 120,224 106,234 112,218 98,208 115,208"/><polygon points="62,330 67,346 84,346 70,356 76,372 62,362 48,372 54,356 40,346 57,346"/><polygon points="178,330 183,346 200,346 186,356 192,372 178,362 164,372 170,356 156,346 173,346"/><g transform="translate(120,240)"><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(45)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(90)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(135)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(180)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(225)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(270)"/><line x1="0" y1="-48" x2="0" y2="-68" stroke="#fcd116" stroke-width="3" transform="rotate(315)"/></g></g></svg>',
 
         indonesia: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="240" fill="#ce1126"/><rect width="640" height="240" y="240" fill="#fff"/></svg>',
+
+        singapore: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="640" height="240" fill="#ed2939"/><rect width="640" height="240" y="240" fill="#fff"/><circle fill="#fff" cx="128" cy="120" r="72"/><circle fill="#ed2939" cx="148" cy="120" r="58"/><polygon fill="#fff" points="304,72 322,118 372,118 332,148 350,194 304,166 258,194 276,148 236,118 286,118"/></svg>',
 
         pakistan: '<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="480" fill="#fff"/><rect x="160" width="480" height="480" fill="#01411c"/><circle cx="400" cy="240" r="100" fill="#fff"/><circle cx="420" cy="240" r="80" fill="#01411c"/><polygon points="444,180 452,204 478,204 458,220 466,244 444,228 422,244 430,220 410,204 436,204" fill="#fff"/></svg>',
 
@@ -236,6 +240,33 @@
                 description: 'Receive 3% cashback on every trade you execute, regardless of the outcome. Funds are credited directly to your trading account weekly.',
                 details: ['3% per trade', 'Win or lose', 'Weekly credit', 'No minimum volume'],
                 cta: 'Activate Cashback',
+                ctaLink: './?page=claim-offer'
+            }
+        ],
+
+        singapore: [
+            {
+                badge: 'Welcome Bonus',
+                title: '100% Deposit Bonus for Singapore Traders',
+                description: 'Double your first deposit with our welcome offer tailored for traders in Singapore. Fund your account and trade global markets with extra margin.',
+                details: ['Min. deposit $100', 'Max. bonus $5,000', 'Valid for 30 days', 'T&C apply'],
+                cta: 'Claim Offer',
+                ctaLink: './?page=claim-offer'
+            },
+            {
+                badge: 'ECN Pricing',
+                title: 'Raw Spreads from 0.0 Pips',
+                description: 'Access institutional-grade ECN liquidity with ultra-tight spreads on majors and metals—ideal for active traders who demand precision execution.',
+                details: ['From 0.0 pips raw', 'Deep liquidity', 'Fast fills', 'Transparent pricing'],
+                cta: 'Open ECN Account',
+                ctaLink: './?page=claim-offer'
+            },
+            {
+                badge: 'Refer a Friend',
+                title: 'Earn Rewards for Every Successful Referral',
+                description: 'Invite friends in Singapore to trade with TraderTok and earn referral rewards when they open and fund a live account.',
+                details: ['Competitive referral payouts', 'No hard cap', 'Friend welcome perks', 'Tracking in your portal'],
+                cta: 'Start Referring',
                 ctaLink: './?page=claim-offer'
             }
         ],

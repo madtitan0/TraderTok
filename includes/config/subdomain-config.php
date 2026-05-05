@@ -3,7 +3,7 @@
  * Subdomain Configuration for TraderTok
  * Detects the subdomain and maps it to a country and language.
  *
- * Only SEA subdomains (vn, th, my, ph, id) serve regional mode; others in $subdomainMap
+ * Active regional subdomains (vn, th, my, ph, id, sg) serve regional mode; others in $subdomainMap
  * redirect to https://tradertok.com. Keep full map for future reactivation.
  */
 
@@ -41,6 +41,7 @@ $subdomainMap = [
     'my'    => ['country' => 'malaysia',       'lang' => 'my'], // ms fallback to en
     'ph'    => ['country' => 'philippines',    'lang' => 'ph'],
     'id'    => ['country' => 'indonesia',      'lang' => 'id'],
+    'sg'    => ['country' => 'singapore',      'lang' => 'en'],
     'pk'    => ['country' => 'pakistan',       'lang' => 'en'],
     'latam' => ['country' => 'latam',          'lang' => 'es-419'],
     'es'    => ['country' => 'latam',          'lang' => 'es-419'],
@@ -53,7 +54,7 @@ $subdomainMap = [
 ];
 
 /** Must match TRADERTOK_SEA_ACTIVE_SUBDOMAIN_KEYS in assets/js/tradertok-subdomain-config.js */
-$tradertok_sea_active_subdomains = ['vn', 'th', 'my', 'ph', 'id'];
+$tradertok_sea_active_subdomains = ['vn', 'th', 'my', 'ph', 'id', 'sg'];
 
 $detectedSubdomainData = null;
 if (isset($subdomainMap[$subdomain]) && in_array($subdomain, $tradertok_sea_active_subdomains, true)) {

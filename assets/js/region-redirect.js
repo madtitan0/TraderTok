@@ -73,12 +73,12 @@
 
     var HASH_TO_COUNTRY = {
         vn: 'vietnam', th: 'thailand', my: 'malaysia',
-        ph: 'philippines', id: 'indonesia', pk: 'pakistan',
+        ph: 'philippines', id: 'indonesia', sg: 'singapore', pk: 'pakistan',
         latam: 'latam', es: 'latam', na: 'namibia',
         ke: 'kenya', gh: 'ghana', ng: 'nigeria',
         za: 'south-africa', tt: 'trinidad-tobago', gy: 'guyana',
         vietnam: 'vietnam', thailand: 'thailand', malaysia: 'malaysia',
-        philippines: 'philippines', indonesia: 'indonesia', pakistan: 'pakistan',
+        philippines: 'philippines', indonesia: 'indonesia', singapore: 'singapore', pakistan: 'pakistan',
         namibia: 'namibia', kenya: 'kenya', ghana: 'ghana',
         nigeria: 'nigeria', 'south-africa': 'south-africa',
         'trinidad-tobago': 'trinidad-tobago', 'trinidad': 'trinidad-tobago',
@@ -87,7 +87,7 @@
 
     var COUNTRY_TO_LANG = {
         vietnam: 'vn', thailand: 'th', malaysia: 'my',
-        philippines: 'ph', indonesia: 'id', pakistan: 'en',
+        philippines: 'ph', indonesia: 'id', singapore: 'en', pakistan: 'en',
         latam: 'es-419', namibia: 'en', kenya: 'en',
         ghana: 'en', nigeria: 'en', 'south-africa': 'en',
         'trinidad-tobago': 'en', guyana: 'en'
