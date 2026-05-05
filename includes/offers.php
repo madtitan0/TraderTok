@@ -30,6 +30,7 @@
                 <option value="malaysia" data-i18n="offersPage.regions.malaysia">Malaysia</option>
                 <option value="philippines" data-i18n="offersPage.regions.philippines">Philippines</option>
                 <option value="indonesia" data-i18n="offersPage.regions.indonesia">Indonesia</option>
+                <option value="singapore" data-i18n="offersPage.regions.singapore">Singapore</option>
                 <option value="pakistan" data-i18n="offersPage.regions.pakistan">Pakistan</option>
                 <option value="latam" data-i18n="offersPage.regions.latam">Latin America</option>
                 <option value="namibia" data-i18n="offersPage.regions.namibia">Namibia</option>

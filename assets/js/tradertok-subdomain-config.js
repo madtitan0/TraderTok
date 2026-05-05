@@ -2,20 +2,21 @@
  * Canonical subdomain → regional site slug (country id) mapping.
  * Used by region-redirect.js, offers-promotions.js, and offers-nav.js.
  *
- * Subdomain routing and IP→subdomain redirects are limited to SEA (vn, th, my, ph, id).
+ * Subdomain routing and IP→subdomain redirects use active regional keys (vn, th, my, ph, id, sg).
  * Offers & Promotions use TraderTokIsoToOfferPromoRegionSlug (all mapped regions), independent of SEA routing.
  * Full mappings stay in TRADERTOK_SUBDOMAIN_MAP for easy reactivation.
  */
 (function (global) {
     'use strict';
 
-    /** Subdomain keys that participate in regional routing (Southeast Asia only). */
+    /** Subdomain keys that participate in regional routing (SEA + Singapore). */
     global.TRADERTOK_SEA_ACTIVE_SUBDOMAIN_KEYS = {
         vn: true,
         th: true,
         my: true,
         ph: true,
-        id: true
+        id: true,
+        sg: true
     };
 
     global.TraderTokIsActiveRegionalSubdomainKey = function (key) {
@@ -29,6 +30,7 @@
         my: 'malaysia',
         ph: 'philippines',
         id: 'indonesia',
+        sg: 'singapore',
         pk: 'pakistan',
         latam: 'latam',
         na: 'namibia',
@@ -73,6 +75,7 @@
         my: 'my',
         ph: 'ph',
         id: 'id',
+        sg: 'en',
         pk: 'en',
         latam: 'es-419',
         na: 'en',
@@ -87,7 +90,7 @@
     /** ISO 3166-1 alpha-2 → subdomain key (must exist in TRADERTOK_SUBDOMAIN_MAP) */
     global.TRADERTOK_COUNTRY_CODE_TO_SUBDOMAIN = {
         VN: 'vn', TH: 'th', MY: 'my', PH: 'ph',
-        ID: 'id', PK: 'pk', NA: 'na', KE: 'ke',
+        ID: 'id', SG: 'sg', PK: 'pk', NA: 'na', KE: 'ke',
         GH: 'gh', NG: 'ng', ZA: 'za', TT: 'tt', GY: 'gy'
     };
 

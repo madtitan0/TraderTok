@@ -204,6 +204,47 @@
       "ctaLink": "./?page=claim-offer"
     }
   ],
+  "singapore": [
+    {
+      "badge": "Welcome Bonus",
+      "title": "100% Deposit Bonus for Singapore Traders",
+      "description": "Double your first deposit with our welcome offer tailored for traders in Singapore. Fund your account and trade global markets with extra margin.",
+      "details": [
+        "Min. deposit $100",
+        "Max. bonus $5,000",
+        "Valid for 30 days",
+        "T&C apply"
+      ],
+      "cta": "Claim Offer",
+      "ctaLink": "./?page=claim-offer"
+    },
+    {
+      "badge": "ECN Pricing",
+      "title": "Raw Spreads from 0.0 Pips",
+      "description": "Access institutional-grade ECN liquidity with ultra-tight spreads on majors and metals—ideal for active traders who demand precision execution.",
+      "details": [
+        "From 0.0 pips raw",
+        "Deep liquidity",
+        "Fast fills",
+        "Transparent pricing"
+      ],
+      "cta": "Open ECN Account",
+      "ctaLink": "./?page=claim-offer"
+    },
+    {
+      "badge": "Refer a Friend",
+      "title": "Earn Rewards for Every Successful Referral",
+      "description": "Invite friends in Singapore to trade with TraderTok and earn referral rewards when they open and fund a live account.",
+      "details": [
+        "Competitive referral payouts",
+        "No hard cap",
+        "Friend welcome perks",
+        "Tracking in your portal"
+      ],
+      "cta": "Start Referring",
+      "ctaLink": "./?page=claim-offer"
+    }
+  ],
   "pakistan": [
     {
       "badge": "Welcome Bonus",
