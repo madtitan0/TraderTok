@@ -296,7 +296,7 @@ $course_faq_visible = course_faq_is_complete($faq_items);
                             <p>Learn to control downside with better position sizing, stop-loss planning, and risk-reward thinking before moving into more advanced trading topics.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
-                                <a href="./education-article?id=risk-management-in-trading" class="education-article-link courses-secondary-cta">Explore Risk Articles</a>
+                                <a href="./education?id=risk-management-in-trading" class="education-article-link courses-secondary-cta">Explore Risk Articles</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>

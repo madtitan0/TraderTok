@@ -42,17 +42,17 @@ $related_guides = [
     [
         'title' => 'What Is Forex Trading?',
         'description' => 'Start with the core mechanics of how the forex market works and why currencies move.',
-        'href' => './education-article?id=what-is-forex-trading'
+        'href' => './education?id=what-is-forex-trading'
     ],
     [
         'title' => 'What Is Leverage in Trading?',
         'description' => 'Understand how leverage works, why it matters, and how to approach it responsibly.',
-        'href' => './education-article?id=what-is-leverage'
+        'href' => './education?id=what-is-leverage'
     ],
     [
         'title' => 'Risk Management in Trading',
         'description' => 'Learn the principles behind protecting capital and managing position exposure.',
-        'href' => './education-article?id=risk-management-in-trading'
+        'href' => './education?id=risk-management-in-trading'
     ],
 ];
 

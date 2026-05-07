@@ -38,8 +38,13 @@ function assetStylesheetTag($path)
 
 function routeUrl($pageName, array $params = [])
 {
-    $query = array_merge(['page' => $pageName], $params);
-    return './?' . http_build_query($query);
+    $slug = trim((string) $pageName, '/');
+    $base = $slug === '' ? './' : './' . $slug;
+    if (empty($params)) {
+        return $base;
+    }
+
+    return $base . '?' . http_build_query($params);
 }
 
 /** Current request origin (scheme + host) for absolute OG/Twitter image URLs. */

@@ -99,6 +99,7 @@
               <li><a href="buy-and-sell-explained" class="footer-link" data-i18n="footer.buyAndSellExplained">Buy and
                   Sell Explained</a></li>
               <li><a href="tax-report" class="footer-link" data-i18n="footer.taxReport">Tax Report</a></li>
+              <li><a href="<?php echo routeUrl('trading-calculators'); ?>" class="footer-link">Trading Calculators</a></li>
               <li><a href="education-hub" class="footer-link" data-i18n="nav.educationResources">Education Resources</a>
               </li>
             </ul>
@@ -271,8 +272,8 @@
             <span data-i18n="footer.subbarCopyrightRest">TraderTok / Amber Rock Trade Ltd. All rights reserved.</span>
           </p>
           <nav class="footer-subbar-platforms" aria-label="Trading platforms">
-            <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
-              data-i18n="footer.platformMt4">MetaTrader 4</a>
+            <!-- <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
+              data-i18n="footer.platformMt4">MetaTrader 4</a> -->
             <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n="">
               <img src="assets/images/mt5.png" alt="MetaTrader 5" class="footer-subbar-chip-icon">
             </a>

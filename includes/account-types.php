@@ -1271,7 +1271,7 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
           <div class="acct-elite-card">
             <h2 id="acct-elite-heading" data-i18n="accountTypesPage.elite.title">Personalized Accounts</h2>
             <p data-i18n="accountTypesPage.elite.paragraph1">Our offering goes beyond the standard account types listed here. We maintain a range of premium and elite accounts, tailored for professional traders and investors &mdash; available by request only.</p>
-            <p data-i18n-html="accountTypesPage.elite.contactHtml">For access and details, please <a href="./?page=contact-us" style="color: #00b67a; font-weight: 600;">contact us</a> directly.</p>
+            <p data-i18n-html="accountTypesPage.elite.contactHtml">For access and details, please <a href="./contact-us" style="color: #00b67a; font-weight: 600;">contact us</a> directly.</p>
           </div>
         </div>
       </section>
@@ -1281,9 +1281,10 @@ body.light-theme .acct-data-table tbody tr:nth-child(even) {
           <div class="acct-cta-inner">
             <h2 id="acct-cta-heading" data-i18n="accountTypesPage.cta.heading">Open your account</h2>
             <div class="acct-cta-buttons">
-              <a href="./?page=open-live-account" class="acct-cta-btn acct-cta-btn--primary" data-i18n="accountTypesPage.cta.openLive">Open Live Account</a>
-              <a href="./?page=open-demo-account" class="acct-cta-btn acct-cta-btn--secondary" data-i18n="accountTypesPage.cta.tryDemo">Try Demo</a>
-              <a href="./?page=contact-us" class="acct-cta-btn acct-cta-btn--outline" data-i18n="accountTypesPage.cta.speakExpert">Speak to an Expert</a>
+              <a href="./open-live-account" class="acct-cta-btn acct-cta-btn--primary" data-i18n="accountTypesPage.cta.openLive">Open Live Account</a>
+              <a href="./open-demo-account" class="acct-cta-btn acct-cta-btn--secondary" data-i18n="accountTypesPage.cta.tryDemo">Try Demo</a>
+              <a href="./contact-us" class="acct-cta-btn acct-cta-btn--outline" data-i18n="accountTypesPage.cta.speakExpert">Speak to an Expert</a>
+              <a href="<?php echo htmlspecialchars(routeUrl('trading-calculators')); ?>" class="acct-cta-btn acct-cta-btn--secondary">Trading Calculators</a>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@
     'edu-resources',
   ];
 
-  /** Slugs that trigger the lead gate page guard (not `education-article` — article URLs must load). */
+  /** Slugs that trigger the lead gate page guard (not `education` — article URLs must load). */
   var EDU_GATE_SLUGS = [
     'courses',
     'trading-essentials',
@@ -194,7 +194,7 @@
   }
 
   function isEducationContextSlug(slug) {
-    return slug === 'education-hub' || slug === 'education-article' || isGatedSlug(slug);
+    return slug === 'education-hub' || slug === 'education' || slug === 'education-article' || isGatedSlug(slug);
   }
 
   function buildGuideUrl(returnHref) {
