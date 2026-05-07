@@ -4,6 +4,58 @@ echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
 require __DIR__ . '/ensure-api-cache-shape.php';
 require __DIR__ . '/api.php';
 
+/**
+ * Canonicalize legacy query-style pages (/?page=slug) to pretty routes (/slug).
+ * Article URLs stay as /education?id=<slug> (not nested paths) so relative assets resolve.
+ */
+$basePath = rtrim(str_replace('\\', '/', dirname((string) ($_SERVER['SCRIPT_NAME'] ?? '/index.php'))), '/');
+$requestUri = isset($_SERVER['REQUEST_URI']) ? (string) $_SERVER['REQUEST_URI'] : '';
+$requestQuery = (string) parse_url($requestUri, PHP_URL_QUERY);
+parse_str($requestQuery, $requestQueryParams);
+if (isset($requestQueryParams['page']) && is_string($requestQueryParams['page'])) {
+    $legacyPage = trim($requestQueryParams['page'], '/');
+    if ($legacyPage !== '') {
+        if ($legacyPage === 'education-article') {
+            $legacyPage = 'education';
+        }
+        unset($requestQueryParams['page']);
+        $canonicalPath = ($basePath === '' ? '' : $basePath) . '/' . $legacyPage;
+        $canonicalUrl = $canonicalPath . (empty($requestQueryParams) ? '' : ('?' . http_build_query($requestQueryParams)));
+        $canonicalUrl = $canonicalUrl === '' ? '/' : $canonicalUrl;
+        header('Location: ' . $canonicalUrl, true, 301);
+        exit;
+    }
+}
+
+// /education/<slug> or /education-article/<slug> -> /education?id=<slug> (301 for bookmarks / SEO)
+if (isset($page) && is_string($page) && strpos($page, '/') !== false) {
+    [$pageRoot, $pageRemainder] = explode('/', $page, 2);
+    $pageRoot = trim($pageRoot, '/');
+    $pageRemainder = trim($pageRemainder, '/');
+    if ($pageRoot === 'education-article' || $pageRoot === 'education') {
+        $queryString = isset($_SERVER['QUERY_STRING']) ? (string) $_SERVER['QUERY_STRING'] : '';
+        parse_str($queryString, $pathParams);
+        unset($pathParams['page']);
+        if ($pageRemainder !== '') {
+            $pathParams['id'] = rawurldecode(str_replace('+', ' ', $pageRemainder));
+        }
+        $canonicalPath = ($basePath === '' ? '' : $basePath) . '/education';
+        $canonicalUrl = $canonicalPath . (empty($pathParams) ? '' : ('?' . http_build_query($pathParams)));
+        header('Location: ' . $canonicalUrl, true, 301);
+        exit;
+    }
+}
+
+if (isset($page) && $page === 'education-article') {
+    $queryString = isset($_SERVER['QUERY_STRING']) ? (string) $_SERVER['QUERY_STRING'] : '';
+    parse_str($queryString, $legacyPathParams);
+    unset($legacyPathParams['page']);
+    $canonicalPath = ($basePath === '' ? '' : $basePath) . '/education';
+    $canonicalUrl = $canonicalPath . (empty($legacyPathParams) ? '' : ('?' . http_build_query($legacyPathParams)));
+    header('Location: ' . $canonicalUrl, true, 301);
+    exit;
+}
+
 // Academy: page-specific SEO (API $get defaults are site-wide).
 if (!empty($page)) {
     if ($page === 'edu-market-news') {
@@ -30,6 +82,10 @@ if (!empty($page)) {
         $get->title = 'Trading Tools & Resources | Pip, Position Size & Risk-Reward Calculators | TraderTok Academy';
         $get->desc = 'Use interactive pip, position size, and risk-reward calculators plus guides, checklists, and Academy links to support your trading education.';
         $get->keyw = 'trading calculators, pip calculator, position size calculator, risk reward calculator, trading resources, TraderTok Academy';
+    } elseif ($page === 'trading-calculators') {
+        $get->title = 'Trading Calculators | Profit, Pip Value, Margin & Position Size | TraderTok';
+        $get->desc = 'Use TraderTok trading calculators to estimate profit or loss, pip value, required margin, and position size before placing trades.';
+        $get->keyw = 'trading calculators, profit loss calculator, pip value calculator, margin calculator, position size calculator';
     } elseif ($page === 'top-instruments') {
         $get->title = 'Top Instruments & Asset Information | TraderTok';
         $get->desc = 'Educational overview of selected cryptocurrency and equity instruments on TraderTok: characteristics, market context, and risk considerations.';
@@ -50,6 +106,46 @@ if (!empty($page)) {
         $get->title = 'Join TraderTok Club | TraderTok';
         $get->desc = 'Join TraderTok Club to receive trading insights, market updates, and beginner-friendly education resources.';
         $get->keyw = 'join TraderTok Club, trading community, trading insights, TraderTok';
+    } elseif ($page === 'education') {
+        $eduArticlesPath = __DIR__ . '/assets/data/education_articles.json';
+        $articleId = isset($_GET['id']) ? trim((string) $_GET['id']) : '';
+        $eduArticle = null;
+        if (is_readable($eduArticlesPath)) {
+            $eduList = json_decode((string) file_get_contents($eduArticlesPath), true);
+            if (is_array($eduList)) {
+                if ($articleId !== '') {
+                    foreach ($eduList as $item) {
+                        if (is_array($item) && (($item['id'] ?? '') === $articleId)) {
+                            $eduArticle = $item;
+                            break;
+                        }
+                    }
+                }
+                if ($eduArticle === null && isset($eduList[0]) && is_array($eduList[0])) {
+                    $eduArticle = $eduList[0];
+                }
+            }
+        }
+        if ($eduArticle !== null) {
+            $metaTitle = trim((string) ($eduArticle['seo_title'] ?? ''));
+            if ($metaTitle === '') {
+                $metaTitle = trim((string) ($eduArticle['title'] ?? 'Trading Education'));
+            }
+            if (stripos($metaTitle, 'tradertok') === false) {
+                $metaTitle .= ' | TraderTok';
+            }
+            $metaDesc = trim((string) ($eduArticle['meta_description'] ?? ''));
+            if ($metaDesc === '') {
+                $metaDesc = trim((string) ($eduArticle['excerpt'] ?? ''));
+            }
+            $kwRaw = $eduArticle['keywords'] ?? [];
+            $kwList = is_array($kwRaw)
+                ? array_values(array_filter(array_map('trim', $kwRaw)))
+                : [];
+            $get->title = $metaTitle;
+            $get->desc = $metaDesc;
+            $get->keyw = implode(', ', $kwList);
+        }
     } elseif (in_array($page, [
         'offers',
         'offers-promotions',

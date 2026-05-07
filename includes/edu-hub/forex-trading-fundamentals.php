@@ -2,115 +2,115 @@
 $course_info = [
     'level' => 'Beginner',
     'lessons' => '7',
-    'duration' => '45 mins',
+    'duration' => '40 mins',
     'format' => 'Read + Learn',
-    'category' => 'Forex Basics',
+    'category' => 'CFD Basics',
 ];
 
 $learning_outcomes = [
     [
-        'title' => 'Understand the forex market',
-        'copy' => 'You will learn what the foreign exchange market is, why it exists, who participates in it, and how retail traders access it through broker platforms.',
+        'title' => 'Understand long and short positions',
+        'copy' => 'You will learn how CFD traders can take positions when they expect a market to rise or fall, and how that differs from traditional buy-only investing.',
     ],
     [
-        'title' => 'Learn how currency pairs work',
-        'copy' => 'You will understand base currency, quote currency, exchange rates, and how traders read pairs like EUR/USD, USD/JPY, and GBP/USD.',
+        'title' => 'Learn leverage and margin basics',
+        'copy' => 'You will understand how leverage increases market exposure, what margin means, and why a smaller upfront deposit does not reduce the full risk of the trade.',
     ],
     [
-        'title' => 'Know basic trading terminology',
-        'copy' => 'You will become familiar with essential beginner terms such as pip, spread, bid price, ask price, lot size, volatility, and trading session.',
+        'title' => 'Identify common CFD risks',
+        'copy' => 'You will learn the key beginner risks in CFD trading, including leverage risk, volatility risk, cost risk, and the danger of trading without a clear plan.',
     ],
 ];
 
 $lessons = [
     [
-        'title' => 'Lesson 1 — What Is Forex Trading?',
-        'goal' => 'To introduce the forex market and explain why currencies are traded.',
+        'title' => 'Lesson 1 — What Is CFD Trading?',
+        'goal' => 'To explain what a CFD is in simple terms.',
         'body' => [
-            'Forex trading refers to the buying of one currency and the selling of another at the same time. Because currencies are always quoted relative to another currency, forex trading happens in pairs. For example, if a trader buys EUR/USD, they are effectively buying euros and selling U.S. dollars.',
-            'The forex market is one of the largest financial markets in the world because currencies are needed for international trade, investment, travel, and financial settlement. Institutions, banks, corporations, governments, and retail traders all participate in the broader foreign exchange ecosystem.',
-            'For beginners, the most important idea is this: forex trading is not about buying a single asset in isolation. It is about speculating on the relative value of one currency against another.',
+            'A CFD, or Contract for Difference, is a financial derivative that allows a trader to speculate on the price movement of an underlying market without owning the underlying asset itself. For example, a trader can gain exposure to the movement of a stock index, commodity, forex pair, or share price through a CFD rather than purchasing the asset directly.',
+            'The “difference” in the name refers to the difference between the opening price and the closing price of the trade. If the market moves in the direction the trader anticipated, the trader may make a profit. If the market moves against the position, the trader may incur a loss.',
+            'The key beginner idea is this: with CFD trading, you are usually trading price movement, not ownership.',
         ],
-        'takeaway' => 'Forex trading is the exchange of one currency for another, and prices are always quoted as currency pairs.',
+        'takeaway' => 'A CFD lets you speculate on price movements without owning the underlying market.',
     ],
     [
-        'title' => 'Lesson 2 — How Currency Pairs Work',
-        'goal' => 'To explain base currency, quote currency, and pair movement.',
+        'title' => 'Lesson 2 — How CFD Trading Works',
+        'goal' => 'To explain the mechanics of a CFD trade at a basic level.',
         'body' => [
-            'A currency pair has two parts: base currency, which is the first currency in the pair, and quote currency, which is the second currency in the pair.',
-            'Example: EUR/USD = 1.1000. This means 1 euro is worth 1.1000 U.S. dollars. If EUR/USD rises, it usually means the euro is strengthening relative to the dollar. If EUR/USD falls, it usually means the euro is weakening relative to the dollar.',
-            'Major pairs usually include the U.S. dollar and are among the most traded pairs. Minor pairs do not include the U.S. dollar but still involve major currencies. Exotic pairs include one major currency and one emerging-market currency, and they may have lower liquidity and wider spreads.',
+            'When you trade a CFD, you choose a market, decide whether you think its price will rise or fall, and then open a position through your broker’s trading platform. If the market moves in your favor, the difference between the opening and closing prices may generate a profit. If it moves against you, the difference results in a loss.',
+            'CFDs are commonly offered across multiple market types, including forex, stock indices, commodities, individual shares, and other speculative markets depending on jurisdiction and provider.',
+            'This broad market access is part of why CFD trading is popular with retail traders. But broader access does not reduce product complexity. Regulators such as the FCA and ESMA have imposed or discussed retail protections around CFDs precisely because of the risks posed by leverage and product design.',
         ],
-        'takeaway' => 'A forex pair shows how much of the quote currency is needed to buy one unit of the base currency.',
+        'takeaway' => 'A CFD trade is based on the difference between entry price and exit price, and the result depends on whether the market moved in your chosen direction.',
     ],
     [
-        'title' => 'Lesson 3 — Bid, Ask, and Spread',
-        'goal' => 'To explain how forex quotes are displayed and where spread fits in.',
+        'title' => 'Lesson 3 — Long and Short Positions Explained',
+        'goal' => 'To cover one of the core learning outcomes: understanding long and short positions.',
         'body' => [
-            'Forex prices are usually displayed with two values: bid price, which is the price at which the market or dealer buys from you, and ask price, which is the price at which the market or dealer sells to you.',
-            'The difference between these two prices is called the spread. In retail trading, spread is one of the most important basic trading costs to understand.',
-            'Example: if EUR/USD is quoted as Bid: 1.1000 and Ask: 1.1002, then the spread is 2 pips. For a beginner, the key point is that the market usually needs to move enough to cover the spread before a trade becomes profitable.',
+            'One of the defining features of CFD trading is that traders can often take positions in either direction.',
+            'Going long means you expect the market price to rise. You open a buy position and hope to close it later at a higher price. Going short means you expect the market price to fall. You open a sell position and hope to close it later at a lower price.',
+            'If you think gold prices will rise, you may open a long CFD position. If you think an index may fall after weak economic data, you may open a short CFD position. For beginners, the main point is that CFD trading is not limited to bullish market views. It is a two-direction product, which can create opportunity but also adds complexity.',
         ],
-        'takeaway' => 'Bid is the selling price, ask is the buying price, and the spread is the difference between them.',
+        'takeaway' => 'Long means buying for a potential rise; short means selling for a potential fall.',
     ],
     [
-        'title' => 'Lesson 4 — What Is a Pip?',
-        'goal' => 'To explain the meaning of pip in simple terms.',
+        'title' => 'Lesson 4 — Leverage Basics in CFD Trading',
+        'goal' => 'To explain leverage clearly and safely.',
         'body' => [
-            'A pip is one of the smallest standard units of movement in many forex currency pairs. For many major pairs, a pip is typically the fourth decimal place, while for many JPY pairs it is commonly the second decimal place.',
-            'Example: if EUR/USD moves from 1.1000 to 1.1005, that is a move of 5 pips. If USD/JPY moves from 150.20 to 150.30, that is often described as a 10 pip move under common JPY pair conventions.',
-            'Pips matter because they help measure price movement, spreads are usually measured in pips, profit and loss are often discussed in pips, and stop-loss or take-profit distances are often set in pips.',
+            'Leverage means you can gain market exposure larger than the cash you deposit to open the trade. In CFD trading, leverage is a core feature: you usually put down a smaller amount of capital up front while gaining exposure to a larger notional position.',
+            'This can make CFDs attractive to traders because it reduces the upfront capital needed to open a position. However, the most important beginner principle is this: leverage magnifies losses as well as gains. Your result is generally calculated on the full size of the trade, not just on the small deposit you initially posted.',
+            'If a trader opens a large CFD position using only a fraction of its value as deposit, even a relatively small adverse market move can create a meaningful percentage loss on the posted capital. That is why leverage should never be confused with lower risk.',
         ],
-        'takeaway' => 'A pip is a standard way to measure price movement in forex.',
+        'takeaway' => 'Leverage increases market exposure, but it also increases the speed and size of potential losses.',
     ],
     [
-        'title' => 'Lesson 5 — Lot Size and Trade Size Basics',
-        'goal' => 'To introduce position sizing at a basic level.',
+        'title' => 'Lesson 5 — What Is Margin?',
+        'goal' => 'To explain margin as a beginner concept.',
         'body' => [
-            'A lot refers to trade size. Understanding lot size matters because it affects how much value each pip movement represents.',
-            'Common lot references in forex education include standard lot = 100,000 units, mini lot = 10,000 units, and micro lot = 1,000 units.',
-            'For beginners, the exact pip value calculation can come later, but the important principle is simple: larger position sizes generally increase both potential profit and potential loss. Smaller position sizes are often used by beginners to reduce exposure while learning.',
+            'Margin is the deposit required to open and maintain a leveraged CFD position. Educational sources often describe it as the amount you put down to gain exposure to the trade.',
+            'Margin is connected to leverage: the more leverage involved, the smaller the initial deposit may appear relative to the full trade size, but the full position still carries risk. If the market moves against you, losses may consume your available funds more quickly.',
+            'This is why margin should not be understood as the maximum amount you can lose. A margin deposit is simply the capital required to support a leveraged position, not a cap on trade risk.',
         ],
-        'takeaway' => 'Lot size affects trade exposure and risk, so position size should never be ignored.',
+        'takeaway' => 'Margin is the deposit needed to support a CFD position, but the trade’s profit or loss depends on the full position size.',
     ],
     [
-        'title' => 'Lesson 6 — Forex Market Sessions',
-        'goal' => 'To explain why timing matters in forex.',
+        'title' => 'Lesson 6 — Common CFD Risks Beginners Should Know',
+        'goal' => 'To cover the third learning outcome: identifying common CFD risks.',
         'body' => [
-            'Unlike some markets that trade within one local exchange schedule, the forex market is active across major financial centers around the world. Trading activity often rises when major sessions overlap or when key economic releases are published.',
-            'The most commonly referenced market sessions are the Asian session, London session, and New York session.',
-            'Sessions matter because liquidity can change during different parts of the day, spreads may widen or narrow, volatility may increase around overlaps and news releases, and certain currency pairs may be more active during relevant regional hours.',
+            'CFDs are widely described as complex and high-risk products for retail traders, especially because they are leveraged.',
+            'Key risks include leverage risk, where even small market moves can have a large effect on capital; volatility risk, where fast-moving markets can cause prices to change quickly; cost risk, where spread and financing charges can affect outcomes; and strategy risk, where beginners trade without a clear plan, position sizing framework, or exit rules.',
+            'A major beginner risk is trading a product before fully understanding how it works. Both regulators and providers consistently urge traders to assess whether they understand CFDs and whether they can afford the risk.',
         ],
-        'takeaway' => 'Market sessions can affect liquidity, volatility, and the overall trading environment.',
+        'takeaway' => 'The biggest beginner mistake is thinking CFDs are simple because they are easy to access. Easy access does not mean low risk.',
     ],
     [
-        'title' => 'Lesson 7 — Basic Forex Trading Terminology Every Beginner Should Know',
-        'goal' => 'To reinforce core language.',
+        'title' => 'Lesson 7 — CFD Trading Basics Checklist for Beginners',
+        'goal' => 'To consolidate the learning in a practical way.',
         'body' => [
-            'Before moving to advanced concepts, beginners should be comfortable with the following terms: currency pair, bid price, ask price, spread, pip, lot size, volatility, liquidity, long position, and short position.',
-            'Currency pair means two currencies quoted together, such as EUR/USD. Volatility refers to the speed or size of price movement over time, while liquidity describes how easily a market can be traded without large price disruption.',
-            'Long position means buying with the expectation that price may rise, and short position means selling with the expectation that price may fall.',
+            'Before moving to advanced CFD lessons, a beginner should be comfortable answering these questions: What is a CFD? Do I understand that I am trading price movement rather than owning the asset? Do I understand the difference between going long and going short?',
+            'Do I know what leverage does to profit and loss? Do I understand what margin is? Do I recognize that CFDs are leveraged and high risk? Do I know that costs such as spreads and financing can affect outcomes?',
+            'If the answer to any of these is no, it is better to strengthen your understanding before moving to live trading or more advanced concepts.',
         ],
-        'takeaway' => 'Learning forex terminology early helps beginners read charts, understand lessons, and follow trading content more confidently.',
+        'takeaway' => 'A strong beginner foundation in CFD trading starts with understanding product structure, leverage, margin, and risk.',
     ],
 ];
 
-$related_glossary = ['Currency Pair', 'Pip', 'Spread', 'Lot Size', 'Bid Price', 'Ask Price', 'Volatility', 'Liquidity'];
+$related_glossary = ['CFD', 'Leverage', 'Margin', 'Long Position', 'Short Position', 'Spread', 'Volatility'];
 $related_articles = [
-    'What Is Forex Trading and How Does It Work?',
-    'What Is a Pip in Forex Trading?',
-    'What Is Spread in Forex?',
-    'Major vs Minor Currency Pairs Explained',
-    'Best Time to Trade Forex for Beginners',
+    'What Is CFD Trading?',
+    'Long vs Short Positions Explained',
+    'What Is Leverage in Trading?',
+    'What Is Margin and Margin Call?',
+    'Common CFD Trading Risks Beginners Should Know',
 ];
 
 $faq_items = [
-    ['q' => 'What is forex trading in simple words?', 'a' => 'Forex trading is the buying of one currency and the selling of another as a pair, such as EUR/USD.'],
-    ['q' => 'What are currency pairs in forex?', 'a' => 'Currency pairs show the value of one currency relative to another. The first is the base currency, and the second is the quote currency.'],
-    ['q' => 'What is a pip in forex trading?', 'a' => 'A pip is a common unit used to measure price movement in forex quotations. For many major pairs it is typically the fourth decimal place, while many JPY pairs use a different convention.'],
-    ['q' => 'What is spread in forex?', 'a' => 'Spread is the difference between the bid price and ask price. It is one of the basic transaction cost concepts beginners should understand.'],
-    ['q' => 'Why do forex market sessions matter?', 'a' => 'Different market sessions can affect liquidity and volatility, which may influence how active certain currency pairs are during the day.'],
-    ['q' => 'Is this forex trading fundamentals course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand the forex market, currency pairs, and key trading terms before moving to more advanced topics.'],
+    ['q' => 'What is CFD trading in simple words?', 'a' => 'CFD trading is trading a derivative product that lets you speculate on the price movement of an underlying market without owning the underlying asset.'],
+    ['q' => 'What is the difference between long and short in CFD trading?', 'a' => 'A long position means you expect the market to rise, while a short position means you expect the market to fall. CFDs commonly allow both types of directional exposure.'],
+    ['q' => 'What is leverage in CFD trading?', 'a' => 'Leverage allows you to gain exposure to a larger market position using a smaller upfront deposit, but it also magnifies losses because profit and loss are based on the full trade size.'],
+    ['q' => 'What is margin in CFD trading?', 'a' => 'Margin is the deposit needed to open and support a leveraged CFD position. It is not the same as the total risk of the trade.'],
+    ['q' => 'Why are CFDs considered risky?', 'a' => 'CFDs are considered risky because they are complex and leveraged. Small market moves can lead to disproportionately large losses, and costs such as spreads and financing can also affect performance.'],
+    ['q' => 'Is this CFD trading basics course suitable for beginners?', 'a' => 'Yes. This course is structured to help beginners understand long and short positions, leverage, margin, and the main risks before moving to advanced topics.'],
 ];
 require_once __DIR__ . '/../config/course-faq-helpers.php';
 $course_faq_visible = course_faq_is_complete($faq_items);
@@ -121,10 +121,10 @@ $course_faq_visible = course_faq_is_complete($faq_items);
         <div class="page-hero-overlay1"></div>
         <div class="education-subpage-hero-inner container">
             <div class="education-subpage-eyebrow">TraderTok Academy Course</div>
-            <div class="education-course-breadcrumb">Home &gt; Academy &gt; Courses &gt; Forex Trading Fundamentals</div>
-            <h1 class="education-subpage-title">Forex Trading Fundamentals for Beginners</h1>
+            <div class="education-course-breadcrumb">Home &gt; Academy &gt; Courses &gt; CFD Trading Basics</div>
+            <h1 class="education-subpage-title">CFD Trading Basics for Beginners</h1>
             <p class="education-subpage-subtitle">
-                This beginner-friendly forex trading course explains how the forex market works, how currency pairs are quoted, what pips and spreads mean, and why trading sessions matter. If you are new to forex trading, this course gives you the core knowledge you need before moving into leverage, risk management, and platform execution.
+                This beginner-friendly CFD trading course explains what Contracts for Difference are, how they work, how traders take long and short positions, and why leverage, margin, and risk management matter. If you are new to CFD trading, this course gives you the foundation you need before moving into more advanced trading concepts.
             </p>
             <?php include __DIR__ . '/../partials/education-course-hero-ctas.php'; ?>
             <div class="education-course-info-strip">
@@ -149,7 +149,7 @@ $course_faq_visible = course_faq_is_complete($faq_items);
                             <a href="#course-outcomes">What You Will Learn</a>
                             <a href="#course-lessons">Lessons</a>
                             <a href="#course-summary">Course Summary</a>
-                            <a href="#course-example">Simple Forex Quote Example</a>
+                            <a href="#course-example">Simple CFD Example</a>
                             <a href="#course-risk">Important Note for Beginners</a>
                             <a href="#course-next">Continue Learning Next</a>
                             <?php if ($course_faq_visible): ?>
@@ -164,9 +164,9 @@ $course_faq_visible = course_faq_is_complete($faq_items);
                     <section class="education-article-block" id="course-overview">
                         <div class="education-article-block-label">Course Overview</div>
                         <h2>What is this course about?</h2>
-                        <p>Forex, or foreign exchange, is the global market where currencies are exchanged. Traders participate in this market by buying one currency and selling another as a pair, such as EUR/USD or GBP/USD. In practice, retail traders usually access forex through a broker platform rather than a centralized exchange, and pricing, execution, and account conditions depend on that provider. The CFTC notes that retail forex trading is typically conducted through the dealer’s platform and that leveraged losses can occur rapidly, which is why foundational education matters before placing trades.</p>
-                        <p>This course is designed to help beginners understand the basic structure of the forex market in simple language. You will learn what currency pairs are, how exchange rates move, what a pip is, how spreads affect trading costs, and why market sessions can influence volatility.</p>
-                        <p>By the end of this course, you should be able to understand the forex market at a beginner level, explain how currency pairs work, understand basic forex trading terminology, and build a stronger foundation for future lessons on leverage, margin, and risk.</p>
+                        <p>A Contract for Difference (CFD) is a derivative product that lets you speculate on whether the price of an underlying market will rise or fall, without owning the underlying asset. Broker education materials commonly explain CFDs this way for products such as forex, indices, shares, commodities, and crypto-related markets, while also noting that the trade is based on price movement rather than asset ownership.</p>
+                        <p>For beginners, CFD trading can look simple at first because it allows access to many markets through one trading platform. However, CFDs are also leveraged products, which means a trader can open a larger position with a smaller upfront deposit called margin. That structure can magnify gains, but it can also magnify losses because profit and loss are based on the full position size, not just the margin posted.</p>
+                        <p>This course is designed to help you understand what CFDs are, how long and short positions work, the basics of leverage and margin, and the common risks beginners should understand before trading CFDs.</p>
                     </section>
 
                     <section class="education-article-block" id="course-outcomes">
@@ -205,34 +205,35 @@ $course_faq_visible = course_faq_is_complete($faq_items);
 
                     <section class="education-article-block" id="course-summary">
                         <h2>Course summary</h2>
-                        <p>Forex trading fundamentals begin with three things: understanding what the forex market is, knowing how currency pairs are quoted, and learning basic terms such as pip, spread, and lot size.</p>
-                        <p>These concepts may look simple, but they are essential. A beginner who does not understand pair structure, price movement, or basic terminology can easily misread trades and underestimate risk.</p>
+                        <p>CFD trading basics come down to four core ideas: a CFD is a product used to speculate on price movements without owning the underlying asset, traders can take both long and short positions, leverage and margin allow larger market exposure with a smaller upfront deposit, and CFDs are complex and high-risk products, especially for beginners.</p>
+                        <p>These concepts form the foundation for later topics such as risk management, order execution, and platform usage.</p>
                     </section>
 
                     <section class="education-article-block" id="course-example">
-                        <h2>Simple forex quote example</h2>
+                        <h2>Simple CFD example</h2>
                         <div class="education-course-example-panel">
                             <div class="education-course-example-quote">
-                                <span>Bid</span>
-                                <strong>1.1000</strong>
+                                <span>Scenario 1</span>
+                                <strong>Long CFD Position</strong>
                             </div>
                             <div class="education-course-example-quote">
-                                <span>Ask</span>
-                                <strong>1.1002</strong>
+                                <span>Scenario 2</span>
+                                <strong>Short CFD Position</strong>
                             </div>
                         </div>
                         <ul class="education-course-example-list">
-                            <li>The spread is 2 pips.</li>
-                            <li>If the ask price rises to 1.1007, that is a 5 pip move from 1.1002.</li>
-                            <li>If a trader expects the euro to strengthen against the dollar, they may look for buying opportunities.</li>
+                            <li>A trader believes a stock index will rise and opens a long CFD position.</li>
+                            <li>If the market rises, the difference between the opening and closing price may result in a gain.</li>
+                            <li>If the trader expects the index to fall, they may open a short CFD position instead.</li>
+                            <li>If the market falls, the difference may result in a gain. If it rises instead, the trade may result in a loss.</li>
                         </ul>
-                        <p>This kind of simple quote-reading exercise helps beginners connect terminology to real market screens.</p>
+                        <p>This simple example shows the two-direction nature of CFD trading: traders can speculate on both upward and downward market moves.</p>
                     </section>
 
                     <section class="education-article-disclaimer" id="course-risk">
                         <h2>Important note for beginners</h2>
-                        <p>Learning forex trading fundamentals is not only about terminology. It is also about understanding that forex and CFD trading involve risk, especially when leverage is used. The CFTC warns that leveraged retail forex losses can happen quickly and that customers trade through the dealer’s platform, not a centralized exchange. That makes education, broker due diligence, and risk management especially important before trading live.</p>
-                        <p>Forex and CFD trading involve significant risk and may not be suitable for all traders. Educational content should not be treated as investment advice.</p>
+                        <p>CFDs are not beginner-safe simply because they are popular or easy to access online. Regulators and providers consistently describe them as complex leveraged instruments that can lead to rapid losses. ESMA’s 2018 restrictions on retail CFDs included leverage limits, margin close-out rules, and negative balance protection measures, reflecting the level of concern around retail harm.</p>
+                        <p>CFD trading involves significant risk and may not be suitable for all traders. Because CFDs are leveraged products, losses can exceed expectations if risk is not managed carefully. Educational content should not be treated as investment advice.</p>
                     </section>
 
                     <section class="education-article-block" id="course-next">
@@ -241,10 +242,10 @@ $course_faq_visible = course_faq_is_complete($faq_items);
                             <article class="education-article-panel">
                                 <h3>Suggested next courses</h3>
                                 <ul class="education-course-related-list">
-                                    <li>CFD Trading Basics</li>
                                     <li>Leverage, Margin &amp; Risk Basics</li>
                                     <li>Risk Management Essentials</li>
                                     <li>Technical Analysis for Beginners</li>
+                                    <li>Forex Trading Fundamentals</li>
                                 </ul>
                             </article>
                             <article class="education-article-panel">
@@ -282,11 +283,11 @@ $course_faq_visible = course_faq_is_complete($faq_items);
 
                     <section class="courses-final-cta">
                         <div class="courses-final-cta-panel">
-                            <h2>Build Your Forex Foundation Before You Trade</h2>
-                            <p>Start with the basics, then continue your learning with CFD trading, leverage, risk management, and chart-reading courses inside TraderTok Academy.</p>
+                            <h2>Build Your CFD Foundation Before You Trade</h2>
+                            <p>Learn how CFDs work first, then continue with leverage, risk management, technical analysis, and platform learning inside TraderTok Academy.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
-                                <a href="./education-article?id=what-is-forex-trading" class="education-article-link courses-secondary-cta">Explore Forex Articles</a>
+                                <a href="./education?id=what-is-forex-trading" class="education-article-link courses-secondary-cta">Explore Related Articles</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>

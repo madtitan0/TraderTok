@@ -113,6 +113,18 @@
             <p data-i18n="dropdown.accountTypesDesc">Compare accounts &amp; features</p>
           </div>
         </a>
+        <a href="./trading-calculators" class="menu-card">
+          <span class="menu-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+              <line x1="1" y1="10" x2="23" y2="10"></line>
+            </svg>
+          </span>
+          <div class="menu-text">
+            <h3 data-i18n="nav.tradingCalculators">Trading Calculators</h3>
+            <p data-i18n="dropdown.tradingCalculatorsDesc">Tools for your trading decisions</p>
+          </div>
+        </a>
       </div>
     </div>
   </li>

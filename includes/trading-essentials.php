@@ -109,6 +109,6 @@
 
     <script>
     function handleArticleAccess(articleId) {
-        window.location.href = 'education-article?id=' + encodeURIComponent(articleId);
+        window.location.href = 'education?id=' + encodeURIComponent(articleId);
     }
     </script>

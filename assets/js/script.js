@@ -22,6 +22,44 @@ function logQualificationDebug(flowName, payload, response, raw, data) {
   // console.log(`[${flowName}] qualification response parsed`, data);
 }
 
+function normalizeLegacyPageHref(href) {
+  if (!href) return href;
+  try {
+    const url = new URL(String(href), window.location.href);
+    if (url.origin !== window.location.origin) return href;
+    const page = url.searchParams.get("page");
+    if (!page) return href;
+
+    const slug = String(page).replace(/^\/+|\/+$/g, "");
+    if (!slug) return href;
+
+    url.searchParams.delete("page");
+    const basePath = url.pathname.replace(/\/+$/, "");
+    url.pathname = `${basePath}/${slug}`;
+
+    const query = url.searchParams.toString();
+    return `${url.pathname}${query ? `?${query}` : ""}${url.hash || ""}`;
+  } catch (e) {
+    return href;
+  }
+}
+
+function normalizeLegacyPageAnchors() {
+  const anchors = document.querySelectorAll("a[href*='?page=']");
+  anchors.forEach((anchor) => {
+    const rawHref = anchor.getAttribute("href");
+    if (!rawHref) return;
+    const nextHref = normalizeLegacyPageHref(rawHref);
+    if (nextHref && nextHref !== rawHref) {
+      anchor.setAttribute("href", nextHref);
+    }
+  });
+}
+
+normalizeLegacyPageAnchors();
+window.addEventListener("languageChanged", normalizeLegacyPageAnchors);
+window.addEventListener("tradertok:i18n-applied", normalizeLegacyPageAnchors);
+
 // ================== THEME TOGGLE ==================
 const themeToggle = document.getElementById("themeToggle");
 const body = document.body;

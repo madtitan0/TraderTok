@@ -6956,9 +6956,7 @@
         {
           "heading": "Common Mistakes With Stop Loss and Take Profit",
           "paragraphs": [
-            "A few mistakes appear repeatedly:"
-          ],
-          "bullets": [
+            "A few mistakes appear repeatedly:",
             {"bold": "1. No Stop Loss at All"},
             "This leaves risk undefined and can turn a small bad trade into a major account problem.",
             {"bold": "2. Stop Too Tight"},
@@ -8861,9 +8859,7 @@
       {
         "heading": "How Traders Use NFP",
         "paragraphs": [
-          "Traders use NFP in several different ways."
-        ],
-        "bullets": [
+          "Traders use NFP in several different ways.",
           {"bold": "1. To Judge Economic Strength"},
           "A strong payroll number can support the idea that the economy is still expanding. A weak number can support the idea that growth is slowing.",
           {"bold": "2. To Reprice Interest-Rate Expectations"},
@@ -8877,9 +8873,7 @@
       {
         "heading": "What Markets Are Most Affected by NFP?",
         "paragraphs": [
-          "NFP can affect several major market groups at once."
-        ],
-        "bullets": [
+          "NFP can affect several major market groups at once.",
           {"bold": "Forex"},
           "The U.S. dollar is one of the first things traders watch after the release because NFP can shift expectations for U.S. rates and growth. This can quickly affect major dollar pairs.",
           {"bold": "Stock Indices"},
@@ -9071,9 +9065,7 @@
         {
           "heading": "What Assets Get Impacted by CPI News?",
           "paragraphs": [
-            "CPI can affect many assets at once, but some markets are usually more sensitive than others."
-          ],
-          "bullets": [
+            "CPI can affect many assets at once, but some markets are usually more sensitive than others.",
             {"bold": "1. U.S. Dollar and Major Forex Pairs"},
             "The U.S. dollar is one of the first assets traders watch when CPI is released because inflation data can change expectations around U.S. rates. If CPI is stronger than expected, the dollar may strengthen if markets think rates will stay higher or rise further. If CPI is softer, the dollar may weaken if rate expectations ease. This relationship is a direct consequence of how CPI affects interest-rate expectations.",
             {"bold": "2. Bonds and Yields"},
@@ -9258,9 +9250,7 @@
           "paragraphs": [
             "One of the biggest mistakes beginners make is thinking “GDP is up” or “GDP is down” is enough. Markets care which country the GDP belongs to and how that country fits into the global system.",
             "A GDP surprise from a large economy often matters more globally than a similar surprise from a smaller economy because larger economies influence trade, capital flows, commodities, and financial conditions more broadly. That is one reason official U.S. GDP is watched globally as an economic barometer.",
-            "Country differences matter in several ways:"
-          ],
-          "bullets": [
+            "Country differences matter in several ways:",
             {"bold": "1. Large Economies Move Global Sentiment"},
             "GDP data from major economies can affect global equity sentiment, currencies, and commodity expectations because these economies play an outsized role in trade and finance.",
             {"bold": "2. Regional Growth Divergence Changes Capital Flows"},
@@ -9474,9 +9464,7 @@
           "heading": "What Happens at an FOMC Meeting?",
           "paragraphs": [
             "The Federal Reserve says the Committee reviews economic and financial conditions, determines the appropriate stance of monetary policy, and assesses risks to its long-run goals.",
-            "For traders, an FOMC event usually matters through several layers:"
-          ],
-          "bullets": [
+            "For traders, an FOMC event usually matters through several layers:",
             {"bold": "1. The Rate Decision"},
             "Markets first focus on whether the Committee changes the policy stance or leaves it unchanged.",
             {"bold": "2. The Statement"},
@@ -9515,9 +9503,7 @@
         {
           "heading": "What Assets Are Most Affected by the FOMC?",
           "paragraphs": [
-            "Several major assets usually react to FOMC decisions and communication."
-          ],
-          "bullets": [
+            "Several major assets usually react to FOMC decisions and communication.",
             {"bold": "1. U.S. Dollar"},
             "The dollar often reacts quickly because Fed policy strongly affects rate differentials and global capital flows. This follows from the Fed’s direct link between policy-rate changes and foreign exchange rates.",
             {"bold": "2. Treasury Yields and Bond Markets"},
@@ -9741,9 +9727,7 @@
         {
           "heading": "Current Inflation Developments Traders Are Watching",
           "paragraphs": [
-            "Several current developments matter right now."
-          ],
-          "bullets": [
+            "Several current developments matter right now.",
             {"bold": "First"},
             "Global inflation is still expected to ease overall in 2026, but the decline is gradual and vulnerable to shocks.",
             {"bold": "Second"},
@@ -10300,9 +10284,7 @@
         {
           "heading": "Why Liquidity Matters for Different Types of Traders",
           "paragraphs": [
-            "Liquidity matters for all traders, but it matters in different ways depending on style."
-          ],
-          "bullets": [
+            "Liquidity matters for all traders, but it matters in different ways depending on style.",
             {"bold": "Day Traders and Scalpers"},
             "These traders are highly sensitive to spread, slippage, and execution speed because they target smaller moves. Even a small increase in trading cost can damage the entire strategy. This follows directly from the effect of spreads and execution costs on short-term trades.",
             {"bold": "Swing Traders"},
@@ -10610,9 +10592,7 @@
         {
           "heading": "Common Mistakes When Reading Market Structure",
           "paragraphs": [
-            "A few mistakes happen often:"
-          ],
-          "bullets": [
+            "A few mistakes happen often:",
             {"bold": "1. Ignoring Timeframe Context"},
             "A trader sees a bearish lower timeframe move and forgets that the higher timeframe is still bullish. Swing points depend on the time frame.",
             {"bold": "2. Treating Every Pullback as a Reversal"},
@@ -11059,12 +11039,21 @@
             "DOM liquidity stacked above 5250",
             "Footprint delta inside the breakout candle",
             "Tape speed at the test of resistance"
-          ],
-          "text_after": {"bold": "What the Trader Is Reading"}
+          ]
         },
         {
           "paragraphs": [
-            "Price reached resistance. Buyers became aggressive at 5250 and 5251. Delta turned strongly positive. The tape sped up as price tested the level.",
+            {"bold": "What the Trader Is Reading"}
+          ],
+          "bullets": [
+            "Price reached resistance.",
+            "Buyers became aggressive at 5250 and 5251.",
+            "Delta turned strongly positive.",
+            "The tape sped up as price tested the level."
+          ]
+        },
+        {
+          "paragraphs": [
             "At this moment, the trader does not automatically buy. They ask: did aggressive buying actually move price through resistance, or did sellers absorb it?",
             "If price quickly moves above 5250 and continues, the order flow supports the breakout. If price stays stuck and then drops even though delta was strongly positive, that can suggest buyer absorption at resistance. This is a standard order-flow interpretation: aggressive buying without sustained price progress can signal larger resting sell interest."
           ]
@@ -11165,9 +11154,7 @@
         {
           "heading": "Common Mistakes in Order Flow Trading",
           "paragraphs": [
-            "A few mistakes happen often:"
-          ],
-          "bullets": [
+            "A few mistakes happen often:",
             {"bold": "1. Ignoring Higher-Timeframe Context"},
             "Order flow is powerful, but reading DOM or footprint without knowing the bigger market structure can lead to random trades. This is a practical limitation of using microstructure tools without macro context.",
             {"bold": "2. Confusing Aggression With Directional Certainty"},
@@ -11425,15 +11412,20 @@
         {
           "heading": "Market Orders vs Limit Orders and Slippage",
           "paragraphs": [
-            "Slippage is strongly related to order type."
-          ],
-          "bullets": [
+            "Slippage is strongly related to order type.",
             {"bold": "Market Orders"},
             "Market orders prioritize execution. That means they are more likely to fill quickly, but they are also more exposed to slippage.",
             {"bold": "Limit Orders"},
             "Limit orders prioritize price. That means they will only fill at the chosen price or better, but they may not get filled at all."
           ],
-          "text_after": "This creates a trade-off: market order = more execution certainty, less price certainty; limit order = more price certainty, less execution certainty. That is why traders choose different order types depending on whether speed or price matters more."
+          "text_after": "This creates a trade-off:"
+        },
+        {
+          "bullets": [
+            "Market order = more execution certainty, less price certainty",
+            "Limit order = more price certainty, less execution certainty."
+          ],
+          "text_after": " That is why traders choose different order types depending on whether speed or price matters more."
         },
         {
           "heading": "Slippage in Different Market Conditions",
@@ -11468,8 +11460,18 @@
           "heading": "Slippage in Gaps",
           "paragraphs": [
             "Slippage can also happen when the market gaps.",
-            "For example: a stock closes at 100. Bad news comes overnight. The next opening price is 94.",
-            "If your stop-loss was at 98, your trade may not close at 98 because the market skipped that level entirely. Instead, the exit may happen near the next available price after the gap.",
+            "For example:"
+          ],
+          "bullets": [
+            " A stock closes at 100.",
+            " Bad news comes overnight.",
+            " The next opening price is 94."
+          ],
+          "text_after": "If your stop-loss was at 98, your trade may not close at 98 because the market skipped that level entirely."
+        },
+        {
+          "paragraphs": [
+            " Instead, the exit may happen near the next available price after the gap.",
             "This is one of the clearest examples of why slippage is a real market phenomenon and not just a platform issue."
           ]
         },
@@ -11491,9 +11493,7 @@
         {
           "heading": "Common Mistakes Traders Make About Slippage",
           "paragraphs": [
-            "A few misunderstandings happen often:"
-          ],
-          "bullets": [
+            "A few misunderstandings happen often:",
             {"bold": "1. Thinking slippage should never happen"},
             "In real markets, slippage is normal.",
             {"bold": "2. Thinking stop-loss guarantees exact price"},
@@ -11742,14 +11742,46 @@
             "Stop-loss distance",
             "Percentage of capital you are willing to risk"
           ],
-          "text_after": "A common framework is: Position Size = Account Risk ÷ Trade Risk. Where Account Risk = how much of your account you are willing to lose on one trade, and Trade Risk = distance between entry and stop-loss in money terms. Position sizing is widely taught as the bridge between risk limit and trade quantity, and one common educational rule is to keep account risk per trade small, often no more than 2%."
+          "text_after": "A common framework is: Position Size = Account Risk ÷ Trade Risk. "
+        },
+        {
+          "paragraphs": [" Where :"],
+          "bullets": [
+            "Account Risk = how much of your account you are willing to lose on one trade, ",
+            "Trade Risk = distance between entry and stop-loss in money terms."
+          ],
+          "text_after": " Position sizing is widely taught as the bridge between risk limit and trade quantity, and one common educational rule is to keep account risk per trade small, often no more than 2%."
         },
         {
           "heading": "Example: Position Sizing and Drawdown",
           "paragraphs": [
-            "Let us say: trading capital = 1,00,000, risk per trade = 1%, maximum loss per trade = 1,000. If you lose 5 trades in a row, the account may be down around 5%, before compounding effects.",
+            "Let us say: ",
             "Now imagine the same trader risks 5% per trade. Trading capital = 1,00,000, risk per trade = 5%, maximum loss per trade = 5,000. If that trader loses 5 trades in a row, the account may be down roughly 25% or more.",
             "Same strategy. Same losing streak. Completely different drawdown outcome. That is why drawdown is strongly connected to position sizing, not just strategy quality."
+          ],
+          "bullets": [
+            "Trading capital = 1,00,000",
+            "Risk per trade = 1%, ",
+            "Maximum loss per trade = 1,000."
+          ],
+          "text_after": " If you lose 5 trades in a row, the account may be down around 5%, before compounding effects."
+        },
+        {
+          "paragraphs": [
+            "Now imagine the same trader risks 5% per trade.",
+            "Same strategy. Same losing streak. Completely different drawdown outcome. That is why drawdown is strongly connected to position sizing, not just strategy quality."
+          ],
+          "bullets": [
+            "Trading capital = 1,00,000",
+            "Risk per trade = 5%, ",
+            "Maximum loss per trade = 5,000."
+          ],
+          "text_after": " If that trader loses 5 trades in a row, the account may be down roughly 25% or more."
+        },
+        {
+          "paragraphs": [
+            "Same strategy. Same losing streak. Completely different drawdown outcome. ",
+            "That is why drawdown is strongly connected to position sizing, not just strategy quality."
           ]
         },
         {
@@ -11793,9 +11825,7 @@
           "heading": "How Much Drawdown Can a Retail Trader Afford?",
           "paragraphs": [
             "This is the most important practical question. There is no single universal number, but for most retail traders, a manageable drawdown is usually far smaller than they think.",
-            "A practical framework looks like this:"
-          ],
-          "bullets": [
+            "A practical framework looks like this:",
             {"bold": "0% to 5% Drawdown"},
             "Very healthy and controlled. This usually means risk is being managed carefully.",
             {"bold": "5% to 10% Drawdown"},
@@ -12009,14 +12039,18 @@
           "heading": "Why a Good Risk-Reward Ratio Can Matter More Than Win Rate",
           "paragraphs": [
             "This is one of the most important lessons in trading.",
-            "Imagine two traders."
+            "Imagine two traders.",
+            {"bold": "Trader A"}
           ],
           "bullets": [
-            {"bold": "Trader A"},
             "Wins 70% of trades",
             "Average win = 100",
-            "Average loss = 400",
-            {"bold": "Trader B"},
+            "Average loss = 400"
+          ]
+        },
+        {
+          "paragraphs": [ {"bold": "Trader B"}],
+          "bullets": [
             "Wins 45% of trades",
             "Average win = 300",
             "Average loss = 100"
@@ -12041,13 +12075,19 @@
         {
           "heading": "Risk-Reward Ratio and Stop-Loss",
           "paragraphs": [
-            "Risk-reward ratio depends heavily on where the stop-loss is placed. A stop-loss defines the risk side of the trade."
+            "Risk-reward ratio depends heavily on where the stop-loss is placed. A stop-loss defines the risk side of the trade.",
+            {"bold": "If the stop-loss is too wide"}
           ],
           "bullets": [
-            {"bold": "If the stop-loss is too wide"},
             "Risk becomes larger",
-            "The ratio may become poor",
-            {"bold": "If the stop-loss is too tight"},
+            "The ratio may become poor"
+          ]
+        },
+        {
+          "paragraphs": [
+            {"bold": "If the stop-loss is too tight"}
+          ],
+          "bullets": [
             "The ratio may look attractive on paper",
             "But the trade may get stopped out too easily"
           ],
@@ -12056,9 +12096,7 @@
         {
           "heading": "Risk-Reward Ratio and Take-Profit",
           "paragraphs": [
-            "The target or take-profit defines the reward side of the trade."
-          ],
-          "bullets": [
+            "The target or take-profit defines the reward side of the trade.",
             {"bold": "If the target is too small"},
             "The trade may not justify the risk",
             {"bold": "If the target is unrealistic"},
@@ -12105,8 +12143,7 @@
         },
         {
           "heading": "Common Mistakes Traders Make With Risk-Reward Ratio",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Ignoring It Completely"},
             "Some traders enter a trade without knowing their stop-loss or target. That means the risk-reward ratio is unknown, which makes the trade unplanned.",
             {"bold": "2. Forcing Unrealistic Targets"},
@@ -12390,9 +12427,7 @@
         {
           "heading": "Percentage Risk vs Fixed Dollar Risk",
           "paragraphs": [
-            "There are two common ways traders set account risk."
-          ],
-          "bullets": [
+            "There are two common ways traders set account risk.",
             {"bold": "Percentage Risk"},
             "You risk a percentage of account value, such as 1% or 2% per trade. This method automatically adjusts as the account grows or shrinks. It is one of the most common approaches in active trading education.",
             {"bold": "Fixed Dollar Risk"},
@@ -12404,19 +12439,23 @@
           "heading": "How Volatility Changes Position Size",
           "paragraphs": [
             "More volatile trades often need wider stop-losses. Wider stop-losses mean larger trade risk per unit, which means position size usually has to become smaller.",
-            "For example:"
+            "For example:",
+            {"bold": "Trade A"}
           ],
           "bullets": [
-            {"bold": "Trade A"},
             "Entry = 100",
             "Stop-loss = 98",
-            "Trade risk = 2",
-            {"bold": "Trade B"},
+            "Trade risk = 2"
+          ]
+        },
+        {
+          "paragraphs": [ {"bold": "Trade B"}],
+          "bullets": [
             "Entry = 100",
             "Stop-loss = 90",
             "Trade risk = 10"
           ],
-          "text_after": "If your account risk is the same for both trades, Trade B must have a much smaller position size because each unit carries more risk. This is why volatility-based position sizing is so important in real trading. Position-sizing education specifically highlights volatility as a factor in how much capital to allocate."
+           "text_after": "If your account risk is the same for both trades, Trade B must have a much smaller position size because each unit carries more risk. This is why volatility-based position sizing is so important in real trading. Position-sizing education specifically highlights volatility as a factor in how much capital to allocate."
         },
         {
           "heading": "Why Position Size Protects Against Losing Streaks",
@@ -12432,8 +12471,7 @@
         },
         {
           "heading": "Common Mistakes When Calculating Position Size",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Risking Too Much Per Trade"},
             "Many traders become aggressive after a few wins or after high-conviction setups. But even high-confidence setups can fail. Small percentage risk is popular precisely because it prevents one trade from doing too much damage.",
             {"bold": "2. Ignoring Stop-Loss Distance"},
@@ -12757,8 +12795,7 @@
         },
         {
           "heading": "Trading Journal Websites Traders Use Today",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "TraderSync"},
             "TraderSync positions itself as a journal for stocks, futures, options, crypto, and forex, with synced trades, notes, AI insights, and backtesting tools. Its features page highlights trade-specific analytics, notes, and performance-sharing functions.",
             {"bold": "Tradervue"},
@@ -12842,8 +12879,7 @@
         },
         {
           "heading": "Common Mistakes Traders Make With Journals",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Recording Only Wins and Losses"},
             "A journal should record behavior, not just result.",
             {"bold": "2. Journaling Inconsistently"},
@@ -13260,8 +13296,7 @@
         },
         {
           "heading": "Common Backtesting Mistakes",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Changing Rules Mid-Test"},
             "This destroys consistency.",
             {"bold": "2. Using Poor Data"},
@@ -13457,9 +13492,7 @@
         {
           "heading": "Win Rate in FX Trading",
           "paragraphs": [
-            "In FX trading, win rate can vary a lot depending on the style."
-          ],
-          "bullets": [
+            "In FX trading, win rate can vary a lot depending on the style.",
             {"bold": "Scalping in FX"},
             "Scalpers often take many trades and may try to achieve a higher win rate because the profit target per trade is often smaller.",
             {"bold": "Intraday FX Trading"},
@@ -13565,8 +13598,7 @@
         },
         {
           "heading": "Common Mistakes Traders Make With Win Rate",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Judging a strategy too quickly"},
             "A 5-trade or 10-trade sample is too small to judge true win rate.",
             {"bold": "2. Ignoring sample size"},
@@ -14329,9 +14361,7 @@
         {
           "heading": "The Main Enemies of Trading Discipline",
           "paragraphs": [
-            "A trader usually loses discipline because of a small group of repeating problems."
-          ],
-          "bullets": [
+            "A trader usually loses discipline because of a small group of repeating problems.",
             {"bold": "Emotion"},
             "Fear, greed, frustration, and FOMO can all push traders away from their plan. IG specifically notes that creating personal rules and planning your approach are key ways to control emotions.",
             {"bold": "No Clear Trading Plan"},
@@ -14529,8 +14559,7 @@
         },
         {
           "heading": "Common Mistakes Traders Make When Trying to Build Discipline",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "Relying on Motivation Alone"},
             "Motivation fades. Structure lasts.",
             {"bold": "Keeping Risk Too High"},
@@ -14999,9 +15028,7 @@
         {
           "heading": "What a Good Trading Plan Should Do",
           "paragraphs": [
-            "A strong trading plan should do five main things:"
-          ],
-          "bullets": [
+            "A strong trading plan should do five main things:",
             {"bold": "1. Define Your Edge"},
             "It should explain what kind of setups you trade and why.",
             {"bold": "2. Control Your Risk"},
@@ -15338,8 +15365,7 @@
         },
         {
           "heading": "Common Mistakes When Developing a Trading Plan",
-          "paragraphs": [],
-          "bullets": [
+          "paragraphs": [
             {"bold": "1. Making the Plan Too Vague"},
             "If the rules are unclear, discipline becomes impossible.",
             {"bold": "2. Making the Plan Too Complex"},

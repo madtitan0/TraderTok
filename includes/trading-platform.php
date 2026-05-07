@@ -89,6 +89,18 @@
         </div>
     </section>
 
+    <section style="padding: 0 0 90px; background: var(--bg-primary);">
+        <div class="container" style="max-width: 1100px;">
+            <div style="border: 1px solid var(--border-color); background: var(--bg-secondary); border-radius: 20px; padding: 28px; text-align: center;">
+                <h2 style="margin: 0 0 10px; color: var(--text-primary); font-size: clamp(1.7rem, 3vw, 2.2rem);">Plan before you place trades</h2>
+                <p style="margin: 0 auto 18px; max-width: 780px; color: var(--text-secondary); line-height: 1.7;">Use our Trading Calculators to estimate pip value, profit/loss, margin requirements, and position size before execution.</p>
+                <a href="<?php echo htmlspecialchars(routeUrl('trading-calculators')); ?>" class="btn-primary" style="display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px; text-decoration: none;">
+                    Trading Calculators
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Typewriter Animation Script -->
     <script>
         (function() {

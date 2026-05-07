@@ -277,7 +277,7 @@ $course_faq_visible = course_faq_is_complete($faq_items);
                             <p>Learn how leverage, margin, and position size affect your exposure, then continue with risk management and beginner trading courses inside TraderTok Academy.</p>
                             <div class="courses-final-cta-actions">
                                 <a href="#" class="btn-primary">Start Next Course</a>
-                                <a href="./education-article?id=what-is-leverage" class="education-article-link courses-secondary-cta">Explore Risk Articles</a>
+                                <a href="./education?id=what-is-leverage" class="education-article-link courses-secondary-cta">Explore Risk Articles</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="education-article-link courses-secondary-cta">Open Demo Account</a>
                                 <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="education-article-link courses-secondary-cta">Open Live Account</a>
                             </div>
