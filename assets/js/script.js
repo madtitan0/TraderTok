@@ -2028,6 +2028,7 @@ if (signupForm) {
       language: currentLanguage || "en",
       brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
       businessUnitId: "fa26636a-0722-400f-91fc-90c88c9623d6",
+      bonusTagId: "5dc023b1-8e1d-44e7-ad8e-815a947f452c",
       tags: [
         {
           id: "fb251ea1-1956-428a-b5a3-015cfb017e37",
