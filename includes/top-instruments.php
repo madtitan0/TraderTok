@@ -19,6 +19,17 @@
         The aim is to make asset information clearer, more consistent, and easier to review before users
         engage with the wider trading environment.
       </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+        <a href="<?php echo htmlspecialchars(routeUrl('trading-calculators')); ?>" class="btn-secondary" style="text-decoration:none;">
+          Trading Calculators
+        </a>
+        <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary" style="text-decoration:none;">
+          Open Live Account
+        </a>
+        <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-secondary" style="text-decoration:none;">
+          Open Demo Account
+        </a>
+      </div>
     </div>
   </div>
 </section>

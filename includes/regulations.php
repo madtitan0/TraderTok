@@ -43,3 +43,28 @@
         </div>
       </div>
     </section>
+
+    <section style="padding: 0 0 90px; background: var(--bg-primary);">
+      <div class="container" style="max-width: 1100px;">
+        <div style="border: 1px solid var(--border-color); background: var(--bg-secondary); border-radius: 20px; padding: 28px; text-align: center;">
+          <h2 style="margin: 0 0 10px; color: var(--text-primary); font-size: clamp(1.7rem, 3vw, 2.2rem);">
+            Ready to start trading?
+          </h2>
+          <p style="margin: 0 auto 18px; max-width: 780px; color: var(--text-secondary); line-height: 1.7;">
+            Open your live account to trade real markets, or start with a demo account to practice first.
+          </p>
+          <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>"
+              class="btn-primary"
+              style="display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 22px; text-decoration:none;">
+              Open Live Trade Account
+            </a>
+            <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>"
+              class="btn-secondary"
+              style="display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 22px; text-decoration:none;">
+              Open Demo Account
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>

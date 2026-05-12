@@ -18,6 +18,14 @@
         Membership is activated automatically based on account balance, with increasing benefits unlocked as
         clients move through higher tiers.
       </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+        <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary" style="text-decoration:none;">
+          Open Live Account
+        </a>
+        <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-secondary" style="text-decoration:none;">
+          Open Demo Account
+        </a>
+      </div>
     </div>
   </div>
 </section>

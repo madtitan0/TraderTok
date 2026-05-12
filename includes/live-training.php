@@ -328,7 +328,8 @@ body.light-theme .training-page .hero-description {
               </div>
             </div>
 
-            <!-- Upcoming Sessions: shared heading + two cards on one row (tops align) -->
+            <!--
+            Upcoming Sessions: shared heading + two cards on one row (tops align)
             <div class="upcoming-section">
               <h2 class="section-title" data-i18n="liveTrainingPage.upcomingSessions">Upcoming Sessions</h2>
               <p class="section-description" data-i18n="liveTrainingPage.upcomingSessionsDesc">Reserve your spot in
@@ -380,6 +381,7 @@ body.light-theme .training-page .hero-description {
                 </div>
               </div>
             </div>
+            -->
           </div>
         </div>
       </section>
@@ -427,6 +429,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   counters.forEach(counter => observer.observe(counter));
 
+  /*
   // Countdown calculation - February event
   const eventDate1 = new Date('2026-02-18T13:00:00+01:00');
   const today = new Date();
@@ -449,5 +452,6 @@ document.addEventListener('DOMContentLoaded', function() {
   } else if (countdownEl2 && diffDays2 <= 0) {
     countdownEl2.parentElement.textContent = 'Event has started';
   }
+  */
 });
     </script>

@@ -571,6 +571,14 @@ body.light-theme .notice-text {
                         'content_html' => extract_legal_document_content(__DIR__ . '/client-service-agreement.php'),
                         'preview' => [],
                         ],
+                        [
+                        'title' => 'GBL (Investment Dealer Licence)',
+                        'description' => 'Global Business Licence certificate for Amber Rock Trade Ltd as an Investment Dealer.',
+                        'file' => './assets/images/cert.jpg',
+                        'content_html' => '<p class="legal-doc-cert-wrap"><img src="./assets/images/cert.jpg" alt="Amber Rock Trade Ltd Global Business Licence (Investment Dealer) certificate" style="max-width:100%;height:auto;border-radius:12px;display:block;" loading="lazy" decoding="async" /></p>',
+                        'preview' => [],
+                        'download_aria_label' => 'Open certificate',
+                        ],
                         ];
                         ?>
 
@@ -620,7 +628,8 @@ body.light-theme .notice-text {
                     <button class="document-toggle" type="button" aria-expanded="false"
                       aria-label="Toggle preview">+</button>
                     <a href="<?php echo htmlspecialchars(str_replace(' ', '%20', $document['file']), ENT_QUOTES); ?>"
-                      class="document-download" target="_blank" rel="noopener noreferrer" aria-label="Download PDF">
+                      class="document-download" target="_blank" rel="noopener noreferrer"
+                      aria-label="<?php echo htmlspecialchars(!empty($document['download_aria_label']) ? $document['download_aria_label'] : 'Download PDF', ENT_QUOTES); ?>">
                       <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                         fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
                         stroke-linejoin="miter">

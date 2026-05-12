@@ -10,6 +10,14 @@
                 <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.8; max-width: 900px; margin: 0 auto 80px;" data-i18n="tradingPlatformsPage.heroSubtitle">
                     At TraderTok, we believe technology should empower, not complicate. That's why we built platforms that give you full control of your trading experience, whether you're at your desk or on the move.
                 </p>
+                <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:0 0 48px;">
+                    <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary" style="text-decoration:none;">
+                        Open Live Account
+                    </a>
+                    <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-secondary" style="text-decoration:none;">
+                        Open Demo Account
+                    </a>
+                </div>
             </div>
 
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1400px; margin: 0 auto;">

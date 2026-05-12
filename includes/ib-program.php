@@ -18,6 +18,14 @@
         This page presents the updated global program structure in a static format so the positioning,
         partner value, and operating model are clearly defined before deeper functionality is added.
       </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+        <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary" style="text-decoration:none;">
+          Open Live Account
+        </a>
+        <a href="<?php echo htmlspecialchars(routeUrl('open-demo-account')); ?>" class="btn-secondary" style="text-decoration:none;">
+          Open Demo Account
+        </a>
+      </div>
     </div>
   </div>
 </section>

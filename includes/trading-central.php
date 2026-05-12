@@ -173,7 +173,7 @@
             <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.8; max-width: 800px; margin: 0 auto 40px;" data-i18n="tradingCentral.heroSubtitle">
                 TraderTok brings you one of the most powerful market tools for modern trading. Trading Central combines cutting-edge tech with expert market analysis to elevate your trading experience.
             </p>
-            <a href="https://appzone.tradertok.com/" class="btn-primary" style="display: inline-block; font-size: 1.1rem; padding: 16px 40px; border-radius: 8px;" data-i18n="tradingCentral.heroBtn">Access Trading Central</a>
+            <a href="https://appzone.tradertok.com/#/auth/register" class="btn-primary" style="display: inline-block; font-size: 1.1rem; padding: 16px 40px; border-radius: 8px;" data-i18n="tradingCentral.heroBtn">Access Trading Central</a>
         </div>
 
         <div style="text-align: center; margin-bottom: 100px;">
@@ -211,7 +211,7 @@
             <div class="tc-feature-text">
                 <h2 data-i18n="tradingCentral.features.f1title" style="font-size: 3rem; font-weight: 800; color: var(--brand-color-start);">Data-Driven Insights</h2>
                 <p data-i18n="tradingCentral.features.f1desc">Stay ahead of the latest market moves with advanced analytics and expert insights.</p>
-                <a href="https://appzone.tradertok.com/" class="btn-secondary" style="display: inline-block;" data-i18n="tradingCentral.features.registerBtn">Register to Access</a>
+                <a href="https://appzone.tradertok.com/#/auth/register" class="btn-secondary" style="display: inline-block;" data-i18n="tradingCentral.features.registerBtn">Register to Access</a>
             </div>
             <div>
                 <img src="assets/images/trading-central-mac-2.png" alt="Data Driven Insights" style="max-width: 100%; border-radius: 16px;">
@@ -244,7 +244,7 @@
             <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 700px; margin: 0 auto 40px;" data-i18n="tradingCentral.cta.desc">
                 Unlock the full power of Trading Central when you register with TraderTok. Trading Central enhances your trading experience by providing actionable insights and expert analysis at no cost.
             </p>
-            <a href="https://appzone.tradertok.com/" class="btn-primary" style="display: inline-block; padding: 16px 40px;" data-i18n="tradingCentral.cta.btn">Register to Access</a>
+            <a href="https://appzone.tradertok.com/#/auth/register" class="btn-primary" style="display: inline-block; padding: 16px 40px;" data-i18n="tradingCentral.cta.btn">Register to Access</a>
         </div>
 
         <!-- Tools section -->
@@ -276,7 +276,7 @@
             </div>
             
             <div style="text-align: center; margin-top: 48px;">
-                <a href="https://appzone.tradertok.com/" class="btn-primary" style="display: inline-block; padding: 16px 40px;" data-i18n="tradingCentral.tools.btn">Get Started</a>
+                <a href="https://appzone.tradertok.com/#/auth/register" class="btn-primary" style="display: inline-block; padding: 16px 40px;" data-i18n="tradingCentral.tools.btn">Get Started</a>
             </div>
         </div>
 
