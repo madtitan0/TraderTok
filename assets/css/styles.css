@@ -3266,6 +3266,9 @@ ul.doc-page-hero-list li {
 @media (max-width: 768px) {
   .page-hero {
     padding: 120px 0 60px;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
   }
 
   .page-hero-content {

@@ -677,10 +677,6 @@ body.light-theme .faq-a {
 }
 
 @media (max-width: 768px) {
-  .page-hero {
-    height: 60vh;
-    min-height: 400px;
-  }
   .page-hero1 {
     height: 100vh;
     min-height: 600px;

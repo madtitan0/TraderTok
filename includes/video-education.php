@@ -222,12 +222,6 @@ height: 100vh;
     justify-content: center;
   }
 }
-@media (max-width: 768px) {
-  .page-hero {
-    overflow: visible !important;
-    height: auto !important;
-  }
-}
    </style>
   
   
