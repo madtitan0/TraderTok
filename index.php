@@ -56,8 +56,20 @@ if (isset($page) && $page === 'education-article') {
     exit;
 }
 
-// Academy: page-specific SEO (API $get defaults are site-wide).
+require __DIR__ . '/includes/helpers/routing.php';
+$routeConfig = require __DIR__ . '/includes/config/page-routes.php';
+$staticRoutes = $routeConfig['static'];
+$ttIsNotFound = false;
+
 if (!empty($page)) {
+    $ttIsNotFound = !tt_resolve_page_exists((string) $page, $get);
+    if ($ttIsNotFound) {
+        tt_set_not_found_meta($get);
+    }
+}
+
+// Academy: page-specific SEO (API $get defaults are site-wide).
+if (!empty($page) && !$ttIsNotFound) {
     if ($page === 'edu-market-news') {
         $get->title = 'Market News & Insights | Forex, Gold, Indices & Macro Analysis | TraderTok';
         $get->desc = 'Stay updated with TraderTok market news, weekly outlooks, forex analysis, gold insights, and major economic events shaping the markets.';
@@ -180,13 +192,14 @@ require 'includes/head.php';
 
 echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
 
-$routeConfig = require __DIR__ . '/includes/config/page-routes.php';
-$staticRoutes = $routeConfig['static'];
-
 if (!$page) {
     require 'includes/home.php';
     require 'includes/footer.php';
     exit;
+}
+
+if ($ttIsNotFound) {
+    tt_render_not_found_page();
 }
 
 $menuDetail = (object)[];
@@ -250,7 +263,7 @@ switch ($page) {
         }
 
         if (!count((array) $menuDetail)) {
-            die('page not found...');
+            tt_render_not_found_page();
         }
 
         require 'includes/page.php';
