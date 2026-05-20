@@ -94,6 +94,9 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     <meta name="keywords" content="<?php echo htmlspecialchars((string) $get->keyw, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="author" content="<?php echo htmlspecialchars((string) $get->brand_name, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="theme-color" content="#d02c2d">
+    <?php if (!empty($ttIsNotFound)) : ?>
+    <meta name="robots" content="noindex, nofollow">
+    <?php endif; ?>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -159,7 +162,7 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     <?php echo $get->head_code; ?>
   </head>
 
-  <body class="<?php echo !$page ? 'page-home' : 'page-inner'; ?>">
+  <body class="<?php echo !$page ? 'page-home' : 'page-inner'; ?><?php echo !empty($ttIsNotFound) ? ' page-not-found' : ''; ?>">
     <!-- Google Tag Manager (noscript) -->
     <?php include 'gtm-body-code.php'; ?>
     <!-- End Google Tag Manager (noscript) -->
