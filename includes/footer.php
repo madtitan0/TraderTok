@@ -355,8 +355,6 @@
     <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>
     <script src="assets/js/whatsapp-widget.js?v=<?php echo filemtime('assets/js/whatsapp-widget.js'); ?>" defer>
     </script>
-    <script src="assets/js/respondio-widget.js?v=<?php echo filemtime('assets/js/respondio-widget.js'); ?>" defer>
-    </script>
 
     <!-- WhatsApp Widget -->
     <div class="whatsapp-widget">
@@ -370,9 +368,11 @@
       </a>
     </div>
 
-    <!-- respond.io growth widget -->
+    <!-- respond.io growth widget (load order: vendor script, then our position helper) -->
     <script id="respondio__growth_tool"
-      src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907"></script>
+      src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907" defer></script>
+    <script src="assets/js/respondio-widget.js?v=<?php echo filemtime('assets/js/respondio-widget.js'); ?>" defer>
+    </script>
 
 
     </body>

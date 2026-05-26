@@ -7,9 +7,10 @@
   --tt-whatsapp-bottom: 20px;
   --tt-whatsapp-right: 20px;
 
-  /* respond.io growth widget (applied by assets/js/respondio-widget.js) */
-  --tt-respondio-bottom: 94px;
+  /* respond.io (assets/js/respondio-widget.js) */
   --tt-respondio-right: 20px;
+  --tt-respondio-gap: 14px; /* space above WhatsApp; bottom is computed from this */
+  --tt-respondio-bottom: 0; /* optional extra minimum lift (px), usually leave 0 */
 }
 
 /* WhatsApp Widget */
@@ -24,8 +25,8 @@
 }
 
 /*
- * respond.io uses <respond-io-widget> with an open Shadow DOM.
- * Page CSS cannot style inside the shadow tree — use --tt-respondio-* above.
+ * respond.io uses Shadow DOM — adjust --tt-respondio-right / --tt-respondio-gap.
+ * Bottom is auto-stacked above .whatsapp-button (see respondio-widget.js).
  */
 
 .whatsapp-button {
@@ -92,8 +93,9 @@
   :root {
     --tt-whatsapp-bottom: 20px;
     --tt-whatsapp-right: 20px;
-    --tt-respondio-bottom: 84px;
+    --tt-respondio-gap: 12px;
     --tt-respondio-right: 20px;
+    --tt-respondio-bottom: 0;
   }
 
   .whatsapp-button {

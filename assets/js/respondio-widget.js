@@ -1,12 +1,25 @@
 // ================== RESPOND.IO WIDGET POSITION ==================
-// Position is controlled by CSS variables in whatsapp-widget.css:
-//   --tt-respondio-bottom, --tt-respondio-right
+// CSS variables in whatsapp-widget.css:
+//   --tt-respondio-right   horizontal offset (independent)
+//   --tt-respondio-bottom  minimum bottom offset (optional floor)
+//   --tt-respondio-gap     space above the WhatsApp button (stacking)
 (function () {
   var STYLE_ID = "tt-respond-io-stack-style";
+  var RETRY_DELAYS_MS = [0, 50, 150, 300, 600, 1000, 1500, 2500, 4000, 6000, 10000];
+  var POLL_MS = 400;
+  var POLL_DURATION_MS = 20000;
 
   var isApplyingPosition = false;
   var styleObserver = null;
   var trackedContainer = null;
+  var retryTimers = [];
+  var pollTimer = null;
+  var started = false;
+
+  function parsePx(value, fallback) {
+    var n = parseFloat(value);
+    return Number.isFinite(n) ? n : fallback;
+  }
 
   function readCssVar(name, fallback) {
     var value = getComputedStyle(document.documentElement)
@@ -16,9 +29,25 @@
   }
 
   function getRespondIoOffset() {
+    var cssBottomPx = parsePx(readCssVar("--tt-respondio-bottom", "0"), 0);
+    var gapPx = parsePx(readCssVar("--tt-respondio-gap", "14"), 14);
+    var right = readCssVar("--tt-respondio-right", "20px");
+    var bottomPx = cssBottomPx;
+
+    var whatsappBtn = document.querySelector(".whatsapp-button");
+    if (whatsappBtn) {
+      var waRect = whatsappBtn.getBoundingClientRect();
+      var stackBottomPx = window.innerHeight - waRect.top + gapPx;
+      bottomPx = Math.max(bottomPx, stackBottomPx);
+    }
+
+    if (bottomPx <= 0) {
+      bottomPx = 94;
+    }
+
     return {
-      bottom: readCssVar("--tt-respondio-bottom", "94px"),
-      right: readCssVar("--tt-respondio-right", "20px"),
+      bottom: Math.round(bottomPx) + "px",
+      right: right,
     };
   }
 
@@ -48,10 +77,14 @@
     }
 
     trackedContainer = container;
+    var guardTimer;
+
     styleObserver = new MutationObserver(function () {
-      if (!isApplyingPosition) {
-        applyPosition();
+      if (isApplyingPosition) {
+        return;
       }
+      clearTimeout(guardTimer);
+      guardTimer = setTimeout(applyPosition, 32);
     });
 
     styleObserver.observe(container, {
@@ -89,22 +122,51 @@
     return true;
   }
 
-  var resizeTimer;
-  function onLayoutChange() {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(applyPosition, 100);
+  function scheduleRetries() {
+    retryTimers.forEach(clearTimeout);
+    retryTimers = RETRY_DELAYS_MS.map(function (delay) {
+      return setTimeout(applyPosition, delay);
+    });
   }
 
-  function watchWidget() {
-    if (applyPosition()) {
-      window.addEventListener("resize", onLayoutChange);
+  function startPolling() {
+    if (pollTimer) {
+      clearInterval(pollTimer);
+    }
+
+    var startedAt = Date.now();
+    pollTimer = setInterval(function () {
+      applyPosition();
+      if (Date.now() - startedAt >= POLL_DURATION_MS) {
+        clearInterval(pollTimer);
+        pollTimer = null;
+      }
+    }, POLL_MS);
+  }
+
+  function onLayoutChange() {
+    applyPosition();
+    scheduleRetries();
+  }
+
+  function beginWatch() {
+    if (started) {
+      applyPosition();
+      scheduleRetries();
       return;
     }
+    started = true;
+
+    applyPosition();
+    scheduleRetries();
+    startPolling();
+
+    window.addEventListener("resize", onLayoutChange);
+    window.addEventListener("orientationchange", onLayoutChange);
 
     var mountObserver = new MutationObserver(function () {
       if (applyPosition()) {
-        mountObserver.disconnect();
-        window.addEventListener("resize", onLayoutChange);
+        scheduleRetries();
       }
     });
 
@@ -112,15 +174,23 @@
       childList: true,
       subtree: true,
     });
+  }
 
-    setTimeout(function () {
-      mountObserver.disconnect();
-    }, 15000);
+  function boot() {
+    beginWatch();
+
+    var respondScript = document.getElementById("respondio__growth_tool");
+    if (respondScript && !respondScript.dataset.ttPositionBound) {
+      respondScript.dataset.ttPositionBound = "1";
+      respondScript.addEventListener("load", function () {
+        beginWatch();
+      });
+    }
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", watchWidget);
+    document.addEventListener("DOMContentLoaded", boot);
   } else {
-    watchWidget();
+    boot();
   }
 })();
