@@ -1,6 +1,6 @@
 :root {
-  --whatsapp-widget-bottom: 20px;
-  --whatsapp-widget-right: 30px;
+  --whatsapp-widget-bottom: 15px;
+  --whatsapp-widget-right: 35px;
   --respondio-widget-bottom: 95px;
   --respondio-widget-right: 10px;
 }
@@ -89,8 +89,8 @@
 
 @media (max-width: 768px) {
   :root {
-    --whatsapp-widget-bottom: 20px;
-    --whatsapp-widget-right: 20px;
+    --whatsapp-widget-bottom: 15px;
+    --whatsapp-widget-right: 35px;
     --respondio-widget-bottom: 84px;
     --respondio-widget-right: 10px;
   }
