@@ -1,14 +1,22 @@
+:root {
+  --whatsapp-widget-bottom: 20px;
+  --whatsapp-widget-right: 20px;
+  --respondio-widget-bottom: 90px;
+  --respondio-widget-right: 10px;
+}
+
 /* WhatsApp Widget */
 .whatsapp-widget {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: var(--whatsapp-widget-bottom);
+  right: var(--whatsapp-widget-right);
   z-index: 9999;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
+<<<<<<< HEAD
 /*
  * respond.io renders <respond-io-widget> with an open Shadow DOM.
  * Page CSS cannot reach .__respondio-widget inside the shadow tree.
@@ -18,6 +26,13 @@
 #respondio__growth_tool {
   bottom: 90px !important;
   right: 10px !important;
+=======
+/* Chat Widget Container */
+.respondio-widget-offset {
+  bottom: var(--respondio-widget-bottom) !important;
+  right: var(--respondio-widget-right) !important;
+  z-index: 9998 !important;
+>>>>>>> c661894 (update on chat widget)
 }
 
 .whatsapp-button {
@@ -81,9 +96,16 @@
 }
 
 @media (max-width: 768px) {
+  :root {
+    --whatsapp-widget-bottom: 20px;
+    --whatsapp-widget-right: 20px;
+    --respondio-widget-bottom: 84px;
+    --respondio-widget-right: 10px;
+  }
+
   .whatsapp-widget {
-    bottom: 20px;
-    right: 20px;
+    bottom: var(--whatsapp-widget-bottom);
+    right: var(--whatsapp-widget-right);
   }
 
   .whatsapp-button {

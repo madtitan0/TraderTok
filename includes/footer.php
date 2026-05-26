@@ -355,6 +355,8 @@
     <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>
     <script src="assets/js/whatsapp-widget.js?v=<?php echo filemtime('assets/js/whatsapp-widget.js'); ?>" defer>
     </script>
+    <script src="assets/js/respondio-widget.js?v=<?php echo filemtime('assets/js/respondio-widget.js'); ?>" defer>
+    </script>
 
 
 
