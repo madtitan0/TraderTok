@@ -370,10 +370,13 @@
       </a>
     </div>
 
-    <!-- This site is converting visitors into subscribers and customers with https://respond.io -->
-    <script id="respondio__growth_tool"
-      src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907"></script>
-    <!-- https://respond.io -->
+    <div class="chat-widget-container">
+      <!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+      <script id="respondio__growth_tool"
+        src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907"></script>
+      <!-- https://respond.io -->
+    </div>
+
     </body>
 
     </html>
