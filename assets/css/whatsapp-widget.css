@@ -9,13 +9,11 @@
   gap: 12px;
 }
 
-/* Chat Widget Container */
-.chat-widget-container {
-  position: fixed;
-  bottom: 100px;
-  right: 10px;
-  z-index: 9999;
-}
+/*
+ * respond.io renders <respond-io-widget> with an open Shadow DOM.
+ * Page CSS cannot reach .__respondio-widget inside the shadow tree.
+ * Position is applied via whatsapp-widget.js (stacked above .whatsapp-widget).
+ */
 
 #respondio__growth_tool {
   bottom: 90px !important;
