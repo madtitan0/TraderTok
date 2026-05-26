@@ -99,7 +99,8 @@
               <li><a href="buy-and-sell-explained" class="footer-link" data-i18n="footer.buyAndSellExplained">Buy and
                   Sell Explained</a></li>
               <li><a href="tax-report" class="footer-link" data-i18n="footer.taxReport">Tax Report</a></li>
-              <li><a href="<?php echo routeUrl('trading-calculators'); ?>" class="footer-link">Trading Calculators</a></li>
+              <li><a href="<?php echo routeUrl('trading-calculators'); ?>" class="footer-link">Trading Calculators</a>
+              </li>
               <li><a href="education-hub" class="footer-link" data-i18n="nav.educationResources">Education Resources</a>
               </li>
             </ul>
@@ -275,12 +276,13 @@
             <!-- <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
               data-i18n="footer.platformMt4">MetaTrader 4</a> -->
             <!-- <a href="https://trader.tradertok.com" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n=""> -->
-              <div class="footer-subbar-chip" >
-              <img src="assets/images/mt5.png" alt="MetaTrader 5" class="footer-subbar-chip-icon"></div>
+            <div class="footer-subbar-chip">
+              <img src="assets/images/mt5.png" alt="MetaTrader 5" class="footer-subbar-chip-icon">
+            </div>
             <!-- </a> -->
             <!-- <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
               data-i18n="footer.platformWebTrader"> -->
-             <div class="footer-subbar-chip" data-i18n="footer.platformWebTrader"> Web Trader</div>
+            <div class="footer-subbar-chip" data-i18n="footer.platformWebTrader"> Web Trader</div>
             <!-- </a> -->
           </nav>
         </div>
@@ -368,67 +370,10 @@
       </a>
     </div>
 
-    <!-- Start of LiveChat (www.livechat.com) code -->
-    <script>
-window.__lc = window.__lc || {};
-window.__lc.license = 19449757;
-window.__lc.integration_name = "manual_onboarding";
-window.__lc.product_name = "livechat";
-(function(n, t, c) {
-  function i(n) {
-    return e._h ? e._h.apply(null, n) : e._q.push(n)
-  }
-  var e = {
-    _q: [],
-    _h: null,
-    _v: "2.0",
-    on: function() {
-      i(["on", c.call(arguments)])
-    },
-    once: function() {
-      i(["once", c.call(arguments)])
-    },
-    off: function() {
-      i(["off", c.call(arguments)])
-    },
-    get: function() {
-      if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load.");
-      return i(["get", c.call(arguments)])
-    },
-    call: function() {
-      i(["call", c.call(arguments)])
-    },
-    init: function() {
-      var n = t.createElement("script");
-      n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head
-        .appendChild(n)
-    }
-  };
-  !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e
-}(window, document, [].slice))
-
-// Keep widget minimized on load; hide proactive greeting (Text/LiveChat Customer Widget API).
-LiveChatWidget.on('ready', function() {
-  try {
-    LiveChatWidget.call('minimize');
-    LiveChatWidget.call('hide_greeting');
-  } catch (e) {}
-});
-(function() {
-  var hidFirstGreeting = false;
-  LiveChatWidget.on('greeting_displayed', function() {
-    if (hidFirstGreeting) return;
-    hidFirstGreeting = true;
-    try {
-      LiveChatWidget.call('hide_greeting');
-    } catch (e) {}
-  });
-})();
-    </script>
-    <noscript><a href="https://www.livechat.com/chat-with/19449757/" rel="nofollow">Chat with us</a>, powered by <a
-        href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-    <!-- End of LiveChat code -->
-
+    <!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+    <script id="respondio__growth_tool"
+      src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907"></script>
+    <!-- https://respond.io -->
     </body>
 
     </html>
