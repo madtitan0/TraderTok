@@ -1,7 +1,7 @@
 :root {
-  --whatsapp-widget-bottom: 15px;
+  --whatsapp-widget-bottom: 95px;
   --whatsapp-widget-right: 35px;
-  --respondio-widget-bottom: 95px;
+  --respondio-widget-bottom: 15px;
   --respondio-widget-right: 10px;
 }
 
@@ -22,9 +22,10 @@
  * Position is applied via whatsapp-widget.js (stacked above .whatsapp-widget).
  */
 
-#respondio__growth_tool {
-  bottom: 90px !important;
-  right: 10px !important;
+.respondio-widget-offset {
+  bottom: var(--respondio-widget-bottom) !important;
+  right: var(--respondio-widget-right) !important;
+  z-index: 9998 !important;
 }
 
 .whatsapp-button {
@@ -89,9 +90,9 @@
 
 @media (max-width: 768px) {
   :root {
-    --whatsapp-widget-bottom: 15px;
+    --whatsapp-widget-bottom: 84px;
     --whatsapp-widget-right: 35px;
-    --respondio-widget-bottom: 84px;
+    --respondio-widget-bottom: 15px;
     --respondio-widget-right: 10px;
   }
 
