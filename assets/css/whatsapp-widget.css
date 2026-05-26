@@ -17,6 +17,11 @@
   z-index: 9999;
 }
 
+#respondio__growth_tool {
+  bottom: 90px !important;
+  right: 10px !important;
+}
+
 .whatsapp-button {
   width: 60px;
   height: 60px;
