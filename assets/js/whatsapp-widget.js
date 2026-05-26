@@ -1,5 +1,80 @@
-// ================== WHATSAPP WIDGET LOGIC ==================
+// ================== WHATSAPP + RESPOND.IO WIDGET ==================
 (function () {
+  /** Gap between the bottom of respond.io and the top of the WhatsApp bubble. */
+  var RESPOND_IO_GAP_PX = 14;
+
+  function getRespondIoOffset() {
+    var whatsapp = document.querySelector(".whatsapp-widget");
+    if (!whatsapp) {
+      return { bottom: "96px", right: "20px" };
+    }
+
+    var rect = whatsapp.getBoundingClientRect();
+    var bottom = window.innerHeight - rect.top + RESPOND_IO_GAP_PX;
+    var right = window.innerWidth - rect.right;
+
+    return {
+      bottom: Math.max(0, Math.round(bottom)) + "px",
+      right: Math.max(0, Math.round(right)) + "px",
+    };
+  }
+
+  function positionRespondIoWidget() {
+    var host = document.querySelector("respond-io-widget");
+    if (!host || !host.shadowRoot) {
+      return false;
+    }
+
+    var container = host.shadowRoot.querySelector(".container.container--fixed");
+    if (!container) {
+      return false;
+    }
+
+    var offset = getRespondIoOffset();
+    container.style.bottom = offset.bottom;
+    container.style.right = offset.right;
+    return true;
+  }
+
+  function applyRespondIoPosition() {
+    if (!positionRespondIoWidget()) {
+      return false;
+    }
+    // respond.io may re-apply defaults shortly after mount
+    setTimeout(positionRespondIoWidget, 400);
+    setTimeout(positionRespondIoWidget, 1200);
+    return true;
+  }
+
+  var resizeTimer;
+  function onLayoutChange() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(applyRespondIoPosition, 100);
+  }
+
+  function watchRespondIoWidget() {
+    if (applyRespondIoPosition()) {
+      window.addEventListener("resize", onLayoutChange);
+      return;
+    }
+
+    var observer = new MutationObserver(function () {
+      if (applyRespondIoPosition()) {
+        observer.disconnect();
+        window.addEventListener("resize", onLayoutChange);
+      }
+    });
+
+    observer.observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+    });
+
+    setTimeout(function () {
+      observer.disconnect();
+    }, 15000);
+  }
+
   function init() {
     const whatsappBtn = document.querySelector(".whatsapp-button");
     if (!whatsappBtn) {
@@ -23,10 +98,14 @@
     });
   }
 
-  // Initialize when DOM is ready
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
+  function boot() {
     init();
+    watchRespondIoWidget();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
   }
 })();
