@@ -1,7 +1,7 @@
 :root {
   --whatsapp-widget-bottom: 12px;
   --whatsapp-widget-right: 16px;
-  --widget-stack-gap: 12px;
+  --widget-stack-gap: 20px;
 }
 
 /* WhatsApp bubble (bottom of the stack) */
@@ -93,12 +93,32 @@
   transform: translateX(0);
 }
 
-/* Tablets & phones — keep lower position + safe area; original button/icon sizes */
+/* Tablets & phones */
 @media (max-width: 768px) {
   :root {
     --whatsapp-widget-bottom: max(8px, env(safe-area-inset-bottom, 0px));
     --whatsapp-widget-right: max(12px, env(safe-area-inset-right, 0px));
-    --widget-stack-gap: 8px;
+    /* Extra gap for respond.io “Powered by” label below its button */
+    --widget-stack-gap: 26px;
+  }
+
+  .whatsapp-widget {
+    gap: 0;
+  }
+
+  /* Keep tooltip in DOM for i18n but remove from layout on small screens */
+  .whatsapp-tooltip {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    opacity: 0;
+    pointer-events: none;
   }
 
   .whatsapp-button {
@@ -116,6 +136,6 @@
   :root {
     --whatsapp-widget-bottom: max(6px, env(safe-area-inset-bottom, 0px));
     --whatsapp-widget-right: max(10px, env(safe-area-inset-right, 0px));
-    --widget-stack-gap: 6px;
+    --widget-stack-gap: 28px;
   }
 }

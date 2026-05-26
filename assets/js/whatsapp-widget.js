@@ -3,18 +3,34 @@
   "use strict";
 
   var RESPOND_IO_Z_INDEX = "9998";
-  var REAPPLY_DELAYS_MS = [0, 400, 1200, 3000];
+  var REAPPLY_DELAYS_MS = [0, 200, 400, 800, 1200, 2500, 4000];
+  var MOBILE_MIN_GAP_PX = 26;
 
   function getStackGapPx() {
     var raw = getComputedStyle(document.documentElement)
       .getPropertyValue("--widget-stack-gap")
       .trim();
     var n = parseFloat(raw);
-    return Number.isFinite(n) ? n : 12;
+    var base = Number.isFinite(n) ? n : 20;
+    if (isMobileViewport()) {
+      return Math.max(base, MOBILE_MIN_GAP_PX);
+    }
+    return base;
   }
 
   function isMobileViewport() {
     return window.matchMedia("(max-width: 768px)").matches;
+  }
+
+  function getViewportHeight() {
+    return window.visualViewport ? window.visualViewport.height : window.innerHeight;
+  }
+
+  function getWhatsAppAnchor() {
+    return (
+      document.querySelector(".whatsapp-button") ||
+      document.querySelector(".whatsapp-widget")
+    );
   }
 
   function getRespondIoContainer(host) {
@@ -30,23 +46,42 @@
     );
   }
 
+  function getWhatsAppFixedRight() {
+    var widget = document.querySelector(".whatsapp-widget");
+    if (!widget) {
+      return isMobileViewport() ? "12px" : "16px";
+    }
+    var right = getComputedStyle(widget).right;
+    return right && right !== "auto" ? right : "16px";
+  }
+
   function getRespondIoOffset() {
-    var whatsapp = document.querySelector(".whatsapp-widget");
-    if (!whatsapp) {
-      var fallbackBottom = isMobileViewport() ? "58px" : "68px";
-      var fallbackRight = isMobileViewport() ? "12px" : "16px";
-      return { bottom: fallbackBottom, right: fallbackRight };
+    var anchor = getWhatsAppAnchor();
+    if (!anchor) {
+      var fallbackBottom = isMobileViewport() ? "88px" : "76px";
+      return { bottom: fallbackBottom, right: getWhatsAppFixedRight() };
     }
 
-    var rect = whatsapp.getBoundingClientRect();
+    var rect = anchor.getBoundingClientRect();
     var gap = getStackGapPx();
-    var bottom = window.innerHeight - rect.top + gap;
-    var right = window.innerWidth - rect.right;
+    var bottom = getViewportHeight() - rect.top + gap;
+    var right = getWhatsAppFixedRight();
 
     return {
       bottom: Math.max(0, Math.round(bottom)) + "px",
-      right: Math.max(0, Math.round(right)) + "px",
+      right: right,
     };
+  }
+
+  function applyOffsetToElement(el, offset) {
+    if (!el) {
+      return;
+    }
+    el.style.setProperty("bottom", offset.bottom, "important");
+    el.style.setProperty("right", offset.right, "important");
+    el.style.setProperty("left", "auto", "important");
+    el.style.setProperty("top", "auto", "important");
+    el.style.setProperty("z-index", RESPOND_IO_Z_INDEX, "important");
   }
 
   function positionRespondIoWidget() {
@@ -57,9 +92,31 @@
     }
 
     var offset = getRespondIoOffset();
-    container.style.setProperty("bottom", offset.bottom, "important");
-    container.style.setProperty("right", offset.right, "important");
-    container.style.setProperty("z-index", RESPOND_IO_Z_INDEX, "important");
+    applyOffsetToElement(container, offset);
+    if (host instanceof HTMLElement) {
+      applyOffsetToElement(host, offset);
+    }
+
+    // If respond.io (incl. “Powered by” label) still overlaps WhatsApp, nudge up.
+    var anchor = getWhatsAppAnchor();
+    if (anchor) {
+      var waTop = anchor.getBoundingClientRect().top;
+      var riRect = container.getBoundingClientRect();
+      var clearance = isMobileViewport() ? 4 : 8;
+      if (riRect.bottom > waTop - clearance) {
+        var bump = Math.ceil(riRect.bottom - waTop + clearance);
+        var bumpedBottom = parseFloat(offset.bottom) + bump;
+        var bumped = {
+          bottom: bumpedBottom + "px",
+          right: offset.right,
+        };
+        applyOffsetToElement(container, bumped);
+        if (host instanceof HTMLElement) {
+          applyOffsetToElement(host, bumped);
+        }
+      }
+    }
+
     return true;
   }
 
@@ -72,31 +129,44 @@
   var resizeTimer;
   function onLayoutChange() {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () {
-      positionRespondIoWidget();
-    }, 100);
+    resizeTimer = setTimeout(positionRespondIoWidget, 80);
   }
 
   function watchWhatsAppWidget() {
-    var whatsapp = document.querySelector(".whatsapp-widget");
-    if (!whatsapp || typeof ResizeObserver === "undefined") {
+    var anchor = getWhatsAppAnchor();
+    if (!anchor || typeof ResizeObserver === "undefined") {
       return;
     }
 
-    var ro = new ResizeObserver(function () {
-      positionRespondIoWidget();
-    });
-    ro.observe(whatsapp);
+    var ro = new ResizeObserver(onLayoutChange);
+    ro.observe(anchor);
+  }
+
+  function watchRespondIoHost() {
+    var host = document.querySelector("respond-io-widget");
+    if (!host || typeof ResizeObserver === "undefined") {
+      return;
+    }
+
+    var ro = new ResizeObserver(onLayoutChange);
+    ro.observe(host);
+
+    if (host.shadowRoot) {
+      var innerObs = new MutationObserver(onLayoutChange);
+      innerObs.observe(host.shadowRoot, { childList: true, subtree: true });
+    }
   }
 
   function watchRespondIoWidget() {
     function onPositioned() {
       scheduleReapply();
       watchWhatsAppWidget();
+      watchRespondIoHost();
       window.addEventListener("resize", onLayoutChange);
       window.addEventListener("orientationchange", onLayoutChange);
       if (window.visualViewport) {
         window.visualViewport.addEventListener("resize", onLayoutChange);
+        window.visualViewport.addEventListener("scroll", onLayoutChange);
       }
       var mq = window.matchMedia("(max-width: 768px)");
       if (typeof mq.addEventListener === "function") {
@@ -123,7 +193,7 @@
 
     setTimeout(function () {
       observer.disconnect();
-    }, 20000);
+    }, 25000);
   }
 
   function initWhatsAppClick() {
