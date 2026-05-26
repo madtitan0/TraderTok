@@ -15,6 +15,11 @@
  * Position is applied via whatsapp-widget.js (stacked above .whatsapp-widget).
  */
 
+#respondio__growth_tool {
+  bottom: 90px !important;
+  right: 10px !important;
+}
+
 .whatsapp-button {
   width: 60px;
   height: 60px;
