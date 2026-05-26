@@ -1,8 +1,22 @@
+/* =============================================================================
+   Floating widgets — edit position independently via CSS variables below
+   ============================================================================= */
+
+:root {
+  /* WhatsApp button */
+  --tt-whatsapp-bottom: 20px;
+  --tt-whatsapp-right: 20px;
+
+  /* respond.io growth widget (applied by assets/js/respondio-widget.js) */
+  --tt-respondio-bottom: 94px;
+  --tt-respondio-right: 20px;
+}
+
 /* WhatsApp Widget */
 .whatsapp-widget {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: var(--tt-whatsapp-bottom);
+  right: var(--tt-whatsapp-right);
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -10,15 +24,9 @@
 }
 
 /*
- * respond.io renders <respond-io-widget> with an open Shadow DOM.
- * Page CSS cannot reach .__respondio-widget inside the shadow tree.
- * Position is applied via whatsapp-widget.js (stacked above .whatsapp-widget).
+ * respond.io uses <respond-io-widget> with an open Shadow DOM.
+ * Page CSS cannot style inside the shadow tree — use --tt-respondio-* above.
  */
-
-#respondio__growth_tool {
-  bottom: 90px !important;
-  right: 10px !important;
-}
 
 .whatsapp-button {
   width: 60px;
@@ -81,9 +89,11 @@
 }
 
 @media (max-width: 768px) {
-  .whatsapp-widget {
-    bottom: 20px;
-    right: 20px;
+  :root {
+    --tt-whatsapp-bottom: 20px;
+    --tt-whatsapp-right: 20px;
+    --tt-respondio-bottom: 84px;
+    --tt-respondio-right: 20px;
   }
 
   .whatsapp-button {

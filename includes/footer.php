@@ -355,8 +355,8 @@
     <script src="assets/js/market-ticker.js?v=<?php echo filemtime('assets/js/market-ticker.js'); ?>" defer></script>
     <script src="assets/js/whatsapp-widget.js?v=<?php echo filemtime('assets/js/whatsapp-widget.js'); ?>" defer>
     </script>
-
-
+    <script src="assets/js/respondio-widget.js?v=<?php echo filemtime('assets/js/respondio-widget.js'); ?>" defer>
+    </script>
 
     <!-- WhatsApp Widget -->
     <div class="whatsapp-widget">
@@ -370,10 +370,10 @@
       </a>
     </div>
 
-    <!-- This site is converting visitors into subscribers and customers with https://respond.io -->
+    <!-- respond.io growth widget -->
     <script id="respondio__growth_tool"
       src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907"></script>
-    <!-- https://respond.io -->
+
 
     </body>
 
