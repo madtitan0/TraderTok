@@ -71,7 +71,9 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>window.subdomainData = <?php echo $subdomainJS; ?>;</script>
+    <script>
+    window.subdomainData = <?php echo $subdomainJS; ?>;
+    </script>
     <?php if (!empty($tradertok_extra_geo_main_hosts) && is_array($tradertok_extra_geo_main_hosts)) : ?>
     <script>
     window.TRADERTOK_MAIN_DOMAINS = <?php echo json_encode(array_values($tradertok_extra_geo_main_hosts)); ?>;
@@ -104,13 +106,15 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     <meta property="og:title" content="<?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($ttOgImageUrl, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:site_name" content="<?php echo htmlspecialchars((string) $get->brand_name, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:site_name"
+      content="<?php echo htmlspecialchars((string) $get->brand_name, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="<?php echo htmlspecialchars($ttOgUrl, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:title" content="<?php echo htmlspecialchars((string) $get->title, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta name="twitter:description" content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:description"
+      content="<?php echo htmlspecialchars((string) $get->desc, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($ttTwitterImageUrl, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Google tag (gtag.js) -->
@@ -132,7 +136,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet">
 
-    <link rel="icon" href="<?php echo htmlspecialchars((string) $get->assets_url . '/' . (string) $get->favicon, ENT_QUOTES, 'UTF-8'); ?>" />
+    <link rel="icon"
+      href="<?php echo htmlspecialchars((string) $get->assets_url . '/' . (string) $get->favicon, ENT_QUOTES, 'UTF-8'); ?>" />
     <?php echo (isset($theme) && is_object($theme) && isset($theme->css_files)) ? filterThemeCssFiles($theme->css_files) : ''; ?>
 
     <?php
@@ -157,12 +162,13 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
     ?>
 
     <?php include __DIR__ . '/partials/site-heading-accent-swap.php'; ?>
-       <?php include __DIR__ . '/partials/global-button-pills.php'; ?>
+    <?php include __DIR__ . '/partials/global-button-pills.php'; ?>
 
     <?php echo $get->head_code; ?>
   </head>
 
-  <body class="<?php echo !$page ? 'page-home' : 'page-inner'; ?><?php echo !empty($ttIsNotFound) ? ' page-not-found' : ''; ?>">
+  <body
+    class="<?php echo !$page ? 'page-home' : 'page-inner'; ?><?php echo !empty($ttIsNotFound) ? ' page-not-found' : ''; ?>">
     <!-- Google Tag Manager (noscript) -->
     <?php include 'gtm-body-code.php'; ?>
     <!-- End Google Tag Manager (noscript) -->
@@ -223,6 +229,14 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                       </svg>
                     </span>
                     <span class="mobile-language-name" data-i18n="language.spanish">Español</span>
+                    <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </button>
+                  <button class="mobile-language-item" data-lang="ja" style="display: none;">
+                    <span class="language-flag" style="font-size: 1.25rem;">🇯🇵</span>
+                    <span class="mobile-language-name" data-i18n="language.japanese">日本語</span>
                     <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                       <polyline points="20 6 9 17 4 12"></polyline>
@@ -379,6 +393,10 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                     </svg>
                   </span>
                   <span class="language-name" data-i18n="language.spanish">Español</span>
+                </div>
+                <div class="language-item" data-lang="ja" style="display: none;">
+                  <span class="language-flag" style="font-size: 1.25rem;">🇯🇵</span>
+                  <span class="language-name" data-i18n="language.japanese">日本語</span>
                 </div>
                 <div class="language-item" data-lang="th" style="display: none;">
                   <span class="language-flag" style="font-size: 1.25rem;">🇹🇭</span>
@@ -738,7 +756,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Brazil</span>
                   <span class="country-code">+55</span>
                 </div>
-                <div class="country-item" data-code="+246" data-flag="🇮🇴" data-country="British Indian Ocean Territory">
+                <div class="country-item" data-code="+246" data-flag="🇮🇴"
+                  data-country="British Indian Ocean Territory">
                   <span class="country-flag">🇮🇴</span>
                   <span class="country-name">British Indian Ocean Territory</span>
                   <span class="country-code">+246</span>
@@ -973,7 +992,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">French Polynesia</span>
                   <span class="country-code">+689</span>
                 </div>
-                <div class="country-item" data-code="+262" data-flag="🇹🇫" data-country="French Southern and Antarctic Lands">
+                <div class="country-item" data-code="+262" data-flag="🇹🇫"
+                  data-country="French Southern and Antarctic Lands">
                   <span class="country-flag">🇹🇫</span>
                   <span class="country-name">French Southern and Antarctic Lands</span>
                   <span class="country-code">+262</span>
@@ -1508,7 +1528,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Saint Barthélemy</span>
                   <span class="country-code">+590</span>
                 </div>
-                <div class="country-item" data-code="+290" data-flag="🇸🇭" data-country="Saint Helena, Ascension and Tristan da Cunha">
+                <div class="country-item" data-code="+290" data-flag="🇸🇭"
+                  data-country="Saint Helena, Ascension and Tristan da Cunha">
                   <span class="country-flag">🇸🇭</span>
                   <span class="country-name">Saint Helena, Ascension and Tristan da Cunha</span>
                   <span class="country-code">+290</span>
@@ -1533,7 +1554,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">Saint Pierre and Miquelon</span>
                   <span class="country-code">+508</span>
                 </div>
-                <div class="country-item" data-code="+1" data-flag="🇻🇨" data-country="Saint Vincent and the Grenadines">
+                <div class="country-item" data-code="+1" data-flag="🇻🇨"
+                  data-country="Saint Vincent and the Grenadines">
                   <span class="country-flag">🇻🇨</span>
                   <span class="country-name">Saint Vincent and the Grenadines</span>
                   <span class="country-code">+1</span>
@@ -1763,7 +1785,8 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   <span class="country-name">United States</span>
                   <span class="country-code">+1</span>
                 </div>
-                <div class="country-item" data-code="+268" data-flag="🇺🇲" data-country="United States Minor Outlying Islands">
+                <div class="country-item" data-code="+268" data-flag="🇺🇲"
+                  data-country="United States Minor Outlying Islands">
                   <span class="country-flag">🇺🇲</span>
                   <span class="country-name">United States Minor Outlying Islands</span>
                   <span class="country-code">+268</span>

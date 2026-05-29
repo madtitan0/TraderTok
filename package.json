@@ -19,6 +19,6 @@
   },
   "homepage": "https://bitbucket.org/mblcrmteam/whitelabel-tradertok.com-mobile#readme",
   "dependencies": {
-    "google-translate-api-x": "file:./google-translate-api-x-10.7.2.tgz"
+    "google-translate-api-x": "file:google-translate-api-x-10.7.2.tgz"
   }
 }

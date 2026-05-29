@@ -1317,6 +1317,7 @@ const languageNames = {
   ph: "PH",
   id: "ID",
   pk: "PK",
+  ja: "JA",
 };
 
 function isRegionalLanguageLocked() {

@@ -1,6 +1,6 @@
 /**
  * TraderTok Internationalization Module
- * Supports: English (en), Hindi (hi), Latin American Spanish (es-419)
+ * Supports: English (en), Hindi (hi), Latin American Spanish (es-419), Japanese (ja), and regional locales
  */
 
 (function() {
@@ -9,7 +9,7 @@
     // Configuration
     const CONFIG = {
         defaultLang: 'en',
-        supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk'],
+        supportedLangs: ['en', 'hi', 'es-419', 'it', 'vn', 'th', 'my', 'ph', 'id', 'pk', 'ja'],
         localStorageKey: 'preferredLanguage',
         /** sessionStorage: last locale applied from IP geolocation (region-redirect.js) */
         geoLocaleStorageKey: 'tradertok_geo_locale',
@@ -246,6 +246,11 @@
             try {
                 sessionStorage.removeItem(CONFIG.geoLocaleStorageKey);
             } catch (e) {}
+            // Reload locale JSON so updated translation files apply without full page refresh
+            delete translationsCache[lang];
+            if (lang !== CONFIG.defaultLang) {
+                delete translationsCache[CONFIG.defaultLang];
+            }
         }
 
         // Load translations if not cached
@@ -310,6 +315,8 @@
                 currentLang = 'hi';
             } else if (browserLang.startsWith('es')) {
                 currentLang = 'es-419';
+            } else if (browserLang.startsWith('ja')) {
+                currentLang = 'ja';
             } else {
                 currentLang = CONFIG.defaultLang;
             }

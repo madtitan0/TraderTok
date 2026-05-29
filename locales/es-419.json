@@ -73,7 +73,8 @@
     "malay": "Bahasa Melayu",
     "indonesian": "Bahasa Indonesia",
     "tagalog": "Tagalog",
-    "urdu": "اردو"
+    "urdu": "اردو",
+    "japanese": "日本語"
   },
   "auth": {
     "signIn": "Iniciar Sesión",
@@ -2251,6 +2252,47 @@
           "cta": "Su gerente",
           "ctaLink": "./?page=claim-offer"
         }
+      ],
+      "singapore": [
+        {
+          "badge": "Welcome Bonus",
+          "title": "100% Deposit Bonus for Singapore Traders",
+          "description": "Double your first deposit with our welcome offer tailored for traders in Singapore. Fund your account and trade global markets with extra margin.",
+          "details": [
+            "Min. deposit $100",
+            "Max. bonus $5,000",
+            "Valid for 30 days",
+            "T&C apply"
+          ],
+          "cta": "Claim Offer",
+          "ctaLink": "./?page=claim-offer"
+        },
+        {
+          "badge": "ECN Pricing",
+          "title": "Raw Spreads from 0.0 Pips",
+          "description": "Access institutional-grade ECN liquidity with ultra-tight spreads on majors and metals—ideal for active traders who demand precision execution.",
+          "details": [
+            "From 0.0 pips raw",
+            "Deep liquidity",
+            "Fast fills",
+            "Transparent pricing"
+          ],
+          "cta": "Open ECN Account",
+          "ctaLink": "./?page=claim-offer"
+        },
+        {
+          "badge": "Refer a Friend",
+          "title": "Earn Rewards for Every Successful Referral",
+          "description": "Invite friends in Singapore to trade with TraderTok and earn referral rewards when they open and fund a live account.",
+          "details": [
+            "Competitive referral payouts",
+            "No hard cap",
+            "Friend welcome perks",
+            "Tracking in your portal"
+          ],
+          "cta": "Start Referring",
+          "ctaLink": "./?page=claim-offer"
+        }
       ]
     },
     "offersOne": "1 oferta",
@@ -2273,7 +2315,8 @@
       "nigeria": "Nigeria",
       "south-africa": "Sudáfrica",
       "trinidad-tobago": "Trinidad y Tobago",
-      "guyana": "Guyana"
+      "guyana": "Guyana",
+      "singapore": "Singapore"
     },
     "meta": {
       "pageTitle": "Ofertas y promociones | TraderTok",
@@ -2408,7 +2451,11 @@
     "copyright-extra": "Este sitio web es operado por Amber Rock Trade Ltd.",
     "riskWarning": "Advertencia de riesgo:",
     "riskWarningText": "El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada.",
-    "riskWarningHtml": "<strong>Advertencia de riesgo:</strong> El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada."
+    "riskWarningHtml": "<strong>Advertencia de riesgo:</strong> El trading de instrumentos financieros derivados, incluidos los CFD y otros productos apalancados, conlleva un alto nivel de riesgo y puede no ser adecuado para todos los inversionistas. Puede perder la totalidad o más de su inversión inicial. El trading está sujeto a la volatilidad del mercado, riesgo de apalancamiento y otros riesgos. Solo debe operar con fondos que pueda permitirse perder. Antes de realizar actividades de trading, asegúrese de comprender completamente los riesgos involucrados, sus objetivos financieros y su nivel de experiencia. Si es necesario, busque asesoramiento profesional independiente. Consulte nuestra Declaración completa de Divulgación de Riesgos para obtener información detallada.",
+    "subbarCopyrightRest": "TraderTok / Amber Rock Trade Ltd. All rights reserved.",
+    "platformMt4": "MetaTrader 4",
+    "platformMt5": "MetaTrader 5",
+    "platformWebTrader": "Web Trader"
   },
   "common": {
     "loading": "Cargando...",
@@ -3062,7 +3109,8 @@
     "ctaBandTitle": "¿Listo para practicar o operar en real?",
     "ctaBandSubtitle": "Complete los formularios de registro breves en las páginas siguientes. Los envíos son simulados hasta que conecte su CRM o API de incorporación.",
     "ctaBandDemo": "Abrir cuenta demo",
-    "ctaBandLive": "Abrir cuenta real"
+    "ctaBandLive": "Abrir cuenta real",
+    "ctaAccessContent": "Access content"
   },
   "eventsCalendarPage": {
     "pageTitle": "Calendario de Eventos - TraderTok | Eventos de Mercado Importantes",
@@ -4314,5 +4362,29 @@
       "pageTitle": "TraderTok Club | TraderTok",
       "pageDescription": "Programa de fidelización TraderTok Club: beneficios por niveles de Plata a Diamante, herramientas premium, soporte dedicado y oportunidades exclusivas para clientes elegibles."
     }
+  },
+  "eduLeadGate": {
+    "modeSwitchAria": "Sign up or sign in",
+    "tabSignUp": "Sign up",
+    "tabSignIn": "Sign in",
+    "title": "Access TraderTok Academy",
+    "subtitle": "Sign in or sign up to continue. After sign in, you can move between the eight Education Hub sections in this tab without being asked again until you close the tab. Course lessons and sign up still use the gate as before. Educational content only.",
+    "signUpNote": "Submissions are simulated until you connect your CRM or auth API. Name and email are used for lead capture; consent supports compliance.",
+    "signInNote": "Sign-in is simulated until your authentication API is connected. Use any password with 6+ characters for testing.",
+    "labelName": "Full name",
+    "labelEmail": "Email address",
+    "labelPassword": "Password",
+    "placeholderName": "Your name",
+    "placeholderEmail": "you@example.com",
+    "placeholderPassword": "Enter your password",
+    "consentHtml": "I agree to receive educational content and Academy updates, and I have read the <a href=\"./privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Privacy Policy</a>.",
+    "submitSignUp": "Create account & continue",
+    "submitSignIn": "Sign in & continue",
+    "submitBusy": "Continuing…",
+    "errName": "Please enter your full name.",
+    "errEmail": "Please enter a valid email address.",
+    "errPassword": "Please enter a password (at least 6 characters).",
+    "errConsent": "Please accept the Privacy Policy to continue.",
+    "errGeneric": "Something went wrong. Please try again."
   }
 }
