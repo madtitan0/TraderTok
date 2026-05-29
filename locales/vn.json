@@ -3525,6 +3525,31 @@
     "meta": {
       "pageTitle": "Ưu đãi & khuyến mại | TraderTok",
       "pageDescription": "Khám phá khuyến mại theo khu vực và cơ hội giao dịch độc quyền dành cho trader tại khu vực của bạn."
+    },
+    "navDropdown": {
+      "viewAll": "Xem tất cả ưu đãi →",
+      "groups": {
+        "asiaPacific": "Châu Á – Thái Bình Dương",
+        "africa": "Châu Phi",
+        "americas": "Châu Mỹ"
+      },
+      "summaries": {
+        "vietnam": "Tiền thưởng nạp lên đến 100%",
+        "thailand": "Thưởng 75% + Tín hiệu miễn phí",
+        "malaysia": "Thưởng 100% + Swap 0",
+        "philippines": "Thưởng 100% + Cuộc thi $10K",
+        "indonesia": "Thưởng 50% + Tài khoản Hồi giáo",
+        "singapore": "Thưởng 100% + Spread ECN",
+        "pakistan": "Thưởng 100% + Swap 0",
+        "namibia": "Thưởng 75% + Thanh toán địa phương",
+        "kenya": "Thưởng 100% + M-Pesa thêm 15%",
+        "ghana": "Thưởng 50% + Hoàn tiền 4%",
+        "nigeria": "Thưởng 100% + Nạp Naira thêm",
+        "south-africa": "Thưởng 75% + Tài khoản ZAR",
+        "latam": "Thưởng 100% + Giải $15K",
+        "trinidad-tobago": "Thưởng 100% + Chương trình thân thiết",
+        "guyana": "Thưởng 75% + Quản lý riêng"
+      }
     }
   },
   "privacyPolicyPage": {

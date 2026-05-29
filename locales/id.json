@@ -3525,6 +3525,31 @@
     "meta": {
       "pageTitle": "Penawaran & Promosi | TraderTok",
       "pageDescription": "Temukan promosi khusus wilayah dan peluang trading eksklusif untuk trader di wilayah Anda."
+    },
+    "navDropdown": {
+      "viewAll": "Lihat Semua Penawaran →",
+      "groups": {
+        "asiaPacific": "Asia Pasifik",
+        "africa": "Afrika",
+        "americas": "Amerika"
+      },
+      "summaries": {
+        "vietnam": "Bonus deposit hingga 100%",
+        "thailand": "Bonus 75% + Sinyal gratis",
+        "malaysia": "Bonus 100% + Swap nol",
+        "philippines": "Bonus 100% + Kompetisi $10K",
+        "indonesia": "Bonus 50% + Akun Islami",
+        "singapore": "Bonus 100% + Spread ECN",
+        "pakistan": "Bonus 100% + Swap nol",
+        "namibia": "Bonus 75% + Pembayaran lokal",
+        "kenya": "Bonus 100% + M-Pesa ekstra 15%",
+        "ghana": "Bonus 50% + Cashback 4%",
+        "nigeria": "Bonus 100% + Deposit Naira ekstra",
+        "south-africa": "Bonus 75% + Akun ZAR",
+        "latam": "Bonus 100% + Kejuaraan $15K",
+        "trinidad-tobago": "Bonus 100% + Program loyalitas",
+        "guyana": "Bonus 75% + Manajer pribadi"
+      }
     }
   },
   "privacyPolicyPage": {

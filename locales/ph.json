@@ -3525,6 +3525,31 @@
     "meta": {
       "pageTitle": "Mga Offer at Promosyon | TraderTok",
       "pageDescription": "Tuklasin ang mga promosyon ayon sa rehiyon at eksklusibong trading opportunities para sa mga trader sa iyong lugar."
+    },
+    "navDropdown": {
+      "viewAll": "Tingnan Lahat ng Offer →",
+      "groups": {
+        "asiaPacific": "Asia Pacific",
+        "africa": "Africa",
+        "americas": "Americas"
+      },
+      "summaries": {
+        "vietnam": "Hanggang 100% deposit bonus",
+        "thailand": "75% bonus + libreng signals",
+        "malaysia": "100% bonus + zero swap",
+        "philippines": "100% bonus + $10K competition",
+        "indonesia": "50% bonus + Islamic account",
+        "singapore": "100% bonus + ECN spreads",
+        "pakistan": "100% bonus + zero swap",
+        "namibia": "75% bonus + local payment extra",
+        "kenya": "100% bonus + M-Pesa 15% extra",
+        "ghana": "50% bonus + 4% cashback",
+        "nigeria": "100% bonus + Naira deposit extra",
+        "south-africa": "75% bonus + ZAR account",
+        "latam": "100% bono + $15K championship",
+        "trinidad-tobago": "100% bonus + loyalty program",
+        "guyana": "75% bonus + personal manager"
+      }
     }
   },
   "privacyPolicyPage": {

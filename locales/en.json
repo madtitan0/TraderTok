@@ -2381,6 +2381,31 @@
     "meta": {
       "pageTitle": "Offers & Promotions | TraderTok",
       "pageDescription": "Discover region-specific promotions and exclusive trading opportunities tailored for traders in your area."
+    },
+    "navDropdown": {
+      "viewAll": "View All Offers →",
+      "groups": {
+        "asiaPacific": "Asia Pacific",
+        "africa": "Africa",
+        "americas": "Americas"
+      },
+      "summaries": {
+        "vietnam": "Up to 100% Deposit Bonus",
+        "thailand": "75% Bonus + Free Signals",
+        "malaysia": "100% Bonus + Zero Swap",
+        "philippines": "100% Bonus + $10K Competition",
+        "indonesia": "50% Bonus + Islamic Account",
+        "singapore": "100% Bonus + ECN Spreads",
+        "pakistan": "100% Bonus + Zero Swap",
+        "namibia": "75% Bonus + Local Payment Extra",
+        "kenya": "100% Bonus + M-Pesa 15% Extra",
+        "ghana": "50% Bonus + 4% Cashback",
+        "nigeria": "100% Bonus + Naira Deposit Extra",
+        "south-africa": "75% Bonus + ZAR Account",
+        "latam": "100% Bono + $15K Championship",
+        "trinidad-tobago": "100% Bonus + Loyalty Program",
+        "guyana": "75% Bonus + Personal Manager"
+      }
     }
   },
   "privacyPolicyPage": {

@@ -1,0 +1,227 @@
+{
+  "en": {
+    "viewAll": "View All Offers →",
+    "groups": {
+      "asiaPacific": "Asia Pacific",
+      "africa": "Africa",
+      "americas": "Americas"
+    },
+    "summaries": {
+      "vietnam": "Up to 100% Deposit Bonus",
+      "thailand": "75% Bonus + Free Signals",
+      "malaysia": "100% Bonus + Zero Swap",
+      "philippines": "100% Bonus + $10K Competition",
+      "indonesia": "50% Bonus + Islamic Account",
+      "singapore": "100% Bonus + ECN Spreads",
+      "pakistan": "100% Bonus + Zero Swap",
+      "namibia": "75% Bonus + Local Payment Extra",
+      "kenya": "100% Bonus + M-Pesa 15% Extra",
+      "ghana": "50% Bonus + 4% Cashback",
+      "nigeria": "100% Bonus + Naira Deposit Extra",
+      "south-africa": "75% Bonus + ZAR Account",
+      "latam": "100% Bono + $15K Championship",
+      "trinidad-tobago": "100% Bonus + Loyalty Program",
+      "guyana": "75% Bonus + Personal Manager"
+    }
+  },
+  "ja": {
+    "viewAll": "すべてのオファーを見る →",
+    "groups": {
+      "asiaPacific": "アジア太平洋",
+      "africa": "アフリカ",
+      "americas": "アメリカ大陸"
+    },
+    "summaries": {
+      "vietnam": "最大100%入金ボーナス",
+      "thailand": "75%ボーナス + 無料シグナル",
+      "malaysia": "100%ボーナス + スワップ0",
+      "philippines": "100%ボーナス + $10Kコンペ",
+      "indonesia": "50%ボーナス + イスラム口座",
+      "singapore": "100%ボーナス + ECNスプレッド",
+      "pakistan": "100%ボーナス + スワップ0",
+      "namibia": "75%ボーナス + 現地決済追加特典",
+      "kenya": "100%ボーナス + M-Pesa 15%追加",
+      "ghana": "50%ボーナス + 4%キャッシュバック",
+      "nigeria": "100%ボーナス + ナイラ入金追加特典",
+      "south-africa": "75%ボーナス + ZAR口座",
+      "latam": "100%ボーナス + $15Kチャンピオンシップ",
+      "trinidad-tobago": "100%ボーナス + ロイヤルティプログラム",
+      "guyana": "75%ボーナス + 専任マネージャー"
+    }
+  },
+  "vn": {
+    "viewAll": "Xem tất cả ưu đãi →",
+    "groups": {
+      "asiaPacific": "Châu Á – Thái Bình Dương",
+      "africa": "Châu Phi",
+      "americas": "Châu Mỹ"
+    },
+    "summaries": {
+      "vietnam": "Tiền thưởng nạp lên đến 100%",
+      "thailand": "Thưởng 75% + Tín hiệu miễn phí",
+      "malaysia": "Thưởng 100% + Swap 0",
+      "philippines": "Thưởng 100% + Cuộc thi $10K",
+      "indonesia": "Thưởng 50% + Tài khoản Hồi giáo",
+      "singapore": "Thưởng 100% + Spread ECN",
+      "pakistan": "Thưởng 100% + Swap 0",
+      "namibia": "Thưởng 75% + Thanh toán địa phương",
+      "kenya": "Thưởng 100% + M-Pesa thêm 15%",
+      "ghana": "Thưởng 50% + Hoàn tiền 4%",
+      "nigeria": "Thưởng 100% + Nạp Naira thêm",
+      "south-africa": "Thưởng 75% + Tài khoản ZAR",
+      "latam": "Thưởng 100% + Giải $15K",
+      "trinidad-tobago": "Thưởng 100% + Chương trình thân thiết",
+      "guyana": "Thưởng 75% + Quản lý riêng"
+    }
+  },
+  "th": {
+    "viewAll": "ดูข้อเสนอทั้งหมด →",
+    "groups": {
+      "asiaPacific": "เอเชียแปซิฟิก",
+      "africa": "แอฟริกา",
+      "americas": "อเมริกา"
+    },
+    "summaries": {
+      "vietnam": "โบนัสฝากสูงสุด 100%",
+      "thailand": "โบนัส 75% + สัญญาณฟรี",
+      "malaysia": "โบนัส 100% + Swap 0",
+      "philippines": "โบนัส 100% + แข่งขัน $10K",
+      "indonesia": "โบนัส 50% + บัญชีอิสลาม",
+      "singapore": "โบนัส 100% + สเปรด ECN",
+      "pakistan": "โบนัส 100% + Swap 0",
+      "namibia": "โบนัส 75% + ชำระเงินท้องถิ่น",
+      "kenya": "โบนัส 100% + M-Pesa เพิ่ม 15%",
+      "ghana": "โบนัส 50% + คืนเงิน 4%",
+      "nigeria": "โบนัส 100% + ฝาก Naira เพิ่ม",
+      "south-africa": "โบนัส 75% + บัญชี ZAR",
+      "latam": "โบนัส 100% + แชมป์เปียนชิพ $15K",
+      "trinidad-tobago": "โบนัส 100% + โปรแกรมสะสมแต้ม",
+      "guyana": "โบนัส 75% + ผู้จัดการส่วนตัว"
+    }
+  },
+  "id": {
+    "viewAll": "Lihat Semua Penawaran →",
+    "groups": {
+      "asiaPacific": "Asia Pasifik",
+      "africa": "Afrika",
+      "americas": "Amerika"
+    },
+    "summaries": {
+      "vietnam": "Bonus deposit hingga 100%",
+      "thailand": "Bonus 75% + Sinyal gratis",
+      "malaysia": "Bonus 100% + Swap nol",
+      "philippines": "Bonus 100% + Kompetisi $10K",
+      "indonesia": "Bonus 50% + Akun Islami",
+      "singapore": "Bonus 100% + Spread ECN",
+      "pakistan": "Bonus 100% + Swap nol",
+      "namibia": "Bonus 75% + Pembayaran lokal",
+      "kenya": "Bonus 100% + M-Pesa ekstra 15%",
+      "ghana": "Bonus 50% + Cashback 4%",
+      "nigeria": "Bonus 100% + Deposit Naira ekstra",
+      "south-africa": "Bonus 75% + Akun ZAR",
+      "latam": "Bonus 100% + Kejuaraan $15K",
+      "trinidad-tobago": "Bonus 100% + Program loyalitas",
+      "guyana": "Bonus 75% + Manajer pribadi"
+    }
+  },
+  "my": {
+    "viewAll": "Lihat Semua Tawaran →",
+    "groups": {
+      "asiaPacific": "Asia Pasifik",
+      "africa": "Afrika",
+      "americas": "Amerika"
+    },
+    "summaries": {
+      "vietnam": "Bonus deposit sehingga 100%",
+      "thailand": "Bonus 75% + Isyarat percuma",
+      "malaysia": "Bonus 100% + Swap sifar",
+      "philippines": "Bonus 100% + Pertandingan $10K",
+      "indonesia": "Bonus 50% + Akaun Islam",
+      "singapore": "Bonus 100% + Spread ECN",
+      "pakistan": "Bonus 100% + Swap sifar",
+      "namibia": "Bonus 75% + Bayaran tempatan",
+      "kenya": "Bonus 100% + M-Pesa tambahan 15%",
+      "ghana": "Bonus 50% + Pulangan tunai 4%",
+      "nigeria": "Bonus 100% + Deposit Naira tambahan",
+      "south-africa": "Bonus 75% + Akaun ZAR",
+      "latam": "Bonus 100% + Kejohanan $15K",
+      "trinidad-tobago": "Bonus 100% + Program kesetiaan",
+      "guyana": "Bonus 75% + Pengurus peribadi"
+    }
+  },
+  "ph": {
+    "viewAll": "Tingnan Lahat ng Offer →",
+    "groups": {
+      "asiaPacific": "Asia Pacific",
+      "africa": "Africa",
+      "americas": "Americas"
+    },
+    "summaries": {
+      "vietnam": "Hanggang 100% deposit bonus",
+      "thailand": "75% bonus + libreng signals",
+      "malaysia": "100% bonus + zero swap",
+      "philippines": "100% bonus + $10K competition",
+      "indonesia": "50% bonus + Islamic account",
+      "singapore": "100% bonus + ECN spreads",
+      "pakistan": "100% bonus + zero swap",
+      "namibia": "75% bonus + local payment extra",
+      "kenya": "100% bonus + M-Pesa 15% extra",
+      "ghana": "50% bonus + 4% cashback",
+      "nigeria": "100% bonus + Naira deposit extra",
+      "south-africa": "75% bonus + ZAR account",
+      "latam": "100% bono + $15K championship",
+      "trinidad-tobago": "100% bonus + loyalty program",
+      "guyana": "75% bonus + personal manager"
+    }
+  },
+  "pk": {
+    "viewAll": "تمام آفرز دیکھیں →",
+    "groups": {
+      "asiaPacific": "ایشیا پیسیفک",
+      "africa": "افریقہ",
+      "americas": "امریکہ"
+    },
+    "summaries": {
+      "vietnam": "100% تک ڈپازٹ بونس",
+      "thailand": "75% بونس + مفت سگنلز",
+      "malaysia": "100% بونس + زیرو سواپ",
+      "philippines": "100% بونس + $10K مقابلہ",
+      "indonesia": "50% بونس + اسلامی اکاؤنٹ",
+      "singapore": "100% بونس + ECN اسپریڈ",
+      "pakistan": "100% بونس + زیرو سواپ",
+      "namibia": "75% بونس + مقامی ادائیگی اضافی",
+      "kenya": "100% بونس + M-Pesa 15% اضافی",
+      "ghana": "50% بونس + 4% کیش بیک",
+      "nigeria": "100% بونس + نائرہ ڈپازٹ اضافی",
+      "south-africa": "75% بونس + ZAR اکاؤنٹ",
+      "latam": "100% بونس + $15K چیمپئن شپ",
+      "trinidad-tobago": "100% بونس + لائلٹی پروگرام",
+      "guyana": "75% بونس + ذاتی مینیجر"
+    }
+  },
+  "es-419": {
+    "viewAll": "Ver todas las ofertas →",
+    "groups": {
+      "asiaPacific": "Asia Pacífico",
+      "africa": "África",
+      "americas": "Américas"
+    },
+    "summaries": {
+      "vietnam": "Hasta 100% de bono por depósito",
+      "thailand": "75% bono + señales gratis",
+      "malaysia": "100% bono + swap cero",
+      "philippines": "100% bono + competencia $10K",
+      "indonesia": "50% bono + cuenta islámica",
+      "singapore": "100% bono + spreads ECN",
+      "pakistan": "100% bono + swap cero",
+      "namibia": "75% bono + pago local extra",
+      "kenya": "100% bono + M-Pesa 15% extra",
+      "ghana": "50% bono + 4% cashback",
+      "nigeria": "100% bono + depósito en naira extra",
+      "south-africa": "75% bono + cuenta ZAR",
+      "latam": "100% bono + campeonato $15K",
+      "trinidad-tobago": "100% bono + programa de lealtad",
+      "guyana": "75% bono + gestor personal"
+    }
+  }
+}

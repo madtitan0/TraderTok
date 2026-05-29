@@ -234,8 +234,13 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                       <polyline points="20 6 9 17 4 12"></polyline>
                     </svg>
                   </button>
-                  <button class="mobile-language-item" data-lang="ja" style="display: none;">
-                    <span class="language-flag" style="font-size: 1.25rem;">🇯🇵</span>
+                  <button class="mobile-language-item" data-lang="ja">
+                    <span class="language-flag">
+                      <svg class="flag-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+                        <rect width="640" height="480" fill="#ffffff" />
+                        <circle cx="320" cy="240" r="120" fill="#bc002d" />
+                      </svg>
+                    </span>
                     <span class="mobile-language-name" data-i18n="language.japanese">日本語</span>
                     <svg class="mobile-language-check" width="18" height="18" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
@@ -394,8 +399,13 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
                   </span>
                   <span class="language-name" data-i18n="language.spanish">Español</span>
                 </div>
-                <div class="language-item" data-lang="ja" style="display: none;">
-                  <span class="language-flag" style="font-size: 1.25rem;">🇯🇵</span>
+                <div class="language-item" data-lang="ja">
+                  <span class="language-flag" style="font-size: 1.25rem;">
+                    <svg class="flag-icon" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="640" height="480" fill="#ffffff" />
+                      <circle cx="320" cy="240" r="120" fill="#bc002d" />
+                    </svg>
+                  </span>
                   <span class="language-name" data-i18n="language.japanese">日本語</span>
                 </div>
                 <div class="language-item" data-lang="th" style="display: none;">

@@ -18,6 +18,7 @@ const LANG_MAP = [
   { file: "en.json", promoKey: "en" },
   { file: "es-419.json", promoKey: "es-419" },
   { file: "id.json", promoKey: "id" },
+  { file: "ja.json", promoKey: "en", uiKey: "ja" },
   { file: "my.json", promoKey: "my" },
   { file: "ph.json", promoKey: "ph" },
   { file: "pk.json", promoKey: "pk" },
@@ -42,12 +43,27 @@ function deepMergeOffersPageUi(target, ui) {
   });
 }
 
+function mergeNavDropdown(target, nav) {
+  if (!nav || typeof nav !== "object") return;
+  target.navDropdown = target.navDropdown || {};
+  if (nav.viewAll != null) target.navDropdown.viewAll = nav.viewAll;
+  if (nav.groups && typeof nav.groups === "object") {
+    target.navDropdown.groups = target.navDropdown.groups || {};
+    Object.assign(target.navDropdown.groups, nav.groups);
+  }
+  if (nav.summaries && typeof nav.summaries === "object") {
+    target.navDropdown.summaries = target.navDropdown.summaries || {};
+    Object.assign(target.navDropdown.summaries, nav.summaries);
+  }
+}
+
 const uiAll = JSON.parse(fs.readFileSync(path.join(dataDir, "offers-page-ui.json"), "utf8"));
+const navAll = JSON.parse(fs.readFileSync(path.join(dataDir, "nav-dropdown-ui.json"), "utf8"));
 
 const enPromoPath = path.join(dataDir, "promotions.en.json");
 const enPromo = JSON.parse(fs.readFileSync(enPromoPath, "utf8"));
 
-for (const { file, promoKey } of LANG_MAP) {
+for (const { file, promoKey, uiKey } of LANG_MAP) {
   const localePath = path.join(localesDir, file);
   const j = JSON.parse(fs.readFileSync(localePath, "utf8"));
 
@@ -62,8 +78,12 @@ for (const { file, promoKey } of LANG_MAP) {
   }
   j.offersPage.promotions = promotions;
 
-  const ui = uiAll[promoKey] || uiAll.en;
+  const uiLangKey = uiKey || promoKey;
+  const ui = uiAll[uiLangKey] || uiAll.en;
   deepMergeOffersPageUi(j.offersPage, ui);
+
+  const nav = navAll[uiLangKey] || navAll.en;
+  mergeNavDropdown(j.offersPage, nav);
 
   fs.writeFileSync(localePath, JSON.stringify(j, null, 2) + "\n", "utf8");
   console.log("updated offersPage in", file);
