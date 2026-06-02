@@ -2681,7 +2681,13 @@
     "downloadForIos": "Download for iOS",
     "downloadForAndroid": "Download for Android",
     "downloadForWindows": "Download for Windows",
-    "downloadForMac": "Download for Mac"
+    "downloadForMac": "Download for Mac",
+    "traderTokSectionTitle": "TraderTok App",
+    "mt5SectionTitle": "MetaTrader 5",
+    "mt5SectionSubtitle": "Download MT5 for desktop and mobile, or trade instantly in your browser.",
+    "downloadMt5ForIos": "Download MT5 for iOS",
+    "downloadMt5ForAndroid": "Download MT5 for Android",
+    "downloadMt5ForWindows": "Download MT5 for Windows"
   },
   "contactUsPage": {
     "pageTitle": "Contact Us - TraderTok | Get in Touch",

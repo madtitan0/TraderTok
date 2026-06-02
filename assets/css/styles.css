@@ -2458,12 +2458,146 @@ body.light-theme .platforms-section .platforms-subtitle {
   max-width: min(100%, 280px);
 }
 
+.trading-platforms-hero {
+  padding: 140px 0 48px;
+  background: var(--bg-primary);
+}
+
+.trading-platforms-hero__inner {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trading-platforms-hero__title {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--brand-color-start);
+  margin-bottom: 32px;
+}
+
+.trading-platforms-hero__typewriter {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  min-width: min(300px, 100%);
+  display: inline-block;
+  text-align: left;
+}
+
+.trading-platforms-hero__subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto 32px;
+}
+
+.trading-platforms-hero__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.trading-platforms-block {
+  padding: 0 0 80px;
+  background: var(--bg-primary);
+}
+
+.trading-platforms-block--mt5 {
+  padding-top: 24px;
+  padding-bottom: 100px;
+  border-top: 1px solid var(--border-color);
+}
+
+.trading-platforms-block__header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 48px;
+}
+
+.trading-platforms-block__mt5-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px;
+  object-fit: contain;
+}
+
+.trading-platforms-block__title {
+  margin: 0 0 12px;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.trading-platforms-block__subtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.trading-platforms-block__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.trading-platform-card__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 48px;
+  color: var(--text-primary);
+}
+
+.trading-platform-card__device {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  text-align: right;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.trading-platform-card__device--desktop {
+  width: 80%;
+}
+
+.trading-platform-card__mt5-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.trading-platform-card__mt5-icon--lg {
+  width: 80px;
+  height: 80px;
+}
+
 .trading-platform-card__platform-row {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .trading-platforms-block__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trading-platform-card[style*="height: 600px"] {
+    height: auto !important;
+    min-height: 520px;
+  }
 }
 
 .trading-platform-card__platform-row .btn-platform {

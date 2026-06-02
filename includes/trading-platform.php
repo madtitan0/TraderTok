@@ -1,16 +1,16 @@
+<?php $mt5PlatformLinks = require __DIR__ . '/config/mt5-platform-links.php'; ?>
 
-    <!-- Platform Cards Section -->
-    <section style="padding: 140px 0 100px; background: var(--bg-primary);">
+    <!-- Hero -->
+    <section class="trading-platforms-hero">
         <div class="container">
-            <!-- Typewriter Title -->
-            <div style="text-align: center; max-width: 1200px; margin: 0 auto 32px;">
-                <h2 class="trading-platform-hero-title" style="font-size: clamp(2.5rem, 4vw, 3.5rem); font-weight: 700; line-height: 1.2; color: var(--brand-color-start); margin-bottom: 32px;">
-                    <span data-i18n="tradingPlatformsPage.heroTitle">Trade</span> <span id="typewriter" style="background: var(--brand-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; min-width: min(300px, 100%); display: inline-block; text-align: left;"></span>
+            <div class="trading-platforms-hero__inner">
+                <h2 class="trading-platform-hero-title trading-platforms-hero__title">
+                    <span data-i18n="tradingPlatformsPage.heroTitle">Trade</span> <span id="typewriter" class="trading-platforms-hero__typewriter"></span>
                 </h2>
-                <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.8; max-width: 900px; margin: 0 auto 80px;" data-i18n="tradingPlatformsPage.heroSubtitle">
+                <p class="trading-platforms-hero__subtitle" data-i18n="tradingPlatformsPage.heroSubtitle">
                     At TraderTok, we believe technology should empower, not complicate. That's why we built platforms that give you full control of your trading experience, whether you're at your desk or on the move.
                 </p>
-                <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin:0 0 48px;">
+                <div class="trading-platforms-hero__actions">
                     <a href="<?php echo htmlspecialchars(routeUrl('open-live-account')); ?>" class="btn-primary" style="text-decoration:none;">
                         Open Live Account
                     </a>
@@ -19,15 +19,20 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; max-width: 1400px; margin: 0 auto;">
+    <!-- TraderTok app downloads (original) -->
+    <section class="trading-platforms-block" aria-labelledby="trading-platforms-tradertok-heading">
+        <div class="container">
+            <header class="trading-platforms-block__header">
+                <h2 id="trading-platforms-tradertok-heading" class="trading-platforms-block__title" data-i18n="tradingPlatformsPage.traderTokSectionTitle">TraderTok App</h2>
+            </header>
 
-                <!-- Mobile Card -->
-                <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;">
-                    <!-- Content Wrapper with z-index -->
+            <div class="trading-platforms-block__grid">
+                <div class="trading-platform-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;">
                     <div style="position: relative; z-index: 2;">
-                        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 48px; color: var(--text-primary);" data-i18n="tradingPlatformsPage.mobilePlatform">Mobile Platform</h2>
-
+                        <h3 class="trading-platform-card__title" data-i18n="tradingPlatformsPage.mobilePlatform">Mobile Platform</h3>
                         <div class="trading-platform-card__platforms">
                             <div class="trading-platform-card__platform-row">
                                 <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
@@ -50,18 +55,14 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Mobile Device Image -->
-                    <div style="position: absolute; bottom: 0; right: 0; width: 70%; text-align: right; z-index: 1;">
-                        <img src="assets/images/Iphone - platforms2.png" alt="TraderTok Mobile Platform on iPhone" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
+                    <div class="trading-platform-card__device" aria-hidden="true">
+                        <img src="assets/images/Iphone - platforms2.png" alt="" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
                     </div>
                 </div>
 
-                <!-- Desktop Card -->
-                <div style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;" class="desktop-platform-card">
+                <div class="trading-platform-card desktop-platform-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;">
                     <div style="position: relative; z-index: 2;">
-                        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 48px; color: var(--text-primary);" data-i18n="tradingPlatformsPage.webDesktop">Web & Desktop</h2>
-
+                        <h3 class="trading-platform-card__title" data-i18n="tradingPlatformsPage.webDesktop">Web &amp; Desktop</h3>
                         <div class="trading-platform-card__platforms">
                             <div class="trading-platform-card__platform-row">
                                 <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true" class="platform-icon">
@@ -69,7 +70,7 @@
                                         <path fill="currentColor" d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.529l.028 34.453L.028 75.48.026 45.7zm4.326-39.025L87.314 0v41.527l-47.318.376zm47.329 39.349l-.011 41.34-47.318-6.678-.066-34.739z"/>
                                     </g>
                                 </svg>
-                                <a href="https://tradertok.com/download/win.zip" class="btn-platform btn-platform-primary" style="text-decoration: none;">
+                                <a href="https://tradertok.com/download/win.zip" class="btn-platform btn-platform-primary" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
                                     <span data-i18n="tradingPlatformsPage.downloadForWindows">Download for Windows</span>
                                 </a>
                             </div>
@@ -79,20 +80,75 @@
                                         <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                                     </g>
                                 </svg>
-                                <a href="https://tradertok.com/download/mac.zip" class="btn-platform btn-platform-outline" style="text-decoration: none;">
+                                <a href="https://tradertok.com/download/mac.zip" class="btn-platform btn-platform-outline" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
                                     <span data-i18n="tradingPlatformsPage.downloadForMac">Download for Mac</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <!-- Desktop Device Image -->
-                    <div style="position: absolute; bottom: 0; right: 0; width: 80%; text-align: right;">
-                        <img src="assets/images/laptop_platforms.png" alt="TraderTok Desktop Platform on Laptop" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
-                        <!-- Desktop Chart Image - you'll need to add desktop_chart.png to assets/images/ -->
-                        <!-- <img src="../assets/images/desktop_chart.png" alt="Desktop Trading Chart" style="position: absolute; top: 38%; left: 45%; width: 220px; height: 130px; transform: translate(-50%, -50%) perspective(800px) rotateY(-22deg) rotateX(-12deg); object-fit: cover;"> -->
+                    <div class="trading-platform-card__device trading-platform-card__device--desktop" aria-hidden="true">
+                        <img src="assets/images/laptop_platforms.png" alt="" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MetaTrader 5 downloads -->
+    <section class="trading-platforms-block trading-platforms-block--mt5" aria-labelledby="trading-platforms-mt5-heading">
+        <div class="container">
+            <header class="trading-platforms-block__header">
+                <img src="assets/images/mt5.png" alt="" class="trading-platforms-block__mt5-logo" width="48" height="48">
+                <h2 id="trading-platforms-mt5-heading" class="trading-platforms-block__title" data-i18n="tradingPlatformsPage.mt5SectionTitle">MetaTrader 5</h2>
+                <p class="trading-platforms-block__subtitle" data-i18n="tradingPlatformsPage.mt5SectionSubtitle">Download MT5 for desktop and mobile, or trade instantly in your browser.</p>
+            </header>
+
+            <div class="trading-platforms-block__grid">
+                <div class="trading-platform-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;">
+                    <div style="position: relative; z-index: 2;">
+                        <h3 class="trading-platform-card__title" data-i18n="tradingPlatformsPage.mobilePlatform">Mobile Platform</h3>
+                        <div class="trading-platform-card__platforms">
+                            <div class="trading-platform-card__platform-row">
+                                <img src="assets/images/mt5.png" alt="" width="80" height="80" class="platform-icon trading-platform-card__mt5-icon trading-platform-card__mt5-icon--lg">
+                                <a href="<?php echo htmlspecialchars($mt5PlatformLinks['mobile_ios'], ENT_QUOTES, 'UTF-8'); ?>" class="btn-platform btn-platform-primary" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                                    <span data-i18n="tradingPlatformsPage.downloadMt5ForIos">Download MT5 for iOS</span>
+                                </a>
+                            </div>
+                            <div class="trading-platform-card__platform-row">
+                                <img src="assets/images/mt5.png" alt="" width="80" height="80" class="platform-icon trading-platform-card__mt5-icon trading-platform-card__mt5-icon--lg">
+                                <a href="<?php echo htmlspecialchars($mt5PlatformLinks['mobile_android'], ENT_QUOTES, 'UTF-8'); ?>" class="btn-platform btn-platform-outline" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                                    <span data-i18n="tradingPlatformsPage.downloadMt5ForAndroid">Download MT5 for Android</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trading-platform-card__device" aria-hidden="true">
+                        <img src="assets/images/Iphone - platforms2.png" alt="" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
                     </div>
                 </div>
 
+                <div class="trading-platform-card desktop-platform-card" style="background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 24px; padding: 48px; position: relative; overflow: hidden; height: 600px;">
+                    <div style="position: relative; z-index: 2;">
+                        <h3 class="trading-platform-card__title" data-i18n="tradingPlatformsPage.webDesktop">Web &amp; Desktop</h3>
+                        <div class="trading-platform-card__platforms">
+                            <div class="trading-platform-card__platform-row">
+                                <img src="assets/images/mt5.png" alt="" width="80" height="80" class="platform-icon trading-platform-card__mt5-icon trading-platform-card__mt5-icon--lg">
+                                <a href="<?php echo htmlspecialchars($mt5PlatformLinks['desktop_windows'], ENT_QUOTES, 'UTF-8'); ?>" class="btn-platform btn-platform-primary" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                                    <span data-i18n="tradingPlatformsPage.downloadMt5ForWindows">Download MT5 for Windows</span>
+                                </a>
+                            </div>
+                            <div class="trading-platform-card__platform-row">
+                                <img src="assets/images/mt5.png" alt="" width="80" height="80" class="platform-icon trading-platform-card__mt5-icon trading-platform-card__mt5-icon--lg">
+                                <a href="<?php echo htmlspecialchars($mt5PlatformLinks['web_trader'], ENT_QUOTES, 'UTF-8'); ?>" class="btn-platform btn-platform-outline" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+                                    <span data-i18n="footer.platformWebTrader">Web Trader</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trading-platform-card__device trading-platform-card__device--desktop" aria-hidden="true">
+                        <img src="assets/images/laptop_platforms.png" alt="" style="max-width: 100%; height: auto; max-height: 550px; object-fit: contain;">
+                    </div>
+                </div>
             </div>
         </div>
     </section>

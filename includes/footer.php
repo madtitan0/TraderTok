@@ -266,6 +266,7 @@
         </div>
       </div>
 
+      <?php $mt5PlatformLinks = require __DIR__ . '/config/mt5-platform-links.php'; ?>
       <div class="footer-subbar" aria-label="Platform downloads">
         <div class="container footer-subbar-inner">
           <p class="footer-subbar-copy">
@@ -273,17 +274,14 @@
             <span data-i18n="footer.subbarCopyrightRest">TraderTok / Amber Rock Trade Ltd. All rights reserved.</span>
           </p>
           <nav class="footer-subbar-platforms" aria-label="Trading platforms">
-            <!-- <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
-              data-i18n="footer.platformMt4">MetaTrader 4</a> -->
-            <!-- <a href="https://trader.tradertok.com" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer" data-i18n=""> -->
-            <div class="footer-subbar-chip">
-              <img src="assets/images/mt5.png" alt="MetaTrader 5" class="footer-subbar-chip-icon">
-            </div>
-            <!-- </a> -->
-            <!-- <a href="#" class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
-              data-i18n="footer.platformWebTrader"> -->
-            <div class="footer-subbar-chip" data-i18n="footer.platformWebTrader"> Web Trader</div>
-            <!-- </a> -->
+            <a href="<?php echo htmlspecialchars($mt5PlatformLinks['desktop_windows'], ENT_QUOTES, 'UTF-8'); ?>"
+              class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
+              aria-label="Download MetaTrader 5 for Windows">
+              <img src="assets/images/mt5.png" alt="" class="footer-subbar-chip-icon" width="24" height="24">
+            </a>
+            <a href="<?php echo htmlspecialchars($mt5PlatformLinks['web_trader'], ENT_QUOTES, 'UTF-8'); ?>"
+              class="footer-subbar-chip" target="_blank" rel="noopener noreferrer"
+              data-i18n="footer.platformWebTrader">Web Trader</a>
           </nav>
         </div>
       </div>
