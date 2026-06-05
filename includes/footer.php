@@ -297,6 +297,11 @@
       defer></script>
     <?php endif; ?>
     <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
+    <script src="assets/js/leads-utils.js?v=<?php echo filemtime('assets/js/leads-utils.js'); ?>" defer></script>
+    <?php if (!$page || (!empty($page) && $page === 'contact-us')): ?>
+    <script src="assets/js/contact-form-lead.js?v=<?php echo filemtime('assets/js/contact-form-lead.js'); ?>" defer>
+    </script>
+    <?php endif; ?>
     <?php if (!empty($page) && $page === 'meet-the-team'): ?>
     <script src="assets/js/team-script.js?v=<?php echo filemtime('assets/js/team-script.js'); ?>" defer></script>
     <?php endif; ?>
@@ -329,13 +334,26 @@
     <?php if (!empty($page) && $page === 'research'): ?>
     <script src="assets/js/research-meta.js?v=<?php echo filemtime('assets/js/research-meta.js'); ?>" defer></script>
     <?php endif; ?>
+    <?php if (!empty($page) && ($page === 'open-demo-account' || $page === 'open-live-account' || $page === 'edu-ebooks')): ?>
+    <script src="assets/js/country-iso-data.js?v=<?php echo filemtime('assets/js/country-iso-data.js'); ?>" defer>
+    </script>
+    <script src="assets/js/country-search-select.js?v=<?php echo filemtime('assets/js/country-search-select.js'); ?>"
+      defer></script>
+    <?php endif; ?>
+    <?php if (!empty($page) && $page === 'edu-ebooks'): ?>
+    <script src="assets/js/ebook-lead.js?v=<?php echo filemtime('assets/js/ebook-lead.js'); ?>" defer></script>
+    <?php endif; ?>
     <?php if (!empty($page) && $page === 'open-demo-account'): ?>
     <script src="assets/js/open-demo-account-meta.js?v=<?php echo filemtime('assets/js/open-demo-account-meta.js'); ?>"
       defer></script>
+    <script src="assets/js/open-account-lead.js?v=<?php echo filemtime('assets/js/open-account-lead.js'); ?>" defer>
+    </script>
     <?php endif; ?>
     <?php if (!empty($page) && $page === 'open-live-account'): ?>
     <script src="assets/js/open-live-account-meta.js?v=<?php echo filemtime('assets/js/open-live-account-meta.js'); ?>"
       defer></script>
+    <script src="assets/js/open-account-lead.js?v=<?php echo filemtime('assets/js/open-account-lead.js'); ?>" defer>
+    </script>
     <?php endif; ?>
     <?php if (!empty($page) && $page === 'claim-offer'): ?>
     <script src="assets/js/claim-offer-meta.js?v=<?php echo filemtime('assets/js/claim-offer-meta.js'); ?>" defer>

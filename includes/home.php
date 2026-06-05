@@ -936,48 +936,48 @@ body.light-theme .home-payment-overview__wallet-gpay-muted {
         volume market in few minutes; easily and securely.</p>
 
       <!-- Contact Form -->
-      <form class="contact-form" id="contactForm" novalidate>
+      <form class="contact-form" id="contactLeadForm" data-form-source="home" novalidate>
         <div class="form-row">
           <div class="form-group">
-            <label for="name" class="form-label" data-i18n="contactForm.name">Name</label>
-            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name"
+            <label for="contactLeadName" class="form-label" data-i18n="contactForm.name">Name</label>
+            <input type="text" id="contactLeadName" name="name" class="form-input" placeholder="Enter your name"
               data-i18n-placeholder="contactForm.namePlaceholder" required aria-required="true">
-            <span class="form-error" id="name-error"></span>
+            <span class="form-error" id="contactLeadName-error"></span>
           </div>
           <div class="form-group">
-            <label for="surname" class="form-label" data-i18n="contactForm.surname">Surname</label>
-            <input type="text" id="surname" name="surname" class="form-input" placeholder="Enter your surname"
+            <label for="contactLeadSurname" class="form-label" data-i18n="contactForm.surname">Surname</label>
+            <input type="text" id="contactLeadSurname" name="surname" class="form-input" placeholder="Enter your surname"
               data-i18n-placeholder="contactForm.surnamePlaceholder" required aria-required="true">
-            <span class="form-error" id="surname-error"></span>
+            <span class="form-error" id="contactLeadSurname-error"></span>
           </div>
         </div>
 
         <div class="form-row">
           <div class="form-group">
-            <label for="phone" class="form-label" data-i18n="contactForm.phone">Phone</label>
-            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+44 7520 640 890"
+            <label for="contactLeadPhone" class="form-label" data-i18n="contactForm.phone">Phone</label>
+            <input type="tel" id="contactLeadPhone" name="phone" class="form-input" placeholder="+44 7520 640 890"
               data-i18n-placeholder="contactForm.phonePlaceholder" required aria-required="true"
               pattern="[+]?[0-9\s\-()]+">
-            <span class="form-error" id="phone-error"></span>
+            <span class="form-error" id="contactLeadPhone-error"></span>
           </div>
           <div class="form-group">
-            <label for="email" class="form-label" data-i18n="contactForm.email">Email</label>
-            <input type="email" id="email" name="email" class="form-input" placeholder="support@tradertok.com"
+            <label for="contactLeadEmail" class="form-label" data-i18n="contactForm.email">Email</label>
+            <input type="email" id="contactLeadEmail" name="email" class="form-input" placeholder="support@tradertok.com"
               data-i18n-placeholder="contactForm.emailPlaceholder" required aria-required="true">
-            <span class="form-error" id="email-error"></span>
+            <span class="form-error" id="contactLeadEmail-error"></span>
           </div>
         </div>
 
         <div class="form-group form-group-full">
-          <label for="message" class="form-label" data-i18n="contactForm.message">Message</label>
-          <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your trading goals..."
+          <label for="contactLeadMessage" class="form-label" data-i18n="contactForm.message">Message</label>
+          <textarea id="contactLeadMessage" name="message" class="form-textarea" placeholder="Tell us about your trading goals..."
             data-i18n-placeholder="contactForm.messagePlaceholder" rows="5" required aria-required="true"></textarea>
-          <span class="form-error" id="message-error"></span>
+          <span class="form-error" id="contactLeadMessage-error"></span>
         </div>
 
-        <div class="form-status" id="formStatus" role="alert" aria-live="polite"></div>
+        <div class="form-status" id="contactLeadFormStatus" role="alert" aria-live="polite"></div>
 
-        <button type="submit" class="btn-contact-submit" id="submitBtn" data-i18n="contactForm.submit">Contact
+        <button type="submit" class="btn-contact-submit" id="contactLeadSubmitBtn" data-i18n="contactForm.submit">Contact
           Us</button>
       </form>
     </div>

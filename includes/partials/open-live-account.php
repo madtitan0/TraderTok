@@ -30,7 +30,12 @@
           <div class="education-article-meta" data-i18n="openLiveAccountPage.cardMeta">Your details</div>
           <h3 class="registration-account-card-title" data-i18n="openLiveAccountPage.cardTitle">Register interest in a
             live account</h3>
-          <form class="deposit-form registration-account-form" id="openLiveAccountPageForm" novalidate>
+          <form
+            class="deposit-form registration-account-form"
+            id="openLiveAccountPageForm"
+            novalidate
+            data-thank-you-url="<?php echo htmlspecialchars(routeUrl('lead-thank-you', ['kind' => 'live'])); ?>"
+          >
             <div class="form-group">
               <label for="openLiveName" data-i18n="openLiveAccountPage.labelFullName">Full name</label>
               <input id="openLiveName" type="text" name="name"
@@ -49,25 +54,13 @@
                 data-i18n-placeholder="openLiveAccountPage.placeholderPhone" placeholder="Include country code" required
                 autocomplete="tel">
             </div>
-            <div class="form-group">
-              <label for="openLiveCountry" data-i18n="openLiveAccountPage.labelCountry">Country / region</label>
-              <select id="openLiveCountry" name="country" required>
-                <option value="" data-i18n="openLiveAccountPage.selectPlaceholder">Select…</option>
-                <option value="GB" data-i18n="openLiveAccountPage.countries.GB">United Kingdom</option>
-                <option value="US" data-i18n="openLiveAccountPage.countries.US">United States</option>
-                <option value="DE" data-i18n="openLiveAccountPage.countries.DE">Germany</option>
-                <option value="FR" data-i18n="openLiveAccountPage.countries.FR">France</option>
-                <option value="AU" data-i18n="openLiveAccountPage.countries.AU">Australia</option>
-                <option value="CA" data-i18n="openLiveAccountPage.countries.CA">Canada</option>
-                <option value="SG" data-i18n="openLiveAccountPage.countries.SG">Singapore</option>
-                <option value="AE" data-i18n="openLiveAccountPage.countries.AE">United Arab Emirates</option>
-                <option value="ZA" data-i18n="openLiveAccountPage.countries.ZA">South Africa</option>
-                <option value="NG" data-i18n="openLiveAccountPage.countries.NG">Nigeria</option>
-                <option value="IN" data-i18n="openLiveAccountPage.countries.IN">India</option>
-                <option value="MY" data-i18n="openLiveAccountPage.countries.MY">Malaysia</option>
-                <option value="OTHER" data-i18n="openLiveAccountPage.countries.OTHER">Other</option>
-              </select>
-            </div>
+            <?php
+            $countryFieldPrefix = 'openLive';
+            $countryLabelFor = 'openLiveCountrySearch';
+            $countryLabelI18n = 'openLiveAccountPage.labelCountry';
+            $countryLabelText = 'Country / region';
+            include __DIR__ . '/country-search-select-field.php';
+            ?>
             <div class="form-group">
               <label for="openLiveHeardAbout">How did you hear about us?</label>
               <select id="openLiveHeardAbout" name="heard_about" required>
@@ -98,70 +91,4 @@
   </section>
 </section>
 
-<script>
-(function() {
-  var form = document.getElementById('openLiveAccountPageForm');
-  var err = document.getElementById('openLivePageError');
-  var thankYou = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'live'])); ?>;
-
-  function tr(key) {
-    if (window.i18n && typeof window.i18n.t === 'function') {
-      var out = window.i18n.t(key);
-      if (out && out !== key) return out;
-    }
-    return key;
-  }
-
-  function showError(msg) {
-    if (!err) return;
-    err.textContent = msg || '';
-    err.hidden = !msg;
-  }
-
-  if (!form) return;
-
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    showError('');
-
-    var name = (form.querySelector('[name="name"]') || {}).value;
-    var email = (form.querySelector('[name="email"]') || {}).value;
-    var phone = (form.querySelector('[name="phone"]') || {}).value;
-    var country = (form.querySelector('[name="country"]') || {}).value;
-    var heardAbout = (form.querySelector('[name="heard_about"]') || {}).value;
-    var consent = form.querySelector('[name="consent"]');
-
-    name = name ? name.trim() : '';
-    email = email ? email.trim() : '';
-    phone = phone ? phone.trim() : '';
-    heardAbout = heardAbout ? heardAbout.trim() : '';
-
-    if (!name) {
-      showError(tr('openLiveAccountPage.errors.nameRequired'));
-      return;
-    }
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      showError(tr('openLiveAccountPage.errors.emailInvalid'));
-      return;
-    }
-    if (!phone) {
-      showError(tr('openLiveAccountPage.errors.phoneRequired'));
-      return;
-    }
-    if (!country) {
-      showError(tr('openLiveAccountPage.errors.countryRequired'));
-      return;
-    }
-    if (!heardAbout) {
-      showError('Please tell us how you heard about us.');
-      return;
-    }
-    if (!consent || !consent.checked) {
-      showError(tr('openLiveAccountPage.errors.consentRequired'));
-      return;
-    }
-
-    window.location.href = thankYou;
-  });
-})();
-</script>
+<?php include __DIR__ . '/country-search-select-styles.php'; ?>

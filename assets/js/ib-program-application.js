@@ -448,7 +448,7 @@
   }
 
   function buildPayload() {
-    return {
+    var base = {
       firstName: readValue("first_name"),
       lastName: readValue("last_name"),
       email: readValue("email"),
@@ -462,6 +462,15 @@
       userDevice: getUserDeviceInfoSafe(),
       customFields: buildCustomFields(),
     };
+
+    if (
+      window.TraderTokLeads &&
+      typeof window.TraderTokLeads.mergePayload === "function"
+    ) {
+      return window.TraderTokLeads.mergePayload(base);
+    }
+
+    return base;
   }
 
   function leadsHeaders() {
