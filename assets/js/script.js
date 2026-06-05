@@ -2046,6 +2046,12 @@ if (signupForm) {
       userDevice: getUserDeviceInfo(),
     };
 
+    const finalPayload =
+      window.TraderTokLeads &&
+      typeof window.TraderTokLeads.mergePayload === "function"
+        ? window.TraderTokLeads.mergePayload(payload)
+        : payload;
+
     try {
       const submitBtn = signupForm.querySelector('button[type="submit"]');
       const originalBtnText = submitBtn.textContent;
@@ -2069,7 +2075,7 @@ if (signupForm) {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(payload),
+          body: JSON.stringify(finalPayload),
         },
       );
 

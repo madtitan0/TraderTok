@@ -152,79 +152,41 @@
                 <h3 class="modal-title">Get Your Free eBook</h3>
                 <p class="modal-subtitle">Please provide your details below to receive your free download link.</p>
             </div>
-            <form class="deposit-form" id="ebookLeadForm">
+            <form
+                class="deposit-form"
+                id="ebookLeadForm"
+                novalidate
+                data-thank-you-url="<?php echo htmlspecialchars(routeUrl('lead-thank-you', ['kind' => 'ebook'])); ?>"
+            >
                 <div class="form-group">
-                    <label>Full Name</label>
-                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <label for="ebookLeadName">Full Name</label>
+                    <input id="ebookLeadName" type="text" name="name" placeholder="Enter your name" required autocomplete="name">
                 </div>
                 <div class="form-group">
-                    <label>Email Address</label>
-                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <label for="ebookLeadEmail">Email Address</label>
+                    <input id="ebookLeadEmail" type="email" name="email" placeholder="Enter your email" required autocomplete="email">
                 </div>
+                <?php
+                $countryFieldPrefix = 'ebookLead';
+                $countryLabelFor = 'ebookLeadCountrySearch';
+                $countryLabelText = 'Country';
+                $countryLabelI18n = '';
+                include __DIR__ . '/partials/country-search-select-field.php';
+                ?>
                 <div class="form-group">
-                    <label>Country</label>
-                    <select name="country" required>
-                        <option value="" disabled selected>Select your country</option>
-                        <option value="Malaysia">Malaysia</option>
-                        <option value="Indonesia">Indonesia</option>
-                        <option value="Vietnam">Vietnam</option>
-                        <option value="Thailand">Thailand</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Trading Experience Level</label>
-                    <select name="experience" required>
+                    <label for="ebookLeadExperience">Trading Experience Level</label>
+                    <select id="ebookLeadExperience" name="experience" required>
                         <option value="Beginner">Beginner (0-1 year)</option>
                         <option value="Intermediate">Intermediate (1-3 years)</option>
                         <option value="Advanced">Advanced (3+ years)</option>
                     </select>
                 </div>
                 <input type="hidden" name="book_id" id="targetBookId">
+                <p class="edu-lead-gate-error" id="ebookLeadFormError" role="alert" hidden></p>
                 <button type="submit" class="btn-primary" style="width: 100%; margin-top: 20px;">Download Now</button>
             </form>
         </div>
     </div>
 </section>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById('ebookLeadModal');
-    const form = document.getElementById('ebookLeadForm');
-    const closeBtn = document.getElementById('closeEbookModal');
-    const triggers = document.querySelectorAll('.ebook-download-btn');
-    const thankYouBase = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'ebook'])); ?>;
-    const bookTopics = {
-        forex: 'Beginner’s Guide to Forex Trading',
-        cfd: 'CFD Trading Essentials',
-        risk: 'Risk Management Playbook',
-        technical: 'Technical Analysis Starter Guide',
-        psychology: 'Trading Psychology Handbook'
-    };
-
-    triggers.forEach(function(trigger) {
-        trigger.addEventListener('click', function() {
-            const bookId = this.getAttribute('data-book');
-            document.getElementById('targetBookId').value = bookId;
-            modal.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-    });
-
-    function closeModal() {
-        modal.classList.remove('active');
-        document.body.style.overflow = '';
-    }
-
-    closeBtn.addEventListener('click', closeModal);
-    modal.querySelector('.deposit-modal-overlay').addEventListener('click', closeModal);
-
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const bookId = (document.getElementById('targetBookId') || {}).value || '';
-        const topic = bookTopics[bookId] || bookId;
-        const sep = thankYouBase.indexOf('?') >= 0 ? '&' : '?';
-        window.location.href = thankYouBase + sep + 'topic=' + encodeURIComponent(topic);
-    });
-});
-</script>
+<?php include __DIR__ . '/partials/country-search-select-styles.php'; ?>

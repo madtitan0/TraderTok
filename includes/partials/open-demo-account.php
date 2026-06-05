@@ -22,14 +22,17 @@
               class="registration-account-crosslink" data-i18n="openDemoAccountPage.liveCrosslink">Open a live
               account</a>
           </p>
-          <!-- <p class="edu-lead-gate-note" data-i18n="openDemoAccountPage.formNote">This form is not yet connected to a -->
-            live CRM. Submissions are simulated until you wire your registration API.</p>
         </div>
         <div class="registration-account-card">
           <div class="education-article-meta" data-i18n="openDemoAccountPage.cardMeta">Your details</div>
           <h3 class="registration-account-card-title" data-i18n="openDemoAccountPage.cardTitle">Request a demo account
           </h3>
-          <form class="deposit-form registration-account-form" id="openDemoAccountPageForm" novalidate>
+          <form
+            class="deposit-form registration-account-form"
+            id="openDemoAccountPageForm"
+            novalidate
+            data-thank-you-url="<?php echo htmlspecialchars(routeUrl('lead-thank-you', ['kind' => 'demo'])); ?>"
+          >
             <div class="form-group">
               <label for="openDemoName" data-i18n="openDemoAccountPage.labelFullName">Full name</label>
               <input id="openDemoName" type="text" name="name"
@@ -48,25 +51,13 @@
                 data-i18n-placeholder="openDemoAccountPage.placeholderPhone" placeholder="Include country code" required
                 autocomplete="tel">
             </div>
-            <div class="form-group">
-              <label for="openDemoCountry" data-i18n="openDemoAccountPage.labelCountry">Country / region</label>
-              <select id="openDemoCountry" name="country" required>
-                <option value="" data-i18n="openDemoAccountPage.selectPlaceholder">Select…</option>
-                <option value="GB" data-i18n="openDemoAccountPage.countries.GB">United Kingdom</option>
-                <option value="US" data-i18n="openDemoAccountPage.countries.US">United States</option>
-                <option value="DE" data-i18n="openDemoAccountPage.countries.DE">Germany</option>
-                <option value="FR" data-i18n="openDemoAccountPage.countries.FR">France</option>
-                <option value="AU" data-i18n="openDemoAccountPage.countries.AU">Australia</option>
-                <option value="CA" data-i18n="openDemoAccountPage.countries.CA">Canada</option>
-                <option value="SG" data-i18n="openDemoAccountPage.countries.SG">Singapore</option>
-                <option value="AE" data-i18n="openDemoAccountPage.countries.AE">United Arab Emirates</option>
-                <option value="ZA" data-i18n="openDemoAccountPage.countries.ZA">South Africa</option>
-                <option value="NG" data-i18n="openDemoAccountPage.countries.NG">Nigeria</option>
-                <option value="IN" data-i18n="openDemoAccountPage.countries.IN">India</option>
-                <option value="MY" data-i18n="openDemoAccountPage.countries.MY">Malaysia</option>
-                <option value="OTHER" data-i18n="openDemoAccountPage.countries.OTHER">Other</option>
-              </select>
-            </div>
+            <?php
+            $countryFieldPrefix = 'openDemo';
+            $countryLabelFor = 'openDemoCountrySearch';
+            $countryLabelI18n = 'openDemoAccountPage.labelCountry';
+            $countryLabelText = 'Country / region';
+            include __DIR__ . '/country-search-select-field.php';
+            ?>
             <div class="form-group">
               <label for="openDemoHeardAbout">How did you hear about us?</label>
               <select id="openDemoHeardAbout" name="heard_about" required>
@@ -97,70 +88,4 @@
   </section>
 </section>
 
-<script>
-(function() {
-  var form = document.getElementById('openDemoAccountPageForm');
-  var err = document.getElementById('openDemoPageError');
-  var thankYou = <?php echo json_encode(routeUrl('lead-thank-you', ['kind' => 'demo'])); ?>;
-
-  function tr(key) {
-    if (window.i18n && typeof window.i18n.t === 'function') {
-      var out = window.i18n.t(key);
-      if (out && out !== key) return out;
-    }
-    return key;
-  }
-
-  function showError(msg) {
-    if (!err) return;
-    err.textContent = msg || '';
-    err.hidden = !msg;
-  }
-
-  if (!form) return;
-
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    showError('');
-
-    var name = (form.querySelector('[name="name"]') || {}).value;
-    var email = (form.querySelector('[name="email"]') || {}).value;
-    var phone = (form.querySelector('[name="phone"]') || {}).value;
-    var country = (form.querySelector('[name="country"]') || {}).value;
-    var heardAbout = (form.querySelector('[name="heard_about"]') || {}).value;
-    var consent = form.querySelector('[name="consent"]');
-
-    name = name ? name.trim() : '';
-    email = email ? email.trim() : '';
-    phone = phone ? phone.trim() : '';
-    heardAbout = heardAbout ? heardAbout.trim() : '';
-
-    if (!name) {
-      showError(tr('openDemoAccountPage.errors.nameRequired'));
-      return;
-    }
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      showError(tr('openDemoAccountPage.errors.emailInvalid'));
-      return;
-    }
-    if (!phone) {
-      showError(tr('openDemoAccountPage.errors.phoneRequired'));
-      return;
-    }
-    if (!country) {
-      showError(tr('openDemoAccountPage.errors.countryRequired'));
-      return;
-    }
-    if (!heardAbout) {
-      showError('Please tell us how you heard about us.');
-      return;
-    }
-    if (!consent || !consent.checked) {
-      showError(tr('openDemoAccountPage.errors.consentRequired'));
-      return;
-    }
-
-    window.location.href = thankYou;
-  });
-})();
-</script>
+<?php include __DIR__ . '/country-search-select-styles.php'; ?>
