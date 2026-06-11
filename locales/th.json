@@ -2346,6 +2346,13 @@
     "faq3A": "คุณสามารถไปยังคอร์ส บทความ ข่าวและข้อมูลเชิงลึกตลาด อีบุ๊ก เว็บินาร์ คำศัพท์การเทรด บทแนะนำแพลตฟอร์ม และเครื่องมือกับทรัพยากร",
     "faq4Q": "หน้านี้เน้นการเรียนรู้หรือโปรโมชัน?",
     "faq4A": "หน้านี้มีจุดประสงค์เป็นศูนย์การศึกษาเพื่อช่วยสำรวจความรู้ตลาดและวัสดุการเรียนรู้ที่เกี่ยวข้องได้ง่ายขึ้น",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "เปิดบัญชีเทรด",
     "ctaBandTitle": "พร้อมฝึกหรือเทรดจริง?",
     "ctaBandSubtitle": "กรอกแบบฟอร์มลงทะเบียนสั้นๆ ในหน้าถัดไป การส่งจะถูกจำลองจนกว่าคุณจะเชื่อม CRM หรือ API ออนบอร์ดดิง",

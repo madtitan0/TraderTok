@@ -2346,6 +2346,13 @@
     "faq3A": "Anda dapat masuk ke kursus, artikel, berita dan wawasan pasar, eBook, webinar, glosarium trading, tutorial platform, serta alat dan sumber daya.",
     "faq4Q": "Apakah halaman ini untuk belajar atau promosi?",
     "faq4A": "Halaman ini dimaksudkan sebagai pusat edukatif yang membantu mengeksplorasi pengetahuan pasar dan materi pembelajaran terkait dengan lebih mudah.",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "Buka akun trading",
     "ctaBandTitle": "Siap berlatih atau trading live?",
     "ctaBandSubtitle": "Lengkapi formulir pendaftaran singkat di halaman berikutnya. Pengiriman disimulasikan hingga Anda menghubungkan CRM atau API onboarding.",

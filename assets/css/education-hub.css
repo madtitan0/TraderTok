@@ -3801,6 +3801,17 @@ body.light-theme .education-course-page .course-video-promo__link:hover {
   padding: 40px 0 56px;
 }
 
+.education-hub-tc-newsletter {
+  padding: 20px 0 40px;
+}
+
+.education-hub-tc-newsletter__fine {
+  margin: 14px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+}
+
 .education-hub-cta-band__inner {
   max-width: 920px;
   margin: 0 auto;

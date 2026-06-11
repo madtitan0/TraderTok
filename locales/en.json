@@ -3197,6 +3197,13 @@
     "faq3A": "You can use this page to move into courses, articles, market news and insights, eBooks, webinars, the trading glossary, platform tutorials, and tools and resources.",
     "faq4Q": "Is this page meant for learning or promotion?",
     "faq4A": "This page is intended to function as an educational hub, helping users explore market knowledge and related learning materials more easily.",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "Open a trading account",
     "ctaBandTitle": "Ready to practice or trade live?",
     "ctaBandSubtitle": "Complete the short registration forms on the next pages. Submissions are simulated until you connect your CRM or onboarding API.",

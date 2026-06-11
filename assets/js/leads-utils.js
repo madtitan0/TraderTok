@@ -4,6 +4,7 @@
  */
 (function (global) {
   var UTM_STORAGE_KEY = "tradertok_utm_params";
+  var ORGANIC_TRAFFIC_LABEL = "organic traffic";
   var LEADS_URL =
     "https://6dfed096-backend-clientzone.dataconect.com/api/v1/clientzone/leads";
 
@@ -60,14 +61,21 @@
   function getUtmPayload() {
     var params = new URLSearchParams(window.location.search);
     var stored = readStoredUtm();
-    var out = {};
-    var source = params.get("utm_source") || stored.utmSource;
-    var medium = params.get("utm_medium") || stored.utmMedium;
-    var campaign = params.get("utm_campaign") || stored.utmCampaign;
-    if (source) out.utmSource = source;
-    if (medium) out.utmMedium = medium;
-    if (campaign) out.utmCampaign = campaign;
-    return out;
+
+    return {
+      utmSource:
+        params.get("utm_source") ||
+        stored.utmSource ||
+        ORGANIC_TRAFFIC_LABEL,
+      utmMedium:
+        params.get("utm_medium") ||
+        stored.utmMedium ||
+        ORGANIC_TRAFFIC_LABEL,
+      utmCampaign:
+        params.get("utm_campaign") ||
+        stored.utmCampaign ||
+        ORGANIC_TRAFFIC_LABEL,
+    };
   }
 
   captureUtmFromUrl();

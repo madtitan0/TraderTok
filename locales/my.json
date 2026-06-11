@@ -2346,6 +2346,13 @@
     "faq3A": "Anda boleh meneruskan ke kursus, artikel, berita dan pandangan pasaran, eBook, webinar, glosari dagangan, tutorial platform serta alat dan sumber.",
     "faq4Q": "Adakah halaman ini untuk pembelajaran atau promosi?",
     "faq4A": "Halaman ini bertujuan menjadi hab pendidikan yang membantu meneroka pengetahuan pasaran dan bahan pembelajaran berkaitan dengan lebih mudah.",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "Buka akaun dagangan",
     "ctaBandTitle": "Bersedia untuk berlatih atau berdagang secara langsung?",
     "ctaBandSubtitle": "Lengkapkan borang pendaftaran ringkas pada halaman seterusnya. Penghantaran disimulasikan sehingga anda menyambung CRM atau API onboarding.",

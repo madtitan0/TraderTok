@@ -2346,6 +2346,13 @@
     "faq3A": "Bạn có thể chuyển tới khóa học, bài viết, tin tức và thông tin thị trường, eBook, webinar, thuật ngữ giao dịch, hướng dẫn nền tảng và công cụ cùng tài nguyên.",
     "faq4Q": "Trang này để học hay quảng cáo?",
     "faq4A": "Trang này nhằm là trung tâm giáo dục, giúp khám phá kiến thức thị trường và tài liệu học liên quan dễ dàng hơn.",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "Mở tài khoản giao dịch",
     "ctaBandTitle": "Sẵn sàng luyện tập hoặc giao dịch thật?",
     "ctaBandSubtitle": "Hoàn thành các biểu mẫu đăng ký ngắn ở các trang tiếp theo. Gửi biểu mẫu được mô phỏng cho đến khi bạn kết nối CRM hoặc API onboarding.",

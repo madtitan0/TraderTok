@@ -3166,6 +3166,13 @@
     "faq3A": "このページを使用して、コース、記事、市場ニュースと洞察、電子書籍、ウェビナー、取引用語集、プラットフォーム チュートリアル、ツールとリソースに移動できます。",
     "faq4Q": "このページは学習や宣伝を目的としていますか?",
     "faq4A": "このページは教育ハブとして機能することを目的としており、ユーザーが市場の知識や関連する学習教材をより簡単に探索できるようにします。",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "取引口座を開設する",
     "ctaBandTitle": "ライブで練習したりトレードしたりする準備はできましたか?",
     "ctaBandSubtitle": "次のページにある簡単な登録フォームに記入してください。 CRM またはオンボーディング API に接続するまで、送信はシミュレートされます。",

@@ -2346,6 +2346,13 @@
     "faq3A": "Maaari kang magpatuloy sa mga kurso, artikulo, balita at insights sa merkado, eBooks, webinar, trading glossary, platform tutorials, at mga tool at resources.",
     "faq4Q": "Para ba ito sa pag-aaral o promosyon?",
     "faq4A": "Ang layunin ng pahinang ito ay maging educational hub na tumutulong tuklasin ang market knowledge at kaugnay na learning materials nang mas madali.",
+    "tcNewsletter": {
+      "meta": "Trading Central",
+      "title": "Market insights in your inbox",
+      "note": "Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.",
+      "cta": "Subscribe to Newsletter",
+      "finePrint": "You will be taken to Trading Central's secure signup page."
+    },
     "ctaBandAria": "Magbukas ng trading account",
     "ctaBandTitle": "Handa nang mag-practice o mag-trade live?",
     "ctaBandSubtitle": "Kumpletuhin ang maikling registration forms sa susunod na mga pahina. Simulated ang mga submission hanggang maikonekta ang CRM o onboarding API.",

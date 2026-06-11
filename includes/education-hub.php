@@ -191,6 +191,20 @@
         </div>
     </section>
 
+    <section class="hub-section education-hub-tc-newsletter" aria-labelledby="tc-newsletter-heading">
+        <div class="container">
+            <div class="education-hub-cta-band__inner">
+                <div class="hub-category-meta" data-i18n="educationHubPage.tcNewsletter.meta">Trading Central</div>
+                <h2 id="tc-newsletter-heading" class="education-hub-cta-band__title" data-i18n="educationHubPage.tcNewsletter.title">Market insights in your inbox</h2>
+                <p class="education-hub-cta-band__subtitle" data-i18n="educationHubPage.tcNewsletter.note">Subscribe to the Trading Central newsletter for expert market analysis and commentary — delivered straight to your inbox.</p>
+                <div class="education-hub-cta-band__actions">
+                    <a href="https://newsletters.tradingcentral.com/tradertok/signup_widgets.aspx" class="education-hub-cta-btn education-hub-cta-btn--solid" target="_blank" rel="noopener noreferrer" data-i18n="educationHubPage.tcNewsletter.cta">Subscribe to Newsletter</a>
+                </div>
+                <!-- <p class="education-hub-tc-newsletter__fine" data-i18n="educationHubPage.tcNewsletter.finePrint">You will be taken to Trading Central's secure signup page.</p> -->
+            </div>
+        </div>
+    </section>
+
     <section class="faq-sec education-hub-faq" id="faq">
         <div class="container">
             <div class="section-header">
