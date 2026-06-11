@@ -83,6 +83,14 @@ if (!empty($page) && !$ttIsNotFound) {
         $get->title = 'Open Live Trading Account | TraderTok';
         $get->desc = 'Start your live trading account application. Our team will follow up with next steps and documentation.';
         $get->keyw = 'live account, forex account, trading account registration';
+    } elseif ($page === 'open-demo-account-embed') {
+        $get->title = 'Open Demo Account Form | TraderTok';
+        $get->desc = 'Embedded demo account registration form for marketing pages.';
+        $get->keyw = 'demo account, embed form, TraderTok';
+    } elseif ($page === 'open-live-account-embed') {
+        $get->title = 'Open Live Account Form | TraderTok';
+        $get->desc = 'Embedded live account registration form for marketing pages.';
+        $get->keyw = 'live account, embed form, TraderTok';
     } elseif ($page === 'claim-offer') {
         $get->title = 'Claim Offer | TraderTok';
         $get->desc = 'Register your interest to claim a promotion. Our team will follow up with eligibility and next steps.';
@@ -187,6 +195,22 @@ if (!empty($page) && !$ttIsNotFound) {
             $get->keyw = $courseSeo[$page]['keywords'];
         }
     }
+}
+
+$ttEmbedFormPages = ['open-demo-account-embed', 'open-live-account-embed'];
+if (
+    !empty($page)
+    && !$ttIsNotFound
+    && in_array($page, $ttEmbedFormPages, true)
+    && isset($staticRoutes[$page])
+) {
+    if (!headers_sent()) {
+        header(
+            "Content-Security-Policy: frame-ancestors 'self' https://marketing.tradertok.com https://www.marketing.tradertok.com https://tradertok.com https://www.tradertok.com"
+        );
+    }
+    require __DIR__ . '/' . $staticRoutes[$page];
+    exit;
 }
 
 require 'includes/head.php';

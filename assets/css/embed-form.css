@@ -1,0 +1,23 @@
+/* Minimal layout for marketing iframe embeds (demo / live account forms). */
+html,
+body.page-embed-form {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  min-height: 0;
+}
+
+.page-embed-form .embed-form-wrap {
+  padding: 12px 14px 16px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.page-embed-form .registration-account-card {
+  margin: 0;
+  width: 100%;
+}
+
+.page-embed-form .ib-search-select-list {
+  z-index: 50;
+}
