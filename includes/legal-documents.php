@@ -551,7 +551,7 @@ body.light-theme .notice-text {
                         'title' => 'Terms & Conditions',
                         'description' => 'The agreement sets the legal framework for account use, client
                         responsibilities, service delivery, and platform access.',
-                        'file' => './files/Service_Agreement_Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf',
+                        'file' => './files/Terms_&_Conditions_Amber_Rock_Trade_Ltd.pdf',
                         'full_page' => './terms-conditions',
                         'content_html' => extract_legal_document_content(__DIR__ . '/terms-conditions.php'),
                         'preview' => [],
