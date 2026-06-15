@@ -596,7 +596,7 @@ body.light-theme .notice-text {
                         'title' => 'Client Service Agreement',
                         'description' => 'The agreement governs the client relationship, service use, communication, and
                         the responsibilities of both parties.',
-                        'file' => './files/CLIENT_SERVICES_AGREEMENT_AMBER_ROCK_TRADE_LTD.pdf',
+                        'file' => './files/SERVICES_AGREEMENT_AMBER_ROCK_TRADE_LTD.pdf',
                         'full_page' => './client-service-agreement',
                         'content_html' => extract_legal_document_content(__DIR__ . '/client-service-agreement.php'),
                         'preview' => [],
