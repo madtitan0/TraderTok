@@ -154,7 +154,11 @@
 
   function updateSubmitState() {
     if (!submitBtn) return;
-    submitBtn.disabled = !validateAllSteps(true);
+    var otpOk =
+      !window.TraderTokRegistrationOtp ||
+      !window.TraderTokRegistrationOtp.isRequired(form) ||
+      window.TraderTokRegistrationOtp.isReady(form);
+    submitBtn.disabled = !validateAllSteps(true) || !otpOk;
   }
 
   function initIbSearchSelect(opts) {
@@ -394,6 +398,10 @@
     if (nextBtn) nextBtn.hidden = stepNumber === steps.length;
     if (submitBtn) submitBtn.hidden = stepNumber !== steps.length;
 
+    if (window.TraderTokRegistrationOtp) {
+      window.TraderTokRegistrationOtp.refresh(form);
+    }
+
     updateReferrerVisibility();
     updateSubmitState();
   }
@@ -463,6 +471,11 @@
       customFields: buildCustomFields(),
     };
 
+    if (window.TraderTokRegistrationOtp) {
+      base.registrationVerificationOtp =
+        window.TraderTokRegistrationOtp.getOtpValue(form);
+    }
+
     if (
       window.TraderTokLeads &&
       typeof window.TraderTokLeads.mergePayload === "function"
@@ -520,6 +533,15 @@
     e.preventDefault();
 
     if (!validateAllSteps(false)) return;
+    if (
+      window.TraderTokRegistrationOtp &&
+      !window.TraderTokRegistrationOtp.isReady(form)
+    ) {
+      showError(
+        "Please verify your email with the code sent to you.",
+      );
+      return;
+    }
     if (!LEADS_URL) {
       showError("Lead endpoint is not configured.");
       return;
@@ -561,12 +583,42 @@
     } finally {
       if (submitBtn) {
         submitBtn.textContent = originalSubmitText || "Submit Application";
-        submitBtn.disabled = !validateAllSteps(true);
+        updateSubmitState();
       }
       if (nextBtn) nextBtn.disabled = false;
       if (prevBtn) prevBtn.disabled = false;
     }
   });
+
+  if (window.TraderTokRegistrationOtp) {
+    window.TraderTokRegistrationOtp.mount(form, {
+      getSubmitButton: function () {
+        return submitBtn;
+      },
+      isActive: function () {
+        return currentStep === steps.length;
+      },
+      getOtpPayload: function () {
+        return {
+          firstName: readValue("first_name"),
+          lastName: readValue("last_name"),
+          email: readValue("email"),
+          phone: readValue("phone"),
+          country: readValue("country"),
+          language: readValue("language") || "en",
+          brandId: BRAND_ID,
+          businessUnitId: BUSINESS_UNIT_ID,
+        };
+      },
+      watchSelectors: [
+        '[name="first_name"]',
+        '[name="last_name"]',
+        '[name="email"]',
+        '[name="phone"]',
+        '[name="country"]',
+      ],
+    });
+  }
 
   setStep(1);
 })();

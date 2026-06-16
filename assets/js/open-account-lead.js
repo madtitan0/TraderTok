@@ -5,6 +5,8 @@
   var leads = window.TraderTokLeads;
   if (!leads) return;
 
+  var otp = window.TraderTokRegistrationOtp;
+
   var FORM_CONFIGS = [
     {
       formId: "openDemoAccountPageForm",
@@ -12,6 +14,7 @@
       isDemoAccount: true,
       submitFallback: "Submit demo request",
       submittingLabel: "Submitting...",
+      countryPrefix: "openDemo",
     },
     {
       formId: "openLiveAccountPageForm",
@@ -19,6 +22,7 @@
       isDemoAccount: false,
       submitFallback: "Submit live account request",
       submittingLabel: "Submitting...",
+      countryPrefix: "openLive",
     },
   ];
 
@@ -48,7 +52,7 @@
       readValue(form, "heard_about"),
     );
 
-    return leads.mergePayload({
+    var payload = leads.mergePayload({
       firstName: names.firstName,
       lastName: names.lastName,
       email: readValue(form, "email"),
@@ -70,6 +74,12 @@
       userDevice: leads.getUserDeviceInfoSafe(),
       customFields: customFields,
     });
+
+    if (otp) {
+      payload.registrationVerificationOtp = otp.getOtpValue(form);
+    }
+
+    return payload;
   }
 
   function validateForm(form, errEl) {
@@ -145,6 +155,35 @@
     return true;
   }
 
+  function mountOtp(form, config) {
+    if (!otp) return;
+
+    otp.mount(form, {
+      getSubmitButton: function () {
+        return form.querySelector('button[type="submit"]');
+      },
+      getOtpPayload: function () {
+        var names = leads.splitFullName(readValue(form, "name"));
+        return {
+          firstName: names.firstName,
+          lastName: names.lastName,
+          email: readValue(form, "email"),
+          phone: readValue(form, "phone"),
+          country: readValue(form, "country"),
+          language: leads.getLanguage(),
+          brandId: leads.BRAND_ID,
+          businessUnitId: leads.BUSINESS_UNIT_ID,
+        };
+      },
+      watchSelectors: [
+        '[name="name"]',
+        '[name="email"]',
+        '[name="phone"]',
+        '[name="country"]',
+      ],
+    });
+  }
+
   function initForm(config) {
     var form = document.getElementById(config.formId);
     if (!form) return;
@@ -153,9 +192,20 @@
     var thankYouUrl = form.getAttribute("data-thank-you-url") || "";
     var submitBtn = form.querySelector('button[type="submit"]');
 
+    mountOtp(form, config);
+
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       if (!validateForm(form, errEl)) return;
+
+      if (otp && !otp.isReady(form)) {
+        showError(
+          errEl,
+          tr("registrationOtp.errRequired") ||
+            "Please verify your email with the code sent to you.",
+        );
+        return;
+      }
 
       var originalText = submitBtn ? submitBtn.textContent : "";
       if (submitBtn) {
@@ -185,8 +235,12 @@
         })
         .finally(function () {
           if (submitBtn) {
-            submitBtn.disabled = false;
             submitBtn.textContent = originalText || config.submitFallback;
+            if (otp) {
+              otp.refresh(form);
+            } else {
+              submitBtn.disabled = false;
+            }
           }
         });
     });

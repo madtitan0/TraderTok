@@ -263,6 +263,24 @@ asort($ib_partner_languages);
   margin-top: 8px;
   width: auto;
   min-width: 140px;
+  padding: 16px 24px !important;
+  font-size: 1rem !important;
+}
+
+.ib-program-form-actions .registration-otp-wrap {
+  flex: 1 1 140px;
+  margin: 0;
+  min-width: 140px;
+}
+
+.ib-program-form-actions .registration-otp-send {
+  width: 100%;
+  min-width: 140px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding: 16px 24px !important;
+  font-size: 1rem !important;
+  font-weight: 600;
 }
 
 .ib-program-form-actions #ibPartnerSubmitBtn[hidden],
@@ -314,8 +332,10 @@ asort($ib_partner_languages);
 
 @media (max-width: 640px) {
   .ib-program-form-actions .registration-account-submit,
-  .ib-program-form-actions .ib-program-form-back {
+  .ib-program-form-actions .ib-program-form-back,
+  .ib-program-form-actions .registration-otp-wrap {
     width: 100%;
+    flex: 1 1 100%;
   }
 }
 </style>

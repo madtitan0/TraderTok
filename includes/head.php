@@ -154,6 +154,7 @@ $ttTwitterImageUrl = $ttOrigin . '/twitter-image.jpg';
         'assets/css/market-ticker.css',
         'assets/css/whatsapp-widget.css',
         'assets/css/education-styles.css',
+        'assets/css/registration-otp.css',
     ];
 
     foreach ($sharedStylesheets as $stylesheet) {

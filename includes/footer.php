@@ -296,8 +296,9 @@
       src="assets/js/edu-resources-calculators.js?v=<?php echo filemtime('assets/js/edu-resources-calculators.js'); ?>"
       defer></script>
     <?php endif; ?>
-    <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
     <script src="assets/js/leads-utils.js?v=<?php echo filemtime('assets/js/leads-utils.js'); ?>" defer></script>
+    <script src="assets/js/registration-otp.js?v=<?php echo filemtime('assets/js/registration-otp.js'); ?>" defer></script>
+    <script src="assets/js/script.js?v=<?php echo filemtime('assets/js/script.js'); ?>" defer></script>
     <?php if (!$page || (!empty($page) && $page === 'contact-us')): ?>
     <script src="assets/js/contact-form-lead.js?v=<?php echo filemtime('assets/js/contact-form-lead.js'); ?>" defer>
     </script>
@@ -316,6 +317,8 @@
     <?php if (!empty($page) && $page === 'ib-program-application'): ?>
     <script src="assets/js/country-iso-data.js?v=<?php echo filemtime('assets/js/country-iso-data.js'); ?>" defer>
     </script>
+    <script src="assets/js/leads-utils.js?v=<?php echo filemtime('assets/js/leads-utils.js'); ?>" defer></script>
+    <script src="assets/js/registration-otp.js?v=<?php echo filemtime('assets/js/registration-otp.js'); ?>" defer></script>
     <script src="assets/js/ib-program-application.js?v=<?php echo filemtime('assets/js/ib-program-application.js'); ?>"
       defer></script>
     <?php endif; ?>
@@ -346,12 +349,14 @@
     <?php if (!empty($page) && $page === 'open-demo-account'): ?>
     <script src="assets/js/open-demo-account-meta.js?v=<?php echo filemtime('assets/js/open-demo-account-meta.js'); ?>"
       defer></script>
+    <script src="assets/js/registration-otp.js?v=<?php echo filemtime('assets/js/registration-otp.js'); ?>" defer></script>
     <script src="assets/js/open-account-lead.js?v=<?php echo filemtime('assets/js/open-account-lead.js'); ?>" defer>
     </script>
     <?php endif; ?>
     <?php if (!empty($page) && $page === 'open-live-account'): ?>
     <script src="assets/js/open-live-account-meta.js?v=<?php echo filemtime('assets/js/open-live-account-meta.js'); ?>"
       defer></script>
+    <script src="assets/js/registration-otp.js?v=<?php echo filemtime('assets/js/registration-otp.js'); ?>" defer></script>
     <script src="assets/js/open-account-lead.js?v=<?php echo filemtime('assets/js/open-account-lead.js'); ?>" defer>
     </script>
     <?php endif; ?>

@@ -47,6 +47,7 @@ $pageTitle = isset($embedPageTitle) ? (string) $embedPageTitle : 'TraderTok';
         'assets/css/styles.css',
         'assets/css/education-styles.css',
         'assets/css/embed-form.css',
+        'assets/css/registration-otp.css',
     ];
     foreach ($embedStylesheets as $stylesheet) {
         echo embed_asset_stylesheet_tag($stylesheet);

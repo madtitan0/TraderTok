@@ -2009,8 +2009,65 @@ function getUserDeviceInfo() {
 
 // Signup form submission with phone
 if (signupForm) {
+  if (window.TraderTokRegistrationOtp) {
+    window.TraderTokRegistrationOtp.mount(signupForm, {
+      getSubmitButton: function () {
+        return signupForm.querySelector('button[type="submit"]');
+      },
+      getOtpPayload: function () {
+        return {
+          firstName:
+            document.getElementById("signup-firstname")?.value?.trim() || "",
+          lastName:
+            document.getElementById("signup-lastname")?.value?.trim() || "",
+          email: document.getElementById("signup-email")?.value?.trim() || "",
+          phone:
+            (typeof selectedCountryCode !== "undefined"
+              ? selectedCountryCode
+              : "+44") +
+            String(document.getElementById("signup-phone")?.value || "").replace(
+              /\s+/g,
+              "",
+            ),
+          country:
+            typeof selectedCountryIso !== "undefined" ? selectedCountryIso : "CY",
+          language:
+            typeof currentLanguage !== "undefined" ? currentLanguage : "en",
+          brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+          businessUnitId: "fa26636a-0722-400f-91fc-90c88c9623d6",
+        };
+      },
+      watchSelectors: [
+        "#signup-firstname",
+        "#signup-lastname",
+        "#signup-email",
+        "#signup-phone",
+      ],
+      onMount: function () {
+        document
+          .querySelectorAll("#countryList .country-item")
+          .forEach(function (item) {
+            item.addEventListener("click", function () {
+              window.setTimeout(function () {
+                if (window.TraderTokRegistrationOtp) {
+                  window.TraderTokRegistrationOtp.reset(signupForm);
+                }
+              }, 0);
+            });
+          });
+      },
+    });
+  }
+
   signupForm.addEventListener("submit", async (e) => {
     e.preventDefault();
+
+    if (
+      window.TraderTokRegistrationOtp &&
+      !window.TraderTokRegistrationOtp.isReady(signupForm)
+    ) {
+      return;
+    }
 
     const firstname = document.getElementById("signup-firstname").value;
     const lastname = document.getElementById("signup-lastname").value;
@@ -2045,6 +2102,11 @@ if (signupForm) {
       ],
       userDevice: getUserDeviceInfo(),
     };
+
+    if (window.TraderTokRegistrationOtp) {
+      payload.registrationVerificationOtp =
+        window.TraderTokRegistrationOtp.getOtpValue(signupForm);
+    }
 
     const finalPayload =
       window.TraderTokLeads &&
@@ -2136,7 +2198,11 @@ if (signupForm) {
       const submitBtn = signupForm.querySelector('button[type="submit"]');
       if (submitBtn) {
         submitBtn.textContent = "Create Account";
-        submitBtn.disabled = false;
+        if (window.TraderTokRegistrationOtp) {
+          window.TraderTokRegistrationOtp.refresh(signupForm);
+        } else {
+          submitBtn.disabled = false;
+        }
       }
     }
   });
@@ -2532,6 +2598,12 @@ if (signupForm) {
         typeof getUserDeviceInfo === "function" ? getUserDeviceInfo() : {},
     };
 
+    const depositForm = document.getElementById("depositForm");
+    if (depositForm && window.TraderTokRegistrationOtp) {
+      payload.registrationVerificationOtp =
+        window.TraderTokRegistrationOtp.getOtpValue(depositForm);
+    }
+
     const res = await fetch(DEPOSIT_LEADS_URL, {
       method: "POST",
       headers: getDepositLeadsHeaders(),
@@ -2555,6 +2627,7 @@ if (signupForm) {
     const panelEx = document.getElementById("depositPanelExisting");
     const panelNew = document.getElementById("depositPanelNew");
     const submitBtn = document.getElementById("depositSubmit");
+    const form = document.getElementById("depositForm");
     if (panelEx) panelEx.hidden = mode !== "existing";
     if (panelNew) panelNew.hidden = mode !== "new";
     if (submitBtn) {
@@ -2569,6 +2642,57 @@ if (signupForm) {
         window.updatePageLanguage();
       }
     }
+    if (form && window.TraderTokRegistrationOtp) {
+      window.TraderTokRegistrationOtp.refresh(form);
+    }
+  }
+
+  function mountDepositOtp() {
+    const form = document.getElementById("depositForm");
+    if (!form || !window.TraderTokRegistrationOtp || form.dataset.otpMounted) {
+      return;
+    }
+    form.dataset.otpMounted = "1";
+    window.TraderTokRegistrationOtp.mount(form, {
+      getSubmitButton: function () {
+        return document.getElementById("depositSubmit");
+      },
+      isActive: function () {
+        return (
+          form.querySelector('input[name="depositMode"]:checked')?.value ===
+          "new"
+        );
+      },
+      getOtpPayload: function () {
+        return {
+          firstName:
+            document.getElementById("depositFirstname")?.value?.trim() || "",
+          lastName:
+            document.getElementById("depositLastname")?.value?.trim() || "",
+          email:
+            document.getElementById("depositEmailNew")?.value?.trim() || "",
+          phone:
+            (typeof selectedCountryCode !== "undefined"
+              ? selectedCountryCode
+              : "+44") +
+            String(
+              document.getElementById("depositPhone")?.value || "",
+            ).replace(/\s+/g, ""),
+          country:
+            typeof selectedCountryIso !== "undefined" ? selectedCountryIso : "CY",
+          language:
+            typeof currentLanguage !== "undefined" ? currentLanguage : "en",
+          brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+          businessUnitId: "fa26636a-0722-400f-91fc-90c88c9623d6",
+        };
+      },
+      watchSelectors: [
+        "#depositFirstname",
+        "#depositLastname",
+        "#depositEmailNew",
+        "#depositPhone",
+      ],
+    });
   }
 
   function bindDepositModal() {
@@ -2628,7 +2752,11 @@ if (signupForm) {
           );
         } finally {
           if (submitBtn) {
-            submitBtn.disabled = false;
+            if (window.TraderTokRegistrationOtp) {
+              window.TraderTokRegistrationOtp.refresh(form);
+            } else {
+              submitBtn.disabled = false;
+            }
           }
           const m = form.querySelector(
             'input[name="depositMode"]:checked',
@@ -2657,6 +2785,16 @@ if (signupForm) {
         return;
       }
 
+      if (
+        window.TraderTokRegistrationOtp &&
+        !window.TraderTokRegistrationOtp.isReady(form)
+      ) {
+        setFormError(
+          "Please verify your email with the code sent to you.",
+        );
+        return;
+      }
+
       if (submitBtn) {
         submitBtn.disabled = true;
         submitBtn.textContent = "Registering…";
@@ -2676,12 +2814,18 @@ if (signupForm) {
         );
       } finally {
         if (submitBtn) {
-          submitBtn.disabled = false;
+          if (window.TraderTokRegistrationOtp) {
+            window.TraderTokRegistrationOtp.refresh(form);
+          } else {
+            submitBtn.disabled = false;
+          }
         }
         updateModeUI("new");
       }
     });
   }
+
+  mountDepositOtp();
 
   openBtn?.addEventListener("click", openModal);
 
@@ -3120,6 +3264,12 @@ if (signupForm) {
         typeof getUserDeviceInfo === "function" ? getUserDeviceInfo() : {},
     };
 
+    const clubForm = document.getElementById("tradersClubForm");
+    if (clubForm && window.TraderTokRegistrationOtp) {
+      payload.registrationVerificationOtp =
+        window.TraderTokRegistrationOtp.getOtpValue(clubForm);
+    }
+
     const res = await fetch(TRADERS_CLUB_LEADS_URL, {
       method: "POST",
       headers: getLeadsHeaders(),
@@ -3143,6 +3293,7 @@ if (signupForm) {
     const panelEx = document.getElementById("tradersClubPanelExisting");
     const panelNew = document.getElementById("tradersClubPanelNew");
     const submitBtn = document.getElementById("tradersClubSubmit");
+    const form = document.getElementById("tradersClubForm");
     if (panelEx) panelEx.hidden = mode !== "existing";
     if (panelNew) panelNew.hidden = mode !== "new";
     if (submitBtn) {
@@ -3157,6 +3308,57 @@ if (signupForm) {
         window.updatePageLanguage();
       }
     }
+    if (form && window.TraderTokRegistrationOtp) {
+      window.TraderTokRegistrationOtp.refresh(form);
+    }
+  }
+
+  function mountTradersClubOtp() {
+    const form = document.getElementById("tradersClubForm");
+    if (!form || !window.TraderTokRegistrationOtp || form.dataset.otpMounted) {
+      return;
+    }
+    form.dataset.otpMounted = "1";
+    window.TraderTokRegistrationOtp.mount(form, {
+      getSubmitButton: function () {
+        return document.getElementById("tradersClubSubmit");
+      },
+      isActive: function () {
+        return (
+          form.querySelector('input[name="tradersClubMode"]:checked')?.value ===
+          "new"
+        );
+      },
+      getOtpPayload: function () {
+        return {
+          firstName:
+            document.getElementById("clubFirstname")?.value?.trim() || "",
+          lastName:
+            document.getElementById("clubLastname")?.value?.trim() || "",
+          email: document.getElementById("clubEmailNew")?.value?.trim() || "",
+          phone:
+            (typeof selectedCountryCode !== "undefined"
+              ? selectedCountryCode
+              : "+44") +
+            String(document.getElementById("clubPhone")?.value || "").replace(
+              /\s+/g,
+              "",
+            ),
+          country:
+            typeof selectedCountryIso !== "undefined" ? selectedCountryIso : "CY",
+          language:
+            typeof currentLanguage !== "undefined" ? currentLanguage : "en",
+          brandId: "8f867771-8a91-4eac-acd9-3255502fceab",
+          businessUnitId: "fa26636a-0722-400f-91fc-90c88c9623d6",
+        };
+      },
+      watchSelectors: [
+        "#clubFirstname",
+        "#clubLastname",
+        "#clubEmailNew",
+        "#clubPhone",
+      ],
+    });
   }
 
   function bindTradersClubModal() {
@@ -3216,7 +3418,11 @@ if (signupForm) {
           );
         } finally {
           if (submitBtn) {
-            submitBtn.disabled = false;
+            if (window.TraderTokRegistrationOtp) {
+              window.TraderTokRegistrationOtp.refresh(form);
+            } else {
+              submitBtn.disabled = false;
+            }
           }
           const m = form.querySelector(
             'input[name="tradersClubMode"]:checked',
@@ -3241,6 +3447,16 @@ if (signupForm) {
         return;
       }
 
+      if (
+        window.TraderTokRegistrationOtp &&
+        !window.TraderTokRegistrationOtp.isReady(form)
+      ) {
+        setFormError(
+          "Please verify your email with the code sent to you.",
+        );
+        return;
+      }
+
       if (submitBtn) {
         submitBtn.disabled = true;
         submitBtn.textContent = "Registering…";
@@ -3260,12 +3476,18 @@ if (signupForm) {
         );
       } finally {
         if (submitBtn) {
-          submitBtn.disabled = false;
+          if (window.TraderTokRegistrationOtp) {
+            window.TraderTokRegistrationOtp.refresh(form);
+          } else {
+            submitBtn.disabled = false;
+          }
         }
         updateModeUI("new");
       }
     });
   }
+
+  mountTradersClubOtp();
 
   openBtn?.addEventListener("click", openModal);
 
