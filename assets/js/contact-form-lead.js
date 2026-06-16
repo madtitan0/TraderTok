@@ -10,6 +10,7 @@
 
   var submitBtn = document.getElementById("contactLeadSubmitBtn");
   var formStatus = document.getElementById("contactLeadFormStatus");
+  var otp = window.TraderTokRegistrationOtp;
 
   function validateEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -99,7 +100,7 @@
     var source = form.getAttribute("data-form-source") || "contact";
     var message = document.getElementById("contactLeadMessage").value.trim();
 
-    return leads.mergePayload({
+    var payload = leads.mergePayload({
       firstName: document.getElementById("contactLeadName").value.trim(),
       lastName: document.getElementById("contactLeadSurname").value.trim(),
       email: document.getElementById("contactLeadEmail").value.trim(),
@@ -116,6 +117,12 @@
       comment: message,
       description: "[" + source + "] " + message,
     });
+
+    if (otp) {
+      payload.registrationVerificationOtp = otp.getOtpValue(form);
+    }
+
+    return payload;
   }
 
   function showFormStatus(type, text) {
@@ -139,6 +146,32 @@
       '<h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Application Submitted!</h3>' +
       '<p style="color: var(--text-secondary);">Our manager will contact you shortly.</p>' +
       "</div>";
+  }
+
+  if (otp) {
+    otp.mount(form, {
+      getSubmitButton: function () {
+        return submitBtn;
+      },
+      getOtpPayload: function () {
+        return {
+          firstName: document.getElementById("contactLeadName").value.trim(),
+          lastName: document.getElementById("contactLeadSurname").value.trim(),
+          email: document.getElementById("contactLeadEmail").value.trim(),
+          phone: document.getElementById("contactLeadPhone").value.trim(),
+          country: "CY",
+          language: leads.getLanguage(),
+          brandId: leads.BRAND_ID,
+          businessUnitId: leads.BUSINESS_UNIT_ID,
+        };
+      },
+      watchSelectors: [
+        "#contactLeadName",
+        "#contactLeadSurname",
+        "#contactLeadPhone",
+        "#contactLeadEmail",
+      ],
+    });
   }
 
   ["contactLeadName", "contactLeadSurname", "contactLeadPhone", "contactLeadEmail", "contactLeadMessage"].forEach(
@@ -184,6 +217,14 @@
       return;
     }
 
+    if (otp && !otp.isReady(form)) {
+      showFormStatus(
+        "error",
+        "Please verify your email with the code sent to you.",
+      );
+      return;
+    }
+
     var originalBtnText = submitBtn ? submitBtn.textContent : "Contact Us";
     if (submitBtn) {
       submitBtn.disabled = true;
@@ -208,8 +249,12 @@
       })
       .finally(function () {
         if (submitBtn) {
-          submitBtn.disabled = false;
           submitBtn.textContent = originalBtnText;
+          if (otp) {
+            otp.refresh(form);
+          } else {
+            submitBtn.disabled = false;
+          }
         }
       });
   });

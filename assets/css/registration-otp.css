@@ -1,0 +1,133 @@
+.registration-otp-wrap {
+  margin: 16px 0;
+}
+
+.registration-otp-send {
+  width: 100%;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.registration-otp-send:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.registration-otp-panel {
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.12));
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: var(--surface-secondary, rgba(255, 255, 255, 0.04));
+}
+
+.registration-otp-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.registration-otp-message {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-primary, #fff);
+  flex: 1;
+}
+
+.registration-otp-timer {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary, #b0b0b0);
+  white-space: nowrap;
+}
+
+.registration-otp-hint {
+  margin: 0 0 12px;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #b0b0b0);
+}
+
+.registration-otp-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.18));
+  border-radius: 8px;
+  background: var(--input-bg, rgba(0, 0, 0, 0.2));
+  color: var(--text-primary, #fff);
+  font-size: 1.1rem;
+  letter-spacing: 0.35em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.registration-otp-input:focus {
+  outline: none;
+  border-color: var(--accent-primary, #00c853);
+}
+
+.registration-otp-resend {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent-link, #4da3ff);
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.registration-otp-resend:hover {
+  color: var(--accent-link-hover, #7bb8ff);
+}
+
+.registration-otp-error {
+  margin: 0 0 12px;
+  color: #ff5252;
+  font-size: 0.9rem;
+}
+
+body.light-theme .registration-otp-panel {
+  background: #f7f8fa;
+  border-color: #e2e6ee;
+}
+
+body.light-theme .registration-otp-input {
+  background: #fff;
+  border-color: #d5dae3;
+  color: #111;
+}
+
+.auth-form .registration-otp-send {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.auth-form .registration-otp-wrap {
+  margin-top: 8px;
+}
+
+.registration-account-form .registration-otp-send {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.deposit-form .registration-otp-send,
+.traders-club-form .registration-otp-send {
+  width: 100%;
+  padding: 18px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
