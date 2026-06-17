@@ -3978,15 +3978,19 @@ body.light-theme .education-hub-cta-btn--outline {
 
 .blog-article-card .education-article-card-body {
   padding: 24px 26px 28px;
+  min-height: 0;
+  flex: 1;
 }
 
 .blog-article-card-media {
   display: block;
+  flex-shrink: 0;
   overflow: hidden;
   line-height: 0;
 }
 
 .blog-article-card-media img {
+  display: block;
   width: 100%;
   height: 220px;
   object-fit: cover;

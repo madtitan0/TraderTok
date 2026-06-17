@@ -1,10 +1,15 @@
 <?php
 ob_start();
-require __DIR__ . '/includes/helpers/routing.php';
-tt_apply_request_uri_page_param();
 echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
 require __DIR__ . '/ensure-api-cache-shape.php';
 require __DIR__ . '/api.php';
+require __DIR__ . '/includes/blog-url-helpers.php';
+
+$routeConfig = require __DIR__ . '/includes/config/page-routes.php';
+$staticRoutes = $routeConfig['static'];
+$dynamicRoutes = $routeConfig['dynamic'];
+$blogPosts = (isset($get->blog) && is_array($get->blog)) ? $get->blog : [];
+$blogDetailPost = null;
 
 /**
  * Canonicalize legacy query-style pages (/?page=slug) to pretty routes (/slug).
@@ -58,19 +63,27 @@ if (isset($page) && $page === 'education-article') {
     exit;
 }
 
-$routeConfig = require __DIR__ . '/includes/config/page-routes.php';
-$staticRoutes = $routeConfig['static'];
-$ttIsNotFound = false;
-
-if (!empty($page)) {
-    $ttIsNotFound = !tt_resolve_page_exists((string) $page, $get);
-    if ($ttIsNotFound) {
-        tt_set_not_found_meta($get);
+// Legacy /blogDetail?id=530 -> /{cms-url-address} when slug exists.
+if ($page === 'blogDetail' && isset($_GET['id']) && (string) $_GET['id'] !== '') {
+    $legacyBlogPost = blog_find_by_id($blogPosts, $_GET['id']);
+    if ($legacyBlogPost !== null) {
+        $legacySlug = blog_post_slug($legacyBlogPost);
+        if ($legacySlug !== '') {
+            $redirectPath = ($basePath === '' ? '' : $basePath) . '/' . $legacySlug;
+            header('Location: ' . $redirectPath, true, 301);
+            exit;
+        }
     }
+} elseif (
+    !empty($page)
+    && !isset($staticRoutes[$page])
+    && !in_array($page, $dynamicRoutes, true)
+) {
+    $blogDetailPost = blog_find_by_slug($blogPosts, (string) $page);
 }
 
 // Academy: page-specific SEO (API $get defaults are site-wide).
-if (!empty($page) && !$ttIsNotFound) {
+if (!empty($page)) {
     if ($page === 'edu-market-news') {
         $get->title = 'Market News & Insights | Forex, Gold, Indices & Macro Analysis | TraderTok';
         $get->desc = 'Stay updated with TraderTok market news, weekly outlooks, forex analysis, gold insights, and major economic events shaping the markets.';
@@ -83,14 +96,6 @@ if (!empty($page) && !$ttIsNotFound) {
         $get->title = 'Open Live Trading Account | TraderTok';
         $get->desc = 'Start your live trading account application. Our team will follow up with next steps and documentation.';
         $get->keyw = 'live account, forex account, trading account registration';
-    } elseif ($page === 'open-demo-account-embed') {
-        $get->title = 'Open Demo Account Form | TraderTok';
-        $get->desc = 'Embedded demo account registration form for marketing pages.';
-        $get->keyw = 'demo account, embed form, TraderTok';
-    } elseif ($page === 'open-live-account-embed') {
-        $get->title = 'Open Live Account Form | TraderTok';
-        $get->desc = 'Embedded live account registration form for marketing pages.';
-        $get->keyw = 'live account, embed form, TraderTok';
     } elseif ($page === 'claim-offer') {
         $get->title = 'Claim Offer | TraderTok';
         $get->desc = 'Register your interest to claim a promotion. Our team will follow up with eligibility and next steps.';
@@ -127,6 +132,21 @@ if (!empty($page) && !$ttIsNotFound) {
         $get->title = 'Join TraderTok Club | TraderTok';
         $get->desc = 'Join TraderTok Club to receive trading insights, market updates, and beginner-friendly education resources.';
         $get->keyw = 'join TraderTok Club, trading community, trading insights, TraderTok';
+    } elseif ($page === 'blog') {
+        $get->title = 'Blogs | TraderTok';
+        $get->desc = 'Read TraderTok blog articles covering trading education, market insights, and platform updates.';
+        $get->keyw = 'TraderTok blog, trading articles, market insights, education';
+    } elseif ($blogDetailPost !== null) {
+        blog_apply_detail_seo($get, $blogDetailPost);
+    } elseif ($page === 'blogDetail') {
+        $legacyBlogPost = blog_find_by_id($blogPosts, $_GET['id'] ?? '');
+        if ($legacyBlogPost !== null) {
+            blog_apply_detail_seo($get, $legacyBlogPost);
+        } else {
+            $get->title = 'Blog | TraderTok';
+            $get->desc = 'Read articles on the TraderTok blog.';
+            $get->keyw = 'TraderTok blog, trading articles';
+        }
     } elseif ($page === 'education') {
         $eduArticlesPath = __DIR__ . '/assets/data/education_articles.json';
         $articleId = isset($_GET['id']) ? trim((string) $_GET['id']) : '';
@@ -197,22 +217,6 @@ if (!empty($page) && !$ttIsNotFound) {
     }
 }
 
-$ttEmbedFormPages = ['open-demo-account-embed', 'open-live-account-embed'];
-if (
-    !empty($page)
-    && !$ttIsNotFound
-    && in_array($page, $ttEmbedFormPages, true)
-    && isset($staticRoutes[$page])
-) {
-    if (!headers_sent()) {
-        header(
-            "Content-Security-Policy: frame-ancestors 'self' https://marketing.tradertok.com https://www.marketing.tradertok.com https://tradertok.com https://www.tradertok.com"
-        );
-    }
-    require __DIR__ . '/' . $staticRoutes[$page];
-    exit;
-}
-
 require 'includes/head.php';
 
 echo "<!-- INDEX_PAGE_VAR: '" . @$_GET['page'] . "' -->\n";
@@ -223,14 +227,17 @@ if (!$page) {
     exit;
 }
 
-if ($ttIsNotFound) {
-    tt_render_not_found_page();
-}
-
 $menuDetail = (object)[];
 
 if (isset($staticRoutes[$page])) {
     require $staticRoutes[$page];
+    require 'includes/footer.php';
+    exit;
+}
+
+if ($blogDetailPost !== null) {
+    $blogDetail = $blogDetailPost;
+    require 'includes/blogDetail.php';
     require 'includes/footer.php';
     exit;
 }
@@ -270,12 +277,7 @@ switch ($page) {
         break;
 
     case 'blogDetail':
-        foreach ($get->blog as $blog1) {
-            if ($blog1->id == $_GET['id']) {
-                $blogDetail = $blog1;
-                break;
-            }
-        }
+        $blogDetail = blog_find_by_id($blogPosts, $_GET['id'] ?? '');
         require 'includes/blogDetail.php';
         break;
 
@@ -288,7 +290,7 @@ switch ($page) {
         }
 
         if (!count((array) $menuDetail)) {
-            tt_render_not_found_page();
+            die('page not found...');
         }
 
         require 'includes/page.php';
