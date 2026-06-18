@@ -43,11 +43,6 @@
                 <option value="other">Other</option>
               </select>
             </div>
-            <?php
-            $qualificationNamePrefix = '';
-            $qualificationIdPrefix = 'openDemo';
-            include __DIR__ . '/registration-qualification-fields.php';
-            ?>
             <div class="edu-lead-gate-consent">
               <label class="edu-lead-gate-check-label">
                 <input type="checkbox" name="consent" id="openDemoEmbedConsent" value="1" required>
