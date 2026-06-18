@@ -1,0 +1,34 @@
+{
+    "last_updated": 1780616735,
+    "last_updated_dt": "2026-06-04 23:45:35",
+    "data": [
+        {
+            "pair": "EURUSD",
+            "bid": 1.16119,
+            "ask": 1.16125,
+            "change": -0.0043,
+            "spread": 6.0e-5
+        },
+        {
+            "pair": "GBPUSD",
+            "bid": 1.34217,
+            "ask": 1.34224,
+            "change": -0.0112,
+            "spread": 7.0e-5
+        },
+        {
+            "pair": "AUDUSD",
+            "bid": 0.71321,
+            "ask": 0.71327,
+            "change": -0.014,
+            "spread": 6.0e-5
+        },
+        {
+            "pair": "XAUUSD",
+            "bid": 4462.206,
+            "ask": 4462.402,
+            "change": -0.0283,
+            "spread": 0.196
+        }
+    ]
+}

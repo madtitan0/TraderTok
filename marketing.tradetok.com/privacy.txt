@@ -1,0 +1,199 @@
+Privacy Policy
+INTRODUCTION
+Our comprehensive data protection policy reflects our commitment to upholding high
+security standards.
+Amber Rock Trade Ltd, and its subsidiaries, affiliates, partners, and related entities
+(collectively, the “Company,” “we,” “us,” or “our”), are committed to protecting the
+privacy and securing the personal and financial information of our clients.
+This Privacy Policy explains how we collect, use, process, store, disclose, and protect
+personal data when clients, users, employees, contractors, business introducers, and
+affiliates interact with the Company or use its services.
+By accessing our website, platform, or services, opening an account, or continuing to
+use our services, you acknowledge that you have read, understood, and agreed to this
+Privacy Policy.
+1. SCOPE AND APPLICATION
+This Privacy Policy applies to:
+●
+Clients and prospective clients
+●
+Website and platform users
+●
+Employees, contractors, consultants, and agents
+●
+Affiliates, partners, and business introducers
+This policy applies regardless of the method of interaction, including online platforms,
+mobile applications, email, telephone, or other electronic or physical means.
+2. DEFINITIONS
+For the purposes of this Privacy Policy:
+“Personal data” / “Personal data” means any information that identifies or can
+reasonably identify an individual, directly or indirectly.
+“Processing” means any operation performed on Personal data, including collection,
+storage, use, disclosure, transmission, or deletion
+“Affiliates” means entities controlling, controlled by, or under common control with the
+Company
+“Partners” means third parties that provide services or products in cooperation with the
+Company
+“Business Introducers” means third parties that introduce clients to the Company
+under contractual arrangements
+“Third Parties” means any entity other than the Company and its Affiliates.
+3.COLLECTION OF PERSONAL DATA
+The Company collects the necessary information required to open a client's trading
+account and process transactions. In addition, we safeguard clients' assets and privacy
+while providing the services they need. To this end, the Company collects data from
+clients and in certain circumstances, obtains information from third parties such as
+banks, credit agencies, clearing agencies, and other relevant sources. This allows the
+Company to build a client profile based on their preferences and needs, ensuring
+effective service delivery.
+The Company only collects information necessary to communicate with and identify
+clients. This include, without limitation personal details such as Identification and
+verification data, Information required for KYC, AML, CTF, fraud prevention, risk
+management, and regulatory compliance, financial and transactional data,
+communication and device data as well as Behavioral data
+The said Personal data can be collected directly from clients or users, automatically
+through systems, platforms, cookies, logs, and monitoring tools as well as from third
+parties such as banks, payment providers and other legally permitted sources
+Failure to provide the required information may result in refusal to open an account
+and/or account’s suspension and/or termination of services.
+The client is responsible for ensuring the accuracy and completeness of the provided
+information and the Company is not liable for consequences arising from inaccurate or
+outdated information supplied by clients.
+Personal Data is retained for as long as necessary to fulfill legal and regulatory
+purposes. Data may be retained longer where required by law, regulation, dispute
+resolution, or enforcement obligations.
+4. CLIENT CONSENT AND ONGOING
+AUTHORIZATION
+By opening an account, using the Company’s services, or continuing to interact with the
+Company, clients provide their informed and explicit consent to electronic storage and
+processing of Personal data, cross-border data transfers and storage (where applicable)
+and legally mandated disclosures.
+Continues use of services constitutes ongoing consent, subject to applicable law.
+5. USE OF PERSONAL DATA
+The Company uses clients' personal data for legitimate business and regulatory
+purposes in order to provide quality service and ensure security. This includes, but not
+limited to, uses for providing, operating, and maintaining services, regulatory
+compliance, audits and/or reporting, risk management, internal controls and monitoring,
+fraud detection, prevention, and investigation, legal claims and proceedings, dispute
+resolution and enforcement of rights.
+Where possible, the client consents in anonymized or aggregated form of data usage
+for internal analytics, system testing and business improvement.
+Marketing and promotional communications are optional. Clients may opt out at any
+time without affecting service-related communications, which are mandatory for account
+operation, security, and compliance.
+Personal Data may be transferred, processed, and stored in jurisdictions outside the
+client’s country of residence. By using the Company’s services, client consents to such
+transfers.
+If clients prefer not to receive such communications, they can opt out by contacting the
+Company at: compliance@tradertok.com
+6. PROTECTION OF PERSONAL DATA
+The Company implements administrative, technical, and physical safeguards consistent
+with industry standards to protect Personal Data. Access is restricted based on
+role-based “need-to-know” principles. Access to personal data is limited to personnel
+and/or agents who require such access to perform their role on a “need-to-know” basis
+and are subject to confidentiality obligations and appropriate disciplinary measures for
+violations of data protection policies.
+No system is completely secure. The Company is not liable for unauthorized access,
+cyber incidents, or data breaches beyond its reasonable control, including force majeure
+events.
+7. AFFILIATES AND PARTNERS
+The Company may share personal data with affiliates as reasonably necessary to
+provide related products or services. Information may also be shared with partners and
+affiliates to offer additional products and services, provided that clients have authorized
+the Company to do so.
+8. NON-AFFILIATED THIRD PARTIES
+The Company does not sell, license, lease, or otherwise disclose clients' personal data
+to third parties, except as described in this Privacy Policy. However, the Company may
+disclose information to third parties were deemed necessary or appropriate for the
+protection of the Company’s rights, including but not limited to legal rights, assets and/or
+safety and/or to facilitate or complete a merger, acquisition, financing and/or sale of
+assets through any mean and/or procedure. Third parties include regulators, law
+enforcement, courts, and governmental authorities, professional advisors (lawyers,
+auditors and/or consultants) and technology providers, vendors, and service providers.
+These third parties are required to use the shared information strictly for these functions
+and are obligated to protect clients' data in accordance with applicable laws. The
+Company is not responsible for third-party data practices where disclosure is lawful and
+beyond the Company’s reasonable control.
+9. CONTACTING CLIENTS
+The Company may contact clients regarding promotional offers, as consented to during
+account registration, when agreeing to the Company’s terms and conditions. Clients can
+opt out of such contact at any time by contacting the Company via phone or email and
+requesting no further communication.
+The Company may contact clients through email, telephone calls and/or messages,
+in-platform notifications and other electronic or digital means necessary to operate
+accounts and deliver services.
+Service-related communications are mandatory and include notices required for account
+operation, transaction processing, security alerts, regulatory disclosures, policy updates,
+system notifications, and compliance-related matters. Clients cannot opt out of
+service-related communications, as they are essential to the provision, security, and
+lawful operation of the Company’s services.
+Marketing and promotional communications are optional and include information about
+products, services, features, or promotional offers. Clients retain the right to opt out of
+marketing and promotional communications at any time.
+Opting out of marketing or promotional communications does not affect the delivery of
+mandatory service-related communications.
+Opt-out requests are processed within a reasonable period following receipt. During this
+processing period, clients may continue to receive limited marketing communications
+until the request is fully implemented.
+10. CLIENT RIGHTS
+Subject to applicable law, client may request to access their Personal Data, to
+correction inaccurate data and/or to request the deletion and/or restriction of processing
+(where legally permitted) and/or to object to certain processing activities. Requests may
+require identity verification and may be refused where legally justified.
+Questions, concerns, or complaints regarding this Policy or the Company’s data
+practices may be submitted using the contact information provided on the Company’s
+website or platform.
+The Company will acknowledge receipt of complaints or inquiries (set timeframe). The
+Company will investigate and respond substantively within 30 days, unless a longer
+period is required due to the complexity of the request or applicable legal obligations. If
+additional time is required, the Company will notify the individual of the delay and the
+reason for it, where permitted by law.
+If an individual is not satisfied with the Company’s initial response, they may request
+that the matter be reviewed by appropriate senior personnel or the Company’s
+designated compliance officer.
+The Company will make reasonable efforts to resolve escalated matters promptly and in
+good faith.
+11. LIMITATION OF LIABILITY
+The Company is not responsible for the privacy practices or content of websites linked
+to tradertok.com. When clients choose to link to co-branded or third-party websites,
+any personal data requested by those sites will be governed by the third-party's privacy
+policy. The Company does not guarantee or assume any responsibility for third-party
+tools, plugins, analytics services or any content provided by third parties.
+Client’s access or link to third-party websites, platforms, or services entirely at their own
+risk and the Company has no control over the privacy, security, or data-handling
+practices of third parties and is not for any consequences arising from the use of such
+third-party services, including but not limited to unauthorized access, misuse and/or
+disclosure of personal information
+12. USE OF COOKIES
+The Company uses cookies to secure client trading activities and improve the
+functionality of the tradertok.com website. These cookies do not contain any personal
+or sensitive data but may collect information such as IP addresses, Device and browser
+information or usage patterns and behavioral data (aggregated or anonymized).
+Cookies are categorised as:
+1. Essential / Functional Cookies that are required to operate the website,
+maintain user sessions, enable core features, and support account and service
+functionality
+2. Performance / Analytics Cookies to collect information on website usage and
+performance, such as page visits, navigation paths, load times, and errors, to
+improve services. All performance data is non-identifiable or aggregated.
+3. Marketing / Advertising Cookies that are used to deliver targeted promotional
+content, offers, and advertisements where client consent is provided.
+The Company complies with applicable cookie consent laws where required and
+ensures browser-level cookie management controls.
+Where permitted by law, continued use of the website or platform constitutes consent to
+the placement and use of cookies as described in this Policy.
+13. PRIVACY POLICY UPDATES
+The Company reserves the unilateral right to amend, modify, update, or revise this
+Policy at any time in its sole discretion and changes take effect immediately upon
+publication on the Company’s website or platform. Clients agree that posting the
+updated Privacy Policy on the website constitutes formal notice of the changes.
+Continued access to and/or use of the Company’s services after the effective date of
+any changes constitutes acknowledgment and acceptance of the updated Policy, to the
+extent permitted by applicable law.
+The Company encourages clients to review the Privacy Policy regularly to remain
+informed about the information collected, its usage, and potential disclosures in line with
+this policy.
+This Privacy Policy is governed by and construed in accordance with the laws and
+jurisdiction specified in the Client Agreement, and any disputes are subject to the terms
+therein.
+If any provision of this Privacy Policy is held to be invalid, illegal, or unenforceable, such
+invalidity does not affect the validity or enforceability of the remaining provisions, which
+continue in full force and effect.

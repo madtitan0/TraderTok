@@ -1,0 +1,14 @@
+{
+    "last_updated": 1780616781,
+    "last_updated_dt": "2026-06-04 23:46:21",
+    "data": [
+        {
+            "symbol": "EURUSD",
+            "price": 1.1612,
+            "bid": 1.1612,
+            "ask": 1.16126,
+            "change": -0.0034,
+            "spread": 6.0e-5
+        }
+    ]
+}
