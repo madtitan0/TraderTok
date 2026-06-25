@@ -393,6 +393,11 @@
       </a>
     </div>
 
+    <!-- respond.io growth widget -->
+    <script id="respondio__growth_tool"
+    src="https://cdn.respond.io/widget/widget.js?wId=059e9f18-f588-475a-bd46-0e2dd5c8a907" defer></script>
+    <script src="assets/js/respondio-widget.js?v=<?php echo filemtime('assets/js/respondio-widget.js'); ?>" defer>
+    </script>
  <!-- Start of LiveChat (www.livechat.com) code -->
     <script>
 window.__lc = window.__lc || {};
@@ -438,6 +443,7 @@ LiveChatWidget.on('ready', function() {
     LiveChatWidget.call('minimize');
     LiveChatWidget.call('hide_greeting');
   } catch (e) {}
+  window.dispatchEvent(new Event('resize'));
 });
 (function() {
   var hidFirstGreeting = false;
