@@ -9,7 +9,7 @@
 
   /* respond.io (assets/js/respondio-widget.js) */
   --tt-respondio-right: 20px;
-  --tt-respondio-gap: 14px; /* space above WhatsApp; bottom is computed from this */
+  --tt-respondio-gap: 14px; /* space above LiveChat; bottom is computed from this */
   --tt-respondio-bottom: 0; /* optional extra minimum lift (px), usually leave 0 */
 }
 
@@ -25,14 +25,14 @@
 }
 
 /*
+ * Stack (bottom → top): WhatsApp → LiveChat → respond.io
  * respond.io uses Shadow DOM — adjust --tt-respondio-right / --tt-respondio-gap.
- * Bottom is auto-stacked above .whatsapp-button (see respondio-widget.js).
  */
 
- /* Position LiveChat widget above WhatsApp */
+/* LiveChat — middle of stack, above WhatsApp */
 #chat-widget-container {
-  bottom: 90px !important;
-  right: 10px !important;
+  bottom: 94px !important;
+  right: 20px !important;
 }
 
 .whatsapp-button {
@@ -112,5 +112,10 @@
   .whatsapp-button {
     width: 50px;
     height: 50px;
+  }
+
+  #chat-widget-container {
+    bottom: 82px !important;
+    right: 20px !important;
   }
 }

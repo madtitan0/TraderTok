@@ -1,6 +1,11 @@
 DirectoryIndex index.php
 RewriteEngine On
 
+# Block dev / Node files from public HTTP access
+<FilesMatch "^(package\.json|package-lock\.json|google-translate-api-x-.*\.tgz)$">
+    Require all denied
+</FilesMatch>
+
 RewriteRule ^$ index.php [L]
 
 RewriteRule ^favicon\.ico$ - [L]
