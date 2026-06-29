@@ -122,7 +122,7 @@
       customFields: leads.buildRegistrationQualificationCustomFields(form),
     });
 
-    if (otp) {
+    if (otp && otp.isRequired(form)) {
       payload.registrationVerificationOtp = otp.getOtpValue(form);
     }
 

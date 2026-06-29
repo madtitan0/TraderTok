@@ -7,6 +7,12 @@
   var OTP_DURATION_SEC = 30 * 60;
   var MIN_CODE_LENGTH = 4;
 
+  // Temporary master switch for the email verification (OTP) step across all
+  // registration/lead forms. While false, the OTP step is hidden/disabled and
+  // registration is allowed without verification. The UI and logic are left in
+  // place so this can be re-enabled by flipping this flag back to true.
+  var REGISTRATION_OTP_ENABLED = false;
+
   var instances = new WeakMap();
 
   function t(key, fallback) {
@@ -123,6 +129,7 @@
   }
 
   function isOtpActive(state) {
+    if (!REGISTRATION_OTP_ENABLED) return false;
     return typeof state.options.isActive === "function"
       ? !!state.options.isActive()
       : true;
@@ -153,13 +160,34 @@
 
     var active = isOtpActive(state);
 
-    if (state.wrap) {
-      state.wrap.hidden = !active;
-    }
-
     if (!active) {
+      if (!REGISTRATION_OTP_ENABLED) {
+        // Verification temporarily disabled globally: keep the "Send
+        // verification code" button visible but greyed-out and unclickable
+        // (the :disabled CSS handles opacity + not-allowed cursor), and keep the
+        // wrapper visible so the host form can still surface validation errors.
+        if (state.sendBtn) {
+          state.sendBtn.hidden = false;
+          state.sendBtn.disabled = true;
+        }
+        if (state.panel) state.panel.hidden = true;
+        if (state.wrap) {
+          state.wrap.hidden = false;
+          state.wrap.style.margin = "";
+        }
+      } else if (state.wrap) {
+        // Conditionally inactive (e.g. deposit/club "existing account" mode):
+        // hide the OTP wrapper entirely as before.
+        state.wrap.hidden = true;
+        state.wrap.style.margin = "";
+      }
       submitBtn.disabled = false;
       return;
+    }
+
+    if (state.wrap) {
+      state.wrap.hidden = false;
+      state.wrap.style.margin = "";
     }
 
     submitBtn.disabled = !formIsComplete(state) || !isReady(formEl);
@@ -170,7 +198,9 @@
 
     var active = isOtpActive(state);
     if (!active) {
-      state.sendBtn.disabled = false;
+      // Keep the button disabled (greyed-out) while verification is globally
+      // turned off; otherwise leave it enabled when merely conditionally inactive.
+      state.sendBtn.disabled = !REGISTRATION_OTP_ENABLED;
       return;
     }
 
@@ -197,6 +227,7 @@
   }
 
   function isRequired(formEl) {
+    if (!REGISTRATION_OTP_ENABLED) return false;
     var state = getInstance(formEl);
     if (!state) return false;
     if (typeof state.options.isActive === "function") {
@@ -238,6 +269,7 @@
   }
 
   function sendOtp(formEl, state) {
+    if (!REGISTRATION_OTP_ENABLED) return;
     if (typeof state.options.validateBeforeSend === "function") {
       var extraError = state.options.validateBeforeSend();
       if (extraError) {
