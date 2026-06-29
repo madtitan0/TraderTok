@@ -275,7 +275,7 @@ body.light-theme .home-payment-overview__wallet-gpay-muted {
 </style>
 <!-- Hero Section -->
 <section class="hero gold-silver-banner" aria-label="TraderTok banner">
-  <img src="assets/images/banner.jpeg" alt="Banner" class="banner-img">
+  <img src="assets/images/banner1.jpg" alt="Banner" class="banner-img">
 </section>
 
 
