@@ -2152,7 +2152,6 @@ if (signupForm) {
           id: "fb251ea1-1956-428a-b5a3-015cfb017e37",
         },
       ],
-      // clientzoneDisabled: true,
       accounts: [
         {
           groupName: "118000\\Default.USD",
@@ -2170,9 +2169,17 @@ if (signupForm) {
         );
     }
 
-    if (window.TraderTokRegistrationOtp) {
+    if (
+      window.TraderTokRegistrationOtp &&
+      window.TraderTokRegistrationOtp.isRequired(signupForm)
+    ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(signupForm);
+    } else {
+      // Verification temporarily disabled: submit as a lead so the backend does
+      // not require a registration OTP. Reverts automatically once verification
+      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
+      payload.clientzoneDisabled = true;
     }
 
     const finalPayload =
@@ -2673,9 +2680,18 @@ if (signupForm) {
         );
     }
 
-    if (depositForm && window.TraderTokRegistrationOtp) {
+    if (
+      depositForm &&
+      window.TraderTokRegistrationOtp &&
+      window.TraderTokRegistrationOtp.isRequired(depositForm)
+    ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(depositForm);
+    } else {
+      // Verification temporarily disabled: submit as a lead so the backend does
+      // not require a registration OTP. Reverts automatically once verification
+      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
+      payload.clientzoneDisabled = true;
     }
 
     const res = await fetch(DEPOSIT_LEADS_URL, {
@@ -3392,9 +3408,18 @@ if (signupForm) {
         );
     }
 
-    if (clubForm && window.TraderTokRegistrationOtp) {
+    if (
+      clubForm &&
+      window.TraderTokRegistrationOtp &&
+      window.TraderTokRegistrationOtp.isRequired(clubForm)
+    ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(clubForm);
+    } else {
+      // Verification temporarily disabled: submit as a lead so the backend does
+      // not require a registration OTP. Reverts automatically once verification
+      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
+      payload.clientzoneDisabled = true;
     }
 
     const res = await fetch(TRADERS_CLUB_LEADS_URL, {

@@ -76,8 +76,13 @@
       customFields: customFields,
     });
 
-    if (otp) {
+    if (otp && otp.isRequired(form)) {
       payload.registrationVerificationOtp = otp.getOtpValue(form);
+    } else {
+      // Verification temporarily disabled: submit as a lead so the backend does
+      // not require a registration OTP. Reverts automatically once verification
+      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
+      payload.clientzoneDisabled = true;
     }
 
     return payload;

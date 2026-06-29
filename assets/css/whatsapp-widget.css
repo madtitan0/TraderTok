@@ -8,7 +8,7 @@
   --tt-whatsapp-right: 20px;
 
   /* respond.io (assets/js/respondio-widget.js) */
-  --tt-respondio-right: 20px;
+  --tt-respondio-right: 30px;
   --tt-respondio-gap: 14px; /* space above LiveChat; bottom is computed from this */
   --tt-respondio-bottom: 0; /* optional extra minimum lift (px), usually leave 0 */
 }
@@ -100,7 +100,7 @@
     --tt-whatsapp-bottom: 20px;
     --tt-whatsapp-right: 20px;
     --tt-respondio-gap: 12px;
-    --tt-respondio-right: 20px;
+    --tt-respondio-right: 30px;
     --tt-respondio-bottom: 0;
   }
 
