@@ -17,6 +17,10 @@
   cursor: not-allowed;
 }
 
+.registration-otp-send[hidden] {
+  display: none !important;
+}
+
 .registration-otp-panel {
   border: 1px solid var(--border-color, rgba(255, 255, 255, 0.12));
   border-radius: 12px;

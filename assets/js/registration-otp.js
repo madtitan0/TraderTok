@@ -162,18 +162,18 @@
 
     if (!active) {
       if (!REGISTRATION_OTP_ENABLED) {
-        // Verification temporarily disabled globally: keep the "Send
-        // verification code" button visible but greyed-out and unclickable
-        // (the :disabled CSS handles opacity + not-allowed cursor), and keep the
-        // wrapper visible so the host form can still surface validation errors.
+        // Verification temporarily disabled globally: hide the "Send
+        // verification code" button entirely (and keep it disabled as a
+        // safeguard), but keep the wrapper mounted with no margin so the host
+        // form can still surface validation errors via the shared error line.
         if (state.sendBtn) {
-          state.sendBtn.hidden = false;
+          state.sendBtn.hidden = true;
           state.sendBtn.disabled = true;
         }
         if (state.panel) state.panel.hidden = true;
         if (state.wrap) {
           state.wrap.hidden = false;
-          state.wrap.style.margin = "";
+          state.wrap.style.margin = "0";
         }
       } else if (state.wrap) {
         // Conditionally inactive (e.g. deposit/club "existing account" mode):
@@ -198,9 +198,14 @@
 
     var active = isOtpActive(state);
     if (!active) {
-      // Keep the button disabled (greyed-out) while verification is globally
-      // turned off; otherwise leave it enabled when merely conditionally inactive.
-      state.sendBtn.disabled = !REGISTRATION_OTP_ENABLED;
+      if (!REGISTRATION_OTP_ENABLED) {
+        // Verification globally off: keep the button hidden and disabled.
+        state.sendBtn.hidden = true;
+        state.sendBtn.disabled = true;
+      } else {
+        // Merely conditionally inactive: leave it enabled.
+        state.sendBtn.disabled = false;
+      }
       return;
     }
 

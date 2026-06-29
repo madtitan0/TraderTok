@@ -31,6 +31,19 @@
   z-index: 2;
 }
 
+/* blend the bottom edge of the banner into the page background below */
+.gold-silver-banner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  background: linear-gradient(to bottom, transparent, var(--bg-primary));
+  z-index: 3;
+  pointer-events: none;
+}
+
 .banner-img {
   width: 100%;
   height: auto;
