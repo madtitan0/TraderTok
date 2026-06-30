@@ -160,7 +160,6 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function(e) {
             if (this.classList.contains('btn-primary')) {
                 e.preventDefault();
-                // Open sign up
                 if (typeof openAuthSidebar === 'function') {
                     openAuthSidebar('signup');
                 }

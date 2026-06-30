@@ -76,6 +76,7 @@ return [
         'edu-tutorials' => 'includes/edu-tutorials.php',
         'edu-resources' => 'includes/edu-resources.php',
         'open-demo-account' => 'includes/open-demo-account.php',
+        'create-account-embed' => 'includes/create-account-embed.php',
         'open-live-account' => 'includes/open-live-account.php',
         'open-demo-account-embed' => 'includes/open-demo-account-embed.php',
         'open-live-account-embed' => 'includes/open-live-account-embed.php',

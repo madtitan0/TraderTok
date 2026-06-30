@@ -2017,7 +2017,9 @@ if (signupForm) {
     const email = document.getElementById("signup-email")?.value?.trim() || "";
     const phone = document.getElementById("signup-phone")?.value?.trim() || "";
     const password = document.getElementById("signup-password")?.value || "";
-    const terms = document.getElementById("terms-agree");
+    const terms = signupForm.querySelector(
+      '.auth-terms input[type="checkbox"]',
+    );
 
     if (!first) return "Please enter your first name.";
     if (!last) return "Please enter your last name.";
@@ -2075,7 +2077,7 @@ if (signupForm) {
         "#signup-email",
         "#signup-phone",
         "#signup-password",
-        "#terms-agree",
+        '.auth-terms input[type="checkbox"]',
       ].concat(
         window.TraderTokLeads
           ? window.TraderTokLeads.qualificationWatchSelectors(signupForm)
