@@ -2175,11 +2175,6 @@ if (signupForm) {
     ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(signupForm);
-    } else {
-      // Verification temporarily disabled: submit as a lead so the backend does
-      // not require a registration OTP. Reverts automatically once verification
-      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
-      payload.clientzoneDisabled = true;
     }
 
     const finalPayload =
@@ -2687,11 +2682,6 @@ if (signupForm) {
     ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(depositForm);
-    } else {
-      // Verification temporarily disabled: submit as a lead so the backend does
-      // not require a registration OTP. Reverts automatically once verification
-      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
-      payload.clientzoneDisabled = true;
     }
 
     const res = await fetch(DEPOSIT_LEADS_URL, {
@@ -3415,11 +3405,6 @@ if (signupForm) {
     ) {
       payload.registrationVerificationOtp =
         window.TraderTokRegistrationOtp.getOtpValue(clubForm);
-    } else {
-      // Verification temporarily disabled: submit as a lead so the backend does
-      // not require a registration OTP. Reverts automatically once verification
-      // is re-enabled (REGISTRATION_OTP_ENABLED) and isRequired() returns true.
-      payload.clientzoneDisabled = true;
     }
 
     const res = await fetch(TRADERS_CLUB_LEADS_URL, {

@@ -116,7 +116,6 @@
       tags: [{ id: leads.TAG_ID }],
       accounts: leads.defaultAccounts(false),
       userDevice: leads.getUserDeviceInfoSafe(),
-      clientzoneDisabled: true,
       comment: message,
       description: "[" + source + "] " + message,
       customFields: leads.buildRegistrationQualificationCustomFields(form),

@@ -70,7 +70,7 @@
       tags: [{ id: leads.TAG_ID }],
       accounts: leads.defaultAccounts(false),
       userDevice: leads.getUserDeviceInfoSafe(),
-      clientzoneDisabled: true,
+
       customFields: customFields,
       comment: topic,
       description: "[ebook] " + topic + (experience ? " | " + experience : ""),
