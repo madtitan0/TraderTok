@@ -92,6 +92,10 @@ if (!empty($page)) {
         $get->title = 'Open Demo Account | Practice Trading | TraderTok';
         $get->desc = 'Register your interest in a free demo trading account. Practice with virtual funds on live market data.';
         $get->keyw = 'demo account, practice trading, forex demo, CFD demo';
+    } elseif ($page === 'create-account-embed') {
+        $get->title = 'Create Account | TraderTok';
+        $get->desc = 'Create your TraderTok account.';
+        $get->keyw = 'create account, sign up, TraderTok';
     } elseif ($page === 'open-live-account') {
         $get->title = 'Open Live Trading Account | TraderTok';
         $get->desc = 'Start your live trading account application. Our team will follow up with next steps and documentation.';

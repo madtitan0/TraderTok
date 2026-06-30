@@ -18,6 +18,11 @@ body.page-embed-form {
   width: 100%;
 }
 
+.page-embed-form .create-account-embed-card {
+  margin: 0;
+  width: 100%;
+}
+
 .page-embed-form .ib-search-select-list {
   z-index: 50;
 }
